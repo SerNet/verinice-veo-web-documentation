@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: Verinice.veo
+  name: verinice
   text: Documentation
-  tagline: verinice.veo - new for sure!
+  tagline: verinice - new for sure!
   actions:
     - theme: brand
       text: User Manual 
