@@ -28,32 +28,48 @@ export default defineConfig({
     logo: '../assets/veo-logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: `/` },
-      { text: 'User Manual', link: `/manual/`},
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: `/` }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
-          { text: 'User Manual', link: '/manual/' },
-          { text: 'User Interface', link: '/user-interface/' },
           {
-            text: 'Dropdown Menu',
+            text: 'Release Notes',  link: '/release-notes/',
+            collapsed: true, 
             items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
+              { text: 'verinice 1.20', link: '/release-notes/verinice-1.20' },
+              { text: 'verinice 1.19', link: '/release-notes/verinice-1.19' },
+              { text: 'verinice 1.18', link: '/release-notes/verinice-1.18' }
             ]
           },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { 
+            text: 'Benutzerhandbuch', link: '/manual/',
+            collapsed: true, 
+            items: [
+              { text: 'Schnelleinstieg', link: '/manual/quickstart' },
+              { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
+              { text: 'Dashboard', link: '/manual/dashboard' },
+              { text: 'Objekte', link: '/manual/dashboard' }
+            ]
+          },
+          {
+            text: 'Objektmodell', link: '/object-model/',
+            collapsed: true,
+            items: [
+              { text: 'Domänen', link: '/object-model/domains' },
+              { text: 'Objekte', link: '/object-model/objects' },
+              { text: 'Formulare', link: '/object-model/forms' }
+            ]
+          },
+          { text: 'Developers (in English)', link: '/developers/' },
         ]
       }
     ],
 
     socialLinks: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/products/sernet-gmbh-verinice/' },
+      { icon: 'youtube', link: 'https://www.youtube.com/c/verinice' },
       { icon: 'github', link: 'https://github.com/SerNet/verinice-veo' }
     ]
   }

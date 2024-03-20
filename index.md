@@ -5,24 +5,26 @@ layout: home
 hero:
   name: verinice
   text: Documentation
-  tagline: verinice - new for sure!
+  tagline: verinice - mit Sicherheit neu!
   actions:
     - theme: brand
-      text: User Manual 
-      link: /manual/
+      text: What's new?
+      link: /release-notes/verinice-1.20
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Schnelleinstieg
+      link: /manual/quickstart
 
 features:
-  - title: User Manual 
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Release Notes
+    details: Alle Neuerungen in verinice...
+    link: /release-notes/
+  - title: Benutzerhandbuch 
+    details: Zum verinice-Benutzerhandbuch...
     link: /manual/
-  - title: Unit Dashboard 
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /user-interface/
-  - title: Demo-Unit 
-    details: Hooray! Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /
+  - title: Objektmodell
+    details: Das Objektmodell in verinice erklärt...
+    link: /object-model/
+  - title: Developers (in English)
+    details: Die verinice REST API...
+    link: /developers/
 ---
-

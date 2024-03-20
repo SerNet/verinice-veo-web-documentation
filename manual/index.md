@@ -1,11 +1,10 @@
-# User manual
+# Benutzerhandbuch
 
-This section describes the basic operation of verinice.veo.
+In diesem Abschnitt ist die grundlegende Bedienung von verinice.veo beschrieben.
 
-- For a description of the controls, see [User Interface](../user-interface/).
-- The [Dashboard](../dashboard/index.html) serves as the central navigation element.
-- Scopes, processes, assets, people, incidents, documents, scenarios, and actions create and edit in the [Objects](../manual/object) section.
-- [Catalogues](../manual/catalogues) contain global objects that can be applied to your unit.
-- Available report templates are available at <DocsLink to="/manual/reports">Reports</DocsLink>.
-- Criteria used in risk analysis are described as <DocsLink to="/manual/risk-definition">Risk definitions</DocsLink>.
-        
+* Eine Beschreibung der Bedienelemente finden Sie unter [Benutzeroberfläche](../user-interface/).
+* Das [Dashboard](../dashboard/) dient als zentrales Navigationselement.
+* Scopes, Prozesse, Assets, Personen, Vorfälle, Dokumente, Szenarien und Maßnahmen erstellen und bearbeiten Sie im Abschnitt [Objekte](../objects/)
+* [Kataloge](../catalogs/) enthalten globale Objekte, die in Ihre Unit übernommen werden können.
+* Verfügbare Reportvorlagen stehen unter [Reports](../reports/) zur Verfügung.
+* Die im Rahmen der Risikoanalyse verwendeten Kriterien sind beschrieben als [Risikodefinitionen](../risk-definition).
