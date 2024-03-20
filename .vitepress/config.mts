@@ -50,7 +50,10 @@ export default defineConfig({
               { text: 'Schnelleinstieg', link: '/manual/quickstart' },
               { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
               { text: 'Dashboard', link: '/manual/dashboard' },
-              { text: 'Objekte', link: '/manual/dashboard' }
+              { text: 'Objekte', link: '/manual/objects' },
+              { text: 'Kataloge', link: '/manual/catalogs' },
+              { text: 'Reports', link: '/manual/reports' },
+              { text: 'Risikodefinitionen', link: '/manual/risk-definition' }
             ]
           },
           {
