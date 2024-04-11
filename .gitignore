@@ -1,2 +1,32 @@
 .vitepress/cache
+
+node_modules.idea
+.env
+
+# Nuxt
 node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+.DS_Store
+.history
+
+# Vitest
+coverage
+
+# Cypress
+cypress.env.json
+cypress/config
+cypress/downloads
+cypress/screenshots
+cypress/videos
+cypress/config
+
+# VS Code
+*.code-workspace
+.vscode/*
