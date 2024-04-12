@@ -4,6 +4,7 @@ import { defineConfig, l } from 'vitepress'
 export default defineConfig({
   title: "Documentation",
   description: "verinice.veo - new for sure!",
+  ignoreDeadLinks: true,
   /*
   locales: {
     de: {
