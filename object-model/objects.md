@@ -4,7 +4,7 @@
 
 Organisationsobjekte helfen bei der Zuordnung der Objekte zu Anwender*innen. Organisationsobjekte realisieren die Trennung der Daten in unterschiedliche Mandanten. Innerhalb eines Mandanten können weitere Untergruppen angelegt werden, z.B. für Tochtergesellschaften oder Fachabteilungen.
 
-![veo-organisationsobjekte](./docs/4.object_model/media/veo-organisationsobjekte.png)
+![veo-organisationsobjekte](/assets/object-model/veo-organisationsobjekte.png)
 
 #### Client
 
@@ -22,7 +22,7 @@ Beim Arbeiten mit veo muss zuerst immer eine Unit ausgewählt werden. Jedes ange
 
 Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von veo die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte Subtypen weiter präzisiert werden.
 
-![veo-fachobjekte](./docs/4.object_model/media/veo-fachobjekte.png)
+![veo-fachobjekte](/assets/object-model/veo-fachobjekte.png)
 
 #### Prozess
 
@@ -131,7 +131,7 @@ In allen Anwendungsfällen in veo kann ein Composite genauso verwendet werden wi
 
 Ein Fachobjekt kann in mehreren Composites gleichzeitig enthalten sein. Die Person "Frau Müller" kann z.B. gleichzeitig als Unterobjekt in den Personen-Composite "Vertriebsabteilung" und "Projektteam" sein.
 
-![veo-szenario-RZ-server](./docs/4.object_model/media/veo-szenario-RZ-server.png)
+![veo-szenario-RZ-server](/assets/object-model/veo-szenario-RZ-server.png)
 
 #### Scope
 
@@ -155,10 +155,10 @@ Scopes haben eine zentrale Bedeutung bei der Organisation von Daten in veo. Im G
 * System-of-Systems / ein System (s.o.)
 * Services (ISO 20000 / ITIL etc.)
 
-![veo-composite-tochtergesellschaften](./docs/4.object_model/media/veo-composite-tochtergesellschaften.png)
+![veo-composite-tochtergesellschaften](/assets/object-model/veo-composite-tochtergesellschaften.png)
 
 Ein Informationsverbund für den IT-Grundschutz des BSI wird als Scope modelliert, der eine Prozess-, mehrere Asset- und eine Personengruppe enthält. Die Gruppen mit Fachobjekten können beliebig viele Untergruppen desselben Typs enthalten. Die IT-Grundschutz-Fachobjekte Anwendung, IT-, ICS-, IOT-System, Kommunikationsverbindung und Raum werden in veo als Assets modelliert.
 
-![veo-composite-informationsverbund](./docs/4.object_model/media/veo-composite-informationsverbund.png)
+![veo-composite-informationsverbund](/assets/object-model/veo-composite-informationsverbund.png)
 
 

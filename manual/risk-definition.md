@@ -2,7 +2,7 @@
 
 Im Abschnitt Risikodefinitionen können die Definitionen für die Risikoanalyse eingesehen werden:
 
-![Risikodefinition](./docs/2.manual/6.risk-definition/media/veo_risk-definition.de.png)
+![Risikodefinition](/assets/manual/veo_risk-definition.de.png)
 
 1. Es können unterschiedliche Risikodefinitionen vorliegen.
 1. Je Schutzziel (hier Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit) wird eine Eintrittswahrscheinlichkeits-Auswirkungs-Matrix dargestellt.

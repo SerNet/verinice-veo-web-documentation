@@ -4,8 +4,8 @@ In veo können Formulare definiert werden, mit denen Objekte aus dem Modell erze
 
 Ein einfaches Formular für eine Verarbeitungstätigkeit kann zum Beispiel die Daten des Verfahrens selber (modelliert als <DocsLink to="/object_model/objects#process">Prozess</DocsLink> und zwei Verknüpfungen zu einem Server und einer verantwortlichen Person enthalten.
 
-![veo-forms-data-VTK](./docs/4.object_model/media/veo-forms-data-VTK.png)
+![veo-forms-data-VTK](/assets/object-model/veo-forms-data-VTK.png)
 
 Wenn zusätzlich auch die Technischen und organisatorischen Maßnahmen (TOMs) erfasst werden sollen, dann kann ein zweites Formular erzeugt werden, das zusätzlich Verknüpfungen zu den TOMs verwalten kann, die als <DocsLink to="/object_model/objects#control">Control</DocsLink> modelliert werden.
 
-![veo-forms-data-VTK-TOM](./docs/4.object_model/media/veo-forms-data-VTK-TOM.png)
+![veo-forms-data-VTK-TOM](/assets/object-model/veo-forms-data-VTK-TOM.png)
