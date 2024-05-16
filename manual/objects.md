@@ -8,17 +8,17 @@ Die Navigation über das Menü oder das Dashboard öffnet die **Objektübersicht
 
 Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 
-![Filterkriterien](/assets/manual/veo_filter-chips.de.png)
+![Filterkriterien](/assets/manual/filter-chips.de.png)
 
 1. Als Mindestkriterium ist immer der **Objekttyp** erforderlich!
 1. Durch Löschen **optionaler Filterkriterien** erweitern Sie die Objektliste direkt.
 1. Für die Filterung nach weiteren Kriterien öffnen Sie den **Filterdialog**:
 
-![Filter](/assets/manual/veo_filter.de.png)
+![Filter](/assets/manual/filter.de.png)
 
 Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb der Liste:
 
-![Objektübersicht](/assets/manual/veo_object-list.de.png)
+![Objektübersicht](/assets/manual/object-list.de.png)
 
 1. Sortieren Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
 1. Je nach Anzahl der Objekte in der Liste navigieren Sie durch zusätzliche Seiten oder erweitern die Anzahl der je Seite dargestellten Objekte.
@@ -31,7 +31,7 @@ Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb d
 
 Die Detailansicht eines Objektes gliedert Informationen zum Objekt in vier Bereiche:
 
-![Objektdetails](/assets/manual/veo_object-details.de.png)
+![Objektdetails](/assets/manual/object-details.de.png)
 
 1. Die Objektbeschreibung.
 1. Eine Tabelle mit allen Objekten im Umfeld.
@@ -43,7 +43,7 @@ Die Detailansicht eines Objektes gliedert Informationen zum Objekt in vier Berei
 
 Die Objektbeschreibung gibt einen ersten schnellen Überblick über das aktuelle Objekt:
 
-![Objektbeschreibung](/assets/manual/veo_object-details_description.de.png)
+![Objektbeschreibung](/assets/manual/object-details_description.de.png)
 
 1. Über das *Objektmenü* wählen Sie spezifische Aktionen für das aktuelle Objekt aus.
 
@@ -57,7 +57,7 @@ Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Ob
 
 Die Darstellung des Objektumfeldes zeigt dabei:
 
-![Objektumfeld](/assets/manual/veo_object-details_environment.de.png)
+![Objektumfeld](/assets/manual/object-details_environment.de.png)
 
 1. Mit **Scopes** und **Teile** den Blick *nach innen*.
 1. Mit **In Scope** und **Teil von** den Blick *nach außen*.
@@ -86,7 +86,7 @@ Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen
 
 In der Seitenleiste können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden:
 
-![Seitenleiste](/assets/manual/veo_object-details_sidebar.de.png)
+![Seitenleiste](/assets/manual/object-details_sidebar.de.png)
 
 1. In der Seitenleiste **Ansicht** können Objekte je nach Subtyp in einem anderen Formular angezeigt werden.
 1. Formularinhalte werden in der Seitenleiste **Inhalt** strukturiert dargestellt. Durch Mausklick kann zu den einzelnen Abschnitten navigiert werden.
@@ -95,6 +95,6 @@ In der Seitenleiste können durch Mausklick auf eines der Symbole weitere Inform
 
 ### Versionierung
 
-verinice.veo speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
+verinice speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
 
 In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).

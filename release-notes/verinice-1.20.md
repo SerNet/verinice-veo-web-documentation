@@ -1,6 +1,6 @@
 # verinice 1.20
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice.veo 1.20 zur Verfügung!
+Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.20 zur Verfügung!
 
 ## Neuerungen
 

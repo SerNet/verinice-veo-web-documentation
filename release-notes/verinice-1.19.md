@@ -2,7 +2,7 @@
 
 ## Neuerungen
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern ab dem **19. Dezember 2023** unter https://veo-web.verinice.com zur Verfügung!
+Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.19 zur Verfügung!
 
 ### Domäne Datenschutz
 

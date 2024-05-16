@@ -1,6 +1,6 @@
 # Kataloge
 
-![Kataloge](/assets/manual/veo_catalogues.de.png)
+![Kataloge](/assets/manual/catalogues.de.png)
 
 1. In Katalogen stehen je nach Domäne global Objekte zur Anwendung in Ihrer Installation zur Verfügung. <br>Dies können z.B. Datenschutzgefährdungen, TOM oder IT-Grundschutz-Bausteine sein.
 1. Wählen Sie die gewünschten Objekte aus.

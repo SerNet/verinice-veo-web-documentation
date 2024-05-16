@@ -1,6 +1,6 @@
 # Benutzerhandbuch
 
-In diesem Abschnitt ist die grundlegende Bedienung von verinice.veo beschrieben.
+In diesem Abschnitt ist die grundlegende Bedienung von verinice beschrieben.
 
 * Eine Beschreibung der Bedienelemente finden Sie unter [Benutzeroberfläche](../user-interface/).
 * Das [Dashboard](../dashboard/) dient als zentrales Navigationselement.

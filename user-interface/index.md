@@ -8,7 +8,7 @@ The user interface consists of three areas:
 
 <br>
 
-![User interface](/assets/manual/veo_user-interface.en.png)
+![User interface](/assets/manual/user-interface.en.png)
 
 ---
 

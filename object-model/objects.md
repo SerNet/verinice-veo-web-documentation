@@ -4,11 +4,11 @@
 
 Organisationsobjekte helfen bei der Zuordnung der Objekte zu Anwender*innen. Organisationsobjekte realisieren die Trennung der Daten in unterschiedliche Mandanten. Innerhalb eines Mandanten können weitere Untergruppen angelegt werden, z.B. für Tochtergesellschaften oder Fachabteilungen.
 
-![veo-organisationsobjekte](/assets/object-model/veo-organisationsobjekte.png)
+![organisationsobjekte](/assets/object-model/organisationsobjekte.png)
 
 #### Client
 
-Der Client im Objektmodell bildet einen Kunden bzw. einen Mandanten ab. Ein Client kann eine Organisation oder auch eine einzelne Person sein. Die Daten, die zu einem Client gehören, sind von den Daten anderer Clients getrennt und können in keiner Weise miteinander vermischt oder verknüpft werden. Es ist nicht möglich, Daten von einem Client zu einem anderen Client zu übertragen. Jedes Objekt in veo gehört zu genau einem Client.
+Der Client im Objektmodell bildet einen Kunden bzw. einen Mandanten ab. Ein Client kann eine Organisation oder auch eine einzelne Person sein. Die Daten, die zu einem Client gehören, sind von den Daten anderer Clients getrennt und können in keiner Weise miteinander vermischt oder verknüpft werden. Es ist nicht möglich, Daten von einem Client zu einem anderen Client zu übertragen. Jedes Objekt in verinice gehört zu genau einem Client.
 
 In einem Client können mehrere Anwender*innen (Accounts) erstellt werden. Ein Account kann niemals auf Daten zugreifen, die zu einem Client gehören, dem er nicht zugeordnet ist.
 
@@ -16,13 +16,13 @@ In einem Client können mehrere Anwender*innen (Accounts) erstellt werden. Ein A
 
 Ein Client ist unterteilt in eine oder mehrere Units (Untereinheiten). Eine Unit ist ein Organisationsobjekt ohne fachliche Funktion und stellt entweder eine Organisation (z.B. ein Unternehmen) oder eine Abteilung in einer Organisation dar.
 
-Beim Arbeiten mit veo muss zuerst immer eine Unit ausgewählt werden. Jedes angelegte Fachobjekt und jede Gruppe wird der gewählten Unit zugeordnet, sodass eine Unit die hierarchische Wurzel für ihre enthaltenen Objekte darstellt. Beim Löschen einer Unit werden auch alle Objekte in der Unit gelöscht.
+Beim Arbeiten mit verinice muss zuerst immer eine Unit ausgewählt werden. Jedes angelegte Fachobjekt und jede Gruppe wird der gewählten Unit zugeordnet, sodass eine Unit die hierarchische Wurzel für ihre enthaltenen Objekte darstellt. Beim Löschen einer Unit werden auch alle Objekte in der Unit gelöscht.
 
 ### Fachobjekte
 
-Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von veo die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte Subtypen weiter präzisiert werden.
+Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von verinice die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte Subtypen weiter präzisiert werden.
 
-![veo-fachobjekte](/assets/object-model/veo-fachobjekte.png)
+![fachobjekte](/assets/object-model/fachobjekte.png)
 
 #### Prozess
 
@@ -125,13 +125,13 @@ Dokumente können andere Dokumente enthalten (siehe [Composites](#composite)).
 
 #### Composite
 
-Die meisten Fachobjekttypen in veo (alle außer Risiken und Scopes) erlauben es, dass einem Objekt jederzeit Unterobjekte vom selben Objekttypen ("Teile") hinzugefügt werden. Objekte, die Teile haben, repräsentieren eine Objektgruppe und werden als "Composites" bezeichnet. Beispiele für Composites sind: Teams, die aus einzelnen Personen bestehen, ein Serverschrank, der einzelne Server enthält, oder ein Baustein (Control) aus dem IT-Grundschutz, der viele einzelne Maßnahmen enthält.
+Die meisten Fachobjekttypen in verinice (alle außer Risiken und Scopes) erlauben es, dass einem Objekt jederzeit Unterobjekte vom selben Objekttypen ("Teile") hinzugefügt werden. Objekte, die Teile haben, repräsentieren eine Objektgruppe und werden als "Composites" bezeichnet. Beispiele für Composites sind: Teams, die aus einzelnen Personen bestehen, ein Serverschrank, der einzelne Server enthält, oder ein Baustein (Control) aus dem IT-Grundschutz, der viele einzelne Maßnahmen enthält.
 
-In allen Anwendungsfällen in veo kann ein Composite genauso verwendet werden wie ein einzelnes Objekt. Für jeden Fall kann individuell entschieden werden, ob es sinnvoller ist, die einzelnen Teilobjekte zu betrachten oder das zusammengesetzte Objekt als Ganzes. Ein Asset in einer Risikoanalyse kann z.B. entweder ein einzelner Server sein oder ein Composite "Rechenzentrum", das die einzelnen Server umfasst.
+In allen Anwendungsfällen in verinice kann ein Composite genauso verwendet werden wie ein einzelnes Objekt. Für jeden Fall kann individuell entschieden werden, ob es sinnvoller ist, die einzelnen Teilobjekte zu betrachten oder das zusammengesetzte Objekt als Ganzes. Ein Asset in einer Risikoanalyse kann z.B. entweder ein einzelner Server sein oder ein Composite "Rechenzentrum", das die einzelnen Server umfasst.
 
 Ein Fachobjekt kann in mehreren Composites gleichzeitig enthalten sein. Die Person "Frau Müller" kann z.B. gleichzeitig als Unterobjekt in den Personen-Composite "Vertriebsabteilung" und "Projektteam" sein.
 
-![veo-szenario-RZ-server](/assets/object-model/veo-szenario-RZ-server.png)
+![szenario-RZ-server](/assets/object-model/szenario-RZ-server.png)
 
 #### Scope
 
@@ -144,7 +144,7 @@ Scopes stellen einen weiteren Gruppierungsmechanismus zur Verfügung. Anders als
 
 Abgrenzung zu Composites: Auf diesen Gruppen sind anders als bei Composites nicht alle Operationen verfügbar, die auf den Fachobjekten operieren. Ein Asset-Composite kann z.B. als Zielobjekt einer Risikoanalyse genauso verwendet werden wie ein einzelnes Asset. Dies ist mit einem Scope, der Assets enthält, nicht möglich.
 
-Scopes haben eine zentrale Bedeutung bei der Organisation von Daten in veo. Im Gegensatz zu den Units gehören Scopes zu den Fachobjekten, das heißt sie sind Träger fachlicher Eigenschaften und können in den Anwendungsfällen für Datenschutz und Informationssicherheit verwendet werden. Da Scopes andere Fachobjekte enthalten, können damit viele unterschiedliche organisatorische Einheiten abgebildet werden:
+Scopes haben eine zentrale Bedeutung bei der Organisation von Daten in verinice. Im Gegensatz zu den Units gehören Scopes zu den Fachobjekten, das heißt sie sind Träger fachlicher Eigenschaften und können in den Anwendungsfällen für Datenschutz und Informationssicherheit verwendet werden. Da Scopes andere Fachobjekte enthalten, können damit viele unterschiedliche organisatorische Einheiten abgebildet werden:
 
 * Organisationen, Teilorganisationen, Tochtergesellschaften
 * Eine Teilorganisation kann andere Scopes enthalten, die dann z.B. Fachbereiche, Abteilungen und Teams abbilden.
@@ -155,10 +155,10 @@ Scopes haben eine zentrale Bedeutung bei der Organisation von Daten in veo. Im G
 * System-of-Systems / ein System (s.o.)
 * Services (ISO 20000 / ITIL etc.)
 
-![veo-composite-tochtergesellschaften](/assets/object-model/veo-composite-tochtergesellschaften.png)
+![composite-tochtergesellschaften](/assets/object-model/composite-tochtergesellschaften.png)
 
-Ein Informationsverbund für den IT-Grundschutz des BSI wird als Scope modelliert, der eine Prozess-, mehrere Asset- und eine Personengruppe enthält. Die Gruppen mit Fachobjekten können beliebig viele Untergruppen desselben Typs enthalten. Die IT-Grundschutz-Fachobjekte Anwendung, IT-, ICS-, IOT-System, Kommunikationsverbindung und Raum werden in veo als Assets modelliert.
+Ein Informationsverbund für den IT-Grundschutz des BSI wird als Scope modelliert, der eine Prozess-, mehrere Asset- und eine Personengruppe enthält. Die Gruppen mit Fachobjekten können beliebig viele Untergruppen desselben Typs enthalten. Die IT-Grundschutz-Fachobjekte Anwendung, IT-, ICS-, IOT-System, Kommunikationsverbindung und Raum werden in verinice als Assets modelliert.
 
-![veo-composite-informationsverbund](/assets/object-model/veo-composite-informationsverbund.png)
+![composite-informationsverbund](/assets/object-model/composite-informationsverbund.png)
 
 

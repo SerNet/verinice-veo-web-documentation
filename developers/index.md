@@ -1,15 +1,15 @@
-# Getting Started with the verinice.veo API
+# Getting Started with the verinice API
 
 Learn how to authenticate and load and create your first elements.
 
 ## Prerequisites
 
 In this documentation, it is assumed that you are familiar with the
-basic concepts of the verinice.veo object model. You can learn more about these concepts in the directory <DocsLink to="/object_model">Object model</DocsLink>. 
+basic concepts of the verinice object model. You can learn more about these concepts in the directory <DocsLink to="/object_model">Object model</DocsLink>. 
 
 ## Authentication
 
-verinice.veo uses [OpenID Connect (OIDC)](https://openid.net/connect/) for authentication, which is built on top of [OAuth 2.0](https://oauth.net/2/). [Keycloak](https://www.keycloak.org/) is used as authentication server. For each request sent to the verinice.veo API, an access token is required. Keycloak exposes a variety of REST endpoints for OAuth 2.0 flows. The token endpoint allows us to retrieve an access token. The method `get_token` creates a token with this endpoint:
+verinice uses [OpenID Connect (OIDC)](https://openid.net/connect/) for authentication, which is built on top of [OAuth 2.0](https://oauth.net/2/). [Keycloak](https://www.keycloak.org/) is used as authentication server. For each request sent to the verinice API, an access token is required. Keycloak exposes a variety of REST endpoints for OAuth 2.0 flows. The token endpoint allows us to retrieve an access token. The method `get_token` creates a token with this endpoint:
 
 ```python
 import requests
@@ -34,7 +34,7 @@ For the creation of a token, these parameters must be set:
 
 ## Load Units
 
-The unit is the root node in veo's object model and the hierarchical root of objects and groups. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all functions in the verinice.veo API require a Unit.
+The unit is the root node in verinice's object model and the hierarchical root of objects and groups. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all functions in the verinice API require a Unit.
 
 All units owned by the client of an account are loaded with the call of this endpoint:
 
@@ -60,7 +60,7 @@ unit_name = units[0].get("name")
 
 ## Load Domains
 
-The different areas of expertise, which can be managed with veo, are called domains. If an element is used in a business context, such as data protection, then it must be assigned to one or more domains. For this reason, a domain ID must usually be specified when a function is called in the API.
+The different areas of expertise, which can be managed with verinice, are called domains. If an element is used in a business context, such as data protection, then it must be assigned to one or more domains. For this reason, a domain ID must usually be specified when a function is called in the API.
 
 All domains that are available are loaded with this API method:
 
@@ -87,7 +87,7 @@ domain_name = domains[0].get("name")
 
 ## Load Business Objects
 
-In besides the units, to which all other data refer, and the domains, which give the data business meaning, the ISMS veo business  objects can of course also be loaded and modified via the API. For the operation of management systems for information security and data protection, the object model of veo contains the business objects <DocsLink to="/object_model/objects#process">process</DocsLink>, <DocsLink to="/object_model/objects#asset">asset</DocsLink>, <DocsLink to="/object_model/objects#scenario">scenario</DocsLink>, <DocsLink to="/object_model/objects#risk">risk</DocsLink>, <DocsLink to="/object_model/objects#control">control</DocsLink>, <DocsLink to="/object_model/objects#incident">incident</DocsLink>, <DocsLink to="/object_model/objects#document">document</DocsLink> and <DocsLink to="/object_model/objects#person">person</DocsLink>. These objects can be further specified via so-called subtypes. The meaning of these business objects are explained in the <DocsLink to="/object_model/objects">_Object Model_ section in the _Business Objects_ chapter</DocsLink>.
+In besides the units, to which all other data refer, and the domains, which give the data business meaning, the ISMS verinice business  objects can of course also be loaded and modified via the API. For the operation of management systems for information security and data protection, the object model of verinice contains the business objects <DocsLink to="/object_model/objects#process">process</DocsLink>, <DocsLink to="/object_model/objects#asset">asset</DocsLink>, <DocsLink to="/object_model/objects#scenario">scenario</DocsLink>, <DocsLink to="/object_model/objects#risk">risk</DocsLink>, <DocsLink to="/object_model/objects#control">control</DocsLink>, <DocsLink to="/object_model/objects#incident">incident</DocsLink>, <DocsLink to="/object_model/objects#document">document</DocsLink> and <DocsLink to="/object_model/objects#person">person</DocsLink>. These objects can be further specified via so-called subtypes. The meaning of these business objects are explained in the <DocsLink to="/object_model/objects">_Object Model_ section in the _Business Objects_ chapter</DocsLink>.
 
 For each business object type, there are the same API endpoints for managing the objects of this type. Endpoint for loading all processes from a domain (example):
 
@@ -178,7 +178,7 @@ Finds all controls with the status _RELEASED_.
 
 ### hasChildElements
 
-All business objects in veo can have parts of the same type. Find all the objects that have parts.
+All business objects in verinice can have parts of the same type. Find all the objects that have parts.
 
 **[`GET /domains/DOMAIN-ID/processes?hasChildElements=true`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
 
@@ -341,7 +341,7 @@ Scopes of a domain can be updated with this endpoint, for example:
 
 The endpoints for the other object types have URLs according to their type.
 
-The veo API uses [ETags](https://en.wikipedia.org/wiki/HTTP_ETag) for [optimistic concurrency control](https://en.wikipedia.org/wiki/Optimistic_concurrency_control). This prevents concurrent changes to a resource from multiple clients overwriting each other.
+The verinice API uses [ETags](https://en.wikipedia.org/wiki/HTTP_ETag) for [optimistic concurrency control](https://en.wikipedia.org/wiki/Optimistic_concurrency_control). This prevents concurrent changes to a resource from multiple clients overwriting each other.
 
 If a single business object is loaded, then together with the object the header `ETag` is returned. The ETag must be sent in the PUT Request as header `If-Match` when updating an object. Python code listing to update a scope with an ETag:
 ```python
