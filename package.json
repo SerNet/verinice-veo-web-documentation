@@ -10,6 +10,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "glob": "^10.3.16",
+    "hash-sum": "^2.0.0",
     "vitepress": "^1.0.2"
   }
 }
