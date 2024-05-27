@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Documentation",
   description: "verinice.veo - new for sure!",
   ignoreDeadLinks: true,
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   /*
   locales: {
     de: {
