@@ -21,7 +21,7 @@ ARG CI_JOB_ID=-1
 RUN npm run docs:build
 
 
-FROM nginx:1.25 AS release
+FROM nginx:1.27 AS release
 
 COPY --from=builder /usr/src/app/.vitepress/dist /usr/src/app/dist
 
