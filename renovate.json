@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "reviewers": ["FS", "JaE"],
+  "automerge": true,
+  "automergeType": "pr",
+  "assignAutomerge": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "osvVulnerabilityAlerts": true
+}
