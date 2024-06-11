@@ -1,3 +1,19 @@
-# Release Notes
+# Release Notes verinice 1.21
 
-In diesem Abschnitt finden Sie alle Neuerungen.
+Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.21 zur Verfügung!
+
+## Neuerungen
+
+
+### Domäne Datenschutz
+
+
+### Domäne IT-Grundschutz
+
+
+### Domäne NIS2
+
+
+### Detailverbesserungen und Fehlerbehebungen
+
+
