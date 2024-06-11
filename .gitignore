@@ -1,4 +1,4 @@
-.vitepress/cache
+.vitepress/cache/
 
 node_modules.idea
 .env
