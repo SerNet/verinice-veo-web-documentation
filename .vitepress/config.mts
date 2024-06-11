@@ -21,14 +21,15 @@ export default defineConfig({
     }
   },
   */
+
+  // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     i18nRouting: true,
     siteTitle: false,
     search: {
       provider: 'local'
     },
-    logo: '../assets/veo-logo.svg',
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/veo-logo.svg',
     nav: [
       { text: 'Home', link: `/` }
     ],
