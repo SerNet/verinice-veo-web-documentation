@@ -1,3 +1,0 @@
-# Schnelleinstieg
-
-Coming soon...
