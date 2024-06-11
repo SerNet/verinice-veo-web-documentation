@@ -36,20 +36,11 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          {
-            text: 'Release Notes',  link: '/release-notes/',
-            collapsed: true, 
-            items: [
-              { text: 'verinice 1.20', link: '/release-notes/verinice-1.20' },
-              { text: 'verinice 1.19', link: '/release-notes/verinice-1.19' },
-              { text: 'verinice 1.18', link: '/release-notes/verinice-1.18' }
-            ]
-          },
           { 
             text: 'Benutzerhandbuch', link: '/manual/',
             collapsed: true, 
             items: [
-              { text: 'Schnelleinstieg', link: '/manual/quickstart' },
+              { text: 'Glossar', link: '/manual/glossary' },
               { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
               { text: 'Dashboard', link: '/manual/dashboard' },
               { text: 'Objekte', link: '/manual/objects' },
@@ -68,6 +59,17 @@ export default defineConfig({
             ]
           },
           { text: 'Developers (in English)', link: '/developers/' },
+          {
+            text: 'Release Notes',  link: '/release-notes/',
+            collapsed: true, 
+            items: [
+              { text: 'verinice 1.20', link: '/release-notes/verinice-1.20' },
+              { text: 'verinice 1.19', link: '/release-notes/verinice-1.19' },
+              { text: 'verinice 1.18', link: '/release-notes/verinice-1.18' }
+            ]
+          },
+          { text: 'Roadmap', link: '/roadmap/' },
+          { text: 'Known issues', link: '/known-issues/' },
         ]
       }
     ],
