@@ -3,21 +3,21 @@
 layout: home
 
 hero:
-  name: verinice
-  text: Documentation
-  tagline: verinice - mit Sicherheit neu!
+  name: verinice.
+  text: Dokumentation
+  tagline: Mit Sicherheit neu!
   actions:
     - theme: brand
       text: What's new?
-      link: /release-notes/verinice-1.20
+      link: /release-notes/
     - theme: alt
-      text: Schnelleinstieg
-      link: /manual/quickstart
+      text: Good to know!
+      link: /manual/glossary
+    - theme: alt
+      text: Coming soon!
+      link: /roadmap/
 
 features:
-  - title: Release Notes
-    details: Alle Neuerungen in verinice...
-    link: /release-notes/
   - title: Benutzerhandbuch 
     details: Zum verinice-Benutzerhandbuch...
     link: /manual/
@@ -25,6 +25,6 @@ features:
     details: Das Objektmodell in verinice erklärt...
     link: /object-model/
   - title: Developers (in English)
-    details: Die verinice REST API...
+    details: The verinice REST API...
     link: /developers/
 ---
