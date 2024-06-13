@@ -71,7 +71,6 @@ export default defineConfig({
             ]
           },
           { text: 'Roadmap', link: '/roadmap/' },
-          { text: 'Known issues', link: '/known-issues/' },
         ]
       }
     ],
