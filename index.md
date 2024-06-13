@@ -8,13 +8,13 @@ hero:
   tagline: Mit Sicherheit neu!
   actions:
     - theme: brand
-      text: What's new?
+      text: Release Notes
       link: /release-notes/
     - theme: alt
-      text: Good to know!
+      text: Glossar
       link: /glossary/
     - theme: alt
-      text: Coming soon!
+      text: Roadmap
       link: /roadmap/
 
 features:
