@@ -12,7 +12,7 @@ hero:
       link: /release-notes/
     - theme: alt
       text: Good to know!
-      link: /manual/glossary
+      link: /glossary/
     - theme: alt
       text: Coming soon!
       link: /roadmap/

@@ -41,7 +41,6 @@ export default defineConfig({
             text: 'Benutzerhandbuch', link: '/manual/',
             collapsed: true, 
             items: [
-              { text: 'Glossar', link: '/manual/glossary' },
               { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
               { text: 'Dashboard', link: '/manual/dashboard' },
               { text: 'Objekte', link: '/manual/objects' },
@@ -59,6 +58,7 @@ export default defineConfig({
               { text: 'Formulare', link: '/object-model/forms' }
             ]
           },
+          { text: 'Glossar', link: '/glossary/' },
           { text: 'Developers (in English)', link: '/developers/' },
           {
             text: 'Release Notes',  link: '/release-notes/',
