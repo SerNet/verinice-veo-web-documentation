@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Release Notes
       link: /release-notes/verinice-21
+    - theme: brand
+      text: Known Issues
+      link: /release-notes/
     - theme: alt
       text: Glossar
       link: /glossary/
