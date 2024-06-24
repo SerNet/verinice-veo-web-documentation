@@ -1,4 +1,4 @@
-# verinice 1.21
+# verinice 21
 
 Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 21 zur Verfügung!
 
