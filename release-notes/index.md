@@ -2,7 +2,10 @@
 
 ## Vorhandene Einschränkungen und bekannte Bugs
 
-Mit Start der Private Beta sind folgende Einschränkungen und Fehler bekannt, die bis zur Public Beta ausgeräumt werden:
+Mit Start der Private Beta sind einige Einschränkungen und Fehler bekannt, die bis zur Veröffentlichung ausgeräumt werden.
+
+::: info Danke! Ich möchte direkt zu den [Release Notes verinice 21](verinice-21)
+:::
 
 ### Timeouts bei lang laufenden Aktionen
 
@@ -12,22 +15,22 @@ In allen untersuchten Fällen wird die Aktion im Hintergrund vollständig ausgef
 
 Lang laufende Aktionen werden zukünftig als Hintergrundtasks ausgeführt und Anwendende über den Status bzw. den Abschluss der Aktion informiert. Es kann ohne Unterbrechung an anderen Aufgaben in verinice weiter gearbeitet werden.
 
-#### IT-Grundschutz
+### IT-Grundschutz
 
 Folgende Einschränkungen der Funktionen für die Grundschutz-Vorgehensweise sind uns bekannt. Behebungen dafür sind bereits in Arbeit.
 
-##### Strukturanalyse
+#### Strukturanalyse
 
 - Verknüpfungen von Zielobjekten werden nur in ausgehender Richtung angezeigt - es ist nicht leicht möglich zu ermitteln, von welchen Zielobjekten das angezeigte Objekt abhängig ist.
 
-##### Modellierung
+#### Modellierung
 
 - Beim Löschen von Bausteinen werden die zugehörigen Anforderungen nicht gelöscht.
 - Suche und Auswahl von Bausteinen bei der Modellierung noch umständlich.
 - Der Reiter "Massnahmen" soll im Grundschutz in "Bausteinzuordnungen" umbenannt werden.
 - Zugeordnete Zielobjekte sind vom Baustein aus nicht ersichtlich.
 
-##### Sicherheitscheck
+#### Sicherheitscheck
 
 - Sortierung der Bausteine erfolgt alphabetisch anstatt nach IT-Grundschutz-Kompendium (Schichten).
 - Die verantwortliche Person bei Bausteinzuordnungen kann nicht dokumentiert werden.
@@ -35,12 +38,15 @@ Folgende Einschränkungen der Funktionen für die Grundschutz-Vorgehensweise sin
 - Die Spalte für "Verantwortlicher" ist erst nach Maximieren des Bildschirmbereichs sichtbar.
 - Bei der Umsetzung von Anforderungen fehlen das Feld Umsetzung bis; die Vorgehensweise der Absicherung und Anforderungstext werden noch nicht angezeigt.
 
-##### Risikoanalyse
+#### Risikoanalyse
 
 - Für risikomitigierende Maßnahmen kann nicht der Umsetzungsstatus dokumentiert werden.
 - Darstellung und Bearbeitung der risikomitigierenden Maßnahmen bei der Risikobehandlung nicht intuitiv.
 - Risikomatrix nicht anpassbar (Definitionen, Achsen, Schutzziele)
 
-#### Sonstiges
+### Sonstiges
 
 - Dokumentation bisher nur deutschsprachig. Inhaltlich teilweise noch unvollständig.
+
+::: info OK! Details finde ich auf der [Roadmap](../roadmap/)
+:::

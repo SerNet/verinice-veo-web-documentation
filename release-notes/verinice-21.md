@@ -1,14 +1,22 @@
 # verinice 21
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 21 zur Verfügung!
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 21 zur Verfügung!
 
-Im Release-Prozess werden verschiedene Status abgebildet, nicht alle Funktion stehen allen Anwenderinnen und Anwendern zur Verfügung:
-- **Prototyp:** Diese Funktionen befinden sich in Entwicklung und sind nur intern verfügbar.
-- **Private Beta:** Diese Funktionen stehen nur einer geschlossenen Gruppe von Testenden zur Verfügung.
-- **Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwender testweise zur Verfügung.
-- **Produktiv:** Diese Funktionen stehen allen Anwenderinnen und Anwendern zur produktiven Nutzung zur Verfügung. Bitte beachten Sie, dass domänenspezifische Funktionen nur dann zur Verfügung stehen, wenn die jeweilige Domäne im gewählten Plan enthalten ist!
+::: details Warum sehe ich nicht alle Neuerungen?
+
+Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen:
+
+**Prototyp:** Diese Funktionen befinden sich in Entwicklung und sind nur intern verfügbar.
+
+**Private Beta:** Diese Funktionen stehen einer geschlossenen Gruppe von Testenden zur Verfügung.
+
+**Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwender für Tests zur Verfügung.
+
+**Produktiv:** Diese Funktionen stehen allen Anwenderinnen und Anwendern zur produktiven Nutzung zur Verfügung, sofern die jeweilige Domäne im gewählten Plan enthalten ist!
+:::
 
 ## Allgemeine Funktionen
+**Status: Produktiv**
 
 ### Verbesserte Unitverwaltung
 
@@ -35,6 +43,7 @@ Im Release-Prozess werden verschiedene Status abgebildet, nicht alle Funktion st
 **Status: Produktiv**
 
 - Keine Änderungen.
+
 ## Domäne IT-Grundschutz
 **Status: Private Beta**
 

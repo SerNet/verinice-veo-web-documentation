@@ -6,17 +6,12 @@ Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release vo
 
 ### Erste Schritte
 
-- Die ersten Schritte nach Login wurden konsistenter und intuitiver gestaltet:
-
-![[2024-02-20_16-11-47.png]]
-
+- Die ersten Schritte nach Login wurden konsistenter und intuitiver gestaltet.
 - Der Zustand nach erstem Login wird im Local Storage des verwendeten Browsers gespeichert.
 - Bei wiederholtem Login wird immer das Dashboard der zuletzt besuchten Unit mit der zuletzt verwendeten Domäne aufgerufen.
 - Die Unit-Verwaltung ist über eine feste URL (/units) erreichbar.
 - Anpassung des Tutorials an diese Umstellung.
-- In der Navigation kann direkt über zwei Auswahlboxen die Unit und die Domäne gewechselt werden oder die Unit- bzw. Domänenverwaltung aufgerufen werden:
-
-![[2024-02-20_16-18-49.png]]
+- In der Navigation kann direkt über zwei Auswahlboxen die Unit und die Domäne gewechselt werden oder die Unit- bzw. Domänenverwaltung aufgerufen werden.
 
 ### Domäne Datenschutz
 
