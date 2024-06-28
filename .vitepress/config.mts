@@ -24,6 +24,7 @@ export default defineConfig({
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
+    outline: [2, 3],
     i18nRouting: true,
     siteTitle: false,
     search: {
