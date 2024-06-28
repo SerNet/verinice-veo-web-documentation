@@ -10,7 +10,7 @@ Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release
 
 **Private Beta:** Diese Funktionen stehen einer geschlossenen Gruppe von Testenden zur Verfügung.
 
-**Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwender für Tests zur Verfügung.
+**Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwendern für Tests zur Verfügung.
 
 **Produktiv:** Diese Funktionen stehen allen Anwenderinnen und Anwendern zur produktiven Nutzung zur Verfügung, sofern die jeweilige Domäne im gewählten Plan enthalten ist!
 :::
