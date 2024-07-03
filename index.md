@@ -13,10 +13,10 @@ hero:
     - theme: brand
       text: Known Issues
       link: /release-notes/
-    - theme: alt
+    - theme: brand
       text: Glossar
       link: /glossary/
-    - theme: alt
+    - theme: brand
       text: Roadmap
       link: /roadmap/
 

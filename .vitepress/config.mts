@@ -47,7 +47,8 @@ export default defineConfig({
               { text: 'Objekte', link: '/manual/objects' },
               { text: 'Kataloge', link: '/manual/catalogs' },
               { text: 'Reports', link: '/manual/reports' },
-              { text: 'Risikodefinitionen', link: '/manual/risk-definition' }
+              { text: 'Risikodefinitionen', link: '/manual/risk-definition' },
+              { text: 'Benutzerverwaltung', link: '/manual/accounts' },
             ]
           },
           {
