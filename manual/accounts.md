@@ -2,6 +2,43 @@
 
 ## Benutzerkonto bearbeiten
 
+Über den Account Button gelangen Sie zum Bearbeiten Ihres Benutzerkontos:
+
+![Benutzerkonto bearbeiten](/assets/manual/account.de.png)
+
+verinice verwendet für das Identitäts- und Zugriffsmanagement eine [Keycloak](https://www.keycloak.org/)-Instanz, die in einem neuen Browsertab geöffnet wird:
+
+![Benutzerkonto bearbeiten](/assets/manual/account_management.de.png)
+
+### Persönliche Informationen
+
+Im Abschnitt Persönliche Informationen können Sie Ihren Namen oder die E-Mail ändern. Nach Änderung der E-Mail erhalten Sie zum Verifizieren der E-Mail-Adresse eine Nachricht mit der Aufforderung ein neues Passwort zu vergeben.
+
+![Persönliche Daten](/assets/manual/account_profile.de.png)
+
+### Authentifizierungsmethode
+
+Im Abschnitt Kontosicherheit > Anmeldung wählen Sie zwischen der Standardauthentifizierung per Passwort oder der Zwei-Faktor Authentifizierung und richten diese ein:
+
+![Persönliche Daten](/assets/manual/account_authentification.de.png)
+
+### Geräteaktivität
+
+Unter Kontosicherheit > Geräteaktivität erkennen Sie angemeldete Geräte und können unbekannte Geräte ggfs. abmelden:
+
+![Benutzerkonto bearbeiten](/assets/manual/account_activity.de.png)
+
+### Anwendungen verwalten
+
+Im Abschnitt Applikationen sehen Sie, mit welchen Clients/Anwendungen Sie auf verinice zugreifen. Da die Anzahl der zugreifenden Anwendungen begrenzt ist, werden Sie unter Umständen automatisch abgemeldet, z.B. wenn Sie verinice in verschiedenen Browsern gleichzeitig öffnen.
+
+![Benutzerkonto bearbeiten](/assets/manual/account_applications.de.png)
+
+### Ressourcen
+
+::: info Zusätzlich Funktionen wie z.B. das Teilen von Ressourcen werden aktuell nicht unterstützt!
+:::
+
 ## Benutzerverwaltung
 
 ::: details Warum steht mir die Benutzerverwaltung nicht zur Verfügung?
@@ -36,3 +73,6 @@ Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 1. Nach Erstellen wird eine E-Mail an den Benutzer versandt, um die E-Mail Adresse zu verifizieren. Der Benutzer vergibt nach Aufruf des Links ein sicheres Passwort, mit dem er sich anschließend in verinice anmelden kann:
 
 ![E-Mail](/assets/manual/accounts_email.de.png)
+
+::: info Wir empfehlen neue Benutzer vorab über die Anlage ihres verinice Accounts zu informieren!
+:::
