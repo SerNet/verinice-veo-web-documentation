@@ -63,15 +63,21 @@ Das Objektumfeld kann je nach Objekttyp aus **Scopes**, **Teilen**, **Links**, *
 * **Scopes** können beliebige **Composite**-Objekte UND **Scope**-Objekte enthalten. Jedes **Scope**-Objekt und jedes **Composite**-Objekt kann dabei in verschiedenen **Scopes** enthalten sein!
 * **Composite**-Objekte können hingegen nur Objekte des SELBEN **Objekttyps** enthalten (Teile/Parts). Anders als eine Gruppe hat das **Composite**-Objekt dabei die gleichen Eigenschaften wie ein einzelnes Objekt des jeweiligen Objekttyps.
 
-Die Darstellung des Objektumfeldes zeigt dabei:
+::: info Stehen Elemente für ein Objekt nicht zur Verfügung, sind die Reiter ausgegraut, z.B.:
+- **Scopes** können NICHT **Teil von** einem Composite sein, der Reiter **Teil von** wird dort nicht angezeigt!
+- Ein **Composite** kann KEINE **Scopes** enthalten, der Reiter **Scopes** wird dort nicht angezeigt!
+:::
+
+Das Objektumfeldes zeigt dabei:
 
 ![Objektumfeld](/assets/manual/object-environment.de.png)
 
-1. Mit **Scopes** und **Teile** den Blick *nach innen*.
-1. Mit **In Scope** und **Teil von** den Blick *nach außen*.
+1. Mit **Scopes** und/oder **Teile** den Blick *nach innen*.
+1. Mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
 1. Mit **Links** aus dem Formular heraus verknüpfte Objekte.
 1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
-1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden.<br>Stehen Elemente für ein Objekt nicht zur Verfügung, sind die **Tabellenreiter** ausgegraut.
+1. Mit **Maßnahmen/Bausteinen** wo vorhanden angewendete Controls.
+1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden. 
 
 ### Formular
 
@@ -80,15 +86,12 @@ Formulare ermöglichen die strukturierte Erfassung von (fachlichen) Inhalten, es
 - **Aspekten**, einer Gruppierung zusammengehöriger Daten und
 - **Links**, der Verknüpfung zu anderen Objekten inklusive spezifischer Daten für die jeweilige Verknüpfung.
 
-(Das Objektmodell sieht **Custom Aspects** und **Custom Links** vor, die in späteren Erweiterungen *kundenspezifisch* angepasst werden können.)
-
 Die strukturierte Erfassung wird unterstützt durch die intelligente Auswertung eingegebener Daten:
 
-- In Abhängigkeit einzelner Werte können unterschiedliche Aspekte oder Links eingeblendet werden.
-- Komplexe Entscheidungen auf Grundlage unterschiedlicher Werte können in Entscheidungsbäumen ausgewertet werden,<br>siehe z.B. die Entscheidung zur Notwendigkeit einer Datenschutz-Folgenabschätzung.
+- In Abhängigkeit von einzelnen Werten können unterschiedliche Aspekte oder Links ein- oder ausgeblendet werden.
+- Komplexe Entscheidungen auf Grundlage mehrerer Werte können in Entscheidungsbäumen ausgewertet werden, siehe z.B. die Entscheidung zur Notwendigkeit einer Datenschutz-Folgenabschätzung in der Domäne DS-GVO.
 
-Jeder Subtyp eines bestimmten Objekttyps muss in mindestens einem spezifischen Formular dargestellt werden. Anders herum kann jeder Subtyp kann aber auch in verschiedenen Formularen abgebildet werden.
-Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Erfassungsformular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung steht.
+Jeder Subtyp eines Objekttyps muss durch mindestens ein spezifisches Formular dargestellt werden. Anders herum kann jeder Subtyp aber auch in verschiedenen Formularen abgebildet werden. Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Formular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung steht.
 
 In der Seitenleiste der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden:
 
