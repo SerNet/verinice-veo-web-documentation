@@ -14,7 +14,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 ![Anwendungsleiste](/assets/manual/app-bar.de.png)
 
-1. Über das Logog gelangen Sie jederzeit in die [Unitauswahl](#unitauswahl)
+1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](#unitverwaltung).
 1. Über die **Breadcrumb** navigieren Sie direkt zu allen aufgeführten Objekten.
 1. Wechseln Sie zwischen **Hell/Dunkel-Modus**.
 1. Mit dem **Sprachumschalter** wechseln Sie zwischen deutscher und englischer Sprache.
@@ -24,7 +24,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
     - Benutzername und E-Mail des Angemeldeten werden angezeigt.
     - [Benutzerkonto bearbeiten](#benutzerkonto-bearbeiten) öffnet einen neuen Browser-Tab, in dem Sie z.B. das Passwort ändern oder eine 2-Faktor-Authentifizierung einrichten können.
     - Als **Hauptnutzer** können Sie weitere Benutzer verwalten, sofern dies in Ihrem Plan vorgesehen ist.
-    - In diesem Abschnitt können Sie die bei der ersten Anmeldung aufgerufene Seite **Erste Schritte** erneut aufrufen.
+    - In diesem Abschnitt können Sie die bei der ersten Anmeldung aufgerufene Seite [Erste Schritte](#erste-schritte) erneut aufrufen.
     - Im Abschnitt [Datenübertragung](#datenuebertragung) können Sie Ihre Daten herunterladen.
     - In unserer **Sicherheitsrichtlinie** beschreiben wir den Umgang mit Schwachstellen.
     - **Über verinice** öffnet einen Dialog mit tiefergehenden Informationen.
@@ -34,31 +34,43 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 Über das Menü navigieren Sie komfortabel durch verinice:
 
-
 ![Menü](/assets/manual/menu.de.png)
 
-1. Über das Logo gelangen Sie jederzeit auf die Startseite (momentan zum Dashboard der aktiven Unit).
-1. Wählen Sie aus den verfügbaren <DocsLink to="/domains">Domänen</DocsLink> die gewünschte aus. Initial steht die Domäne Datenschutz nach DS-GVO bereit, weitere Domänen werden sukzessive bereitgestellt.
-1. Auf dem <DocsLink to="/manual/dashboard">Dashboard</DocsLink> erhalten Sie einen Überblick über alle Objekte und deren Status (Lebenszyklus).
-1. Im Bereich <DocsLink to="/manual/objects">Objekte</DocsLink> navigieren Sie zu allen vorhandenen Objekttypen und Subtypen.
-1. In <DocsLink to="/manual/catalogues">Kataloge</DocsLink> stehen Ihnen Objekte wie z.B. TOM oder Datenschutzgefährdungen zur Verfügung.
-1. Wählen Sie eine der verfügbaren Reportvorlagen zum Ausdruck im Abschnitt <DocsLink to="/manual/reports">Reports</DocsLink>.1. Die Parameter für die Risikoanalyse werden im Abschnitt <DocsLink to="/manual/risk-definition">Risikodefinitionen</DocsLink> graphisch dargestellt.
-1. Die **Demo-Unit** stellt Beispieldaten zum Testen aller Funktionen bereit. Sie wird täglich zurückgesetzt und alle persönlichen Änderungen werden gelöscht. **Die Demo-Unit kann nicht für den produktiven Einsatz verwendet werden!**
-1. Um die Arbeitsfläche zu vergrößern, können Sie das **Menü verstecken** (auf Symbole verkleinern). Das Menü wird durch Mausklick auf die Symbole automatisch wieder eingeblendet.
+1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](#unitverwaltung) um Units anzulegen oder zu bearbeiten. 
+1. Mit dem **Unit-Selector** wechseln Sie direkt in eine andere Unit.
+1. Mit dem **Domänen-Selector** wechseln Sie in eine andere Domäne.
+1. Das [Dashboard](#dashboard) bietet einen Überblick über alle Objekte und deren Status (Lebenszyklus) und ermöglicht Ihnen die Navigation zu allen Objekten.
+1. Optional navigieren Sie im Bereich **Objekte** zu allen vorhandenen Objekten.
+1. [Kataloge](#kataloge) stellen Ihnen Objekte wie z.B. TOM oder Elementare Gefährdungen zur Anwendung in Ihrer Unit zur Vefügung.
+1. [Reports](#reports) erstellen Sie mittels der **Reportvorlagen**.
+1. Im Abschnitt [Risikodefinitionen](#risikodefinitionen) wird die **Risikomatrix** graphisch dargestellt.
+1. Über **Menü verstecken** verkleinern Sie die Navigation auf Symbole, durch Mausklick auf eines der Symbole wird das Menü wieder eingeblendet.
 
 ## Arbeitsfläche {#arbeitsflaeche}
 
-Die Arbeitsfläche stellt je nach Kontext verschiedenste Inhalte dar:
+Die Arbeitsfläche stellt je nach Kontext unterschiedliche Inhalte dar:
 
-## Dashboard
+### Dashboard
 
-![Dashboard](/assets/manual/dashboard_thumb.de.png)
+Auf dem Dashboard werden alle Objekte und deren Status (Lebenszyklus) dargestellt, durch Mausklick navigieren Sie direkt zu den jeweiligen Objekten:
 
-## Objektübersicht
+![Dashboard](/assets/manual/dashboard.de.png)
+
+1. Die Objekte sind gruppiert nach den [Objekttypen](/object-model/objects/#objekte) (Scopes, Prozesse, Assets, Personen, Controls, Vorfälle, Dokumente und Szenarien).
+1. Die Objekttypen sind zudem nach den verfügbaren [Subtypen](/object-model/objects/#subtypen) gruppiert.
+1. Die **Status** (Lebenszyklus) sind farbig codiert:
+    - Dunkelgrau = Neu
+    - Gelb = In Bearbeitung
+    - Blau = Zur Prüfung
+    - Grün = Freigegeben
+    - Hellgrau = Archiviert
+1. Im Abschnitt **Meine zuletzt bearbeiteten Objekte** können Sie diese durch Mausklick direkt zur weiteren Bearbeitung aufrufen.
+
+### Objektübersicht
 
 ![Objektübersicht](/assets/manual/object-list_thumb.de.png)
 
-## Objektdetails
+### Objektdetails
 
 ![Objektdetails](/assets/manual/object-details_thumb.de.png)
 
@@ -77,8 +89,10 @@ Die Arbeitsfläche stellt je nach Kontext verschiedenste Inhalte dar:
 
 # Fehlende Seiten
 
-## Unitauswahl
-
 ## Benutzerkonto bearbeiten
 
 ## Datenübertragung {#datenuebertragung}
+
+## Unitverwaltung
+
+## Erste Schritte
