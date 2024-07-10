@@ -52,8 +52,8 @@ Auf dem Dashboard werden alle Objekte und deren Status (Lebenszyklus) dargestell
 
 ![Dashboard](/assets/manual/dashboard.de.png)
 
-1. Die Objekte sind gruppiert nach den [Objekttypen](/object-model/objects/#objekte) (Scopes, Prozesse, Assets, Personen, Controls, Vorfälle, Dokumente und Szenarien).
-1. Die Objekttypen sind zudem nach den verfügbaren [Subtypen](/object-model/objects/#subtypen) gruppiert.
+1. Die Objekte sind gruppiert nach den [Objekttypen](/object-model/objects) (Scopes, Prozesse, Assets, Personen, Controls, Vorfälle, Dokumente und Szenarien).
+1. Die Objekttypen sind zudem nach den verfügbaren [Subtypen](/object-model/objects) gruppiert.
 1. Die **Status** (Lebenszyklus) sind farbig codiert:
     - Dunkelgrau = Neu
     - Gelb = In Bearbeitung
