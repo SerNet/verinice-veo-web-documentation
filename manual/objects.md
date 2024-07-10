@@ -4,14 +4,14 @@ Im Abschnitt Objekte können Objekte angelegt, bearbeitet oder gelöscht werden.
 
 ## Objektübersicht {#objektuebersicht}
 
-Die Navigation über das Menü oder das Dashboard öffnet die **Objektübersicht**, die immer eine **gefilterte Liste** von Objekten angezeigt.
+Die Navigation über das Menü oder das Dashboard öffnet die Objektübersicht, die immer eine gefilterte Liste von Objekten angezeigt.
 
 Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 
 ![Filterkriterien](/assets/manual/filter-chips.de.png)
 
 1. Als Mindestkriterium ist immer der **Objekttyp** erforderlich!
-1. Durch Löschen **optionaler Filterkriterien** erweitern Sie die Objektliste direkt.
+1. Durch Löschen **optionaler Filterkriterien** erweitern Sie die Objektübersicht direkt.
 1. Für die Filterung nach weiteren Kriterien öffnen Sie den **Filterdialog**:
 
 ![Filter](/assets/manual/filter.de.png)
@@ -20,44 +20,52 @@ Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb d
 
 ![Objektübersicht](/assets/manual/object-list.de.png)
 
+1. Sie öffnen ein Objekt zur Bearbeitung durch Mausklick auf die jeweilige Zeile.
 1. Sortieren Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
 1. Je nach Anzahl der Objekte in der Liste navigieren Sie durch zusätzliche Seiten oder erweitern die Anzahl der je Seite dargestellten Objekte.
-1. Öffnen Sie ein Objekt zur Bearbeitung durch Mausklick auf die hervorgehobene Zeile.
-1. Duplizieren Sie Objekte um ein gleichartiges Objekt aus einer Kopie heraus zu erstellen.
+1. Duplizieren Sie ein Objekt um eine Kopie zur weiteren Bearbeitung zu erstellen.
 1. Nicht mehr benötigte Objekte **löschen** Sie nach Bestätigung einer Sicherheitsabfrage.
+1. Stehen weitere Funktionen zur Verfügung können Sie diese hier auswählen.
 1. Erstellen Sie ein neues Objekt mit Objekttyp und Subtyp entsprechend der aktuellen Filterkriterien.
+
+## Objektansicht
+
+Nach öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spalten dargestellt:
+
+![Objektansicht](/assets/manual/object.de.png)
+
+**Links:**
+
+1. Die [Objektbeschreibung](#objektbeschreibung).
+1. Eine Tabelle mit allen Objekten im [Objektumfeld](#objektumfeld).
+
+**Rechts:**
+
+3. Das [Formular](#formular) mit allen Detailangaben.
+1. Die optional einblendbare Seitenleiste mit der [Ansicht](#seitenleiste-ansicht), dem [Inhalt](#seitenleiste-inhalt), dem [Verlauf](#seitenleiste-verlauf) und den [Meldungen](#seitenleiste-meldungen)
+
+::: info 5. Um die Arbeitsfläche je nach Aufgabenstellung optimal auszunutzen, können Sie die beiden Spalten mittels Button oder Tastatur ausblenden:
+ - PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**
+ - Mac: linke Spalte **Control+1** / rechte Spalte **Control+2**
+:::
 
 ### Objektdetails
 
-Die Detailansicht eines Objektes gliedert Informationen zum Objekt in vier Bereiche:
+Die Objektdetails geben einen ersten schnellen Überblick über das aktuelle Objekt:
 
-![Objektdetails](/assets/manual/object-details.de.png)
+![Objektbeschreibung](/assets/manual/object-details.de.png)
 
-1. Die Objektbeschreibung.
-1. Eine Tabelle mit allen Objekten im Umfeld.
-1. Das Formular mit allen Detailangaben.
-1. Die optional einblendbare Seitenleiste.
-1. Um je nach Aufgabenstellung die Arbeitsfläche optimal auszunutzen blenden Sie die beiden Spalten mittels Button oder Tastatur aus<br>PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**<br>Mac: linke Spalte **Control+2** / rechte Spalte **Control+2**
+1. Über das **Objektmenü** wählen Sie sofern verfügbar spezifische Aktionen für das aktuelle Objekt aus.
 
-#### Objektbeschreibung
+### Objektumfeld
 
-Die Objektbeschreibung gibt einen ersten schnellen Überblick über das aktuelle Objekt:
-
-![Objektbeschreibung](/assets/manual/object-details_description.de.png)
-
-1. Über das *Objektmenü* wählen Sie spezifische Aktionen für das aktuelle Objekt aus.
-
-#### Objektumfeld
-
-Das Objektumfeld kann je nach Objekttyp aus **Scopes**, **Teilen**, **Links** und **Risiken** bestehen.<br>
-Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Objekten im neuen Objektmodell:<br>
-* **Scopes** können beliebige **Composite**-Objekte UND **Scope**-Objekte enthalten.<br>Jedes **Scope**-Objekt und jedes **Composite**-Objekt kann zudem in verschiedenen **Scopes** enthalten sein!
-* **Composite**-Objekte können hingegen nur Objekte des SELBEN **Objekttyps** enthalten.<br>Anders als eine Gruppe hat das **Composite**-Objekt die gleichen Eigenschaften wie ein einzelnes Objekt des jeweiligen Objekttyps.
-
+Das Objektumfeld kann je nach Objekttyp aus **Scopes**, **Teilen**, **Links**, **Risiken** oder **Maßnahmen (Bausteinen)** bestehen. Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Objekten im neuen [Objektmodell](/object-model/objects):
+* **Scopes** können beliebige **Composite**-Objekte UND **Scope**-Objekte enthalten. Jedes **Scope**-Objekt und jedes **Composite**-Objekt kann dabei in verschiedenen **Scopes** enthalten sein!
+* **Composite**-Objekte können hingegen nur Objekte des SELBEN **Objekttyps** enthalten (Teile/Parts). Anders als eine Gruppe hat das **Composite**-Objekt dabei die gleichen Eigenschaften wie ein einzelnes Objekt des jeweiligen Objekttyps.
 
 Die Darstellung des Objektumfeldes zeigt dabei:
 
-![Objektumfeld](/assets/manual/object-details_environment.de.png)
+![Objektumfeld](/assets/manual/object-environment.de.png)
 
 1. Mit **Scopes** und **Teile** den Blick *nach innen*.
 1. Mit **In Scope** und **Teil von** den Blick *nach außen*.
@@ -65,7 +73,7 @@ Die Darstellung des Objektumfeldes zeigt dabei:
 1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
 1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden.<br>Stehen Elemente für ein Objekt nicht zur Verfügung, sind die **Tabellenreiter** ausgegraut.
 
-#### Formulare
+### Formular
 
 Formulare ermöglichen die strukturierte Erfassung von (fachlichen) Inhalten, es wird unterschieden zwischen:
 
@@ -82,9 +90,7 @@ Die strukturierte Erfassung wird unterstützt durch die intelligente Auswertung 
 Jeder Subtyp eines bestimmten Objekttyps muss in mindestens einem spezifischen Formular dargestellt werden. Anders herum kann jeder Subtyp kann aber auch in verschiedenen Formularen abgebildet werden.
 Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Erfassungsformular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung steht.
 
-#### Seitenleiste
-
-In der Seitenleiste können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden:
+In der Seitenleiste der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden:
 
 ![Seitenleiste](/assets/manual/object-details_sidebar.de.png)
 
@@ -93,8 +99,14 @@ In der Seitenleiste können durch Mausklick auf eines der Symbole weitere Inform
 1. Die Seitenleiste **Verlauf** listet alle Änderungen an einem Objekt in **Versionen** auf. Der Umgang mit Versionen ist im folgenden Abschnitt beschrieben.
 1. Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
 
-### Versionierung
+### Seitenleiste Ansicht
+
+### Seitenleiste Inhalt
+
+### Seitenleiste Verlauf
 
 verinice speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
 
 In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).
+
+### Seitenleiste Meldungen
