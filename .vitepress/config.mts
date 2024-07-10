@@ -42,12 +42,14 @@ export default defineConfig({
             text: 'Benutzerhandbuch', link: '/manual/',
             collapsed: true, 
             items: [
+              { text: 'Erste Schritte', link: '/manual/welcome' },
               { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
-              { text: 'Dashboard', link: '/manual/dashboard' },
               { text: 'Objekte', link: '/manual/objects' },
               { text: 'Kataloge', link: '/manual/catalogs' },
               { text: 'Reports', link: '/manual/reports' },
               { text: 'Risikodefinitionen', link: '/manual/risk-definition' },
+              { text: 'Datenübertragung', link: '/manual/data-transfer' },
+              { text: 'Unitverwaltung', link: '/manual/units' },
               { text: 'Benutzerverwaltung', link: '/manual/accounts' },
             ]
           },
