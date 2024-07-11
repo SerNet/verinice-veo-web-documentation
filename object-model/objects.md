@@ -89,7 +89,7 @@ Der Objekttyp Control ist beispielsweise geeignet für die Abbildung der folgend
 * NIST SP 1800-15B: "Control"
 * DS-GVO: "Technische und organisatorische Maßnahmen"
 
-Der Objekttyp Control kann auch eine Gruppe von Controls abbilden (siehe [Composite](#composite). Darüber kann ein Kapitel aus einem Standard mit Maßnahmen abgebildet werden, oder ein "Baustein" aus dem BSI IT-Grundschutz.
+Der Objekttyp Control kann auch eine Gruppe von Controls abbilden (siehe [Composite](#composite)). Darüber kann ein Kapitel aus einem Standard mit Maßnahmen abgebildet werden, oder ein "Baustein" aus dem BSI IT-Grundschutz.
 
 ### Vorfall
 
