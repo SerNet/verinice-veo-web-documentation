@@ -232,9 +232,9 @@ If you take a closer look at the element in the response, you will see that it i
     or product for a particular customer or customers.",
     "owner": {
         "displayName": "veo Unit",
-        "targetUri": "https://api.develop.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18",
-        "searchesUri": "https://api.develop.verinice.com/veo/units/searches",
-        "resourcesUri": "https://api.develop.verinice.com/veo/units{?parent,displayName}"
+        "targetUri": "https://api.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18",
+        "searchesUri": "https://api.verinice.com/veo/units/searches",
+        "resourcesUri": "https://api.verinice.com/veo/units{?parent,displayName}"
     },
     "subType": "PRO_DataTransfer",
     "status": "IN_PROGRESS",
@@ -244,9 +244,9 @@ If you take a closer look at the element in the response, you will see that it i
                 "attributes": {},
                 "target": {
                     "displayName": "AST-935 Customer data",
-                    "targetUri": "https://api.develop.verinice.com/veo/assets/faf5d744-2bc8-4c19-bd5f-783f59d719a2",
-                    "searchesUri": "https://api.develop.verinice.com/veo/assets/searches",
-                    "resourcesUri": "https://api.develop.verinice.com/veo/assets{?unit,displayName,subType,status,\
+                    "targetUri": "https://api.verinice.com/veo/assets/faf5d744-2bc8-4c19-bd5f-783f59d719a2",
+                    "searchesUri": "https://api.verinice.com/veo/assets/searches",
+                    "resourcesUri": "https://api.verinice.com/veo/assets{?unit,displayName,subType,status,\
                     childElementIds,hasParentElements,hasChildElements,description,designator,name,updatedBy,size,page,\
                     sortBy,sortOrder}"
                 }
@@ -257,9 +257,9 @@ If you take a closer look at the element in the response, you will see that it i
                 "attributes": {},
                 "target": {
                     "displayName": "SCP-460 IT Development Company",
-                    "targetUri": "https://api.develop.verinice.com/veo/scopes/26757ad0-a76b-41ab-bbcb-9b67e2fc1c90",
-                    "searchesUri": "https://api.develop.verinice.com/veo/scopes/searches",
-                    "resourcesUri": "https://api.develop.verinice.com/veo/scopes{?unit,displayName,subType,status,\
+                    "targetUri": "https://api.verinice.com/veo/scopes/26757ad0-a76b-41ab-bbcb-9b67e2fc1c90",
+                    "searchesUri": "https://api.verinice.com/veo/scopes/searches",
+                    "resourcesUri": "https://api.verinice.com/veo/scopes{?unit,displayName,subType,status,\
                     childElementIds,hasParentElements,hasChildElements,description,designator,name,updatedBy,size,page,\
                     sortBy,sortOrder}"
                 }
@@ -281,7 +281,7 @@ If you take a closer look at the element in the response, you will see that it i
     "riskValues": {}
     "id": "20c06dc7-5eec-46ec-b866-72cc12537be2",
     "type": "process",
-    "_self": "https://api.develop.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/processes/20c06dc7-5eec-46ec-b866-72cc12537be2"
+    "_self": "https://api.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/processes/20c06dc7-5eec-46ec-b866-72cc12537be2"
 }
 ```
 
@@ -305,10 +305,10 @@ element = {
     'status': 'RELEASED'
     # Each element is owned by a unit.
     'owner': {
-        'targetUri': 'https://api.develop.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18',
+        'targetUri': 'https://api.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18',
     },
 }
-url = "https://api.develop.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/assets"
+url = "https://api.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/assets"
 token = get_token()
 headers = {
     "Authorization": token,
