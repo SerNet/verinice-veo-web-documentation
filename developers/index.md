@@ -5,7 +5,7 @@ Learn how to authenticate and load and create your first elements.
 ## Prerequisites
 
 In this documentation, it is assumed that you are familiar with the
-basic concepts of the verinice object model. You can learn more about these concepts in the directory <DocsLink to="/object_model">Object model</DocsLink>. 
+basic concepts of the verinice [object model](../object-model).
 
 ## Authentication
 
@@ -34,7 +34,7 @@ For the creation of a token, these parameters must be set:
 
 ## Load Units
 
-The unit is the root node in verinice's object model and the hierarchical root of objects and groups. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all functions in the verinice API require a Unit.
+The unit is the root node in verinice's [object model](../object-model) and the hierarchical root of objects and groups. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all functions in the verinice API require a Unit.
 
 All units owned by the client of an account are loaded with the call of this endpoint:
 
