@@ -9,7 +9,7 @@ basic concepts of the verinice object model. You can learn more about these conc
 
 ## Authentication
 
-verinice uses [OpenID Connect (OIDC)](https://openid.net/connect/) for authentication, which is built on top of [OAuth 2.0](https://oauth.net/2/). [Keycloak](https://www.keycloak.org/) is used as authentication server. For each request sent to the verinice API, an access token is required. Keycloak exposes a variety of REST endpoints for OAuth 2.0 flows. The token endpoint allows us to retrieve an access token. The method `get_token` creates a token with this endpoint:
+verinice uses [OpenID Connect (OIDC)](https://openid.net/connect/) for authentication, which is built on top of [OAuth 2.0](https://oauth.net/2/). [Keycloak](https://www.keycloak.org/) is used as the authentication server. For each request sent to the verinice API, an access token is required. Keycloak's RESTful API exposes a variety of endpoints for OAuth 2.0 flows. The token endpoint allows us to retrieve an access token. The method `get_token` creates a token with this endpoint:
 
 ```python
 import requests
