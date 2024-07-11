@@ -367,7 +367,6 @@ import requests
 token = get_token()
 url = "https://api.verinice.com/scenarios/e4af7789-5da0-49ed-86c6-8ecea8262f0f"
 
-# Load the scope object
 headers = {
     'Authorization': token
 }
