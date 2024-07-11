@@ -38,7 +38,7 @@ The unit is the root node in verinice's [object model](../object-model) and the 
 
 All units owned by the client of an account are loaded using this endpoint:
 
-**[`GET /units`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/unit-controller/getUnits)** - OpenAPI documentation
+`GET /units` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/unit-controller/getUnits))
 
 Python code listing to load units:
 ```python
@@ -64,7 +64,7 @@ The different areas of expertise, which can be managed with verinice, are called
 
 All domains that are available are loaded with this API method:
 
-**[`GET /domains`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/domain-controller/getDomains)** - OpenAPI documentation
+`GET /domains` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/domain-controller/getDomains))
 
 
 Python code listing to load domains:
@@ -92,7 +92,7 @@ Besides units and domains, [elements (a.k.a. business objects)](../object-model/
 
 For each element type, there is a set of API endpoints for managing elements of that type. For example, the following endpoint loads all processes that are associated with a certain domain:
 
- **[`GET /domains/DOMAIN-ID/processes`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
+ `GET /domains/DOMAIN-ID/processes` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1))
 
 The following snippet shows how to load all processes in a unit that are associated with a certain domain:
 
@@ -131,7 +131,7 @@ containing a single page of items, the number of all items in the result, and th
 The number of items in the page can be specified with the `size` parameter, the page number with the `page` parameter:
 
 
-**[`GET /domains/DOMAIN-ID/processes?size=5&page=3`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/processes?size=5&page=3` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1))
 
 Now you can iterate over the items in the page to process the data:
 
@@ -151,7 +151,7 @@ All endpoints for loading elements have the same search parameters, which are br
 
 Find all elements of a certain sub-type. The available sub-types for each element type are defined in the domain.
 
-**[`GET /domains/DOMAIN-ID/documents?subType=DOC_Contract`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/document-in-domain-controller/getDocument)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/documents?subType=DOC_Contract` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/document-in-domain-controller/getDocument))
 
 Finds all documents of the sub-type _DOC_Contract_ (Contracts).
 
@@ -159,7 +159,7 @@ Finds all documents of the sub-type _DOC_Contract_ (Contracts).
 
 Find all elements where the name contains a given string (case-insensitive):
 
-**[`GET /domains/DOMAIN-ID/assets?name=fire`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/assets?name=fire` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all assets that contain _fire_ in the name, e.g. an asset _firewall_ or _fire extinguisher_.
 
@@ -167,7 +167,7 @@ Finds all assets that contain _fire_ in the name, e.g. an asset _firewall_ or _f
 
 Find all elements of a certain status. The possible statuses for each element sub-type are defined in the domain.
 
-**[`GET /domains/DOMAIN-ID/controls?status=RELEASED`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/control-in-domain-controller/getControls_1)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/controls?status=RELEASED` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/control-in-domain-controller/getControls_1))
 
 Finds all controls with the status _RELEASED_.
 
@@ -176,7 +176,7 @@ Finds all controls with the status _RELEASED_.
 
 Find all elements that have at least one part or member.
 
-**[`GET /domains/DOMAIN-ID/processes?hasChildElements=true`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/processes?hasChildElements=true` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1))
 
 Finds all processes that have parts (sub processes).
 
@@ -184,7 +184,7 @@ Finds all processes that have parts (sub processes).
 
 Find all elements that are either a part of at least one [composite](../object-model/objects#composite) or a member of at least one [scope](../object-model/objects#scope).
 
-**[`GET /domains/DOMAIN-ID/assets?hasParentElements=true`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/assets?hasParentElements=true` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all assets that that are a part of another asset.
 
@@ -192,7 +192,7 @@ Finds all assets that that are a part of another asset.
 
 Find all elements that contain at least one of the given elements as a part or member. One or several UUIDs can be specified, separated by commas.
 
-**[`GET /domains/DOMAIN-ID/assets?childElementIds=823dfbfa-21d4-4174-b184-38734465cbbb`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/assets?childElementIds=823dfbfa-21d4-4174-b184-38734465cbbb` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all incidents that have incident with ID _823dfbfa-21d4-4174-b184-38734465cbbb_ as a part.
 
@@ -200,7 +200,7 @@ Finds all incidents that have incident with ID _823dfbfa-21d4-4174-b184-38734465
 
 A single element can be loaded by its UUID. The following API endpoint loads a process from the viewpoint of a domain (i.e., only process data that is relevant for given domain is contained in the response):
 
-**[`GET /domains/DOMAIN-ID/processes/PROCESS-ID`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getElement_5)** - OpenAPI documentation
+`GET /domains/DOMAIN-ID/processes/PROCESS-ID` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getElement_5))
 
 Python code listing to load a process:
 ```python
@@ -287,7 +287,7 @@ The property `owner` references the [unit]("/object_model/objects#unit") to whic
 
 After loading a unit and domain ID, an element (a.k.a. business object) can be created in a domain with the API endpoint:
 
-**[`POST /domains/DOMAIN-ID/assets`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7)** - OpenAPI documentation
+`POST /domains/DOMAIN-ID/assets` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7))
 
 Python code listing to create an asset:
 
@@ -319,7 +319,7 @@ element_id = response.json().get("resourceId")
 
 Scopes can be updated with this endpoint, for example:
 
-**[`PUT /domains/DOMAIN-ID/scopes/{uuid}`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scope-in-domain-controller/updateElement)** - OpenAPI documentation
+`PUT /domains/DOMAIN-ID/scopes/{uuid}` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scope-in-domain-controller/updateElement))
 
 The endpoints for the other element types have URLs according to their type.
 
@@ -358,7 +358,7 @@ requests.put(url, data = json.dumps(scope), headers=headers, verify=True)
 
 To delete an element, execute a request with the DELETE method on the element's URL:
 
-**[`DELETE /scenarios/{uuid}`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scenario-controller/deleteScenario)** - OpenAPI documentation
+`DELETE /scenarios/{uuid}` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scenario-controller/deleteScenario))
 
 Python code listing to delete a scenario:
 
