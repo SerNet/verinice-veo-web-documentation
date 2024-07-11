@@ -32,11 +32,11 @@ For the creation of a token, these parameters must be set:
  - `USER_NAME`: A valid user name
  - `PASSWORD`: The password for the user
 
-## Load Units
+## Loading Units
 
-The unit is the root node in verinice's [object model](../object-model) and the hierarchical root of objects and groups. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all functions in the verinice API require a Unit.
+The unit is the root node in verinice's [object model](../object-model) and the hierarchical root of elements. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all operations with the verinice API require a unit.
 
-All units owned by the client of an account are loaded with the call of this endpoint:
+All units owned by the client of an account are loaded using this endpoint:
 
 **[`GET /units`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/unit-controller/getUnits)** - OpenAPI documentation
 
@@ -58,7 +58,7 @@ unit_id = units[0].get("id")
 unit_name = units[0].get("name")
 ```
 
-## Load Domains
+## Loading Domains
 
 The different areas of expertise, which can be managed with verinice, are called domains. If an element is used in a business context, such as data protection, then it must be assigned to one or more domains. For this reason, a domain ID must usually be specified when a function is called in the API.
 
@@ -85,15 +85,16 @@ domain_id = domains[0].get("id")
 domain_name = domains[0].get("name")
 ```
 
-## Load Business Objects
+## Loading Elements
 
-In besides the units, to which all other data refer, and the domains, which give the data business meaning, the ISMS verinice business  objects can of course also be loaded and modified via the API. For the operation of management systems for information security and data protection, the object model of verinice contains the business objects <DocsLink to="/object_model/objects#process">process</DocsLink>, <DocsLink to="/object_model/objects#asset">asset</DocsLink>, <DocsLink to="/object_model/objects#scenario">scenario</DocsLink>, <DocsLink to="/object_model/objects#risk">risk</DocsLink>, <DocsLink to="/object_model/objects#control">control</DocsLink>, <DocsLink to="/object_model/objects#incident">incident</DocsLink>, <DocsLink to="/object_model/objects#document">document</DocsLink> and <DocsLink to="/object_model/objects#person">person</DocsLink>. These objects can be further specified via so-called subtypes. The meaning of these business objects are explained in the <DocsLink to="/object_model/objects">_Object Model_ section in the _Business Objects_ chapter</DocsLink>.
+Besides units and domains, [elements (a.k.a. business objects)](../object-model/objects) can also be loaded and modified via the API. There are eight different element types in verinice:
+[assets](../object-model/objects#asset), [controls](../object-model/objects#control), [documents](../object-model/objects#dokument), [incidents](../object-model/objects#vorfall), [persons](../object-model/objects#person), [processes](../object-model/objects#prozess), [scenarios](../object-model/objects#szenario) & [scopes](../object-model/objects#scope).
 
-For each business object type, there are the same API endpoints for managing the objects of this type. Endpoint for loading all processes from a domain (example):
+For each element type, there is a set of API endpoints for managing elements of that type. For example, the following endpoint loads all processes that are associated with a certain domain:
 
  **[`GET /domains/DOMAIN-ID/processes`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
 
-The following snippet shows how to load all processes from a unit:
+The following snippet shows how to load all processes in a unit that are associated with a certain domain:
 
 ```python
 import requests
@@ -141,14 +142,14 @@ for process in json_data.get("items"):
     process_id = process.get("id")
 ```
 
-## Search for business objects
+## Searching for elements
 
 
-All endpoints for loading ISMS business types have the same search parameters, which are briefly described here. All parameters can be combined as needed.
+All endpoints for loading elements have the same search parameters, which are briefly described here. All parameters can be combined as needed.
 
 ### subType 
 
-Find all objects of a certain sub-type:
+Find all elements of a certain sub-type. The available sub-types for each element type are defined in the domain.
 
 **[`GET /domains/DOMAIN-ID/documents?subType=DOC_Contract`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/document-in-domain-controller/getDocument)** - OpenAPI documentation
 
@@ -156,7 +157,7 @@ Finds all documents of the sub-type _DOC_Contract_ (Contracts).
 
 ### name
 
-Find all objects that contain the term in the name:
+Find all elements where the name contains a given string (case-insensitive):
 
 **[`GET /domains/DOMAIN-ID/assets?name=fire`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
 
@@ -164,12 +165,7 @@ Finds all assets that contain _fire_ in the name, e.g. an asset _firewall_ or _f
 
 ### status
 
-Find all objects of a certain status. The available statuses are:
-- _NEW_
-- _IN\_PROGRESS_
-- _FOR\_REVIEW_
-- _RELEASED_
-- _ARCHIVED_
+Find all elements of a certain status. The possible statuses for each element sub-type are defined in the domain.
 
 **[`GET /domains/DOMAIN-ID/controls?status=RELEASED`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/control-in-domain-controller/getControls_1)** - OpenAPI documentation
 
@@ -178,7 +174,7 @@ Finds all controls with the status _RELEASED_.
 
 ### hasChildElements
 
-All business objects in verinice can have parts of the same type. Find all the objects that have parts.
+Find all elements that have at least one part or member.
 
 **[`GET /domains/DOMAIN-ID/processes?hasChildElements=true`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1)** - OpenAPI documentation
 
@@ -186,7 +182,7 @@ Finds all processes that have parts (sub processes).
 
 ### hasParentElements
 
-Find all objects that are a part of another object.
+Find all elements that are either a part of at least one [composite](../object-model/objects#composite) or a member of at least one [scope](../object-model/objects#scope).
 
 **[`GET /domains/DOMAIN-ID/assets?hasParentElements=true`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
 
@@ -194,15 +190,15 @@ Finds all assets that that are a part of another asset.
 
 ### childElementIds
 
-Find all objects that have another object as a part. One or more UUIDs can be specified, separated by a comma.
+Find all elements that contain at least one of the given elements as a part or member. One or several UUIDs can be specified, separated by commas.
 
 **[`GET /domains/DOMAIN-ID/assets?childElementIds=823dfbfa-21d4-4174-b184-38734465cbbb`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets)** - OpenAPI documentation
 
 Finds all incidents that have incident with ID _823dfbfa-21d4-4174-b184-38734465cbbb_ as a part.
 
-## Load a single business object
+## Loading a single element
 
-A single object can be loaded with its UUID. API endpoint to load a process from a domain:
+A single element can be loaded by its UUID. The following API endpoint loads a process from the viewpoint of a domain (i.e., only process data that is relevant for given domain is contained in the response):
 
 **[`GET /domains/DOMAIN-ID/processes/PROCESS-ID`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getElement_5)** - OpenAPI documentation
 
@@ -217,7 +213,7 @@ headers = {
 response = requests.get("https://api.verinice.com/veo/domains/744e84f8-0c91-4ccc-a923-795b9f07ee6b/processes/e529ee00-c995-444f-9a1d-2c07cf03143e", headers=headers, verify=verify_ssl)
 ```
 
-If you take a closer look at the element in the response, you will see that it is built up of different parts:
+This exemplary response body illustrates the structure of an element:
 
 ```json{11,17,47} 
 {
@@ -285,11 +281,9 @@ If you take a closer look at the element in the response, you will see that it i
 }
 ```
 
-The element `owner` references a <DocsLink to="/object_model/objects#asset">unit</DocsLink> to which the element belongs, the element's `links` contains links to other elements and `customAspects` contains domain-specific properties. An element may be associated with one or more domains. One subtype is defined for each domain for each element. A lifecycle status is also set.
+The property `owner` references the [unit]("/object_model/objects#unit") to which the element belongs, `links` contains links to other elements and `customAspects` contains domain-specific properties. The domain-specific sub-type and lifecycle status are also present.
 
-## Object schema
-
-## Create a business object
+## Creating an element
 
 After loading a unit and domain ID, an element (a.k.a. business object) can be created in a domain with the API endpoint:
 
@@ -321,17 +315,17 @@ if (response.status_code != 201):
 element_id = response.json().get("resourceId")
 ```
 
-## Update a business object
+## Updating an element
 
-Scopes of a domain can be updated with this endpoint, for example:
+Scopes can be updated with this endpoint, for example:
 
 **[`PUT /domains/DOMAIN-ID/scopes/{uuid}`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scope-in-domain-controller/updateElement)** - OpenAPI documentation
 
-The endpoints for the other object types have URLs according to their type.
+The endpoints for the other element types have URLs according to their type.
 
 The verinice API uses [ETags](https://en.wikipedia.org/wiki/HTTP_ETag) for [optimistic concurrency control](https://en.wikipedia.org/wiki/Optimistic_concurrency_control). This prevents concurrent changes to a resource from multiple clients overwriting each other.
 
-If a single business object is loaded, then together with the object the header `ETag` is returned. The ETag must be sent in the PUT Request as header `If-Match` when updating an object. Python code listing to update a scope with an ETag:
+If a single element is loaded, an `ETag` header is returned. When updating the element, the PUT request must contain an `If-Match` header that is set to the element's current ETag. Python code listing to update a scope with an ETag:
 ```python
 import requests
 import json
@@ -340,7 +334,7 @@ import re
 token = get_token()
 url = "https://api.verinice.com/domains/744e84f8-0c91-4ccc-a923-795b9f07ee6b/scopes/e4af7789-5da0-49ed-86c6-8ecea8262f0f"
 
-# Load the scope object
+# Load the scope
 headers = {
     'Authorization': token
 }
@@ -360,9 +354,9 @@ headers = {
 requests.put(url, data = json.dumps(scope), headers=headers, verify=True)
 ```
 
-## Delete a business object
+## Deleting an element
 
-To delete an object, execute a request with the DELETE method on the object's URL:
+To delete an element, execute a request with the DELETE method on the element's URL:
 
 **[`DELETE /scenarios/{uuid}`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/scenario-controller/deleteScenario)** - OpenAPI documentation
 
@@ -380,4 +374,4 @@ headers = {
 response = requests.delete(url, headers=headers, verify=True)
 ```
 
-When a scope is deleted, the members of the scope are not deleted, but removed from the scope before deletion. Also, when an object is deleted that contains parts, the parts are not deleted, but removed from the object before deletion. When a unit is deleted, all elements in the unit are deleted along with the unit.
+When a scope is deleted, the members of the scope are not deleted, but removed from the scope before deletion. Also, when a composite containing parts is deleted, the parts are not deleted, but removed from the composite before deletion. When a unit is deleted, all elements in the unit are deleted along with the unit.
