@@ -291,9 +291,7 @@ The element `owner` references a <DocsLink to="/object_model/objects#asset">unit
 
 ## Create a business object
 
-**[`POST /domains/DOMAIN-ID/assets`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7)** - OpenAPI documentation
-
-After loading a unit and domain ID, a business object can be created in a domain with the API endpoint:
+After loading a unit and domain ID, an element (a.k.a. business object) can be created in a domain with the API endpoint:
 
 **[`POST /domains/DOMAIN-ID/assets`](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7)** - OpenAPI documentation
 
@@ -302,17 +300,13 @@ Python code listing to create an asset:
 ```python
 element = {
     'name': 'Mail Server',
+    # The possible sub-types and statuses are defined in the domain.
+    'subType': 'AST_IT-System',
+    'status': 'RELEASED'
+    # Each element is owned by a unit.
     'owner': {
         'targetUri': 'https://api.develop.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18',
     },
-    'type': 'asset',
-    'subType': 'AST_IT-System',
-    'status': 'RELEASED',
-        'b5110307-ca95-4bcb-bd7a-d2570f3d8946': {
-            'subType': 'AST_IT-System',
-            'status': 'RELEASED',
-        }
-    }
 }
 url = "https://api.develop.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/assets"
 token = get_token()
@@ -326,12 +320,6 @@ if (response.status_code != 201):
     raise Exception("Error while posting element: " + str(response.status_code))
 element_id = response.json().get("resourceId")
 ```
-
-The element in the listing above contains the mandatory properties that must be present when you create it:
-- `name`
-- `owner`: A reference to a unit
-- `type`: `asset`, `control`, `document`, `incident`, `person`, `process` or `scenario`
-- `domains`: References to one or more domains and a `subType` und a `status` per domain. 
 
 ## Update a business object
 
