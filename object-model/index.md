@@ -8,6 +8,6 @@ Das Modell erfüllt auch Voraussetzungen für den Betrieb einer SaaS-Anwendung, 
 
 ## Inhaltsverzeichnis
 
-* <DocsLink to="/object_model/domains">Domänen</DocsLink>
-* <DocsLink to="/object_model/objects">Fachobjekte</DocsLink>
-* <DocsLink to="/object_model/forms">Formulare</DocsLink>
+* [Domänen](domains)
+* [Objekte](objects)
+* [Formulare](forms)
