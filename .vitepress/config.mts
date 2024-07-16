@@ -66,6 +66,7 @@ export default defineConfig({
             text: 'Release Notes',  link: '/release-notes/',
             collapsed: true, 
             items: [
+              { text: 'verinice 27', link: '/release-notes/verinice-27' },
               { text: 'verinice 26', link: '/release-notes/verinice-26' },
               { text: 'verinice 1.20', link: '/release-notes/verinice-1.20' },
               { text: 'verinice 1.19', link: '/release-notes/verinice-1.19' },
