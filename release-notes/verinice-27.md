@@ -18,16 +18,7 @@ Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release
 ## Allgemeine Funktionen
 **Status: Produktiv**
 
-### Performance lang laufender Prozesse
-
-???
-
-#2856 Reports
-#2854 Units
-#2855 Profiles
-
-
-### Umstellung der Dokumentation
+### Verbesserung der Dokumentation
 
 Die Dokumentation verwendet als neues Framework [Vitepress](https://vitepress.dev/) und erhält die neuen Abschnitte:
 - Release Notes
@@ -37,35 +28,34 @@ Die Dokumentation verwendet als neues Framework [Vitepress](https://vitepress.de
 
 Das Benutzerhandbuch wurde in weiten Teilen strukturell und inhaltlich überarbeitet und aktualisiert.
 
-::: info In Bearbeitung
-Nicht alle Abschnitte sind auf dem aktuellsten Stand! Das verinice.Team arbeitet kontinuierlich an der Komplettierung und Optimierung.
-:::
-
 Die Tutorials wurden aktualisiert und das neue Tutorial Unitverwaltung ergänzt.
+
+### Performanceverbesserung
+
+Bei lang laufenden Aktionen wurde die Performance deutlich verbessert:
+- Alle verfügbaren Profile können ohne Fehlermeldung angewendet werden.
+- Das Löschen von Units wurde soweit beschleunigt, dass jede Unit gelöscht wird. In einzelnen Fällen kann es nach wie vor zu einem Timeout kommen, die Units sind nach kurzer Wartezeit aber restlos gelöscht.
+- Um Fehlermeldungen (Timeouts) bei lang laufenden Aktionen grundsätzlich zu vermeiden, wurde ein Prototyp für Ausführung und Darstellung von Aktionen im Hintergund implementiert.
 
 ### Suchfunktion für Objekte
 
-In der Objektübersicht können Objekte nach Name, Abkürzung und Anzeigename gesucht werden. Es wurde eine erster Prototyp implementiert, der später mit weiteren Funktion ausgebaut wird.
-
-### Prototyp für Hintergrundtasks
-
-Um (Fehlermeldungen) Timeouts bei lang laufenden Prozessen zu vermeiden, wurde ein Prototyp für Ausführung und Darstellung von Aufgaben im Hintergund implementiert.
+In der Objektübersicht können Objekte nach Name, Abkürzung oder Anzeigename (zusammengesetzt aus Designator, Abkürzung und Name) durchsucht werden. Als Default ist eine Freitextsuche im Anzeigenamen ohne Spezifkation des Suchkriteriums implementiert.
+Die Suche wird in zukünftigen Iterationen um zusätzliche Suchkriterien, Operatoren und Funktionen erweitert.
 
 ### Detailverbesserungen und Fehlerbehebungen
 
-- Behebung eines Anzeigefehlers in der neuen Unitverwaltung, das die Anwendung einzelner Profile verhindert.
+- Bereitstellung des SBOM im SPDX Format auf Github.
+- Behebung eines Anzeigefehlers in der neuen Unitverwaltung, der die Anwendung einzelner Profile verhindert.
 - Behebung eines Fehlers, der die Änderung und Löschung von Potential Impact Werten (Schutzbedarf) bei Prozessen und Assets in den Domänen IT-Grundschutz und NIS2 verhindert.
 - Upgrade auf Nuxt v3.12.3.
-- Bereitstellung des SBOM im SPDX Format auf Github.
 
 ## Domäne Datenschutz
 **Status: Produktiv**
 
-Behebung eines Fehlers bei Ausführung der Reports Datenschutz-Risikoanalyse, wenn noch keine Risikodefinition ausgewählt wurde.
+- Behebung eines Fehlers bei Ausführung der Reports Datenschutz-Risikoanalyse, wenn noch keine Risikodefinition ausgewählt wurde.
 
 ## Domäne IT-Grundschutz
 **Status: Private Beta**
-
 
 ### Verbesserung der Modellierung
 
@@ -76,22 +66,18 @@ Zur Verbesserung der Vorgehensweise bei der Modellierung von Bausteinen wurde:
 
 ### Verbesserung des IT-Grundschutz-Check
 
-Der Dialog zur Dokumentation der Umsetzung für die Durchführung des IT-Grundschutz-Check wurde verbessert:
-- Der Dialog wurde konsistenter strukturiert.
+Der Dialog zur Dokumentation der Umsetzung beim IT-Grundschutz-Check wurde verbessert:
+- Der Dialog wurde übersichtlicher strukturiert.
 - Der Anforderungstext wird angezeigt.
-- Das Datum **Umsetzung bis** wurde ergänzt.
-- Das Umsetzungsdatum wird in den Referenzdokumenten ausgegeben (A.6 Realisierungsplan).
+- Das Umsetzungsdatum wurde ergänzt.
+- Das Umsetzungsdatum wird in den Referenzdokumenten A.5 Risikoanalyse und A.6 Realisierungsplan ausgegeben.
 - Aus dem Dialog kann direkt zum Zielobjekt und zum Baustein navigiert werden.
 
 ### Erstellen der Gefährdungsübersicht
 
-Vor Durchführung einer Risikoanalyse werden durch das Erstellen der Gefährdungsübersicht für Scope-, Prozess und Assetobjekte:
+Zur Vorbereitung einer Risikoanalyse werden durch das Erstellen der Gefährdungsübersicht für Scope-, Prozess- und Assetobjekte:
 - alle Elementaren Gefährdungen der modellierten Bausteine entsprechend der Kreuzreferentabellen nachgeladen.
 - Risiken für diese Elementaren Gefährdungen angelegt.
-
-### ???
-
-A.5 Risikoanalyse - Mitigierende Maßnahmen #2923
 
 ## Domäne NIS2
 **Status: Prototyp**
