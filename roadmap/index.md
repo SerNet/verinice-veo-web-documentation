@@ -4,7 +4,7 @@
 - **Public** Beta Domäne **IT-Grundschutz**: Ende August 2024
 - **Private** Beta Domäne **NIS-2**: Ende August 2024
 
-**Stand: Juni 2024**
+**Stand: 16.Juli 2024**
 :::
 
 Das verinice.Team arbeitet aktuell an den folgenden Features und Funktionen:
@@ -71,7 +71,6 @@ Um die Abhängigkeiten zwischen (Ziel-)Objekten besser darzustellen, werden nebe
 
 Die Modellierung von IT-Grundschutz Bausteinen wird verbessert:
 - Suche und Auswahl einzelner Bausteine werden verbessert im Katalog und bei der Modellierung.
-- Der Workflow / die Navigation bei der Modellierung wird vereinfacht.
 - In einem Baustein werden die zugeordneten Zielobjekte angezeigt, siehe auch [Backlinks](#backlinks).
 - Bausteine und Anforderungen werden in der gesamten Domäne IT-Grundschutz sortiert nach dem IT-Grundschutz-Kompendium (Schichten).
 
@@ -79,15 +78,13 @@ Die Modellierung von IT-Grundschutz Bausteinen wird verbessert:
 
 Die Dokumentation der Umsetzung von Bausteinanforderungen wird verbessert:
 - Sortierung der Bausteine nach den Schichten des IT-Grundschutz-Kompendiums (s.o.).
-- Der Workflow / die Navigation bei der Umsetzung wird vereinfacht.
 - Der Bausteinverantwortliche kann ausgewählt werden.
-- Darstellung der fehlenden Umsetzungsdetails **Umsetzung bis**, **Vorgehensweise** und **Anforderungstext**.
 
 ### Risikoanalyse
 
 Darstellung und Bearbeitung der risikomitigierenden Maßnahmen wird intuitiver gestaltet, der Umsetzungsstatus kann gesetzt werden.
 
-## Domäne IT-Grundschutz
+## Domäne DS-GVO
 
 ### Schemabereinigung
 
