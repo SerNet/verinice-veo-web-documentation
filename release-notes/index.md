@@ -9,9 +9,9 @@ Mit Start der Private Beta sind einige Einschränkungen und Fehler bekannt, die 
 
 ### Timeouts bei lang laufenden Aktionen
 
-Einige lang laufende Aktionen führen unter Umständen zu Fehlermeldungen nach Timeouts mit vermeintlichem Abbruch der Aktion, z.B. das Löschen von großen Units, das Erzeugen von umfangreichen Reports, das Anwenden großer Profile oder das Erstellen der Gefährdungsübersicht bei Zielobjekten mit mehr als ca. 10 modellierten Bausteinen.
-
-In allen untersuchten Fällen wird die Aktion im Hintergrund vollständig ausgeführt, und das Ergebnis nach einiger Zeit und ggfs. neuem Laden des Browser korrekt angezeigt!
+Einige lang laufende Aktionen führen unter Umständen zu Fehlermeldungen nach Timeouts mit vermeintlichem Abbruch der Aktion.
+- In Einzelfällen läuft das Löschen großer Units in einen Timeout, nach kurzer Wartezeit und eventuellem Reload sind die Units nicht mehr vorhanden.
+- Die Reports A.4 Ergebnis des IT-Grundschutz-Checks und A.6 Realisierungsplan können noch nicht erzeugt werden!
 
 Lang laufende Aktionen werden zukünftig als Hintergrundtasks ausgeführt und Anwendende über den Status bzw. den Abschluss der Aktion informiert. Es kann ohne Unterbrechung an anderen Aufgaben in verinice weiter gearbeitet werden.
 
@@ -27,16 +27,13 @@ Folgende Einschränkungen der Funktionen für die Grundschutz-Vorgehensweise sin
 
 - Beim Löschen von Bausteinen werden die zugehörigen Anforderungen nicht gelöscht.
 - Suche und Auswahl von Bausteinen bei der Modellierung noch umständlich.
-- Der Reiter "Massnahmen" soll im Grundschutz in "Bausteinzuordnungen" umbenannt werden.
 - Zugeordnete Zielobjekte sind vom Baustein aus nicht ersichtlich.
 
 #### Sicherheitscheck
 
 - Sortierung der Bausteine erfolgt alphabetisch anstatt nach IT-Grundschutz-Kompendium (Schichten).
 - Die verantwortliche Person bei Bausteinzuordnungen kann nicht dokumentiert werden.
-- Von der Ansicht der Anforderungsliste kann man nicht zum Baustein zurück navigieren.
 - Die Spalte für "Verantwortlicher" ist erst nach Maximieren des Bildschirmbereichs sichtbar.
-- Bei der Umsetzung von Anforderungen fehlen das Feld Umsetzung bis; die Vorgehensweise der Absicherung und Anforderungstext werden noch nicht angezeigt.
 
 #### Risikoanalyse
 
