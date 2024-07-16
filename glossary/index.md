@@ -16,8 +16,8 @@ Ein **Account** ist ein persönliches, nicht zu übertragendes Konto für die Nu
 - Im verinice.Shop können vom **Einkäufer** Subskriptionen, Units oder Named-User-Lizenzen gekauft und verwaltet werden. Beim Kauf eines Client ist immer ein Hauptnutzer inkludiert, der Einkäufer legt diesen im verinice.Shop fest.
 - Der **Hauptnutzer** ist immer genau einem Client zugeordnet, er kann in der Fachanwendung verinice weitere Nutzer und Nutzergruppen anlegen und verwalten.
 - Aktuell kann der Hauptnutzer steuern, ob **Nutzer**:
-		- Lese- oder Schreibberechtigung in verinice haben.
-		- sich grundsätzlich an ihrem VEO-Client anmelden können oder deaktiviert sind.
+    - Lese- oder Schreibberechtigung in verinice haben.
+    - sich grundsätzlich an ihrem VEO-Client anmelden können oder deaktiviert sind.
 
 Ein Account kann niemals auf Daten zugreifen, die zu einem Client gehören, dem er nicht zugeordnet ist!
 
