@@ -1,6 +1,6 @@
-# verinice 21
+# verinice 26
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 21 zur Verfügung!
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 26 zur Verfügung!
 
 ::: details Warum sehe ich nicht alle Neuerungen?
 
@@ -26,7 +26,7 @@ Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release
 
 ### Anpassung des Versionschema
 
-- Mit verinice 21 wird das Versionierungsschema von 1.21 auf 21 angepasst! 
+- Mit **verinice 26** wird das Versionierungsschema von **1.21** auf **26** angepasst! 
 
 ### Detailverbesserungen und Fehlerbehebungen
 
