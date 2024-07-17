@@ -2,8 +2,8 @@ import { defineConfig, l } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Documentation",
-  description: "verinice.veo - new for sure!",
+  title: "Dokumentation",
+  description: "verinice.veo - mit Sicherheit neu!",
   ignoreDeadLinks: true,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   /*
