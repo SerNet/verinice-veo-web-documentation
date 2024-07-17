@@ -48,7 +48,6 @@ export default defineConfig({
               { text: 'Reports', link: '/manual/reports' },
               { text: 'Risikodefinitionen', link: '/manual/risk-definition' },
               { text: 'Datenübertragung', link: '/manual/data-transfer' },
-              { text: 'Unitverwaltung', link: '/manual/units' },
               { text: 'Benutzerverwaltung', link: '/manual/accounts' },
             ]
           },
