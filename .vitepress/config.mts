@@ -42,7 +42,6 @@ export default defineConfig({
             text: 'Benutzerhandbuch', link: '/manual/',
             collapsed: true, 
             items: [
-              { text: 'Erste Schritte', link: '/manual/welcome' },
               { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
               { text: 'Objekte', link: '/manual/objects' },
               { text: 'Kataloge', link: '/manual/catalogs' },
