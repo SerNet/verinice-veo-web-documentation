@@ -1,11 +1,11 @@
-import { defineConfig, l } from 'vitepress'
+import { defineConfig, l } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Dokumentation",
   description: "verinice.veo - mit Sicherheit neu!",
   ignoreDeadLinks: true,
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   /*
   locales: {
     de: {
@@ -28,59 +28,90 @@ export default defineConfig({
     i18nRouting: true,
     siteTitle: false,
     search: {
-      provider: 'local'
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "Suche",
+            buttonAriaLabel: "Suche",
+          },
+          modal: {
+            displayDetails: "Details anzeigen",
+            resetButtonTitle: "Suche zurücksetzen",
+            backButtonTitle: "backButtonTitle",
+            noResultsText: "Keine Ergebnisse für",
+            footer: {
+              selectText: "auswählen",
+              selectKeyAriaLabel: "auswählen",
+              navigateText: "navigieren",
+              navigateUpKeyAriaLabel: "hoch navigieren",
+              navigateDownKeyAriaLabel: "runter navigieren",
+              closeText: "schließen",
+              closeKeyAriaLabel: "schließen",
+            },
+          },
+        },
+      },
     },
-    logo: '/veo-logo.svg',
-    nav: [
-      { text: 'Home', link: `/` }
-    ],
+    logo: "/veo-logo.svg",
+    nav: [{ text: "Home", link: `/` }],
 
     sidebar: [
       {
         items: [
-          { 
-            text: 'Benutzerhandbuch', link: '/manual/',
-            collapsed: true, 
-            items: [
-              { text: 'Benutzeroberfläche', link: '/manual/user-interface' },
-              { text: 'Objekte', link: '/manual/objects' },
-              { text: 'Kataloge', link: '/manual/catalogs' },
-              { text: 'Reports', link: '/manual/reports' },
-              { text: 'Risikodefinitionen', link: '/manual/risk-definition' },
-              { text: 'Benutzerverwaltung', link: '/manual/accounts' },
-            ]
-          },
           {
-            text: 'Objektmodell', link: '/object-model/',
+            text: "Benutzerhandbuch",
+            link: "/manual/",
             collapsed: true,
             items: [
-              { text: 'Domänen', link: '/object-model/domains' },
-              { text: 'Objekte', link: '/object-model/objects' },
-              { text: 'Formulare', link: '/object-model/forms' }
-            ]
+              { text: "Benutzeroberfläche", link: "/manual/user-interface" },
+              { text: "Objekte", link: "/manual/objects" },
+              { text: "Kataloge", link: "/manual/catalogs" },
+              { text: "Reports", link: "/manual/reports" },
+              { text: "Risikodefinitionen", link: "/manual/risk-definition" },
+              { text: "Benutzerverwaltung", link: "/manual/accounts" },
+            ],
           },
-          { text: 'Glossar', link: '/glossary/' },
-          { text: 'Developers (in English)', link: '/developers/' },
           {
-            text: 'Release Notes',  link: '/release-notes/',
-            collapsed: true, 
+            text: "Objektmodell",
+            link: "/object-model/",
+            collapsed: true,
             items: [
-              { text: 'verinice 27', link: '/release-notes/verinice-27' },
-              { text: 'verinice 26', link: '/release-notes/verinice-26' },
-              { text: 'verinice 1.20', link: '/release-notes/verinice-1.20' },
-              { text: 'verinice 1.19', link: '/release-notes/verinice-1.19' },
-              { text: 'verinice 1.18', link: '/release-notes/verinice-1.18' }
-            ]
+              { text: "Domänen", link: "/object-model/domains" },
+              { text: "Objekte", link: "/object-model/objects" },
+              { text: "Formulare", link: "/object-model/forms" },
+            ],
           },
-          { text: 'Roadmap', link: '/roadmap/' },
-        ]
-      }
+          { text: "Glossar", link: "/glossary/" },
+          { text: "Developers (in English)", link: "/developers/" },
+          {
+            text: "Release Notes",
+            link: "/release-notes/",
+            collapsed: true,
+            items: [
+              { text: "verinice 27", link: "/release-notes/verinice-27" },
+              { text: "verinice 26", link: "/release-notes/verinice-26" },
+              { text: "verinice 1.20", link: "/release-notes/verinice-1.20" },
+              { text: "verinice 1.19", link: "/release-notes/verinice-1.19" },
+              { text: "verinice 1.18", link: "/release-notes/verinice-1.18" },
+            ],
+          },
+          { text: "Roadmap", link: "/roadmap/" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/products/sernet-gmbh-verinice/' },
-      { icon: 'youtube', link: 'https://www.youtube.com/c/verinice' },
-      { icon: 'github', link: 'https://github.com/SerNet/verinice-veo' }
-    ]
-  }
-})
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/products/sernet-gmbh-verinice/",
+      },
+      { icon: "youtube", link: "https://www.youtube.com/c/verinice" },
+      { icon: "github", link: "https://github.com/SerNet/verinice-veo" },
+    ],
+    outlineTitle: "Auf dieser Seite",
+    darkModeSwitchLabel: "Theme",
+    darkModeSwitchTitle: "Zum Dark Theme wechseln",
+    lightModeSwitchTitle: "Zum Light Theme wechseln",
+  },
+});
