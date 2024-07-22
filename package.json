@@ -2,7 +2,7 @@
   "name": "verinice.veo documentation",
   "author": "SerNet GmbH <verinice@sernet.de> (https://sernet.de/)",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0-SNAPSHOT",
   "description": "This documentation aims to describe the usage of verinice.veo along with an in depth explanation of its object-model and a developer reference",
   "scripts": {
     "docs:dev": "vitepress dev",
