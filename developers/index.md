@@ -5,7 +5,7 @@ Learn how to authenticate and load and create your first elements.
 ## Prerequisites
 
 In this documentation, it is assumed that you are familiar with the
-basic concepts of the verinice [object model](../object-model).
+basic concepts of the verinice [object model](/object-model/index).
 
 ## Authentication
 
@@ -34,7 +34,7 @@ For the creation of a token, these parameters must be set:
 
 ## Loading Units
 
-The unit is the root node in verinice's [object model](../object-model) and the hierarchical root of elements. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all operations with the verinice API require a unit.
+The unit is the root node in verinice's [object model](/object-model/index) and the hierarchical root of elements. A unit represents an organization (e.g. a company) or a department in an organization. Therefore, almost all operations with the verinice API require a unit.
 
 All units owned by the client of an account are loaded using this endpoint:
 
@@ -281,7 +281,7 @@ This exemplary response body illustrates the structure of an element:
 }
 ```
 
-The property `owner` references the [unit]("/object_model/objects#unit") to which the element belongs, `links` contains links to other elements and `customAspects` contains domain-specific properties. The domain-specific sub-type and lifecycle status are also present.
+The property `owner` references the [unit](/object-model/objects#unit) to which the element belongs, `links` contains links to other elements and `customAspects` contains domain-specific properties. The domain-specific sub-type and lifecycle status are also present.
 
 ## Creating an element
 
