@@ -1,10 +1,6 @@
 # syntax = docker/dockerfile:experimental
 FROM node:22-alpine AS builder
 
-# Install Git & Install Python for node-14
-RUN apk update
-RUN apk --no-cache add git python3 make g++
-
 # Create app directory
 WORKDIR /usr/src/app
 # Copy package.json and lock file
