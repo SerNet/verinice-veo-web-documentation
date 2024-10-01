@@ -4,7 +4,7 @@
 
 Mit Start der Private Beta sind einige Einschränkungen und Fehler bekannt, die bis zur Veröffentlichung ausgeräumt werden.
 
-::: info Danke! Ich möchte direkt zu den [Release Notes verinice 27](verinice-27)
+::: info Danke! Ich möchte direkt zu den [Release Notes verinice 30](verinice-30)
 :::
 
 ### Timeouts bei lang laufenden Aktionen
