@@ -1,10 +1,12 @@
 # Roadmap
 
 ::: details Geplante Meilensteine
-- **Public** Beta Domäne **IT-Grundschutz**: Ende August 2024
-- **Private** Beta Domäne **NIS-2**: Ende August 2024
+- **Public** Beta Domäne **IT-Grundschutz**: Ende Oktober 2024
+- **Private** Beta Domäne **NIS-2**: Oktober 2024
+- **Private** Beta Domäne **TISAX**: Oktober 2024
+- **Private** Beta Domäne **ISO**: Q4 2024
 
-**Stand: 16.Juli 2024**
+**Stand: 2. Oktober 2024**
 :::
 
 Das verinice.Team arbeitet aktuell an den folgenden Features und Funktionen:
@@ -39,16 +41,9 @@ Beispielanbindung [Metabase (Open Source)](https://www.metabase.com/):
 
 ![verinice2BI Connector](/assets/roadmap/verinice2BI.de.png)
 
-### Backlinks
-
-Aktuell werden Links nur in einer Richtung dargestellt (ausgehende Links), so dass der Kontext nicht immer einfach ersichtlich ist. Mit dieser Funktionalität werden zu jedem Objekt die eingehenden Links (Backlinks) dargestellt.
-
 ### Anpassbare Risikodefinition
 
 Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwender anpassbar:
-- Umbenennung der Risikoparameter
-
-    (Auswirkung, Eintrittswahrscheinlichkeit, Risikokategorien)
 
 - Erweiterung der Risikomatrix
 
@@ -65,20 +60,7 @@ Die Dokumentation wird inhaltlich aktualisiert und internationalisiert (EN).
 
 ### Strukturanalyse
 
-Um die Abhängigkeiten zwischen (Ziel-)Objekten besser darzustellen, werden neben den ausgehenden Verknüpfungen auch die eingehenden Verknüpfungen angezeigt, siehe auch [Backlinks](#backlinks).
-
-### Modellierung
-
-Die Modellierung von IT-Grundschutz Bausteinen wird verbessert:
-- Suche und Auswahl einzelner Bausteine werden verbessert im Katalog und bei der Modellierung.
-- In einem Baustein werden die zugeordneten Zielobjekte angezeigt, siehe auch [Backlinks](#backlinks).
-- Bausteine und Anforderungen werden in der gesamten Domäne IT-Grundschutz sortiert nach dem IT-Grundschutz-Kompendium (Schichten).
-
-### IT-Grundschutz-Check
-
-Die Dokumentation der Umsetzung von Bausteinanforderungen wird verbessert:
-- Sortierung der Bausteine nach den Schichten des IT-Grundschutz-Kompendiums (s.o.).
-- Der Bausteinverantwortliche kann ausgewählt werden.
+Die **eingehenden Links** von anderen Objekten müssen sinnvoll dargestellt werden.
 
 ### Risikoanalyse
 
