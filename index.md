@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Release Notes
-      link: /release-notes/verinice-27
+      link: /release-notes/verinice-30
     - theme: brand
       text: Known Issues
       link: /release-notes/
