@@ -87,6 +87,7 @@ export default defineConfig({
             collapsed: true,
              items: [
               {text: "Getting started with the verinice API", link: "/developers/getting-started-with-the-verinice-api"},
+              {text: "Wörterbuch", link: "/developers/dictionary"},
               
           ]},
           {
