@@ -83,7 +83,8 @@ export default defineConfig({
             ],
           },
           { text: "Glossar", link: "/glossary/" },
-          { text: "Entwicklerdokumentation", 
+          { text: "Entwicklerdokumentation",
+            link: "/developers/", 
             collapsed: true,
              items: [
               {text: "Getting started with the verinice API", link: "/developers/getting-started-with-the-verinice-api"},
