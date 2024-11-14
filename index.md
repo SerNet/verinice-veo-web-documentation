@@ -27,7 +27,7 @@ features:
   - title: Objektmodell
     details: Das Objektmodell in verinice erklärt...
     link: /object-model/
-  - title: Developers (in English)
-    details: The verinice REST API...
+  - title: Entwicklerhandbuch
+    details: Die verinice REST API verstehen...
     link: /developers/
 ---
