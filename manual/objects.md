@@ -6,6 +6,8 @@ Im Abschnitt Objekte können Objekte angelegt, bearbeitet oder gelöscht werden.
 
 Die Navigation über das Menü oder das Dashboard öffnet die Objektübersicht, die immer eine gefilterte Liste von Objekten angezeigt.
 
+### Filter
+
 Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 
 ![Filterkriterien](/assets/manual/filter-chips.de.png)
@@ -15,6 +17,12 @@ Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 1. Für die Filterung nach weiteren Kriterien öffnen Sie den **Filterdialog**:
 
 ![Filter](/assets/manual/filter.de.png)
+
+### Suche
+
+
+
+### Liste
 
 Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb der Liste:
 
@@ -30,7 +38,7 @@ Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb d
 
 ## Objektansicht
 
-Nach öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spalten dargestellt:
+Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spalten dargestellt:
 
 ![Objektansicht](/assets/manual/object.de.png)
 
@@ -102,14 +110,14 @@ In der Seitenleiste der Formulare können durch Mausklick auf eines der Symbole 
 1. Die Seitenleiste **Verlauf** listet alle Änderungen an einem Objekt in **Versionen** auf. Der Umgang mit Versionen ist im folgenden Abschnitt beschrieben.
 1. Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
 
-### Seitenleiste Ansicht
+### Ansicht (Seitenleiste)
 
-### Seitenleiste Inhalt
+### Inhalt (Seitenleiste)
 
-### Seitenleiste Verlauf
+### Verlauf (Seitenleiste)
 
 verinice speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
 
 In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).
 
-### Seitenleiste Meldungen
+### Meldungen (Seitenleiste)
