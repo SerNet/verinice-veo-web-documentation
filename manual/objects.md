@@ -20,7 +20,11 @@ Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 
 ### Suche
 
+Um über die Filterung hinaus gezielt bestimmte Objekte zu finden, steht die **Suche** zur Verfügung.
 
+Per Vorgabe wird jeder eingegebene Text in Abkürzung und Name (und Designator) gesucht. Optional können Sie die Suche auf die Abkürzung oder den Namen beschränken:
+
+![Suche](/assets/manual/suche.de.gif)
 
 ### Liste
 
@@ -28,13 +32,13 @@ Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb d
 
 ![Objektübersicht](/assets/manual/object-list.de.png)
 
-1. Sie öffnen ein Objekt zur Bearbeitung durch Mausklick auf die jeweilige Zeile.
-1. Sortieren Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
-1. Je nach Anzahl der Objekte in der Liste navigieren Sie durch zusätzliche Seiten oder erweitern die Anzahl der je Seite dargestellten Objekte.
-1. Duplizieren Sie ein Objekt um eine Kopie zur weiteren Bearbeitung zu erstellen.
+1. Sie **öffnen** ein Objekt zur Bearbeitung durch Mausklick auf die jeweilige Zeile.
+1. **Sortieren** Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
+1. Je nach Anzahl der Objekte in der Liste **navigieren** Sie durch zusätzliche Seiten oder erweitern die Anzahl der je Seite dargestellten Objekte.
+1. **Duplizieren** Sie ein Objekt um eine Kopie zur weiteren Bearbeitung zu erstellen.
 1. Nicht mehr benötigte Objekte **löschen** Sie nach Bestätigung einer Sicherheitsabfrage.
-1. Stehen weitere Funktionen zur Verfügung können Sie diese hier auswählen.
-1. Erstellen Sie ein neues Objekt mit Objekttyp und Subtyp entsprechend der aktuellen Filterkriterien.
+1. Stehen **weitere Funktionen** zur Verfügung können Sie diese hier auswählen.
+1. **Erstellen** Sie ein neues Objekt mit Objekttyp und Subtyp entsprechend der aktuellen Filterkriterien.
 
 ## Objektansicht
 

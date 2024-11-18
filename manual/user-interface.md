@@ -21,14 +21,14 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 1. Die **Kontext-Hilfe** stellt Ihnen Tutorials zur aktuellen Seite zur Verfügung.
 1. Die **Dokumentation** wird in einem neuen Tab geöffnet.
 1. Über die Schaltfläche **Account** gelangen Sie zu weiteren Einstellungen:
-    - Benutzername und E-Mail des Angemeldeten werden angezeigt.
-    - [Benutzerkonto bearbeiten](./accounts) öffnet einen neuen Browser-Tab, in dem Sie z.B. das Passwort ändern oder eine 2-Faktor-Authentifizierung einrichten können.
-    - Als **Hauptnutzer** können Sie weitere Benutzer verwalten, sofern dies in Ihrem Plan vorgesehen ist.
-    - In diesem Abschnitt können Sie die bei der ersten Anmeldung aufgerufene Seite [Erste Schritte](./welcome) erneut aufrufen.
-    - Im Abschnitt [Datenübertragung](./data-transfer) können Sie Ihre Daten herunterladen.
-    - In unserer **Sicherheitsrichtlinie** beschreiben wir den Umgang mit Schwachstellen.
-    - **Über verinice** öffnet einen Dialog mit tiefergehenden Informationen.
-    - Beenden Sie die aktive Session über **Abmelden**.
+1. Benutzername und E-Mail des Angemeldeten werden angezeigt.
+1. [Benutzerkonto bearbeiten](./accounts) öffnet einen neuen Browser-Tab, in dem Sie z.B. das Passwort ändern oder eine 2-Faktor-Authentifizierung einrichten können.
+1. Als **Hauptnutzer** können Sie weitere Benutzer verwalten, sofern dies in Ihrem Plan vorgesehen ist.
+1. In diesem Abschnitt können Sie die bei der ersten Anmeldung aufgerufene Seite [Erste Schritte](./welcome) erneut aufrufen.
+1. Im Abschnitt [Datenübertragung](./data-transfer) können Sie Ihre Daten herunterladen.
+1. In unserer **Sicherheitsrichtlinie** beschreiben wir den Umgang mit Schwachstellen.
+1. **Über verinice** öffnet einen Dialog mit tiefergehenden Informationen
+1. Beenden Sie die aktive Session über **Abmelden**.
 
 ## Menü {#menue}
 
