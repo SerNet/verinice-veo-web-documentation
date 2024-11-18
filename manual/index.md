@@ -2,7 +2,7 @@
 
 In diesem Abschnitt ist die grundlegende Bedienung von verinice beschrieben.
 
-* Nach erstem Login bringen [Erste Schritte](first-steps) Sie auf den richtigen Weg.
+* Nach erstem Login bringen [Erste Schritte](welcome) Sie auf den richtigen Weg.
 * Die [Unit-Verwaltung](unit-management) dient als zentrale Anlaufstelle für die Verwaltung Ihrer Units, Domänen und Profile.
 * Eine Beschreibung der Bedienelemente finden Sie unter [Benutzeroberfläche](user-interface).
 * Das [Dashboard](user-interface#dashboard) dient als zentrales Navigationselement.
