@@ -21,7 +21,7 @@ Beim Arbeiten mit verinice muss zuerst immer eine Unit ausgewählt werden. Jedes
 
 ## Fachobjekte
 
-Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von verinice die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte Subtypen weiter präzisiert werden.
+Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von verinice die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte [Subtypen](domains#subtypen) weiter präzisiert werden.
 
 ![fachobjekte](/assets/object-model/fachobjekte.png)
 
