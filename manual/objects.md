@@ -84,8 +84,7 @@ Das Objektumfeldes zeigt dabei:
 
 ![Objektumfeld](/assets/manual/object-environment.de.png)
 
-1. Mit **Scopes** und/oder **Teile** den Blick *nach innen*.
-1. Mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
+1. Mit **Scopes** und/oder **Teile** den Blick *nach innen* und mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
 1. Mit **Links** aus dem Formular heraus verknüpfte Objekte als eingehende oder ausgehende Links.
 1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
 1. Mit **Bausteinen/Anforderung** bzw. **Zielobjekte** die Beziehung zwischen angewendeten Controls und den jeweiligen Objekten.
