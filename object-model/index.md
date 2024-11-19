@@ -11,3 +11,5 @@ Das Modell erfüllt auch Voraussetzungen für den Betrieb einer SaaS-Anwendung, 
 * [Domänen](domains)
 * [Objekte](objects)
 * [Formulare](forms)
+* [Kataloge](catalogs)
+* [Profile](profiles)
