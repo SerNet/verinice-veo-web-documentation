@@ -48,13 +48,13 @@ Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spal
 
 **Links:**
 
-1. Die [Objektbeschreibung](#objektbeschreibung).
+1. Die [Objektdetails](#objektdetails).
 1. Eine Tabelle mit allen Objekten im [Objektumfeld](#objektumfeld).
 
 **Rechts:**
 
 3. Das [Formular](#formular) mit allen Detailangaben.
-1. Die optional einblendbare Seitenleiste mit der [Ansicht](#seitenleiste-ansicht), dem [Inhalt](#seitenleiste-inhalt), dem [Verlauf](#seitenleiste-verlauf) und den [Meldungen](#seitenleiste-meldungen)
+1. Die optional einblendbare Seitenleiste mit der [Ansicht](#ansicht), dem [Inhalt](#inhalt), dem [Verlauf](#verlauf) und den [Meldungen](#meldungen)
 
 ::: info 5. Um die Arbeitsfläche je nach Aufgabenstellung optimal auszunutzen, können Sie die beiden Spalten mittels Button oder Tastatur ausblenden:
  - PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**
@@ -71,7 +71,7 @@ Die Objektdetails geben einen ersten schnellen Überblick über das aktuelle Obj
 
 ### Objektumfeld
 
-Das Objektumfeld kann je nach Objekttyp aus **Scopes**, **Teilen**, **Links**, **Risiken** oder **Maßnahmen (Bausteinen)** bestehen. Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Objekten im neuen [Objektmodell](/object-model/objects):
+Das Objektumfeld kann je nach Objekttyp und Domäne aus **Scopes**, **Teilen**, **Links**, **Risiken** oder **Anforderungen/Zielobjekten** bestehen. Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Objekten im neuen [Objektmodell](/object-model/objects):
 * **Scopes** können beliebige **Composite**-Objekte UND **Scope**-Objekte enthalten. Jedes **Scope**-Objekt und jedes **Composite**-Objekt kann dabei in verschiedenen **Scopes** enthalten sein!
 * **Composite**-Objekte können hingegen nur Objekte des SELBEN **Objekttyps** enthalten (Teile/Parts). Anders als eine Gruppe hat das **Composite**-Objekt dabei die gleichen Eigenschaften wie ein einzelnes Objekt des jeweiligen Objekttyps.
 
@@ -86,10 +86,10 @@ Das Objektumfeldes zeigt dabei:
 
 1. Mit **Scopes** und/oder **Teile** den Blick *nach innen*.
 1. Mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
-1. Mit **Links** aus dem Formular heraus verknüpfte Objekte.
+1. Mit **Links** aus dem Formular heraus verknüpfte Objekte als eingehende oder ausgehende Links.
 1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
-1. Mit **Maßnahmen/Bausteinen** wo vorhanden angewendete Controls.
-1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden. 
+1. Mit **Bausteinen/Anforderung** bzw. **Zielobjekte** die Beziehung zwischen angewendeten Controls und den jeweiligen Objekten.
+1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden.
 
 ### Formular
 
@@ -105,23 +105,30 @@ Die strukturierte Erfassung wird unterstützt durch die intelligente Auswertung 
 
 Jeder Subtyp eines Objekttyps muss durch mindestens ein spezifisches Formular dargestellt werden. Anders herum kann jeder Subtyp aber auch in verschiedenen Formularen abgebildet werden. Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Formular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung steht.
 
-In der Seitenleiste der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden:
+In der **Seitenleiste** der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden.
 
-![Seitenleiste](/assets/manual/object-details_sidebar.de.png)
+### Ansicht
 
-1. In der Seitenleiste **Ansicht** können Objekte je nach Subtyp in einem anderen Formular angezeigt werden.
-1. Formularinhalte werden in der Seitenleiste **Inhalt** strukturiert dargestellt. Durch Mausklick kann zu den einzelnen Abschnitten navigiert werden.
-1. Die Seitenleiste **Verlauf** listet alle Änderungen an einem Objekt in **Versionen** auf. Der Umgang mit Versionen ist im folgenden Abschnitt beschrieben.
-1. Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
+In der Seitenleiste **Ansicht** können Objekte je nach Subtyp in einem anderen Formular angezeigt werden.
 
-### Ansicht (Seitenleiste)
+![Ansicht](/assets/manual/form_view.png)
 
-### Inhalt (Seitenleiste)
+### Inhalt
 
-### Verlauf (Seitenleiste)
+Formularinhalte werden in der Seitenleiste **Inhalt** strukturiert dargestellt. Durch Mausklick kann zu den einzelnen Abschnitten navigiert werden.
+
+![Inhalt](/assets/manual/form_content.png)
+
+### Verlauf
 
 verinice speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
 
 In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).
 
-### Meldungen (Seitenleiste)
+![Verlauf](/assets/manual/form_history.png)
+
+### Meldungen
+
+Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
+
+![Meldungen](/assets/manual/form_decision.png)
