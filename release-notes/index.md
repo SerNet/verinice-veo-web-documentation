@@ -4,7 +4,7 @@
 
 Zum Zeitpunkt der Private Beta sind einige Einschränkungen und Fehler bekannt, die bis zur Veröffentlichung ausgeräumt werden.
 
-::: info Danke! Ich möchte direkt zu den [Release Notes verinice 30](verinice-30)
+::: info Danke! Ich möchte direkt zu den [Release Notes verinice 31](verinice-31)
 :::
 
 ### IT-Grundschutz
