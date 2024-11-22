@@ -54,7 +54,7 @@ Die Abbildung mitigierender Maßnahmen bei der Risikoreduktion wurde umfassend v
 Die Bedienung wurde vereinheitlicht:
 
 - Mausklick auf die Objekte öffnet den Baustein oder das Risiko zur Bearbeitung.
-- Über das Icon **Implementierung bearbeiten** kann die Umsetzung der Anforderungen bzw. der mitigierenden Maßnahmen (wenn vorhanden)bearbeitet werden.
+- Über das Icon **Implementierung bearbeiten** kann die Umsetzung der Anforderungen bzw. der mitigierenden Maßnahmen (wenn vorhanden) bearbeitet werden.
 
 Aus dem Risikodialog heraus:
 

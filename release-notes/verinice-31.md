@@ -19,6 +19,10 @@ Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release
 
 **Status: Produktiv**
 
+Die Kommunikation zwischen dem verinice.Shop und Keycloak wurde optimiert:
+- Die an verinice übertragene Produktkonfiguration umfasst jetzt neben Units und Usern auch die verfügbaren Domänen und Profile des jeweiligen Clients.
+- Die Kommunikation wurde aus Aspekten der Sicherheit verbessert.
+
 ### Detailverbesserungen und Fehlerbehebungen
 
 ## Domäne Datenschutz
