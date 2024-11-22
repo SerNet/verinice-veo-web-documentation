@@ -14,7 +14,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 ![Anwendungsleiste](/assets/manual/app-bar.de.png)
 
-1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./units).
+1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./unit-management).
 1. Über die **Breadcrumb** navigieren Sie direkt zu allen aufgeführten Objekten.
 1. Wechseln Sie zwischen **Hell/Dunkel-Modus**.
 1. Mit dem **Sprachumschalter** wechseln Sie zwischen deutscher und englischer Sprache.
@@ -36,7 +36,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 ![Menü](/assets/manual/menu.de.png)
 
-1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./units) um Units anzulegen oder zu bearbeiten.
+1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./unit-management) um Units anzulegen oder zu bearbeiten.
 1. Mit dem **Unit-Selector** wechseln Sie direkt in eine andere Unit.
 1. Mit dem **Domänen-Selector** wechseln Sie in eine andere Domäne.
 1. Das [Dashboard](#dashboard) bietet einen Überblick über alle Objekte und deren Status (Lebenszyklus) und ermöglicht Ihnen die Navigation zu allen Objekten.
