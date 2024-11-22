@@ -1,6 +1,6 @@
 # Roadmap
 
-Das verinice.Team arbeitet aktuell an den folgenden Features und Funktionen:
+Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
 ## Allgemeine Funktionen
 
@@ -12,20 +12,34 @@ Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwende
 - Konfiguration/Erweiterung der Schutzziele
 - Mehrere Risikodefinitionen je Domäne
 
+### CSV-Import
+
+Um die Strukturanalyse zu vereinfachen, sollen Daten aus anderen Systemen per CSV-Import in verinice übernommen werden.
+
 ### Dokumentation
 
 Die Dokumentation wird komplettiert und internationalisiert (EN).
 
 ## Domäne IT-Grundschutz
 
+Detailverbesserungen und weitere Optimierung der Methodik nach BSI IT-Grundschutz.
+
 ## Domäne DS-GVO
+
+Komplettieren der Umstellung auf Control Implementation und Requirement Implementation.
 
 ## Domäne NIS-2
 
+Vorbereitung des GoLive.
+
 ## Domäne ISO
 
-Erstellung eines ersten Prototypen (Objekte, Subtypen und Formular).
+Fertigstellung eines ersten Prototypen und einer ersten Version des Risikokatalogs.
 
 ## Domäne TISAX
 
-Erstellung eines ersten Prototypen (Objekte, Subtypen und Formular).
+Fertigstellung eines ersten Prototypen.
+
+## Domäne BCM
+
+Erstellung eines ersten Prototypen.
