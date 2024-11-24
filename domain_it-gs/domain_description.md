@@ -4,45 +4,45 @@
 
 ### Scopeobjekte
 
-- Institutionen
-- Informationsverbünde
-- Externe Dienstleister
-- Scopes (allgemein)
+- **Institutionen:** Zur Abbildung der Instutution mit den wichtigsten Stammdaten.
+- **Informationsverbünde:** Inforationsverbünde zur Erstellung von Sicherheitskonzepten.
+- **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Orgnisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
+- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
 
 ### Prozessobjekte
 
-- Geschäftsprozesse
-- Fachverfahren
+- **Geschäftsprozesse:** Zur Dokumentation der Kernprozesse und weiterer unterstützender Prozesse.
+- **Fachverfahren:** Zur Dokumentation spezifischer Fachverfahren.
 
 ### Assetobjekte
 
-- Informationen
-- Anwendungen
-- IT-Systeme
-- ICS-Systeme
-- IoT-Systeme
-- Kommunikationsverbindungen
-- Räume
+- **Informationen:** In Geschäftsprozessen, Fachverfahren oder Anwendungen verarbeitete Informationen.
+- **Anwendungen::** Zielobjekt (Software-)Anwendung nach IT-Grundschutz.
+- **IT-Systeme:** Zielobjekte wie Server, CLients, etc. nach IT-Grundschutz.
+- **ICS-Systeme:** Zielobjekt industrielle Steuerungssysteme nach IT-Grundschutz.
+- **IoT-Systeme:** Zielobjekt Interne-og-Things nach IT-Grundschutz.
+- **Kommunikationsverbindungen:** Zielobjekt Kommunikations- und Netzwerkverbindungen nach IT-Grundschutz.
+- **Räume:** Zielobjekt Standort, Gebäude oder Räume nach IT-Grundschutz.
 
 ### Personenobjekte
 
-- Personen
+- **Personen:** Personen(gruppen) oder Rollen.
 
 ### Incidentobjekte
 
-- Informationssicherheitsvorfälle
+- **Informationssicherheitsvorfälle:** Zur Dokumentation von Incidents/Vorfällen.
 
 ### Dokumentenobjekte
 
-- Netzpläne
-- Referenzdokumente
-- Dokumente (allgemein)
+- **Netzpläne:** Dokumentenobjekt zur Speicherung von (Teil-)Netzplänen.
+- **Referenzdokumente:** Zur Speicherung von erstellten [Referenzdokumenten](#reports).
+- **Dokumente (allgemein):** Zur Speicherung beliebiger sonstiger Dokumentation.
 
 ### Controlobjekte
 
 - **Bausteinfamilien:** Alle System- und Prozessbausteine.
-- **Bausteinschichten:** 
-- **Bausteine:** Alle Bausteine 
+- **Bausteinschichten:** Alle Schichten des IT-Grundschutz-Kompendium (ISMS, ORP, CON, OPS, DER, APP, SYS, IND, NET, INF).
+- **Bausteine:** Alle Bausteine des IT-Grundschutz-Kompendiums.
 - **Anforderungen:** Alle Anforderungen zu allen Bausteinen des IT-Grundschutz-Kompendium.
 
 ### Szenarien
