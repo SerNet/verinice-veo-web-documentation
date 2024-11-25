@@ -10,11 +10,11 @@ Die Datenschutz-Folgenabschätzung stellt in verinice einen Subtyp des Zielobjek
 Darüber hinaus gibt es die Besonderheit, dass eine DSFA bei Erfassung der ihr zugehörigen Verarbeitungstätigkeit über die Rubrik *Meldungen >DSFA erstellen* neu angelegt werden kann.
 Dieser Hinweis erscheint jedoch nur, wenn die automatisierten Entscheidungshilfe zum Ergebnis kommt, dass eine DSFA erforderlich ist, aber noch nicht durchgeführt wurde.
 
-![DSFA](/assets/domain_ds-gvo/Bild16.png)
+![DSFA](/assets/domain-ds-gvo/Bild16.png)
 
 *Hinweis*: Die neue DSFA wird in diesem Fall automatisch als Teile der zugehörigen Verarbeitungstätigkeit aufgeführt. 
 
-![DSFA](/assets/domain_ds-gvo/Bild17.png)
+![DSFA](/assets/domain-ds-gvo/Bild17.png)
 
 ## Formularinhalte DSFA
 

@@ -84,4 +84,4 @@ Die Domäne IT-Grundschutz stellt als Reports die Referenzdokumente bereit:
 
 Die Standard-Risikodefinition **Grundschutz-Risikoanalyse** (GSRA) basiert auf den im BSI-Standard 200-3 empfohlenen Parametern:
 
-![GSRA](/assets/domain_it-gs/verinice-31_gsra.de.png)
+![GSRA](/assets/domain-it-gs/verinice-31_gsra.de.png)

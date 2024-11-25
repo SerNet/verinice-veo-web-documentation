@@ -6,35 +6,35 @@ Verarbeitungstätigkeiten stellen in verinice.DSMS einen Subtyp des Zielobjektes
 Sie gelangen über das Dashboard mit Klick auf das *Formular Verarbeitungstätigkeiten* in die sog. *Objektübersicht* und können nun mit dem roten *Plus-Button* eine neue Verarbeitungstätigkeit erstellen.
 
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild1.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild1.png)
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild1a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild1a.png)
 
 Oder Sie navigieren über das Hauptmenü über *Objekte >Prozesse >Verarbeitungstätigkeiten* in die *Objektübersicht* und erstellen über den roten *Plus-Button* eine neue Verarbeitungstätigkeit.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild2.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild2.png)
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild2a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild2a.png)
 
 In dem sich öffnenden Dialog können Sie, wenn gewünscht, sämtliche Informationen, mindestens aber Name und Status zum Formular *Verarbeitungstätigkeiten* eingeben und abspeichern.
 Die Verarbeitungstätigkeit wird nun als neues Objekt in der Objektansicht aufgelistet.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild3.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild3.png)
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild3a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild3a.png)
 
 Mit Klick auf das Objekt kann die neu angelegte Verarbeitungstätigkeit zur weiteren Bearbeitung geöffnet werden.
 Ihnen stehen nun zwei Ansicht zur Verfügung. Die *Detailansicht* im linken Bereich und die *Formularansicht* im rechten Bereich.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild4.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild4.png)
 
 Die Informationen für die Verarbeitungstätigkeiten müssen im gleichnamigen Formular und somit in der Formularansicht eingegeben werden. Für eine bessere Übersicht können Sie die Detailansicht verstecken über die Funktion Objektdetails verstecken. Bei Bedarf kann der Vorgang jederzeit rückgängig gemacht werden über die Funktion Objektdetails anzeigen.
 
 Hinweis: Die Aufteilung *Detailansicht und Formularansicht* besteht bei sämtlichen Zielobjekten.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild4a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild4a.png)
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild4b.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild4b.png)
 
 In den folgenden Abschnitten kann die Verarbeitungstätigkeit DS-GVO-konform dokumentiert werden:
 
@@ -46,11 +46,11 @@ In diesem Abschnitt haben Sie die Möglichkeit neben einer Verarbeitungsbeschrei
 
 Die/der Verantwortliche muss bestimmt werden. Über die Funktion Link hinzufügen stehen Ihnen Verantwortliche, die Sie bereits über das Formular Verantwortliche angelegt zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion Link hinzufügen >Verantwortliche, Art. 4 Nr. 7 DS-GVO erstellen erfolgen.
 
-![Verantwortliche](/assets/domain_ds-gvo/Bild5.png)
+![Verantwortliche](/assets/domain-ds-gvo/Bild5.png)
 
 Im sich öffnenden Dialog können nun sämtliche Informationen, mindestens aber Name und Status zum Formular Verantwortliche, Art. 4 Nr. 7 DS-GVO eingeben und abspeichern werden. Das so angelegte neue Objekt wird nun im Formular Verarbeitungstätigkeiten als neu hinzugefügtes Objekt aufgeführt. 
 
-![Verantwortliche](/assets/domain_ds-gvo/Bild5a.png)
+![Verantwortliche](/assets/domain-ds-gvo/Bild5a.png)
 
 Darüber hinaus wird dieses neu angelegte Objekt innerhalb des Zielobjektes Scope Subtyps Verantwortliche Art. 4 Nr. 7 DS-GVO einsortiert.
 
@@ -60,7 +60,7 @@ Wird eine Verarbeitung als Auftragsverarbeitung vorgenommen, ist diese Informati
 Als Reaktion stehen Ihnen nun über die Funktion Link hinzufügen sämtliche Auftraggeber, die Sie bereits über das Formular Auftraggeber angelegt haben zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion Link hinzufügen >Auftraggeber erstellen erfolgen.
 Im sich öffnenden Dialog können nun sämtliche gesetzlich geforderten Informationen, mindestens aber Name und Status zum Formular Auftraggeber eingeben und abspeichern werden. Dieses Objekt wird nun im Formular Verarbeitungstätigkeiten als neu hinzugefügtes Objekt des Typs Auftraggeber aufgeführt. Zu jedem Auftraggeber können auch Dokumente verlinkt werden. 
 
-![Auftragsverarbeiter](/assets/domain_ds-gvo/Bild6.png)
+![Auftragsverarbeiter](/assets/domain-ds-gvo/Bild6.png)
 
 Darüber hinaus wird dieses neu angelegte Objekt innerhalb des Zielobjektes Scope Subtyps Auftraggeber einsortiert.
 
@@ -86,7 +86,7 @@ Jede Verarbeitung personenbezogener Daten bedarf einer gesetzlichen Legitimation
 Lässt die DS-GVO einen Regelungsspielraum zu, können als Rechtsgrundlagen Regelungen aus dem allgemeinen sowie ggf. auch im bereichsspezifischen nationalen Datenschutzrecht (Landesrecht oder Bundesrecht) einschlägig sein.
 Eine Bestimmung der Rechtsgrundlagen erfolgt über das zugehörige Auswahlfeld (Mehrfachauswahl). Da hier keine abschließende Aufzählung erfolgen kann, besteht über die Option *Sonstige Rechtsgrundlagen* die Möglichkeit, spezifische Normen manuell im Textfeld zu dokumentieren.
 
-![Rechtsgrundlagen](/assets/domain_ds-gvo/Bild7.png)
+![Rechtsgrundlagen](/assets/domain-ds-gvo/Bild7.png)
 
 Unter Erläuterung führen Sie Ihre Ausführungen zur Rechtmäßigkeit der Verarbeitung aus. Unter Umständen kann es für die Darlegung und Begründung der einschlägigen Rechtsgrundlagen
 erforderlich sein, umfangreichere Rechtsgutachten zu verfassen. Über die Schaltfläche *Dokument* verlinken Sie ggf. auf weitere zentral abgelegte Nachweisdokumente.
@@ -98,7 +98,7 @@ Zu jeder Datenart können nun Angaben zu Herkunft der Daten und Löschfristen er
 Pro Datenkategorie sind konkrete Löschfristen zu bestimmen, also der Zeitraum, nach dem die Speicherung der Daten beendet ist. Hierzu sind gesetzlich geregelte Aufbewahrungs- und Löschfristen anzugeben ebenso wie selbst festgelegte Fristen.
 Im Abschnitt der Löschfristen können Sie selbige hinterlegen und das Löschverfahren beschreiben.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild8.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild8.png)
 
 ## Kategorien betroffener Personen
 
@@ -126,7 +126,7 @@ Werden personenbezogene Daten einer betroffenen Person erhoben, so teilt der Ver
 In der Domäne DS-GVO können Sie für Verarbeitungstätigkeiten, Datenübertragungen, DSFA, Anwendungen und IT-Systeme die *Potentielle Auswirkung* festlegen. 
 Öffnen Sie dazu das jeweilige Zielobjekt durch doppelten Mausklick und scrollen Sie im Editor bis zum Abschnitt Potentielle Auswirkung oder navigieren Sie in der Inhaltsübersicht zum Abschnitt Potentielle Auswirkung. Wählen Sie in den Drop-Down-Menüs den entsprechenden Wert *vernachlässigbar, begrenzt, beträchtlich oder existenzbedrohend* für die 4 Grundwerte *Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit* aus.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild9.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild9.png)
 
 ## Risikoanalyse und Risikobehandlung
 
@@ -135,22 +135,22 @@ Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte fo
 • Wählen Sie in der Detailansicht den Reiter *Risiken*.
 • Über den roten *Plus-Button* können Sie für Ihre Verarbeitungstätigkeit ein Risiko hinzufügen.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild10.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild10.png)
 
 • Treffen Sie eine passende Auswahl aus den Datenschutzgefährdungen.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild10a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild10a.png)
 
 Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell angewandten Gefährdungen. Zudem haben Sie haben die Möglichkeit eigene individuelle Gefährdungen als Objekte über das Formular Gefährdungen anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
 
 • Im Risikodialog können Sie nun u.a. die spezifische Werte für die Eintrittswahrscheinlichkeit und Auswirkung setzen.
 • Für die Risikobehandlung stehen Ihnen die Optionen *Risikovermeidung, Risikoreduktion, Risikotransfer, Risikoakzeptanz* zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind. 
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild10b.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild10b.png)
 
 • Bei gewählter Risikobehandlungsoption *Risikoreduktion* kann das Risiko durch Hinzufügen *Mitigierender Maßnahmen* reduziert werden entweder durch die Erstellung neuen Maßnahmen oder der Verknüpfung von (bereits erfassten) Maßnahmen.
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild10c.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild10c.png)
 
 ## Datenschutz-Folgenabschätzung (DSFA) erforderlich?
 
@@ -162,13 +162,13 @@ Hierbei wurden die gesetzlichen Entscheidungsparameter wie z.B.:
 • Steht die Verarbeitung auf der Positivliste nach Art. 35 IV DS-GVO?
 • Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkannter Maßen eine DSFA erfordern?
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild11.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild11.png)
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild11a.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild11a.png)
 
 Je nach Auswahl erscheint unter der Rubrik *Meldungen* der Hinweis, ob eine DSFA erforderlich ist, versehen mit einer kurzen Begründung. Diese Entscheidung können Sie selbstverständlich überstimmen und eine DSFA freiwillig durchführen
 
-![Datenübertragung](/assets/domain_ds-gvo/Bild12.png)
+![Datenübertragung](/assets/domain-ds-gvo/Bild12.png)
 
 Sofern eine Datenschutz-Folgenabschätzung erforderlich ist, können Sie diese wie im Kapitel DSFA beschrieben, effektiv in verinice.DSMS durchführen.
 

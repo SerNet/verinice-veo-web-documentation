@@ -26,10 +26,10 @@ features:
     link: /manual/
   - title: Die Domäne DS-GVO
     details: Den Datenschutz nach DS-GVO in verinice umsetzen...
-    link: /domäne_ds-gvo/
+    link: /domain-ds-gvo/
   - title: Die Domäne IT-Grundschutz
     details: Den IT-Grundschutz in verinice umsetzen...
-    link: /domäne_it-gs/
+    link: /domain-it-gs/
   - title: Das Objektmodell
     details: Das Objektmodell in verinice verstehen...
     link: /object-model/
