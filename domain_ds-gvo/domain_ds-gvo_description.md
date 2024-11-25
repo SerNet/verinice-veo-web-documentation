@@ -4,27 +4,27 @@
 
 ### Scopeobjekte
 
-- **Verantwortliche, Art. 4 Nr. 7 DS-GVO:**.
-- **Auftragsverarbeiter:**.
-- **Auftraggeber:**.
-- **Gemeinsame Verantwortliche:**.
+- **Verantwortliche, Art. 4 Nr. 7 DS-GVO:** Zur Dokumentation der Verantwortlichen Stelle.
+- **Auftragsverarbeiter:** Zur Dokumentation der Auftragsverarbeiter nach Art. 4 Nr. 8, 28 DS-GVO.
+- **Auftraggeber:** Zur Dokumentation von Auftraggebern, für die eine Auftragsverarbeitung durchgeführt wird.
+- **Gemeinsame Verantwortliche:** Erfassen Sie gemeinasam Veranwortliche.
 - **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
 
 ### Prozessobjekte
 
-- **Verarbeitungstätigkeiten:**.
-- **Datenübertragungen:**.
-- **Datenschutz-Folgeabschätzungen:**.
+- **Verarbeitungstätigkeiten:** Dokumentation der Verarbeitungstätigkeiten zum Aufbau des Verzeichnisses der Verarbeitungstätigkeiten..
+- **Datenübertragungen:** Erfassung der konkreten Datenübertragungen.
+- **Datenschutz-Folgeabschätzungen:** Durchgeführte Datenschutz-Folgenabschätzungen.
 
 ### Assetobjekte
 
 - **Datenarten:** In Verarbeitungstätigkeiten, Datenübertragungen oder Anwendungen verarbeitete Informationen.
-- **Anwendungen::**.
-- **IT-Systeme:**.
+- **Anwendungen:** Anwendungen, in den (personenbezogene) Daten verabeitet werden.
+- **IT-Systeme:** Systeme, auf oder mit denen (personenbezogene) Daten verabeitet werden..
 
 ### Personenobjekte
 
-- **Datenschutzbeauftragte:**.
+- **Datenschutzbeauftragte:** Zur Dokumentation der Bestellung von mit dem Datenschutz betrauten Personen.
 - **Personen:** Personen(gruppen) oder Rollen.
 
 ### Incidentobjekte
@@ -33,51 +33,42 @@
 
 ### Dokumentenobjekte
 
-- **Verträge:**.
-- **Dokumente (allgemein):**.
-- **Betroffenenanfragen:**.
+- **Verträge:** Zur Speicherung von Veträgen.
+- **Dokumente (allgemein):** Zur allgemeinen Dokumentation.
+- **Betroffenenanfragen:** Zur Dokumentation von Anfragen Betroffener.
 
 ### Controlobjekte
 
-- **TOMs:**.
+- **TOMs:** Generische Technisch-Organisatorische Maßnahmen.
 
 ### Szenarien
 
-- **Gefährdungen:**.
+- **Gefährdungen:** Datenschutzgefährdungen zur Verwendung in der Risikoanalyse.
 
 ## Katalog
 
-Der Katalog der Domäne IT-Grundschutz stellt das aktuell gültige IT-Grundschutz-Kompendium der Edition 2023 zur Verfügung. Im Katalog sind alle Bausteine mit Anforderungen und den elementaren Gefährdungen anthalten.
+Der Katalog der Domäne DS-GVO stellt grundlegende Technisch-Organisatorische Maßnahmen und Datenschutzgefährdungen zur Verfügung.
 
 ## Profile
 
-Es stehen zwei Profile zur Anwendung bereit:
-
-### Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023
-
-Durch Anwenden dieses Profiles wird eine Modellierung nach der Vorgehensweise Standard- oder Kernabsicherung auf Basis des gesamten IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt. Es werden Beispiel-Zielobjekte zu allen Bausteinen in Ihrer aktiven Unit erzeugt, die einfach an Ihre Institution angepasst werden können.
-
-### Basis-Absicherung Kommunalverwaltung Version 4.0
-
-Durch Anwenden dieses Profiles wird eine Modellierung nach dem IT-GS Profil Basis-Absicherung Kommulaverwaltung V.4 auf Basis des IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt.
+Das Profil **Beispieldaten** erstellt eine Beispielorganisation mit allen wichtigen Elemente für die Abbildung der DS-GVO in verinice. In Ihrer aktiven Unit werden Verarbeitungstätigkeiten, Auftragsverarbeiter, Auftraggeber, Datenschutz-Folgenabschätzungen, Datenschutzvorfälle, Betroffenenanfragen, TOMs sowie weitere Beispielobjekte angelegt, um verinice mit alle Datenschutzrelevanten Funktionen kennenzulernen.
 
 ## Decisions
 
-Keine
+Im Objekt Verarbeitungstätigkeit wird die [Erfordernis einer Datenschutz-Folgenabschätzung](./data_processing#datenschutz-folgenabschätzung-dsfa-erforderlich) durch eine Decision unterstützt.
 
 ## Reports
 
-Die Domäne IT-Grundschutz stellt als Reports die Referenzdokumente bereit:
+Die Domäne DS-GVO stellt die folgenden Reports bereit:
 
-- **A.1 Strukturanalyse:** Eine Übersicht über die Geschäftsprozesse und die verschiedenen Assets.
-- **A.2 Schutzbedarfsfeststellung:** Eine Übersicht der Schutzbedarfsfeststellung.
-- **A.3 Modellierung:** Eine Übersicht über die Zielobjekte und modellierten Bausteine.
-- **A.4 Ergebnis des IT-Grundschutz-Checks:** Eine Übersicht über den Umsetzungsstatus der Anforderungen.
-- **A.5 Risikoanalyse:** Eine Übersicht über die Risiken und deren mitigierenden Maßnahmen.
-- **A.6 Realisierungsplan:** Eine Übersicht über die bestehenden Defizite bei der Umsetzung von Sicherheitsmaßnahmen.
+- **Verzeichnis der Verarbeitungstätigkeiten:** Eine detaillierte Übersicht über die in einem Scope durchgeführten Verarbeitungstätigkeiten.
+- **Datenschutz-Risikoanalyse:** Über die bestehenden Risiken für die Verarbeitungstätigkeiten in einer verantwortlichen Stelle.
+- **Datenschutz-Folgenabschätzung:** Eine Auflistung der Informationen zu durchgeführten Datenschutz-Folgenabschätzungen.
+- **Auftragsverarbeitungen gemäß Art. 30 II DS-GVO:** Dokumentation über die Auftraggeber und für sie durchgeführte Verarbeitungstätigkeiten (Auftragsverarbeitung).
+- **Betroffenenanfrage:** Eine detaillierte Darstellung einer dokumentierten Betroffenenanfrage.
+- **Übersicht Betroffenenanfragen:** Eine Übersicht über die dokumentierten Betroffenenanfragen einer Verantwortlichen.
+- **Meldeformular Datenschutzvorfall:** Eine detaillierte Übersicht über die dokumentierten Datenschutzvorfälle einer Verantwortlichen.
 
 ## Risikodefinition
 
-Die Standard-Risikodefinition **Grundschutz-Risikoanalyse** (GSRA) basiert auf den im BSI-Standard 200-3 empfohlenen Parametern:
-
-
+Die Standard-Risikodefinition **Datenschutz-Risikoanalyse** (DSRA) enthält die Schutzziele Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit.

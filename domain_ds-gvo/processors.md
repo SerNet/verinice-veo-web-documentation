@@ -5,4 +5,4 @@ Neben allgemeinen Informationen wie Kontaktinformationen und zuständige Aufsich
 
 ![Auftragsverarbeiter](/assets/domain_ds-gvo/Bild21.png) 
 
-Angelegte Objekte stehen Ihnen bei *Verarbeitungstätigkeiten >Datenübertragung an* als Empfängertyp Auftragsverarbeiter zur Auswahl zur Verfügung. Einzelheiten hierzu Kapitel 2. Datenübertragung. Eingesetzte bzw. verknüpfte Auftragsverarbeiter werden im Report Verzeichnis der Verarbeitungstätigkeiten mit ausgegeben.
+Angelegte Objekte stehen Ihnen bei *Verarbeitungstätigkeiten >Datenübertragung an* als Empfängertyp Auftragsverarbeiter zur Auswahl zur Verfügung. Einzelheiten hierzu siehe Datenübertragung. Eingesetzte bzw. verknüpfte Auftragsverarbeiter werden im Report Verzeichnis der Verarbeitungstätigkeiten mit ausgegeben.

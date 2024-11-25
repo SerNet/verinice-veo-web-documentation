@@ -107,8 +107,8 @@ Sollten die zur Auswahl stehenden Optionen nicht zutreffen oder ausreichen, ist 
 
 ## Zugriffsberechtigte Personen (Gruppen)
 
-Personen und Personengruppen, die berechtigt sind, auf die verarbeiteten personenbezogenen Daten zuzugreifen, sind zu dokumentieren. Der zugrunde liegende Mechanismus kann und wird üblicher Weise über ein Rechte- und Rollenbasiertes Berechtigungskonzept abgebildet. Die Implementierung kann über die Option Berechtigungskonzept vorhanden dokumentiert werden. Die konkrete Umsetzung
-können Sie auf mehrerlei Art dokumentieren:
+Personen und Personengruppen, die berechtigt sind, auf die verarbeiteten personenbezogenen Daten zuzugreifen, sind zu dokumentieren. Der zugrunde liegende Mechanismus kann und wird üblicher Weise über ein Rechte- und Rollenbasiertes Berechtigungskonzept abgebildet. Die Implementierung kann über die Option Berechtigungskonzept vorhanden dokumentiert werden. Die konkrete Umsetzung können Sie auf mehrerlei Art dokumentieren:
+
 • Im Freitextfeld Beschreibung des Berechtigungskonzepts
 • Durch Verlinkung auf ein an anderer Stelle gepflegten Dokument.
 
@@ -130,7 +130,8 @@ In der Domäne DS-GVO können Sie für Verarbeitungstätigkeiten, Datenübertrag
 
 ## Risikoanalyse und Risikobehandlung
 
-Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte folgendermaßen vor: 
+Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte folgendermaßen vor:
+
 • Wählen Sie in der Detailansicht den Reiter *Risiken*.
 • Über den roten *Plus-Button* können Sie für Ihre Verarbeitungstätigkeit ein Risiko hinzufügen.
 
@@ -154,13 +155,12 @@ Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell 
 ## Datenschutz-Folgenabschätzung (DSFA) erforderlich?
 
 verinice.DSMS unterstützt Sie über eine automatisierte Entscheidungshilfe bei der Feststellung, ob eine Datenschutz-Folgenabschätzung (DSFA) durchzuführen ist.
-Hierbei wurden die gesetzlichen Entscheidungsparameter wie z.B.
+Hierbei wurden die gesetzlichen Entscheidungsparameter wie z.B.:
+
 • Steht die Verarbeitung auf der Negativliste nach Art. 35 V DS-GVO?
 • Ist die Verarbeitung Teil einer gemeinsamen Verarbeitung gem.. Art. 35 I S.2 DS-GVO?
 • Steht die Verarbeitung auf der Positivliste nach Art. 35 IV DS-GVO?
-• Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkannter Maßen eine
-DSFA erfordern?
-berücksichtigt.
+• Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkannter Maßen eine DSFA erfordern?
 
 ![Datenübertragung](/assets/domain_ds-gvo/Bild11.png)
 
