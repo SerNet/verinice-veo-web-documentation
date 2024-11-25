@@ -2,7 +2,7 @@
 
 ## Schutzbedarfsdefinition
 
-Die institutionsweiten und für alle Zielobjekte gültigen **Schutzbedarfskategorien** für die **Schutzziele** werden in der [Risikodefinition](./domain-it-gs_description#risikodefinition) definiert. Navigieren Sie dazu im Menü zu den **Risikodefinitionen** und anschließend **GSRA**. Hier können Sie mit einem **Klick auf den Stift** die Kategorien der Schutzziele bearbeiten.
+Die institutionsweiten und für alle Zielobjekte gültigen **Schutzbedarfskategorien** für die **Schutzziele** werden in der [Risikodefinition](./domain-it-gs-description#risikodefinition) definiert. Navigieren Sie dazu im Menü zu den **Risikodefinitionen** und anschließend **GSRA**. Hier können Sie mit einem **Klick auf den Stift** die Kategorien der Schutzziele bearbeiten.
 
 ![Schutzbedarfsdefinitionen](/assets/domain-it-gs/4-Schutzbedarf-Definitionen.png)
 

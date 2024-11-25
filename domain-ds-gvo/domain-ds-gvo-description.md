@@ -55,7 +55,7 @@ Das Profil **Beispieldaten** erstellt eine Beispielorganisation mit allen wichti
 
 ## Decisions
 
-Im Objekt Verarbeitungstätigkeit wird die [Erfordernis einer Datenschutz-Folgenabschätzung](./data_processing#datenschutz-folgenabschätzung-dsfa-erforderlich) durch eine Decision unterstützt.
+Im Objekt Verarbeitungstätigkeit wird die [Erfordernis einer Datenschutz-Folgenabschätzung](./data-processing#datenschutz-folgenabschätzung-dsfa-erforderlich) durch eine Decision unterstützt.
 
 ## Reports
 

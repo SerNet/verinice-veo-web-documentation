@@ -1,3 +1,0 @@
-# Vorgehensweise der Absicherung
-
-WIP
