@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Release Notes
-      link: /release-notes/verinice-30
+      link: /release-notes/verinice-31
     - theme: brand
       text: Known Issues
       link: /release-notes/
@@ -21,13 +21,19 @@ hero:
       link: /roadmap/
 
 features:
-  - title: Benutzerhandbuch 
-    details: Zum verinice-Benutzerhandbuch...
+  - title: Das Benutzerhandbuch 
+    details: Die grundlegende Bedienung von verinice kennenlernen...
     link: /manual/
-  - title: Objektmodell
-    details: Das Objektmodell in verinice erklärt...
+  - title: Die Domäne DS-GVO
+    details: Den Datenschutz nach DS-GVO in verinice umsetzen...
+    link: /domäne_ds-gvo/
+  - title: Die Domäne IT-Grundschutz
+    details: Den IT-Grundschutz in verinice umsetzen...
+    link: /domäne_it-gs/
+  - title: Das Objektmodell
+    details: Das Objektmodell in verinice verstehen...
     link: /object-model/
-  - title: Entwicklerhandbuch
+  - title: Das Entwicklerhandbuch
     details: Die verinice REST API verstehen...
     link: /developers/
 ---
