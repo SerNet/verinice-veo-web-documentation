@@ -40,7 +40,7 @@ Zur Steigerung der allgemeinen Qualität wurde die Testabdeckung durch eine Viel
 - Entfernen der problematischen Option **All** in der Paginierung von Tabellen/Listen.
 - Fehlerhafte Anzeige bei der **Paginierung in Katalogen** behoben.
 - **Keycloak** auf Version 26.0.4 aktualisiert.
-- Benutze Pakete und Bibliotheken auf aktuellste Versionen gepatcht.
+- Benutzte Pakete und Bibliotheken auf aktuellste Versionen gepatcht.
 - Diverse kleinere Fehlerbehebungen.
 
 ## Domäne Datenschutz
@@ -49,7 +49,7 @@ Zur Steigerung der allgemeinen Qualität wurde die Testabdeckung durch eine Viel
 
 ### Schemaoptimierung
 
-Um die Kompatibilität mit neuen Funktionen und neuen Domänen zu gewährleisten, wurden Objektschema und Formschema optimiert. Die Änderungen werden in einer automatischen Datenmigration mit Release/Deployment von verinice 31 automatisch migriert. Bestandskunden werden wo erforderlich perönlich über anstehende Änderungen informiert.
+Um die Kompatibilität mit neuen Funktionen und neuen Domänen zu gewährleisten, wurden Objektschema und Formschema optimiert. Die Änderungen werden in einer automatischen Datenmigration mit Release/Deployment von verinice 31 automatisch migriert. Bestandskunden werden wo erforderlich persönlich über anstehende Änderungen informiert.
 
 ### Schutzbedarf
 
@@ -69,12 +69,12 @@ Die **Vorgehensweise der Absicherung** von Anforderungen wird jetzt wo erforderl
 
 ### Risikomitigierende Maßnahmen
 
-Für risikomitigierenden Maßnahmen in der Domäne IT-Grundschutz wird jetzt der Mechanismus der **Zuordnung** und **Umsetzung** (Control Implementation und Requirement Implementation) genutzt, der auch bei der *Compliance* verwendet wird
+Für risikomitigierende Maßnahmen in der Domäne IT-Grundschutz wird jetzt der Mechanismus der **Zuordnung** und **Umsetzung** (Control Implementation und Requirement Implementation) genutzt, der auch bei der *Compliance* verwendet wird:
 
 ![Risikomitigierende Maßnahmen](/assets/release-notes/verinice-31_CI-RI_risikomitigation.de.png)
 
-#### IT-Grundschutz-Profil Basisabsicherung Kommunalverwaltung V.4
+#### IT-Grundschutz-Profil Basis-Absicherung Kommunalverwaltung V.4
 
-Neben dem Profil Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023 steht als erstes IT-Grundschutz-Profil nun die **Basis-Absicherung Kommunalverwaltung Version 4.0** zur Verfügung:
+Neben dem Profil **Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023** steht als erstes IT-Grundschutz-Profil nun die **Basis-Absicherung Kommunalverwaltung Version 4.0** zur Verfügung:
 
 ![Basis-Absicherung Kommunalverwaltung Version 4.0](/assets/release-notes/verinice-31_profile.de.png)
