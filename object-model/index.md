@@ -1,15 +1,7 @@
 # Objektmodell
 
-verinice unterstützt Anwender bei Aufbau und Betrieb von Managementsystemen für Informationssicherheit und Datenschutz. Im Objektmodell von verinice sind dafür generische Fachobjekte definiert, die gleichzeitig für die verschiedenen Managementsysteme verwendet werden können. Es gibt ein Modell, mit dem alle Verfahren und Standards abgebildet werden können.
-
-Das hat den Vorteil, dass ein Anwender z.B. mit dem Aufbau eines ISMS nach ISO 27000 beginnen kann und dieselben Daten später aber auch für ein Verzeichnis der Verarbeitungstätigkeiten verwenden kann. Das Fachobjekt Prozess kann im Datenschutz ein Verfahren für ein Verzeichnis der Verarbeitungstätigkeiten sein und gleichzeitig auch Teil einer Risikoanalyse nach ISO 27005.
-
-Das Modell erfüllt auch Voraussetzungen für den Betrieb einer SaaS-Anwendung, die von vielen unterschiedlichen Kunden genutzt wird. Die Daten von verschiedenen Kunden im Modell werden durch Organisationsobjekte sicher voneinander getrennt.
-
-## Inhaltsverzeichnis
-
-* [Domänen](domains)
-* [Objekte](objects)
-* [Formulare](forms)
-* [Kataloge](catalogs)
-* [Profile](profiles)
+- verinice stellt Informationen in unterschiedlichen [Domänen](./domains) dar, z.B. für ein ISMS nach ISO 27000 oder ein DSMS nach der DS-GVO.
+- verinice unterstützt bei Aufbau und Betrieb von Managementsystemen für Informationssicherheit und Datenschutz. Im Objektmodell sind dafür [Objekte](./objects) definiert, die gleichzeitig für die verschiedenen Managementsysteme verwendet werden können. Es gibt ein Modell, mit dem alle Verfahren und Standards abgebildet werden können.
+- Objekte werden je nach Subtyp in spezifischen [Formularen](./forms) dargestellt.
+- [Kataloge](./catalogs) stellen systemweit Objekte zur Nutzung/Anwendung zur Verfügung.
+- [Profile](./profiles) stellen Vorlagen oder Demodaten bereit, die die Arbeit in verinice signifikant verinfachen.
