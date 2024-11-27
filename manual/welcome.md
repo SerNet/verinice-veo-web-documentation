@@ -16,7 +16,7 @@ Nach dem ersten Login gelangen Sie auf die Seite **Erste Schritte**, ein Assiste
 
 ![Domäne(n) auswählen](/assets/manual/unit_domain.de.png)
 
-4. Wenn die gewählten Angaben korrekt sind bestätigen Sie die Erstellung Ihrer erste Unit:
+4. Wenn die gewählten Angaben korrekt sind, bestätigen Sie die Erstellung Ihrer ersten Unit:
 
 ![Zusammenfassung](/assets/manual/unit_summary.de.png)
 

@@ -14,7 +14,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 ![Anwendungsleiste](/assets/manual/app-bar.de.png)
 
-1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./unit-management).
+1. Über das Logo gelangen Sie jederzeit in die [Unit-Verwaltung](./unit-management).
 1. Über die **Breadcrumb** navigieren Sie direkt zu allen aufgeführten Objekten.
 1. Wechseln Sie zwischen **Hell/Dunkel-Modus**.
 1. Mit dem **Sprachumschalter** wechseln Sie zwischen deutscher und englischer Sprache.
@@ -36,14 +36,14 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 ![Menü](/assets/manual/menu.de.png)
 
-1. Über das Logo gelangen Sie jederzeit in die [Unitverwaltung](./unit-management) um Units anzulegen oder zu bearbeiten.
-1. Mit dem **Unit-Selector** wechseln Sie direkt in eine andere Unit.
-1. Mit dem **Domänen-Selector** wechseln Sie in eine andere Domäne.
+1. Über das Logo gelangen Sie jederzeit in die [Unit-Verwaltung](./unit-management) um Units anzulegen oder zu bearbeiten.
+1. Mit dem **Unit-Selektor** wechseln Sie direkt in eine andere Unit.
+1. Mit dem **Domänen-Selektor** wechseln Sie in eine andere Domäne.
 1. Das [Dashboard](#dashboard) bietet einen Überblick über alle Objekte und deren Status (Lebenszyklus) und ermöglicht Ihnen die Navigation zu allen Objekten.
 1. Optional navigieren Sie im Bereich **Objekte** zu allen vorhandenen Objekten.
-1. [Kataloge](./catalogs) stellen Ihnen Objekte wie z.B. TOM oder Elementare Gefährdungen zur Anwendung in Ihrer Unit zur Vefügung.
+1. [Kataloge](./catalogs) stellen Ihnen Objekte wie z.B. TOM oder Elementare Gefährdungen zur Anwendung in Ihrer Unit zur Verfügung.
 1. [Reports](./reports) erstellen Sie mittels der **Reportvorlagen**.
-1. Im Abschnitt [Risikodefinitionen](./risk-definition) wird die **Risikomatrix** graphisch dargestellt.
+1. Im Abschnitt [Risikodefinitionen](./risk-definition) wird die **Risikomatrix** grafisch dargestellt.
 1. Über **Menü verstecken** verkleinern Sie die Navigation auf Symbole, durch Mausklick auf eines der Symbole wird das Menü wieder eingeblendet.
 
 ## Dashboard

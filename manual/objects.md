@@ -85,9 +85,9 @@ Das Objektumfeldes zeigt dabei:
 ![Objektumfeld](/assets/manual/object-environment.de.png)
 
 1. Mit **Scopes** und/oder **Teile** den Blick *nach innen* und mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
-1. Mit **Links** aus dem Formular heraus verknüpfte Objekte als eingehende oder ausgehende Links.
-1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
+1. Mit **Links** verknüpfte Objekte als eingehende oder ausgehende Links.
 1. Mit **Bausteinen/Anforderung** bzw. **Zielobjekte** die Beziehung zwischen angewendeten Controls und den jeweiligen Objekten.
+1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
 1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden.
 
 ### Formular
@@ -102,7 +102,7 @@ Die strukturierte Erfassung wird unterstützt durch die intelligente Auswertung 
 - In Abhängigkeit von einzelnen Werten können unterschiedliche Aspekte oder Links ein- oder ausgeblendet werden.
 - Komplexe Entscheidungen auf Grundlage mehrerer Werte können in Entscheidungsbäumen ausgewertet werden, siehe z.B. die Entscheidung zur Notwendigkeit einer Datenschutz-Folgenabschätzung in der Domäne DS-GVO.
 
-Jeder Subtyp eines Objekttyps muss durch mindestens ein spezifisches Formular dargestellt werden. Anders herum kann jeder Subtyp aber auch in verschiedenen Formularen abgebildet werden. Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Formular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung steht.
+Jeder Subtyp eines Objekttyps muss durch mindestens ein spezifisches Formular dargestellt werden. Anders herum kann jeder Subtyp aber auch in verschiedenen Formularen abgebildet werden. Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Formular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung stehen könnte.
 
 In der **Seitenleiste** der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden.
 

@@ -10,13 +10,12 @@ Die Risikodefinition bildet eine Eintrittswahrscheinlichkeits-Auswirkungs-Matrix
 1. Die Auswirkung kann je Schutzziel angepasst werden.
 1. Die Y-Achse zeigt die Stufen für die Auswirkung.
 1. Die X-Achse zeigt die Stufen für die Eintrittswahrscheinlichkeit.
-1. In der Matrix wird die Zuordnung der Risikokategorien (gering, mittel, hoch, sehr hoch) farbig codiert dargestellt. Fahren Sie mit der Maus über einzelne Felder, um die detailierten Definitionen für die einzelnen Parameter anzuzeigen.
+1. In der Matrix wird die Zuordnung der Risikokategorien farbig codiert dargestellt. Fahren Sie mit der Maus über einzelne Felder, um die detaillierten Definitionen für die einzelnen Parameter anzuzeigen.
 
 ![Risikokategorien und Eintrittswahrscheinlichkeit](/assets/manual/risk_category_probability.de.png)
 
 6. Die Risikokategorien sind über alle Schutzziele definiert.
-7. Die Eintrittswahrscheinlichkeit ist über alle Schutzziele definiert
-
+7. Die Eintrittswahrscheinlichkeit ist über alle Schutzziele definiert.
 8. Wenn für ein Schutzziel keine Risikomatrix verwendet werden soll, kann diese entfallen.
 9. Optional kann dann eine Risikomatrix für die Betrachtung der Schadenshöhe verwendet werden.
 
@@ -26,5 +25,5 @@ Sie können aktuell die Bezeichnungen und Beschreibungen für alle Parameter an 
 
 ![Risikodefinition](/assets/manual/risk_values.de.gif)
 
-::: info Hinweis! Die Risikoanalyse befindet sich aktuell in aktiver Weiterentwicklung, siehe [Roadmap](../roadmap/)
+::: info Hinweis! Die freie Konfiguration der Risikodefinitionen befindet sich aktuell in aktiver Weiterentwicklung, siehe [Roadmap](../roadmap/)
 :::
