@@ -15,11 +15,11 @@ Im BSI IT-Grundschutz nach 200-x können je Unit unterschiedliche Parameter für
 
 ## Gefährdungsübersicht erstellen
 
-Sofern eine Risikoanalyse erforderlich ist müssen Sie im Zielobjekt bei den Objektdetails eine **Gefährdungsübersicht erstellen**. Dies kann z.B. erforderlich sein, wenn das Zielobjekt in einem der drei Schutzziele einen hohen oder sehr hohen Schutzbedarf aufweist.
+Sofern eine Risikoanalyse erforderlich ist, müssen Sie im Zielobjekt bei den Objektdetails eine **Gefährdungsübersicht erstellen**. Dies kann z.B. erforderlich sein, wenn das Zielobjekt in einem der drei Schutzziele einen hohen oder sehr hohen Schutzbedarf aufweist.
 
 ![Gefährdungsübersicht erstellen](/assets/domain-it-gs/verinice-32-threat-overview.de.png)
 
-Durch diese Aktion werden die Elementaren Gefährdungen entsprechend der Kreuzreferenztabellen des BSI in Ihrer Unit Kopiert und im Objektumfeld des Zielobjekts Risikoobjekte für jede Elemetare Gefährdung angelegt:
+Durch diese Aktion werden die elementaren Gefährdungen entsprechend der Kreuzreferenztabellen des BSI in Ihre Unit kopiert und im Objektumfeld des Zielobjekts Risikoobjekte für jede elementare Gefährdung angelegt:
 
 ![Risiken](/assets/domain-it-gs/verinice-32-risks.de.png)
 
@@ -27,8 +27,8 @@ Durch diese Aktion werden die Elementaren Gefährdungen entsprechend der Kreuzre
 
 Um die einzelnen Elementaren Gefährdungen weiter bearbeiten zu können, klicken Sie auf die entsprechende Gefährdung und es öffnet sich ein Dialog. Hier kann als erstes die Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter: 
 
-- **Eintrittswahrscheinlichkeit** (und gegebenfalls eine Erklärung)
-- **Auswirkung hinsichtlich der Schadenshöhe** (und gegebenfalls eine Erklärung)
+- **Eintrittswahrscheinlichkeit** (und gegebenenfalls eine Erklärung)
+- **Auswirkung hinsichtlich der Schadenshöhe** (und gegebenenfalls eine Erklärung)
 
 Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
 
@@ -36,7 +36,7 @@ Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automa
 
 ## Risikobehandlung 
 
-Je nach Höhe des Risiko kann bzw. muss eine Risikobehandlung vorgenommen und gegebenfalls eine Erklärung dokumentiert werden. Sie können mehrere **Behandlungsoptionen** auswählen, es stehen folgende Optionen zur Auswahl:
+Je nach Höhe des Risikos kann bzw. muss eine Risikobehandlung vorgenommen und gegebenenfalls eine Erklärung dokumentiert werden. Sie können mehrere **Behandlungsoptionen** auswählen, es stehen folgende Optionen zur Auswahl:
 
 - Risikoakzeptanz
 - Risikovermeidung
@@ -49,7 +49,7 @@ Je nach Höhe des Risiko kann bzw. muss eine Risikobehandlung vorgenommen und ge
 
 Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch Hinzufügen ergänzender Sicherheitsmaßnahmen reduziert werden. Dabei haben Sie zwei Möglichkeiten mitigierende Maßnahmen zu hinterlegen:
 
-1. Um eine **neue Maßnahme** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog um die neue Maßnahme zu erstellen. Nachdem Sie Ihre Daten zur Maßnahme gespeichert haben, wird die neue Maßnahme im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt. 
+1. Um eine **neue Maßnahme** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog, um die neue Maßnahme zu erstellen. Nachdem Sie Ihre Daten zur Maßnahme gespeichert haben, wird die neue Maßnahme im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt. 
 
 1. Um bereits **vorhandene Maßnahmen** zu verknüpfen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Es öffnet sich ein Dialog, in dem Sie aus allen bereits vorhandenen Maßnahmen die benötigten mitigierenden Maßnahmen auswählen können. Nachdem Sie den Dialog mithilfe von **Speichern** schließen, werden die ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** angezeigt:
 
@@ -57,7 +57,7 @@ Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch
 
 ![Maßnahmen zur Risikoreduktion (Mitigierende Maßnahmen)](/assets/domain-it-gs/verinice-32-risk-reduction-2.de.png)
 
-Abschließend muss das **Nettorisiko** (und gegebenfalls eine Erklärung) manuell gesetzt werden. **Speichern** und **Schließen** Sie den Risikodialog.
+Abschließend muss das **Nettorisiko** (und gegebenenfalls eine Erklärung) manuell gesetzt werden. **Speichern** und **Schließen** Sie den Risikodialog.
 
 ### Mitigierende Maßnahmen bearbeiten
 
@@ -77,4 +77,4 @@ Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte
 
 ![Mitigierende Maßnahmen: Umsetzung bearbeiten](/assets/domain-it-gs/verinice-32-implementation-2.de.png)
 
-Nachdem Sie die Daten eingetragen haben schließen Sie den Dialog mit **Speichern**.
+Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
