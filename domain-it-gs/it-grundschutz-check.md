@@ -1,13 +1,21 @@
 # IT-Grundschutz-Check
 
-Zur Dokumentation der Umsetzung von Anforderungen wechseln Sie in den Reiter **Bausteine** und wählen **Umsetzung anzeigen**:
+In diesem Schritt gilt es, den Status der modellierten Bausteine, konkret der einzelnen Anforderungen, abzuarbeiten. Um Anforderungen zu bearbeiten, klicken Sie im Objektumfeld des Zielobjektes im Tab **Bausteine** auf **Umsetzung anzeigen** des jeweiligen Bausteins.
 
-![Umsetzung anzeigen](/assets/domain-it-gs/verinice-31_check.de.png)
+![Umsetzung anzeigen](/assets/domain-it-gs/verinice-32-view-implementation.de.png)
 
-In der folgenden Übersicht wird die Umsetzung der einzelnen Bausteine aufgelistet:
+Sie gelangen zur Übersicht aller Anforderungen des ausgewählten Bausteins. Hier können Sie die einzelnen Anforderungen bearbeiten. Durch Klick auf eine Anforderung öffnet sich der Umsetzungsdialog, in dem Sie folgende Informationen einsehen bzw. einpflegen können:
 
-![Ubersicht der Umsetzungen](/assets/domain-it-gs/verinice-31_ri_list.de.png)
+- Informationen zu Zielobjekt und Anforderung.
+- Anforderungsbeschreibung (aus dem IT-Grundschutz-Kompendium).
+- Informationen zur Umsetzung:
+  - Verantwortliche Person.
+  - Umsetzung bis (Datum).
+  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
+  - Umsetzungsbeschreibung.
 
-Die Umsetzung der einzelnen Anforderungen dokumentieren Sie durch Mausklick auf eine der Anforderungen:
+![Umsetzung bearbeiten](/assets/domain-it-gs/verinice-32-edit-implementation.de.png)
 
-![Umsetzung bearbeiten](/assets/domain-it-gs/verinice-31_ri.de.png)
+Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
+
+In der Realität ist dieser Schritt langwieriger, da sich oft eine Vielzahl von Anforderungen in der Umsetzung befindet. Nachdem alle modellierten Bausteine und Anforderungen bearbeitet worden sind, ist es möglich das Ergebnis des IT-Grundschutz-Checks als Report auszugeben.
