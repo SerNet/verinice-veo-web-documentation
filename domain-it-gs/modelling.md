@@ -1,21 +1,48 @@
-# Modellierung
+# Baustein-Modellierung
 
-verinice stellt zwei Möglichkeiten zur Verfügung, um die Modellierung von Bausteinen nach der Vorgehensweise des IT-Grundschutz durchzuführen.
-Neben der Modellierung einzelner Bausteine durch das **Anwenden von Katalogelementen** kann das gesamte IT-Grundschutz-Kompendium als Informationsverbund mit modellierten Beispielobjekten als **Profil angewendet** werden.
+Wenn die Strukturanalyse durchgeführt und der Schutzbedarf festgestellt wurde, kommt es im nächsten Schritt zur Baustein-Modellierung.
+
+verinice stellt zwei Möglichkeiten zur Verfügung, um die Modellierung von Bausteinen nach der Vorgehensweise des IT-Grundschutz durchzuführen. Neben der Modellierung einzelner Bausteine durch das Anwenden von Katalogelementen, kann das gesamte IT-Grundschutz-Kompendium als Informationsverbund mit modellierten Beispielobjekten als Profil angewendet werden.
 
 ## Modellierung aus Katalog
 
 Die Modellierung aus dem Katalog besteht aus zwei Teilschritten, dem Anwenden von Katalogelementen und der Modellierung von Bausteinen selbst.
 
-### Katalogelemente anwenden
+### Bausteine aus Katalog anwenden
 
-Der Katalog der Domäne IT-Grundschutz enthält alle Bausteine und Anforderungen des IT-Grundschutz-Kompendiums, die einzelnen oder als gesamte Bausteinschicht oder als gesamte Bausteinfamilie angewendet werden können.
+Bevor Sie die Bausteine in Ihrem Informationsverbund modellieren könnnen, sollten diese erst aus dem [Katalog](/manual/catalogs.md), den Sie über das Menü aufrufen, angewendet werden.
+Navigieren Sie hier zu **Bausteine** und selektieren alle (oder nur die von Ihnen benötigten) Bausteine und klicken Sie anschließend auf **Anwenden**.
 
-Bei der Anwendung werden die entsprechenden Elemente inklusive eventueller Verknüpfungen in die aktive Unit übernommen.
+![Bausteine aus Katalog anwenden](/assets/domain-it-gs/verinice-32-apply-modules.de.png)
 
-### Bausteine modellieren
+### Baustein-Modellierung
 
-Öffnen Sie ein Zielobjekt (Scope, Prozess oder Asset) und wechseln Sie im Objektumfeld in den Tabreiter **Bausteine**. Über **+ Bausteine modellieren** wählen Sie den oder die gewünschten Bausteine aus.
+Nachdem die Bausteine in Ihrer Unit vorhanden sind, können Sie diese den Zielobjekten zuordnen. Gehen Sie dabei wie folgt vor:
+
+- Öffnen Sie ein Zielobjekt, bei dem die Baustein-Modellierung vorgenommen werden soll.
+- Wählen Sie im Objektumfeld den Tab **Bausteine** und klicken Sie auf **+** und anschließend auf **Bausteine modellieren**.
+
+![Bausteine modellieren](/assets/domain-it-gs/verinice-32-modell-modules-1.de.png)
+
+- Es öffnet sich ein Dialog mit allen von Ihnen im Vorfeld aus dem Katalog angewendeten Bausteinen. In diesem Dialog wählen Sie die Bausteine aus, die Sie modellieren wollen. Über die Suche können Sie gezielt nach Bausteinen (Name und/oder Abkürzung) suchen. Auch eine auf- oder absteigende Sortierung ist in diesem Dialog möglich.
+
+![Auswahl der Bausteine](/assets/domain-it-gs/verinice-32-select-modules.de.png)
+
+- Nachdem Sie den Dialog gespeichert haben, werden Ihnen im Zielobjekt unter **Bausteine** die modellierten Bausteine angezeigt.
+
+![Modellierte Bausteine](/assets/domain-it-gs/verinice-32-modelled-modules.de.png)
+
+### Bearbeiten der Bausteine
+
+Um einen Baustein zu bearbeiten, klicken Sie auf den entsprechenden **Baustein**, es öffnet sich ein Dialog, in dem Sie die verantwortliche Person und eine Beschreibung hinterlegen können.
+
+![Bausteine bearbeiten](/assets/domain-it-gs/verinice-32-edit-modules.de.png)
+
+### Benutzerdefinierte Bausteine
+
+Natürlich ist es auch möglich benutzerdefinierte Bausteine und Anforderungen in verinice anzulegen. Navigieren Sie dazu im Menü zu **Maßnahmen > Bausteine/Anforderungen** und erstellen Sie einfach über **+** die gewünschten Objekte. Anschließend können Sie die erstellten Objekte über das Objektumfeld als **Teile** zu einem Baustein zusammenfügen. 
+
+![Benutzerdefinierter Baustein](/assets/domain-it-gs/verinice-32-user-defined-module.de.png)
 
 ## Modellierung aus Profil
 
