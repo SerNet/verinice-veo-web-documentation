@@ -77,4 +77,4 @@ Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte
 
 ![Mitigierende Maßnahmen: Umsetzung bearbeiten](/assets/domain-it-gs/verinice-32-implementation-2.de.png)
 
-Nachdem Sie die Daten eingetragen haben schließen Sie den Dialog mit *speichern*.
+Nachdem Sie die Daten eingetragen haben schließen Sie den Dialog mit **Speichern**.
