@@ -76,19 +76,6 @@ export default defineConfig({
             ],
           },
           {
-            text: "Die Domäne IT-Grundschutz",
-            link: "/domain-it-gs/",
-            collapsed: true,
-            items: [
-              { text: "Aufbau der Domäne", link: "/domain-it-gs/domain-it-gs-description" },
-              { text: "Strukturanalyse", link: "/domain-it-gs/structure-analysis" },
-              { text: "Schutzbedarfsfeststellung", link: "/domain-it-gs/protection-needs" },
-              { text: "Modellierung", link: "/domain-it-gs/modelling" },
-              { text: "IT-Grundschutz-Check", link: "/domain-it-gs/it-grundschutz-check.html" },
-              { text: "Risikoanalyse", link: "/domain-it-gs/risk-analysis" },
-            ],
-          },
-          {
             text: "Die Domäne DS-GVO",
             link: "/domain-ds-gvo/",
             collapsed: true,
@@ -104,12 +91,25 @@ export default defineConfig({
             ],
           },
           {
+<<<<<<< HEAD
             text: "Die Domäne NIS2",
             link: "/domain-nis2/",
             collapsed: true,
             items: [
               { text: "Aufbau der Domäne", link: "/domain-nis2/domain-nis2-description" },
               { text: "Anforderungen umsetzen", link: "/domain-nis2/domain-nis2" },
+=======
+            text: "Die Domäne IT-Grundschutz",
+            link: "/domain-it-gs/",
+            collapsed: true,
+            items: [
+              { text: "Aufbau der Domäne", link: "/domain-it-gs/domain-it-gs-description" },
+              { text: "Strukturanalyse", link: "/domain-it-gs/structure-analysis" },
+              { text: "Schutzbedarfsfeststellung", link: "/domain-it-gs/protection-needs" },
+              { text: "Modellierung", link: "/domain-it-gs/modelling" },
+              { text: "IT-Grundschutz-Check", link: "/domain-it-gs/it-grundschutz-check.html" },
+              { text: "Risikoanalyse", link: "/domain-it-gs/risk-analysis" },
+>>>>>>> 9b31a44 (Structure: Add RN 32 and move known issues to forum)
             ],
           },
           {
