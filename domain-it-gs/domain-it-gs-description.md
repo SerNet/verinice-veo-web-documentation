@@ -4,9 +4,9 @@
 
 ### Scopeobjekte
 
-- **Institutionen:** Zur Abbildung der Instutution mit den wichtigsten Stammdaten.
-- **Informationsverbünde:** Inforationsverbünde zur Erstellung von Sicherheitskonzepten.
-- **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Orgnisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
+- **Institutionen:** Zur Abbildung der Institution mit den wichtigsten Stammdaten.
+- **Informationsverbünde:** Informationsverbünde zur Erstellung von Sicherheitskonzepten.
+- **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Organisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
 - **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
 
 ### Prozessobjekte
@@ -51,7 +51,7 @@
 
 ## Katalog
 
-Der Katalog der Domäne IT-Grundschutz stellt das aktuell gültige IT-Grundschutz-Kompendium der Edition 2023 zur Verfügung. Im Katalog sind alle Bausteine mit Anforderungen und den elementaren Gefährdungen anthalten.
+Der Katalog der Domäne IT-Grundschutz stellt das aktuell gültige IT-Grundschutz-Kompendium der Edition 2023 zur Verfügung. Im Katalog sind alle Bausteine mit Anforderungen und den elementaren Gefährdungen enthalten.
 
 ## Profile
 
@@ -63,7 +63,7 @@ Durch Anwenden dieses Profiles wird eine Modellierung nach der Vorgehensweise St
 
 ### Basis-Absicherung Kommunalverwaltung Version 4.0
 
-Durch Anwenden dieses Profiles wird eine Modellierung nach dem IT-GS Profil Basis-Absicherung Kommulaverwaltung V.4 auf Basis des IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt.
+Durch Anwenden dieses Profiles wird eine Modellierung nach dem IT-GS Profil Basis-Absicherung Kommunalverwaltung V.4 auf Basis des IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt.
 
 ## Decisions
 
