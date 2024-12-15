@@ -104,6 +104,15 @@ export default defineConfig({
             ],
           },
           {
+            text: "Die Domäne NIS2",
+            link: "/domain-nis2/",
+            collapsed: true,
+            items: [
+              { text: "Aufbau der Domäne", link: "/domain-nis2/domain-nis2-description" },
+              { text: "Anforderungen umsetzen", link: "/domain-nis2/domain-nis2" },
+            ],
+          },
+          {
             text: "Objektmodell",
             link: "/object-model/",
             collapsed: true,

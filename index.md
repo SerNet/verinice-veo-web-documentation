@@ -21,15 +21,18 @@ hero:
       link: /roadmap/
 
 features:
-  - title: Das Benutzerhandbuch 
-    details: Die grundlegende Bedienung von verinice kennenlernen...
-    link: /manual/
   - title: Die Domäne DS-GVO
     details: Den Datenschutz nach DS-GVO in verinice umsetzen...
     link: /domain-ds-gvo/
   - title: Die Domäne IT-Grundschutz
     details: Den IT-Grundschutz in verinice umsetzen...
     link: /domain-it-gs/
+  - title: Die Domäne NIS2
+    details: Die NIS2-Richtlinie in verinice umsetzen...
+    link: /domain-nis2/
+  - title: Das Benutzerhandbuch 
+    details: Die grundlegende Bedienung von verinice kennenlernen...
+    link: /manual/
   - title: Das Objektmodell
     details: Das Objektmodell in verinice verstehen...
     link: /object-model/
