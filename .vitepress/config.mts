@@ -91,14 +91,15 @@ export default defineConfig({
             ],
           },
           {
-<<<<<<< HEAD
             text: "Die Domäne NIS2",
             link: "/domain-nis2/",
             collapsed: true,
             items: [
               { text: "Aufbau der Domäne", link: "/domain-nis2/domain-nis2-description" },
               { text: "Anforderungen umsetzen", link: "/domain-nis2/domain-nis2" },
-=======
+            ],
+          },
+          {
             text: "Die Domäne IT-Grundschutz",
             link: "/domain-it-gs/",
             collapsed: true,
@@ -109,7 +110,6 @@ export default defineConfig({
               { text: "Modellierung", link: "/domain-it-gs/modelling" },
               { text: "IT-Grundschutz-Check", link: "/domain-it-gs/it-grundschutz-check.html" },
               { text: "Risikoanalyse", link: "/domain-it-gs/risk-analysis" },
->>>>>>> 9b31a44 (Structure: Add RN 32 and move known issues to forum)
             ],
           },
           {
@@ -138,7 +138,7 @@ export default defineConfig({
             link: "/release-notes/",
             collapsed: true,
             items: [
-              { text: "verinice 32", link: "/release-notes/verinice-32" },
+              { text: "verinice 32", link: "/release-notes/" },
               { text: "verinice 31", link: "/release-notes/verinice-31" },
               { text: "verinice 30", link: "/release-notes/verinice-30" },
               { text: "verinice 29", link: "/release-notes/verinice-29" },
