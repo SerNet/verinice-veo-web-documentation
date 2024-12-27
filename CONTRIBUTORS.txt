@@ -10,5 +10,5 @@ jae <jae@sernet.de>
 Jochen Kemnade <jk@sernet.de>
 Jonas Jordan <jj@sernet.de>
 Michael Flürenbrock <mf@sernet.de>
-st <st@sernet.de>
-ta <ta@sernet.de>
+Sirin Torun <st@sernet.de>
+Tatjana Anisow <ta@sernet.de>

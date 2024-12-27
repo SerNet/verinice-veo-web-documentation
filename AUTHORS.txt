@@ -11,5 +11,5 @@ Jochen Kemnade <jk@sernet.de>
 Jonas Jordan <jj@sernet.de>
 Michael Flürenbrock <mf@sernet.de>
 Daniel Murygin [https://github.com/murygin]
-st <st@sernet.de>
-ta <ta@sernet.de>
+Sirin Torun <st@sernet.de>
+Tatjana Anisow <ta@sernet.de>
