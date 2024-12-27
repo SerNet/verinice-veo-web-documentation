@@ -1,15 +1,14 @@
 # This is the list of verinice-veo-web-documentation's 
-# significant copyright holders.
-#
-# To see the full list of copyright holders, see the revision history in
-# source control.
+# significant contributors.
 # 
+# CONTRIBUTORS.txt is the official list of people who can contribute 
+# (and typically have contributed) code to this repository, while the 
+# AUTHORS.txt file lists the copyright holders.
 
 Alexander Koderman <ak@sernet.de>
 jae <jae@sernet.de>
 Jochen Kemnade <jk@sernet.de>
 Jonas Jordan <jj@sernet.de>
 Michael Flürenbrock <mf@sernet.de>
-Daniel Murygin [https://github.com/murygin]
 st <st@sernet.de>
 ta <ta@sernet.de>

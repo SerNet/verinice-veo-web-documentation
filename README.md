@@ -53,9 +53,9 @@ The Dockerfile consists of two stages:
 
 This project is licensed under the terms of the GNU Affero General Public License (AGPL) v3.0. For more details, see the `LICENSE.txt` file.
 
-## Authors
+## Authors / Contributors
 
-For a list of contributors, see the `AUTHORS.txt` file.
+For a list of copyright holders, see the `AUTHORS.txt` file. For a list of contributors see the `CONTRIBUTORS.txt` file.
 
 ## Notice
 
