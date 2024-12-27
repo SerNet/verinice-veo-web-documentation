@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Die Domäne DS-GVO
 
 In der Domäne DS-GVO bilden Sie ein Datenschutzmanagementsystem nach DS-GVO ab:

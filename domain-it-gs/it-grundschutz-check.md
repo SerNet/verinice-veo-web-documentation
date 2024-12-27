@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # IT-Grundschutz-Check
 
 In diesem Schritt gilt es, den Status der modellierten Bausteine, konkret der einzelnen Anforderungen, abzuarbeiten. Um Anforderungen zu bearbeiten, klicken Sie im Objektumfeld des Zielobjektes im Tab **Bausteine** auf **Umsetzung anzeigen** des jeweiligen Bausteins.

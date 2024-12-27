@@ -38,4 +38,11 @@ features:
     link: /developers/
 ---
 
-::: warning We are working on the English-language version of this documentation and expect to make it available in Q1 2025!
+::: warning 
+We are working on the English-language version of this documentation and expect to make it available in Q1 2025! 
+:::
+
+
+---
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
+© 2024 The Project Contributors. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

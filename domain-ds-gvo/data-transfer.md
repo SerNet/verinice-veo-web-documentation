@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Datenübertragung
 
 Sobald eine Datenübertragung stattfindet, kann diese mittels *Formular Datenübertragung* abgebildet werden. Datenübertragungen stellen in verinice einen Subtyp des Zielobjektes *Prozess* dar und können über zwei Wege erfasst werden:

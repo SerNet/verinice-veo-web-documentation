@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Erste Schritte
 
 Nach dem ersten Login gelangen Sie auf die Seite **Erste Schritte**, ein Assistent unterstützt Sie beim initialen **Erstellen einer Unit**:

@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Objekte
 
 Im Abschnitt Objekte können Objekte angelegt, bearbeitet oder gelöscht werden.

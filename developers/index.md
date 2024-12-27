@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Entwicklerdokumentation
 
 In diesem Abschnitt finden Sie die technische Dokumentation zu verinice und der REST API:

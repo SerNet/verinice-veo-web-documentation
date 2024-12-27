@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 1.20
 
 Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.20 zur Verfügung!

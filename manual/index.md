@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Benutzerhandbuch
 
 In diesem Abschnitt ist die grundlegende Bedienung von verinice beschrieben.

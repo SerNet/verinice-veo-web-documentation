@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Auftraggeber
 
 Wenn Sie die Verarbeitung personenbezogener Daten als Auftragsverarbeiter i.S.v. Art. 4 Nr. 8 DS-GVO durchführen, dokumentieren Sie diese Auftragsverarbeitungen im Verzeichnis der

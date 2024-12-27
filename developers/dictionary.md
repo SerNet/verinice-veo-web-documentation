@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Wörterbuch
 
 Manche Konzepte von verinice.veo haben je nach Kontext verschiedene Bezeichnungen, je nachdem ob man sich z.B. gerade als Endanwender:in an

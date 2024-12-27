@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Getting Started with the verinice API
 
 Learn how to authenticate and load and create your first elements.

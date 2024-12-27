@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 26
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 26 zur Verfügung!

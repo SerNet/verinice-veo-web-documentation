@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Betroffenenanfragen
 
 Betroffene haben gemäß der Artikel 12-23 der DS-GVO diverse Rechte im Rahmen der Verarbeitung personenbezogenener Daten. Werden diese Betroffenenrechte geltend gemacht, ist die Verantwortliche verpflichtet, fristgerecht und vollumfänglich zu reagieren.

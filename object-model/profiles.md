@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Profile
 
 Profile bauen auf Katalogen auf, Sie enthalten neben Beispielobjekten oft bereits angewendete Katalogelemente.

@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
 Das verinice.Team arbeitet aktuell an den folgenden Themen:

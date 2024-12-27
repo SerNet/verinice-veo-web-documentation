@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Glossar
 
 In diesem Abschnitt werden einige grundlegende Begriffe in verinice erläutert und ggfs. auf tiefergehende Informationen verwiesen.

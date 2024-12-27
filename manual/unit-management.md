@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Unit-Verwaltung
 
 In der **Unit-Verwaltung** können Sie neue Units anlegen und bestehende Units bearbeiten oder löschen. Alle Funktionen verwenden Teile des bereits aus den **Ersten Schritten** bekannten Assistenten:

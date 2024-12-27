@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 #  Verzeichnis der Verarbeitungstätigkeiten
 
 ## Verarbeitungstätigkeit erfassen

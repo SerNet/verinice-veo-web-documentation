@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Objektmodell
 
 - verinice stellt Informationen in unterschiedlichen [Domänen](./domains) dar, z.B. für ein ISMS nach ISO 27000 oder ein DSMS nach der DS-GVO.

@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice XY
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice XY zur Verfügung!

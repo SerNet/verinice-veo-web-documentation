@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Datenübertragung
 
 verinice ermöglicht Ihnen lokale Backups durchzuführen und stellt Ihnen Ihre Daten in einem strukturierten, gängigen und maschinenlesbaren Format (JSON-Format, ZIP-komprimiert) zum Download zur Verfügung. Sie können auf diesem Wege Ihr **Recht auf Datenübertragbarkeit** wahrnehmen und die Daten lokal sichern oder in einem externen Dienst weiter verwenden:

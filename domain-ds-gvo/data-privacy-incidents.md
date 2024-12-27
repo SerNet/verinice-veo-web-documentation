@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Datenschutzvorfälle
 
 verinice.DSMS unterstützt Sie bei der Erfassung und Dokumentation von Datenschutzvorfällen. Sie können einen neuen Datenschutzvorfall mit dem *Formular Datenschutzvorfall* über die zwei bewährten Methoden - Dashboard und/oder Hauptmenü – anlegen.

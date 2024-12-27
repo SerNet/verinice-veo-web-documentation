@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Reports
 
 Im Abschnitt Reports wählen Sie aus den zur Verfügung stehenden Vorlagen die gewünschte aus:

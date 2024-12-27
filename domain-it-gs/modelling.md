@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Baustein-Modellierung
 
 Wenn die Strukturanalyse durchgeführt und der Schutzbedarf festgestellt wurde, kommt es im nächsten Schritt zur Baustein-Modellierung.

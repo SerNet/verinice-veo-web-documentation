@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Auftragsverarbeitung
 
 Wenn Sie Dienstleister einsetzen und die Verarbeitung personenbezogener Daten durch diese eine Auftragsverarbeitung nach Art. 4 Nr. 8, 28 DS-GVO darstellt, dokumentieren Sie diese Auftragsverarbeiter im gleichnamigen *Formular Auftragsverarbeiter*.

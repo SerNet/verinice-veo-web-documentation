@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Benutzeroberfläche
 
 ![Benutzeroberfläche](/assets/manual/user-interface.de.png)

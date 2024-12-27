@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Domänen
 
 Die verschiedenen Fachbereiche, die mit dem Managementsystem verinice bearbeitet werden können, werden *Domänen* genannt. Im Moment ist geplant, dass 3 Domänen in verinice enthalten sein werden:

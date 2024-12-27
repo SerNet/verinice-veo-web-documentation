@@ -1,3 +1,4 @@
+<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Strukturanalyse
 
 Mit der Strukturanalyse bilden Sie die Infrastruktur Ihrer Institution als Grundlage für die Erstellung eines IT-Sicherheitskonzeptes nach der Basis-, Standard- oder Kernabsicherung ab.

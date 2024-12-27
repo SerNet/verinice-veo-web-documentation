@@ -1,0 +1,13 @@
+# This is the list of Project Name's significant contributors.
+#
+# To see the full list of contributors, see the revision history in
+# source control.
+
+Alexander Koderman <ak@sernet.de>
+jae <jae@sernet.de>
+Jochen Kemnade <jk@sernet.de>
+Jonas Jordan <jj@sernet.de>
+Michael Flürenbrock <mf@sernet.de>
+Daniel Murygin [https://github.com/murygin]
+st <st@sernet.de>
+ta <ta@sernet.de>
