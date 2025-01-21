@@ -30,3 +30,5 @@ cypress/config
 # VS Code
 *.code-workspace
 .vscode/*
+
+.idea
