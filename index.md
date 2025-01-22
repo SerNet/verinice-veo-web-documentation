@@ -44,5 +44,5 @@ We are working on the English-language version of this documentation and expect 
 
 
 ---
-<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-© 2024 The Project Contributors. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
+© 2025 The Project Contributors. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
