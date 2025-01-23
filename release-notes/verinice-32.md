@@ -32,7 +32,7 @@ Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release
 - Beschreibung verschiedener Dialoge informativer gestaltet.
 - Verhalten des eingeklappten Menüs verbessert.
 - Fehler beim Zurücksetzen der Suche bzw. der Suchkriterien behoben.
-- Fehler bei der Darstellung der Seite erste Schritte behoben, die Seite wird bei hochauflösenden Bildschirmen nicht mehr abgeschnitten.
+- Fehler bei der Darstellung der Seite **Erste Schritte** behoben, die Seite wird bei hochauflösenden Bildschirmen nicht mehr abgeschnitten.
 - Weiterer Ausbau der Testabdeckung.
 - Verbesserung der Migration bei Updates mit Änderungen an Domänen.
 

@@ -3,7 +3,7 @@
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 33 zur Verfügung!
 
-::: danger Falls nach Release von verinice in der produktiven Umgebung Fehler erkannt werden, dokumentieren wir diese bis zur Behebung im verinice.Forum unter [Known Issues](https://forum.verinice.com/c/veo/known-issues/87)!
+::: danger Falls nach Release von verinice in der produktiven Umgebung Fehler erkannt werden, dokumentieren wir diese bis zur Behebung im verinice-Forum unter [Known Issues](https://forum.verinice.com/c/veo/known-issues/87)!
 :::
 
 ::: details Warum sehe ich nicht alle Neuerungen?
