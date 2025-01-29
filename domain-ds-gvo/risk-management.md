@@ -3,7 +3,7 @@
 
 ## Risikodefinition
 
-Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix festgelegt. Navigieren Sie dazu im Menü zu **Risikodefinitionen**und anschließend **DSRA**. Hier können Sie mit einem **Klick auf das Stift-Symbol** die Kategorien bearbeiten. Dabei sind folgende Parameter individuell modifizierbar:
+Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix festgelegt. Navigieren Sie dazu im Menü zu **Risikodefinitionen**und anschließend **DSRA**. Hier können Sie die Kategorien mit einem **Klick auf das Stift-Symbol** bearbeiten. Dabei sind folgende Parameter individuell modifizierbar:
 
 - Schadensauswirkung: Name und Definition der Kategorien
 - Eintrittswahrscheinlichkeit: Name und Definition der Kategorien
@@ -16,7 +16,7 @@ Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix fes
 Es besteht die Möglichkeit, für sämtliche Scope- und Prozess-Objekte eine Risikoanalyse durchzuführen. Hierfür gehen Sie bitte folgendermaßen vor: 
 
 - Wählen Sie für das betroffene Objekt z.B Verarbeitungstätigkeit im Objektumfeld den Reiter **Risiken**.
-- Über das rote **Plus-Icon** können Sie nun für Ihre Verarbeitungstätigkeit ein **Risiko** hinzufügen.
+- Über das rote **Plus-Icon** können Sie nun ein **Risiko** für Ihre Verarbeitungstätigkeit hinzufügen.
 
 ![Risikoanalyse](/assets/domain-ds-gvo/Bild24.png)
 
@@ -28,12 +28,12 @@ Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell 
 
 ## Risikobewertung
 
-Um die einzelnen Datenschutzgefährdungen bearbeiten zu können, klicken Sie auf die entsprechende Gefährdung. Im sich öffnenden Risikodialog kann einen spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
+Um die einzelnen Datenschutzgefährdungen bearbeiten zu können, klicken Sie auf die entsprechende Gefährdung. Im sich öffnenden Risikodialog kann eine spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
 
 - **Eintrittswahrscheinlichkeit** und gegebenenfalls eine Erklärung.
 - **Schadensauswirkung** pro Schutzziel und gegebenenfalls eine Erklärung.
 
-Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
+Nachdem Sie Ihre Eingaben gespeichert haben, wird aus diesen beiden Werten automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
 
 ![Bruttorisiko](/assets/domain-ds-gvo/Bild26.png)
 
@@ -43,7 +43,7 @@ Für die Risikobehandlung stehen Ihnen die bekannten Optionen Risikovermeidung, 
 
 ![Risikobehandlung](/assets/domain-ds-gvo/Bild27.png)
 
-Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch Hinzufügen **Mitigierender Maßnahmen** reduziert werden. verinice bietet Ihnen zwei Möglichkeiten **Mitigierende Maßnahmen** zu hinterlegen:
+Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch hinzufügen **Mitigierender Maßnahmen** reduziert werden. verinice bietet Ihnen zwei Möglichkeiten **Mitigierende Maßnahmen** zu hinterlegen:
 
 ### Mitigierende Maßnahme erstellen
 
@@ -51,7 +51,7 @@ Um eine **neue Maßnahmen** zu erstellen klicken Sie **Mitigierende Maßnahmen h
 
 ### Mitigierende Maßnahme verknüpfen
 
-Sie können auch Mitigierende Maßnahmen hinzufügen, in dem Sie mit bereits **vorhandenen Maßnahmen** verknüpfen. Hierfür klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Im sich öffnenden Dialog können Sie eine Auswahl aus bereits erfassten Maßnahmen für die Mitigation treffen. Nach **Speicherung** werden die von Ihnen ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
+Sie können auch mitigierende Maßnahmen hinzufügen, indem Sie mit bereits **vorhandenen Maßnahmen** verknüpfen. Hierfür klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Im sich öffnenden Dialog können Sie eine Auswahl aus bereits erfassten Maßnahmen für die Mitigation treffen. Nach **Speicherung** werden die von Ihnen ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
 
 ![Risikoreduktion](/assets/domain-ds-gvo/Bild28.png)
 

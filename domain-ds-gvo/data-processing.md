@@ -44,7 +44,7 @@ In diesem Abschnitt haben Sie die Möglichkeit, neben einer Verarbeitungsbeschre
 
 ## Verantwortliche, Art. 4 Nr. 7 DS-GVO
 
-Die/der Verantwortliche muss bestimmt werden. Über die Funktion Link hinzufügen stehen Ihnen Verantwortliche, die Sie bereits über das Formular Verantwortliche angelegt haben zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion *Link hinzufügen > Verantwortliche, Art. 4 Nr. 7 DS-GVO* erstellen erfolgen.
+Die/der Verantwortliche muss bestimmt werden. Über die Funktion Link hinzufügen stehen Ihnen Verantwortliche, die Sie bereits über das Formular Verantwortliche angelegt haben, zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion *Link hinzufügen > Verantwortliche, Art. 4 Nr. 7 DS-GVO erstellen* erfolgen.
 
 ![Verantwortliche](/assets/domain-ds-gvo/Bild5.png)
 
@@ -65,7 +65,7 @@ Im sich öffnenden Dialog können nun sämtliche gesetzlich geforderten Informat
 
 Darüber hinaus wird dieses neu angelegte Objekt innerhalb des Zielobjektes Scope mit dem Subtyp Auftraggeber einsortiert.
 
-Ist die Verarbeitung nicht als Auftragsverarbeitung zu qualifizieren, muss diese Frage mit einem *nein* beantwortet werden. In diesem Fall würde Ihnen die Hinzufügung eines Links Auftraggeber erstellen nicht angezeigt werden.
+Ist die Verarbeitung nicht als Auftragsverarbeitung zu qualifizieren, muss diese Frage mit einem *nein* beantwortet werden. In diesem Fall würde Ihnen die Hinzufügung eines Links *Auftraggeber erstellen* nicht angezeigt werden.
 
 ## Allgemeine Verarbeitungsangaben
 
@@ -128,7 +128,7 @@ In der Domäne DS-GVO können Sie für Verarbeitungstätigkeiten, Datenübertrag
 
 ![Datenübertragung](/assets/domain-ds-gvo/Bild9.png)
 
-## Vererbung der Potentiellen Auswirkung
+## Vererbung der potentiellen Auswirkung
 
 In verinice wird die potentielle Auswirkung ausgehend von *Datenarten* als oberste Ebene in der Ableitungshierarchie für die übrigen Zielobjekte getrennt nach Schutzziel automatisiert abgeleitet. Die automatisierte Ableitung folgt hierbei immer dem sog. Maximumprinzip über die gesamte Ableitungshierarchie. Dieser Wert kann allerdings in jedem Zielobjekt manuell überschrieben werden, indem die *Potentielle Auswirkung* über das Drop-Down-Feld *Nutzervorgabe* manuell gesetzt wird. In diesem Fall ist durch Auswahl in dem Drop-Down-Feld zu dokumentieren, ob Verteilungseffekt oder Kumulationseffekt zugrunde gelegt wurden.
 
@@ -138,7 +138,7 @@ In verinice wird die potentielle Auswirkung ausgehend von *Datenarten* als obers
 
 Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte folgendermaßen vor:
 
-- Wählen Sie in der Detailansicht den Reiter *Risiken*.
+- Wählen Sie den Reiter *Risiken* in der Detailansicht.
 - Über den roten *Plus-Button* können Sie für Ihre Verarbeitungstätigkeit ein Risiko hinzufügen.
 
 ![Datenübertragung](/assets/domain-ds-gvo/Bild10.png)
@@ -149,12 +149,12 @@ Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte fo
 
 Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell angewandten Gefährdungen. Zudem haben Sie haben die Möglichkeit eigene individuelle Gefährdungen als Objekte über das Formular Gefährdungen anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
 
-- Im Risikodialog können Sie nun u.a. die spezifische Werte für die Eintrittswahrscheinlichkeit und Auswirkung setzen.
+- Im Risikodialog können Sie nun u.a. die spezifischen Werte für die Eintrittswahrscheinlichkeit und Auswirkung setzen.
 - Für die Risikobehandlung stehen Ihnen die Optionen *Risikovermeidung, Risikoreduktion, Risikotransfer, Risikoakzeptanz* zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind. 
 
 ![Datenübertragung](/assets/domain-ds-gvo/Bild10b.png)
 
-- Bei gewählter Risikobehandlungsoption *Risikoreduktion* kann das Risiko durch Hinzufügen *Mitigierender Maßnahmen* reduziert werden entweder durch die Erstellung neuer Maßnahmen oder der Verknüpfung von (bereits erfassten) Maßnahmen. Weitere Einzelheiten zur Risikoanalyse und Risikobehandlung finden Sie im gleichnamigen Abschnitt.
+- Bei gewählter Risikobehandlungsoption *Risikoreduktion* kann das Risiko durch hinzufügen *Mitigierender Maßnahmen* reduziert werden entweder durch die Erstellung neuer Maßnahmen oder der Verknüpfung bereits erfasster Maßnahmen. Weitere Einzelheiten zur Risikoanalyse und Risikobehandlung finden Sie im gleichnamigen Abschnitt.
 
 ![Datenübertragung](/assets/domain-ds-gvo/Bild10c.png)
 
@@ -166,7 +166,7 @@ Hierbei wurden die gesetzlichen Entscheidungsparameter wie z.B.:
 - Steht die Verarbeitung auf der Negativliste nach Art. 35 V DS-GVO?
 - Ist die Verarbeitung Teil einer gemeinsamen Verarbeitung gem. Art. 35 I S.2 DS-GVO?
 - Steht die Verarbeitung auf der Positivliste nach Art. 35 IV DS-GVO?
-- Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkannter Maßen eine DSFA erfordern?
+- Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkanntermaßen eine DSFA erfordern?
 
 ![Datenübertragung](/assets/domain-ds-gvo/Bild11.png)
 
