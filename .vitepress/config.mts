@@ -83,6 +83,7 @@ export default defineConfig({
               { text: "Aufbau der Domäne", link: "/domain-ds-gvo/domain-ds-gvo-description" },
               { text: "Verzeichnis der Verarbeitungstätigkeiten", link: "/domain-ds-gvo/data-processing" },
               { text: "Datenübertragungen", link: "/domain-ds-gvo/data-transfer" },
+              { text: "Risikomanagement", link: "/domain-ds-gvo/risk-management" },
               { text: "Datenschutz-Folgenabschätzung", link: "/domain-ds-gvo/data-protection-impact-assessment" },
               { text: "Datenschutzvorfälle", link: "/domain-ds-gvo/data-privacy-incidents" },
               { text: "Betroffenenanfragen", link: "/domain-ds-gvo/request-data-subjects" },
