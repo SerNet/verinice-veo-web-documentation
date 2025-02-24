@@ -84,6 +84,54 @@ Eine Risikodefinition ist die Konfiguration der Risikoanalyse in einer Domäne. 
 
 Es ist möglich, dass in einer Domäne mehrere Risikodefinitionen hinterlegt sind, sodass je nach [Scope](objects#scope) mit einer unterschiedlichen Risikodefinition gearbeitet werden kann. Es ist ebenfalls möglich, dass eine Domäne gar keine Risikodefinitionen enthält, wenn das Erfassen von [Risiken](objects#risiko) in der Domäne nicht vorgesehen ist.
 
+
+### Inspection
+
+Eine **Inspection** ist eine Überprüfung oder Validierung eines Fachobjekts. Sie dient dazu, sicherzustellen, dass bestimmte Bedingungen oder Kriterien erfüllt sind. Inspections sind mit einer Schweregradstufe und einer Beschreibung verbunden. Sie werden gespeichert und verwaltet, um eine konsistente Bewertung der Fachobjekte zu gewährleisten.  
+
+Eine Inspection wird Anwendenden angezeigt, um bei einzelnen Fachobjekten Korrekturen oder Anmerkungen anzubieten. Sie kann zudem **Suggestions** enthalten (*"Quick-Fixes"*), um die festgestellte Abweichung direkt zu beheben.  
+
+Eine **Inspection** kann auf Decisions zurückgreifen, um zu ihrer Einschätzung zu kommen. So kann beispielsweise eine Decision bestimmen, ob eine DSFA erforderlich ist, und die Inspection nutzt dieses Ergebnis, um dem Nutzer eine entsprechende Empfehlung oder Korrekturmöglichkeit bereitzustellen.
+
+:::info Beispiel
+Im Datenschutz könnte eine Inspection feststellen, dass eine Datenschutzfolgeabschätzung (DSFA) verpflichtend ist, aber noch nicht durchgeführt wurde. Die Inspection kann dann direkt die Aktion anbieten, die DSFA hinzuzufügen.  
+:::
+
+### Decision
+
+Eine **Decision** bewertet ein Fachobjekt anhand einer Liste von **Rules** (s.u.), um einen booleschen Ergebniswert zu bestimmen. Die erste zutreffende Rule entscheidet über das Ergebnis (First-Hit-Policy). Decisions dienen dazu, eine systematische und nachvollziehbare Bewertung auf Basis mehrerer Rules vorzunehmen.  
+
+Eine Decision zeigt dem Nutzer das endgültige Ergebnis der Bewertung an.  
+
+:::info Beispiel
+Eine Decision könnte bestimmen, ob für ein Fachobjekt eine Datenschutzfolgeabschätzung (DSFA) erforderlich ist. Dabei wird genau angezeigt, welche **Rule** für diese Entscheidung verantwortlich war und wie sie ausgewertet wurde. Dies ermöglicht eine transparente Nachvollziehbarkeit der Entscheidungsfindung.
+:::
+
+#### Rule
+
+Eine **Rule** ist eine konfigurierbare Bedingung, die auf ein Fachobjekt angewendet wird, um zu bestimmen, ob es bestimmte Kriterien erfüllt. Rules sind Bestandteil einer Decision und liefern einen Ausgangswert, der zum Ergebnis der Decision wird, wenn die Rule zutrifft. Die Bewertung erfolgt anhand vordefinierter Bedingungen.  
+
+:::: info Beispiele
+- "Hohes Risiko beim Fachobjekt vorhanden"
+- "Verfahrenstätigkeit befindet sich auf Positivliste"
+::::
+
+### Unterschied: Decision vs. Inspection vs. Rule
+
+- **Rule**: Stellt eine einzelne Bedingung dar, die auf Fachobjekte angewendet wird. Rules sind Bestandteil einer Decision und bestimmen das Ergebnis basierend auf ihren Bedingungen.  
+- **Decision**: Kombiniert mehrere Rules, um ein Fachobjekt zu bewerten und ein finales Ergebnis zu bestimmen. Dabei wird dem Nutzer transparent angezeigt, welche Rule für die Entscheidung ausschlaggebend war.  
+- **Inspection**: Bietet dem Nutzer Hinweise oder Korrekturvorschläge und kann eine **Suggestion** enthalten, um eine direkte Anpassung vorzunehmen. Greift dafür auf Decisions zurück.
+
+Diese Konzepte arbeiten zusammen, um ein leistungsfähiges Rahmenwerk für die Bewertung und Durchsetzung von Bedingungen auf Fachobjekte innerhalb des jeweiligen Fachgebiets bereitzustellen.
+
+::: info Beispiel
+![Decision-Inspection-Rule](/assets/object-model/inspections-decisions.png)
+
+1. Die *Decision* weist darauf hin, dass die DSFA erforderlich ist, weil die *Rule* "Hohes Risiko vorhanden" zutrifft.
+2. Die *Inspection* stellt fest, dass lt. Decision (s.o.) eine DSFA erforderlich ist, aber noch nicht durchgeführt wurde. Sie bietet eine *Suggestion* an, um die DSFA hinzuzufügen.
+3. Die *Suggestion* kann der Benutzer durch einen Klick auslösen, um die DSFA direkt hinzuzufügen.
+:::
+
 ### Domänen-Templates
 
 ![domain-templates](/assets/object-model/domain-templates.png)
