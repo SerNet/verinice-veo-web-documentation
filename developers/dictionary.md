@@ -20,6 +20,7 @@ nicht treffend erweist und dann vorerst nur in bestimmten Softwarekomponenten ne
 | Eintrittswahrscheinlichkeit | -                                                            | probability                | probability                |        |
 | Formular / Form-Schema      | [Formular](/object-model/forms)                              | form                       | form / form schema         |        |
 | Katalog                     | [Katalog](/manual/catalogs)                                  | catalog                    | catalog                    |        |
+| Katalogelement              | [Katalogelement](/manual/catalogs)                           | catalog item               | catalog item               |        |
 | Kategorie                   | -                                                            | impact                     | impact                     |        |
 | Kriterium                   | -                                                            | risk category              | protection goal            |        |
 | Maßnahme                    | [Control](/object-model/objects#control)                     | control                    | control                    |        |

@@ -68,11 +68,15 @@ Eine Domäne enthält beliebig viele Formulare. Mit diesen Formularen lassen sic
 
 ### Katalog
 
-Jede Domäne enthält einen Katalog mit einer Sammlung von Fachobjekten, die auf ein ISMS-Modell angewendet werden können. Ein Katalogeintrag besteht aus einem Fachobjekt und zusätzlich aus einer Menge von Regeln, die bestimmen, welche Aktionen ausgeführt werden, wenn der Katalogeintrag auf das Modell angewendet wird.
+Der Katalog ist die Menge aller Katalogelemente in einer Domäne. Ein Katalogelement dient als Vorlage für ein [Fachobjekt](/object-model/objects.html#fachobjekte). Um mit einem Katalogelement in einer [Unit](/object-model/objects.html#unit) arbeiten zu können, muss es erst auf die Unit angewendet werden, d.h. seine Inhalte werden als Fachobjekt in die Ziel-Unit kopiert.
+
+Ein Katalogelement kann fast alle Eigenschaften und Beziehungen haben, die ein Fachobjekt haben kann, wie z.B. ein Name, eine Beschreibung oder [Teile](/object-model/objects.html#composite). Beim Anwenden eines Katalogelementes wird ein neues Fachobjekt in der Ziel-Unit erstellt und die Eigenschaften und Beziehungen des Katalogelementes werden in das Fachobjekt übernommen. Hat das Katalogelement Beziehungen zu anderen Katalogelementen, so werden die referenzierten Katalogelemente mit auf die Unit angewendet. Welche Arten von Beziehungen dabei berücksichtigt werden, lässt sich in der Domäne konfigurieren.
 
 ::: info Beispiel
-Die Domäne Datenschutz enthält Katalogeinträge für Technische und organisatorische Maßnahmen (TOMs, Fachobjekt: [Control](objects#control)) und Gefährdungen (Fachobjekt: [Szenario](objects#szenario)). Diese Einträge enthalten nur eine einfache Regel, wenn sie auf eine Unit im Modell angewendet werden: Die TOM oder Gefährdung wird in die Unit kopiert. Andere Kataloge können komplizierte Regeln für das Anwenden enthalten, wie zum Beispiel das IT-Grundschutz-Kompendium in der Domäne IT-Grundschutz.
+Die [Domäne IT-Grundschutz](/domain-it-gs/) enthält als Katalogelemente unter anderem verschiedene [Controls](/object-model/objects.html#control) mit den Subtypen Bausteinschicht, Baustein & Anforderung. Die Controls sind hierarchisch angeordnet. So enthält der Baustein _9 NET.1.2 Netzmanagement_ mehrere Anforderungen als [Teile](/object-model/objects.html#composite) und ist selbst ein Teil der Bausteinschicht _9 NET Netze und Kommunikation_. Wenn der Baustein _9 NET.1.2 Netzmanagement_ auf eine leere Unit angewendet wird, so wird der Baustein selbst als Fachobjekt in die Unit kopiert und ebenso all seine Anforderungen. Es wird jedoch nicht die ganze Bausteinschicht _9 NET Netze und Kommunikation_ mitkopiert, denn die Domäne IT-Grundschutz ist so konfiguriert, dass nur Teile von Katalogelementen automatisch mit angewendet werden, aber keine übergeordneten Composites.
 :::
+
+Ein Fachobjekt, das aus einem Katalogelement erzeugt wurde, ist eine Kopie, die dauerhaft mit dem Katalogelement verbunden bleibt. Dies ermöglicht sowohl die individuelle Anpassbarkeit des Objektes als auch den Abgleich mit den Kataloginhalten im weiteren Lebenszyklus des Objektes. Die Verbindung zwischen Fachobjekt und Katalogelement kann zudem verhindern, dass ein Katalogelement versehentlich mehrfach auf dieselbe Unit angewendet wird.
 
 ### Profile
 
