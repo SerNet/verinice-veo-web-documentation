@@ -39,7 +39,7 @@ features:
 ---
 
 ::: warning 
-We are working on the English-language version of this documentation and expect to make it available in Q1 2025! 
+We are working on the English-language version of this documentation and expect to make it available in Q2 2025! 
 :::
 
 

@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# verinice 34
+# verinice 33
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 34 zur Verfügung!
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 33 zur Verfügung!
 
 ::: danger Falls nach Release von verinice in der produktiven Umgebung Fehler erkannt werden, dokumentieren wir diese bis zur Behebung im verinice-Forum unter [Known Issues](https://forum.verinice.com/c/veo/known-issues/87)!
 :::
