@@ -31,7 +31,7 @@ In der ersten Iteration der **Mehrfachauswahl** wird das **Löschen** mehrerer O
 
 ### Feature-Toggle
 
-**Status: Private Beta:**
+**Status: Private Beta**
 
 Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen in ausgewählten Umgebungen (z.B. Sandbox für Beta-Tests) bereitgestellt werden, um möglichst früh im Entwicklungsprozess Feedback entgegennehmen zu können. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
 
@@ -43,23 +43,27 @@ Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen in ausg
 
 ### Fehlerbehebungen
 
+- Icon und Tooltip für die Dokumentation auf der Login-Seite korrigiert.
 
 ### Produktpflege
 
+- Update von nuxt and @nuxt/kit to v3.15.4.
+- Upgrade des nuxt i18n Moduls auf v9.
 - Verbesserung der Internationalisierung (SFC - separation of concerns).
-
+- Erweiterung der Testabdeckung.
 
 ## Domäne Datenschutz
 
 **Status: Produktiv**
 
 - Erweiterung und Verbesserung der Dokumentation.
+- Im Report **Datenschutz-Risikoanalyse** werden in Composites gruppierte risikomitigierende Maßnahmen ausgelesen.
 
 ## Domäne IT-Grundschutz
 
 **Status: Produktiv**
 
-
+- Schutzbedarfsvererbung von Prozessen auf Räume hinzugefügt.
 
 ## Domäne NIS2
 
@@ -88,5 +92,5 @@ In der Domäne NIS2 ist die **Durchführungsverordnung** (EU) 2024/2690 (Impleme
 
 **Status: Prototyp**
 
-- BCM GAP-Analyse/Self-Assessment-Funktion - Als Anwender möchte ich eine GAP-Analyse bzw. ein Self-Assessment im Rahmen des Business Continuity Managements (BCM) durchführen
-- Bereitstellung des BCM Anforderungskataloges des BSI
+- Unterstützung einer GAP-Analyse bzw. eines Self-Assessment im Rahmen des Business Continuity Managements (BCM).
+- Bereitstellung des BCM-Anforderungskataloges des BSI.
