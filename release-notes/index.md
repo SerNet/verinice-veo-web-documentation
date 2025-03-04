@@ -31,7 +31,7 @@ In der ersten Iteration der **Mehrfachauswahl** wird das **Löschen** mehrerer O
 
 ### Feature-Toggle
 
-Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen bereitgestellt werden, um z.B. möglichst früh im Entwicklungsprozess Feedback entgegennehmen zu können. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
+Durch Feature-Toggle werden neue Funktionen bereitgestellt, um z.B. möglichst früh im Entwicklungsprozess Feedback von Anwenderinnen und Anwendern entgegenzunehmen. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
 
 ![Feature-Toggle - Karten](/assets/release-notes/verinice-34-feature-toggle-cards.de.gif)
 
@@ -49,8 +49,8 @@ Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen bereitg
 
 ### Produktpflege
 
-- Update von nuxt and @nuxt/kit to v3.15.4.
-- Upgrade des nuxt i18n Moduls auf v9.
+- Update von Nuxt und Nuxt/Kit to v3.15.4.
+- Upgrade des Nuxt i18n Moduls auf v9.
 - Verbesserung der Internationalisierung (SFC - separation of concerns).
 - Erweiterung der Testabdeckung.
 

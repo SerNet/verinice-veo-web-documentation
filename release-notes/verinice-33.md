@@ -49,7 +49,7 @@ In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe 
 
 ### Produktpflege
 
-- Update des Vue Frameworks auf auf Nuxt 3.15.1.
+- Update des Vue Frameworks auf Nuxt 3.15.1.
 - Upgrade des Nuxt i18n Moduls auf Version 9 und Migration der Übersetzungen.
 - Ausweitung der Testabdeckung durch weitere automatisierte Tests.
 
