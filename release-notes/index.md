@@ -31,11 +31,13 @@ In der ersten Iteration der **Mehrfachauswahl** wird das **Löschen** mehrerer O
 
 ### Feature-Toggle
 
-**Status: Private Beta**
-
-Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen in ausgewählten Umgebungen (z.B. Sandbox für Beta-Tests) bereitgestellt werden, um möglichst früh im Entwicklungsprozess Feedback entgegennehmen zu können. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
+Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen bereitgestellt werden, um z.B. möglichst früh im Entwicklungsprozess Feedback entgegennehmen zu können. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
 
 ![Feature-Toggle - Karten](/assets/release-notes/verinice-34-feature-toggle-cards.de.gif)
+
+
+::: danger Die Feature Toggle stehen nur in ausgewählten Umgebungen wie z.B. der Sandbox für Beta-Tests zur Verfügung!
+:::
 
 ### Detailverbesserungen
 
@@ -63,7 +65,7 @@ Durch Feature-Toggle können Anwenderinnen und Anwendern neue Funktionen in ausg
 
 **Status: Produktiv**
 
-- Schutzbedarfsvererbung von Prozessen auf Räume hinzugefügt.
+- Schutzbedarfsvererbung von Prozessen auf Räume ergänzt.
 
 ## Domäne NIS2
 
