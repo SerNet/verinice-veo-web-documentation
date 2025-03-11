@@ -15,15 +15,15 @@ nicht treffend erweist und dann vorerst nur in bestimmten Softwarekomponenten ne
 |:----------------------------|--------------------------------------------------------------|----------------------------|----------------------------|--------|
 | Auswirkung                  | -                                                            | impact                     | impact                     |        |
 | Asset                       | [Asset](/object-model/objects#asset)                         | asset                      | asset                      |        |
+| Control                     | [Control](/object-model/objects#control)                     | control                    | control                    |        |
 | Dokument                    | [Dokument](/object-model/objects#document)                   | document                   | document                   |        |
-| Domain / Domäne             | [Domäne](/object-model/domains)                              | domain                     | domain                     |        |
+| Domäne                      | [Domäne](/object-model/domains)                              | domain                     | domain                     |        |
 | Eintrittswahrscheinlichkeit | -                                                            | probability                | probability                |        |
 | Formular / Form-Schema      | [Formular](/object-model/forms)                              | form                       | form / form schema         |        |
 | Katalog                     | [Katalog](/manual/catalogs)                                  | catalog                    | catalog                    |        |
 | Katalogelement              | [Katalogelement](/manual/catalogs)                           | catalog item               | catalog item               |        |
 | Kategorie                   | -                                                            | impact                     | impact                     |        |
 | Kriterium                   | -                                                            | risk category              | protection goal            |        |
-| Maßnahme                    | [Control](/object-model/objects#control)                     | control                    | control                    |        |
 | Objekt                      | [Fachobjekt](/object-model/objects#fachobjekte)              | element                    | object                     | entity |
 | Objekt-Schema               | [Objektschema](/object-model/domains#objektschema)           | element type definition    | object schema              |        |
 | Person                      | [Person](/object-model/objects#person)                       | person                     | person                     |        |
