@@ -1,5 +1,5 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# verinice 35
+# verinice 34
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 34 zur Verfügung!
 
