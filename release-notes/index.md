@@ -33,14 +33,20 @@ Die Kartenansicht unterstützt jetzt die Navigation, das Layout wurde optimiert.
 ### Detailverbesserungen
 
 - Domänenspezifische Inhalte können per Konfiguration angepasst werden.
+- Bei Neuanlage eines Objektes aus der Objektübersicht **Alle** kann vorab jetzt der Subtyp ausgewählt werden.
+- Korrekturen und Verbesserungen an Übersetzungen (konsistente Nutzung von **Domäne** statt **Domain** in DE).
+- Das Cookie-Banner wird nicht mehr von der Hauptnavigation überlagert.
+- Das Popup mit Meldungen überlagert nicht mehr den *Plus**-Button für weitere Aktionen.
 
 ### Fehlerbehebungen
 
-
+- Beheben eines Fehlers in der Pagination in der Objektübersicht, wenn die Sprache gewechselt wurde.
 
 ### Produktpflege
 
-
+- Verbesserungen der OpenAPI-Dokumentation.
+- Workaround für das Keycloak dark theme entfernt.
+- Testabdeckung ausgeweitet.
 
 ## Domäne Datenschutz
 
@@ -52,7 +58,7 @@ Die Kartenansicht unterstützt jetzt die Navigation, das Layout wurde optimiert.
 
 **Status: Produktiv**
 
-
+Im Report **A.5 Risikoanalyse** werden jetzt auch die Risiken auch für den Informationsverbund ausgeben.
 
 ## Domäne IT-Grundschutz++
 
