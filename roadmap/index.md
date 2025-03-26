@@ -9,7 +9,7 @@ Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
 Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwender anpassbar:
 
-- Erweiterung der Risikomatrix (Auswirkung/Schutzbedarf, Eintrittswahrscheinlichkeit, Risikokategorien). <!-- &53 -->
+- Erweiterung der Risikomatrix (Auswirkung/Schutzbedarf, Eintrittswahrscheinlichkeit). <!-- &53 -->
 - Konfiguration/Erweiterung der Schutzziele. <!-- &54 -->
 - Mehrere Risikodefinitionen je Domäne. <!-- &55 -->
 
