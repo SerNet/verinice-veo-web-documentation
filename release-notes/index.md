@@ -57,10 +57,10 @@ Die Stufen der Risikomatrix können angepasst werden:
 
 ### REST API
 
-::: danger Die alten **Nicht-in-Domäne-Endpunkte** zum Schreiben von Elementen werden in einem der nächsten Releases entfernt (deprecated). Es sollten stattdessen die domänenpezifischen Endpunkte verwendet werden!
+::: danger Die alten **Nicht-in-Domäne-Endpunkte** zum Schreiben von Elementen werden in einem der kommenden Release entfernt. Es sollten stattdessen die domänenpezifischen Endpunkte verwendet werden!
 :::
 
-::: danger Der Endpunkt "/types" wurde als überholt/veraltet markiert und sollte nicht mehr benutzt werden. Die Informationen, die dieser Endpunkt zurück gibt, sind statisch und können bei Bedarf der OpenAPI-Dokumentation entnommen werden. Der Endpunkt wird in einem der kommenden Release  entfernt werden.
+::: danger Der Endpunkt **"/types"** wurde als überholt/veraltet markiert und sollte nicht mehr benutzt werden. Die Informationen, die dieser Endpunkt zurück gibt, sind statisch und können bei Bedarf der OpenAPI-Dokumentation entnommen werden. Der Endpunkt wird in einem der kommenden Release  entfernt.
 :::
 
 ## Domäne IT-Grundschutz
