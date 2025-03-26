@@ -49,7 +49,7 @@ Durch Feature-Toggle werden neue Funktionen bereitgestellt, um z.B. möglichst f
 
 ### Produktpflege
 
-- Update von Nuxt und Nuxt/Kit to v3.15.4.
+- Update von Nuxt und Nuxt/Kit auf v3.15.4.
 - Upgrade des Nuxt i18n Moduls auf v9.
 - Verbesserung der Internationalisierung (SFC - separation of concerns).
 - Erweiterung der Testabdeckung.
