@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 35
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 35 zur Verfügung!
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 35 zur Verfügung:
 
 ::: danger Falls nach Release von verinice in der produktiven Umgebung Fehler erkannt werden, dokumentieren wir diese bis zur Behebung im verinice-Forum unter [Known Issues](https://forum.verinice.com/c/veo/known-issues/87)!
 :::
@@ -39,35 +39,35 @@ Die Stufen der Risikomatrix können angepasst werden:
 ### Detailverbesserungen
 
 - Domänenspezifische Inhalte können per Konfiguration angepasst werden.
-- Bei Neuanlage eines Objekts aus der Objektübersicht **Alle** kann vorab jetzt der Subtyp ausgewählt werden.
+- Bei Neuanlage eines Objekts aus der Objektübersicht **Alle** kann jetzt vorab der Subtyp ausgewählt werden.
 - Korrekturen und Verbesserungen an Übersetzungen (Umbenennung des Objekttyps **Maßnahmen** in **Controls**; konsistente Nutzung von **Domäne** statt **Domain** in DE).
 - Das Cookie-Banner wird nicht mehr von der Hauptnavigation überlagert.
 - Das Popup mit Meldungen überlagert nicht mehr den **Plus**-Button für weitere Aktionen.
 
 ### Fehlerbehebungen
 
-- Beheben eines Fehlers in der Pagination in der Objektübersicht, wenn die Sprache gewechselt wurde.
+- Die Pagination in der Objektübersicht funktioniert nun korrekt, wenn die Sprache gewechselt wird.
 
 ### Produktpflege
 
-- Optimierung des Deployment-Prozesses.
-- Verbesserungen der OpenAPI-Dokumentation.
-- Workaround für das Keycloak Dark Theme entfernt.
-- Testabdeckung ausgeweitet.
+- Optimierung des Deployment-Prozesses
+- Verbesserungen der OpenAPI-Dokumentation
+- Workaround für das Keycloak Dark Theme entfernt
+- Testabdeckung ausgeweitet
 
-### REST API
+### REST-API
 
 ::: danger Die alten **Nicht-in-Domäne-Endpunkte** zum Schreiben von Elementen werden in einem der kommenden Release entfernt. Es sollten stattdessen die domänenpezifischen Endpunkte verwendet werden!
 :::
 
-::: danger Der Endpunkt **"/types"** wurde als überholt/veraltet markiert und sollte nicht mehr benutzt werden. Die Informationen, die dieser Endpunkt zurück gibt, sind statisch und können bei Bedarf der OpenAPI-Dokumentation entnommen werden. Der Endpunkt wird in einem der kommenden Release  entfernt.
+::: danger Der Endpunkt **"/types"** wurde als überholt/veraltet markiert und sollte nicht mehr benutzt werden. Die Informationen, die dieser Endpunkt zurück gibt, sind statisch und können bei Bedarf der OpenAPI-Dokumentation entnommen werden. Der Endpunkt wird in einem der kommenden Releases entfernt.
 :::
 
 ## Domäne IT-Grundschutz
 
 **Status: Produktiv**
 
-Im Report **A.5 Risikoanalyse** werden jetzt auch die Risiken auch für den Informationsverbund ausgeben.
+Im Report **A.5 Risikoanalyse** werden jetzt auch die Risiken für den Informationsverbund ausgeben.
 
 ## Domäne ISO
 
@@ -80,4 +80,4 @@ Im Report **A.5 Risikoanalyse** werden jetzt auch die Risiken auch für den Info
 
 **Status: Prototyp**
 
-Erstellung eines ersten Prototypen der Domäne IT-Grundschutz++ für die [verinice.XP 2025](https://verinicexp.org). 
+Erstellung eines ersten Prototypen der Domäne IT-Grundschutz++ für die [verinice.XP 2025](https://verinicexp.org)
