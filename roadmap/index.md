@@ -3,7 +3,7 @@
 
 Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
-## Q1 2025
+## Q2 2025
 
 ### Anpassbare Risikodefinition
 
@@ -20,8 +20,6 @@ Um die Strukturanalyse zu vereinfachen, sollen Daten aus anderen Systemen per CS
 ### verinice2BI-Connector<!-- &169 -->
 
 Bereitstellung der Control Implementation und Requirement Implementation im verinice2BI-Connector.
-
-## Q2 2025
 
 ### Weitere Domänen
 
