@@ -1,7 +1,8 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-Alle Neuerungen des aktuellen Release finden Sie unter [verinice 36](/release-notes/verinice-36.md).
+::: warning Direkt zu den Neuerungen in Release [verinice 36](/release-notes/verinice-36.md)!
+:::
 
 Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen und stehen ggf. nicht allen Anwenderinnen und Anwender zur Verfügung:
 
