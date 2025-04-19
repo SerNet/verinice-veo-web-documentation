@@ -4,7 +4,7 @@
 ::: warning Direkt zu den Neuerungen in Release [verinice 36](/release-notes/verinice-36.md)!
 :::
 
-Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen und stehen ggf. nicht allen Anwenderinnen und Anwender zur Verfügung:
+Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen und stehen ggf. nicht allen Anwenderinnen und Anwendern zur Verfügung:
 
 **Prototyp:** Diese Funktionen befinden sich in Entwicklung und sind nur intern verfügbar.
 
