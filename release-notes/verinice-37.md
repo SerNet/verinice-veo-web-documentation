@@ -23,7 +23,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 ### Produktpflege
 
-- Nuxt/content Update auf Version 3.
+- Update von Nuxt/content auf Version 3
 
 ### REST-API
 
