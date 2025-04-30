@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 37
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 37 zur Verfügung:
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 37 zur Verfügung:
 
 ## Allgemeine Funktionen
 
