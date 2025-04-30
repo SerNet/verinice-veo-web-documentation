@@ -15,7 +15,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 ### Fehlerbehebungen
 
-- Die Änderung von Werten in Zahlenfeldern beim Scrollen mit dem Mausrad unter Windows wurde behoben.
+- Ein Problem beim Ändern von Werten in Zahlenfeldern durch Scrollen mit dem Mausrad unter Windows wurde behoben.
 - Scope-Objekte lassen sich jetzt auch dann speichern, wenn Sie einen Custom Link zu einem ihrer Teile besitzen.
 - Beheben eines fehlerhaften Layout Overlays in der Unit-Verwaltung.
 - Beim Aktualisieren eines Kataloges werden obsolete Objekte korrekt gelöscht.
