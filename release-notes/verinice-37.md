@@ -17,7 +17,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 - Ein Problem beim Ändern von Werten in Zahlenfeldern durch Scrollen mit dem Mausrad unter Windows wurde behoben.
 - Scope-Objekte lassen sich jetzt auch dann speichern, wenn Sie eine Verknüpfung zu einem ihrer Teile besitzen.
-- Beheben eines fehlerhaften Layout Overlays in der Unit-Verwaltung.
+- Layout-Fehler in der Unit-Verwaltung wurden behoben.
 - Beim Aktualisieren eines Kataloges werden obsolete Objekte korrekt gelöscht.
 - Kataloge werden korrekt aktualisiert, wenn Katalogelemente in Profilen referenziert sind.
 
