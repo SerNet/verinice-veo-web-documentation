@@ -33,5 +33,5 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 **Status: Produktiv**
 
-- Das Formular für **Informationssicherheitsvorfälle** wurde analog zur Domäne ISO erweitert, um alle erforderlichen Informationen dokumentieren zu können
+- Das Formular für **Informationssicherheitsvorfälle** wurde analog zur Domäne ISO erweitert, um alle erforderlichen Informationen dokumentieren zu können.
 - Im Report **A.3 Modellierung** werden jetzt auch die nicht verwendeten Bausteine ausgegeben.
