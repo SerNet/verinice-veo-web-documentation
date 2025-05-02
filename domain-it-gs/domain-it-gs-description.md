@@ -20,8 +20,8 @@
 - **Informationen:** In Geschäftsprozessen, Fachverfahren oder Anwendungen verarbeitete Informationen.
 - **Anwendungen::** Zielobjekt (Software-)Anwendung nach IT-Grundschutz.
 - **IT-Systeme:** Zielobjekte wie Server, CLients, etc. nach IT-Grundschutz.
-- **ICS-Systeme:** Zielobjekt industrielle Steuerungssysteme nach IT-Grundschutz.
-- **IoT-Systeme:** Zielobjekt Interne-og-Things nach IT-Grundschutz.
+- **ICS-Systeme:** Zielobjekt Industrielle Steuerungssysteme nach IT-Grundschutz.
+- **IoT-Systeme:** Zielobjekt Internet-of-Things nach IT-Grundschutz.
 - **Kommunikationsverbindungen:** Zielobjekt Kommunikations- und Netzwerkverbindungen nach IT-Grundschutz.
 - **Räume:** Zielobjekt Standort, Gebäude oder Räume nach IT-Grundschutz.
 
