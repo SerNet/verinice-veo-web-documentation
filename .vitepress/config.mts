@@ -105,14 +105,14 @@ export default defineConfig({
             ],
           },
           {
-            text: "Die Domäne ISO",
+            text: "Die Domäne ISO/IEC 27000",
             link: "/domain-iso/",
             collapsed: true,
             items: [
               { text: "Aufbau der Domäne", link: "/domain-iso/domain-iso-27000-description" },
               { text: "Inventarverzeichnis", link: "/domain-iso/inventory" },
               { text: "Erklärung zur Anwendbarkeit", link: "/domain-iso/soa" },
-              { text: "Risikomanagement", link: "/domain-iso/risk-analysis" },
+              { text: "Risikomanagement", link: "/domain-iso/risk-management" },
               { text: "Risikoprofil nach DIN ISO/IEC 27001", link: "/domain-iso/profiles" },
             ],
           },

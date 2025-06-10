@@ -42,14 +42,11 @@ Ein Profil kann in zwei Situationen angewendet werden:
 
 1. **Beim Erstellen einer neuen Unit**: Während des Erstellungsprozesses können Sie ein Profil auswählen, das direkt auf die neue Unit angewendet wird. Navigieren Sie dazu oben link im Menü auf das Drop-Down-Menü **Unit auswhälen**, scrollen Sie ganz nach unten und wählen **Units verwalten**. Klicken Sie anschließend unten rechts auf Button **Unit erstellen** und wählen Sie im zweiten Schritt des Wizards aus, dass Sie das Risikoprofil nach DIN ISO/IEC 27001 anwenden wohllen:
 
-![Profil anwenden beim Erstellen einer Unit](/assets/domain-iso/profile_selection_when_creating.png)
-
+![Profil anwenden beim Erstellen einer Unit](/assets/domain-iso/verinice-39-profile-selection-when-creating.de.png)
 
 2. **Nachträglich für bestehende Units:** Auch nach der Erstellung einer Unit lässt sich das Risikoprofil nach DIN ISO/IEC 27001 nachträglich anwenden. Um erneut in die Unit-Verwaltung zu gelangen, können Sie auch alternetiv auf oben links auf das **verinice.veo**-Logo klicken. Klicken Sie für die entsprechende Unit den Button **Profil anwenden** an, um das Profil auf eine bestehende Unit anzuwenden:
 
-
-![Profil anwenden auf eine bereits erstelle Unit](/assets/domain-iso/apply_profile_retrospectively.png)
-
+![Profil anwenden auf eine bereits erstelle Unit](/assets/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
 
 ## Hinweis
 
@@ -62,5 +59,3 @@ Bitte beachten Sie:
 - Die unter **Controls** enthaltenen Anforderungen entsprechen den Vorgaben der **DIN ISO/IEC 27001 (Anhang A)**. Sie stellen keine Beispiele dar, sondern normative Anforderungen, die im Rahmen Ihrer ISMS-Umsetzung angemessen berücksichtigt und umgesetzt werden müssen, um eine Konformität mit der Norm zu erreichen.
 
 - Die enthaltenen **Bedrohungen und Schwachstellen** wurden aus der **ISO/IEC 27005** übernommen. Auf dieser Basis wurden **beispielhafte Szenarien** modelliert und mit relevanten Assets sowie Sicherheitsmaßnahmen verknüpft. Diese Szenarien dienen als Ausgangspunkt für die Risikoanalyse und können im Rahmen des Risikomanagementprozesses an Ihre spezifischen Bedingungen angepasst und weiterentwickelt werden.
-
-
