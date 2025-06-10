@@ -24,6 +24,9 @@ features:
   - title: Die Domäne IT-Grundschutz
     details: Den IT-Grundschutz in verinice umsetzen...
     link: /domain-it-gs/
+  - title: Die Domäne ISO
+    details: Die ISO/IEC 27001 in verinice umsetzen...
+    link: /domain-iso/
   - title: Die Domäne NIS2
     details: Die NIS2-Richtlinie in verinice umsetzen...
     link: /domain-nis2/

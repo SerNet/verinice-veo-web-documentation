@@ -92,15 +92,6 @@ export default defineConfig({
             ],
           },
           {
-            text: "Die Domäne NIS2",
-            link: "/domain-nis2/",
-            collapsed: true,
-            items: [
-              { text: "Aufbau der Domäne", link: "/domain-nis2/domain-nis2-description" },
-              { text: "Anforderungen umsetzen", link: "/domain-nis2/domain-nis2" },
-            ],
-          },
-          {
             text: "Die Domäne IT-Grundschutz",
             link: "/domain-it-gs/",
             collapsed: true,
@@ -109,8 +100,29 @@ export default defineConfig({
               { text: "Strukturanalyse", link: "/domain-it-gs/structure-analysis" },
               { text: "Schutzbedarfsfeststellung", link: "/domain-it-gs/protection-needs" },
               { text: "Modellierung", link: "/domain-it-gs/modelling" },
-              { text: "IT-Grundschutz-Check", link: "/domain-it-gs/it-grundschutz-check.html" },
+              { text: "IT-Grundschutz-Check", link: "/domain-it-gs/it-grundschutz-check" },
               { text: "Risikoanalyse", link: "/domain-it-gs/risk-analysis" },
+            ],
+          },
+          {
+            text: "Die Domäne ISO",
+            link: "/domain-iso/",
+            collapsed: true,
+            items: [
+              { text: "Aufbau der Domäne", link: "/domain-iso/domain-iso-27000-description" },
+              { text: "Inventarverzeichnis", link: "/domain-iso/inventory" },
+              { text: "Erklärung zur Anwendbarkeit", link: "/domain-iso/soa" },
+              { text: "Risikomanagement", link: "/domain-iso/risk-analysis" },
+              { text: "Risikoprofil nach DIN ISO/IEC 27001", link: "/domain-iso/profiles" },
+            ],
+          },
+          {
+            text: "Die Domäne NIS2",
+            link: "/domain-nis2/",
+            collapsed: true,
+            items: [
+              { text: "Aufbau der Domäne", link: "/domain-nis2/domain-nis2-description" },
+              { text: "Anforderungen umsetzen", link: "/domain-nis2/domain-nis2" },
             ],
           },
           {
