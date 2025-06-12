@@ -3,7 +3,7 @@
 
 ## Ziel der Funktion
 
-Die Erklärung zur Anwendbarkeit (Statement of Applicability – SoA) dient als zentrales Element des ISMS nach ISO/IEC 27001. In dieser Funktion von verinice.veo dokumentieren Sie:
+Die Erklärung zur Anwendbarkeit (Statement of Applicability – SoA) dient als zentrales Element des ISMS nach ISO/IEC 27001. In dieser Funktion von verinice dokumentieren Sie:
 
 1. welche **Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001** auf den definierten ISMS-Anwendungsbereich zutreffen,
 1. aus welchem Grund sie anwendbar sind oder ausgeschlossen sind und
@@ -32,7 +32,7 @@ Alternativ wählen Sie im Dashboard den Subtyp **ISMS-Geltungsbereiche** und ers
 
 ### Zugriff auf die SoA-Funktion
 
-Öffnen Sie den angelegten **ISMS-Geltungsbereich** und wählen Sie den Tab-Reiter **Sicherheitsmaßnahmen**. Über die Plus-Schaltfläche **Sicherheitsmaßnahmen auswählen** können Sie die anwendbaren Sicherheitsmaßnahmen für die Erklärung zur Anwendbarkeit auswählen und speichern. Wenn der *Katalog ISO/IEC 27001** bereits auf Ihre Unit angewendet wurde, wird die Liste der Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001 automatisch geladen.
+Öffnen Sie den angelegten **ISMS-Geltungsbereich** und wählen Sie den Tab-Reiter **Sicherheitsmaßnahmen**. Über die Plus-Schaltfläche **Sicherheitsmaßnahmen auswählen** können Sie die anwendbaren Sicherheitsmaßnahmen für die Erklärung zur Anwendbarkeit auswählen und speichern. Wenn der **Katalog ISO/IEC 27001** bereits auf Ihre Unit angewendet wurde, wird die Liste der Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001 automatisch geladen.
 
 In der Liste müssen alle Sicherheitsmaßnahmen ausgewählt werden, die im Sinne einer Erklärung zur Anwendbarkeit angewendet werden müssen. Das können sowohl Sicherheitsmaßnahmen aus dem Anhang A als auch organisationsspezifische sein.
 
@@ -62,7 +62,7 @@ Wenn eine Sicherheitsmaßnahme Bestandteil der Erklärung der Anwendbarkeit sein
 
 ![Auswahl von Sicherheitsmaßnahmen](/assets/domain-iso/verinice-39-document-exclusion.de.png)
 
-Und geben Sie Beschreibungsfeld die Begründung für den Ausschluss ein:
+und geben im Beschreibungsfeld die Begründung für den Ausschluss ein:
 
 ![Begründung für den Ausschluss](/assets/domain-iso/verinice-39-description-exclusion.de.png)
 

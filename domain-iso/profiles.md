@@ -17,7 +17,7 @@ Profile bieten Ihnen folgende Vorteile:
 - **Vereinfachte Bearbeitung:** Die Profile beinhalten typische Objekte, Beziehungen und Controls, die Sie direkt an Ihre Organisation anpassen können.
 - **Effiziente Risikoanalyse:** Auf Basis der Bedrohungen und Schwachstellen nach **ISO/IEC 27005** wurden zahlreiche Szenarien vordefiniert, die als potentielle Risiken dienen. Diese Szenarien sind bereits mit einer Vielzahl prototypischer **Assets** verknüpft und zusätzlich mit den passenden und risikomitigierenden **Sicherheitsmaßnahmen** aus **Anhang A der ISO/IEC 27001** verbunden. Dadurch wird der Aufwand für die Erfassung und Bewertung von Risiken deutlich reduziert.
 
-## Inhalte eines ISO/IEC 27001-Profils
+## Inhalte des ISO/IEC 27001-Profils
 
 Das ISO/IEC 27001-Profil stellt beispielhafte Objekte aus folgenden Bereichen bereit:
 
@@ -29,18 +29,18 @@ Das ISO/IEC 27001-Profil stellt beispielhafte Objekte aus folgenden Bereichen be
 - Personen
 - Informationssicherheitsvorfälle
 - Dokumente & Aufzeichnungen
-- **Controls:** Sicherheitsmaßnahmen und Anforderungen der DIN ISO/IEC 27001
-- **Szenarien:** Bedrohungen und Schwachstellen nach ISO/IEC 27005
+- Controls: Sicherheitsmaßnahmen und Anforderungen der DIN ISO/IEC 27001
+- Szenarien: Bedrohungen und Schwachstellen nach ISO/IEC 27005
 
 ## Anwenden eines Risikoprofils nach DIN ISO/IEC 27001
 
 Ein Profil kann in zwei Situationen angewendet werden:
 
-1. **Beim Erstellen einer neuen Unit**: Während des Erstellungsprozesses können Sie ein Profil auswählen, das direkt auf die neue Unit angewendet wird. Navigieren Sie dazu oben link im Menü auf das Drop-Down-Menü **Unit auswählen**, scrollen Sie ganz nach unten und wählen **Units verwalten**. Klicken Sie anschließend unten rechts auf Button **Unit erstellen** und wählen Sie im zweiten Schritt des Wizards aus, dass Sie das Risikoprofil nach DIN ISO/IEC 27001 anwenden wollen:
+1. **Beim Erstellen einer neuen Unit**: Während des Erstellungsprozesses können Sie ein Profil auswählen, das direkt auf die neue Unit angewendet wird. Navigieren Sie dazu oben links im Menü auf das Drop-Down-Menü **Unit auswählen**, scrollen Sie ganz nach unten und wählen **Units verwalten**. Klicken Sie anschließend unten rechts auf Button **Unit erstellen** und wählen Sie im zweiten Schritt des Wizards aus, dass Sie das Risikoprofil nach DIN ISO/IEC 27001 anwenden wollen:
 
 ![Profil anwenden beim Erstellen einer Unit](/assets/domain-iso/verinice-39-profile-selection-when-creating.de.png)
 
-2. **Nachträglich für bestehende Units:** Auch nach der Erstellung einer Unit lässt sich das Risikoprofil nach DIN ISO/IEC 27001 nachträglich anwenden. Um erneut in die Unit-Verwaltung zu gelangen, können Sie auch alternativ auf oben links auf das **verinice**-Logo klicken. Klicken Sie für die entsprechende Unit den Button **Profil anwenden** an, um das Profil auf eine bestehende Unit anzuwenden:
+2. **Nachträglich für bestehende Units:** Auch nach der Erstellung einer Unit lässt sich das Risikoprofil nach DIN ISO/IEC 27001 nachträglich anwenden. Um erneut in die Unit-Verwaltung zu gelangen, können Sie alternativ auf das **verinice**-Logo klicken. Klicken Sie für die entsprechende Unit den Button **Profil anwenden** an, um das Profil auf eine bestehende Unit anzuwenden:
 
 ![Profil anwenden auf eine bereits erstelle Unit](/assets/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
 

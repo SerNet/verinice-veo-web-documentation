@@ -23,17 +23,17 @@ Diese Subtypen ermöglichen eine detaillierte Modellierung der internen und exte
 ### Scope-Beziehungen verwalten
 
 Öffnen Sie ein beliebiges **Scope-Objekt**.
-Im Tabreiter **Scopes** fügen Sie z.B. untergeordnete Scopes hinzu:
+Im Tab-Reiter **Scopes** fügen Sie z.B. untergeordnete Scopes hinzu:
 
 ![Untergeordnete Scopes](/assets/domain-iso/verinice-39-scopes-parts.de.png)
 
-Im Tabreiter **In Scope** definieren Sie, zu welchem übergeordneten Scope das aktuelle Objekt gehört:
+Im Tab-Reiter **In Scope** definieren Sie, zu welchem übergeordneten Scope das aktuelle Objekt gehört:
 
 ![Übergeordnete Scopes](/assets/domain-iso/verinice-39-superordinate-scopes.de.png)
 
 ### Bestandteile eines Scope-Objekts
 
-Im Tabreiter **Teile** innerhalb eines Scope-Objekts können weitere Bestandteile hinzugefügt werden. Dies ist insbesondere z.B. für einen ISMS-Anwendungsbereich wichtig, um den ISMS-Anwendungsbereich zu dokumentieren oder die Abgrenzung des ISMS-Anwendungsbereichs z.B. für eine Zertifizierung zu definieren.
+Im Tab-Reiter **Teile** innerhalb eines Scope-Objekts können weitere Bestandteile hinzugefügt werden. Dies ist insbesondere z.B. für einen ISMS-Anwendungsbereich wichtig, um den ISMS-Anwendungsbereich zu dokumentieren oder die Abgrenzung des ISMS-Anwendungsbereichs z.B. für eine Zertifizierung zu definieren.
 
 Zu den Bestandteilen zählen insbesondere **Geschäftsprozesse** und **Assets**, die innerhalb dieses Geltungsbereichs betrachtet werden sollen:
 
@@ -45,7 +45,7 @@ Um einen neuen **Geschäftsprozess** anzulegen, gehen Sie wie folgt vor:
 
 1. Navigieren Sie über das **linke Menü** oder über das Dashboard zu **Geschäftsprozesse**.
 2. In der Objektübersicht klicken Sie unten rechts auf den **Plus-Button (+)**, um ein neues Objekt zu erstellen.
-3. Im Formular für den Geschäftsprozess können Sie die notwendigen Informationen hinterlegen und im unteren Abschnitt Verknüpfungen zu **erforderlichen Assets** hinzufügen. Die selben Verknüpfungen sehen Sie auch in den **Objektdetails** unter dem Tabreiter **Verknüpfungen**:
+3. Im Formular für den Geschäftsprozess können Sie die notwendigen Informationen hinterlegen und im unteren Abschnitt Verknüpfungen zu **erforderlichen Assets** hinzufügen. Die selben Verknüpfungen sehen Sie auch in den **Objektdetails** unter dem Tab-Reiter **Verknüpfungen**:
 
 ![Verknüpfungen](/assets/domain-iso/verinice-39-links-between-process-and-asset.de.png)
 
@@ -56,7 +56,7 @@ Um einen neuen **Geschäftsprozess** anzulegen, gehen Sie wie folgt vor:
 
 ### Zusätzliche Bestandteile für Geschäftsprozesse
 
-Über den Tabreiter **Teile** können Sie zusätzliche **Geschäftsprozesse** hinzufügen, um Abhängigkeiten oder weitere Geschäftsprozesse als Teilprozesse zu dokumentieren.
+Über den Tab-Reiter **Teile** können Sie zusätzliche **Geschäftsprozesse** hinzufügen, um Abhängigkeiten oder weitere Geschäftsprozesse als Teilprozesse zu dokumentieren.
 
 ## Assets anlegen und strukturieren
 
@@ -68,7 +68,7 @@ Das Vorgehen zur Erstellung eines neuen **Assets** entspricht dem der Geschäfts
 
 ### Zusätzliche Bestandteile für Assets
 
-Wie bei den Geschäftsprozessen lassen sich auch bei Assets über den Tabreiter **Teile** weitere **Assets** hinzufügen. Damit können zusätzliche strukturelle oder funktionale Zusammenhänge dokumentiert werden.
+Wie bei den Geschäftsprozessen lassen sich auch bei Assets über den Tab-Reiter **Teile** weitere **Assets** hinzufügen. Damit können zusätzliche strukturelle oder funktionale Zusammenhänge dokumentiert werden.
 
 ## Report Inventarverzeichnis
 
