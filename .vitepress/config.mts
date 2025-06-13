@@ -151,8 +151,8 @@ export default defineConfig({
             link: "/release-notes/",
             collapsed: true,
             items: [
-              { text: "verinice 37", link: "/release-notes/verinice-39" },
-              { text: "verinice 37", link: "/release-notes/verinice-38" },
+              { text: "verinice 39", link: "/release-notes/verinice-39" },
+              { text: "verinice 38", link: "/release-notes/verinice-38" },
               { text: "verinice 37", link: "/release-notes/verinice-37" },
               { text: "verinice 36", link: "/release-notes/verinice-36" },
               { text: "verinice 35", link: "/release-notes/verinice-35" },
