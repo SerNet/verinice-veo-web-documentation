@@ -33,7 +33,7 @@ Im Tab-Reiter **In Scope** definieren Sie, zu welchem übergeordneten Scope das 
 
 ### Bestandteile eines Scope-Objekts
 
-Im Tab-Reiter **Teile** innerhalb eines Scope-Objekts können weitere Bestandteile hinzugefügt werden. Dies ist insbesondere z.B. für einen ISMS-Anwendungsbereich wichtig, um den ISMS-Anwendungsbereich zu dokumentieren oder die Abgrenzung des ISMS-Anwendungsbereichs z.B. für eine Zertifizierung zu definieren.
+Im Tab-Reiter **Teile** innerhalb eines Scope-Objekts können zusätzliche Bestandteile hinzugefügt werden. Dies ist insbesondere relevant für die Dokumentation des ISMS-Anwendungsbereich - etwa zur genauen Beschreibung und Abgrenzung des Geltungsbereichs, wie sie im Rahmen einer ISO/IEC 27001-Zertifizierung erforderlich ist.
 
 Zu den Bestandteilen zählen insbesondere **Geschäftsprozesse** und **Assets**, die innerhalb dieses Geltungsbereichs betrachtet werden sollen:
 
@@ -45,7 +45,7 @@ Um einen neuen **Geschäftsprozess** anzulegen, gehen Sie wie folgt vor:
 
 1. Navigieren Sie über das **linke Menü** oder über das Dashboard zu **Geschäftsprozesse**.
 2. In der Objektübersicht klicken Sie unten rechts auf den **Plus-Button (+)**, um ein neues Objekt zu erstellen.
-3. Im Formular für den Geschäftsprozess können Sie die notwendigen Informationen hinterlegen und im unteren Abschnitt Verknüpfungen zu **erforderlichen Assets** hinzufügen. Die selben Verknüpfungen sehen Sie auch in den **Objektdetails** unter dem Tab-Reiter **Verknüpfungen**:
+3. Im Formular für den Geschäftsprozess können Sie die notwendigen Informationen hinterlegen und im unteren Abschnitt Verknüpfungen zu **erforderlichen Assets** herstellen. Die selben Verknüpfungen sehen Sie auch in den **Objektdetails** unter dem Tab-Reiter **Verknüpfungen**:
 
 ![Verknüpfungen](/assets/domain-iso/verinice-39-links-between-process-and-asset.de.png)
 
@@ -72,7 +72,7 @@ Wie bei den Geschäftsprozessen lassen sich auch bei Assets über den Tab-Reiter
 
 ## Report Inventarverzeichnis
 
-Um das Inventarverzeichnis als Report im PDF-Format über alle **Assets** zu erstellen, die als Bestandteile einem **ISMS-Geltungsbereich** angehören, wählen Sie im Menü **Reports** und **Inventarverzeichnis** aus:
+Um das Inventarverzeichnis als Report im PDF-Format über alle **Assets** zu erstellen, die als Bestandteile einem **ISMS-Geltungsbereich** zugeordnet sind, wählen Sie im Menü **Reports** und anschließend **Inventarverzeichnis** aus:
 
 ![Report Inventarverzeichnis](/assets/domain-iso/verinice-39-inventory-of-assets.de.png)
 
@@ -80,4 +80,4 @@ Wählen Sie anschließend ein Scope-Objekt aus den unter **ISMS-Geltungsbereich*
 
 Im Report werden alle **Assets** ausgegeben, die als **Teile** einem Objekt vom Subtyp **ISMS-Geltungsbereich** zugeordnet wurden.
 
-Im ersten Abschnitt des Reports erhalten Sie eine Übersicht über alle Assets mit den eingegeben Werten für Vertraulichkeit, Verfügbarkeit und Integrität, so dass Sie besonders schützenswerte Assets einfach erkennen können. Im zweiten Abschnitt des Reports werden für jedes Asset alle dokumentierten Informationen aus den jeweiligen Formularen detailliert ausgegeben.
+Im ersten Abschnitt des Reports erhalten Sie eine Übersicht über alle Assets mit den eingegebenen Werten für Vertraulichkeit, Verfügbarkeit und Integrität, sodass besonders schützenswerte Assets leicht erkennbar sind. Im zweiten Abschnitt werden für jedes Asset alle dokumentierten Informationen aus den jeweiligen Formularen detailliert dargestellt.

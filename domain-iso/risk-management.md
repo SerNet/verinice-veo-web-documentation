@@ -14,22 +14,22 @@ Es besteht die Möglichkeit, für sämtliche Scope-, Asset- sowie Prozess-Objekt
 - Wählen Sie für das betroffene Objekt, z.B Assets, im Objektumfeld den Tab-Reiter **Risiken**.
 - Über das rote **Plus-Icon** können Sie nun für Ihr Asset ein **Risiko** hinzufügen.
 
-[Risiko hinzufügen](../assets/domain-iso/verinice-39-add-risk.de.png)
+![Risiko hinzufügen](../assets/domain-iso/verinice-39-add-risk.de.png)
 
 - Treffen Sie eine passende Auswahl aus den Szenarien.
 
 ![Risiko auswählen](../assets/domain-iso/verinice-39-select-risk.de.png)
 
-Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell angewandten Szenarien. Zudem haben Sie die Möglichkeit, eigene individuelle Szenarien als Objekte über das Formular **Szenarien** anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
+Bei der Auflistung handelt es sich um die Szenarien aus dem Katalog, die manuell auf Ihre Unit angewendet wurden. Darüber hinaus haben Sie die Möglichkeit, eigene individuelle Szenarien als Objekte über das Formular **Szenarien** anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
 
 ## Risikobewertung
 
-Um die einzelnen Risiken bearbeiten zu können, klicken Sie auf das entsprechende Risiko. Im sich öffnenden **Risikodialog** kann einen spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
+Um ein einzelnes Risiken bearbeiten zu können, klicken Sie auf das entsprechende Risiko. Im sich öffnenden **Risikodialog** kann eine spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
 
 - **Eintrittswahrscheinlichkeit** (und gegebenenfalls eine Erklärung)
 - **Schadensauswirkung** pro Schutzziel (und gegebenenfalls eine Erklärung)
 
-Aus diesen beiden Werten wird, nachdem Sie Ihre Eingaben gespeichert haben, das **Bruttorisiko** anhand der Risikomatrix berechnet.
+Nachdem Sie Ihre Eingaben gespeichert haben, wird das **Bruttorisiko** anhand der Risikomatrix berechnet.
 
 ## Risikobehandlung
 
@@ -50,11 +50,11 @@ verinice bietet Ihnen zwei Möglichkeiten **Mitigierende Maßnahmen** zu hinterl
 
 ### Mitigierende Maßnahme erstellen
 
-Um eine **neue Maßnahmen** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog, um die neue Maßnahme zu erstellen. Nachdem Sie Ihre Daten zur Maßnahme gespeichert haben, wird die neue Maßnahme im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt.
+Um eine neue **Maßnahme** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog zur Erfassung der neuen Maßnahme. Nachdem Sie die Daten zur Maßnahme gespeichert haben, wird diese im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt.
 
 ### Mitigierende Maßnahme verknüpfen
 
-Sie können auch **Mitigierende Maßnahmen** hinzufügen, indem Sie bereits **vorhandene Maßnahmen** verknüpfen. Die vorhandenen Sicherheitsmaßnahmen stammen entweder aus dem Katalog, durch Anwenden der einschlägigen Sicherheitsmaßnahmen, oder sind individuell formulierte Maßnahmen, die als Objekte über das Formular **Sicherheitsmaßnahmen** angelegt wurden.
+Sie können auch **Mitigierende Maßnahmen** hinzufügen, indem Sie bereits **vorhandene Maßnahmen** verknüpfen. Die vorhandenen Sicherheitsmaßnahmen stammen entweder aus dem Katalog - durch das Anwenden einschlägiger Maßnahmen - oder handelt sich um individuell formulierte Maßnahmen, die als Objekte über das Formular **Sicherheitsmaßnahmen** angelegt wurden.
 
 Über die Funktion **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahmen verknüpfen**, können Sie eine Auswahl aus den bereits erfassten Sicherheitsmaßnahmen für die Mitigation treffen. Nach Speicherung werden die von Ihnen ausgewählten Objekte im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
 

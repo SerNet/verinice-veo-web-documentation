@@ -8,7 +8,7 @@
 - **Organisationen:** Zur Abbildung der Organisation mit den wichtigsten Stammdaten.
 - **ISMS-Geltungsbereiche:** ISMS-Geltungsbereiche für die Festlegung, welche Bereiche eines Unternehmens von der Implementierung und Anwendung des ISMS betroffen sind.
 - **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Organisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
-- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
+- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte oder Interessengruppen.
 
 ### Prozessobjekte
 
@@ -28,7 +28,7 @@
 
 ### Dokumentenobjekte
 
-- **Dokumente:** Für die Erfassung und Speicherung von Dokumenten.
+- **Dokumente:** Für die Erfassung und Verlinkung von Dokumenten.
 - **Aufzeichnungen:** Speicherung der Dokumente, die als Nachweise dienen sollen.
 
 ### Controlobjekte

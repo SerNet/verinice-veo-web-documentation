@@ -52,7 +52,7 @@ Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie
 
 ![Umsetzung anzeigen](/assets/domain-iso/verinice-39-show-implementation.de.png)
 
-Öffnen Sie die entsprechende Maßnahmen und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
+Öffnen Sie die entsprechende Maßnahme und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
 
 ![Umsetzung anzeigen](/assets/domain-iso/verinice-39-implementation-status.de.png)
 
@@ -74,4 +74,4 @@ Ein vollständig ausgefüllter Report für die Erklärung zur Anwendbarkeit kann
 
 ![Report Erklärung zur Anwendbarkeit](/assets/domain-iso/verinice-39-report-soa.de.png)
 
-Wählen Sie einen ISMS-Geltungsbereich mit den zugeordnet Sicherheitsmaßnahmen der ISO/IEC 27001, Anhang A aus und klicken Sie auf **Report generieren**.
+Wählen Sie einen ISMS-Geltungsbereich mit den zugeordneten Sicherheitsmaßnahmen der ISO/IEC 27001, Anhang A aus und klicken Sie auf **Report generieren**.

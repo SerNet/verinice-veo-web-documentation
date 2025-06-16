@@ -3,9 +3,9 @@
 
 ## Arbeiten mit Risikoprofil nach DIN ISO/IEC 27001
 
-Ein **Profil** ist eine vordefinierte Zusammenstellung von Beispielobjekten und bereits angewendeten Katalogelementen, die auf einem bestimmten **Katalog** basieren. Es erleichtert den Einstieg und die Konfiguration einer Unit, da viele erforderliche Objekte und Zusammenhänge bereits enthalten sind. Im Gegensatz zu einem Katalog, können mit einem Profil Zusammenhänge zwischen Objekten angeboten werden.
+Ein **Profil** ist eine vordefinierte Zusammenstellung von Beispielobjekten und bereits angewendeten Katalogelementen, die auf einem bestimmten **Katalog** basieren. Es erleichtert den Einstieg und die Konfiguration einer Unit, da viele erforderliche Objekte und Zusammenhänge bereits enthalten sind. Im Gegensatz zu einem Katalog, können mit einem Profil Zusammenhänge zwischen Objekten abgebildet werden.
 
-Mit einem Profil können Sie eine komplette Beispielorganisation oder das Risikoprofil gemäß der **DIN ISO/IEC 27001** laden bzw. auf Ihre Unit anwenden – inklusive zugehöriger Scopes, Assets, Prozesse, Bedrohungen, Personen, Schwachstellen und Sicherheitsmaßnahmen.
+Mit einem Profil können Sie eine komplette Beispielorganisation oder ein Risikoprofil gemäß der **DIN ISO/IEC 27001** laden und auf Ihre Unit anwenden – inklusive der zugehörigen Scopes, Assets, Prozesse, Bedrohungen, Personen, Schwachstellen und Sicherheitsmaßnahmen.
 
 ## Vorteile von Risikoprofil nach DIN ISO/IEC 27001
 
@@ -15,7 +15,7 @@ Profile bieten Ihnen folgende Vorteile:
 - **Zeitersparnis:** Viele Elemente sind bereits vorkonfiguriert – kein manuelles Anlegen notwendig.
 - **Standardsicherheit:** Die Inhalte orientieren sich an den anerkannten Normen wie der ISO/IEC 27001 und ISO/IEC 27005.
 - **Vereinfachte Bearbeitung:** Die Profile beinhalten typische Objekte, Beziehungen und Controls, die Sie direkt an Ihre Organisation anpassen können.
-- **Effiziente Risikoanalyse:** Auf Basis der Bedrohungen und Schwachstellen nach **ISO/IEC 27005** wurden zahlreiche Szenarien vordefiniert, die als potentielle Risiken dienen. Diese Szenarien sind bereits mit einer Vielzahl prototypischer **Assets** verknüpft und zusätzlich mit den passenden und risikomitigierenden **Sicherheitsmaßnahmen** aus **Anhang A der ISO/IEC 27001** verbunden. Dadurch wird der Aufwand für die Erfassung und Bewertung von Risiken deutlich reduziert.
+- **Effiziente Risikoanalyse:** Basierend auf Bedrohungen und Schwachstellen gemäß **ISO/IEC 27005** sind zahlreiche Szenarien vordefiniert. Diese dienen als potentielle Risiken und sind bereits mit typischen **Assets** verknüpft. Zudem sind passende, risikomitigierende Maßnahmen aus **Anhang A der ISO/IEC 27001** zugeordnet, was den Aufwand für die Risikoerfassung und -bewertung erheblich reduziert.
 
 ## Inhalte des ISO/IEC 27001-Profils
 
