@@ -45,5 +45,5 @@ Erweiterung des Rechte- und Rollenkonzepts, initial:
 ### Allgemeine Funktionen
 
 - Die Konfiguration domänenspezifischer Inhalte wird optimiert.
-- Die Dokumentation wird komplettiert und internationalisiert (EN). <!-- &166, &167, &144 -->
+- Die Dokumentation wird vervollständigt und internationalisiert (EN). <!-- &166, &167, &144 -->
 - Bereitstellung des Risikokataloges für die Domäne ISO 27001 mit den lizenzrechtlich verschlüsselten Controltexten.

@@ -11,7 +11,7 @@ Die erste Iteration des CSV-Imports ermöglicht den Import beliebiger Objekte in
 
 ![CSV-Import](/assets/release-notes/verinice-39-csv-import.de.gif)
 
-### Umsetzung domänenspezifische Controls
+### Umsetzung domänenspezifischer Controls
 
 Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs-Dialog anzuzeigen, können Formulare erstellt und eingebunden werden (Voraussetzung: Content Creator Rolle).
 
@@ -19,7 +19,7 @@ Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs
 
 ### Fehlerbehebungen
 
-- Beim Unit-Import wird das Unit-Limit per Client berücksichtigt.
+- Beim Unit-Import wird das Unit-Limit pro Client berücksichtigt.
 
 ### Produktpflege
 
