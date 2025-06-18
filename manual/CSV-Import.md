@@ -5,7 +5,7 @@ Der CSV-Import ermöglicht den Import von Objekten zu allen Subtypen. Wechseln S
 
 ![CSV-Import in der Objektübersicht](/assets/manual/verinice-39-csv-objectlist.de.png)
 
-Wählen Sie die zu importierende CSV-Datei per Drag-and-Drop oder über die Schaltfläche **Dateien auswählen** aus. Im sich öffnenden Dialog **Objekte importieren** werden Ihnen alle Einträge der CSV-Datei mit allen vorhanden Spalten angezeigt:
+Wählen Sie die zu importierende CSV-Datei per Drag-and-Drop oder über die Schaltfläche **Dateien auswählen** aus. Im sich öffnenden Dialog **Objekte importieren** werden Ihnen alle Einträge der CSV-Datei mit allen vorhandenen Spalten angezeigt:
 
 ![Objekt importieren](/assets/manual/verinice-39-import-objects-dialog.de.png)
 

@@ -68,6 +68,7 @@ export default defineConfig({
               { text: "Unit-Verwaltung", link: "/manual/unit-management" },
               { text: "Benutzeroberfläche", link: "/manual/user-interface" },
               { text: "Objekte", link: "/manual/objects" },
+              { text: "CSV-Import", link: "/manual/CSV-Import" },
               { text: "Kataloge", link: "/manual/catalogs" },
               { text: "Reports", link: "/manual/reports" },
               { text: "Risikodefinitionen", link: "/manual/risk-definition" },
