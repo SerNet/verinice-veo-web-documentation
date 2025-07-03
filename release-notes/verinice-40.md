@@ -1,68 +1,45 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 40
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 39 zur Verfügung:
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 40 zur Verfügung:
 
 ## Allgemeine Funktionen
 
-### CSV-Import
+### Mehrfachauswahl Domänenzuordnung
 
-Die erste Iteration des CSV-Imports ermöglicht den Import beliebiger Objekte in alle Domänen anhand von Abkürzung, Name und Beschreibung:
+In der Objektübersicht können jetzt über die Mehrfachauswahl mehrere Objekte gleichzeitig einer weiteren Domäne zugeordnet werden:
 
-![CSV-Import](/assets/release-notes/verinice-39-csv-import.de.gif)
 
-### Umsetzung domänenspezifischer Controls
 
-Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs-Dialog anzuzeigen, können Formulare erstellt und eingebunden werden (Voraussetzung: Content Creator Rolle).
+### Barrierefreiheit
 
-![RI Forms für Controls](/assets/release-notes/verinice-39-ri-form-control.de.png)
+Die gesamte Oberfläche wurde im Hinblick auf die Barrierefreiheit überarbeitet und erfüllt die Anforderungen nach WCAG 2.1 AA:
+
+
+
+::: info
+Zur Aufrechterhaltung der Barrierefreiheit werden aktuell automatisierte Accessibility-Tests in den Entwicklungsprozess integriert und das Akzeptanzkriterium **Barrierefreiheit erfüllt** verpflichtend in den Abnahmeprozess aufgenommen.
+:::
+
+### Detailverbesserungen
+
+* Banner Messages (z.B. Ankündigungen von neuen Releases) werden nach Bestätigung durch Anwendende geschlossen und nicht erst automatisch nach 10 Minuten.
 
 ### Fehlerbehebungen
 
-- Beim Unit-Import wird das Unit-Limit pro Client berücksichtigt.
+* In der bereits mit verinice 39 veröffentlichten Einbindung von Domänenspezifischen Control-Details im Umsetzungs-Dialog wurde ein Problem mit der Anzeige einzelner Informationen behoben.
+* Behebung eines Fehlers bei der Anzeige der Begründung zur Auswirkung (Schutzbedarf bzw. Business Impact).
+* Kleiner Fehlerbehebungen im Rahmen der Feature Flags.
+* Behebung von Fehlern und Vereinheitlichung des Layouts bei Seitentiteln (H1-Header).
 
 ### Produktpflege
 
-- Ausweitung der Testabdeckung.
-- Zuverlässigkeit verschiedener Tests verbessert.
-
-### REST-API
-
-- Die mit verinice 37 als *deprecated* angekündigten **Such-Endpunkte** ```/elementType/searches``` wurden entfernt.
-- Die mit verinice 34 als *deprecated* angekündigten **Nicht-in-Domain-Endpunkte zum Schreiben von Elementen** (```POST /assets``` ```PUT /assets/{id}``` etc.) wurden entfernt.
-
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-### Reports
-
-- In den Reports **A.4 Ergebnis des IT-Grundschutz-Checks** und **A.6 Realisierungsplan** wird der Umsetzungsstatus jetzt farbig codiert ausgegeben:
-
-![Umsetzungsstatus farbig codiert](/assets/release-notes/verinice-39-it-gs-report.de.png)
-
-- In den Reports **A.3, A.4 und A.6** wird jetzt korrekt die verantwortliche Person aus der Control-Implementation (Bausteinverantwortliche) statt aus dem Control selbst ausgegeben.
-- Im Report **A.4 Ergebnis des IT-Grundschutz-Checks** wurde das Beschreibungsfeld aus dem Control entfernt.
-
-### Dokumentation
-
-Die Beschreibung der Vorgehensweise bei der Baustein-Modellierung wurde aktualisiert.
+* Nuxt und zugehörige Pakete wurde auf neuere Versionen aktualisiert.
 
 ## Domäne ISO
 
 **Status: Private Beta**
 
-### Risikoprofil nach DIN ISO/IEC 27001
+### Dokumentation
 
-Das **Risikoprofil nach DIN ISO/IEC 27001** steht zur Anwendung in der Domäne ISO/IEC 27000 bereit. Diese erste Iteration enthält noch **KEINE** lizenzrechtlich geschützten Controltexte:
-
-![Risikoprofil nach DIN ISO/IEC 27001](/assets/release-notes/verinice-39-iso-risiko-profil.de.png)
-
-::: info Das Risikoprofil nach DIN ISO/IEC 27001 entspricht dem aus verinice bekannten Risikokatalog!
-:::
-
-### Reports
-
-- Erste Versionen der Reports für das **Inventarverzeichnis (Inventory of Assets)** und die **Erklärung zur Anwendbarkeit (Statement of Applicability - SoA)**
-
-![ISO-Reports](/assets/release-notes/verinice-39-soa-report.de.png)
+Erste Version der Benutzerdokumentation für die Domäne ISO.
