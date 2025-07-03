@@ -13,6 +13,10 @@ Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwende
 - Konfiguration/Erweiterung der Schutzziele. <!-- &54 -->
 - Mehrere Risikodefinitionen je Domäne. <!-- &55 -->
 
+### Shortcuts
+
+Zur besseren Navigation, insbesondere auch im Hinblick auf die , werden Tastenbefehle (Shortcuts) implementiert.
+
 ### verinice2BI-Connector<!-- &169 -->
 
 Bereitstellung der Control Implementation und Requirement Implementation im verinice2BI-Connector.
