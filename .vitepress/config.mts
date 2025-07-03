@@ -152,6 +152,7 @@ export default defineConfig({
             link: "/release-notes/",
             collapsed: true,
             items: [
+              { text: "verinice 40", link: "/release-notes/verinice-40" },
               { text: "verinice 39", link: "/release-notes/verinice-39" },
               { text: "verinice 38", link: "/release-notes/verinice-38" },
               { text: "verinice 37", link: "/release-notes/verinice-37" },
@@ -179,7 +180,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "linkedin",
-        link: "https://www.linkedin.com/products/sernet-gmbh-verinice/",
+        link: "https://www.linkedin.com/showcase/verinice/",
       },
       { icon: "youtube", link: "https://www.youtube.com/c/verinice" },
       { icon: "github", link: "https://github.com/SerNet/verinice-veo" },

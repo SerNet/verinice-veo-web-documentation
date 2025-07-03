@@ -15,7 +15,7 @@ Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwende
 
 ### Shortcuts
 
-Zur besseren Navigation, insbesondere auch im Hinblick auf die , werden Tastenbefehle (Shortcuts) implementiert.
+Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit, werden Tastenbefehle (Shortcuts) implementiert.
 
 ### verinice2BI-Connector<!-- &169 -->
 
