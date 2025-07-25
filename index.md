@@ -42,10 +42,8 @@ features:
 ---
 
 ::: warning 
-We are working on the English-language version of this documentation and expect to make it available in Q3 2025! 
+The English version of the documentation is a work in progress. It is incomplete and may contain errors.
 :::
 
-
----
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 © 2025 The Project Contributors. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

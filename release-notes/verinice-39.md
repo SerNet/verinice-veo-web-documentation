@@ -29,7 +29,7 @@ Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs
 ### REST-API
 
 - Die mit verinice 37 als *deprecated* angekündigten **Such-Endpunkte** ```/elementType/searches``` wurden entfernt.
-- Die mit verinice 34 als *deprecated* angekündigten **Nicht-in-Domain-Endpunkte zum Schreiben von Elementen** (```POST /assets``` ```PUT /assets/{id}``` etc.) wurden entfernt.
+- Die mit verinice 34 als *deprecated* angekündigten **Nicht-in-Domain-Endpunkte zum Schreiben von Elementen** (```POST /assets/en``` ```PUT /assets/{id}``` etc.) wurden entfernt.
 
 ## Domäne IT-Grundschutz
 
