@@ -1,4 +1,4 @@
-<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
+<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
 Das verinice.Team arbeitet aktuell an den folgenden Themen:
@@ -9,17 +9,11 @@ Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
 Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwender anpassbar:
 
-- Erweiterung der Risikomatrix (Auswirkung/Schutzbedarf, Eintrittswahrscheinlichkeit). <!-- &53 -->
 - Konfiguration/Erweiterung der Schutzziele. <!-- &54 -->
-- Mehrere Risikodefinitionen je Domäne. <!-- &55 -->
 
 ### Shortcuts
 
 Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit, werden Tastenbefehle (Shortcuts) implementiert.
-
-### verinice2BI-Connector<!-- &169 -->
-
-Bereitstellung der Control Implementation und Requirement Implementation im verinice2BI-Connector.
 
 ### OnPrem-Betrieb
 
@@ -32,7 +26,6 @@ Bereitstellung der Control Implementation und Requirement Implementation im veri
 
 Im 2. Halbjahr 2025 werden sukzessive weitere Domänen zur Verfügung gestellt:
 
-- Domäne ISO/IEC 27000
 - Domäne Business Continuity Management (BSI-Standard 200-4 und ISO 22301)
 - Domäne TISAX / VDA ISA
 
