@@ -1,30 +1,35 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 41
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 41 zur Verfügung!
+The following new features are available to users with the release of verinice 41!
 
-## Allgemeine Funktionen
+## General functions
 
-**Status: Produktiv**
+**Status: Productive**
 
-### Detailverbesserungen und Fehlerbehebungen
+### Adjustment of risk matrices
 
-## Domäne Datenschutz
+In the **Risk Definition**, the **Probability of Occurrence**, **Impact**, and **Risk Categories** can now be adjusted. The changes are made in a wizard and are validated against the backend before being saved to avoid inconsistent risk definitions.
 
-**Status: Produktiv**
+### Detail improvements and bug fixes
 
-## Domäne IT-Grundschutz
+The left-hand area of the **Object View** has been optimized:
+- **Last change**, **Created**, and **Description** are no longer displayed redundantly.
+- The icons for **Object-specific actions** have been moved to the right-hand sidebar.
+- The **Tabs** take up the entire available height.
 
-**Status: Produktiv**
+In the **Catalog elements applied** dialog, you can navigate directly to the applied elements via links.
 
-## Domäne NIS2
+In the **verinice2BI connector**, you can now evaluate applied controls and modeled building blocks as well as the implementation status.
 
-**Status: Private Beta**
+### Product maintenance
 
-## Domäne ISO
+The OpenAPI documentation has been improved to make using the REST API easier.
 
-**Status: Prototyp**
+## Domain ISO 27001 (DE)
 
-## Domäne TISAX
+**Status: Productive**
 
-**Status: Private Beta**
+To better distinguish between individual standards in different languages, the name of the domain **ISO 27001 (DE)** has been specified.
+
+The **Risk Analysis** report is now available for the ISO domain.

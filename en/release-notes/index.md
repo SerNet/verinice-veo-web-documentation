@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: warning Go directly to the new features in release [verinice 41](/release-notes/verinice-41.md)!
+::: warning Go directly to the new features in release [verinice 41](/en/release-notes/verinice-41.md)!
 :::
 
 New features, and entire domains in particular, go through various release phases and may not be available to all users:
