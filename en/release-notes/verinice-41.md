@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# verinice XY
+# verinice 41
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice XY zur Verfügung!
+Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 41 zur Verfügung!
 
 ## Allgemeine Funktionen
 
