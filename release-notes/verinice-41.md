@@ -11,12 +11,16 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 
 In der **Risikodefinition** können jetzt **Eintrittswahrscheinlichkeit**, **Auswirkung** und **Risikokategorien** angepasst werden. Die Änderungen erfolgen in einem Wizard und werden vor Speicherung gegen das Backend validiert, um inkonsistente Risikodefinitionen zu vermeiden.
 
+![Risikomatrix erweitern](/assets/release-notes/verinice-41-risk-definition.de.gif)
+
 ### Detailverbesserungen und Fehlerbehebungen
 
 In der **Objektansicht** wurde der linksseitige Bereich optimiert:
 - **Letzte Änderung**, **Erstellt** und die **Beschreibung** werden nicht mehr redundant angezeigt.
 - die Icons für die **Objektspezifischen Aktionen** wurden in die rechte Seitenleiste verschoben.
 - Der **Tab-Reiter** nimmt die gesamte verfügbare Höhe ein.
+
+![Optimierte Objektansicht](/assets/release-notes/verinice-41-object-details.de.png)
 
 Im Dialog **Katalogelemente angewendet** kann über Links direkt zu den angewendeten Elementen navigiert werden.
 

@@ -11,12 +11,16 @@ The following new features are available to users with the release of verinice 4
 
 In the **Risk Definition**, the **Probability of Occurrence**, **Impact**, and **Risk Categories** can now be adjusted. The changes are made in a wizard and are validated against the backend before being saved to avoid inconsistent risk definitions.
 
+![Risikomatrix erweitern](/assets/release-notes/verinice-41-risk-definition.en.gif)
+
 ### Detail improvements and bug fixes
 
 The left-hand area of the **Object View** has been optimized:
 - **Last change**, **Created**, and **Description** are no longer displayed redundantly.
 - The icons for **Object-specific actions** have been moved to the right-hand sidebar.
 - The **Tabs** take up the entire available height.
+
+![Improved object view](/assets/release-notes/verinice-41-object-details.en.png)
 
 In the **Catalog elements applied** dialog, you can navigate directly to the applied elements via links.
 
