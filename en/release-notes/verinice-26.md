@@ -1,65 +1,59 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 26
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 26 zur Verfügung:
+The following new features are available to users with the release of verinice 26:
 
-## Allgemeine Funktionen
-**Status: Produktiv**
+## General functions
+**Status: Productive**
 
-### Verbesserte Unitverwaltung
+### Improved unit management
 
-- Durch die Umstellung der Unitverwaltung von Tabellen auf Listen (Karten) wird der Inhalt von Units transparenter dargestellt - es ist auf einen Blick erkennbar, welche Domänen der Unit zugeordnet sind.
-- Das Anlegen neuer Units erfolgt in einem Assistenten, der die Zuordnung von Domänen und das Anwenden von Profilen vereinfacht.
-- Die Bearbeitung von Units ist intuitiver, insbesondere hinsichtlich der Zuordnung von Domänen und dem Anwenden von Profilen.
+- By switching unit management from tables to lists (cards), the content of units is displayed more transparently - it is possible to see at a glance which domains are assigned to the unit.
+- New units are created in a wizard that simplifies the assignment of domains and the application of profiles.
+- The editing of units is more intuitive, especially with regard to the assignment of domains and the application of profiles.
 
-### Anpassung des Versionschema
+### Adaptation of the version scheme
+- With **verinice 26** the versioning scheme is adapted from **1.21** to **26**! 
 
-- Mit **verinice 26** wird das Versionierungsschema von **1.21** auf **26** angepasst! 
+### Detailed improvements and bug fixes
 
-### Detailverbesserungen und Fehlerbehebungen
+- Tutorials and documentation have been updated.
+- In the object view, the header has been removed and redundant information has been transferred to the breadcrumb.
+- Risk mitigating measures can be deleted.
+- The icon for risk treatment is displayed again in the Risks tab in the object view.
+- Incorrect time information in reports has been fixed by taking the time zone into account.
+- Multi-domain-capable history - when restoring objects, only the information that can be edited in the respective domain is restored.
+- To improve performance, profiles are managed individually in domains and the processing of large amounts of data has been simplified.
+- Proof of concept for OnPrem operation via appliance with OpenShift successfully completed.
 
-- Tutorials und Dokumentation wurden auf den aktuellen Stand gebracht.
-- In der Objektansicht wurde der Header entfernt und redundante Informationen in die Breadcrumb übernommen.
-- Risikomitigierende Maßnahmen können gelöscht werden.
-- Das Icon für die Risikobehandlung wird im Reiter Risiken in der Objektansicht wieder angezeigt.
-- Fehlerhafte Zeitangaben in Reports wurden durch Berücksichtigung der Zeitzone behoben.
-- Multi-Domain-fähige History - beim Wiederherstellen von Objekten werden nur die Informationen wiederhergestelllt, die in der jeweiligen Domäne bearbeitet werden können.
-- Zur Verbesserung der Performance werden Profile einzeln in Domänen verwaltet, die Verarbeitung großer Datenmengen wurde vereinfacht.
-- Proof of Concept für den OnPrem-Betrieb per Appliance mit OpenShift erfolgreich abgeschlossen.
-
-## Domäne Datenschutz
-**Status: Produktiv**
-
-- Keine Änderungen.
-
-## Domäne IT-Grundschutz
+## Domain data protection
+**Status: Productive**
+- No changes.
+## Domain IT-Grundschutz
 **Status: Private Beta**
 
-- Subtypen Familie und Schicht zur besseren Darstellung und Navigation der Bausteine ergänzt.
-- Sortierung der Control-Subtypen an das IT-Grundschutz-Kompendium angepasst (Familie, Schicht, Baustein, Anforderung, Teilanforderung, Maßnahme).
-- Subtyp Teilanforderung zur versuchsweisen Arbeit mit Teilanforderungen ergänzt.
-- Abbildung der Vorgehensweise der Absicherung (Basis, Standard, Kern) im Informationsverbund.
-- Bausteinmodellierung durch Profil - Erstellung eines Profils zur Modellierung des gesamten IT-Grundschutz-Kompendiums nach der Vorgehensweise Standard- oder Kernabsicherung.
-- Implementierung der automatischen Schutzbedarfsvererbung.
-- Gefährdungsübersicht erstellen - Nachladen der elementaren Gefährdungen, wenn eine Risikoanalyse durchzuführen ist.
-- Erste Version der IT-Grundschutz Referenzdokumente A.1 bis A.6.
-- Profil Basisabsicherung Kommunalverwaltung Version 3 erstellt.
+- Family and layer subtypes added for better display and navigation of the building blocks.
+- Sorting of the control subtypes adapted to the IT-Grundschutz compendium (family, layer, module, requirement, partial requirement, measure).
+- Subtype partial requirement added for trial work with partial requirements.
+- Mapping of the procedure for protection (basic, standard, core) in the information network.
+- Building block modeling by profile - creation of a profile for modeling the entire IT-Grundschutz compendium according to the standard or core protection approach.
+- Implementation of automatic protection requirement inheritance.
+- Create hazard overview - reloading the elementary hazards when a risk analysis is to be carried out.
+- First version of the IT-Grundschutz reference documents A.1 to A.6.
+- Profile basic protection local government version 3 created.
 
-## Domäne NIS2
-**Status: Prototyp**
+## Domain NIS2
+**Status: Prototype**
+- Risk analysis in the NIS2 domain supplemented.
+- Risk definition supplemented by authenticity as an additional protection objective.
+- Development of the requirement and measure subtypes.
+- Mapping of the organization- and process-specific requirements of NIS-2.
+- Mapping of the documentation aspects in NIS-2.
 
-- Risikoanalyse in der Domäne NIS2 ergänzt.
-- Risikodefinition um Authentizität als weiteres Schutzziel ergänzt.
-- Entwicklung der Subtypen Anforderung und Maßnahme.
-- Abbildung der organisations- und prozessspezifischen Anforderungen der NIS-2.
-- Abbildung der Dokumentationsaspekte in der NIS-2.
+## Domain ISO
+**Status: Prototype**
+- First version of the object schema for the ISO domain created.
 
-## Domäne ISO
-**Status: Prototyp**
-
-- Erste Version des Objektschema für die Domäne ISO erstellt.
-
-## Domäne TISAX
-**Status: Prototyp**
-
-- Erste Version des Objektschema für die Domäne TISAX erstellt.
+## Domain TISAX
+**Status: Prototype**
+- First version of the object schema for the TISAX domain created.

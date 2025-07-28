@@ -1,34 +1,36 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# CSV-Import
+# CSV Import
 
-Der CSV-Import ermöglicht den Import von Objekten zu allen Subtypen. Wechseln Sie über das Dashboard oder das Menü in die Objektübersicht des gewünschten Subtyps:
+The CSV import allows importing objects for all subtypes. Navigate to the object overview of the desired subtype via the dashboard or the menu:
 
-![CSV-Import in der Objektübersicht](/assets/manual/verinice-39-csv-objectlist.de.png)
+![CSV Import in Object Overview](  /assets/en/manual/verinice-39-csv-objectlist.de.png)
 
-Wählen Sie die zu importierende CSV-Datei per Drag-and-Drop oder über die Schaltfläche **Dateien auswählen** aus. Im sich öffnenden Dialog **Objekte importieren** werden Ihnen alle Einträge der CSV-Datei mit allen vorhandenen Spalten angezeigt:
+Select the CSV file to be imported either by drag-and-drop or by clicking the **Select files** button. In the **Import Objects** dialog that opens, all entries from the CSV file with their columns will be displayed:
 
-![Objekt importieren](/assets/manual/verinice-39-import-objects-dialog.de.png)
+![Import Object](  /assets/en/manual/verinice-39-import-objects-dialog.de.png)
 
-Prüfen Sie, ob der vorgeschlagene **Objekttyp** und **Subtyp** korrekt ausgewählt sind.
+Check whether the suggested **Object Type** and **Subtype** are correctly selected.
 
-Legen Sie fest, welche der **Spalten** in die Felder **Abkürzung**, **Name** und **Beschreibung** importiert werden sollen:
+Specify which **columns** should be mapped to the **Abbreviation**, **Name**, and **Description** fields:
 
-![Felder zuweisen](/assets/manual/verinice-39-assign-fields.de.png)
+![Assign Fields](  /assets/en/manual/verinice-39-assign-fields.de.png)
 
-::: info Die Felder **Abkürzung** und **Name** sind Pflichtfelder für den Import und müssen zugewiesen werden.
+::: info
+The **Abbreviation** and **Name** fields are required for import and must be assigned.
 :::
 
-Sie können die angezeigten Daten vor dem Import bearbeiten, um letzte Korrekturen vorzunehmen:
+You can edit the displayed data before importing to make final corrections:
 
-![Daten vor Import korrigieren](/assets/manual/verinice-39-change-data.de.gif)
+![Correct Data Before Import](  /assets/en/manual/verinice-39-change-data.de.gif)
 
-Starten Sie den Import über die Schaltfläche **Importieren**. Eine Meldung informiert Sie anschließend darüber, ob der Import erfolgreich war oder ob Fehler aufgetreten sind.
+Start the import using the **Import** button. A message will then inform you whether the import was successful or if any errors occurred.
 
-![Import erfolgreich](/assets/manual/verinice-39-import-success.de.png)
+![Import Successful](  /assets/en/manual/verinice-39-import-success.de.png)
 
-Die importierten Objekte können jetzt in verinice verwendet werden:
+The imported objects can now be used in verinice:
 
-![Importierte Objekte](/assets/manual/verinice-39-imported-objects.de.png)
+![Imported Objects](  /assets/en/manual/verinice-39-imported-objects.de.png)
 
-::: info Der CSV-Import wird in kommenden Versionen sukzessive ausgebaut, um insbesondere Daten in weitere Felder importieren zu können.
+::: info
+The CSV import will be gradually expanded in upcoming versions, particularly to allow importing data into additional fields.
 :::

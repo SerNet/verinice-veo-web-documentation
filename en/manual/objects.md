@@ -1,135 +1,141 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Objekte
+# Objects
 
-Im Abschnitt Objekte können Objekte angelegt, bearbeitet oder gelöscht werden.
+In the *Objects* section, you can create, edit, or delete objects.
 
-## Objektübersicht {#objektuebersicht}
+## Object Overview {#objektuebersicht}
 
-Die Navigation über das Menü oder das Dashboard öffnet die Objektübersicht, die immer eine gefilterte Liste von Objekten angezeigt.
+Navigating via the menu or the dashboard opens the object overview, which always displays a filtered list of objects.
 
 ### Filter
 
-Die aktiven Filterkriterien werden über der Objektliste dargestellt:
+The active filter criteria are shown above the object list:
 
-![Filterkriterien](/assets/manual/filter-chips.de.png)
+![Filter criteria](/assets/en/manual/filter-chips.de.png)
 
-1. Als Mindestkriterium ist immer der **Objekttyp** erforderlich!
-1. Durch Löschen **optionaler Filterkriterien** erweitern Sie die Objektübersicht direkt.
-1. Für die Filterung nach weiteren Kriterien öffnen Sie den **Filterdialog**:
+1. As a minimum requirement, the **object type** is always needed!
+1. Removing **optional filter criteria** immediately expands the object list.
+1. To filter by additional criteria, open the **filter dialog**:
 
-![Filter](/assets/manual/filter.de.png)
+![Filter](/assets/en/manual/filter.de.png)
 
-### Suche
+### Search
 
-Um über die Filterung hinaus gezielt bestimmte Objekte zu finden, steht die **Suche** zur Verfügung.
+In addition to filtering, you can use the **search** to find specific objects.
 
-Per Vorgabe wird jeder eingegebene Text in Abkürzung und Name (und Designator) gesucht. Optional können Sie die Suche auf die Abkürzung oder den Namen beschränken:
+By default, the entered text is searched in the abbreviation, name, and designator. Optionally, you can limit the search to just the abbreviation or name:
 
-![Suche](/assets/manual/suche.de.gif)
+![Search](/assets/en/manual/suche.de.gif)
 
-### Liste
+### List
 
-Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb der Liste:
+The object overview provides a quick orientation and navigation within the list:
 
-![Objektübersicht](/assets/manual/object-list.de.png)
+![Object overview](/assets/en/manual/object-list.de.png)
 
-1. Sie **öffnen** ein Objekt zur Bearbeitung durch Mausklick auf die jeweilige Zeile.
-1. **Sortieren** Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
-1. Je nach Anzahl der Objekte in der Liste **navigieren** Sie durch zusätzliche Seiten oder erweitern die Anzahl der je Seite dargestellten Objekte.
-1. **Duplizieren** Sie ein Objekt um eine Kopie zur weiteren Bearbeitung zu erstellen.
-1. Nicht mehr benötigte Objekte **löschen** Sie nach Bestätigung einer Sicherheitsabfrage.
-1. Stehen **weitere Funktionen** zur Verfügung können Sie diese hier auswählen.
-1. **Erstellen** Sie ein neues Objekt mit Objekttyp und Subtyp entsprechend der aktuellen Filterkriterien.
+1. **Open** an object for editing by clicking the respective row.
+1. **Sort** the object list by key columns, ascending or descending.
+1. Depending on the number of objects, **navigate** through pages or increase the number of items per page.
+1. **Duplicate** an object to create a copy for further editing.
+1. **Delete** unneeded objects after confirming a security prompt.
+1. If **additional functions** are available, they can be accessed here.
+1. **Create** a new object with object type and subtype according to the current filters.
 
-## Objektansicht
+## Object View
 
-Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spalten dargestellt:
+After opening an object, more detailed information is shown in two columns:
 
-![Objektansicht](/assets/manual/object.de.png)
+![Object view](/assets/en/manual/object.de.png)
 
-**Links:**
+**Left:**
 
-1. Die [Objektdetails](#objektdetails).
-1. Eine Tabelle mit allen Objekten im [Objektumfeld](#objektumfeld).
+1. The [Object details](#objektdetails)
+1. A table of all objects in the [Object context](#objektumfeld)
 
-**Rechts:**
+**Right:**
 
-3. Das [Formular](#formular) mit allen Detailangaben.
-1. Die optional einblendbare Seitenleiste mit der [Ansicht](#ansicht), dem [Inhalt](#inhalt), dem [Verlauf](#verlauf) und den [Meldungen](#meldungen)
+1. The [Form](#form) with all detailed data
+1. The optional sidebar showing the [View](#object-view), [Content](#content), [History](#history), and [Messages](#messages)
 
-::: info 5. Um die Arbeitsfläche je nach Aufgabenstellung optimal auszunutzen, können Sie die beiden Spalten mittels Button oder Tastatur ausblenden:
- - PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**
- - Mac: linke Spalte **Control+1** / rechte Spalte **Control+2**
+::: info
+5. To optimize the workspace depending on your task, you can toggle the two columns via button or keyboard:
+
+- PC: Left column **Alt+1** / Right column **Alt+2**  
+- Mac: Left column **Control+1** / Right column **Control+2**
 :::
 
-### Objektdetails
+### Object Details
 
-Die Objektdetails geben einen ersten schnellen Überblick über das aktuelle Objekt:
+The object details provide a quick overview of the current object:
 
-![Objektbeschreibung](/assets/manual/object-details.de.png)
+![Object description](/assets/en/manual/object-details.de.png)
 
-1. Über das **Objektmenü** wählen Sie sofern verfügbar spezifische Aktionen für das aktuelle Objekt aus.
+1. Use the **object menu** to access object-specific actions, if available.
 
-### Objektumfeld
+### Object Context
 
-Das Objektumfeld kann je nach Objekttyp und Domäne aus **Scopes**, **Teilen**, **Links**, **Risiken** oder **Anforderungen/Zielobjekten** bestehen. Wichtig ist dabei die Unterscheidung von **Scope**-Objekten und **Composite**-Objekten im neuen [Objektmodell](/object-model/objects):
+The object context may include **Scopes**, **Parts**, **Links**, **Risks**, or **Requirements/Target Objects**, depending on object type and domain.
 
-***Scopes** können beliebige **Composite**-Objekte UND **Scope**-Objekte enthalten. Jedes **Scope**-Objekt und jedes **Composite**-Objekt kann dabei in verschiedenen **Scopes** enthalten sein!
-***Composite**-Objekte können hingegen nur Objekte des SELBEN **Objekttyps** enthalten (Teile/Parts). Anders als eine Gruppe hat das **Composite**-Objekt dabei die gleichen Eigenschaften wie ein einzelnes Objekt des jeweiligen Objekttyps.
+It's important to distinguish between **Scope** and **Composite** objects in the new [object model](/object-model/objects):
 
-::: info Stehen Elemente für ein Objekt nicht zur Verfügung, sind die Reiter ausgegraut, z.B.:
-- **Scopes** können NICHT **Teil von** einem Composite sein, der Reiter **Teil von** wird dort nicht angezeigt!
-- Ein **Composite** kann KEINE **Scopes** enthalten, der Reiter **Scopes** wird dort nicht angezeigt!
+***Scopes** can contain any **Composite** and **Scope** objects. Every Scope and Composite can exist in multiple Scopes.*  
+***Composite** objects can only contain objects of the SAME **object type** (Parts). Unlike a group, a Composite object has the same properties as a single object of that type.*
+
+::: info
+If certain elements are not available for an object, the respective tabs are grayed out, e.g.:
+
+- **Scopes** CANNOT be part of a Composite, so the **Part of** tab will not appear there.
+- A **Composite** CANNOT contain Scopes, so the **Scopes** tab will not be shown there.
 :::
 
-Das Objektumfeldes zeigt dabei:
+The object context shows:
 
-![Objektumfeld](/assets/manual/object-environment.de.png)
+![Object context](/assets/en/manual/object-environment.de.png)
 
-1. Mit **Scopes** und/oder **Teile** den Blick *nach innen* und mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
-1. Mit **Links** verknüpfte Objekte als eingehende oder ausgehende Links.
-1. Mit **Bausteinen/Anforderung** bzw. **Zielobjekte** die Beziehung zwischen angewendeten Controls und den jeweiligen Objekten.
-1. Mit **Risiken** wo vorhanden die betrachteten Gefährdungen und deren Behandlung.
-1. Je nach aktivem **Tabellenreiter** können kontextsensitiv Elemente hinzugefügt werden.
+1. With **Scopes** and/or **Parts**, an *inside view*, and with **In Scope** and/or **Part of**, an *outside view*.
+1. **Linked** objects as incoming or outgoing links.
+1. **Building blocks/Requirements** or **Target objects**, showing relationships between applied controls and relevant objects.
+1. **Risks**, if any, including threats and their mitigation.
+1. Depending on the active **tab**, elements can be added contextually.
 
-### Formular
+### Form
 
-Formulare ermöglichen die strukturierte Erfassung von (fachlichen) Inhalten, es wird unterschieden zwischen:
+Forms allow structured data entry, distinguishing between:
 
-- **Aspekten**, einer Gruppierung zusammengehöriger Daten und
-- **Links**, der Verknüpfung zu anderen Objekten inklusive spezifischer Daten für die jeweilige Verknüpfung.
+- **Aspects**, which group related data
+- **Links**, which connect to other objects, including link-specific data
 
-Die strukturierte Erfassung wird unterstützt durch die intelligente Auswertung eingegebener Daten:
+Structured data entry is supported by intelligent evaluation:
 
-- In Abhängigkeit von einzelnen Werten können unterschiedliche Aspekte oder Links ein- oder ausgeblendet werden.
-- Komplexe Entscheidungen auf Grundlage mehrerer Werte können in Entscheidungsbäumen ausgewertet werden, siehe z.B. die Entscheidung zur Notwendigkeit einer Datenschutz-Folgenabschätzung in der Domäne DS-GVO.
+- Depending on specific values, aspects or links may be shown or hidden.
+- Complex decisions based on multiple values can be handled using decision trees — for example, the logic for requiring a data protection impact assessment in the GDPR domain.
 
-Jeder Subtyp eines Objekttyps muss durch mindestens ein spezifisches Formular dargestellt werden. Anders herum kann jeder Subtyp aber auch in verschiedenen Formularen abgebildet werden. Dadurch könnte z.B. der Subtyp **Verarbeitungstätigkeit** in einem **einfachen** Formular für den Prozessverantwortlichen erfasst werden, während etwa der Rolle Datenschutzbeauftragte ein **ausführliches** Formular mit tiefergehenden Angaben zur Verfügung stehen könnte.
+Each subtype of an object type must be represented by at least one specific form. However, a subtype can also be represented in multiple forms — e.g., the subtype **Processing Activity** could be captured via a **simple** form for process owners and a **detailed** form for data protection officers.
 
-In der **Seitenleiste** der Formulare können durch Mausklick auf eines der Symbole weitere Informationen zu einem Formular eingeblendet werden.
+In the **sidebar** of a form, additional information can be displayed by clicking the icons.
 
-### Ansicht
+### View
 
-In der Seitenleiste **Ansicht** können Objekte je nach Subtyp in einem anderen Formular angezeigt werden.
+In the **View** sidebar, objects can be displayed in different forms depending on their subtype.
 
-![Ansicht](/assets/manual/form_view.png)
+![View](/assets/en/manual/form_view.png)
 
-### Inhalt
+### Content
 
-Formularinhalte werden in der Seitenleiste **Inhalt** strukturiert dargestellt. Durch Mausklick kann zu den einzelnen Abschnitten navigiert werden.
+Form content is shown in the **Content** sidebar in a structured manner. Clicking an item scrolls to that section.
 
-![Inhalt](/assets/manual/form_content.png)
+![Content](/assets/en/manual/form_content.png)
 
-### Verlauf
+### History
 
-verinice speichert jede Änderung an Objekten auf Feldebene als Version und stellt damit einen kompletten **Audit-Trail** bereit.
+verinice logs every field-level change to objects as a version, providing a complete **audit trail**.
 
-In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).
+The **History** sidebar shows all previous versions. Clicking a version displays it. The **Restore** button allows reverting to any previous version (**undo**).
 
-![Verlauf](/assets/manual/form_history.png)
+![History](/assets/en/manual/form_history.png)
 
-### Meldungen
+### Messages
 
-Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
+Errors, warnings, or informational messages about current form inputs are shown in the **Messages** sidebar.
 
-![Meldungen](/assets/manual/form_decision.png)
+![Messages](/assets/en/manual/form_decision.png)

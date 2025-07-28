@@ -1,64 +1,64 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Aufbau der Domäne NIS2
+# Structure of the NIS2 Domain
 
-## Objekt- und Subtypen
+## Object and Subtypes
 
-### Scopeobjekte
+### Scope Objects
 
-- **Organisation:** Zur Abbildung Ihrer Organisation mit den wichtigsten Stammdaten.
-- **NIS2-Geltungsbereiche:** Zur Dokumentation unterschiedlicher Geltungsbereiche.
-- **Lieferanten:** Werden getrennt als externe Institutionen bzw. Organisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
-- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
+- **Organization:** For representing your organization with essential master data.
+- **NIS2 Scopes:** For documenting different areas of applicability.
+- **Suppliers:** Treated separately as external institutions or organizations to address the specific requirements of outsourcing.
+- **Scopes (general):** For representing other objects of consideration, such as projects.
 
-### Prozessobjekte
+### Process Objects
 
-- **Geschäftsprozesse:** Zur Dokumentation der Kernprozesse und weiterer unterstützender Prozesse.
+- **Business Processes:** For documenting core and supporting processes.
 
-### Assetobjekte
+### Asset Objects
 
-- **Assets::** Informationswerte
+- **Assets:** Information assets.
 
-### Personenobjekte
+### Person Objects
 
-- **Personen:** Personen(gruppen) oder Rollen.
+- **Persons:** Individuals (or groups) or roles.
 
-### Incidentobjekte
+### Incident Objects
 
-- **Sicherheitsvorfälle:** Zur Dokumentation von Incidents/Vorfällen.
+- **Security Incidents:** For documenting incidents/events.
 
-### Dokumentenobjekte
+### Document Objects
 
-- **Dokumente:** Zur Speicherung beliebiger Dokumentation.
+- **Documents:** For storing any kind of documentation.
 
-### Controlobjekte
+### Control Objects
 
-- **Anforderungen:** Anforderungen der NIS2.
-- **Mindestmaßnahmen:** Mindestmaßnahmen zur Erfüllung der NIS2 Anforderungen.
-- **Organisationsspezifische Maßnahmen:** Organisationsspezifische Maßnahmen zur differenzierten Betrachtung der Organisation.
+- **Requirements:** NIS2 requirements.
+- **Minimum Measures:** Minimum measures to fulfill NIS2 requirements.
+- **Organization-Specific Measures:** Organization-specific measures for a more detailed consideration of the organization.
 
-## Katalog
+## Catalogue
 
-Der Katalog der Domäne NIS2 stellt die Artikel und Erwägungsgründe der Richtlinie zur Anwendung zur Verfügung.
+The catalogue of the NIS2 domain provides the articles and recitals of the directive for use.
 
-## Profile
+## Profiles
 
-In der Domäne NIS2 steht aktuell ein Profil zur Verfügung.
+Currently, one profile is available in the NIS2 domain.
 
-### NIS2-Profil Domainwirtschaft
+### NIS2 Profile: Digital Economy
 
-Die Beispiel GmbH enthält 5 exemplarische Geschäftsprozesse, die mit zugehörigen Assets, ggf. Lieferanten und technischen/organisatorischen Maßnahmen verknüpft sind. Zudem sind registrierungspflichtige Informationen sowie ein Sicherheitsvorfall abgebildet.
+The sample company “Beispiel GmbH” includes 5 exemplary business processes, which are linked with corresponding assets, suppliers (if applicable), and technical/organizational measures. Additionally, it contains mandatory registration information and a recorded security incident.
 
 ## Decisions
 
-Keine
+None
 
 ## Reports
 
-Die Domäne NIS2 stellt als Reports bereit:
+The NIS2 domain provides the following reports:
 
-- Meldeformular Sicherheitsvorfall
-- Registrierungsinformationen für zuständige Behörde
+- Incident Notification Form
+- Registration Information for the Competent Authority
 
-## Risikodefinition
+## Risk Definition
 
-Keine
+None

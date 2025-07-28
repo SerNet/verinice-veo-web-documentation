@@ -1,71 +1,52 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 29
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 29 zur Verfügung:
+The following new features are available to users with the release of verinice 29:
 
-## Allgemeine Funktionen
+## General functions
+**Status: Productive**
 
-**Status: Produktiv**
+### Adding components
 
-### Hinzufügen von Bestandteilen
+When adding components in scope objects (scopes, information networks, etc.), the object type and subtype are first selected in a dialog so that the associated form can be displayed directly.
+If there are no objects/subtypes of the desired type in the unit when adding components, these can be created directly via a link.
 
-Beim Hinzufügen von Bestandteilen in Scope-Objekten (Geltungsbereichen, Informationsverbünden etc.) werden erst Objekttyp und Subtyp in einem Dialog ausgewählt, um direkt das zugehörige Formular darstellen zu können.
+### Performance improvement
 
-Liegen beim Hinzufügen von Bestandteilen in der Unit noch keine Objekte/Subtypen des gewünschten Typs vor, können diese über einen Link direkt erstellt werden.
+The performance improvement when migrating large domains simplifies updates.
 
-### Performance-Verbesserung
+### Detailed improvements and bug fixes
 
-Die Performance-Verbesserung bei der Migration großer Domänen vereinfacht Updates.
+- Introduction of a **Product ID** (symbolic ID) to improve the handling of multiple and multilingual profiles.
+- Various minor bugs fixed.
+- Various minor performance and stability improvements to the REST API.
 
-### Detailverbesserungen und Fehlerbehebungen
+## Domain data protection
+**Status: Productive**
+No new features.
+## Domain IT-Grundschutz
+**Status: Private beta**
 
-- Einführung einer **Product ID** (symbolische ID) um das Handling mehrerer und auch mehrsprachiger Profile zu verbessern.
-- Behebung diverser kleinerer Bugs.
-- Diverse kleinere Performance- und Stabilitätsverbesserungen der REST API.
+### Improvement of the IT-Grundschutz check
 
-## Domäne Datenschutz
-
-**Status: Produktiv**
-
-Keine Neuerungen.
-
-## Domäne IT-Grundschutz
-
-**Status: Private Beta**
-
-### Verbesserung des IT-Grundschutz-Check
-
-Der IT-Grundschutz-Check wurde erweitert und verbessert:
-
-Unter **Zielobjekt > Bausteine**:
-
-- können die **verantwortliche Person** und eine **Beschreibung** für den Baustein bearbeitet werden.
-
-Auf der Seite **Umsetzung** (Compliance):
-
-- kann über die Breadcrumb direkt zum **Zielobjekt** navigiert werden.
-- kann über den Button direkt zum **Baustein** navigiert werden.
-- wird der Baustein selber nicht mehr in der Anforderungsliste angezeigt.
-- wird standardmäßig aufsteigend und korrekt nach der **Abkürzung** sortiert.
+The IT-Grundschutz check has been expanded and improved:
+Under **Target object > Building blocks**:
+- the **person responsible** and a **description** for the module can be edited.
+On the **Implementation** (Compliance):
+- you can navigate directly to the **target object** via the breadcrumb.
+- you can navigate directly to the **block** via the button.
+- the module itself is no longer displayed in the request list.
+- is sorted by default in ascending order and correctly according to the **abbreviation**.
 
 ### Backlinks
+**Links** (custom links / links) are now displayed on both sides as outgoing or incoming links.
+## Domain NIS2
+**Status: Prototype**
+No new features.
+## Domain ISO
+**Status: Prototype**
+No new features.
+## Domain TISAX
+**Status: Prototype**
+No new features.
 
-**Links** (Custom Links / Verknüpfungen) werden jetzt beidseitig als ausgehende bzw. eingehende Links angezeigt.
-
-## Domäne NIS2
-
-**Status: Prototyp**
-
-Keine Neuerungen.
-
-## Domäne ISO
-
-**Status: Prototyp**
-
-Keine Neuerungen.
-
-## Domäne TISAX
-
-**Status: Prototyp**
-
-Keine Neuerungen.

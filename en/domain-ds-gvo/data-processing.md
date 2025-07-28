@@ -1,186 +1,186 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Verzeichnis der Verarbeitungstätigkeiten
+# List of processing activities
 
-## Verarbeitungstätigkeit erfassen
+## Record processing activity
 
-Verarbeitungstätigkeiten stellen in verinice einen Subtyp des Zielobjektes *Prozess* dar und können mit dem *Formular Verarbeitungstätigkeiten* erfasst werden. Sie gelangen über das Dashboard mit Klick auf das *Formular Verarbeitungstätigkeiten* in die sog. *Objektübersicht* und können nun mit dem roten *Plus-Button* eine neue Verarbeitungstätigkeit erstellen.
+In verinice, processing activities represent a subtype of the target object *process* and can be recorded using the *processing activities* form. You can access the so-called *Object overview* via the dashboard by clicking on the *Processing activities* form and can now create a new processing activity using the red *Plus button*.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild1.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild1.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild1a.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild1a.png)
 
-Alternativ navigieren Sie über das Hauptmenü *Objekte > Prozesse > Verarbeitungstätigkeiten* in die *Objektübersicht* und erstellen über den roten *Plus-Button* eine neue Verarbeitungstätigkeit.
+Alternatively, navigate via the main menu *Objects > Processes > Processing activities* to the *Object overview* and create a new processing activity using the red *Plus button*.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild2.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild2.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild2a.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild2.png)
 
-In dem sich öffnenden Dialog können Sie, wenn gewünscht, sämtliche Informationen, mindestens aber Name und Status zum Formular *Verarbeitungstätigkeiten* eingeben und abspeichern.
-Die Verarbeitungstätigkeit wird nun als neues Objekt in der Objektansicht aufgelistet.
+In the dialog that opens, you can, if desired, enter and save all information, but at least the name and status of the *processing activities* form.
+The processing activity is now listed as a new object in the object view.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild3.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild3.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild3a.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild3a.png)
 
-Mit Klick auf das Objekt kann die neu angelegte Verarbeitungstätigkeit zur weiteren Bearbeitung geöffnet werden.
-Ihnen stehen nun zwei Ansichten zur Verfügung. Die *Detailansicht* im linken Bereich und die *Formularansicht* im rechten Bereich.
+Click on the object to open the newly created processing activity for further editing.
+Two views are now available. The *detail view* on the left and the *form view* on the right.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild4.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild4.png)
 
-Die Informationen für die Verarbeitungstätigkeiten müssen im gleichnamigen Formular und somit in der Formularansicht eingegeben werden. Für eine bessere Übersicht können Sie die Detailansicht verstecken über die Funktion Objektdetails verstecken. Bei Bedarf kann der Vorgang jederzeit rückgängig gemacht werden über die Funktion Objektdetails anzeigen.
+The information for the processing activities must be entered in the form of the same name and therefore in the form view. For a better overview, you can hide the detailed view using the Hide object details function. If necessary, the process can be undone at any time using the Show object details function.
 
-Die Aufteilung *Detailansicht und Formularansicht* besteht bei sämtlichen Zielobjekten.
+The division *detail view and form view* exists for all target objects.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild4a.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild4a.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild4b.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild4b.png)
 
-In den folgenden Abschnitten kann die Verarbeitungstätigkeit DS-GVO-konform dokumentiert werden:
+In the following sections, the processing activity can be documented in accordance with the GDPR:
 
-## Allgemeine Angaben
+## General information
 
-In diesem Abschnitt haben Sie die Möglichkeit, neben einer Verarbeitungsbeschreibung Informationen wie Abkürzung oder Status zu hinterlegen.
+In this section, you have the option of entering information such as an abbreviation or status in addition to a processing description.
 
-## Verantwortliche, Art. 4 Nr. 7 DS-GVO
+## Controller, Art. 4 No. 7 GDPR
 
-Die/der Verantwortliche muss bestimmt werden. Über die Funktion Link hinzufügen stehen Ihnen Verantwortliche, die Sie bereits über das Formular Verantwortliche angelegt haben, zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion *Link hinzufügen > Verantwortliche, Art. 4 Nr. 7 DS-GVO erstellen* erfolgen.
+The controller must be specified. You can use the Add link function to select controllers that you have already created using the Controller form. If you have not yet created any objects for this purpose, this can alternatively be done via the function *Add link > Create controller, Art. 4 No. 7 GDPR*.
 
-![Verantwortliche](/assets/domain-ds-gvo/Bild5.png)
+![Responsible](  /assets/en/domain-ds-gvo/Bild5.png)
 
-Im sich öffnenden Dialog können nun sämtliche Informationen, mindestens aber Name und Status zum Formular Verantwortliche, Art. 4 Nr. 7 DS-GVO eingegeben und abgespeichert werden. Das so angelegte neue Objekt wird nun im Formular Verarbeitungstätigkeiten als neu hinzugefügtes Objekt aufgeführt.
+In the dialog that opens, you can now enter and save all information, but at least the name and status for the form Controller, Art. 4 No. 7 GDPR. The new object created in this way is now listed in the Processing activities form as a newly added object.
 
-![Verantwortliche](/assets/domain-ds-gvo/Bild5a.png)
+![Responsible](  /assets/en/domain-ds-gvo/Bild5a.png)
 
-Darüber hinaus wird dieses neu angelegte Objekt innerhalb des Zielobjektes Scope vom Subtyp *Verantwortliche Art. 4 Nr. 7 DS-GVO* einsortiert.
+In addition, this newly created object is sorted within the target object Scope of the subtype *Controller Art. 4 No. 7 GDPR*.
 
-## Verarbeitung als Auftragsverarbeiter
+## Processing as a processor
 
-Wird eine Verarbeitung als Auftragsverarbeitung vorgenommen, ist diese Information durch die Option Verarbeitung als Auftragsverarbeiter nach Art.30 II DS-GVO zu kennzeichnen.
-Als Reaktion stehen Ihnen nun über die Funktion Link hinzufügen sämtliche Auftraggeber, die Sie bereits über das Formular Auftraggeber angelegt haben zur Auswahl zur Verfügung. Sollten Sie noch keine Objekte hierzu angelegt haben, kann das alternativ über die Funktion Link hinzufügen > Auftraggeber erstellen erfolgen.
+If processing is carried out as order processing, this information must be marked with the option Processing as order processor according to Art. 30 II GDPR.
+In response, all clients that you have already created using the Client form are now available for selection via the Add link function. If you have not yet created any objects for this, this can alternatively be done via the Add link > Create client function.
 
-Im sich öffnenden Dialog können nun sämtliche gesetzlich geforderten Informationen, mindestens aber Name und Status zum Formular Auftraggeber eingegeben und abgespeichert werden. Dieses Objekt wird nun im Formular Verarbeitungstätigkeiten als neu hinzugefügtes Objekt des Typs Auftraggeber aufgeführt. Zu jedem Auftraggeber können auch Dokumente verlinkt werden.
+In the dialog that opens, you can now enter and save all the information required by law, but at least the name and status for the Client form. This object is now listed in the Processing activities form as a newly added object of the Principal type. Documents can also be linked to each client.
 
-![Auftragsverarbeiter](/assets/domain-ds-gvo/Bild6.png)
+![Processor](  /assets/en/domain-ds-gvo/Bild6.png)
 
-Darüber hinaus wird dieses neu angelegte Objekt innerhalb des Zielobjektes Scope mit dem Subtyp Auftraggeber einsortiert.
+In addition, this newly created object is sorted within the Scope target object with the Client subtype.
 
-Ist die Verarbeitung nicht als Auftragsverarbeitung zu qualifizieren, muss diese Frage mit einem *nein* beantwortet werden. In diesem Fall würde Ihnen die Hinzufügung eines Links *Auftraggeber erstellen* nicht angezeigt werden.
+If the processing does not qualify as order processing, this question must be answered with a *no*. In this case, the addition of a link *Create client* would not be displayed.
 
-## Allgemeine Verarbeitungsangaben
+## General processing information
 
-In diesem Abschnitt haben Sie die Möglichkeit, allgemeine Informationen zur Verarbeitungstätigkeit wie Fachbereich, Datum der Erhebung, Art der Verarbeitung, Ort der Verarbeitung oder Betriebsstadium zu dokumentieren. Ferner kann eine verantwortliche Person über die Verknüpfung zu einem Personenobjekt bestimmt werden.
+In this section, you have the option of documenting general information on the processing activity such as department, date of collection, type of processing, place of processing or stage of operation. Furthermore, a responsible person can be determined via the link to a personal object.
 
-## Gemeinsame Verantwortliche Art. 26 DS-GVO
+## Joint controllers Art. 26 GDPR
 
-Legen zwei oder mehr Verantwortliche gemeinsam die Zwecke und die Mittel zur Verarbeitung fest, so können sie gemeinsame Verantwortliche im Sinne des Gesetzes sein.
-Auch in diesem Abschnitt stehen Ihnen wie gewohnt bereits angelegte Objekte des Subtyps *Gemeinsame Verantwortliche* zur Auswahl zur Verfügung. Falls nicht, können diese über die Funktion *Link hinzufügen > Gemeinsame Verantwortliche erstellen* angelegt werden. Zu *Gemeinsame Verantwortliche* können Dokumente verlinkt werden.
+If two or more controllers jointly determine the purposes and means of processing, they may be joint controllers within the meaning of the law.
+In this section, as usual, objects of the subtype *Joint controllers* that have already been created are available for selection. If not, these can be created using the function *Add link > Create joint controllers*. Documents can be linked to *Common assignees*.
 
-## Zweckbestimmung
+## Intended purpose
 
-In diesem Abschnitt dokumentieren Sie den Zweck der Verarbeitung unter Beachtung der Zweckbindung. Daten dürfen nur für festgelegte, eindeutige und legitime Zwecke erhoben werden und dürfen nicht in einer mit diesen Zwecken nicht zu vereinbarenden Weise weiterverarbeitet werden.
+In this section, you document the purpose of the processing, taking into account the purpose limitation. Data may only be collected for specified, clear and legitimate purposes and may not be further processed in a way that is incompatible with these purposes.
 
-## Rechtsgrundlagen
+## Legal bases
 
-Jede Verarbeitung personenbezogener Daten bedarf einer gesetzlichen Legitimation. Wegen des Anwendungsvorranges der Datenschutzgrundverordnung ist die Rechtmäßigkeit einer Verarbeitung personenbezogener Daten zuerst nach der DS-GVO zu beurteilen.
-Lässt die DS-GVO einen Regelungsspielraum zu, können als Rechtsgrundlagen Regelungen aus dem allgemeinen sowie ggf. auch im bereichsspezifischen nationalen Datenschutzrecht (Landesrecht oder Bundesrecht) einschlägig sein.
-Eine Bestimmung der Rechtsgrundlagen erfolgt über das zugehörige Auswahlfeld (Mehrfachauswahl). Da hier keine abschließende Aufzählung erfolgen kann, besteht über die Option *Sonstige Rechtsgrundlagen* die Möglichkeit, spezifische Normen manuell im Textfeld zu dokumentieren.
+Any processing of personal data requires legal legitimation. Due to the primacy of the General Data Protection Regulation, the lawfulness of the processing of personal data must first be assessed in accordance with the GDPR.
+If the GDPR allows for regulatory leeway, regulations from general and, where applicable, sector-specific national data protection law (state or federal law) may be relevant as legal bases.
+The legal bases are determined via the associated selection field (multiple selection). As it is not possible to make an exhaustive list here, the option *Other legal bases* allows you to document specific standards manually in the text field.
 
-![Rechtsgrundlagen](/assets/domain-ds-gvo/Bild7.png)
+![Legal bases](  /assets/en/domain-ds-gvo/Bild7.png)
 
-Unter Erläuterung führen Sie Ihre Ausführungen zur Rechtmäßigkeit der Verarbeitung aus. Unter Umständen kann es für die Darlegung und Begründung der einschlägigen Rechtsgrundlagen
-erforderlich sein, umfangreichere Rechtsgutachten zu verfassen. Über die Schaltfläche *Dokument* verlinken Sie ggf. auf weitere zentral abgelegte Nachweisdokumente.
+Under Explanation, you can explain the lawfulness of the processing. Under certain circumstances, it may be necessary to write more extensive legal opinions to explain and justify the relevant legal bases
+. If necessary, use the *Document* button to link to other centrally stored supporting documents.
 
-## Daten/Datenkategorien
+## Data/data categories
 
-Die Art der verarbeiteten Daten dokumentieren Sie über das *Formular Datenarten*, so dass Ihnen diese zur Auswahl zur Verfügung stehen. Oder Sie legen die Datenarten direkt aus der Verarbeitungstätigkeit heraus über die Funktion *Link hinzufügen > Datenart erstellen* an.
-Zu jeder Datenart können nun Angaben zu Herkunft der Daten und Löschfristen erfolgen.
-Pro Datenkategorie sind konkrete Löschfristen zu bestimmen, also der Zeitraum, nach dem die Speicherung der Daten beendet ist. Hierzu sind gesetzlich geregelte Aufbewahrungs- und Löschfristen anzugeben ebenso wie selbst festgelegte Fristen.
-Im Abschnitt der Löschfristen können Sie selbige hinterlegen und das Löschverfahren beschreiben.
+You document the type of data processed using the *Data types* form so that you can select them. Alternatively, you can create the data types directly from the processing activity using the *Add link > Create data type* function.
+Information on the origin of the data and deletion periods can now be entered for each data type.
+Specific deletion periods must be defined for each data category, i.e. the period after which the storage of the data ends. For this purpose, legally regulated retention and deletion periods as well as self-defined periods must be specified.
+In the deletion periods section, you can enter these and describe the deletion procedure.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild8.png)
+![data transfer](  /assets/en/domain-ds-gvo/Bild8.png)
 
-## Kategorien betroffener Personen
+## Categories of data subjects
 
-In diesem Abschnitt dokumentieren Sie Betroffene (betroffene Personen), deren personenbezogene Daten verarbeitet werden. Die Einteilung betroffener Personen ist abhängig von Rolle und Beziehung zum Verantwortlichen, z.B. Kunden, Lieferanten, Mitarbeiter, etc.
-Sollten die zur Auswahl stehenden Optionen nicht zutreffen oder ausreichen, ist über das Textfeld eine individuelle (manuelle) Eingabe vorzunehmen.
+In this section, you document data subjects (data subjects) whose personal data is processed. The categorization of data subjects depends on the role and relationship to the controller, e.g. customers, suppliers, employees, etc.
+If the options available for selection do not apply or are not sufficient, an individual (manual) entry must be made via the text field.
 
-## Zugriffsberechtigte Personen (Gruppen)
+## Authorized persons (groups)
 
-Personen und Personengruppen, die berechtigt sind, auf die verarbeiteten personenbezogenen Daten zuzugreifen, sind zu dokumentieren. Der zugrunde liegende Mechanismus kann und wird üblicher Weise über ein rechte- und rollenbasiertes Berechtigungskonzept abgebildet. Die Implementierung kann über die Option Berechtigungskonzept vorhanden dokumentiert werden. Die konkrete Umsetzung können Sie auf unterschiedliche Art dokumentieren:
+Persons and groups of persons who are authorized to access the processed personal data must be documented. The underlying mechanism can and is usually mapped using a rights- and role-based authorization concept. The implementation can be documented using the option Authorization concept available. You can document the specific implementation in different ways:
 
-- Im Freitextfeld Beschreibung des Berechtigungskonzepts.
-- Durch Verlinkung auf ein an anderer Stelle gepflegtes Dokument.
+- In the free text field Description of the authorization concept.
+- By linking to a document maintained elsewhere.
 
-## Datenübertragung an
+## Data transfer to
 
-Wenn personenbezogene Daten z.B. an Dritte oder Auftragsverarbeiter weitergegeben werden, sind diese Datentransfers besonders zu kennzeichnen. Im Zuge der Verarbeitungstätigkeit kann dieser Verarbeitungsschritt über das *Formular Datenübertragung* realisiert und dieses Objekt über die dafür vorgesehene Linksetzung in der Verarbeitungstätigkeit verknüpft werden.
-Einzelheiten zur Datenübertragung erfolgen im Abschnitt [Datenübertragung](/domain-ds-gvo/data-transfer.md).
+If personal data is passed on to third parties or processors, for example, these data transfers must be specially marked. In the course of the processing activity, this processing step can be realized via the *form data transfer* and this object can be linked via the link provided for this purpose in the processing activity.
+Details on data transfer can be found in the section [Data transfer](/domain-ds-gvo/data-transfer.md).
 
-## Informationspflicht
+## Duty to provide information
 
-Werden personenbezogene Daten einer betroffenen Person erhoben, so teilt der Verantwortliche der betroffenen Person zum Zeitpunkt der Erhebung dieser Daten die in Art. 13 oder Art. 14 DS-GVO beschriebenen Informationen mit. Die Erfüllung der Informationspflichten dokumentieren Sie in verinice in diesem Abschnitt. Auf interne Dokumente verlinken Sie ggf. über die Schaltfläche *Dokument*.
+If personal data of a data subject is collected, the controller shall provide the data subject with the information described in Art. 13 or Art. 14 GDPR at the time the data is collected. You document the fulfillment of the information obligations in verinice in this section. You can link to internal documents via the *Document* button.
 
-## Potentielle Auswirkung
+## Potential impact
 
-In der Domäne DS-GVO können Sie für Verarbeitungstätigkeiten, Datenübertragungen, DSFA, Anwendungen und IT-Systeme sowie Datenarten die *Potentielle Auswirkung* festlegen.
-Öffnen Sie dazu das jeweilige Zielobjekt durch doppelten Mausklick und scrollen Sie im Editor bis zum Abschnitt Potentielle Auswirkung oder navigieren Sie in der Inhaltsübersicht zum Abschnitt Potentielle Auswirkung. Wählen Sie in den Drop-Down-Menüs den entsprechenden Wert *vernachlässigbar, begrenzt, beträchtlich oder existenzbedrohend* für die 4 Grundwerte *Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit* aus.
+In the GDPR domain, you can define the *Potential impact* for processing activities, data transfers, DPIA, applications and IT systems as well as data types.
+To do this, open the respective target object by double-clicking it and scroll to the Potential impact section in the editor or navigate to the Potential impact section in the content overview. In the drop-down menus, select the corresponding value *negligible, limited, considerable or existence-threatening* for the 4 basic values *confidentiality, integrity, availability and resilience*.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild9.png)
+![data transfer](  /assets/en/domain-ds-gvo/Bild9.png)
 
-## Vererbung der potentiellen Auswirkung
+## Inheritance of the potential impact
 
-In verinice wird die potentielle Auswirkung ausgehend von *Datenarten* als oberste Ebene in der Ableitungshierarchie für die übrigen Zielobjekte getrennt nach Schutzziel automatisiert abgeleitet. Die automatisierte Ableitung folgt hierbei immer dem sog. Maximumprinzip über die gesamte Ableitungshierarchie. Dieser Wert kann allerdings in jedem Zielobjekt manuell überschrieben werden, indem die *Potentielle Auswirkung* über das Drop-Down-Feld *Nutzervorgabe* manuell gesetzt wird. In diesem Fall ist durch Auswahl in dem Drop-Down-Feld zu dokumentieren, ob Verteilungseffekt oder Kumulationseffekt zugrunde gelegt wurden.
+In verinice, the potential impact is automatically derived from *data types* as the top level in the derivation hierarchy for the remaining target objects, separated according to protection objective. The automated derivation always follows the so-called maximum principle across the entire derivation hierarchy. However, this value can be manually overwritten in each target object by manually setting the *Potential impact* via the drop-down field *User default*. In this case, it must be documented by selecting in the drop-down field whether the distribution effect or accumulation effect was used as a basis.
 
-![Vererbung des Schutzbedarfs](/assets/domain-ds-gvo/Bild9a.png)
+![Inheritance of protection requirements](  /assets/en/domain-ds-gvo/Bild9a.png)
 
-## Risikoanalyse und Risikobehandlung
+## Risk analysis and risk treatment
 
-Für die Durchführung der Risikoanalyse und Risikobehandlung gehen Sie bitte folgendermaßen vor:
+To carry out the risk analysis and risk treatment, please proceed as follows:
 
-- Wählen Sie den Reiter *Risiken* in der Detailansicht.
-- Über den roten *Plus-Button* können Sie für Ihre Verarbeitungstätigkeit ein Risiko hinzufügen.
+- Select the *Risks* tab in the detailed view.
+- Use the red *Plus button* to add a risk for your processing activity.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild10.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild10.png)
 
-- Treffen Sie eine passende Auswahl aus den Datenschutzgefährdungen.
+- Make a suitable selection from the data protection risks.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild10a.png)
+![Data transmission](  /assets/en/domain-ds-gvo/Bild10a.png)
 
-Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell angewandten Gefährdungen. Zudem haben Sie haben die Möglichkeit eigene individuelle Gefährdungen als Objekte über das Formular Gefährdungen anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
+The list contains the threats manually applied to your unit from the catalog. You also have the option of creating your own individual hazards as objects using the Hazards form in order to use them for your risk analysis.
 
-- Im Risikodialog können Sie nun u.a. die spezifischen Werte für die Eintrittswahrscheinlichkeit und Auswirkung setzen.
-- Für die Risikobehandlung stehen Ihnen die Optionen *Risikovermeidung, Risikoreduktion, Risikotransfer, Risikoakzeptanz* zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind.
+- In the risk dialog, you can now set the specific values for the probability of occurrence and impact, among other things.
+- The options *Risk Avoidance, Risk Reduction, Risk Transfer, Risk Acceptance* are available for risk treatment, each with a text field for explanations.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild10b.png)
+![data transfer](  /assets/en/domain-ds-gvo/Bild10b.png)
 
-- Bei gewählter Risikobehandlungsoption *Risikoreduktion* kann das Risiko durch hinzufügen *Mitigierender Maßnahmen* reduziert werden entweder durch die Erstellung neuer Maßnahmen oder der Verknüpfung bereits erfasster Maßnahmen. Weitere Einzelheiten zur Risikoanalyse und Risikobehandlung finden Sie im gleichnamigen Abschnitt.
+- If the risk treatment option *Risk reduction* is selected, the risk can be reduced by adding *Mitigating measures* either by creating new measures or by linking measures that have already been recorded. Further details on risk analysis and risk treatment can be found in the section of the same name.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild10c.png)
+![data transfer](  /assets/en/domain-ds-gvo/Bild10c.png)
 
-## Datenschutz-Folgenabschätzung (DSFA) erforderlich?
+## Data protection impact assessment (DPIA) required?
 
-verinice unterstützt Sie über eine automatisierte Entscheidungshilfe bei der Feststellung, ob eine Datenschutz-Folgenabschätzung (DSFA) durchzuführen ist.
-Hierbei wurden die gesetzlichen Entscheidungsparameter wie z.B.:
+verinice supports you with an automated decision aid to determine whether a data protection impact assessment (DPIA) needs to be carried out.
+The legal decision parameters such as
 
-- Steht die Verarbeitung auf der Negativliste nach Art. 35 V DS-GVO?
-- Ist die Verarbeitung Teil einer gemeinsamen Verarbeitung gem. Art. 35 I S.2 DS-GVO?
-- Steht die Verarbeitung auf der Positivliste nach Art. 35 IV DS-GVO?
-- Entspricht die Verarbeitung zwei oder mehr der Kriterien, die anerkanntermaßen eine DSFA erfordern?
+- Is the processing on the negative list according to Art. 35 V GDPR?
+- Is the processing part of joint processing in accordance with Art. 35 I S.2 GDPR?
+- Is the processing on the positive list pursuant to Art. 35 IV GDPR?
+- Does the processing meet two or more of the criteria that are recognized as requiring a DPIA?
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild11.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild11.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild11a.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild11a.png)
 
-Je nach Auswahl erscheint unter der Rubrik *Meldungen* der Hinweis, ob eine DSFA erforderlich ist, versehen mit einer kurzen Begründung. Diese Entscheidung können Sie selbstverständlich überstimmen und eine DSFA freiwillig durchführen.
+Depending on your selection, a note will appear under the heading *Notifications* as to whether a DPIA is required, together with a brief explanation. You can of course overrule this decision and carry out a DPIA voluntarily.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild12.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild12.png)
 
-Sofern eine Datenschutz-Folgenabschätzung erforderlich ist, können Sie diese wie im Kapitel DSFA beschrieben, effektiv in verinice durchführen.
+If a data protection impact assessment is required, you can carry it out effectively in verinice as described in the DPIA chapter.
 
-## Stellungnahme der Datenschutzbeauftragten
+## Opinion of the data protection officer
 
-Der Datenschutzbeauftragen sollte im Zuge der Einführung oder Änderung einer Verarbeitungstätigkeit die Möglichkeit einer Stellungnahme gegeben werden.
+The data protection officer should be given the opportunity to issue an opinion in the course of the introduction or modification of a processing activity.
 
-## Erforderliche Anwendungen und IT-Systeme
+## Required applications and IT systems
 
-In diesem Abschnitt können die für diese Verarbeitungstätigkeit erforderlichen Anwendungen und IT-Systeme dokumentiert werden. Beide Aspekte können über eigenständige Formulare abgebildet und anschließend verknüpft werden.
+In this section, the applications and IT systems required for this processing activity can be documented. Both aspects can be mapped using separate forms and then linked.

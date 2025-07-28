@@ -1,4 +1,4 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Profile in der Domäne IT-Grundschutz-Check
+# Profiles in the IT-Grundschutz Check Domain
 
-WIP
+WIP (Work In Progress)

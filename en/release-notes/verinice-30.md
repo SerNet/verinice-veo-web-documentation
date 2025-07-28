@@ -1,96 +1,67 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 30
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 30 zur Verfügung:
+The following new features are available to users with the release of verinice 30:
 
-## Allgemeine Funktionen
+## General functions
+**Status: Productive**
 
-**Status: Produktiv**
+### Improved onboarding
 
-### Verbessertes Onboarding
+When deploying a verinice client after purchasing a subscription, units are no longer created by default (previously an empty **Unit 1** and a unit with **Sample data** were created) so that users can create their organization with or without profiles and the desired domains.
+When you first log in, the **First steps** page explains which **profiles** and which **domains** can be used in a unit.
+![First steps]( /assets/en/roadmap/erste-schritte.de.png)
+The steps are explained analogously in the **Create Unit** wizard.
 
-Bei der Bereitstellung eines verinice Clients nach Erwerb einer Subskription werden standardmäßig keine Units mehr angelegt (bisher wurden eine leere **Unit 1** und eine Unit mit **Beispieldaten** erzeugt), damit Anwenderinnen und Anwender Ihre Organisation mit oder ohne Profile und den gewünschten Domänen erstellen können.
-Bei der ersten Anmeldung erläutert die Seite **Erste Schritte** welche **Profile** und welche **Domänen** in einer Unit angewendet werden können.
+### Detail improvements and bug fixes
 
-![Erste Schritte](/assets/roadmap/erste-schritte.de.png)
+- The description field of units can be filled with multiple lines again.
+- Search function added to tutorial.
+- Reports are now only displayed for the active domain.
 
-Im **Unit erstellen** Assistenten werden die Schritte analog erläutert.
+## Domain data protection
+**Status: Productive**
+No new features.
 
-### Detailverbesserungen und Fehlerbehebungen
-
-- Das Beschreibungsfeld von Units kann wieder mehrzeilig befüllt werden.
-- Suchfunktion in Tutorial aufgenommen.
-- Reports werden nur noch für die aktive Domäne angezeigt.
-
-## Domäne Datenschutz
-
-**Status: Produktiv**
-
-Keine Neuerungen.
-
-## Domäne IT-Grundschutz
-
+## Domain IT-Grundschutz
 **Status: Private Beta**
 
-### Risikomitigierende Maßnahmen
+### Risk mitigating measures
 
-Die Abbildung mitigierender Maßnahmen bei der Risikoreduktion wurde umfassend verbessert, es wird unterschieden zwischen *Compliance-Maßnahmen* und *Mitigierenden Maßnahmen*:
+The mapping of mitigating measures in risk reduction has been comprehensively improved; a distinction is made between *compliance measures* and *mitigating measures*:
+- **Compliance measures** are displayed and edited in the **Modules** tab.
+-  Mitigating measures** are displayed and edited in the **Risks** tab.
+Operation has been standardized:
+- Mouse click on the objects to open the module or risk for editing.
+- The **Edit implementation** icon can be used to edit the implementation of the requirements or mitigating measures (if available).
+From the risk dialog:
+- you can navigate directly to the mitigating measures.
+- you can navigate to the *container* for the mitigating measures.
+The mitigating measures are output in the **A.5 Risk analysis** report.
 
-- **Compliance-Maßnahmen** werden im Tab **Bausteine** angezeigt ud bearbeitet.
-- **Mitigierende Maßnahmen** werden im Tab **Risiken** angezeigt und bearbeitet.
+### Customizable risk definition
 
-Die Bedienung wurde vereinheitlicht:
+In the first iteration, the names, criteria and colors of the risk definition (impact, probability of occurrence and risk categories) and the protection requirement definition can be adapted to the organization:
+![Customizable risk definition]( /assets/en/roadmap/risikodefinition.de.png)
 
-- Mausklick auf die Objekte öffnet den Baustein oder das Risiko zur Bearbeitung.
-- Über das Icon **Implementierung bearbeiten** kann die Umsetzung der Anforderungen bzw. der mitigierenden Maßnahmen (wenn vorhanden) bearbeitet werden.
+### Amount of damage
+In order to be able to differentiate in IT-Grundschutz between the **protection requirement** for confidentiality, integrity and availability and the **level of damage** in the risk analysis, the protection requirement can be mapped without defining a risk matrix:
+![Customizable risk definition]( /assets/en/roadmap/risikodefinition_ohne_matrix.de.png)
 
-Aus dem Risikodialog heraus:
-
-- kann direkt zu den mitigierenden Maßnahmen navigiert werden.
-- kann zu dem *Container* für die mitigierenden Maßnahmen navigiert werden.
-
-Die mitigierenden Maßnahmen werden im Report **A.5 Risikoanalyse** ausgegeben.
-
-### Anpassbare Risikodefinition
-
-In der ersten Iteration sind die Namen, Kriterien und Farben der Risikodefinition (Auswirkung, Eintrittswahrscheinlichkeit und Risikokategorien) und der Schutzbedarfsdefinition an die Organisation anpassbar:
-
-![Anpassbare Risikodefinition](/assets/roadmap/risikodefinition.de.png)
-
-### Schadenshöhe
-
-Um im IT-Grundschutz zwischen dem **Schutzbedarf** für Vertraulichkeit, Integrität und Verfügbarkeit und der **Schadenshöhe** in der Risikoanaylse differenzieren zu können, lässt sich der Schutzbedarf ohne Definition einer Risikomatrix abbilden:
-
-![Anpassbare Risikodefinition](/assets/roadmap/risikodefinition_ohne_matrix.de.png)
-
-### Sortierung in Katalog
-
-Im Katalog **IT-Grundschutz-Kompendium** werden alle Objekte (Bausteine, Anforderungen, Gefährdungen) standardmäßig anhand der Abkürzung nach der im Kompendium vorgegebenen Reihenfolge sortiert.
-
-### Reiter "Bausteine"
-
-Der Reiter Bausteine wird nur noch in Zielobjekten (Scope, Prozess, Asset) angezeigt.
-
-## Domäne NIS2
-
+### Sorting in catalog
+In the **IT-Grundschutz Compendium** catalog, all objects (building blocks, requirements, hazards) are sorted by default using the abbreviation according to the order specified in the compendium.
+### “Building blocks” tab
+The “Components” tab is now only displayed in target objects (scope, process, asset).
+## Domain NIS2
 **Status: Private Beta**
-
-Letzte Optimierungen am Prototypen zur Vorbereitung der Public Beta (zur it-sa).
-
-## Domäne ISO
-
-**Status: Prototyp**
-
-Fertigstellung des ersten Prototypen der Domäne **ISO** mit allen Objekttypen, Subtypen und Formularen zur Vorbereitung der Private Beta Phase.
-
-## Domäne TISAX
-
+Last optimizations on the prototype in preparation for the public beta (for it-sa).
+## Domain ISO
+**Status: Prototype**
+Completion of the first prototype of the **ISO** domain with all object types, subtypes and forms in preparation for the private beta phase.
+## Domain TISAX
 **Status: Private Beta**
-
-Abbildung des **TISAX / VDA ISA Information Security Assessment** in verinice zur Vorbereitung der Public Beta (zur it-sa):
-
-- **Katalog** mit allen ISA Controls.
-- **Profile** für Information Security Assessments für die Kriterienkataloge **Informationssicherheit und Prototypenschutz** ohne/mit **Datenschutz**.
-- **Report** Information Security Assessment 6 - kompakt:
-
-![Anpassbare Risikodefinition](/assets/roadmap/vda-isa_report.de.png)
+Mapping of the **TISAX / VDA ISA Information Security Assessment** in verinice in preparation for the public beta (for it-sa):
+- **Catalog** with all ISA Controls.
+- **Profiles** for Information Security Assessments for the criteria catalogs **Information Security and Prototype Protection** without/with **Data Protection**.
+- **Report** Information Security Assessment 6 - compact:
+![Customizable risk definition]( /assets/en/roadmap/vda-isa_report.de.png)

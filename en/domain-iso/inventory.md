@@ -1,83 +1,82 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Inventarverzeichnis
+# Inventory Register
 
-Das **Inventarverzeichnis** ist ein zentrales Element zur strukturierten Erfassung aller relevanten Assets, Geschäftsprozesse und weiteren Unternehmenskomponenten. Es dient dazu, eine transparente Übersicht über alle betrieblichen Strukturen und Abhängigkeiten zu schaffen und bildet damit die Grundlage für eine fundierte Risikoanalyse und Maßnahmenplanung.
+The **Inventory Register** is a central element for the structured recording of all relevant assets, business processes, and other company components. It is used to provide a transparent overview of all operational structures and dependencies, thus forming the basis for well-founded risk analysis and action planning.
 
-## Strukturierung der Organisation
+## Structuring the Organization
 
-Zur genauen Abbildung der Unternehmensstruktur stehen im Inventarverzeichnis neben Geschäftsprozessen und Assets auch folgende Objekttypen zur Verfügung:
+To accurately map the company structure, the Inventory Register includes not only business processes and assets but also the following object types:
 
-- **Organisationen**  
-- **ISMS-Anwendungsbereiche**  
+- **Organizations**  
+- **ISMS Application Areas**  
 - **Scopes**  
-- **Externe Dienstleister**  
+- **External Service Providers**  
 
-Diese Subtypen ermöglichen eine detaillierte Modellierung der internen und externen Rahmenbedingungen.
+These subtypes enable detailed modeling of internal and external conditions.
 
-## Arbeiten mit Scopes
+## Working with Scopes
 
-**Scopes** sind zentrale Strukturierungselemente innerhalb des ISMS-Anwendungsbereichs. Sie lassen sich hierarchisch organisieren und können andere Scope-Objekte enthalten oder selbst Bestandteil eines anderen Scopes sein:
+**Scopes** are central structuring elements within the ISMS application area. They can be organized hierarchically and may contain other scope objects or themselves be part of another scope:
+![Scopes ISO/IEC 27000 Domain]( /assets/en/domain-iso/verinice-39-scopes.de.png)
 
-![Scopes ISO/IEC 27000-Domäne](/assets/domain-iso/verinice-39-scopes.de.png)
+### Managing Scope Relationships
 
-### Scope-Beziehungen verwalten
+Open any **Scope Object**.  
+In the **Scopes** tab, you can add subordinate scopes, for example:
 
-Öffnen Sie ein beliebiges **Scope-Objekt**.
-Im Tab-Reiter **Scopes** fügen Sie z.B. untergeordnete Scopes hinzu:
+![Subordinate Scopes]( /assets/en/domain-iso/verinice-39-scopes-parts.de.png)
 
-![Untergeordnete Scopes](/assets/domain-iso/verinice-39-scopes-parts.de.png)
+In the **In Scope** tab, you define which parent scope the current object belongs to:
 
-Im Tab-Reiter **In Scope** definieren Sie, zu welchem übergeordneten Scope das aktuelle Objekt gehört:
+![Parent Scopes]( /assets/en/domain-iso/verinice-39-superordinate-scopes.de.png)
 
-![Übergeordnete Scopes](/assets/domain-iso/verinice-39-superordinate-scopes.de.png)
+### Components of a Scope Object
 
-### Bestandteile eines Scope-Objekts
+In the **Parts** tab within a scope object, you can add additional components. This is especially relevant for documenting the ISMS application area – for example, to provide a precise description and delimitation of the scope as required for ISO/IEC 27001 certification.
 
-Im Tab-Reiter **Teile** innerhalb eines Scope-Objekts können zusätzliche Bestandteile hinzugefügt werden. Dies ist insbesondere relevant für die Dokumentation des ISMS-Anwendungsbereich - etwa zur genauen Beschreibung und Abgrenzung des Geltungsbereichs, wie sie im Rahmen einer ISO/IEC 27001-Zertifizierung erforderlich ist.
+Components primarily include **Business Processes** and **Assets** that are to be considered within this scope:
 
-Zu den Bestandteilen zählen insbesondere **Geschäftsprozesse** und **Assets**, die innerhalb dieses Geltungsbereichs betrachtet werden sollen:
+![Components of an ISMS Application Area]( /assets/en/domain-iso/verinice-39-components-of-ISMS-application.de.png)
 
-![Bestandteile eines ISMS-Anwendungsbereichs](/assets/domain-iso/verinice-39-components-of-ISMS-application.de.png)
+## Creating and Managing Business Processes
 
-## Geschäftsprozesse anlegen und verwalten
+To create a new **Business Process**, proceed as follows:
 
-Um einen neuen **Geschäftsprozess** anzulegen, gehen Sie wie folgt vor:
+1. Navigate to **Business Processes** via the **left menu** or the dashboard.
+2. In the object overview, click the **plus button (+)** at the bottom right to create a new object.
+3. In the business process form, you can enter the required information and link it to the **necessary assets** in the lower section. These same links are also visible in the **Object Details** under the **Links** tab:
 
-1. Navigieren Sie über das **linke Menü** oder über das Dashboard zu **Geschäftsprozesse**.
-2. In der Objektübersicht klicken Sie unten rechts auf den **Plus-Button (+)**, um ein neues Objekt zu erstellen.
-3. Im Formular für den Geschäftsprozess können Sie die notwendigen Informationen hinterlegen und im unteren Abschnitt Verknüpfungen zu **erforderlichen Assets** herstellen. Die selben Verknüpfungen sehen Sie auch in den **Objektdetails** unter dem Tab-Reiter **Verknüpfungen**:
+![Links]( /assets/en/domain-iso/verinice-39-links-between-process-and-asset.de.png)
 
-![Verknüpfungen](/assets/domain-iso/verinice-39-links-between-process-and-asset.de.png)
-
-::: info Über den **Plus-Button** legen Sie Objekte kontextsensitiv immer mit dem Objekt- und Subtyp an, der gerade aktiv ist!
+::: info You always create context-sensitive objects using the **plus button**, based on the currently active object and subtype!
 :::
 
-**Speichern** Sie den Prozess wenn Sie alle Daten wie gewünscht erfasst haben. Beachten Sie dabei, dass die Felder **Name** und **Status** (in allen Objekten) zwingend erforderlich sind! Ihr Prozess wird anschließend in der Objektübersicht aufgelistet.
+**Save** the process once you have entered all data as desired. Please note that the fields **Name** and **Status** (in all objects) are mandatory! Your process will then be listed in the object overview.
 
-### Zusätzliche Bestandteile für Geschäftsprozesse
+### Additional Components for Business Processes
 
-Über den Tab-Reiter **Teile** können Sie zusätzliche **Geschäftsprozesse** hinzufügen, um Abhängigkeiten oder weitere Geschäftsprozesse als Teilprozesse zu dokumentieren.
+Using the **Parts** tab, you can add additional **Business Processes** to document dependencies or further business processes as subprocesses.
 
-## Assets anlegen und strukturieren
+## Creating and Structuring Assets
 
-Das Vorgehen zur Erstellung eines neuen **Assets** entspricht dem der Geschäftsprozesse:
+The procedure for creating a new **Asset** is the same as for business processes:
 
-1. Navigieren Sie über das Menü zum Bereich **Assets**.
-2. Klicken Sie in der Übersicht auf den **Plus-Button (+)**.
-3. Im Formular für ein Asset können Sie die notwendigen Informationen eingeben und im unteren Bereich Verknüpfungen zu weiteren **erforderlichen Assets** gesetzt werden.
+1. Navigate to the **Assets** section via the menu.
+2. In the overview, click the **plus button (+)**.
+3. In the asset form, you can enter the necessary information and set links to other **required assets** in the lower area.
 
-### Zusätzliche Bestandteile für Assets
+### Additional Components for Assets
 
-Wie bei den Geschäftsprozessen lassen sich auch bei Assets über den Tab-Reiter **Teile** weitere **Assets** hinzufügen. Damit können zusätzliche strukturelle oder funktionale Zusammenhänge dokumentiert werden.
+As with business processes, you can also add additional **Assets** via the **Parts** tab. This allows you to document additional structural or functional relationships.
 
-## Report Inventarverzeichnis
+## Inventory Report
 
-Um das Inventarverzeichnis als Report im PDF-Format über alle **Assets** zu erstellen, die als Bestandteile einem **ISMS-Geltungsbereich** zugeordnet sind, wählen Sie im Menü **Reports** und anschließend **Inventarverzeichnis** aus:
+To create the inventory register as a PDF report of all **Assets** that are assigned as components to an **ISMS scope**, go to the **Reports** menu and then select **Inventory Register**:
 
-![Report Inventarverzeichnis](/assets/domain-iso/verinice-39-inventory-of-assets.de.png)
+![Inventory Register Report]( /assets/en/domain-iso/verinice-39-inventory-of-assets.de.png)
 
-Wählen Sie anschließend ein Scope-Objekt aus den unter **ISMS-Geltungsbereich** angelegten Objekten aus und klicken Sie auf den Button **Report generieren**, um das Inventarverzeichnis zu erstellen.
+Then select a scope object from those created under **ISMS Scope** and click the **Generate Report** button to create the inventory register.
 
-Im Report werden alle **Assets** ausgegeben, die als **Teile** einem Objekt vom Subtyp **ISMS-Geltungsbereich** zugeordnet wurden.
+The report outputs all **Assets** that have been assigned as **Parts** to an object of the subtype **ISMS Scope**.
 
-Im ersten Abschnitt des Reports erhalten Sie eine Übersicht über alle Assets mit den eingegebenen Werten für Vertraulichkeit, Verfügbarkeit und Integrität, sodass besonders schützenswerte Assets leicht erkennbar sind. Im zweiten Abschnitt werden für jedes Asset alle dokumentierten Informationen aus den jeweiligen Formularen detailliert dargestellt.
+In the first section of the report, you get an overview of all assets with the entered values for confidentiality, availability, and integrity, so that particularly sensitive assets are easily identifiable. In the second section, all documented information from the respective forms is displayed in detail for each asset.

@@ -1,22 +1,22 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# IT-Grundschutz-Check
+# IT-Grundschutz Check
 
-In diesem Schritt gilt es, den Status der modellierten Bausteine, konkret der einzelnen Anforderungen, abzuarbeiten. Um Anforderungen zu bearbeiten, klicken Sie im Objektumfeld des Zielobjektes im Tab **Bausteine** auf **Umsetzung anzeigen** des jeweiligen Bausteins.
+In this step, the status of the modeled modules—specifically, the individual requirements—must be processed. To edit requirements, click **Show Implementation** for the respective module in the **Modules** tab of the target object's context.
 
-![Umsetzung anzeigen](/assets/domain-it-gs/verinice-32-view-implementation.de.png)
+![Show Implementation]( /assets/en/domain-it-gs/verinice-32-view-implementation.de.png)
 
-Sie gelangen zur Übersicht aller Anforderungen des ausgewählten Bausteins. Hier können Sie die einzelnen Anforderungen bearbeiten. Durch Klick auf eine Anforderung öffnet sich der Umsetzungsdialog, in dem Sie folgende Informationen einsehen bzw. einpflegen können:
+You will be taken to an overview of all requirements of the selected module. Here, you can edit the individual requirements. By clicking on a requirement, the implementation dialog opens, where you can view or enter the following information:
 
-- Informationen zu Zielobjekt und Anforderung.
-- Anforderungsbeschreibung (aus dem IT-Grundschutz-Kompendium).
-- Informationen zur Umsetzung:
-  - Verantwortliche Person.
-  - Umsetzung bis (Datum).
-  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
-  - Umsetzungsbeschreibung.
+- Information about the target object and requirement.
+- Requirement description (from the IT-Grundschutz Compendium).
+- Implementation information:
+  - Responsible person
+  - Implementation deadline (date)
+  - Implementation status (Unprocessed, Yes, Partially, No, Not Required)
+  - Implementation description
 
-![Umsetzung bearbeiten](/assets/domain-it-gs/verinice-32-edit-implementation.de.png)
+![Edit Implementation]( /assets/en/domain-it-gs/verinice-32-edit-implementation.de.png)
 
-Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
+Once you have entered the data, close the dialog by clicking **Save**.
 
-In der Realität ist dieser Schritt langwieriger, da sich oft eine Vielzahl von Anforderungen in der Umsetzung befindet. Nachdem alle modellierten Bausteine und Anforderungen bearbeitet worden sind, ist es möglich das Ergebnis des IT-Grundschutz-Checks als Report auszugeben.
+In practice, this step is more time-consuming, as a large number of requirements are often in the process of being implemented. After all modeled modules and requirements have been processed, the result of the IT-Grundschutz Check can be generated as a report.

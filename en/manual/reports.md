@@ -1,11 +1,11 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Reports
 
-Im Abschnitt Reports wählen Sie aus den zur Verfügung stehenden Vorlagen die gewünschte aus:
+In the Reports section, select the desired template from the available templates:
+![Reports](  /assets/en/manual/reports.de.png)
 
-![Reports](/assets/manual/reports.de.png)
+1. a short description of the content is displayed for each template.
+1. reports are normally created across all scopes, depending on the type of report, a specific subtype may be required! Please note that the respective source objects for report generation must be created beforehand!
+1. when selecting the desired scope in the object list, the filter and sorting options known from the object overview are available.
+1. the PDF report is generated and saved by default in your download folder and opened in a new browser tab.
 
-1. Für jede Vorlage wird eine kurze Beschreibung des Inhalts angezeigt.
-1. Reports werden im Normalfall Scope-übergreifend erstellt, je nach Art des Berichtes kann ein bestimmter Subtyp gefordert sein! Bitte beachten Sie, dass die jeweiligen Quellobjekte zur Reporterzeugung zuvor angelegt werden müssen!
-1. Bei Auswahl des gewünschten Scopes in der Objektliste stehen die aus der Objektübersicht bekannten Filter- und Sortieroptionen zur Verfügung.
-1. Der PDF-Report wird generiert und standardmäßig in Ihrem Download-Ordner gespeichert sowie in einem neuen Browser-Tab geöffnet.

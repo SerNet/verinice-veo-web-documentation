@@ -1,8 +1,8 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Objektmodell
+# Object model
 
-- verinice stellt Informationen in unterschiedlichen [Domänen](./domains) dar, z.B. für ein ISMS nach ISO 27000 oder ein DSMS nach der DS-GVO.
-- verinice unterstützt bei Aufbau und Betrieb von Managementsystemen für Informationssicherheit und Datenschutz. Im Objektmodell sind dafür [Objekte](./objects) definiert, die gleichzeitig für die verschiedenen Managementsysteme verwendet werden können. Es gibt ein Modell, mit dem alle Verfahren und Standards abgebildet werden können.
-- Objekte werden je nach Subtyp in spezifischen [Formularen](./forms) dargestellt.
-- [Kataloge](./catalogs) stellen systemweit Objekte zur Nutzung/Anwendung zur Verfügung.
-- [Profile](./profiles) stellen Vorlagen oder Demodaten bereit, die die Arbeit in verinice signifikant vereinfachen.
+- verinice represents information in different [domains](./domains), e.g. for an ISMS according to ISO 27000 or a DSMS according to the GDPR.
+- verinice supports the development and operation of management systems for information security and data protection. The object model defines [objects](./objects) for this purpose, which can be used simultaneously for the various management systems. There is a model with which all procedures and standards can be mapped.
+- Objects are represented in specific [forms](./forms) depending on the subtype.
+- [Catalogs](./catalogs) provide system-wide objects for use/application.
+- [Profiles](./profiles) provide templates or demo data that significantly simplify work in verinice.

@@ -1,104 +1,104 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 1.20
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.20 zur Verfügung!
+The following new features are available to all users with the release of verinice 1.20!
 
-## Neuerungen
+## New features
 
-### Erste Schritte
+### First steps
 
-- Die ersten Schritte nach Login wurden konsistenter und intuitiver gestaltet.
-- Der Zustand nach erstem Login wird im Local Storage des verwendeten Browsers gespeichert.
-- Bei wiederholtem Login wird immer das Dashboard der zuletzt besuchten Unit mit der zuletzt verwendeten Domäne aufgerufen.
-- Die Unit-Verwaltung ist über eine feste URL (/units) erreichbar.
-- Anpassung des Tutorials an diese Umstellung.
-- In der Navigation kann direkt über zwei Auswahlboxen die Unit und die Domäne gewechselt werden oder die Unit- bzw. Domänenverwaltung aufgerufen werden.
+- The first steps after login have been made more consistent and intuitive.
+- The status after the first login is saved in the local storage of the browser used.
+- When logging in again, the dashboard of the last unit visited with the last domain used is always called up.
+- The unit administration can be accessed via a fixed URL (/units).
+- Adaptation of the tutorial to this change.
+- In the navigation, the unit and domain can be changed directly via two selection boxes or the unit or domain administration can be called up.
 
-### Domäne Datenschutz
+### Domain data protection
 
-- Im Objekt Datenart kann die Eigenschaft **Besonders sensible Daten** dokumentiert werden.
-- Im Objekt Vertrag/Dokument wurde **Sonstiger Dokumententyp** ergänzt.
-- Das **Begründungsfeld** im Datenschutzvorfall ist mehrzeilig.
-- An Scope-, Prozess- oder Assetobjekte können keine Maßnahmen (Bausteine) mehr hinzugefügt werden, um den Umgang mit mitigierenden Maßnahmen im Risikodialog konsistent zu halten.
-- In der Domäne DS-GVO steht der Reiter **Risiken** lediglich für die **Scopeobjekte**, für den Subtypen **VT** und für den Subtyp **DSFA** zur Verfügung.
+- The **Specially sensitive data** property can be documented in the data type object.
+- **Other document type** has been added to the contract/document object.
+- The **Reason field** in the data protection incident is multi-line.
+- Measures (modules) can no longer be added to scope, process or asset objects in order to keep the handling of mitigating measures in the risk dialog consistent.
+- In the GDPR domain, the **Risks** tab is only available for the **Scope objects**, for the **VT** subtype and for the **DSFA** subtype.
 
-### Detailverbesserungen und Fehlerbehebungen
+### Detailed improvements and bug fixes
 
-- Vorbereitung für benutzerdefinierte Einstellungen im Backend (Einstellungen können in Zukunft gespeichert werden).
-- Potentielle Zielobjekte werden in Custom Links korrekt angezeigt. 
-- Neu in Custom Links angelegte Objekte werden sofort (ohne Reload) angezeigt.
-- Behebung verschiedener Typos und Layoutfehler (Hell/Dunkel Modus, Dokumentation, Tool-Tip Sprachumschaltung, Beschreibung des Datentransfers)
-- Behebung eines Fehlers, der bei extrem schneller Eingabe die Speicherung der Daten verhindert (Grenzfall - nur in maschinellen Tests reproduzierbar).
-- Obsolete URL-Pattern entfernt (Refactoring).
-- Behebung eines Fehlers im Objektschema-Editor, der das Speichern bei fehlenden Übersetzungen verhindert.
-- Abgelaufenes Datum in der Sicherheitsrichtlinie korrigiert.
-- Ergänzung einzelner Parameter in der Navigation.
-- Fehlerhafte Meldung beim Wechseln von Versionen in der History behoben.
-- Fehler beim Umschalten zwischen Versionen behoben, wenn die aktuelle Version ausgewählt wird.
-- Maßnahmenumsetzung in Unit Export aufgenommen.
-- Verbesserung der Perfomance des Report-Service durch Nutzung eines Unit-Exports.
-- Code Formatter im Frontend eingeführt.
-- Produktpflege: Updates Nuxt, Hibernate, 3rd party license generation.
-- Schwachstellen-Management: Erforderliche Updates zu Libraries.
-- Qualitätssicherung: Weiterer Ausbau der Frontend-Tests / End-2-End Tests.
-- Release-Management: Prozessverbesserung, Maintenance Page für Downtime.
+- Preparation for user-defined settings in the backend (settings can be saved in future).
+- Potential target objects are displayed correctly in custom links.
+- New objects created in custom links are displayed immediately (without reload).
+- Fixed various typos and layout errors (light/dark mode, documentation, tool tip language switching, description of data transfer)
+- Fixed an error that prevented data from being saved when entered extremely quickly (borderline case - only reproducible in machine tests).
+- Obsolete URL pattern removed (refactoring).
+- Fixed a bug in the object schema editor that prevents saving if translations are missing.
+- Expired date in the security policy corrected.
+- Addition of individual parameters in the navigation.
+- Fixed an error message when switching versions in the history.
+- Fixed an error when switching between versions when the current version is selected.
+- Action implementation included in Unit Export.
+- Improved the performance of the report service by using a unit export.
+- Code formatter introduced in the frontend.
+- Product maintenance: Updates Nuxt, Hibernate, 3rd party license generation.
+- Vulnerability management: Necessary updates to libraries.
+- Quality assurance: Further expansion of frontend tests / end-2-end tests.
+- Release management: Process improvement, maintenance page for downtime.
 
 ## Preview
 
-Das verinice.TEAM arbeitet an weiteren Funktionen, die in Zukunft veröffentlicht werden. Die folgenden Inhalte stehen aktuell **NICHT** allen Anwenderinnen und Anwendern produktiv zur Verfügung.
+The verinice.TEAM is working on further functions that will be released in the future. The following content is currently **NOT** productively available to all users.
 
-### Verbesserte Unitverwaltung
+### Improved unit management
 
-- Basierend auf einem Prototypen wird die Unitverwaltung als zentrale Stelle verbessert, um das Zusammenspiel zwischen Units, Domänen und Profilen intuitiver zu gestalten.
+- Based on a prototype, the unit administration as a central point will be improved to make the interaction between units, domains and profiles more intuitive.
 
-### Multi-Domain Betrieb
+### Multi-domain operation
 
-- Abgleich der existierenden Domänen **DS-GVO**, **IT-Grundschutz** und **NIS-2** für den Multi-Domain Betrieb.
-- Inspections sind domänenspezifisch.
-- Beim Umschalten der Domäne wird immer auf das Dashboard der gewählten Domäne in der aktiven Unit gewechselt, um Inkonsistenzen in der Datendarstellung zu vermeiden.
-- Die History zeigt Versionen domänenspezifisch an.
-- Fehler (Versionslücke) beim Zuordnen eines Objekts zu einer neuen Domäne behoben.
-- Objekte können erst dann einer anderen Domäne zugeordnet werden, wenn ein Subtyp ausgewählt wurde (Validierung korrigiert).
-- Die Report-Übersichtsseite zeigt nur noch Reports der ausgewählten Domäne an.
+- Synchronization of the existing domains **DS-GVO**, **IT-Grundschutz** and **NIS-2** for multi-domain operation.
+- Inspections are domain-specific.
+- When switching domains, the dashboard of the selected domain in the active unit is always switched to in order to avoid inconsistencies in the data display.
+- The history displays versions on a domain-specific basis.
+- Fixed a bug (version gap) when assigning an object to a new domain.
+- Objects can only be assigned to another domain once a subtype has been selected (validation corrected).
+- The report overview page now only shows reports of the selected domain.
 
-### Domäne NIS2
+### Domain NIS2
 
-- Prototyp mit Organisationsaspekten der NIS2 zur Domain pulse 2024.
-- Subtypen Lieferant und Scope (allgemein) verfeinert.
-- Abbildung von Sicherheitsvorfällen in der Domäne NIS2.
-- Tab Maßnahmen in Domäne NIS2 ausgeblendet.
-- Schutzbedarfsstufen für Authentizität ergänzt.
+- Prototype with organizational aspects of NIS2 for the domain pulse 2024.
+- Subtypes Supplier and Scope (general) refined.
+- Mapping of security incidents in the NIS2 domain.
+- Measures tab in NIS2 domain hidden.
+- Protection requirement levels for authenticity added.
 
-### Domäne IT-Grundschutz
+### Domain IT-Grundschutz
 
-#### Bausteinmodellierung aus Katalog
+#### Building block modeling from catalog
 
-- Bausteine und die enthaltenen Anforderungen werden nur einmal in einer Unit angelegt.
-- Scope-Objekte können aus Katalogen heraus angewendet werden.
-- Beim Erstellen eines Kataloges aus einer Unit werden Objekte aktualisiert statt neu angelegt.
-- Obsolete Katalog-Endpunkte entfernt (Refactoring).
-- Obsolete Kataloge-Übersichtsseite entfernen (Refactoring).
+- Building blocks and the requirements they contain are only created once in a unit.
+- Scope objects can be applied from catalogs.
+- When creating a catalog from a unit, objects are updated instead of newly created.
+- Obsolete catalog endpoints removed (refactoring).
+- Remove obsolete catalogs overview page (refactoring).
 
-#### Bausteinmodellierung aus Profil
+#### Module modeling from profile
 
-- Speicherung der Risikowerte in Profilen zur späteren Anwendung.
-- Frontend auf neue Domain-spezifische Profil-Endpunkte umgestellt.
-- IT-Grundschutz-Profil Basisabsicherung Kommunalverwaltung Version 3 als Profil verfügbar.
+- Storage of risk values in profiles for later use.
+- Front end converted to new domain-specific profile endpoints.
+- IT-Grundschutz profile Basic protection local administration version 3 available as a profile.
 
-#### Schutzbedarfsvererbung
+#### Inheritance of protection requirements
 
-- Designentwurf für die automatische Schutzbedarfsvererbung.
-- Das Objektmodell wurde um die Datenbankfelder und Verknüpfungen zur Vererbung und Berechnung des Schutzbedarfs erweitert.
-- In Prozess- und Zielobjekten können erforderliche Objekte verknüpft werden, auf die der Schutzbedarf automatisch vererbt werden kann (in Erstellung).
+- Design draft for automatic protection requirement inheritance.
+- The object model has been expanded to include the database fields and links for inheritance and calculation of protection requirements.
+- In process and target objects, required objects can be linked to which the protection requirement can be automatically inherited (in preparation).
 
-#### Risiken im IT-Grundschutz
+#### Risks in IT baseline protection
 
-- Risiken können zu allen Asset-, Prozess- und Scopeobjekte hinzugefügt werden.
-- Verbessertes Layout im Risikodialog.
-- Behebung kleinerer Inkonsistenzen im Risikodialog (Riskowner, Subtyp für mitigierende Maßnahmen).
+- Risks can be added to all asset, process and scope objects.
+- Improved layout in the risk dialog.
+- Correction of minor inconsistencies in the risk dialog (risk owner, subtype for mitigating measures).
 
-#### Referenzdokumente
+#### Reference documents
 
-- A.1 Strukturanalyse
-- A.2 Schutzbedarfsfeststellung
-- A.3 Modellierung des Informationsverbund
+- A.1 Structural analysis
+- A.2 Determination of protection requirements
+- A.3 Modeling of the information network

@@ -1,75 +1,80 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Aufbau der Domäne DS-GVO
+# Structure of the DS-GVO domain
 
-## Objekt- und Subtypen
+## Object and subtypes
 
-### Scopeobjekte
+### Scope objects
 
-- **Verantwortliche, Art. 4 Nr. 7 DS-GVO:** Zur Dokumentation der Verantwortlichen Stelle.
-- **Auftragsverarbeiter:** Zur Dokumentation der Auftragsverarbeiter nach Art. 4 Nr. 8, 28 DS-GVO.
-- **Auftraggeber:** Zur Dokumentation von Auftraggebern, für die eine Auftragsverarbeitung durchgeführt wird.
-- **Gemeinsame Verantwortliche:** Erfassen Sie gemeinasam Veranwortliche.
-- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
+- **Controller, Art. 4 No. 7 GDPR:** For the documentation of the controller.
+- **Processor:** For the documentation of processors according to Art. 4 No. 8, 28 GDPR.
+- **Client:** For the documentation of clients for whom commissioned processing is carried out.
+- **Joint controllers:** Record joint controllers.
 
-### Prozessobjekte
+- **Scopes (general):** For mapping other objects of consideration, such as projects.
 
-- **Verarbeitungstätigkeiten:** Dokumentation der Verarbeitungstätigkeiten zum Aufbau des Verzeichnisses der Verarbeitungstätigkeiten..
-- **Datenübertragungen:** Erfassung der konkreten Datenübertragungen.
-- **Datenschutz-Folgeabschätzungen:** Durchgeführte Datenschutz-Folgenabschätzungen.
+### Process objects
 
-### Assetobjekte
+- **Processing activities:** Documentation of the processing activities to build up the record of processing activities.
 
-- **Datenarten:** In Verarbeitungstätigkeiten, Datenübertragungen oder Anwendungen verarbeitete Informationen.
-- **Anwendungen:** Anwendungen, in den (personenbezogene) Daten verabeitet werden.
-- **IT-Systeme:** Systeme, auf oder mit denen (personenbezogene) Daten verabeitet werden..
+- **Data transfers:** Recording of specific data transfers.
+- **Data protection impact assessments:** Data protection impact assessments carried out.
 
-### Personenobjekte
+### Asset objects
 
-- **Datenschutzbeauftragte:** Zur Dokumentation der Bestellung von mit dem Datenschutz betrauten Personen.
-- **Personen:** Personen(gruppen) oder Rollen.
+- **Data types:** Information processed in processing activities, data transfers or applications.
+- **Applications:** Applications in which (personal) data is processed.
+- **IT systems:** Systems on or with which (personal) data is processed.
 
-### Incidentobjekte
+### Personal objects
 
-- **Datenschutzvorfälle:** Zur Dokumentation von Incidents/Vorfällen.
+- **Data protection officers:** To document the appointment of persons responsible for data protection.
 
-### Dokumentenobjekte
+- **Persons:** Persons (groups) or roles.
 
-- **Verträge:** Zur Speicherung von Veträgen.
-- **Dokumente (allgemein):** Zur allgemeinen Dokumentation.
-- **Betroffenenanfragen:** Zur Dokumentation von Anfragen Betroffener.
+### Incident objects
 
-### Controlobjekte
+- **Data protection incidents:** For the documentation of incidents/occurrences.
 
-- **TOMs:** Generische Technisch-Organisatorische Maßnahmen.
+### Document objects
 
-### Szenarien
+- **Contracts:** For storing contracts.
+- **Documents (general):** For general documentation.
 
-- **Gefährdungen:** Datenschutzgefährdungen zur Verwendung in der Risikoanalyse.
+- **Requests from affected persons:** For the documentation of requests from affected persons.
 
-## Katalog
+### Control objects
 
-Der Katalog der Domäne DS-GVO stellt grundlegende Technisch-Organisatorische Maßnahmen und Datenschutzgefährdungen zur Verfügung.
+- **TOMs:** Generic technical-organizational measures.
 
-## Profile
+### Scenarios
 
-Das Profil **Beispieldaten** erstellt eine Beispielorganisation mit allen wichtigen Elemente für die Abbildung der DS-GVO in verinice. In Ihrer aktiven Unit werden Verarbeitungstätigkeiten, Auftragsverarbeiter, Auftraggeber, Datenschutz-Folgenabschätzungen, Datenschutzvorfälle, Betroffenenanfragen, TOMs sowie weitere Beispielobjekte angelegt, um verinice mit alle Datenschutzrelevanten Funktionen kennenzulernen.
+- **Hazards:** Data protection hazards for use in the risk analysis.
+
+## Catalog
+
+The catalog of the GDPR domain provides basic technical-organizational measures and data protection threats.
+
+## Profiles
+
+The **Sample data** profile creates a sample organization with all the important elements for mapping the GDPR in verinice. In your active unit, processing activities, processors, clients, data protection impact assessments, data protection incidents, data subject requests, TOMs and other sample objects are created in order to get to know verinice with all data protection-relevant functions.
 
 ## Decisions
 
-Im Objekt Verarbeitungstätigkeit wird die [Erfordernis einer Datenschutz-Folgenabschätzung](./data-processing#datenschutz-folgenabschätzung-dsfa-erforderlich) durch eine Decision unterstützt.
+In the processing activity object, the [requirement for a data protection impact assessment](./data-processing#data-protection-impact-assessment-dsfa-required) is supported by a decision.
 
 ## Reports
 
-Die Domäne DS-GVO stellt die folgenden Reports bereit:
+The GDPR domain provides the following reports:
 
-- **Verzeichnis der Verarbeitungstätigkeiten:** Eine detaillierte Übersicht über die in einem Scope durchgeführten Verarbeitungstätigkeiten.
-- **Datenschutz-Risikoanalyse:** Über die bestehenden Risiken für die Verarbeitungstätigkeiten in einer verantwortlichen Stelle.
-- **Datenschutz-Folgenabschätzung:** Eine Auflistung der Informationen zu durchgeführten Datenschutz-Folgenabschätzungen.
-- **Auftragsverarbeitungen gemäß Art. 30 II DS-GVO:** Dokumentation über die Auftraggeber und für sie durchgeführte Verarbeitungstätigkeiten (Auftragsverarbeitung).
-- **Betroffenenanfrage:** Eine detaillierte Darstellung einer dokumentierten Betroffenenanfrage.
-- **Übersicht Betroffenenanfragen:** Eine Übersicht über die dokumentierten Betroffenenanfragen einer Verantwortlichen.
-- **Meldeformular Datenschutzvorfall:** Eine detaillierte Übersicht über die dokumentierten Datenschutzvorfälle einer Verantwortlichen.
+- **Directory of processing activities:** A detailed overview of the processing activities carried out in a scope.
+- **Data protection risk analysis:** About the existing risks for the processing activities in a controller.
+- **Data protection impact assessment:** A list of information on data protection impact assessments carried out.
+- **Contract processing pursuant to Art. 30 II GDPR:** Documentation on the clients and processing activities carried out for them (contract processing).
+- **Data subject request:** A detailed presentation of a documented data subject request.
+- **Overview of data subject requests:** An overview of the documented data subject requests of a controller.
 
-## Risikodefinition
+- **Data protection incident notification form:** A detailed overview of the documented data protection incidents of a controller.
 
-Die Standard-Risikodefinition **Datenschutz-Risikoanalyse** (DSRA) enthält die Schutzziele Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit.
+## Risk definition
+
+The standard risk definition **Data Protection Risk Analysis** (DSRA) contains the protection goals of confidentiality, integrity, availability and resilience.

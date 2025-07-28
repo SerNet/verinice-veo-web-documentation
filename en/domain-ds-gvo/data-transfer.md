@@ -1,36 +1,35 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Datenübertragung
+# Data transmission
 
-Sobald eine Datenübertragung stattfindet, kann diese mittels *Formular Datenübertragung* abgebildet werden. Datenübertragungen stellen in verinice einen Subtyp des Zielobjektes *Prozess* dar und können über zwei Wege erfasst werden:
+As soon as a data transfer takes place, it can be mapped using the *Data transfer* form. In verinice, data transmissions represent a subtype of the target object *Process* and can be entered in two ways:
 
-## Neue Datenübertragung anlegen
+## Create new data transfer
 
-Sie erstellen entweder über das Dashboard mit Klick auf das *Formular Datenübertragung* eine neue Datenübertragung oder Sie navigieren über das Hauptmenü über *Objekte > Prozesse > Datenübertragungen* in die Objektübersicht und erstellen über den roten *Plus-Button* ein neues Objekt.
+You can either create a new data transmission via the dashboard by clicking on the *Data transmission* form or you can navigate to the object overview via the main menu via *Objects > Processes > Data transmissions* and create a new object using the red *Plus button*.
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild13.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild13.png)
+![Data transfer](  /assets/en/domain-ds-gvo/Bild13a.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild13a.png)
+In the dialog that opens, you can enter and save all information, but at least the name and status of the data transfer form.
+The new object is now listed in the object view and can be opened for further processing.
 
-In dem sich öffnenden Dialog können Sie sämtliche Informationen, mindestens aber Name und Status zum Formular Datenübertragung eingeben und abspeichern.
-Das neues Objekt wird nun in der Objektansicht aufgelistet und kann zur weiteren Bearbeitung geöffnet werden.
+## Form contents data transmission
 
-## Formularinhalte Datenübertragung
+verinice distinguishes between three types of recipients in data transmission
 
-In der Datenübertragung unterscheidet verinice zwischen drei Empfängertypen
+- Internal recipients
+- External recipients
+- Order processor
 
-• Interne Empfänger
-• Extern Empfänger
-• Auftragsverarbeiter
+Depending on the selection, the corresponding recipient types can be integrated into the data transfer.
 
-Je nach Auswahl können die korrespondierenden Empfängertypen in die Datenübertragung eingebunden werden.
+You document the processors using the *Processor form* provided for this purpose, so that these objects are available for selection. Alternatively, you can create the order processors directly from the data transfer using the function *Add link > Create order processor*.
+You can find further information on the order processor in the chapter of the same name.
 
-Die Auftragsverarbeiter dokumentieren Sie über das hierfür vorgesehenen *Formular Auftragsverarbeiter*, so dass Ihnen diese Objekte zur Auswahl zur Verfügung stehen. Oder Sie legen die Auftragsverarbeiter direkt aus der Datenübertragung heraus über die Funktion *Link hinzufügen > Auftragsverarbeiter erstellen* an.
-Weitere Informationen zum Auftragsverarbeiter finden Sie im gleichnamigen Kapitel.
+![Data transfer](  /assets/en/domain-ds-gvo/Bild14.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild14.png)
+![Data transmission](  /assets/en/domain-ds-gvo/Bild14a.png)
 
-![Datenübertragung](/assets/domain-ds-gvo/Bild14a.png)
+Internal and external recipients can be created and linked in the same way as processors. The (general) *Scope* form is provided for both recipient types.
 
-Interne und externe Empfänger können auf die gleiche Weise wie die Auftragsverarbeiter angelegt und verknüpft werden. Für die beiden Empfängertypen ist das (allgemeine) *Formular Scope* vorgesehen.
-
-Zu jedem Empfänger können nun bei Bedarf Angaben zum Drittlandstransfer erfolgen, die vom Empfänger verarbeiteten Datenarten dokumentiert und ggf. über eine Rechtsgrundlage legitimiert werden.
+For each recipient, information on the third country transfer can now be provided if required, the types of data processed by the recipient can be documented and, if necessary, legitimized via a legal basis.

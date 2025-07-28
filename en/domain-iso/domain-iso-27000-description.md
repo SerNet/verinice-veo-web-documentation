@@ -1,61 +1,62 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Aufbau der Domäne ISO 27000
+# Structure of the ISO 27000 domain
 
-## Objekt- und Subtypen
+## Object and subtypes
 
-### Scopeobjekte
+### Scope objects
 
-- **Organisationen:** Zur Abbildung der Organisation mit den wichtigsten Stammdaten.
-- **ISMS-Geltungsbereiche:** ISMS-Geltungsbereiche für die Festlegung, welche Bereiche eines Unternehmens von der Implementierung und Anwendung des ISMS betroffen sind.
-- **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Organisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
-- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte oder Interessengruppen.
+- **Organizations:** To map the organization with the most important master data.
+- **ISMS scopes:** ISMS scopes for defining which areas of a company are affected by the implementation and application of the ISMS.
+- **External service providers:** Are considered separately as external institutions or organizations in order to map the special outsourcing requirements.
+- **Scopes (general):** To map other objects of consideration, such as projects or interest groups.
 
-### Prozessobjekte
+### Process objects
 
-- **Geschäftsprozesse:** Zur Dokumentation der Kernprozesse und weiterer unterstützender Prozesse.
+- **Business processes:** To document the core processes and other supporting processes.
 
-### Assetobjekte
+### Asset objects
 
-- **Assets:** Informationswerte, die im ISMS berücksichtigt werden.
+- **Assets:** Information assets that are taken into account in the ISMS.
 
-### Personenobjekte
+### Person objects
 
-- **Personen:** Personen(gruppen) oder Rollen.
+- **Persons:** Persons (groups) or roles.
 
-### Incidentobjekte
+### Incident objects
 
-- **Informationssicherheitsvorfälle:** Zur Dokumentation von Incidents/Vorfällen.
+- **Information security incidents:** For the documentation of incidents/occurrences.
 
-### Dokumentenobjekte
+### Document objects
 
-- **Dokumente:** Für die Erfassung und Verlinkung von Dokumenten.
-- **Aufzeichnungen:** Speicherung der Dokumente, die als Nachweise dienen sollen.
+- **Documents:** For recording and linking documents.
+- **Records:** Storage of documents to be used as evidence.
 
-### Controlobjekte
+### Control objects
 
-- **Anforderungen:** Anforderungen der DIN ISO/IEC 27001:2024 aus dem Managementrahmen.
-- **Sicherheitsmaßnahmen:** Sicherheitsmaßnahmen aus dem Anhang A der DIN ISO/IEC 27001:2024.
-- **Control-Gruppen:** Alle mitigierenden Maßnahmen zu einem Risiko-Objekt.
+- **Requirements:** Requirements of DIN ISO/IEC 27001:2024 from the management framework.
+- **Security measures:** Security measures from Annex A of DIN ISO/IEC 27001:2024.
+- **Control groups:** All mitigating measures for a risk object.
 
-### Szenarien
+### Scenarios
 
-- **Szenarien:** Szenarien zur Verwendung in der Risikoanalyse.
+- **Scenarios:** Scenarios for use in the risk analysis.
 
-## Katalog
+## Catalog
 
-Der Katalog stellt neben Szenarien, welche auf Bedrohungen und Schwachstellen der ISO/IEC 27005:2022 basieren, auch Anforderungen der DIN ISO/IEC 27001:2024 aus dem Managementrahmen sowie Sicherheitsmaßnahmen aus dem Anhang A zur Verfügung. Zusätzlich sind beispielhafte Objekte für Dokumente und Aufzeichnungen enthalten.
+In addition to scenarios based on threats and vulnerabilities of ISO/IEC 27005:2022, the catalog also provides requirements of DIN ISO/IEC 27001:2024 from the management framework and security measures from Appendix A. Sample objects for documents and records are also included.
 
-## Profile
+## Profiles
 
-Das Profil **Risikoprofil nach DIN ISO/IEC 27001** stellt eine Organisation mit Beispielobjekten zur Abbildung eines ISMS nach DIN ISO/IEC 27001 inklusive vorbereiteter Risikoanalyse zur Verfügung. Auf Bedrohungen und Schwachstellen der ISO/IEC 27005:2022 beruhende Szenarien sind mit relevanten Beispielassets verknüpft und die Managementanforderungen sowie die Anhang A-Anforderungen der DIN ISO/IEC 27001:2024 zur Risikobehandlung berücksichtigt.
+The profile **Risk profile according to DIN ISO/IEC 27001** provides an organization with sample objects for mapping an ISMS according to DIN ISO/IEC 27001 including a prepared risk analysis. Scenarios based on threats and vulnerabilities of ISO/IEC 27005:2022 are linked to relevant example assets and the management requirements as well as the Annex A requirements of DIN ISO/IEC 27001:2024 for risk treatment are taken into account.
 
 ## Reports
 
-Die Domäne ISO 27000 stellt die folgenden Reports bereit:
+The ISO 27000 domain provides the following reports
 
-- **Erklärung zur Anwendbarkeit:** Listet alle Sicherheitsmaßnahmen aus Anhang A der DIN ISO/IEC 27001 auf und beschreibt, ob diese angewendet, ausgeschlossen oder teilweise umgesetzt werden sowie eine Erklärung zur Anwendbar- bzw. Nichtanwendbarkeit.
-- **Inventarverzeichnis:** Eine Übersicht aller relevanten Vermögenswerte (Assets).
+- **Statement of applicability:** Lists all security measures from Annex A of DIN ISO/IEC 27001 and describes whether they are applied, excluded or partially implemented as well as a statement of applicability or non-applicability.
 
-## Risikodefinition
+- **Inventory:** An overview of all relevant assets.
 
-Die Standard-Risikodefinition **ISO-Risikoanalyse** (ISORA) enthält die Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit.
+## Risk definition
+
+The standard risk definition **ISO risk analysis** (ISORA) contains the protection objectives of confidentiality, integrity and availability.

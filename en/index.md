@@ -21,7 +21,7 @@ features:
   - title: The DS-GVO domain
     details: Implementing data protection according to DS-GVO in verinice...
     link:  /en/domain-ds-gvo/
-  - title: The IT-Grundschutz domain
+  - title:  The IT-Grundschutz domain
     details: Implementing IT-Grundschutz in verinice...
     link:  /en/domain-it-gs/
   - title: The domain ISO

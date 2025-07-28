@@ -1,84 +1,57 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 33
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 33 zur Verfügung:
+The following new features are available to users with the release of verinice 33:
+## General functions
+**Status: Productive**
+### Mapping of links
 
-## Allgemeine Funktionen
+In the object view, incoming and outgoing links are displayed in one view with specification of the link type:
+![Links]( /assets/en/release-notes/verinice-33_Links.de.png)
 
-**Status: Produktiv**
+### Detail improvements
+- The warning to recalculate the risk values in the risk dialog is now only displayed after changes.
+- License terms for documentation completed and updated.
+- Domain-specific content can be defined via config file when creating domains.
 
-### Abbildung der Verknüpfungen
+### Bug fixes
+- Corrected display of subtypes in the breadcrumbs if the generic subtype **All** is selected in the object overview.
+- Incorrect icon for domain selection with collapsed menu corrected.
+- Enter in the **Create Unit** wizard takes you to the next page.
+- Selecting a link in the form now correctly opens the target in a new browser tab.
+![Open custom link]( /assets/en/release-notes/verinice-33_Custom_Link.png)
+- Fixed display error in breadcrumb.
+- Provision of risk values and translations in the form schema editor improved.
 
-In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe des Verknüpfungstyps in einer Ansicht dargestellt:
+### Product maintenance
+- Update of the Vue Framework to Nuxt 3.15.1.
+- Upgrade of the Nuxt i18n module to version 9 and migration of translations.
+- Expansion of test coverage through further automated tests.
+## Domain data protection
+**Status: Productive**
+- The handling of threats in the GDPR has been improved:
+- Hazards are now only applied once in the unit.
+- Some duplicate hazards have been deleted in the GDPR sample organization.
+- The description of measures for the TOM subtype is displayed in a Markdown field. The previous description remains untouched for consistency reasons.
+- Real domains/URLs removed from sample data.
 
-![Verknüpfungen](/assets/release-notes/verinice-33_Links.de.png)
+## Domain IT-Grundschutz
+**Status: Productive**
+- The safeguarding procedure is now also displayed when implementing risk-mitigating measures:
+![Safeguarding procedure]( /assets/en/release-notes/verinice-33_Vorgehensweise_der_Absicherung.de.png)
+- Consistent designation of the implementation status **Dispensable** (instead of not applicable).
 
-### Detailverbesserungen
-
-- Der Warnhinweis zur Neuberechnung der Risikowerte im Risikodialog wird nur noch nach Änderungen angezeigt.
-- Lizenzbestimmungen für die Dokumentation komplettiert und aktualisiert.
-- Domänenspezifische Inhalte können bei der Erstellung von Domänen per Config-Datei definiert werden.
-
-### Fehlerbehebungen
-
-- Darstellung des Subtypen in den Breadcrumbs korrigiert, wenn in der Objektübersicht der generische Subtyp **Alle** ausgewählt ist.
-- Falsches Icon für die Domänenauswahl bei eingeklapptem Menü korrigiert.
-- Enter/Eingabe im **Unit erstellen** Assistenten führt auf die nächste Seite.
-- Auswahl eines Links im Formular öffnet jetzt korrekt das Ziel in einem neuen Browser-Tab.
-
-![Custom Link öffnen](/assets/release-notes/verinice-33_Custom_Link.png)
-
-- Darstellungsfehler in Breadcrumb behoben.
-- Bereitstellung der Risikowerte und Übersetzungen im Formschema-Editor verbessert.
-
-### Produktpflege
-
-- Update des Vue Frameworks auf Nuxt 3.15.1.
-- Upgrade des Nuxt i18n Moduls auf Version 9 und Migration der Übersetzungen.
-- Ausweitung der Testabdeckung durch weitere automatisierte Tests.
-
-## Domäne Datenschutz
-
-**Status: Produktiv**
-
-- Der Umgang mit Gefährdungen in der DS-GVO wurde verbessert:
-    - Gefährdungen werden nur noch einmal in der Unit angewendet.
-    - In der DS-GVO Beispielorganisation wurden einige doppelte Gefährdungen gelöscht.
-- Die Maßnahmenbeschreibung für den Subtyp TOM wird in einem Markdown-Feld dargestellt. Die bisherige Beschreibung bleibt aus Konsistenzgründen unberührt.
-- Reale Domains/URLs aus Beispieldaten entfernt.
-
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-- Die Vorgehensweise der Absicherung wird jetzt auch bei der Umsetzung risikomitigierender Maßnahmen angezeigt:
-
-![Vorgehensweise der Absicherung](/assets/release-notes/verinice-33_Vorgehensweise_der_Absicherung.de.png)
-
-- Konsistente Benennung des Umsetzungsstatus **Entbehrlich** (statt nicht anwendbar).
-
-## Domäne NIS2
-
-**Status: Produktiv**
-
-- Control- und Maßnahmenbeschreibung werden für die Subtypen Mindestmaßnahmen und Organisationsspezifische Maßnahmen in einem Markdown-Feld dargestellt.
-
-## Domäne ISO
-
-**Status: Prototyp**
-
-- Abbildung von Szenarien, Bedrohungen und Schwachstellen.
-- Erstellung des Risikokataloges (Konvertierung aus verinice und Anpassung an verinice.veo).
-
-## Domäne TISAX
-
+## Domain NIS2
+**Status: Productive**
+- Control and measure description are displayed in a Markdown field for the subtypes Minimum measures and Organization-specific measures.
+## Domain ISO
+**Status: Prototype**
+- Mapping of scenarios, threats and vulnerabilities.
+- Creation of the risk catalog (conversion from verinice and adaptation to verinice.veo).
+## Domain TISAX
 **Status: Private Beta**
-
-- Umstrukturierung der VDA ISA Controls und Subtypen.
-
-## Domäne BCM
-
-**Status: Prototyp**
-
-- Beschreibung der Quellunits für Domäne, Katalog und Profil erstellt.
-- BCM-Anforderungskatalog importiert.
+- Restructuring of the VDA ISA controls and subtypes.
+## Domain BCM
+**Status: Prototype**
+- Description of source units for domain, catalog and profile created.
+- BCM requirements catalog imported.

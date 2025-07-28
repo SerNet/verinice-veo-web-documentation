@@ -1,37 +1,32 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 37
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 37 zur Verfügung:
+The following new features are available to users with the release of verinice 37:
 
-## Allgemeine Funktionen
+## General functions
 
-**Status: Produktiv**
+**Status: Productive**
 
-### Detailverbesserungen
+### Detailed improvements
 
-- Ein Bestätigungsdialog informiert über angewendete Katalogelemente, es kann direkt zu den jeweiligen Katalogelementen navigiert werden:
+- A confirmation dialog informs about applied catalog elements, you can navigate directly to the respective catalog elements:
+![Applied catalog elements]( /assets/en/release-notes/verinice-37-catalog.de.png)
 
-![Angewendete Katalogelemente](/assets/release-notes/verinice-37-catalog.de.png)
+### Bug fixes
 
-### Fehlerbehebungen
+- A problem when changing values in number fields by scrolling with the mouse wheel under Windows has been fixed.
+- Scope objects can now be saved even if you have a link to one of their parts.
+- Layout errors in the unit management have been fixed.
+- When updating a catalog, obsolete objects are deleted correctly.
+- Catalogs are updated correctly if catalog elements are referenced in profiles.
 
-- Ein Problem beim Ändern von Werten in Zahlenfeldern durch Scrollen mit dem Mausrad unter Windows wurde behoben.
-- Scope-Objekte lassen sich jetzt auch dann speichern, wenn Sie eine Verknüpfung zu einem ihrer Teile besitzen.
-- Layout-Fehler in der Unit-Verwaltung wurden behoben.
-- Beim Aktualisieren eines Katalogs werden obsolete Objekte korrekt gelöscht.
-- Kataloge werden korrekt aktualisiert, wenn Katalogelemente in Profilen referenziert sind.
+### Product maintenance
+- Update of Nuxt/content to version 3
 
-### Produktpflege
+### REST API
+- The endpoints for creating and executing searches **/elementType/searches** have been marked as deprecated and will be removed in a subsequent release.
 
-- Update von Nuxt/content auf Version 3
-
-### REST-API
-
-- Die Endpunkte zum Erstellen und Ausführen von Suchen **/elementType/searches** wurden als veraltet (deprecated) markiert und werden in einem folgenden Release entfernt.
-
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-- Das Formular für **Informationssicherheitsvorfälle** wurde analog zur Domäne ISO erweitert, um alle erforderlichen Informationen dokumentieren zu können.
-- Im Report **A.3 Modellierung** werden jetzt auch die nicht verwendeten Bausteine ausgegeben.
+## Domain IT-Grundschutz
+**Status: Productive**
+- The form for **Information security incidents** has been extended analogously to the ISO domain in order to be able to document all required information.
+- In the **A.3 Modeling** report, the unused modules are now also output.

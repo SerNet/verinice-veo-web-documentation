@@ -1,6 +1,5 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Profile
+# Profiles
 
-Profile bauen auf Katalogen auf, Sie enthalten neben Beispielobjekten oft bereits angewendete Katalogelemente.
-
-Die Anwendung eines Profils auf eine Unit legt entsprechend eine Vielzahl an Objekten inklusive Katalogelementen an. So können ganze Beispielorganisationen, IT-Grundschutz-Profile oder ähnliches zur weiteren Bearbeitung geladen werden.
+Profiles are based on catalogs; in addition to sample objects, they often contain catalog elements that have already been applied.
+The application of a profile to a unit accordingly creates a large number of objects including catalog elements. This means that entire sample organizations, IT-Grundschutz profiles or similar can be loaded for further processing.

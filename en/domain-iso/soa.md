@@ -1,77 +1,77 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Erklärung zur Anwendbarkeit (SoA)
+# Statement of Applicability (SoA)
 
-## Ziel der Funktion
+## Purpose of the Function
 
-Die Erklärung zur Anwendbarkeit (Statement of Applicability – SoA) dient als zentrales Element des ISMS nach ISO/IEC 27001. In dieser Funktion von verinice dokumentieren Sie:
+The Statement of Applicability (SoA) serves as a central component of the ISMS according to ISO/IEC 27001. In this verinice function, you document:
 
-1. welche **Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001** auf den definierten ISMS-Anwendungsbereich zutreffen,
-1. aus welchem Grund sie anwendbar sind oder ausgeschlossen sind und
-1. wie der aktuelle Umsetzungsstatus dieser Maßnahmen ist.
+1. which **security controls from Annex A of ISO/IEC 27001** apply to the defined ISMS scope,
+1. the reason why they are applicable or excluded, and
+1. the current implementation status of these controls.
 
-## Grundlagen: Scope-Objekte
+## Basics: Scope Objects
 
-In verinice steht für diesen Zweck der Scope-Subtyp **ISMS-Geltungsbereiche** zur Verfügung:
+In verinice, the scope subtype **ISMS Scopes** is available for this purpose:
 
-![Subtyp ISMS-Geltungsbereiche](/assets/domain-iso/verinice-39-subtype-scope.de.png)
+![Subtype ISMS Scopes]( /assets/en/domain-iso/verinice-39-subtype-scope.de.png)
 
-Es können beliebig viele Geltungsbereiche angelegt werden, wie z.B.:
+Any number of scopes can be created, such as:
 
-- **ISMS-Anwendungsbereich**: Beschreibt den organisatorischen und systemtechnischen Geltungsbereich des ISMS. Dieses Objekt kann die Grundlage für die Bewertung und die Anwendbarkeit von Sicherheitsmaßnahmen bilden.
-- **Zertifizierungsgegenstand**: Beschreibt den konkreten Teil des Unternehmens, der zertifiziert werden soll.
+- **ISMS Scope**: Describes the organizational and technical scope of the ISMS. This object can form the basis for evaluating and determining the applicability of security controls.
+- **Certification Scope**: Describes the specific part of the organization that is to be certified.
 
-![ISMS-Geltungsbereiche und Zertifizierungsgegenstand](/assets/domain-iso/verinice-39-two-scopes.de.png)
+![ISMS Scope and Certification Scope]( /assets/en/domain-iso/verinice-39-two-scopes.de.png)
 
-## Sicherheitsmaßnahmen prüfen und Anwendbarkeit dokumentieren
+## Reviewing Controls and Documenting Applicability
 
-### Auswahl des ISMS-Anwendungsbereichs
+### Selecting the ISMS Scope
 
-Navigieren Sie im Menü unter **Objekte** zu **Scopes** und dann zu **ISMS-Geltungsbereiche**. Im rechten unteren Rand des Bildschirms können Sie über den Plus-Button einen ISMS-Geltungsbereich anlegen und es im Formular beschreiben.
+Navigate in the menu under **Objects** to **Scopes** and then to **ISMS Scopes**. At the bottom right of the screen, you can use the plus button to create an ISMS scope and describe it in the form.
 
-Alternativ wählen Sie im Dashboard den Subtyp **ISMS-Geltungsbereiche** und erstellen in der Objektübersicht ein entsprechendes Objekt.
+Alternatively, select the subtype **ISMS Scopes** in the dashboard and create the appropriate object in the object overview.
 
-### Zugriff auf die SoA-Funktion
+### Accessing the SoA Function
 
-Öffnen Sie den angelegten **ISMS-Geltungsbereich** und wählen Sie den Tab-Reiter **Sicherheitsmaßnahmen**. Über die Plus-Schaltfläche **Sicherheitsmaßnahmen auswählen** können Sie die anwendbaren Sicherheitsmaßnahmen für die Erklärung zur Anwendbarkeit auswählen und speichern. Wenn der **Katalog ISO/IEC 27001** bereits auf Ihre Unit angewendet wurde, wird die Liste der Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001 automatisch geladen.
+Open the created **ISMS Scope** and go to the **Controls** tab. Using the plus button **Select Controls**, you can choose the applicable security controls for the Statement of Applicability and save them. If the **ISO/IEC 27001 catalog** has already been applied to your Unit, the list of controls from Annex A of ISO/IEC 27001 will be loaded automatically.
 
-In der Liste müssen alle Sicherheitsmaßnahmen ausgewählt werden, die im Sinne einer Erklärung zur Anwendbarkeit angewendet werden müssen. Das können sowohl Sicherheitsmaßnahmen aus dem Anhang A als auch organisationsspezifische sein.
+In the list, all security controls that must be applied in the sense of a Statement of Applicability must be selected. These may include both controls from Annex A and organization-specific controls.
 
-### Anwendbarkeit, Umsetzungsstatus und Begründung dokumentieren
+### Documenting Applicability, Implementation Status, and Justification
 
-Wenn die Sicherheitsmaßnahmen ausgewählt wurden, sind sie Bestandteil der Erklärung zur Anwendbarkeit und werden für den Report als **anwendbar** markiert.
+Once the controls are selected, they become part of the Statement of Applicability and are marked as **applicable** for the report.
 
-Um die Auswahl für eine Sicherheitsmaßnahme zu begründen, klicken Sie im Tab-Reiter **Sicherheitsmaßnahmen** auf die entsprechende Maßnahme
+To justify the selection of a control, click on the respective control in the **Controls** tab:
 
-![Auswahl von Sicherheitsmaßnahmen](/assets/domain-iso/verinice-39-select-control.de.png)
+![Select Controls]( /assets/en/domain-iso/verinice-39-select-control.de.png)
 
-und geben im Beschreibungsfeld Ihren Auswahlgrund ein:
+and enter your reasoning in the description field:
 
-![Auswahlgrund](/assets/domain-iso/verinice-39-select-reason.de.png)
+![Reason for Selection]( /assets/en/domain-iso/verinice-39-select-reason.de.png)
 
-Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie den Umsetzungs-Dialog durch Mausklick auf das Icon **Umsetzung anzeigen**:
+To document the implementation status of a control, open the implementation dialog by clicking the **Show Implementation** icon:
 
-![Umsetzung anzeigen](/assets/domain-iso/verinice-39-show-implementation.de.png)
+![Show Implementation]( /assets/en/domain-iso/verinice-39-show-implementation.de.png)
 
-Öffnen Sie die entsprechende Maßnahme und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
+Open the corresponding control and document the current implementation status in the lower section:
 
-![Umsetzung anzeigen](/assets/domain-iso/verinice-39-implementation-status.de.png)
+![Show Implementation]( /assets/en/domain-iso/verinice-39-implementation-status.de.png)
 
-Sicherheitsmaßnahmen mit den Umsetzungsstatus **Ja**, **Nein**, **Teilweise** oder **Unbearbeitet** werden als **anwendbar** im Report **Erklärung zur Anwendbarkeit** markiert.
+Controls with the implementation status **Yes**, **No**, **Partially**, or **Not started** will be marked as **applicable** in the **Statement of Applicability** report.
 
-Wenn eine Sicherheitsmaßnahme Bestandteil der Erklärung der Anwendbarkeit sein soll aber explizit **ausgeschlossen** werden soll, wählen Sie die Sicherheitsmaßnahme im Tab-Reiter **Sicherheitsmaßnahmen** aus:
+If a control should be part of the SoA but explicitly **excluded**, select the control in the **Controls** tab:
 
-![Auswahl von Sicherheitsmaßnahmen](/assets/domain-iso/verinice-39-document-exclusion.de.png)
+![Document Exclusion]( /assets/en/domain-iso/verinice-39-document-exclusion.de.png)
 
-und geben im Beschreibungsfeld die Begründung für den Ausschluss ein:
+and enter the justification for the exclusion in the description field:
 
-![Begründung für den Ausschluss](/assets/domain-iso/verinice-39-description-exclusion.de.png)
+![Exclusion Justification]( /assets/en/domain-iso/verinice-39-description-exclusion.de.png)
 
-Damit die Sicherheitsmaßnahmen als nicht anwendbar im Report ausgegeben werden kann, muss der Umsetzungsstatus in den Umsetzungsdetails auf **Entbehrlich** gesetzt werden.
+For a control to be listed as not applicable in the report, its implementation status must be set to **Not required** in the implementation details.
 
-## SoA-Report
+## SoA Report
 
-Ein vollständig ausgefüllter Report für die Erklärung zur Anwendbarkeit kann zur weiteren Verwendung im PDF-Format exportiert werden. Klicken Sie dazu im linken Menü auf **Reports** und wählen Sie die **Erklärung zur Anwendbarkeit** aus:
+A fully completed Statement of Applicability report can be exported as a PDF for further use. To do this, click **Reports** in the left menu and select **Statement of Applicability**:
 
-![Report Erklärung zur Anwendbarkeit](/assets/domain-iso/verinice-39-report-soa.de.png)
+![SoA Report]( /assets/en/domain-iso/verinice-39-report-soa.de.png)
 
-Wählen Sie einen ISMS-Geltungsbereich mit den zugeordneten Sicherheitsmaßnahmen der ISO/IEC 27001, Anhang A aus und klicken Sie auf **Report generieren**.
+Select an ISMS scope with the assigned ISO/IEC 27001 Annex A controls and click **Generate Report** to create the Statement of Applicability.

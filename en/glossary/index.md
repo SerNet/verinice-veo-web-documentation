@@ -15,6 +15,7 @@ A subdivision of a client into multiple subunits. This is used to separate subsi
 ## Account
 
 An **Account** is a personal, non-transferable login for using verinice. There are at least three different types of accounts:
+
 - In the verinice.Shop, a **Purchaser** can buy and manage subscriptions, units, or named user licenses. When purchasing a client, a main user is always included, and the purchaser designates this user.
 - The **Main User** is always assigned to exactly one client. In the verinice application, they can create and manage users and user groups.
 - The main user can currently configure whether **Users**:

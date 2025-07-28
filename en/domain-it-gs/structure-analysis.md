@@ -1,40 +1,44 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Strukturanalyse
+# Structural Analysis
 
-Mit der Strukturanalyse bilden Sie die Infrastruktur Ihrer Institution als Grundlage für die Erstellung eines IT-Sicherheitskonzeptes nach der Basis-, Standard- oder Kernabsicherung ab.
+With the structural analysis, you model the infrastructure of your institution as the foundation for creating an IT security concept according to the basic, standard, or core protection approach.
 
 ## Institution
 
-Erfassen Sie Ihre Institution, indem Sie über das Dashboard oder das Menü zum Objekttyp **Scope** mit dem Subtyp **Institutionen** navigieren. Legen Sie eine neue Institution über die rote Plus-Schaltfläche **Institution erstellen** unten rechts an:
+Record your institution by navigating via the dashboard or menu to the object type **Scope** with the subtype **Institutions**. Create a new institution using the red plus button **Create Institution** in the bottom right:
 
-::: info Über die Plus-Schlatfläche legen Sie Objekte kontextsensitiv immer mit dem Objekt- und Subtyp an, der gerade aktiv ist!
+:::info  
+You can always create objects contextually using the plus button with the currently active object and subtype!  
 :::
 
-**Speichern** Sie die Institution wenn Sie alle Daten wie gewünscht erfasst haben, beachten Sie dabei, dass die Felder **Name** und **Status** (in allen Objekten) zwingend erforderlich sind! Ihre Institution wird anschließend in der Objektübersicht aufgelistet.
+Click **Save** once you have entered all the desired data for the institution. Please note that the fields **Name** and **Status** (in all objects) are mandatory! Your institution will then be listed in the object overview.
 
-## Informationsverbund
+## Information Network
 
-Navigieren Sie nun zum Objekttyp **Scope** und dem Subtyp **Informationsverbünde** und erstellen Sie analog zur Institution Ihren ersten **Informationsverbund**:
+Next, navigate to the object type **Scope** and the subtype **Information Networks** and, similar to the institution, create your first **Information Network**:
 
-![Institution erstellen](/assets/domain-it-gs/1-Informationsverbund%20erstellen.png)
+![Create Institution]( /assets/en/domain-it-gs/1-Informationsverbund%20erstellen.png)
 
-Geben Sie im Formular alle Daten (z.B. Abkürzung, Name, Beschreibung/Geltungsbereich, Vorgehensweise der Absicherung) zum Objekt ein und speichern Sie abschließend.
+Enter all the required information in the form (e.g., abbreviation, name, description/scope, protection approach) and save the object.
 
-Je nach Erfordernis können Sie beliebig viele (Teil-)Informationsverbünde anlegen.
+Depending on your needs, you can create as many (sub)information networks as necessary.
 
-## Zielobjekte
+## Target Objects
 
-Für die Erstellung eines IT-Sicherheitskonzeptes ist es notwendig, die vorliegende Infrastruktur zu analysieren und zu dokumentieren. Alle zur Abbildung der Infrastruktur erforderlichen Zielobjekttypen werden unter **Prozesse** und **Assets** dokumentiert. Legen Sie neue Zielobjekte, z.B. Geschäftsprozesse oder IT-Systeme an. Das Ergebnis der Strukturanalyse ist die vollständige Abbildung der Infrastruktur:
+To develop an IT security concept, it's necessary to analyze and document the existing infrastructure. All target object types required for modeling the infrastructure are documented under **Processes** and **Assets**. Create new target objects, such as business processes or IT systems.  
+The result of the structural analysis is the complete mapping of the infrastructure:
 
-![Dashboard - Strukturanalyse](/assets/domain-it-gs/2-Strukturanlayse.png)
+![Dashboard - Structural Analysis]( /assets/en/domain-it-gs/2-Strukturanlayse.png)
 
-## Abhängigkeiten zwischen Zielobjekten
+## Dependencies Between Target Objects
 
-Verknüpfungen (Abhängigkeiten/Relationen) zwischen Objekten sind ein grundlegendes Element, das die Umsetzung verschiedenster Aufgaben in einem ISMS effektiv unterstützt. Prinzipiell können beliebige Objekte miteinander verknüpft werden. Standardmäßig sind verschiedene Verknüpfungsarten vordefiniert, von denen einige für spezifische Funktionen zwingend erforderlich sind.
+Links (dependencies/relations) between objects are a fundamental element that effectively supports the implementation of various tasks within an ISMS. In principle, any objects can be linked with one another. Several predefined link types exist by default, some of which are essential for specific functions.
 
-Um eine Verknüpfung zwischen zwei Zielobjekten zu erstellen, müssen Sie im Formular eines Objektes das erforderliche andere Objekt hinzufügen. Scrollen Sie dazu im Formular weiter nach unten, wo die erforderlichen Objekte aufgelistet werden und suchen Sie das benötigte Objekt aus. 
-Sollte bisher das gewünschte Objekt noch nicht vorhanden sein, so haben Sie die Möglichkeit ein neues Objekt (direkt aus dem Formular heraus) zu erzeugen. Klicken Sie dazu einfach **+ "gewünschtes Objekt" erstellen**.  
+To create a link between two target objects, you need to add the required object within the form of another object.  
+Scroll down in the form to the section where required objects are listed and select the necessary object.  
+If the desired object has not yet been created, you can create a new one directly from within the form by clicking **+ Create "desired object"**.
 
-Im Objektumfeld werden unter **Links** alle ein- und ausgehenden Verknüpfungen aufgelistet. Natürlich gelangen Sie von hier aus durch einen Mausklick zu dem entsprechende Zielobjekt, um dieses weiter zu bearbeiten.
+In the object environment under **Links**, all incoming and outgoing connections are listed.  
+Naturally, you can navigate to the corresponding target object by clicking on it to continue editing.
 
-![Verknüpfungen](/assets/domain-it-gs/3-Verknüpfungen.png)
+![Links]( /assets/en/domain-it-gs/3-Verknüpfungen.png)

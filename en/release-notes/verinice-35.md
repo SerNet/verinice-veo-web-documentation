@@ -1,67 +1,47 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 35
+The following new features are available to users with the release of verinice 35:
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 35 zur Verfügung:
-
-## Allgemeine Funktionen
-
-**Status: Produktiv**
-
-### Kartenansicht
-
-Die Kartenansicht unterstützt jetzt die Navigation, das Layout wurde optimiert.
-
-::: danger Die Kartenansicht steht nur in ausgewählten Umgebungen wie z.B. der Sandbox per Feature-Toggle zur Verfügung!
+## General functions
+**Status: Productive**
+### Map view
+The map view now supports navigation, the layout has been optimized.
+::: danger The map view is only available in selected environments such as the sandbox via feature toggle!
 :::
 
-### Risikostufen anpassbar
+### Risk levels customizable
+The levels of the risk matrix can be customized:
+![Risk levels]( /assets/en/release-notes/verinice-35-risk-matrix.de.gif)
 
-Die Stufen der Risikomatrix können angepasst werden:
+### Detailed improvements
+- Domain-specific content can be customized via configuration.
+- When creating a new object from the object overview **All**, the subtype can now be selected in advance.
+- Corrections and improvements to translations (renaming of the object type **Measures** to **Controls**; consistent use of **Domain** instead of **Domain** in DE).
+- The cookie banner is no longer overlaid by the main navigation.
+- The popup with messages no longer overlays the **Plus** button for further actions.
 
-![Risikostufen](/assets/release-notes/verinice-35-risk-matrix.de.gif)
+### Bug fixes
+- The pagination in the object overview now works correctly when the language is changed.
+### Product maintenance
+- Optimization of the deployment process
+- Improvements to the OpenAPI documentation
+- Workaround for the Keycloak Dark Theme removed
+- Test coverage extended
 
-### Detailverbesserungen
-
-- Domänenspezifische Inhalte können per Konfiguration angepasst werden.
-- Bei Neuanlage eines Objekts aus der Objektübersicht **Alle** kann jetzt vorab der Subtyp ausgewählt werden.
-- Korrekturen und Verbesserungen an Übersetzungen (Umbenennung des Objekttyps **Maßnahmen** in **Controls**; konsistente Nutzung von **Domäne** statt **Domain** in DE).
-- Das Cookie-Banner wird nicht mehr von der Hauptnavigation überlagert.
-- Das Popup mit Meldungen überlagert nicht mehr den **Plus**-Button für weitere Aktionen.
-
-### Fehlerbehebungen
-
-- Die Pagination in der Objektübersicht funktioniert nun korrekt, wenn die Sprache gewechselt wird.
-
-### Produktpflege
-
-- Optimierung des Deployment-Prozesses
-- Verbesserungen der OpenAPI-Dokumentation
-- Workaround für das Keycloak Dark Theme entfernt
-- Testabdeckung ausgeweitet
-
-### REST-API
-
-::: danger Die alten **Nicht-in-Domäne-Endpunkte** zum Schreiben von Elementen werden in einem der kommenden Release entfernt. Es sollten stattdessen die domänenpezifischen Endpunkte verwendet werden!
+### REST API
+::: danger The old **not-in-domain endpoints** for writing elements will be removed in an upcoming release. The domain-specific endpoints should be used instead!
+:::
+::: danger The **“/types ”** endpoint has been marked as obsolete and should no longer be used. The information returned by this endpoint is static and can be found in the OpenAPI documentation if required. The endpoint will be removed in an upcoming release.
 :::
 
-::: danger Der Endpunkt **"/types"** wurde als überholt/veraltet markiert und sollte nicht mehr benutzt werden. Die Informationen, die dieser Endpunkt zurück gibt, sind statisch und können bei Bedarf der OpenAPI-Dokumentation entnommen werden. Der Endpunkt wird in einem der kommenden Releases entfernt.
-:::
+## Domain IT-Grundschutz
+**Status: Productive**
+The risks for the information network are now also output in the **A.5 Risk analysis** report.
+## Domain ISO
+**Status: Prototype**
+- Creation of the risk catalog (conversion from verinice and adaptation to verinice.veo).
+- A risk definition can now be selected in all scope objects.
 
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-Im Report **A.5 Risikoanalyse** werden jetzt auch die Risiken für den Informationsverbund ausgeben.
-
-## Domäne ISO
-
-**Status: Prototyp**
-
-- Erstellung des Risikokataloges (Konvertierung aus verinice und Anpassung an verinice.veo).
-- In allen Scopeobjekten kann nun eine Risikodefinition ausgewählt werden.
-
-## Domäne IT-Grundschutz++
-
-**Status: Prototyp**
-
-Erstellung eines ersten Prototypen der Domäne IT-Grundschutz++ für die [verinice.XP 2025](https://verinicexp.org)
+## Domain IT-Grundschutz++
+**Status: Prototype**
+Creation of a first prototype of the IT-Grundschutz++ domain for the [verinice.XP 2025](https://verinicexp.org)

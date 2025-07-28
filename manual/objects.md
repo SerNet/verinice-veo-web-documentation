@@ -58,8 +58,9 @@ Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spal
 1. Die optional einblendbare Seitenleiste mit der [Ansicht](#ansicht), dem [Inhalt](#inhalt), dem [Verlauf](#verlauf) und den [Meldungen](#meldungen)
 
 ::: info 5. Um die Arbeitsfläche je nach Aufgabenstellung optimal auszunutzen, können Sie die beiden Spalten mittels Button oder Tastatur ausblenden:
- - PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**
- - Mac: linke Spalte **Control+1** / rechte Spalte **Control+2**
+
+ -PC: linke Spalte **Alt+1** / rechte Spalte **Alt+2**
+ -Mac: linke Spalte **Control+1** / rechte Spalte **Control+2**
 :::
 
 ### Objektdetails

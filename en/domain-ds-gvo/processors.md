@@ -1,9 +1,9 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Auftragsverarbeitung
+# Order processing
 
-Wenn Sie Dienstleister einsetzen und die Verarbeitung personenbezogener Daten durch diese eine Auftragsverarbeitung nach Art. 4 Nr. 8, 28 DS-GVO darstellt, dokumentieren Sie diese Auftragsverarbeiter im gleichnamigen *Formular Auftragsverarbeiter*.
-Neben allgemeinen Informationen wie Kontaktinformationen und zuständiger Aufsichtsbehörde, können auch Personen wie Datenschutzbeauftragte oder sonstige Personen als Objekte verknüpft werden sowie Verträge und TOM zu diesem Auftragsverarbeiter in das *Formular Auftragsverarbeiter* eingebunden werden.
+If you use service providers and the processing of personal data by them constitutes commissioned processing in accordance with Art. 4 No. 8, 28 GDPR, document these processors in the *Form processor* of the same name.
+In addition to general information such as contact information and the responsible supervisory authority, persons such as data protection officers or other persons can also be linked as objects and contracts and TOMs for this processor can be included in the *Processor form*.
 
-![Auftragsverarbeiter](/assets/domain-ds-gvo/Bild21.png)
+![Processor](  /assets/en/domain-ds-gvo/Bild21.png)
 
-Angelegte Objekte stehen Ihnen bei *Verarbeitungstätigkeiten > Datenübertragung an* als Empfängertyp Auftragsverarbeiter zur Auswahl zur Verfügung. Einzelheiten hierzu siehe Datenübertragung. Eingesetzte bzw. verknüpfte Auftragsverarbeiter werden im Report Verzeichnis der Verarbeitungstätigkeiten mit ausgegeben.
+Created objects are available for selection under *Processing activities > Data transfer to* as recipient type Processor. For details, see Data transfer. Processors that are used or linked are also displayed in the report Directory of processing activities.

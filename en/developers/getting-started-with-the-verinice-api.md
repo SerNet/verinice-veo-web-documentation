@@ -160,7 +160,7 @@ Finds all documents of the sub-type _DOC_Contract_ (Contracts).
 
 Find all elements where the name contains a given string (case-insensitive):
 
-`GET /domains/DOMAIN-ID/assets?name=fire` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
+`GET /domains/DOMAIN-ID /assets/en?name=fire` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all assets that contain _fire_ in the name, e.g. an asset _firewall_ or _fire extinguisher_.
 
@@ -185,7 +185,7 @@ Finds all processes that have parts (sub processes).
 
 Find all elements that are either a part of at least one [composite](../object-model/objects#composite) or a member of at least one [scope](../object-model/objects#scope).
 
-`GET /domains/DOMAIN-ID/assets?hasParentElements=true` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
+`GET /domains/DOMAIN-ID /assets/en?hasParentElements=true` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all assets that that are a part of another asset.
 
@@ -193,7 +193,7 @@ Finds all assets that that are a part of another asset.
 
 Find all elements that contain at least one of the given elements as a part or member. One or several UUIDs can be specified, separated by commas.
 
-`GET /domains/DOMAIN-ID/assets?childElementIds=823dfbfa-21d4-4174-b184-38734465cbbb` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
+`GET /domains/DOMAIN-ID /assets/en?childElementIds=823dfbfa-21d4-4174-b184-38734465cbbb` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/getAssets))
 
 Finds all incidents that have incident with ID _823dfbfa-21d4-4174-b184-38734465cbbb_ as a part.
 
@@ -241,9 +241,9 @@ This exemplary response body illustrates the structure of an element:
                 "attributes": {},
                 "target": {
                     "displayName": "AST-935 Customer data",
-                    "targetUri": "https://api.verinice.com/veo/assets/faf5d744-2bc8-4c19-bd5f-783f59d719a2",
-                    "searchesUri": "https://api.verinice.com/veo/assets/searches",
-                    "resourcesUri": "https://api.verinice.com/veo/assets{?unit,displayName,subType,status,\
+                    "targetUri": "https://api.verinice.com/veo /assets/en/faf5d744-2bc8-4c19-bd5f-783f59d719a2",
+                    "searchesUri": "https://api.verinice.com/veo /assets/en/searches",
+                    "resourcesUri": "https://api.verinice.com/veo /assets/en{?unit,displayName,subType,status,\
                     childElementIds,hasParentElements,hasChildElements,description,designator,name,updatedBy,size,page,\
                     sortBy,sortOrder}"
                 }
@@ -288,7 +288,7 @@ The property `owner` references the [unit](/object-model/objects#unit) to which 
 
 After loading a unit and domain ID, an element (a.k.a. business object) can be created in a domain with the API endpoint:
 
-`POST /domains/DOMAIN-ID/assets` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7))
+`POST /domains/DOMAIN-ID /assets/en` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/asset-in-domain-controller/createElement_7))
 
 Python code listing to create an asset:
 
@@ -303,7 +303,7 @@ element = {
         'targetUri': 'https://api.verinice.com/veo/units/a602f30d-54be-4565-bacd-3c422ab88e18',
     },
 }
-url = "https://api.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946/assets"
+url = "https://api.verinice.com/veo/domains/b5110307-ca95-4bcb-bd7a-d2570f3d8946 /assets/en"
 token = get_token()
 headers = {
     "Authorization": token,

@@ -1,75 +1,78 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Baustein-Modellierung
+# Module Modeling
 
-Wenn die Strukturanalyse durchgeführt und der Schutzbedarf festgestellt wurde, kommt es im nächsten Schritt zur Baustein-Modellierung.
+Once the structural analysis has been carried out and the protection requirements have been determined, the next step is module modeling.
 
-verinice stellt zwei Möglichkeiten zur Verfügung, um die Modellierung von Bausteinen nach der Vorgehensweise des IT-Grundschutz durchzuführen. Neben der Modellierung einzelner Bausteine durch das Anwenden von Katalogelementen, kann das gesamte IT-Grundschutz-Kompendium als Informationsverbund mit modellierten Beispielobjekten als Profil angewendet werden.
+verinice provides two options for modeling modules based on the IT-Grundschutz approach. In addition to modeling individual modules by applying catalog elements, the entire IT-Grundschutz Compendium can be applied as an information network using a profile with pre-modeled sample objects.
 
-## Modellierung aus Katalog
+## Modeling from Catalog
 
-Die Modellierung aus dem Katalog besteht aus zwei Teilschritten, dem Anwenden von Katalogelementen und der Modellierung von Bausteinen selbst.
+Modeling from the catalog consists of two steps: applying catalog elements and modeling the modules themselves.
 
-### Bausteine aus Katalog anwenden
+### Apply Modules from Catalog
 
-Bevor Sie die Bausteine in Ihrem Informationsverbund modellieren könnnen, sollten diese erst aus dem [Katalog](/manual/catalogs.md), den Sie über das Menü aufrufen, angewendet werden.
-Navigieren Sie hier zu **Bausteine** und selektieren alle (oder nur die von Ihnen benötigten) Bausteine und klicken Sie anschließend auf **Anwenden**.
+Before you can model the modules in your information network, you should first apply them from the [catalog](/manual/catalogs.md), which you can access via the menu.  
+Navigate to **Modules**, select all (or only the ones you need), and click **Apply**.
 
-![Bausteine aus Katalog anwenden](/assets/domain-it-gs/verinice-32-apply-modules.de.png)
+![Apply modules from catalog]( /assets/en/domain-it-gs/verinice-32-apply-modules.de.png)
 
-Nachdem die Bausteine in Ihrer Unit vorhanden sind, können Sie diese den Zielobjekten zuordnen. Dabei können Sie auf zwei verschiedene Arten vorgehen:
+Once the modules are available in your unit, you can assign them to target objects. You can proceed in two different ways:
 
-### Baustein-Modellierung
+### Module Modeling
 
-#### Aus Sicht des Zielobjektes
+#### From the Target Object's Perspective
 
-Weisen sie einem Zielobjekt die gewünschten Bausteine zu:
+Assign the desired modules to a target object:
 
-- Öffnen Sie ein Zielobjekt, bei dem die Baustein-Modellierung vorgenommen werden soll.
-- Wählen Sie im Objektumfeld den Tab **Bausteine** und klicken Sie auf **+** und anschließend auf **Bausteine modellieren**.
+- Open a target object where module modeling should be performed.
+- In the object view, select the **Modules** tab and click **+**, then **Model modules**.
 
-![Bausteine modellieren](/assets/domain-it-gs/verinice-32-modell-modules-1.de.png)
+![Model modules]( /assets/en/domain-it-gs/verinice-32-modell-modules-1.de.png)
 
-- Es öffnet sich ein Dialog mit allen von Ihnen im Vorfeld aus dem Katalog angewendeten Bausteinen. In diesem Dialog wählen Sie die Bausteine aus, die Sie modellieren wollen. Über die Suche können Sie gezielt nach Bausteinen (Name und/oder Abkürzung) suchen. Auch eine auf- oder absteigende Sortierung ist in diesem Dialog möglich.
+- A dialog opens showing all modules you previously applied from the catalog. In this dialog, select the modules you want to model. Use the search function to find modules by name and/or abbreviation. Sorting (ascending/descending) is also possible in this dialog.
 
-![Auswahl der Bausteine](/assets/domain-it-gs/verinice-32-select-modules.de.png)
+![Select modules]( /assets/en/domain-it-gs/verinice-32-select-modules.de.png)
 
-- Nachdem Sie den Dialog gespeichert haben, werden Ihnen im Zielobjekt unter **Bausteine** die modellierten Bausteine angezeigt.
+- Once you save the dialog, the modeled modules will appear under **Modules** in the target object.
 
-![Modellierte Bausteine](/assets/domain-it-gs/verinice-32-modelled-modules.de.png)
+![Modeled modules]( /assets/en/domain-it-gs/verinice-32-modelled-modules.de.png)
 
-#### Aus Sicht des Bausteins
+#### From the Module's Perspective
 
-Weisen sie einem Baustein die gewünschten Zielobjekt zu:
+Assign desired target objects to a module:
 
-- Öffnen Sie einen Baustein, dem ein oder mehrere Zielobjekte zugeordnet werden sollen.
-- Wählen Sie im Objektumfeld den Tab **Zielobjekte**, klicken Sie auf **+** und wählen Sie anschließend den erforderlichen Zielobjekttyp (Scope, Prozess oder Asset).
+- Open a module to which one or more target objects should be assigned.
+- In the object view, select the **Target Objects** tab, click **+**, and then choose the required target object type (Scope, Process, or Asset).
 
-![Zielobjekte zuordnen](/assets/domain-it-gs/verinice-37-assign-target-object.de.png)
+![Assign target objects]( /assets/en/domain-it-gs/verinice-37-assign-target-object.de.png)
 
-- Es öffnet sich ein Dialog mit allen Zielobjekten des zuvor ausgewählten Typs. In diesem Dialog wählen Sie die Zielobjekte aus, die mit dem Baustein modelliert werden sollen. Über die Suche können Sie gezielt nach Zielobjekten (Name und/oder Abkürzung) suchen. Auch eine auf- oder absteigende Sortierung ist in diesem Dialog möglich.
+- A dialog opens showing all target objects of the previously selected type. In this dialog, select the target objects you want to model with the module. Use the search function to find target objects by name and/or abbreviation. Sorting is also available.
 
-![Auswahl der Zielobjekte](/assets/domain-it-gs/verinice-37-select-target-objects.de.png)
+![Select target objects]( /assets/en/domain-it-gs/verinice-37-select-target-objects.de.png)
 
-- Nachdem Sie den Dialog gespeichert haben, werden Ihnen im Baustein unter **Zielobjekte** die Zielobjekte, bei denen dieser Baustein modelliert ist, angezeigt.
+- After saving, the module will list the target objects it is modeled for under **Target Objects**.
 
-![Modellierte Zielobjekte](/assets/domain-it-gs/verinice-37-modelled-target-objects.de.png)
+![Modeled target objects]( /assets/en/domain-it-gs/verinice-37-modelled-target-objects.de.png)
 
-### Bearbeiten der Bausteine
+### Editing Modules
 
-Um einen Baustein zu bearbeiten, klicken Sie auf den entsprechenden **Baustein**, es öffnet sich ein Dialog, in dem Sie die verantwortliche Person und eine Beschreibung hinterlegen können.
+To edit a module, click on the corresponding **Module**. A dialog opens where you can assign a responsible person and enter a description.
 
-![Bausteine bearbeiten](/assets/domain-it-gs/verinice-32-edit-modules.de.png)
+![Edit modules]( /assets/en/domain-it-gs/verinice-32-edit-modules.de.png)
 
-### Benutzerdefinierte Bausteine
+### Custom Modules
 
-Natürlich ist es auch möglich benutzerdefinierte Bausteine und Anforderungen in verinice anzulegen. Navigieren Sie dazu im Menü zu **Maßnahmen > Bausteine/Anforderungen** und erstellen Sie einfach über **+** die gewünschten Objekte. Anschließend können Sie die erstellten Objekte über das Objektumfeld als **Teile** zu einem Baustein zusammenfügen.
+Of course, it is also possible to create custom modules and requirements in verinice. To do this, navigate to **Controls > Modules/Requirements** in the menu and use **+** to create the desired objects. You can then combine the created objects as **Parts** of a module in the object view.
 
-![Benutzerdefinierter Baustein](/assets/domain-it-gs/verinice-32-user-defined-module.de.png)
+![Custom module]( /assets/en/domain-it-gs/verinice-32-user-defined-module.de.png)
 
-## Modellierung aus Profil
+## Modeling from Profile
 
-Die Modellierung aus einem Profil vereinfacht die Modellierung eines gesamten Informationsverbundes erheblich. Es werden alle Bausteine des IT-Grundschutz-Kompendiums inklusive modellierter Muster-Zielobjekte in die aktive Unit kopiert. Sie können die Muster-Zielobjekte inklusive der modellierten Bausteine modifizieren, kopieren oder löschen, um Ihre Institution abzubilden.
+Modeling from a profile significantly simplifies the modeling of a complete information network. All modules from the IT-Grundschutz Compendium, including modeled sample target objects, are copied into the active unit. You can modify, copy, or delete the sample target objects and modules to represent your organization.
 
-Sie können das Profil aus der Unitverwaltung heraus beim Erstellen einer neuen Unit anwenden oder auf eine bereits bestehende Unit anwenden.
+You can apply the profile either during the creation of a new unit from the unit management or to an existing unit.
 
-::: warning Das Anwenden eines Profiles fügt einer bestehenden Unit eine Vielzahl zusätzlicher Objekte hinzu! Wir empfehlen die Anwendung in einer neuen Unit zu prüfen.
+::: warning
+Applying a profile will add a large number of additional objects to an existing unit!  
+We recommend testing the application in a new unit.
+:::

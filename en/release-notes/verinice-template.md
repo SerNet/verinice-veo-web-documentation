@@ -1,43 +1,33 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice XY
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice XY zur Verfügung!
-
-::: details Warum sehe ich nicht alle Neuerungen?
-
-Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen:
-
-**Prototyp:** Diese Funktionen befinden sich in Entwicklung und sind nur intern verfügbar.
-
-**Private Beta:** Diese Funktionen stehen einer geschlossenen Gruppe von Testenden zur Verfügung.
-
-**Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwendern für Tests zur Verfügung.
-
-**Produktiv:** Diese Funktionen stehen allen Anwenderinnen und Anwendern zur produktiven Nutzung zur Verfügung, sofern die jeweilige Domäne im gewählten Plan enthalten ist!
+The following new features are available to users with the release of verinice XY!
+::: details Why can't I see all the new features?
+New functions and in particular entire domains go through different release phases:
+**Prototype:** These functions are under development and are only available internally.
+**Private beta:** These functions are available to a closed group of testers.
+**Public Beta:** These functions are available to all users for testing.
+**Productive:** These functions are available to all users for productive use, provided the respective domain is included in the selected plan!
 :::
 
-## Allgemeine Funktionen
+## General functions
 
-**Status: Produktiv**
+**Status: Productive**
 
-### Detailverbesserungen und Fehlerbehebungen
+### Detailed improvements and bug fixes
 
-## Domäne Datenschutz
+## Domain data protection
+**Status: Productive**
 
-**Status: Produktiv**
+## Domain IT-Grundschutz
+**Status: Productive**
 
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-## Domäne NIS2
-
+## Domain NIS2
 **Status: Private Beta**
 
-## Domäne ISO
+## Domain ISO
+**Status: Prototype**
 
-**Status: Prototyp**
-
-## Domäne TISAX
-
+## Domain TISAX
 **Status: Private Beta**
+

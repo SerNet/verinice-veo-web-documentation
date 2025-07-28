@@ -1,79 +1,81 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Benutzerverwaltung
+# User Management
 
-## Benutzerkonto bearbeiten
+## Edit User Account
 
-Über den Account Button gelangen Sie zum Bearbeiten Ihres Benutzerkontos:
+Click the account button to edit your user account:
 
-![Benutzerkonto bearbeiten](/assets/manual/account.de.png)
+![Edit User Account](  /assets/en/manual/account.de.png)
 
-verinice verwendet für das Identitäts- und Zugriffsmanagement eine [Keycloak](https://www.keycloak.org/)-Instanz, die in einem neuen Browsertab geöffnet wird:
+verinice uses a [Keycloak](https://www.keycloak.org/) instance for identity and access management, which opens in a new browser tab:
 
-![Benutzerkonto bearbeiten](/assets/manual/account_management.de.png)
+![Edit User Account](  /assets/en/manual/account_management.de.png)
 
-### Persönliche Informationen
+### Personal Information
 
-Im Abschnitt Persönliche Informationen können Sie Ihren Namen oder die E-Mail ändern. Nach Änderung der E-Mail erhalten Sie zum Verifizieren der E-Mail-Adresse eine Nachricht mit der Aufforderung ein neues Passwort zu vergeben.
+In the Personal Information section, you can change your name or email address. After changing your email, you will receive a verification email asking you to set a new password.
 
-![Persönliche Daten](/assets/manual/account_profile.de.png)
+![Personal Information](  /assets/en/manual/account_profile.de.png)
 
-### Authentifizierungsmethode
+### Authentication Method
 
-Im Abschnitt Kontosicherheit > Anmeldung wählen Sie zwischen der Standardauthentifizierung per Passwort oder der Zwei-Faktor Authentifizierung und richten diese ein:
+In the Account Security > Login section, you can choose between standard password authentication or two-factor authentication and configure it:
 
-![Persönliche Daten](/assets/manual/account_authentification.de.png)
+![Authentication](  /assets/en/manual/account_authentification.de.png)
 
-### Geräteaktivität
+### Device Activity
 
-Unter Kontosicherheit > Geräteaktivität erkennen Sie angemeldete Geräte und können unbekannte Geräte ggfs. abmelden:
+In Account Security > Device Activity, you can view logged-in devices and log out any unfamiliar devices:
 
-![Benutzerkonto bearbeiten](/assets/manual/account_activity.de.png)
+![Device Activity](  /assets/en/manual/account_activity.de.png)
 
-### Anwendungen verwalten
+### Manage Applications
 
-Im Abschnitt Applikationen sehen Sie, mit welchen Clients/Anwendungen Sie auf verinice zugreifen. Da die Anzahl der zugreifenden Anwendungen begrenzt ist, werden Sie unter Umständen automatisch abgemeldet, z.B. wenn Sie verinice in verschiedenen Browsern gleichzeitig öffnen.
+In the Applications section, you can see which clients/applications are connected to your verinice account. Since the number of connected applications is limited, you may be automatically logged out, for example, when opening verinice in multiple browsers simultaneously.
 
-![Benutzerkonto bearbeiten](/assets/manual/account_applications.de.png)
+![Applications](  /assets/en/manual/account_applications.de.png)
 
-### Ressourcen
+### Resources
 
-::: info Zusätzlich Funktionen wie z.B. das Teilen von Ressourcen werden aktuell nicht unterstützt!
+::: info
+Additional functions such as resource sharing are currently not supported!
 :::
 
-## Benutzerverwaltung
+## User Management
 
-::: details Warum steht mir die Benutzerverwaltung nicht zur Verfügung?
+::: details Why is the user management not available to me?
 
-Um zusätzliche Benutzer anzulegen oder bestehende zu verwalten, müssen:
+To add or manage additional users, the following conditions must be met:
 
-- in Ihrem Plan zusätzliche Benutzer enthalten sein.
-- Sie die Rolle des **Hauptnutzers** innehaben, die im Einkaufsprozess festgelegt wird.
+- Your subscription plan must include additional users.
+- You must have the **Main User** role, which is assigned during the purchasing process.
 :::
 
-Die Benutzerverwaltung rufen Sie über den Account Button auf:
+Access the user management via the account button:
 
-![Benutzerverwaltung](/assets/manual/accounts.de.png)
+![User Management](  /assets/en/manual/accounts.de.png)
 
-In der folgenden Übersicht werden alle Benutzer in Ihrem Client mit zusätzlichen Informationen dargestellt:
+The following overview shows all users in your client along with additional details:
 
-![Benutzerverwaltung](/assets/manual/accounts_list.de.png)
+![User List](  /assets/en/manual/accounts_list.de.png)
 
-1. Alle Benutzer haben Zugriff auf alle Units Ihres Clients!
-1. Anzeige der aktiven und der verfügbaren Benutzer. Beachten Sie, dass der Hauptnutzer die Anzahl der verfügbaren Benutzern bereits um eins reduziert!
-1. Sie können neue Benutzer anlegen,
-1. bestehende Benutzer bearbeiten oder
-1. bestehende Benutzer löschen
+1. All users have access to all units in your client.
+2. The interface displays active and available user slots. Note that the Main User already reduces the available user count by one.
+3. You can create new users,
+4. edit existing users, or
+5. delete existing users.
 
-Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
+When creating a user, enter the required information:
 
-![Benutzer erstellen](/assets/manual/accounts_create.de.png)
+![Create User](  /assets/en/manual/accounts_create.de.png)
 
-1. Benutzername, E-Mail, Vorname, Nachname
-1. Aktivieren oder deaktivieren Sie den Benutzer.
-1. Standardmäßig haben alle Benutzer Schreibzugriff. Um den Zugriff auf das Lesen zu beschränken deaktivieren Sie diesen.
-1. Nach Erstellen wird eine E-Mail an den Benutzer versandt, um die E-Mail Adresse zu verifizieren. Der Benutzer vergibt nach Aufruf des Links ein sicheres Passwort, mit dem er sich anschließend in verinice anmelden kann:
+1. Username, email, first name, last name.
+2. Activate or deactivate the user.
+3. By default, all users have write access. To restrict to read-only access, disable the write permission.
+4. After creation, an email will be sent to the user to verify their email address. The user must set a secure password via the provided link before logging in to verinice:
 
-![E-Mail](/assets/manual/accounts_email.de.png)
+![Verification Email](  /assets/en/manual/accounts_email.de.png)
 
-::: info Wir empfehlen neue Benutzer vorab über die Anlage ihres verinice Accounts zu informieren!
+::: info
+We recommend notifying new users in advance about the creation of their verinice account.
 :::

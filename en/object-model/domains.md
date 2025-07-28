@@ -1,157 +1,132 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Domänen
+# Domains
 
-Die verschiedenen Fachbereiche, die mit dem Managementsystem verinice bearbeitet werden können, werden *Domänen* genannt. Im Moment ist geplant, dass fünf Domänen in verinice enthalten sein werden:
+The various specialist areas that can be processed with the verinice management system are called *domains*. At the moment, it is planned that five domains will be included in verinice:
 
 * DS-GVO
-* IT-Grundschutz
+* IT baseline protection
 * NIS2
 * TISAX
 * ISO&nbsp;27000
+![domains]( /assets/en/object-model/domains.png)
+These domains can be used individually or combined. For example, users can start with the GDPR domain and create a record of processing activities there.
 
-![domains](/assets/object-model/domains.png)
+Later, it is possible to use the same objects that were created for this in the IT-Grundschutz domain. Domains can also be copied and extended. You can create your own domains, which may be derived from the existing ones.
 
-Diese Domänen können einzeln benutzt oder kombiniert werden. Anwenderinnen und Anwender können zum Beispiel zuerst mit der Domäne DS-GVO beginnen und dort ein Verzeichnis der Verarbeitungstätigkeiten erstellen.
-Später ist es möglich, dieselben Objekte, die dafür erstellt wurden, auch in der Domäne IT-Grundschutz zu verwenden. Domänen können aber auch kopiert und erweitert werden. Es können eigene Domänen erzeugt werden, die ggf. aus den vorhandenen abgeleitet werden.
+## Domain contents
 
-## Domäneninhalte
+A domain defines subtypes, aspects, links, forms, a catalog, profiles and, if applicable, risk definitions:
+![domain]( /assets/en/object-model/domain-bestandteile-kompakt.png)
 
-Eine Domäne definiert Subtypen, Aspekte, Verknüpfungen, Formulare, einen Katalog, Profile und ggf. Risikodefinitionen:
+* A [subject object](objects#subject-objects) has a specific [subtype](#subtypes) for each domain.
+* A domain object contains several [aspects](#aspects). An aspect is a group of domain-specific attributes.
+* [Links](#links) are relationships between two objects.
+* A [form](#forms) can be used to record exactly the data that is required for a specific use case from a domain.
+* A [catalog](#catalog) is a collection of ready-made technical objects that can be applied to an ISMS model.
+* [Profiles](#profile) are collections of ready-made technical objects that have been modeled for a specific use case.
 
-![domaene](/assets/object-model/domain-bestandteile-kompakt.png)
+* [Risk definition](#risk definitions) are configurations of the risk analysis.
 
-* Ein [Fachobjekt](objects#fachobjekte) hat je Domäne einen bestimmten [Subtypen](#subtypen). 
-* Ein Fachobjekt enthält mehrere [Aspekte](#aspekte). Ein Aspekt ist eine Gruppe von domänenspezifischen Attributen.
-* [Verknüpfungen](#verknupfungen) sind Beziehungen zwischen zwei Objekten.
-* Mit einem [Formular](#formulare) können genau die Daten erfasst werden, die für einen bestimmten Anwendungsfall (Use Case) aus einer Domäne benötigt werden.
-* Ein [Katalog](#katalog) ist eine Sammlung vorgefertigter Fachobjekte, die auf ein ISMS-Modell angewendet werden können.
-* [Profile](#profile) sind Sammlungen vorgefertigter Fachobjekte, die für einen bestimmten Anwendungsfall modelliert wurden. 
-* [Risikodefinition](#risikodefinitionen) sind Konfigurationen der Risikoanalyse.
+### Subtypes
 
-### Subtypen
-
-Die konkreten Arten von Fachobjekten in einer Domäne werden über die Subtypen abgebildet. Eine Domäne definiert für jeden der acht [Objekttypen](objects#fachobjekte) eine Menge von Subtypen. Es ist auch möglich, dass eine Domäne für einen Objekttypen gar keine Subtypen definiert, wenn dieser Objekttyp für die Domäne irrelevant ist.
-
-Einem konkreten Fachobjekt muss ein Subtyp aus einer Domäne zugeordnet werden, damit es überhaupt in der Domäne benutzt werden kann. Der Subtyp eines Fachobjektes steuert unter anderem, mit welchen [Formularen](#formulare) es bearbeitet wird und mit welchen anderen Fachobjekten es verknüpft werden darf (s. [Links](#links)).
-
-::: info Beispiel
-Ein [Prozess](objects#prozess) soll in der DS-GVO erstellt werden. Es muss dazu einer der dort definierten Subtypen *Verarbeitungstätigkeit*, *Datenübertragung* und *Datenschutz-Folgeabschätzung* ausgewählt werden. Der Prozess wird als *Verarbeitungstätigkeit* erstellt. Danach wird er zusätzlich assoziiert mit der ISO&nbsp;27000, wobei der Subtyp *Geschäftsprozess* ausgewählt wird. Der Prozess ist nun im Kontext der DS-GVO eine Verarbeitungstätigkeit und nach ISO&nbsp;27000 ein Geschäftsprozess.
+The specific types of specialized objects in a domain are mapped via the subtypes. A domain defines a set of subtypes for each of the eight [object types](objects#subject objects). It is also possible for a domain not to define any subtypes for an object type if this object type is irrelevant for the domain.
+A subtype from a domain must be assigned to a specific specialist object so that it can be used in the domain at all. The subtype of a functional object controls, among other things, which [forms](#forms) it is processed with and which other functional objects it may be linked to (see [links](#links)).
+::: info Example
+A [process](objects#process) is to be created in the GDPR. To do this, one of the subtypes *processing activity*, *data transfer* and *data protection impact assessment* defined there must be selected. The process is created as a *processing activity*. It is then additionally associated with ISO&nbsp;27000, whereby the subtype *business process* is selected. The process is now a processing activity in the context of the GDPR and a business process according to ISO 27000.
 :::
 
-### Aspekte
+### Aspects
 
-Ein Fachobjekt kann neben den Grundeigenschaften wie Name, Beschreibung oder Abkürzung auch domänenspezifische Aspekte haben. Ein Aspekt enthält mehrere Attribute eines Fachobjekts, die grundsätzlich nur in einer Domäne gelten. Es gibt jedoch auch geteilte Aspekte, die in mehreren Domänen gültig sind.
-
-Eine Domäne definiert ihre verfügbaren Aspekte mitsamt Attributen, dabei hat jedes Attribut einen Namen und einen Datentypen. Ist ein Aspekt identisch in mehreren Domänen definiert, so gilt der Aspekt als geteilt. Für ein Fachobjekt erscheinen die Attribute eines geteilten Aspektes in allen entsprechenden Domänen und die Werte sind dort auch überall gleich.
-
-::: info Beispiel
-Ein Prozess aus der DS-GVO enthält einen Aspekt mit den datenschutzrelevanten Attributen *Art der übermittelten Daten*, *Betroffene* und *Rechtsgrundlage*. Gleichzeitig kann derselbe Prozess aber ein Geschäftsprozess in der Domäne ISO&nbsp;27000 sein und aus diesem Grund einen Aspekt aus der Domäne ISO&nbsp;27000 mit den Attributen *Confidentiality*, *Integrity* und *Availability* enthalten.
-
-![aspekte](/assets/object-model/aspekte.png)
+In addition to basic properties such as name, description or abbreviation, a specialized object can also have domain-specific aspects. An aspect contains several attributes of a specialized object that are generally only valid in one domain. However, there are also shared aspects that are valid in several domains.
+A domain defines its available aspects together with attributes; each attribute has a name and a data type. If an aspect is defined identically in several domains, the aspect is considered to be shared. For a specialized object, the attributes of a shared aspect appear in all corresponding domains and the values are the same everywhere.
+::: info Example
+A process from the GDPR contains an aspect with the data protection-relevant attributes *Type of data transmitted*, *Data subject* and *Legal basis*. At the same time, however, the same process can be a business process in the ISO&nbsp;27000 domain and therefore contain an aspect from the ISO&nbsp;27000 domain with the attributes *Confidentiality*, *Integrity* and *Availability*.
+![aspects]( /assets/en/object-model/aspekte.png)
 :::
 
-### Verknüpfungen
+### Links
 
-Eine Verknüpfung stellt eine domänenspezifische Beziehung zu einem anderen Fachobjekt her. Eine Verknüpfung enthält neben dem verknüpften Objekt auch Attribute, die zu der Verknüpfung gehören.
-
-In der Domäne wird für jede Verknüpfung neben des Verknüpfungsnamens und einer Reihe von Attributen auch der zulässige [Subtyp](#subtypen) für das Verknüpfungsziel definiert.
-
-::: info Beispiel
-In einer fiktiven Domäne sollen Controls Personen zugeordnet werden, die in einem bestimmten Zeitraum für das Control verantwortlich sind. Dazu ist in der Domäne eine Verknüpfung *Verantwortlich* definiert, welche Controls mit Personen verbindet und die Attribute *von* und *bis* enthält, mit denen der Zeitraum erfasst werden kann. Ein konkretes Control kann mehrere *Verantwortlich*-Verknüpfungen zu verschiedenen Personen haben, wobei jede Verknüpfung eigene Werte für die Attribute *von* und *bis* hat. 
-
-![links](/assets/object-model/links.png)
+A link establishes a domain-specific relationship to another specialized object. In addition to the linked object, a link also contains attributes that belong to the link.
+In addition to the link name and a series of attributes, the permitted [subtype](#subtypen) for the link target is also defined for each link in the domain.
+::: info Example
+In a fictitious domain, controls are to be assigned to persons who are responsible for the control in a specific time period. For this purpose, a link *Responsible* is defined in the domain, which links controls to persons and contains the attributes *From* and *To*, with which the time period can be recorded. A specific control can have several *responsible* links to different persons, whereby each link has its own values for the attributes *from* and *to*.
+![links]( /assets/en/object-model/links.png)
 :::
 
-### Formulare
+### Forms
 
-Eine Domäne enthält beliebig viele Formulare. Mit diesen Formularen lassen sich speziell die Aspekte und Verknüpfungen in den Objekten bearbeiten, die in der Domäne enthalten sind und unterstützen die Anwender dabei, die in der Domäne erforderlichen Arbeitsabläufe umzusetzen. Die Formulare sind nur für die Anwender sichtbar, die mit der Domäne arbeiten. Die Anwender können in der Domäne neue Formulare definieren oder vorhandene abändern und anpassen. Der Artikel [Formulare](forms) beschreibt die Formulare in verinice.
+A domain contains any number of forms. These forms can be used specifically to edit the aspects and links in the objects contained in the domain and help users to implement the workflows required in the domain. The forms are only visible to users who work with the domain. Users can define new forms in the domain or modify and adapt existing ones. The article [Forms](forms) describes the forms in verinice.
 
-### Katalog
+### Catalog
 
-Der Katalog ist die Menge aller Katalogelemente in einer Domäne. Ein Katalogelement dient als Vorlage für ein [Fachobjekt](/object-model/objects.html#fachobjekte). Um mit einem Katalogelement in einer [Unit](/object-model/objects.html#unit) arbeiten zu können, muss es erst auf die Unit angewendet werden, d.h. seine Inhalte werden als Fachobjekt in die Ziel-Unit kopiert.
-
-Ein Katalogelement kann fast alle Eigenschaften und Beziehungen haben, die ein Fachobjekt haben kann, wie z.B. ein Name, eine Beschreibung oder [Teile](/object-model/objects.html#composite). Beim Anwenden eines Katalogelementes wird ein neues Fachobjekt in der Ziel-Unit erstellt und die Eigenschaften und Beziehungen des Katalogelementes werden in das Fachobjekt übernommen. Hat das Katalogelement Beziehungen zu anderen Katalogelementen, so werden die referenzierten Katalogelemente mit auf die Unit angewendet. Welche Arten von Beziehungen dabei berücksichtigt werden, lässt sich in der Domäne konfigurieren.
-
-::: info Beispiel
-Die [Domäne IT-Grundschutz](/domain-it-gs/) enthält als Katalogelemente unter anderem verschiedene [Controls](/object-model/objects.html#control) mit den Subtypen Bausteinschicht, Baustein & Anforderung. Die Controls sind hierarchisch angeordnet. So enthält der Baustein _9 NET.1.2 Netzmanagement_ mehrere Anforderungen als [Teile](/object-model/objects.html#composite) und ist selbst ein Teil der Bausteinschicht _9 NET Netze und Kommunikation_. Wenn der Baustein _9 NET.1.2 Netzmanagement_ auf eine leere Unit angewendet wird, so wird der Baustein selbst als Fachobjekt in die Unit kopiert und ebenso all seine Anforderungen. Es wird jedoch nicht die ganze Bausteinschicht _9 NET Netze und Kommunikation_ mitkopiert, denn die Domäne IT-Grundschutz ist so konfiguriert, dass nur Teile von Katalogelementen automatisch mit angewendet werden, aber keine übergeordneten Composites.
+The catalog is the set of all catalog elements in a domain. A catalog element serves as a template for a [subject object](/object-model/objects.html#subject-objects). In order to be able to work with a catalog element in a [unit](/object-model/objects.html#unit), it must first be applied to the unit, i.e. its contents are copied to the target unit as a specialist object.
+A catalog element can have almost all the properties and relationships that a specialist object can have, such as a name, a description or [parts](/object-model/objects.html#composite). When a catalog element is applied, a new specialist object is created in the target unit and the properties and relationships of the catalog element are transferred to the specialist object. If the catalog element has relationships to other catalog elements, the referenced catalog elements are also applied to the unit. The types of relationships that are taken into account can be configured in the domain.
+::: info Example
+The [Domain IT-Grundschutz](/domain-it-gs/) contains various [Controls](/object-model/objects.html#control) with the subtypes building block layer, building block & requirement as catalog elements. The controls are arranged hierarchically. For example, the _9 NET.1.2 Network Management_ module contains several requirements as [parts](/object-model/objects.html#composite) and is itself a part of the _9 NET Networks and Communication_ module layer. If the _9 NET.1.2 Network management_ module is applied to an empty unit, the module itself is copied to the unit as a specialized object, as are all its requirements. However, the entire building block layer _9 NET Networks and Communication_ is not copied, because the IT-Grundschutz domain is configured so that only parts of catalog elements are automatically applied, but not higher-level composites.
 :::
+A subject object that was created from a catalog element is a copy that remains permanently linked to the catalog element. This enables both the individual adaptability of the object and the comparison with the catalog content in the further life cycle of the object. The link between the specialist object and the catalog element can also prevent a catalog element from being accidentally applied to the same unit more than once.
 
-Ein Fachobjekt, das aus einem Katalogelement erzeugt wurde, ist eine Kopie, die dauerhaft mit dem Katalogelement verbunden bleibt. Dies ermöglicht sowohl die individuelle Anpassbarkeit des Objektes als auch den Abgleich mit den Kataloginhalten im weiteren Lebenszyklus des Objektes. Die Verbindung zwischen Fachobjekt und Katalogelement kann zudem verhindern, dass ein Katalogelement versehentlich mehrfach auf dieselbe Unit angewendet wird.
+### Profiles
 
-### Profile
+A profile is a collection of specialist objects that have been modeled for a specific use case. Many of the specialist objects in the profiles come from the catalog in the domain. In the profiles, the entries from the catalog are used multiple times in different scenarios. Profiles therefore contain ready-made ISMS models that can be used as templates. They contain instructions and examples for the practical use of verinice.
 
-Ein Profil ist eine Sammlung von Fachobjekten, die für einen bestimmten Anwendungsfall modelliert wurden. Viele der Fachobjekte in den Profilen kommen aus dem Katalog in der Domäne. In den Profilen werden die Einträge aus dem Katalog mehrfach in unterschiedlichen Szenarien angewendet. Profile enthalten dadurch fertige ISMS-Modelle, die als Vorlage verwendet werden können. Sie enthalten Hinweise und Beispiele für den praktischen Einsatz von verinice.
+### Risk definitions
 
-### Risikodefinitionen
-
-Eine Risikodefinition ist die Konfiguration der Risikoanalyse in einer Domäne. In der Risikodefinition können die Parameter für die Berechnung des Risikos individuell angepasst werden.
-
-Es ist möglich, dass in einer Domäne mehrere Risikodefinitionen hinterlegt sind, sodass je nach [Scope](objects#scope) mit einer unterschiedlichen Risikodefinition gearbeitet werden kann. Es ist ebenfalls möglich, dass eine Domäne gar keine Risikodefinitionen enthält, wenn das Erfassen von [Risiken](objects#risiko) in der Domäne nicht vorgesehen ist.
-
+A risk definition is the configuration of the risk analysis in a domain. The parameters for calculating the risk can be customized in the risk definition.
+It is possible for several risk definitions to be stored in a domain so that a different risk definition can be used depending on the [Scope](objects#scope). It is also possible for a domain to contain no risk definitions at all if the recording of [risks](objects#risk) is not intended in the domain.
 
 ### Inspection
 
-Eine **Inspection** ist eine Überprüfung oder Validierung eines Fachobjekts. Sie dient dazu, sicherzustellen, dass bestimmte Bedingungen oder Kriterien erfüllt sind. Inspections sind mit einer Schweregradstufe und einer Beschreibung verbunden. Sie werden gespeichert und verwaltet, um eine konsistente Bewertung der Fachobjekte zu gewährleisten.  
-
-Eine Inspection wird Anwendenden angezeigt, um bei einzelnen Fachobjekten Korrekturen oder Anmerkungen anzubieten. Sie kann zudem **Suggestions** enthalten (*"Quick-Fixes"*), um die festgestellte Abweichung direkt zu beheben.  
-
-Eine **Inspection** kann auf Decisions zurückgreifen, um zu ihrer Einschätzung zu kommen. So kann beispielsweise eine Decision bestimmen, ob eine DSFA erforderlich ist, und die Inspection nutzt dieses Ergebnis, um dem Nutzer eine entsprechende Empfehlung oder Korrekturmöglichkeit bereitzustellen.
-
-:::info Beispiel
-Im Datenschutz könnte eine Inspection feststellen, dass eine Datenschutzfolgeabschätzung (DSFA) verpflichtend ist, aber noch nicht durchgeführt wurde. Die Inspection kann dann direkt die Aktion anbieten, die DSFA hinzuzufügen.  
+An **inspection** is a check or validation of a specialized object. It is used to ensure that certain conditions or criteria are met. Inspections are linked to a severity level and a description. They are saved and managed to ensure a consistent assessment of the functional objects.  
+An inspection is displayed to users in order to offer corrections or comments for individual subject objects. It can also contain **suggestions**(*“quick fixes ”*) to rectify the identified deviation directly.  
+An **inspection** can use decisions to arrive at its assessment. For example, a decision can determine whether a DPIA is required, and the inspection uses this result to provide the user with a corresponding recommendation or correction option.
+:::info Example
+In data protection, an inspection could determine that a data protection impact assessment (DPIA) is mandatory but has not yet been carried out. The inspection can then directly offer the action of adding the DPIA.  
 :::
 
 ### Decision
 
-Eine **Decision** bewertet ein Fachobjekt anhand einer Liste von **Rules** (s.u.), um einen booleschen Ergebniswert zu bestimmen. Die erste zutreffende Rule entscheidet über das Ergebnis (First-Hit-Policy). Decisions dienen dazu, eine systematische und nachvollziehbare Bewertung auf Basis mehrerer Rules vorzunehmen.  
-
-Eine Decision zeigt dem Nutzer das endgültige Ergebnis der Bewertung an.  
-
-:::info Beispiel
-Eine Decision könnte bestimmen, ob für ein Fachobjekt eine Datenschutzfolgeabschätzung (DSFA) erforderlich ist. Dabei wird genau angezeigt, welche **Rule** für diese Entscheidung verantwortlich war und wie sie ausgewertet wurde. Dies ermöglicht eine transparente Nachvollziehbarkeit der Entscheidungsfindung.
+A **Decision** evaluates a technical object using a list of **Rules** (see below) to determine a Boolean result value. The first applicable rule determines the result (first-hit policy). Decisions are used to carry out a systematic and comprehensible evaluation on the basis of several rules.  
+A decision shows the user the final result of the evaluation.  
+:::info Example
+A decision could determine whether a data protection impact assessment (DPIA) is required for a specialist object. It shows exactly which **rule** was responsible for this decision and how it was evaluated. This enables transparent traceability of the decision-making process.
 :::
 
 #### Rule
 
-Eine **Rule** ist eine konfigurierbare Bedingung, die auf ein Fachobjekt angewendet wird, um zu bestimmen, ob es bestimmte Kriterien erfüllt. Rules sind Bestandteil einer Decision und liefern einen Ausgangswert, der zum Ergebnis der Decision wird, wenn die Rule zutrifft. Die Bewertung erfolgt anhand vordefinierter Bedingungen.  
+A **rule** is a configurable condition that is applied to a functional object to determine whether it fulfills certain criteria. Rules are part of a decision and provide an initial value that becomes the result of the decision if the rule applies. The evaluation is based on predefined conditions.  
+:::: info Examples
 
-:::: info Beispiele
-- "Hohes Risiko beim Fachobjekt vorhanden"
-- "Verfahrenstätigkeit befindet sich auf Positivliste"
+- “High risk present for the specialist object”
+- “Process activity is on the positive list”
+
 ::::
 
-### Unterschied: Decision vs. Inspection vs. Rule
+### Difference: Decision vs. inspection vs. rule
 
-- **Rule**: Stellt eine einzelne Bedingung dar, die auf Fachobjekte angewendet wird. Rules sind Bestandteil einer Decision und bestimmen das Ergebnis basierend auf ihren Bedingungen.  
-- **Decision**: Kombiniert mehrere Rules, um ein Fachobjekt zu bewerten und ein finales Ergebnis zu bestimmen. Dabei wird dem Nutzer transparent angezeigt, welche Rule für die Entscheidung ausschlaggebend war.  
-- **Inspection**: Bietet dem Nutzer Hinweise oder Korrekturvorschläge und kann eine **Suggestion** enthalten, um eine direkte Anpassung vorzunehmen. Greift dafür auf Decisions zurück.
+-  **Rule**: Represents a single condition that is applied to specialist objects. Rules are part of a decision and determine the result based on their conditions.  
+- **Decision**: Combines several rules to evaluate a specialist object and determine a final result. The user is shown transparently which rule was decisive for the decision.  
+-  **Inspection**: Provides the user with hints or suggestions for correction and can contain a **suggestion** to make a direct adjustment. Relies on Decisions for this.
+These concepts work together to provide a powerful framework for evaluating and enforcing conditions on specialized objects within the domain.
+::: info Example
 
-Diese Konzepte arbeiten zusammen, um ein leistungsfähiges Rahmenwerk für die Bewertung und Durchsetzung von Bedingungen auf Fachobjekte innerhalb des jeweiligen Fachgebiets bereitzustellen.
+![Decision-Inspection-Rule]( /assets/en/object-model/inspections-decisions.png)
 
-::: info Beispiel
-![Decision-Inspection-Rule](/assets/object-model/inspections-decisions.png)
-
-1. Die *Decision* weist darauf hin, dass die DSFA erforderlich ist, weil die *Rule* "Hohes Risiko vorhanden" zutrifft.
-2. Die *Inspection* stellt fest, dass lt. Decision (s.o.) eine DSFA erforderlich ist, aber noch nicht durchgeführt wurde. Sie bietet eine *Suggestion* an, um die DSFA hinzuzufügen.
-3. Die *Suggestion* kann der Benutzer durch einen Klick auslösen, um die DSFA direkt hinzuzufügen.
+1. the *Decision* indicates that the DSFA is required because the *Rule* “High risk present” applies.
+2. the *Inspection* states that a DPIA is required according to the decision (see above), but has not yet been carried out. It offers a *suggestion* to add the DPIA.
+3. the user can trigger the *suggestion* by clicking to add the DSFA directly.
 :::
 
-### Domänen-Templates
+### Domain templates
 
-![domain-templates](/assets/object-model/domain-templates.png)
+![domain-templates]( /assets/en/object-model/domain-templates.png)
+The domains are offered for use as **domain templates** in a repository. The domain templates are versioned. Depending on requirements, a customer can select one or more templates. If a customer selects a template in a specific version, a copy of the template is created for the customer. This exclusive copy of the customer is the domain with which the customer works. The customer's domain can be individually adapted to his needs.
+::: info Example
+![domain-templates-clients]( /assets/en/object-model/domain-templates-clients.png)
+The diagram shows the verinice repository with the domain templates. The “IT-Grundschutz” and “DS-GVO” templates are each available in 2 different versions.
 
-Die Domänen werden als **Domänen-Templates** in einem Repository für die Benutzung angeboten. Die Domänen-Templates sind versioniert. Je nach Bedarf kann ein Kunde ein oder mehrere Templates auswählen. Wenn ein Kunde ein Template in einer bestimmten Version auswählt, dann wird aus dem Template eine Kopie für den Kunden erstellt. Diese exklusive Kopie des Kunden ist die Domäne, mit der der Kunde arbeitet. Die Domäne des Kunden kann individuell an seine Bedürfnisse angepasst werden.
-
-::: info Beispiel
-![domain-templates-clients](/assets/object-model/domain-templates-clients.png)
-
-Das Diagramm zeigt das Repository von verinice mit den Domänen-Templates. Das Template "IT-Grundschutz" und "DS-GVO" liegt jeweils in 2 unterschiedlichen Versionen vor. 
-
-- **Kunde A** benutzt das Template "IT-Grundschutz V1.1". Der Kunde hat seine Domäne angepasst und ein eigenes Profil erstellt, dass als spezielle Vorlage für Abteilungen im Unternehmen benutzt wird.
-
-- **Kunde B** benutzt die Templates "IT-Grundschutz V1.0" und "DS-GVO V1.5". Der Kunde hat in der Domäne "IT-Grundschutz" Aspekte und Verknüpfungen der Objekte für seine Zwecke angepasst.
-
-- **Kunde C** benutzt unmodifiziert das Template "DS-GVO V1.0". Das Update auf die neuere Template-Version hat er noch nicht durchgeführt.
-
-- **Kunde D** benutzt das Template "ISO&nbsp;27000" und hat bisher keine Änderungen an der Domäne gemacht.
+- **Customer A** uses the template “IT-Grundschutz V1.1”. The customer has customized his domain and created his own profile that is used as a special template for departments in the company.
+- **Customer B** uses the templates “IT-Grundschutz V1.0” and “DS-GVO V1.5”. The customer has customized aspects and links of the objects in the “IT-Grundschutz” domain for his purposes.
+- **Customer C** uses the unmodified template “DS-GVO V1.0”. He has not yet updated to the newer template version.
+- **Customer D** uses the template “ISO&nbsp;27000” and has not yet made any changes to the domain.
 :::

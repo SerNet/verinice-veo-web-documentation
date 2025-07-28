@@ -1,88 +1,88 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Aufbau der Domäne IT-Grundschutz
+# Structure of the IT-Grundschutz Domain
 
-## Objekt- und Subtypen
+## Object and Subtypes
 
-### Scopeobjekte
+### Scope Objects
 
-- **Institutionen:** Zur Abbildung der Institution mit den wichtigsten Stammdaten.
-- **Informationsverbünde:** Informationsverbünde zur Erstellung von Sicherheitskonzepten.
-- **Externe Dienstleister:** Werden getrennt als externe Institutionen bzw. Organisationen betrachtet, um die speziellen Anforderungen an das Outsourcing abzubilden.
-- **Scopes (allgemein):** Zur Abbildung sonstiger Betrachtungsgegenstände, wie z.B. Projekte.
+- **Institutions:** For mapping the institution with the most important master data.
+- **Information Networks:** Used to create security concepts.
+- **External Service Providers:** Considered separately as external institutions or organizations to reflect the specific requirements of outsourcing.
+- **Scopes (general):** For mapping other subjects of consideration, such as projects.
 
-### Prozessobjekte
+### Process Objects
 
-- **Geschäftsprozesse:** Zur Dokumentation der Kernprozesse und weiterer unterstützender Prozesse.
-- **Fachverfahren:** Zur Dokumentation spezifischer Fachverfahren.
+- **Business Processes:** For documenting core and supporting processes.
+- **Specialized Procedures:** For documenting specific specialized procedures.
 
-### Assetobjekte
+### Asset Objects
 
-- **Informationen:** In Geschäftsprozessen, Fachverfahren oder Anwendungen verarbeitete Informationen.
-- **Anwendungen::** Zielobjekt (Software-)Anwendung nach IT-Grundschutz.
-- **IT-Systeme:** Zielobjekte wie Server, CLients, etc. nach IT-Grundschutz.
-- **ICS-Systeme:** Zielobjekt Industrielle Steuerungssysteme nach IT-Grundschutz.
-- **IoT-Systeme:** Zielobjekt Internet-of-Things nach IT-Grundschutz.
-- **Kommunikationsverbindungen:** Zielobjekt Kommunikations- und Netzwerkverbindungen nach IT-Grundschutz.
-- **Räume:** Zielobjekt Standort, Gebäude oder Räume nach IT-Grundschutz.
+- **Information:** Information processed in business processes, specialized procedures, or applications.
+- **Applications::** Target object (software) applications according to IT-Grundschutz.
+- **IT Systems:** Target objects such as servers, clients, etc., according to IT-Grundschutz.
+- **ICS Systems:** Target object industrial control systems according to IT-Grundschutz.
+- **IoT Systems:** Target object Internet-of-Things according to IT-Grundschutz.
+- **Communication Links:** Target object communication and network links according to IT-Grundschutz.
+- **Rooms:** Target object site, buildings, or rooms according to IT-Grundschutz.
 
-### Personenobjekte
+### Person Objects
 
-- **Personen:** Personen(gruppen) oder Rollen.
+- **Persons:** Individuals (or groups) or roles.
 
-### Incidentobjekte
+### Incident Objects
 
-- **Informationssicherheitsvorfälle:** Zur Dokumentation von Incidents/Vorfällen.
+- **Information Security Incidents:** For documenting incidents/events.
 
-### Dokumentenobjekte
+### Document Objects
 
-- **Netzpläne:** Dokumentenobjekt zur Speicherung von (Teil-)Netzplänen.
-- **Referenzdokumente:** Zur Speicherung von erstellten [Referenzdokumenten](#reports).
-- **Dokumente (allgemein):** Zur Speicherung beliebiger sonstiger Dokumentation.
+- **Network Plans:** Document object for storing (partial) network plans.
+- **Reference Documents:** For storing created [reference documents](#reports).
+- **Documents (general):** For storing any other documentation.
 
-### Controlobjekte
+### Control Objects
 
-- **Bausteinfamilien:** Alle System- und Prozessbausteine.
-- **Bausteinschichten:** Alle Schichten des IT-Grundschutz-Kompendium (ISMS, ORP, CON, OPS, DER, APP, SYS, IND, NET, INF).
-- **Bausteine:** Alle Bausteine des IT-Grundschutz-Kompendiums.
-- **Anforderungen:** Alle Anforderungen zu allen Bausteinen des IT-Grundschutz-Kompendium.
+- **Module Families:** All system and process modules.
+- **Module Layers:** All layers of the IT-Grundschutz Compendium (ISMS, ORP, CON, OPS, DER, APP, SYS, IND, NET, INF).
+- **Modules:** All modules of the IT-Grundschutz Compendium.
+- **Requirements:** All requirements for all modules in the IT-Grundschutz Compendium.
 
-### Szenarien
+### Scenarios
 
-- **Elementare Gefährdungen:** Können durch Erstellung der Gefährdungsübersicht nachgeladen werden, wenn eine Risikoanalyse für ein Zielobjekt erforderlich ist.
+- **Elementary Threats:** Can be loaded via the threat overview if a risk analysis is required for a target object.
 
-## Katalog
+## Catalog
 
-Der Katalog der Domäne IT-Grundschutz stellt das aktuell gültige IT-Grundschutz-Kompendium der Edition 2023 zur Verfügung. Im Katalog sind alle Bausteine mit Anforderungen und den elementaren Gefährdungen enthalten.
+The catalog of the IT-Grundschutz domain provides the currently valid IT-Grundschutz Compendium of the 2023 edition. It contains all modules with requirements and elementary threats.
 
-## Profile
+## Profiles
 
-Es stehen zwei Profile zur Anwendung bereit:
+Two profiles are available for application:
 
-### Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023
+### Standard or Core Protection According to IT-Grundschutz Compendium Edition 2023
 
-Durch Anwenden dieses Profiles wird eine Modellierung nach der Vorgehensweise Standard- oder Kernabsicherung auf Basis des gesamten IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt. Es werden Beispiel-Zielobjekte zu allen Bausteinen in Ihrer aktiven Unit erzeugt, die einfach an Ihre Institution angepasst werden können.
+By applying this profile, modeling according to the standard or core protection approach based on the entire IT-Grundschutz Compendium Edition 2023 is carried out. Example target objects for all modules will be created in your active Unit, which can be easily adapted to your institution.
 
-### Basis-Absicherung Kommunalverwaltung Version 4.0
+### Basic Protection Municipal Administration Version 4.0
 
-Durch Anwenden dieses Profiles wird eine Modellierung nach dem IT-GS Profil Basis-Absicherung Kommunalverwaltung V.4 auf Basis des IT-Grundschutz-Kompendiums der Edition 2023 durchgeführt.
+By applying this profile, modeling according to the IT-GS profile Basic Protection Municipal Administration V.4 based on the IT-Grundschutz Compendium Edition 2023 is carried out.
 
 ## Decisions
 
-Keine
+None
 
 ## Reports
 
-Die Domäne IT-Grundschutz stellt als Reports die Referenzdokumente bereit:
+The IT-Grundschutz domain provides the reference documents as reports:
 
-- **A.1 Strukturanalyse:** Eine Übersicht über die Geschäftsprozesse und die verschiedenen Assets.
-- **A.2 Schutzbedarfsfeststellung:** Eine Übersicht der Schutzbedarfsfeststellung.
-- **A.3 Modellierung:** Eine Übersicht über die Zielobjekte und modellierten Bausteine.
-- **A.4 Ergebnis des IT-Grundschutz-Checks:** Eine Übersicht über den Umsetzungsstatus der Anforderungen.
-- **A.5 Risikoanalyse:** Eine Übersicht über die Risiken und deren mitigierenden Maßnahmen.
-- **A.6 Realisierungsplan:** Eine Übersicht über die bestehenden Defizite bei der Umsetzung von Sicherheitsmaßnahmen.
+- **A.1 Structural Analysis:** An overview of business processes and various assets.
+- **A.2 Determination of Protection Needs:** An overview of the determination of protection needs.
+- **A.3 Modeling:** An overview of the target objects and modeled modules.
+- **A.4 Result of the IT-Grundschutz Check:** An overview of the implementation status of the requirements.
+- **A.5 Risk Analysis:** An overview of the risks and their mitigating measures.
+- **A.6 Implementation Plan:** An overview of existing deficiencies in implementing security measures.
 
-## Risikodefinition
+## Risk Definition
 
-Die Standard-Risikodefinition **Grundschutz-Risikoanalyse** (GSRA) basiert auf den im BSI-Standard 200-3 empfohlenen Parametern:
+The standard risk definition **Grundschutz Risk Analysis** (GSRA) is based on the parameters recommended in BSI Standard 200-3:
 
-![GSRA](/assets/domain-it-gs/verinice-31_gsra.de.png)
+![GSRA]( /assets/en/domain-it-gs/verinice-31_gsra.de.png)

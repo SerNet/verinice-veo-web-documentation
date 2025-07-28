@@ -35,7 +35,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     ],
   },
   {
-    text: { de: "Die Domäne IT-Grundschutz", en: "he IT-Grundschutz Domain" },
+    text: { de: "Die Domäne IT-Grundschutz", en: "The IT-Grundschutz Domain" },
     link: "/domain-it-gs/",
     collapsed: true,
     items: [

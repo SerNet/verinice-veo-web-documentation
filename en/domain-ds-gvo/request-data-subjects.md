@@ -1,26 +1,26 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Betroffenenanfragen
+# Data subject requests
 
-Betroffene haben gemäß der Artikel 12-23 der DS-GVO diverse Rechte im Rahmen der Verarbeitung personenbezogenener Daten. Werden diese Betroffenenrechte geltend gemacht, ist die Verantwortliche verpflichtet, fristgerecht und vollumfänglich zu reagieren.
+According to Articles 12-23 of the GDPR, data subjects have various rights in the context of the processing of personal data. If these data subject rights are asserted, the controller is obliged to respond in a timely manner and in full.
 
-## Neue Betroffenenanfrage anlegen
+## Create a new data subject request
 
-Betroffenenanfragen stellen in verinice einen Subtyp des Zielobjektes *Dokument* dar.
-Ein neues Objekt erstellen Sie entweder über das Dashboard mit Klick auf das *Formular Betroffenenanfragen* oder über das Hauptmenü *Objekte > Dokumente > Betroffenenanfragen* in der Objektübersicht über die Funktion des roten *Plus-Button*.
+In verinice, data subject requests are a subtype of the target object *Document*.
+You can create a new object either via the dashboard by clicking on the *Document* form or via the main menu *Objects > Documents > Requests for affected persons* in the object overview using the red *Plus button*.
 
-![Betroffenenanfrage](/assets/domain-ds-gvo/Bild19.png)
+![Affected person request](  /assets/en/domain-ds-gvo/Bild19.png)
 
-In dem sich öffnenden Dialog können Sie sämtliche Informationen, mindestens aber Name und Status zum *Formular Betroffenenanfragen* eingeben und abspeichern.
-Das neue Objekt wird nun in der Objektansicht aufgelistet und kann zur weiteren Bearbeitung geöffnet werden.
-Ihnen stehen wie gewohnt zwei Ansicht zur Verfügung. Die Detailansicht im linken Bereich und die Formularansicht im rechten Bereich.
+In the dialog that opens, you can enter and save all the information, but at least the name and status of the *Affected person request* form.
+The new object is now listed in the object view and can be opened for further editing.
+As usual, two views are available. The detailed view on the left and the form view on the right.
 
-Die Informationen zu der Betroffenenanfrage müssen im gleichnamigen Formular und somit in der Formularansicht eingegeben werden. Für eine bessere Übersicht können Sie die Detailansicht über die Funktion Objektdetails verstecken. Bei Bedarf kann der Vorgang jederzeit rückgängig gemacht werden über die Funktion Objektdetails anzeigen.
+The information on the affected person request must be entered in the form of the same name and therefore in the form view. For a better overview, you can hide the detailed view using the Object details function. If necessary, the process can be undone at any time using the Show object details function.
 
-## Formularinhalte Betroffenenanfrage
+## Form contents for data subject request
 
-Im Abschnitt *Allgemeine Informationen zur Anfrage* können Sie eine Auswahl zu Art der Anfrage treffen. Hierbei wird Ihnen eine Mehrfachauswahl ermöglicht.
+In the section *General information on the request* you can select the type of request. This allows you to make multiple selections.
 
-![Betroffenenanfrage](/assets/domain-ds-gvo/Bild20.png)
+![Data subject request](  /assets/en/domain-ds-gvo/Bild20.png)
 
-In den folgenden Abschnitten können weitere rechtlich relevante Informationen zu der Anfrage wie z.B. Fristen, Kontaktdaten des/der Anfragenden oder Identitätsprüfungen erfasst werden.
-Eine detaillierte Darstellung einer dokumentierten Betroffenenanfrage erhalten Sie mit dem *Report Betroffenenanfrage*, die Übersicht dokumentierter Betroffenenanfragen über den *Report Übersicht Betroffenanfragen*.
+In the following sections, you can enter further legally relevant information about the request, such as deadlines, contact details of the requestor(s) or identity checks.
+You can obtain a detailed presentation of a documented data subject request with the *Data subject request report*, the overview of documented data subject requests via the *Data subject request overview report*.

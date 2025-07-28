@@ -1,9 +1,10 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Kataloge
+# Catalogs
 
-![Kataloge](/assets/manual/catalogs.de.png)
+![Catalogs](  /assets/en/manual/catalogs.de.png)
 
-1. In Katalogen stehen je nach Domäne global Objekte zur Anwendung zur Verfügung. <br>Dies können z.B. Datenschutzgefährdungen, TOM oder IT-Grundschutz-Bausteine sein.
-1. Auch in den Katalogobjekten können Sie nach bestimmten Objekten **suchen**. In Katalogen wird bei Texteingabe standardmäßig im Namen des Objektes gesucht, da Katalogobjekte keinen Designator besitzen!
-1. Wählen Sie die gewünschten Objekte aus.
-1. Beim Anwenden werden die gewählten Objekte in Ihre jeweilige Unit kopiert und können dort verwendet werden.
+1. Depending on the domain, catalogs provide global objects for use.  
+   These may include, for example, data protection threats, technical and organizational measures (TOM), or IT-Grundschutz modules.
+2. You can also **search** within catalog objects. In catalogs, the search is performed by default on the object name, since catalog objects do not have a designator!
+3. Select the desired objects.
+4. When applied, the selected objects are copied into your active unit and can be used there.

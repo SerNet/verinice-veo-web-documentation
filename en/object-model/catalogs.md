@@ -1,11 +1,8 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Kataloge
+# Catalogs
 
-Kataloge stellen einen zentrale Aspekt im Objektmodell dar.
-
-In jeder Domäne steht ein Katalog zur Verfügung, der unterschiedliche Objekte bereitstellt. In der Domäne IT-Grundschutz sind dies z.B. Informationsverbünde, Bausteine (inklusive Familien und Schichten), Anforderungen und Elementare Gefährdungen:
-
-![Katalog IT-Grundschutz-Kompendium](/assets/object-model/catalog_model.de.png)
-
-Die einzelnen Katalogelemente enthalten **Referenzen**(Verknüpfungen) zu anderen Katalogelementen.
-Beim Anwenden von Katalogelemente werden die jeweiligen Objekte inklusiver aller Referenzen in die aktive Unit kopiert und können dort weiter bearbeitet werden.
+Catalogs are a central aspect of the object model.
+Each domain has a catalog that provides different objects. In the IT-Grundschutz domain, for example, these are information networks, building blocks (including families and layers), requirements and elementary threats:
+![Catalog IT-Grundschutz Compendium](  /assets/en/object-model/catalog_model.de.png)
+The individual catalog elements contain **references**(links) to other catalog elements.
+When catalog elements are applied, the respective objects, including all references, are copied to the active unit and can be further edited there.

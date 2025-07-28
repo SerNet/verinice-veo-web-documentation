@@ -1,18 +1,15 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Unit-Verwaltung
+# Unit management
 
-In der **Unit-Verwaltung** können Sie neue Units anlegen und bestehende Units bearbeiten oder löschen. Alle Funktionen verwenden Teile des bereits aus den **Ersten Schritten** bekannten Assistenten:
+In the **Unit administration** you can create new units and edit or delete existing units. All functions use parts of the wizard already known from the **First steps**:
+![Unit management](  /assets/en/manual/unit-management.de.png)
 
-![Unit-Verwaltung](/assets/manual/unit-management.de.png)
-
-1. Sie erreichen die Unit-Verwaltung jederzeit über das **verinice-Logo**,
-2. oder die Auswahl **Units verwalten** im Unit-Selektor.
-3. Beachten Sie die Anzahl **verfügbarer Units**! Grundsätzlich stehen immer zwei Units zur Verfügung, um z.B. eine Unit zur produktiven Arbeit und eine als Test-Unit nutzen zu können. Sollten alle verfügbaren Units in Verwendung sein, können Sie erst dann weitere anlegen, wenn Sie Units gelöscht oder weitere Units hinzugekauft haben.
-4. Name und Beschreibung einer Unit bearbeiten Sie über das **Stift-Icon**.
-5. Nicht mehr benötigte Units löschen Sie über das **Papierkorb-Symbol** nach einer Sicherheitsabfrage - Sie müssen den Namen der zu löschenden Unit bestätigen. Es wird empfohlen, vorab ein lokales Backup über [Datenübertragung](data-transfer) zu erstellen.
-
-![Unit löschen](/assets/manual/unit_delete.de.png)
-
-6. Neue **Units erstellen** Sie über den gleichnamigen Button im bereits bekannten Assistenten.
-7. Sie können (weitere) [Profile](/object-model/profiles.md) auf Ihre Unit anwenden. Bitte beachten Sie, dass mit einem Profil immer eine Vielzahl weiterer Objekte erzeugt und ggfs. auch eine neue Domäne zugewiesen wird. Dieser Vorgang kann aktuell nicht rückgängig gemacht werden!
-8. Analog können Sie Ihrer Unit weitere [Domänen](/object-model/domains.md) hinzufügen, um z.B. ein ISMS nach ISO 27001 und ein TISAX/VDA ISA Assessment mit denselben Objekten abzubilden.
+1. you can access the unit management at any time via the **verinice logo**,
+2. or select **Manage units** in the unit selector.
+3. note the number  of **available units**! There are always two units available, e.g. to use one unit for productive work and one as a test unit. If all available units are in use, you can only create further units if you have deleted units or purchased additional units.
+4. edit the name and description of a unit using the **pencil icon**.
+5. delete units that are no longer required by clicking on the **basket icon** after a confirmation prompt - you must confirm the name of the unit to be deleted. It is recommended to create a local backup in advance via [data transfer](data-transfer).
+![Delete unit](  /assets/en/manual/unit_delete.de.png)
+6.  create new **units** via the button of the same name in the already known wizard.
+7. you can apply (further) [profiles](/object-model/profiles.md) to your unit. Please note that a profile always creates a number of additional objects and may also assign a new domain. This process cannot currently be undone!
+8 Similarly, you can add further [domains](/object-model/domains.md) to your unit, e.g. to map an ISMS according to ISO 27001 and a TISAX/VDA ISA assessment with the same objects.

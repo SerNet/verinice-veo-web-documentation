@@ -1,56 +1,57 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Profil in der Domäne ISO/IEC 27000
+# Profile in the ISO/IEC 27000 Domain
 
-## Arbeiten mit Risikoprofil nach DIN ISO/IEC 27001
+## Working with Risk Profile according to DIN ISO/IEC 27001
 
-Ein **Profil** ist eine vordefinierte Zusammenstellung von Beispielobjekten und bereits angewendeten Katalogelementen, die auf einem bestimmten **Katalog** basieren. Es erleichtert den Einstieg und die Konfiguration einer Unit, da viele erforderliche Objekte und Zusammenhänge bereits enthalten sind. Im Gegensatz zu einem Katalog, können mit einem Profil Zusammenhänge zwischen Objekten abgebildet werden.
+A **profile** is a predefined set of example objects and already-applied catalog elements based on a specific **catalog**. It simplifies the setup and configuration of a Unit, as many required objects and relationships are already included. Unlike a catalog, a profile can represent relationships between objects.
 
-Mit einem Profil können Sie eine komplette Beispielorganisation oder ein Risikoprofil gemäß der **DIN ISO/IEC 27001** laden und auf Ihre Unit anwenden – inklusive der zugehörigen Scopes, Assets, Prozesse, Bedrohungen, Personen, Schwachstellen und Sicherheitsmaßnahmen.
+Using a profile, you can load a complete example organization or a risk profile based on **DIN ISO/IEC 27001** and apply it to your Unit – including associated scopes, assets, processes, threats, people, vulnerabilities, and security controls.
 
-## Vorteile von Risikoprofil nach DIN ISO/IEC 27001
+## Benefits of the Risk Profile according to DIN ISO/IEC 27001
 
-Profile bieten Ihnen folgende Vorteile:
+Profiles offer the following benefits:
 
-- **Schneller Einstieg:** Sie erhalten eine strukturierte Ausgangsbasis für Ihr ISMS.
-- **Zeitersparnis:** Viele Elemente sind bereits vorkonfiguriert – kein manuelles Anlegen notwendig.
-- **Standardsicherheit:** Die Inhalte orientieren sich an den anerkannten Normen wie der ISO/IEC 27001 und ISO/IEC 27005.
-- **Vereinfachte Bearbeitung:** Die Profile beinhalten typische Objekte, Beziehungen und Controls, die Sie direkt an Ihre Organisation anpassen können.
-- **Effiziente Risikoanalyse:** Basierend auf Bedrohungen und Schwachstellen gemäß **ISO/IEC 27005** sind zahlreiche Szenarien vordefiniert. Diese dienen als potentielle Risiken und sind bereits mit typischen **Assets** verknüpft. Zudem sind passende, risikomitigierende Maßnahmen aus **Anhang A der ISO/IEC 27001** zugeordnet, was den Aufwand für die Risikoerfassung und -bewertung erheblich reduziert.
+- **Quick start:** You get a structured starting point for your ISMS.
+- **Time savings:** Many elements are already preconfigured – no manual creation needed.
+- **Standards compliance:** The contents follow recognized standards like ISO/IEC 27001 and ISO/IEC 27005.
+- **Simplified editing:** The profiles include typical objects, relationships, and controls that can be directly adapted to your organization.
+- **Efficient risk analysis:** Based on threats and vulnerabilities according to **ISO/IEC 27005**, many scenarios are predefined. These serve as potential risks and are already linked to typical **assets**. In addition, appropriate risk-mitigating measures from **Annex A of ISO/IEC 27001** are assigned, significantly reducing the effort for risk identification and assessment.
 
-## Inhalte des ISO/IEC 27001-Profils
+## Contents of the ISO/IEC 27001 Profile
 
-Das ISO/IEC 27001-Profil stellt beispielhafte Objekte aus folgenden Bereichen bereit:
+The ISO/IEC 27001 profile provides example objects from the following areas:
 
-- Organisation-Struktur
-- ISMS-Geltungsbereich & Scopes
-- Externe Dienstleister
-- Geschäftsprozesse
-- Assets
-- Personen
-- Informationssicherheitsvorfälle
-- Dokumente & Aufzeichnungen
-- Controls: Sicherheitsmaßnahmen und Anforderungen der DIN ISO/IEC 27001
-- Szenarien: Bedrohungen und Schwachstellen nach ISO/IEC 27005
+- Organizational structure  
+- ISMS scope & scopes  
+- External service providers  
+- Business processes  
+- Assets  
+- People  
+- Information security incidents  
+- Documents & records  
+- Controls: Security measures and requirements from DIN ISO/IEC 27001  
+- Scenarios: Threats and vulnerabilities according to ISO/IEC 27005  
 
-## Anwenden eines Risikoprofils nach DIN ISO/IEC 27001
+## Applying a Risk Profile according to DIN ISO/IEC 27001
 
-Ein Profil kann in zwei Situationen angewendet werden:
+A profile can be applied in two scenarios:
 
-1. **Beim Erstellen einer neuen Unit**: Während des Erstellungsprozesses können Sie ein Profil auswählen, das direkt auf die neue Unit angewendet wird. Navigieren Sie dazu oben links im Menü auf das Drop-Down-Menü **Unit auswählen**, scrollen Sie ganz nach unten und wählen **Units verwalten**. Klicken Sie anschließend unten rechts auf Button **Unit erstellen** und wählen Sie im zweiten Schritt des Wizards aus, dass Sie das Risikoprofil nach DIN ISO/IEC 27001 anwenden wollen:
+1. **When creating a new Unit:** During the creation process, you can select a profile that is directly applied to the new Unit. To do so, navigate to the top left menu and click the **Select Unit** drop-down, scroll to the bottom, and choose **Manage Units**. Then click the **Create Unit** button in the lower right and in the second step of the wizard, select the option to apply the Risk Profile according to DIN ISO/IEC 27001:
 
-![Profil anwenden beim Erstellen einer Unit](/assets/domain-iso/verinice-39-profile-selection-when-creating.de.png)
-2. **Nachträglich für bestehende Units:** Auch nach der Erstellung einer Unit lässt sich das Risikoprofil nach DIN ISO/IEC 27001 nachträglich anwenden. Um erneut in die Unit-Verwaltung zu gelangen, können Sie alternativ auf das **verinice**-Logo klicken. Klicken Sie für die entsprechende Unit den Button **Profil anwenden** an, um das Profil auf eine bestehende Unit anzuwenden:
+![Apply profile when creating a unit]( /assets/en/domain-iso/verinice-39-profile-selection-when-creating.de.png)
 
-![Profil anwenden auf eine bereits erstelle Unit](/assets/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
+2.**Subsequently for existing Units:** Even after a Unit has been created, the risk profile according to DIN ISO/IEC 27001 can be applied retroactively. To access Unit management again, you can alternatively click on the **verinice** logo. For the corresponding Unit, click the **Apply Profile** button to apply the profile to an existing Unit:
 
-## Hinweis
+![Apply profile to an already created unit]( /assets/en/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
 
-Das Anwenden eines Profils überschreibt **keine bestehenden Daten**. Neue Objekte werden ergänzt, bereits vorhandene Strukturen bleiben erhalten.
+## Note
 
-Bitte beachten Sie:
+Applying a profile **does not overwrite** existing data. New objects will be added, and existing structures remain unchanged.
 
-- Bei den im Profil enthaltenen **Scopes**, **Geschäftsprozessen**, **Assets**, **Personen** und **Informationssicherheitsvorfällen** handelt es sich um **Beispieldaten**, die als Vorlage dienen. Diese sollten nach dem Anwenden des Profils individuell an die Gegebenheiten Ihrer Organisation angepasst werden.
+Please note:
 
-- Die unter **Controls** enthaltenen Anforderungen entsprechen den Vorgaben der **DIN ISO/IEC 27001 (Anhang A)**. Sie stellen keine Beispiele dar, sondern normative Anforderungen, die im Rahmen Ihrer ISMS-Umsetzung angemessen berücksichtigt und umgesetzt werden müssen, um eine Konformität mit der Norm zu erreichen.
+- The **scopes**, **business processes**, **assets**, **people**, and **information security incidents** included in the profile are **example data** intended as templates. These should be individually adapted to the conditions of your organization after applying the profile.
 
-- Die enthaltenen **Bedrohungen und Schwachstellen** wurden aus der **ISO/IEC 27005** übernommen. Auf dieser Basis wurden **beispielhafte Szenarien** modelliert und mit relevanten Assets sowie Sicherheitsmaßnahmen verknüpft. Diese Szenarien dienen als Ausgangspunkt für die Risikoanalyse und können im Rahmen des Risikomanagementprozesses an Ihre spezifischen Bedingungen angepasst und weiterentwickelt werden.
+- The **controls** included represent the requirements of **DIN ISO/IEC 27001 (Annex A)**. They are not examples, but normative requirements that must be appropriately considered and implemented within your ISMS to achieve compliance with the standard.
+
+- The included **threats and vulnerabilities** are taken from **ISO/IEC 27005**. Based on this, **example scenarios** were modeled and linked to relevant assets and security measures. These scenarios serve as a starting point for risk analysis and can be adapted and further developed according to your specific conditions as part of the risk management process.

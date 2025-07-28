@@ -1,81 +1,82 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Risikoanalyse nach 200-3
+# Risk Analysis according to 200-3
 
-## Definitionen
+## Definitions
 
-Im BSI IT-Grundschutz nach 200-x können je Unit unterschiedliche Parameter für die Risikoberechnung definiert werden. Die organisationsweite und für alle Zielobjekte gültige Risikomatrix wird unter [Risikodefinitionen](/manual/risk-definition.md) definiert. Navigieren Sie dazu im Menü zu **Risikodefinitionen** und anschließend **GSRA**. Hier können Sie mit einem **Klick auf das Stift-Symbol** die Kategorien bearbeiten. Dabei können Sie folgende Parameter an Ihre Anforderungen anpassen:
+In BSI IT Baseline Protection according to 200-x, different parameters for risk calculation can be defined per unit. The organization-wide risk matrix valid for all target objects is defined under [Risk Definitions](/manual/risk-definition.md).  
+Navigate in the menu to **Risk Definitions** and then **GSRA**. Here you can edit the categories by clicking the **pencil icon**. You can adapt the following parameters to your requirements:
 
-- Eintrittswahrscheinlichkeit
-  - Name und Definition der Kategorien
-- Schadenshöhe
-  - Name und Definition der Kategorien
-- Risikokategorien
-  - Name, Definition und Farbe der Kategorien
+- Probability of occurrence
+  - Name and definition of the categories
+- Extent of damage
+  - Name and definition of the categories
+- Risk categories
+  - Name, definition, and color of the categories
 
-![Risikomatrix](/assets/domain-it-gs/verinice-32-risk-matrix.de.png)
+![Risk Matrix]( /assets/en/domain-it-gs/verinice-32-risk-matrix.de.png)
 
-## Gefährdungsübersicht erstellen
+## Create Threat Overview
 
-Sofern eine Risikoanalyse erforderlich ist, müssen Sie im Zielobjekt bei den Objektdetails eine **Gefährdungsübersicht erstellen**. Dies kann z.B. erforderlich sein, wenn das Zielobjekt in einem der drei Schutzziele einen hohen oder sehr hohen Schutzbedarf aufweist.
+If a risk analysis is required, you must create a **threat overview** in the target object's details. This may be necessary, for example, if the target object has a high or very high protection requirement in one of the three security objectives.
 
-![Gefährdungsübersicht erstellen](/assets/domain-it-gs/verinice-32-threat-overview.de.png)
+![Create Threat Overview]( /assets/en/domain-it-gs/verinice-32-threat-overview.de.png)
 
-Durch diese Aktion werden die elementaren Gefährdungen entsprechend der Kreuzreferenztabellen des BSI in Ihre Unit kopiert und im Objektumfeld des Zielobjekts Risikoobjekte für jede elementare Gefährdung angelegt:
+This action copies the elemental threats according to the BSI cross-reference tables into your unit and creates risk objects for each elemental threat in the object environment of the target object:
 
-![Risiken](/assets/domain-it-gs/verinice-32-risks.de.png)
+![Risks]( /assets/en/domain-it-gs/verinice-32-risks.de.png)
 
-## Risikobewertung
+## Risk Assessment
 
-Um die einzelnen Elementaren Gefährdungen weiter bearbeiten zu können, klicken Sie auf die entsprechende Gefährdung und es öffnet sich ein Dialog. Hier kann als erstes die Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
+To further process the individual elemental threats, click on the respective threat to open a dialog. The first step is to perform the risk assessment. Evaluate the following parameters:
 
-- **Eintrittswahrscheinlichkeit** (und gegebenenfalls eine Erklärung)
-- **Auswirkung hinsichtlich der Schadenshöhe** (und gegebenenfalls eine Erklärung)
+- **Probability of occurrence** (and optionally an explanation)
+- **Impact regarding extent of damage** (and optionally an explanation)
 
-Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
+Based on these two values, the **gross risk** is automatically calculated using the risk matrix after you save your entries.
 
-![Risikobewertung](/assets/domain-it-gs/verinice-32-risik-assessment.de.png)
+![Risk Assessment]( /assets/en/domain-it-gs/verinice-32-risik-assessment.de.png)
 
-## Risikobehandlung
+## Risk Treatment
 
-Je nach Höhe des Risikos kann bzw. muss eine Risikobehandlung vorgenommen und gegebenenfalls eine Erklärung dokumentiert werden. Sie können mehrere **Behandlungsoptionen** auswählen, es stehen folgende Optionen zur Auswahl:
+Depending on the level of risk, a risk treatment may or must be performed, and optionally an explanation documented. You can select multiple **treatment options**, with the following options available:
 
-- Risikoakzeptanz
-- Risikovermeidung
-- Risikoreduktion
-- Risikotransfer
+- Risk acceptance
+- Risk avoidance
+- Risk reduction
+- Risk transfer
 
-![Risikobehandlung](/assets/domain-it-gs/verinice-32-risk-treatment.de.png)
+![Risk Treatment]( /assets/en/domain-it-gs/verinice-32-risk-treatment.de.png)
 
-### Risikoreduktion
+### Risk Reduction
 
-Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch Hinzufügen ergänzender Sicherheitsmaßnahmen reduziert werden. Dabei haben Sie zwei Möglichkeiten mitigierende Maßnahmen zu hinterlegen:
+If the risk treatment option **Risk Reduction** is selected, the risk can be reduced by adding additional security measures. You have two ways to add mitigating measures:
 
-1. Um eine **neue Maßnahme** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog, um die neue Maßnahme zu erstellen. Nachdem Sie Ihre Daten zur Maßnahme gespeichert haben, wird die neue Maßnahme im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt. 
+1. To create a **new measure**, click **Add Mitigating Measures** and then **Create Mitigating Measure**. A dialog opens to create the new measure. After saving your data for the measure, the new measure will be displayed in the previous risk dialog under **Measures for Risk Reduction**.
 
-1. Um bereits **vorhandene Maßnahmen** zu verknüpfen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Es öffnet sich ein Dialog, in dem Sie aus allen bereits vorhandenen Maßnahmen die benötigten mitigierenden Maßnahmen auswählen können. Nachdem Sie den Dialog mithilfe von **Speichern** schließen, werden die ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** angezeigt:
+2. To link **existing measures**, click **Add Mitigating Measures** and then **Link Mitigating Measure**. A dialog opens where you can select the required mitigating measures from all already existing measures. After closing the dialog by clicking **Save**, the selected measures will be displayed in the **Measures for Risk Reduction** section:
 
-![Vorhandene Maßnahmen verknüpfen](/assets/domain-it-gs/verinice-32-risk-reduction-1.de.png)
+![Link Existing Measures]( /assets/en/domain-it-gs/verinice-32-risk-reduction-1.de.png)
 
-![Maßnahmen zur Risikoreduktion (Mitigierende Maßnahmen)](/assets/domain-it-gs/verinice-32-risk-reduction-2.de.png)
+![Measures for Risk Reduction (Mitigating Measures)]( /assets/en/domain-it-gs/verinice-32-risk-reduction-2.de.png)
 
-Abschließend muss das **Nettorisiko** (und gegebenenfalls eine Erklärung) manuell gesetzt werden. **Speichern** und **Schließen** Sie den Risikodialog.
+Finally, the **net risk** (and optionally an explanation) must be set manually. **Save** and **Close** the risk dialog.
 
-### Mitigierende Maßnahmen bearbeiten
+### Edit Mitigating Measures
 
-Um Ihre mitigierenden Maßnahmen bearbeiten zu können, klicken Sie **Umsetzung anzeigen** bei der entsprechenden elementaren Gefährdung im Tab **Risiken** im Objektumfeld des Zielobjektes.
+To edit your mitigating measures, click **Show Implementation** for the corresponding elemental threat in the **Risks** tab in the target object's environment.
 
-![Mitigierende Maßnahmen: Umsetzung anzeigen](/assets/domain-it-gs/verinice-32-implementation-1.de.png)
+![Mitigating Measures: Show Implementation]( /assets/en/domain-it-gs/verinice-32-implementation-1.de.png)
 
-Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte Elementare Gefährdung. Hier können Sie die einzelnen Anforderungen/Maßnahmen bearbeiten. Indem Sie auf eine Anforderung/Maßnahme klicken öffnet sich der Umsetzungsdialog, wo Sie folgende Informationen einsehen bzw. einpflegen können:
+You will be taken to the overview of all mitigating measures for the selected elemental threat. Here you can edit the individual requirements/measures. Clicking on a requirement/measure opens the implementation dialog where you can view or enter the following information:
 
-- Informationen zu Zielobjekt und Anforderung/Maßnahme.
-- Anforderungsbeschreibung (aus dem IT-Grundschutz-Kompendium).
-- Informationen zur Umsetzung:
-  - Verantwortliche Person.
-  - Umsetzung bis (Datum).
-  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
-  - Umsetzungsbeschreibung.
+- Information about the target object and requirement/measure.
+- Requirement description (from the IT Baseline Protection Compendium).
+- Implementation information:
+  - Responsible person.
+  - Implementation deadline (date).
+  - Implementation status (Not processed, Yes, Partially, No, Dispensable).
+  - Implementation description.
 
-![Mitigierende Maßnahmen: Umsetzung bearbeiten](/assets/domain-it-gs/verinice-32-implementation-2.de.png)
+![Mitigating Measures: Edit Implementation]( /assets/en/domain-it-gs/verinice-32-implementation-2.de.png)
 
-Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
+After entering the data, close the dialog with **Save**.

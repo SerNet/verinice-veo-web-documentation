@@ -1,22 +1,22 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Datenschutz-Folgenabschätzung (DSFA)
+# Data protection impact assessment (DPIA)
 
-Eine Datenschutz-Folgenabschätzung ist ein spezielles Instrument zur Beschreibung, Bewertung und Eindämmung von Risiken für die Rechte und Freiheiten natürlicher Personen bei der Verarbeitung personenbezogener Daten. Sie ist durchzuführen, wenn die Form der Verarbeitung, insbesondere bei der Verwendung neuer Technologien, aufgrund der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung voraussichtlich ein hohes Risiko zur Folge hat. Sie befasst sich insbesondere mit Abhilfemaßnahmen, durch die der Schutz personenbezogener Daten sichergestellt und die Einhaltung der Verordnung nachgewiesen werden kann.
+A data protection impact assessment is a special instrument for describing, evaluating and mitigating risks to the rights and freedoms of natural persons in connection with the processing of personal data. It must be carried out if the form of processing, in particular when using new technologies, is likely to result in a high risk due to the nature, scope, circumstances and purposes of the processing. In particular, it deals with corrective measures to ensure the protection of personal data and to demonstrate compliance with the regulation.
 
-verinice unterstützt Sie bei der Durchführung einer Datenschutz-Folgenabschätzung.
+verinice supports you in carrying out a data protection impact assessment.
 
-## Neue DSFA anlegen
+## Create new DPIA
 
-Die Datenschutz-Folgenabschätzung stellt in verinice einen Subtyp des Zielobjektes *Prozess* dar und kann mit dem *Formular Datenschutz-Folgenabschätzung* über die zwei bewährten Methoden - Dashboard und/oder Hauptmenü - angelegt werden.
-Darüber hinaus gibt es die Besonderheit, dass eine DSFA bei Erfassung der ihr zugehörigen Verarbeitungstätigkeit über die Rubrik *Meldungen > DSFA erstellen* neu angelegt werden kann.
-Dieser Hinweis erscheint jedoch nur, wenn die automatisierte Entscheidungshilfe zum Ergebnis kommt, dass eine DSFA erforderlich ist, aber noch nicht durchgeführt wurde.
+In verinice, the data protection impact assessment is a subtype of the target object *process* and can be created with the *Data protection impact assessment form* using the two tried and tested methods - dashboard and/or main menu.
+In addition, there is the special feature that a DPIA can be created when the associated processing activity is recorded via the section *Notifications > Create DPIA*.
+However, this message only appears if the automated decision support comes to the conclusion that a DPIA is required but has not yet been carried out.
 
-![DSFA](/assets/domain-ds-gvo/Bild16.png)
+![DSFA](  /assets/en/domain-ds-gvo/Bild16.png)
 
-Die neue DSFA wird in diesem Fall automatisch als Teile der zugehörigen Verarbeitungstätigkeit aufgeführt.
+In this case, the new DPIA is automatically listed as part of the associated processing activity.
 
-![DSFA](/assets/domain-ds-gvo/Bild17.png)
+![DSFA](  /assets/en/domain-ds-gvo/Bild17.png)
 
-## Formularinhalte DSFA
+## Form contents DSFA
 
-Mit dem *Formular Datenschutz-Folgenabschätzung* können Sie die formalen Anforderungen nachweislich dokumentieren. Zudem kann auch für die DSFA eine eigenständige Risikoanalyse und Risikobehandlung durchgeführt werden. Einzelheiten hierzu finden Sie im Kapitel Risikoanalyse und Risikobehandlung.
+With the *Data Protection Impact Assessment* form, you can document the formal requirements in a verifiable manner. In addition, an independent risk analysis and risk treatment can also be carried out for the DPIA. Details on this can be found in the chapter Risk analysis and risk treatment.

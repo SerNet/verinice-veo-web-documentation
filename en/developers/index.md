@@ -1,7 +1,8 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Entwicklerdokumentation
+# Developer documentation
 
-In diesem Abschnitt finden Sie die technische Dokumentation zu verinice und der REST API:
+In this section you will find the technical documentation for verinice and the REST API:
 
-* Der Einstieg in die Nutzung der REST API ist in englischer Sprache unter [Getting Started with the verinice API](getting-started-with-the-verinice-api) beschrieben.
-* Technische Bezeichnungen sind im [Wörterbuch](dictionary) erläutert, um den Einstieg zu vereinfachen.
+* Getting started with the REST API is described in [Getting Started with the verinice API](getting-started-with-the-verinice-api).
+
+* Technical terms are explained in the [dictionary](dictionary) to make it easier to get started.

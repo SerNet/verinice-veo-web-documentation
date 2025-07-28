@@ -1,62 +1,47 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 32
+The following new features are available to users with the release of verinice 32:
+## General functions
+**Status: Productive**
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 32 zur Verfügung:
+- On the **Login page**, a clearer distinction is made between logging in to verinice.cloud and purchasing a subscription.
+- Links in German renamed to **Verknüpfung** to improve recognition for verinice users.
+- Fixed an error when saving risk mitigating measures.
+- Fixed an error when editing (saving) the conversion.
+- The implementation (RI - RequirementImplementation) of **ControlObjects** can now be applied in **Profiles**.
+- Update of the Keycloak theme to V.3.
+- Description of various dialogs made more informative.
+- Improved behavior of the collapsed menu.
+- Fixed an error when resetting the search or search criteria.
+- Fixed an error when displaying the **First steps** page, the page is no longer cut off on high-resolution screens.
+- Further expansion of test coverage.
+- Improved migration for updates with changes to domains.
 
-## Allgemeine Funktionen
+## Domain Privacy
+**Status: Productive**
+- Display of the description text of the request in the **Edit implementation** dialog.
+- A newly created **Data protection impact assessment** is automatically created as **Part** of the processing activity from which it is created.
+- In the **Data protection risk analysis** report, the description is displayed under the risk owner and is no longer truncated.
 
-**Status: Produktiv**
+## Domain IT-Grundschutz
+**Status: Productive**
+- Updating and improving the documentation of the IT-Grundschutz domain (modeling, IT-Grundschutz check, risk analysis).
+- When creating the **Hazard overview**, the generated risks are displayed without manual browser reload.
+- Missing modeling of individual requirements (CI - ControlImplementations) when applying the profile **Standard or core protection according to IT-Grundschutz Compendium Edition 2023** including cause fixed.
+- Missing display of potential values for probability of occurrence and impact/amount of damage in the risk dialog corrected.
 
-- Auf der **Anmeldeseite** wird deutlicher unterschieden zwischen Anmeldung in der verinice.cloud und Kauf einer Subskription.
-- Links in Deutsch umbenannt in **Verknüpfung**, um die Wiedererkennung für verinice-Anwendende zu verbessern.
-- Fehler beim Speichern von risikomitigierenden Maßnahmen behoben.
-- Fehler beim Bearbeiten (Speichern) der Umsetzung behoben.
-- In **Profilen** kann jetzt die Umsetzung (RI - RequirementImplementation) von **Controlobjekten** angewendet werden.
-- Aktualisierung des Keycloak-Themes auf V.3.
-- Beschreibung verschiedener Dialoge informativer gestaltet.
-- Verhalten des eingeklappten Menüs verbessert.
-- Fehler beim Zurücksetzen der Suche bzw. der Suchkriterien behoben.
-- Fehler bei der Darstellung der Seite **Erste Schritte** behoben, die Seite wird bei hochauflösenden Bildschirmen nicht mehr abgeschnitten.
-- Weiterer Ausbau der Testabdeckung.
-- Verbesserung der Migration bei Updates mit Änderungen an Domänen.
-
-## Domäne Datenschutz
-
-**Status: Produktiv**
-
-- Anzeige des Beschreibungstextes der Anforderung im Dialog **Umsetzung bearbeiten**.
-- Eine neue angelegte **Datenschutz-Folgenabschätzung** wird automatisch als **Teil** der Verarbeitungstätigkeit angelegt, aus der Sie erstellt wird.
-- Im Report **Datenschutz-Risikoanalyse** wird die Beschreibung unter dem Risikoverantwortlichen ausgegeben und nicht mehr abgeschnitten.
-
-## Domäne IT-Grundschutz
-
-**Status: Produktiv**
-
-- Aktualisierung und Verbesserung der Dokumentation der Domäne IT-Grundschutz (Modellierung, IT-Grundschutz-Check, Risikoanalyse).
-- Bei der Erstellung der **Gefährdungsübersicht** werden die erzeugten Risiken ohne manuellen Browser-Reload angezeigt.
-- Fehlende Modellierung einzelner Anforderungen (CI - ControlImplementations) beim Anwenden des Profils **Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023** inklusive Ursache behoben.
-- Fehlende Anzeige der potentiellen Werte für Eintrittswahrscheinlichkeit und Auswirkung/Schadenshöhe im Risikodialog korrigiert.
-
-## Domäne NIS2
-
-**Status: Produktiv**
-
-### Release der Domäne NIS2
-
-::: warning Veröffentlichung der Domäne **NIS2** zur Abbildung der Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union.
+## Domain NIS2
+**Status: Productive**
+### Release of the domain NIS2
+::: warning Release of the **NIS2** domain to reflect Directive (EU) 2022/2555 of the European Parliament and of the Council concerning measures for a high common level of cybersecurity across the Union.
 :::
+The domain is available for verinice in the [Subscription Portal](https://account.verinice.com/), for details see also the description of the [Domain NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) and the [Documentation](https://veo-docs.verinice.com/).
+## Domain ISO
+**Status: Prototype**
+- Mapping of scenarios, threats and vulnerabilities.
+- Creation of the risk catalog (conversion from verinice and adaptation to verinice.veo).
 
-Die Domäne steht für verinice im [Subskriptionsportal](https://account.verinice.com/) zur Verfügung, für Details siehe auch die Beschreibung zur [Domäne NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) und die [Dokumentation](https://veo-docs.verinice.com/).
+## Domain TISAX
+**Status: Private beta**
+- Revision of the profiles for self-assessments.
 
-## Domäne ISO
-
-**Status: Prototyp**
-
-- Abbildung von Szenarien, Bedrohungen und Schwachstellen.
-- Erstellung des Risikokataloges (Konvertierung aus verinice und Anpassung an verinice.veo).
-
-## Domäne TISAX
-
-**Status: Private Beta**
-
-- Überarbeitung der Profile für Self-Assessments.

@@ -1,47 +1,43 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 40
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 40 zur Verfügung:
+The following new features are available to users with the release of verinice 40:
 
-## Allgemeine Funktionen
+## General functions
 
-### Mehrfachauswahl Domänenzuordnung
+### Multiple selection domain assignment
 
-In der Objektübersicht können jetzt über die Mehrfachauswahl mehrere Objekte gleichzeitig einer weiteren Domäne zugeordnet werden:
+In the object overview, multiple objects can now be assigned to another domain at the same time using the multiple selection function:
+![Multiple selection for domain assignment]( /assets/en/release-notes/verinice-40-domain-association.de.gif)
 
-![Mehrfachauswahl für Domänenzuordnung](/assets/release-notes/verinice-40-domain-association.de.gif)
+### Accessibility
 
-### Barrierefreiheit
-
-Die gesamte Oberfläche wurde im Hinblick auf die Barrierefreiheit überarbeitet und erfüllt die Anforderungen nach WCAG 2.1 AA:
-
-![Barrierefreiheit Lighthouse](/assets/release-notes/verinice-40-lighthouse.de.png)
-
-![Barrierefreiheit AXE Developer Tools](/assets/release-notes/verinice-40-axe.de.png)
-
+The entire interface has been revised with regard to accessibility and fulfills the requirements of WCAG 2.1 AA:
+![Accessibility Lighthouse]( /assets/en/release-notes/verinice-40-lighthouse.de.png)
+![Accessibility AXE Developer Tools]( /assets/en/release-notes/verinice-40-axe.de.png)
 ::: info
-Zur Aufrechterhaltung der Barrierefreiheit werden aktuell automatisierte Accessibility-Tests in den Entwicklungsprozess integriert und das Akzeptanzkriterium **Barrierefreiheit erfüllt** verpflichtend in den Abnahmeprozess aufgenommen.
+To maintain accessibility, automated accessibility tests are currently being integrated into the development process and the acceptance criterion **Accessibility fulfilled** is included as a mandatory part of the acceptance process.
 :::
 
-### Detailverbesserungen
+### Detailed improvements
 
-* Banner Messages (z.B. Ankündigungen von neuen Releases) werden nach Bestätigung durch Anwendende geschlossen und nicht erst automatisch nach 10 Minuten.
+* Banner messages (e.g. announcements of new releases) are closed after confirmation by users and not automatically after 10 minutes.
 
-### Fehlerbehebungen
+### Bug fixes
 
-* In der bereits mit verinice 39 veröffentlichten Einbindung von Domänenspezifischen Control-Details im Umsetzungs-Dialog wurde ein Problem mit der Anzeige einzelner Informationen behoben.
-* Behebung eines Fehlers bei der Anzeige der Begründung zur Auswirkung (Schutzbedarf bzw. Business Impact).
-* Kleiner Fehlerbehebungen im Rahmen der Feature Flags.
-* Behebung von Fehlern und Vereinheitlichung des Layouts bei Seitentiteln (H1-Header).
+* In the integration of domain-specific control details in the conversion dialog already published with verinice 39, a problem with the display of individual information has been fixed.
+* Fixed an error when displaying the reason for the impact (protection requirement or business impact).
+* Minor bug fixes within the scope of the feature flags.
+* Fixed bugs and standardized the layout of page titles (H1 header).
 
-### Produktpflege
+### Product maintenance
 
-* Nuxt und zugehörige Pakete wurde auf neuere Versionen aktualisiert.
+* Nuxt and associated packages have been updated to newer versions.
 
-## Domäne ISO
+## Domain ISO
 
 **Status: Private Beta**
 
-### Dokumentation
+### Documentation
 
-Erste Version der Benutzerdokumentation für die Domäne ISO.
+First version of the user documentation for the domain ISO.

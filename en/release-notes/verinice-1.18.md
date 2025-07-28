@@ -1,70 +1,72 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 1.18
 
-## Neuerungen
+## New features
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.18 zur Verfügung!
+The following new features are available to all users with the release of verinice 1.18!
 
-### Domäne Datenschutz
+### Data protection domain
 
-Die Domäne DS-GVO wurde weiter verbessert:
+The GDPR domain has been further improved:
 
-* Kleinere Verbesserungen in Objekt und Formular **Datenschutzvorfall**.
-* Neue Reportvorlage **Meldeformular Datenschutzvorfall**.
-* Neue Reportvorlagen **Betroffenenanfrage** und **Übersicht Betroffenenanfragen**.
-* Die **Beispieldaten** enthalten exemplarische Betroffenenanfragen.
-* Die **DSFA-Auswahl** ist korrekt auf den Subtyp **DSFA** beschränkt.
-* Englischsprachige Version **Record of processing activities (processor) according to Art. 30 II GDPR** der Reportvorlage **Auftragsverarbeitungen gemäß Art. 30 II DS-GVO**.
+* Minor improvements in object and form **Data protection incident**.
+* New report template **Data  protection incident notification form**.
+* New report templates **Data subject request** and **Overview of data subject requests**.
+* The **Sample data** contains exemplary data subject requests.
+* The **DSFA selection** is correctly restricted to the **DSFA** subtype.
+* English version **Record of processing activities (processor) according to Art. 30 II 
+GDPR** of the report template **Order processing according to Art. 30 II GDPR**.
 
-### Multi-User
+### Multi-user
 
-verinice.DSMS kann ab sofort für mehrere Benutzer gekauft und genutzt werden. Den einzelnen Benutzer kann in verinice wahlweise Schreib- und/oder Leseberechtigung erteilt werden.
+verinice.DSMS can now be purchased and used for multiple users. The individual users can be granted write and/or read authorization in verinice.
 
 ### Multi-Unit
 
-Zur besseren Strukturierung großer Organisationen können über die beiden Standardunits (Unit 1 und Demo) hinaus weitere Units gekauft und genutzt werden.
+For better structuring of large organizations, additional units can be purchased and used in addition to the two standard units (Unit 1 and Demo).
 
-### Unithandling bei erstem Login
+### Unit handling at first login
 
-Das Handling von Units wurde für neue Anwender optimiert:
+The handling of units has been optimized for new users:
 
-* Beim Anlegen eines neuen Clients werden initial die beiden Units **Unit 1** und **Demo** angelegt.
-* Die Seite **Erste Schritte** wird standardmäßig nach dem ersten Login aufgerufen.
-* **Beispieldaten** können über den Link **Profile** zum Testen in die Unit **Demo** oder als Ausgangspunkt zum Aufbau der eigenen Organisation in die **Unit 1** geladen werden.
+* When a new client is created, the two units **Unit 1** and **Demo** are initially created.
+* The **First steps** page is called up by default after the first login.
 
-### Detailverbesserungen und Fehlerbehebungen
+**Sample data** can be loaded into the **Demo** unit via the **Profile** link for testing or as a starting point for setting up your own organization in **Unit 1**.
 
-* Der Fehler beim Aufruf der **Benutzerverwaltung** wurde behoben. Staging und prod verwenden jetzt eine identische KeyCloak-Version.
-* Die **Select All** Funktion (Checkbox) in Tabellen wurde aus Gründen der Inkonsistenz vorerst deaktiviert.
-* Das **Icon für Composite-Objekte** wird wieder korrekt angezeigt.
-* In Tabellen wird standardmäßig nach **Name aufsteigend** sortiert.
-* Als Vorbereitung für die **Domänenspezifische Anzeige von Reports** werden nur noch Reports angezeigt, deren Zielobjekttypen in der aktiven Domäne definiert sind.
-* Die Navigation überdeckt nicht mehr die Online-Dokumentation.
-* Die Navigation zu Scopes, Teile, In Scopes, Teil von und Links öffnet korrekt das jeweilige Objekt.
-* Verschiedene Sicherheitsrelevante Updates.
-* Fehler "Missing keys"" beim  Dialog **Verlassen** behoben.
-* Die automatischen Frontend-Tests wurden ergänzt um den Test **Überprüfung der  DSFA-Erfordernis**.
+### Detailed improvements and bug fixes
+
+* The error when calling the **User administration** has been fixed. Staging and prod now use an identical KeyCloak version.
+* The **Select All** function (checkbox) in tables has been deactivated for the time being for reasons of inconsistency.
+* The **Icon for composite objects** is displayed correctly again.
+* Tables are sorted by **Name ascending** by default.
+* In preparation for the **Domain-specific display of reports**, only reports whose target object types are defined in the active domain are displayed.
+* The navigation no longer covers the online documentation.
+* The navigation to Scopes, Parts, In Scopes, Part of and Links opens the respective object correctly.
+* Various security-related updates.
+* Fixed “Missing keys” error in the **Exit** dialog.
+* The automatic frontend tests have been supplemented by the test **Check DSFA requirement**.
 
 ## Preview
 
-Das verinice.TEAM arbeitet an weiteren Funktionen, die in Zukunft veröffentlicht werden.
-Die folgenden Inhalte stehen aktuell **NICHT** allen Anwenderinnen und Anwendern produktiv zur Verfügung.
+The verinice.TEAM is working on further functions that will be released in the future.
+The following content is currently **NOT** productively available to all users.
 
-### Domäne IT-Grundschutz
+### IT-Grundschutz domain
 
-Die Domäne IT-Grundschutz zur Abbildung eines ISMS nach den BSI-Standards der 200er-Reihe:
+The IT-Grundschutz domain for mapping an ISMS in accordance with the BSI 200 series standards:
 
-* Enthält alle erforderliche Objekte und Fomulare in **deutscher** und **englischer** Sprache.
-* Unterstützt die **Schutzbedarfszuordnung** in allen relevanten Objekten.
-* Stellt eine **Risikodefinition** zur späteren Risikoanalyse bereit.
-* Stellt das **IT-Grundschutz-Kompendium der Edition 2023** inklusive aller Bausteine, Anforderungen und Elementaren Gefährdungen des BSI als **Katalog zur Anwendung** (Modellierung) bereit.
-* Unterstützt die **Modellierung von Bausteinen** (ControlImplementation).
-* Unterstützt die **Umsetzung/Bearbeitung der Baustein-Anforderungen** (RequirementImplementation).
-* Stellt das **IT-Grundschutz-Profil Basisabsicherung Kommunalverwaltung** zur späteren Anwendung als Profil als Unit zur Verfügung.
+* Contains all required objects and forms in **German** and **English** language.
+* Supports the **protection requirement assignment** in all relevant objects.
+* Provides a **risk definition** for subsequent risk analysis.
+* Provides the **IT-Grundschutz Compendium Edition 2023** including all modules, requirements and elementary threats of the BSI as **Catalog for application** (modeling).
+* Supports the **modeling of building blocks** (ControlImplementation).
+* Supports the **implementation/processing of building block requirements** (RequirementImplementation).
+* Provides the **IT-Grundschutz profile Basisabsicherung Kommunalverwaltung** for later use as a profile as a unit.
 
-### Domäne NIS2
+### Domain NIS2
 
-Zum Nachweis der Einhaltung der Anforderungen der NIS2 erstellen wir die neue Domäne **NIS2**:
+To demonstrate compliance with the requirements of NIS2, we create the new **NIS2** domain:
 
-* Es existieren alle erforderlichen Objekte und grundsätzliche Formulare.
-* Unterstützt werden die Use Cases **Betroffenheitsanalyse** und **Meldepflichten**.
+* All required objects and basic forms exist.
+* The use cases **Affectedness analysis** and **Reporting obligations** are supported.

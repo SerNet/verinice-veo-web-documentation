@@ -1,80 +1,80 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Risikoanalyse und Risikobehandlung
+# Risk analysis and risk treatment
 
-## Risikodefinition
+## Risk definition
 
-Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix festgelegt. Navigieren Sie dazu im Menü zu **Risikodefinitionen**und anschließend **DSRA**. Hier können Sie die Kategorien mit einem **Klick auf das Stift-Symbol** bearbeiten. Dabei sind folgende Parameter individuell modifizierbar:
+The parameters for the risk matrix are defined in the **Risk definition** section. To do this, navigate to **Risk definitions** in the menu and then **DSRA**. Here you can edit the categories by **clicking on the pencil icon**. The following parameters can be modified individually:
 
-- Schadensauswirkung: Name und Definition der Kategorien
-- Eintrittswahrscheinlichkeit: Name und Definition der Kategorien
-- Risikokategorien: Name, Definition und Farbe der Kategorien
+- Impact of damage: Name and definition of the categories
+- Probability of occurrence: Name and definition of the categories
+- Risk categories: Name, definition and color of the categories
 
-![Risikomatrix](/assets/domain-ds-gvo/Bild23.png)
+![Risk matrix](  /assets/en/domain-ds-gvo/Bild23.png)
 
-## Risikoanalyse
+## Risk analysis
 
-Es besteht die Möglichkeit, für sämtliche Scope- und Prozess-Objekte eine Risikoanalyse durchzuführen. Hierfür gehen Sie bitte folgendermaßen vor:
+It is possible to carry out a risk analysis for all scope and process objects. To do this, please proceed as follows:
 
-- Wählen Sie für das betroffene Objekt z.B Verarbeitungstätigkeit im Objektumfeld den Reiter **Risiken**.
-- Über das rote **Plus-Icon** können Sie nun ein **Risiko** für Ihre Verarbeitungstätigkeit hinzufügen.
+- Select the **Risks** tab for the object concerned, e.g. processing activity in the object environment.
+- You can now add a **Risk** for your processing activity using the red **Plus icon**.
 
-![Risikoanalyse](/assets/domain-ds-gvo/Bild24.png)
+![Risk analysis](  /assets/en/domain-ds-gvo/Bild24.png)
 
-- Treffen Sie eine passende Auswahl aus den Datenschutzgefährdungen.
+- Make a suitable selection from the data protection risks.
 
-![Gefährdungen](/assets/domain-ds-gvo/Bild25.png)
+![Hazards](  /assets/en/domain-ds-gvo/Bild25.png)
 
-Bei der Auflistung handelt es sich um die aus dem Katalog auf Ihre Unit manuell angewandten Gefährdungen. Zudem haben Sie die Möglichkeit, eigene individuelle Gefährdungen als Objekte über das Formular **Gefährdungen** anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
+The list contains the threats manually applied to your unit from the catalog. You also have the option of creating your own individual hazards as objects using the **Hazards** form in order to use them for your risk analysis.
 
-## Risikobewertung
+## Risk assessment
 
-Um die einzelnen Datenschutzgefährdungen bearbeiten zu können, klicken Sie auf die entsprechende Gefährdung. Im sich öffnenden Risikodialog kann eine spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
+To edit the individual data protection risks, click on the corresponding risk. A specific risk assessment can be carried out in the risk dialog that opens. To do this, evaluate the following parameters:
 
-- **Eintrittswahrscheinlichkeit** und gegebenenfalls eine Erklärung.
-- **Schadensauswirkung** pro Schutzziel und gegebenenfalls eine Erklärung.
+- **Probability of occurrence** and, if applicable, an explanation.
+- Damage impact** per protection target and an explanation if necessary.
 
-Nachdem Sie Ihre Eingaben gespeichert haben, wird aus diesen beiden Werten automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
+After you have saved your entries, the **gross risk** is automatically calculated from these two values using the risk matrix.
 
-![Bruttorisiko](/assets/domain-ds-gvo/Bild26.png)
+![Gross risk](  /assets/en/domain-ds-gvo/Bild26.png)
 
-## Risikobehandlung
+## Risk treatment
 
-Für die Risikobehandlung stehen Ihnen die bekannten Optionen Risikovermeidung, Risikoreduktion, Risikotransfer und Risikoakzeptanz zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind.
+The familiar risk avoidance, risk reduction, risk transfer and risk acceptance options are available for risk treatment, each with a text field for explanations.
 
-![Risikobehandlung](/assets/domain-ds-gvo/Bild27.png)
+![Risk treatment](  /assets/en/domain-ds-gvo/Bild27.png)
 
-Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch hinzufügen **Mitigierender Maßnahmen** reduziert werden. verinice bietet Ihnen zwei Möglichkeiten **Mitigierende Maßnahmen** zu hinterlegen:
+If the **Risk reduction** risk treatment option is selected, the risk can be reduced by adding **mitigating measures**. verinice offers you two options for storing **mitigating measures**:
 
-### Mitigierende Maßnahme erstellen
+### Create mitigating measure
 
-Um eine **neue Maßnahmen** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog, um die neue Maßnahme erstellen zu können. Nachdem Sie Ihre Daten zur Maßnahme gespeichert haben, wird die neue Maßnahme im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt.
+To create a **new measure**, click **Add mitigating measure** and then **Create mitigating measure**. A dialog opens to create the new measure. After you have saved your data for the measure, the new measure is displayed in the previous risk dialog in the **Risk reduction measures** area.
 
-### Mitigierende Maßnahme verknüpfen
+### Link mitigating measure
 
-Sie können auch mitigierende Maßnahmen hinzufügen, indem Sie mit bereits **vorhandenen Maßnahmen** verknüpfen. Hierfür klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Im sich öffnenden Dialog können Sie eine Auswahl aus bereits erfassten Maßnahmen für die Mitigation treffen. Nach **Speicherung** werden die von Ihnen ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
+You can also add mitigating measures by linking them to **existing measures**. To do this, click **Add mitigating measures** and then **Link mitigating measure**. In the dialog that opens, you can make a selection from measures already entered for mitigation. After **Saving**, the measures you have selected are listed in the **Risk reduction measures** area.
 
-![Risikoreduktion](/assets/domain-ds-gvo/Bild28.png)
+![Risk reduction](  /assets/en/domain-ds-gvo/Bild28.png)
 
-Abschließend muss das Nettorisiko und gegebenenfalls eine Erklärung manuell gesetzt werden. Denken Sie bitte daran, den Risikodialog zu speichern und zu schließen.
+Finally, the net risk and, if applicable, an explanation must be set manually. Please remember to save and close the risk dialog.
 
-## Mitigierende Maßnahmen bearbeiten
+## Edit mitigating measures
 
-Um **Mitigierende Maßnahmen** bearbeiten zu können, navigieren Sie im Objektumfeld des betroffenen Zielobjektes zum Reiter Risiken. Hier werden die im Vorfeld identifizierten Risiken angezeigt. Über die Funktion **Umsetzung anzeigen** gelangen Sie zur Übersicht sämtlicher mitigierender Maßnahmen für das ausgewählte Risiko.
+To be able to edit **mitigating measures**, navigate to the Risks tab in the object environment of the target object concerned. The risks identified in advance are displayed here. The **Display implementation** function takes you to an overview of all mitigating measures for the selected risk.
 
-![Mitigierende Maßnahmen bearbeiten](/assets/domain-ds-gvo/Bild29.png)
+![Edit mitigating measures](  /assets/en/domain-ds-gvo/Bild29.png)
 
-Hier können Sie nun jede einzelne Maßnahme mit Klick auf die jeweilige Maßnahme bearbeiten. In dem sich öffnenden Umsetzungsdialog können folgende Informationen eingesehen bzw. eingepflegt werden:
+Here you can now edit each individual measure by clicking on the respective measure. The following information can be viewed or entered in the implementation dialog that opens:
 
-- Informationen zu Zielobjekt und TOM
-- Anforderungsbeschreibung
-- Informationen zur Umsetzung:
-    - Verantwortliche Person
-    - Umsetzung bis (Datum)
-    - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
-    - Umsetzungsbeschreibung
+- Information on target object and TOM
+- Description of requirements
+- Information on the implementation:
+- Person responsible
+- Implementation by (date)
+- Implementation status (Unprocessed, Yes, Partially, No, Not required)
+- Description of implementation
 
-![Maßnahmen](/assets/domain-ds-gvo/Bild30.png)
+![Measures](  /assets/en/domain-ds-gvo/Bild30.png)
 
-![Umsetzung bearbeiten](/assets/domain-ds-gvo/Bild31.png)
+![Edit implementation](  /assets/en/domain-ds-gvo/Bild31.png)
 
-Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
+After you have entered the data, close the dialog with **Save**.

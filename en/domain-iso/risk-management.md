@@ -1,92 +1,92 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Risikomanagement
+# Risk Management
 
-## Risikodefinition
+## Risk Definition
 
-Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix festgelegt. Navigieren Sie dazu im Menü zu **Risikodefinitionen** und anschließend **ISORA**. Hier können Sie mit einem **Klick auf das Stift-Symbol** Name, Definition und Farbe der Parameter Schadensauswirkung, Eintrittswahrscheinlichkeit und Risikokategorie modifizieren.
+In the **Risk Definition** section, the parameters for the risk matrix are defined. To do this, navigate to **Risk Definitions** in the menu and then to **ISORA**. Here you can modify the name, definition, and color of the parameters for impact, likelihood, and risk category by **clicking the pencil icon**.
 
-![Risikomatrix](/assets/domain-iso/verinice-39-riskmatrix.de.png)
+![Risk Matrix]( /assets/en/domain-iso/verinice-39-riskmatrix.de.png)
 
-## Risikoanalyse
+## Risk Analysis
 
-Es besteht die Möglichkeit, für sämtliche Scope-, Asset- sowie Prozess-Objekte eine Risikoanalyse durchzuführen. Hierfür gehen Sie bitte folgendermaßen vor:
+It is possible to perform a risk analysis for all scope, asset, and process objects. To do so, proceed as follows:
 
-- Wählen Sie für das betroffene Objekt, z.B Assets, im Objektumfeld den Tab-Reiter **Risiken**.
-- Über das rote **Plus-Icon** können Sie nun für Ihr Asset ein **Risiko** hinzufügen.
+- For the relevant object (e.g., assets), select the **Risks** tab in the object view.
+- Use the red **plus icon** to add a **risk** for your asset.
 
-![Risiko hinzufügen](/assets/domain-iso/verinice-39-add-risk.de.png)
+![Add Risk]( /assets/en/domain-iso/verinice-39-add-risk.de.png)
 
-- Treffen Sie eine passende Auswahl aus den Szenarien.
+- Choose an appropriate scenario.
 
-![Risiko auswählen](/assets/domain-iso/verinice-39-select-risk.de.png)
+![Select Risk]( /assets/en/domain-iso/verinice-39-select-risk.de.png)
 
-Bei der Auflistung handelt es sich um die Szenarien aus dem Katalog, die manuell auf Ihre Unit angewendet wurden. Darüber hinaus haben Sie die Möglichkeit, eigene individuelle Szenarien als Objekte über das Formular **Szenarien** anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
+The listed scenarios come from the catalog that was manually applied to your Unit. You can also create your own individual scenarios as objects using the **Scenarios** form, to use them in your risk analysis.
 
-## Risikobewertung
+## Risk Evaluation
 
-Um ein einzelnes Risiken bearbeiten zu können, klicken Sie auf das entsprechende Risiko. Im sich öffnenden **Risikodialog** kann eine spezifische Risikobewertung vorgenommen werden. Bewerten Sie hierzu folgende Parameter:
+To edit a single risk, click on the respective risk. In the **Risk Dialog** that opens, you can perform a specific risk assessment. Evaluate the following parameters:
 
-- **Eintrittswahrscheinlichkeit** (und gegebenenfalls eine Erklärung)
-- **Schadensauswirkung** pro Schutzziel (und gegebenenfalls eine Erklärung)
+- **Likelihood** (and optionally an explanation)  
+- **Impact** per protection goal (and optionally an explanation)  
 
-Nachdem Sie Ihre Eingaben gespeichert haben, wird das **Bruttorisiko** anhand der Risikomatrix berechnet.
+After saving your entries, the **inherent risk** is calculated based on the risk matrix.
 
-## Risikobehandlung
+## Risk Treatment
 
-Für die Risikobehandlung stehen Ihnen die Optionen
+The following options are available for risk treatment:
 
-- Risikovermeidung
-- Risikoreduktion
-- Risikotransfer
-- Risikoakzeptanz
+- Risk Avoidance  
+- Risk Reduction  
+- Risk Transfer  
+- Risk Acceptance  
 
-zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind.
+Each is provided with a text field for additional explanation.
 
-![Risikobehandlung auswählen](/assets/domain-iso/verinice-39-treat-risk.de.png)
+![Select Risk Treatment]( /assets/en/domain-iso/verinice-39-treat-risk.de.png)
 
-Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch Hinzufügen **Mitigierender Maßnahmen** reduziert werden.
+If **Risk Reduction** is selected, the risk can be reduced by adding **Mitigating Controls**.
 
-verinice bietet Ihnen zwei Möglichkeiten **Mitigierende Maßnahmen** zu hinterlegen:
+verinice offers two ways to document **Mitigating Controls**:
 
-### Mitigierende Maßnahme erstellen
+### Create a Mitigating Control
 
-Um eine neue **Maßnahme** zu erstellen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme erstellen**. Es öffnet sich ein Dialog zur Erfassung der neuen Maßnahme. Nachdem Sie die Daten zur Maßnahme gespeichert haben, wird diese im vorherigen Risikodialog im Bereich **Maßnahmen zur Risikoreduktion** angezeigt.
+To create a new **control**, click **Add Mitigating Controls** and then **Create Mitigating Control**. A dialog opens to enter data for the new control. After saving the control, it will appear in the previous Risk Dialog under **Controls for Risk Reduction**.
 
-### Mitigierende Maßnahme verknüpfen
+### Link a Mitigating Control
 
-Sie können auch **Mitigierende Maßnahmen** hinzufügen, indem Sie bereits **vorhandene Maßnahmen** verknüpfen. Die vorhandenen Sicherheitsmaßnahmen stammen entweder aus dem Katalog - durch das Anwenden einschlägiger Maßnahmen - oder handelt sich um individuell formulierte Maßnahmen, die als Objekte über das Formular **Sicherheitsmaßnahmen** angelegt wurden.
+You can also add **Mitigating Controls** by linking to **existing controls**. These existing security controls may come from the catalog (by applying relevant measures) or be custom-defined controls created using the **Security Controls** form.
 
-Über die Funktion **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahmen verknüpfen**, können Sie eine Auswahl aus den bereits erfassten Sicherheitsmaßnahmen für die Mitigation treffen. Nach Speicherung werden die von Ihnen ausgewählten Objekte im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
+Using the **Add Mitigating Controls** function and then **Link Mitigating Controls**, you can choose from previously documented controls for mitigation. Once saved, the selected controls will be listed in the **Controls for Risk Reduction** section.
 
-![Mitigierende Maßnahme hinzufügen](/assets/domain-iso/verinice-39-add-mitigating-controls.de.png)
+![Add Mitigating Control]( /assets/en/domain-iso/verinice-39-add-mitigating-controls.de.png)
 
-Abschließend muss das Nettorisiko und eine Erklärung gesetzt werden. Denken Sie bitte daran, den Risikodialog zu speichern und zu schließen.
+Finally, the net risk and a justification must be set. Please remember to save and close the Risk Dialog.
 
-::: info Für die zu einem Risiko zugehörigen mitigierenden Maßnahmen wird im Hintergrund stets eine Control-Gruppe erzeugt.
+::: info A control group is always created in the background for the controls assigned to a risk.
 :::
 
-![Control-Gruppe erzeugen](/assets/domain-iso/verinice-39-controlgroup-1.de.png)
+![Create Control Group]( /assets/en/domain-iso/verinice-39-controlgroup-1.de.png)
 
-![Control-Gruppe anlegen](/assets/domain-iso/verinice-39-controlgroup-2.de.png)
+![Add Control Group]( /assets/en/domain-iso/verinice-39-controlgroup-2.de.png)
 
-## Mitigierende Maßnahmen bearbeiten
+## Editing Mitigating Controls
 
-Um **Mitigierende Maßnahmen** zu bearbeiten, navigieren Sie im Objektumfeld des betroffenen Zielobjektes zum Tab-Reiter **Risiken**. Hier werden die im Vorfeld identifizierten Risiken angezeigt. Über die Funktion **Umsetzung anzeigen** gelangen Sie zur Übersicht sämtlicher mitigierender Maßnahmen für das ausgewählte Risiko.
+To edit **Mitigating Controls**, navigate to the **Risks** tab of the affected target object. All previously identified risks are listed here. Use the **Show Implementation** function to access an overview of all mitigating controls for the selected risk.
 
-![Umsetzung anzeigen](/assets/domain-iso/verinice-39-show-riskimplementation.de.png)
+![Show Implementation]( /assets/en/domain-iso/verinice-39-show-riskimplementation.de.png)
 
-![Übersicht Maßnahmen](/assets/domain-iso/verinice-39-control-list.de.png)
+![Control List Overview]( /assets/en/domain-iso/verinice-39-control-list.de.png)
 
-Hier können Sie nun jede einzelne Sicherheitsmaßnahme mit Klick auf die jeweilige Maßnahme bearbeiten. In dem sich öffnenden Umsetzungsdialog können folgende Informationen eingesehen bzw. eingepflegt werden:
+Here you can edit each individual control by clicking on it. In the implementation dialog that opens, the following information can be viewed or entered:
 
-- Informationen zum Zielobjekt
-- Angaben zur Sicherheitsmaßnahme wie z.B Controlbeschreibung, Maßnahmenart usw.
-- Informationen zur Umsetzung:
-  - Verantwortliche Person
-  - Umsetzung bis (Datum)
-  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
-  - Umsetzungsbeschreibung
+- Information about the target object  
+- Details about the security control, such as control description, control type, etc.  
+- Implementation information:
+  - Responsible person  
+  - Implementation deadline (date)  
+  - Implementation status (Not started, Yes, Partially, No, Not required)  
+  - Implementation description  
 
-![Bearbeitung Maßnahme](/assets/domain-iso/verinice-39-control-implementation.de.png)
+![Edit Control]( /assets/en/domain-iso/verinice-39-control-implementation.de.png)
 
-Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
+After entering the data, close the dialog with **Save**.

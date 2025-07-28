@@ -1,14 +1,13 @@
-<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Auftraggeber
+# Client
 
-Wenn Sie die Verarbeitung personenbezogener Daten als Auftragsverarbeiter i.S.v. Art. 4 Nr. 8 DS-GVO durchführen, dokumentieren Sie diese Auftragsverarbeitungen im Verzeichnis der
-Verarbeitungstätigkeiten. Näheres hierzu unter [Verarbeitung als Auftragsverarbeiter](/domain-ds-gvo/processors.md).
-Die Auftraggeber, für die Sie eine Auftragsverarbeitung durchführen, können über das *Formular Auftraggeber* angelegt und mit weitergehenden Informationen versehen werden.
+If you carry out the processing of personal data as a processor within the meaning of Art. 4 No. 8 GDPR, document these processing operations in the list of
+processing activities. For more information, see [Processing as a processor](/domain-ds-gvo/processors.md).
+The clients for whom you carry out order processing can be created via the *client* form and provided with further information.
 
-![Auftraggeber](/assets/domain-ds-gvo/Bild22.png)
+![Clients](  /assets/en/domain-ds-gvo/Bild22a.png)
 
-Im Nachgang können diese bei Erfassung der Verarbeitungstätigkeiten verknüpft werden wie im Kapitel Verarbeitung als Auftragsverarbeiter beschrieben.
+Subsequently, these can be linked when recording the processing activities as described in the chapter Processing as a processor.
 
-![Auftraggeber](/assets/domain-ds-gvo/Bild22a.png)
+![Client](  /assets/en/domain-ds-gvo/Bild22a.png)
 
-Über den *Report Auftragsverarbeitungen gemäß Art. 30 II DS-GVO* erfolgt eine Dokumentation über die Auftraggeber und für sie durchgeführte Verarbeitungstätigkeiten.
+The *Report on commissioned processing pursuant to Art. 30 II GDPR* is used to document the clients and the processing activities carried out for them.

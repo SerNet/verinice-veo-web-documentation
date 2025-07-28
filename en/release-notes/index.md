@@ -1,18 +1,12 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: warning Direkt zu den Neuerungen in Release [verinice 40](/release-notes/verinice-40.md)!
+::: warning Directly to the new features in release [verinice 40](/release-notes/verinice-40.md)!
 :::
-
-Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen und stehen ggf. nicht allen Anwenderinnen und Anwendern zur Verfügung:
-
-**Prototyp:** Diese Funktionen befinden sich in Entwicklung und sind nur intern verfügbar.
-
-**Private Beta:** Diese Funktionen stehen einer geschlossenen Gruppe von Testenden zur Verfügung.
-
-**Public Beta:** Diese Funktionen stehen allen Anwenderinnen und Anwendern für Tests zur Verfügung.
-
-**Produktiv:** Diese Funktionen stehen allen Anwenderinnen und Anwendern zur produktiven Nutzung zur Verfügung, sofern die jeweilige Domäne im gewählten Plan enthalten ist!
-
-::: danger Falls nach Release von verinice in der produktiven Umgebung Fehler erkannt werden, dokumentieren wir diese bis zur Behebung im verinice-Forum unter [Known Issues](https://forum.verinice.com/c/veo/known-issues/87)!
+New functions and in particular entire domains pass through various release phases and may not be available to all users:
+**Prototype:** These functions are under development and are only available internally.
+**Private beta:** These functions are available to a closed group of testers.
+**Public beta:** These functions are available to all users for testing.
+**Productive:** These functions are available to all users for productive use, provided the respective domain is included in the selected plan!
+::: danger If errors are detected in the productive environment after the release of verinice, we will document them in the verinice forum under [Known Issues](https://forum.verinice.com/c/veo/known-issues/87) until they are fixed!
 :::

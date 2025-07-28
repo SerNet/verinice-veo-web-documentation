@@ -1,44 +1,46 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # verinice 1.19
 
-## Neuerungen
+## New features
 
-Die folgenden Neuerungen stehen allen Anwenderinnen und Anwendern mit Release von verinice 1.19 zur Verfügung!
+The following new features are available to all users with the release of verinice 1.19!
 
-### Domäne Datenschutz
+### Data protection domain
 
-- Die fehlerhafte **Darstellung der Begründung für die DSFA-Erfordernis** wurde korrigiert.
-- Im **AV-Report** werden Auftraggeber im Abschnitt Controllers ausgeben.
+- The incorrect **display of the reason for the DSFA requirement** has been corrected.
+- In the **AV report**, clients are output in the Controllers section.
 
-### Detailverbesserungen und Fehlerbehebungen
+### Detailed improvements and bug fixes
 
-- Zur Absicherung der **Mandantentrennung** werden Beziehungen zwischen Objekten aus unterschiedlichen Units unterbunden.
-- Objekte können mit zirkulären Teil-von Beziehungen gespeichert werden.
-- Fehlerbehandlung bei Eingabe falscher Werte in **Zahlenfeldern** (Integer), z.B. Feld Löschfrist.
-- Falsche Erfolgsmeldung beim Abbruch eines Löschvorgangs behoben.
-- Die Darstellung/Priorität von Feldern in Tabellen wurde verbessert.
-- KeyCloak-Update auf V.22 und Aktualisierung des UI-Themes.
-- Der Dialog **Über verinice** wurde verbessert.
-- Frontend-Tests / End-2-End Tests verwenden separate Units.
-- Beheben der fehlerhaften Show/Hide-Funktion bei Radio-Buttons im Formschema-Editor.
-- Updates zur Schwachstellenbehebung eingespielt.
+- To ensure **client separation**, relationships between objects from different units are prevented.
+- Objects can be saved with circular part-of relationships.
+- Error handling when entering incorrect values in **number fields** (integer), e.g. deletion period field.
+- Incorrect success message when canceling a deletion process fixed.
+- The display/priority of fields in tables has been improved.
+- KeyCloak update to V.22 and update of the UI theme.
+- The **About verinice** dialog has been improved.
+- Frontend tests / End-2-End tests use separate units.
+- Fixed the faulty show/hide function for radio buttons in the form schema editor.
+- Updates to fix vulnerabilities installed.
 
 ## Preview
 
-Das verinice.TEAM arbeitet an weiteren Funktionen, die in Zukunft veröffentlicht werden.
-Die folgenden Inhalte stehen aktuell **NICHT** allen Anwenderinnen und Anwendern produktiv zur Verfügung.
+The verinice.TEAM is working on further functions that will be released in the future.
+The following content is currently **NOT** productively available to all users.
 
-### Domäne IT-Grundschutz
+### IT-Grundschutz domain
 
-- Das **IT-Grundschutz-Kompendium Edition 2023** steht als Katalog mit Bausteinen, Anforderungen sowie Teilanforderungen und Gefährdungen zur Verfügung. Alle Inhalte können in Units **angewendet** werden, wobei die Objekte inklusive referenzierter Objekte und der Referenzen (Verknüpfungen) in die Unit kopiert werden.
-- Angewendete Bausteine können an alle Scope-, Prozess- und Assetobjekte modelliert werden.
+- The **IT-Grundschutz Compendium Edition 2023** is available as a catalog with building blocks, requirements as well as partial requirements and hazards. All content can be **applied** in units, whereby the objects including referenced objects and references (links) are copied into the unit.
 
-### Domäne NIS2
+- Applied modules can be modeled on all scope, process and asset objects.
 
-Schärfung und Weiterentwicklung von Organisationsaspekten der NIS2.
+### Domain NIS2
 
-### Multi-Domain Betrieb
+Sharpening and further development of organizational aspects of NIS2.
 
-Der **Multi-Domain-Betrieb** ermöglicht das gleichzeitige Arbeiten in mehreren Fachgebieten/Standards auf einem Datenstamm:
-- Objekte, die in mehreren Domänen existieren, können in allen Domänen geöffnet, gelesen und gespeichert werden.
-- Objekte können einer anderen Domänen zugewiesen werden. 
+### Multi-domain operation
+
+Multi-domain operation** enables simultaneous work in several specialist areas/standards on one data master:
+
+- Objects that exist in several domains can be opened, read and saved in all domains.
+- Objects can be assigned to another domain.

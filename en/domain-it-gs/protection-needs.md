@@ -1,24 +1,28 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Schutzbedarf
+# Protection Requirements (Schutzbedarf)
 
-## Schutzbedarfsdefinition
+## Definition of Protection Requirements
 
-Die institutionsweiten und für alle Zielobjekte gültigen **Schutzbedarfskategorien** für die **Schutzziele** werden in der [Risikodefinition](./domain-it-gs-description#risikodefinition) definiert. Navigieren Sie dazu im Menü zu den **Risikodefinitionen** und anschließend **GSRA**. Hier können Sie mit einem **Klick auf den Stift** die Kategorien der Schutzziele bearbeiten.
+The institution-wide and valid-for-all-target-objects **protection requirement categories** for the **security objectives** are defined in the [Risk Definition](./domain-it-gs-description#risikodefinition).  
+Navigate in the menu to **Risk Definitions** and then **GSRA**. Here you can edit the categories of the security objectives by clicking the **pencil icon**.
 
-![Schutzbedarfsdefinitionen](/assets/domain-it-gs/4-Schutzbedarf-Definitionen.png)
+![Protection Requirement Definitions]( /assets/en/domain-it-gs/4-Schutzbedarf-Definitionen.png)
 
-::: info Aktuell können lediglich die Werte und Beschreibungen geändert werden! Die Erweiterung der Risikodefinition befindet sich in Entwicklung, siehe die [Roadmap](/roadmap/).
+:::info  
+Currently, only the values and descriptions can be changed! The extension of the risk definition is under development, see the [Roadmap](/roadmap/).  
 :::
 
-## Schutzbedarfsfeststellung
+## Determination of Protection Requirements
 
-Innerhalb eines Informationsverbundes lässt sich der Schutzbedarf für alle relevanten Zielobjekte festlegen. Im BSI IT-Grundschutz sind dies Geschäftsprozesse/Fachverfahren, Informationen, Anwendungen, IT-Systeme, ICS-Systeme, IoT-Systeme, Kommunikationsverbindungen und Räume. Öffnen Sie dazu das Formular des jeweiligen Zielobjektes und scrollen Sie bis zum Abschnitt **Wirkungsanalyse**. Wählen Sie in den Drop-Down-Menüs den entsprechenden Schutzbedarf für die Schutzziele aus.
+Within an information network, the protection requirement for all relevant target objects can be determined. According to the BSI IT Baseline Protection, these are business processes/specialized procedures, information, applications, IT systems, ICS systems, IoT systems, communication connections, and rooms.  
+To do this, open the form of the respective target object and scroll down to the section **Impact Analysis**. Select the corresponding protection requirement for the security objectives from the drop-down menus.
 
-![Schutzbedarfsfeststellung](/assets/domain-it-gs/5-Schutzbedarf.png)
+![Determination of Protection Requirements]( /assets/en/domain-it-gs/5-Schutzbedarf.png)
 
-## Schutzbedarfsvererbung
+## Inheritance of Protection Requirements
 
-In verinice wird der Schutzbedarf ausgehend von Geschäftsprozessen/Fachverfahren als oberster Ebene in der Ableitungshierarchie für die übrigen Zielobjekte getrennt nach Schutzziel automatisiert abgeleitet.
-Die automatisierte Ableitung des Schutzbedarfs folgt dabei immer dem Maximumprinzip über die gesamte Ableitungshierarchie, kann andererseits aber in jedem Zielobjekt manuell **überschrieben** werden, indem der Schutzbedarf über das Drop-Down-Feld **Nutzervorgabe** manuell gesetzt wird. In diesem Fall ist durch Auswahl in dem Drop-Down-Feld noch zu dokumentieren, ob **Verteilungseffekt** oder **Kumulationseffekt** zugrunde gelegt wurden.
+In verinice, the protection requirement is automatically derived starting from business processes/specialized procedures as the top level in the derivation hierarchy for the other target objects separately by security objective.  
+The automated derivation of the protection requirement always follows the maximum principle over the entire derivation hierarchy, but can also be manually **overridden** in each target object by setting the protection requirement via the drop-down field **User Specification**.  
+In this case, it must also be documented by selection in the drop-down field whether the **distribution effect** or **cumulative effect** was applied.
 
-![Schutzbedarfsvererbung](/assets/domain-it-gs/6-Ableitung%20des%20Schutzbedarfs.png)
+![Inheritance of Protection Requirements]( /assets/en/domain-it-gs/6-Ableitung%20des%20Schutzbedarfs.png)

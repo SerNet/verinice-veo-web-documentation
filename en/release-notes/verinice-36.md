@@ -1,40 +1,38 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice 36
+The following new features are available to users with the release of verinice 36:
 
-Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von verinice 36 zur Verfügung:
+## General functions
 
-## Allgemeine Funktionen
+**Status: Productive**
 
-**Status: Produktiv**
+### Detailed improvements
 
-### Detailverbesserungen
+- The object type **Measures** has been renamed to the generally valid and more comprehensible term **Controls**.
+- In a domain, you can configure which **Scope**, **Process** or **Asset** subtypes.
 
-- Der Objekttyp **Maßnahmen** wurde in den allgemeingültigen und verständlicheren Begriff **Controls** umbenannt.
-- In einer Domäne kann konfiguriert werden, welchen **Scope-**, **Prozess-** oder **Asset-** Subtypen **Compliancerelevante** oder **Risikomitigierende** Controls zugewiesen werden können.
+**Compliance-relevant** or **Risk-mitigating** controls can be assigned to.
 
-### Fehlerbehebungen
+### Bug fixes
 
-- Bei der Schutzbedarfsvererbung wird korrekt die **effektive Auswirkung** anstelle der **potentiellen Auswirkung** vererbt.
-- Korrektur des verfrüht angezeigten Bestätigungsdialogs bei Neuanlage eines Objekts.
-- Fehler beim Speichern von Übersetzungen (singular/plural) im Formschema-Editor behoben.
-- Typescript-Fehler im Frontend behoben.
+- When inheriting protection requirements, the **effective impact** is correctly inherited instead of the **potential impact**.
+- Correction of the prematurely displayed confirmation dialog when creating a new object.
+- Fixed an error when saving translations (singular/plural) in the form schema editor.
+- Typescript error in the frontend fixed.
 
-### Produktpflege
+### Product maintenance
 
-- Verbesserung des Deployment-Prozesses nach Änderungen an Domänen.
+- Improvement of the deployment process after changes to domains.
 
-### REST-API
+### REST API
 
-- Entfernen des **/type** -Endpunkts.
+- Removal of the **/type** endpoint.
 
-## Domäne DS-GVO
+## Domain DS-GVO
+**Status: Productive**
+- The **Risk** tab is no longer displayed for the **Data type**, **IT system** and
 
-**Status: Produktiv**
-
-- Der Reiter **Risiko** wird für die Subtypen **Datenart**, **IT-System** und **Anwendung** des Objekttyps **Asset** nicht mehr angezeigt.
-
-## Domäne ISO
-
-**Status: Prototyp**
-
-- Erstellung des ISO-27001 Control-Katalogs.
+**Application** subtypes of the **Asset** object type.
+## Domain ISO
+**Status: Prototype**
+- Creation of the ISO-27001 control catalog.

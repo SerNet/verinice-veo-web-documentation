@@ -1,12 +1,8 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Formulare
+# Forms
 
-In verinice können Formulare definiert werden, mit denen Objekte aus dem Modell erzeugt werden können. Es kann mehrere Formulare für ein Fachobjekt geben. Die Formulare müssen nicht Felder für alle Eigenschaften eines Objekts enthalten. Mit einem Formular können genau die Daten erfasst werden, die für einen Anwendungsfall benötigt werden. Mit einem Formular können auch Links und deren Eigenschaften bearbeitet werden. Die Elemente der Formulare werden in einem Formularschema beschrieben. In dem Schema wird definiert, welche Felder angezeigt werden, welche Aspekte damit verändert werden. Außerdem kann konfiguriert werden, welches Formularelement verwendet werden soll. So kann zum Beispiel die Auswahl eines Elements aus einer Liste durch eine Dropdown-Liste oder einen Radio-Button erfolgen. Im Formularschema kann auch flexibel konfiguriert werden, wie die Elemente im Formular gruppiert und angeordnet werden.
-
-Ein einfaches Formular für eine Verarbeitungstätigkeit kann zum Beispiel die Daten des Verfahrens selber (modelliert als [Prozess](objects#prozess)) und zwei Verknüpfungen zu einem Server und einer verantwortlichen Person enthalten.
-
-![forms-data-VTK](/assets/object-model/forms-data-VTK.png)
-
-Wenn zusätzlich auch die Technischen und organisatorischen Maßnahmen (TOMs) erfasst werden sollen, dann kann ein zweites Formular erzeugt werden, das zusätzlich Verknüpfungen zu den TOMs verwalten kann, die als [Control](objects#control) modelliert werden.
-
-![forms-data-VTK-TOM](/assets/object-model/forms-data-VTK-TOM.png)
+Forms can be defined in verinice with which objects can be created from the model. There can be several forms for a specialized object. The forms do not have to contain fields for all properties of an object. A form can be used to enter exactly the data that is required for a use case. A form can also be used to edit links and their properties. The elements of the forms are described in a form schema. The schema defines which fields are displayed and which aspects are changed. You can also configure which form element is to be used. For example, an element can be selected from a list using a drop-down list or a radio button. The form schema can also be used to flexibly configure how the elements in the form are grouped and arranged.
+For example, a simple form for a processing activity can contain the data of the process itself (modeled as [process](objects#process)) and two links to a server and a responsible person.
+![forms-data-VTK](  /assets/en/object-model/forms-data-VTK.png)
+If the technical and organizational measures (TOMs) are also to be recorded, a second form can be created that can also manage links to the TOMs, which are modelled as [Control](objects#control).
+![forms-data-VTK-TOM](  /assets/en/object-model/forms-data-VTK-TOM.png)

@@ -1,170 +1,178 @@
-<!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Die NIS2-Richtlinie umsetzen
+# Implementing the NIS2 Directive
 
-## Organisation erfassen
+## Registering the Organization
 
-Die Organisation stellt in verinice einen Subtyp des Zielobjektes **Scope** dar und kann mit dem **Formular Organisation** über zwei folgende Wege dokumentiert werden:
-Erfassen Sie Ihre Einrichtung, indem Sie im Dashboard zum **Formular Organisation** navigieren. In der sog. **Objektübersicht** können Sie mit dem roten **Plus-Icon** eine neue Organisation erstellen.
+In verinice, the organization is a subtype of the target object **Scope** and can be documented using the **Organization Form** via the following two methods:  
+Register your organization by navigating to the **Organization Form** on the dashboard. In the so-called **Object Overview**, you can create a new organization using the red **plus icon**.
 
-![Bild 1](/assets/domain-nis2/verinice-32-nis2-1.de.png)
+![Image 1]( /assets/en/domain-nis2/verinice-32-nis2-1.de.png)
 
-![Bild 2](/assets/domain-nis2/verinice-32-nis2-2.de.png)
+![Image 2]( /assets/en/domain-nis2/verinice-32-nis2-2.de.png)
 
-Alternativ können Sie über das Hauptmenü **Objekte >Scopes >Organisationen** in die **Objektübersicht** navigieren und mit dem roten **Plus-Icon** eine neue Organisation erfassen.
+Alternatively, you can navigate to the **Object Overview** via the main menu **Objects > Scopes > Organizations** and create a new organization using the red **plus icon**.
 
-![Bild 3](/assets/domain-nis2/verinice-32-nis2-3.de.png)
+![Image 3]( /assets/en/domain-nis2/verinice-32-nis2-3.de.png)
 
-In dem sich öffnenden Dialog können Sie, sofern gewünscht, sämtliche Informationen, mindestens aber Name und Status zum Formular **Organisationen** eingeben und abspeichern.
-Ihre Einrichtung wird nun als Organisation in der Objektansicht aufgelistet.
+In the dialog that opens, you can enter all relevant information for the **Organization Form**, at a minimum the name and status, and then save it.  
+Your institution will now appear in the object view as an organization.
 
-![Bild 4](/assets/domain-nis2/verinice-32-nis2-4.de.png)
+![Image 4]( /assets/en/domain-nis2/verinice-32-nis2-4.de.png)
 
-![Bild 5](/assets/domain-nis2/verinice-32-nis2-5.de.png)
+![Image 5]( /assets/en/domain-nis2/verinice-32-nis2-5.de.png)
 
-Klicken Sie auf das Objekt, wenn die neu angelegte Organisation zur weiteren Bearbeitung geöffnet werden soll.
+Click the object to open the newly created organization for further editing.
 
-Ihnen stehen nun zwei Ansicht zur Verfügung. Die **Detailansicht** im linken Bereich und die **Formularansicht** im rechten Bereich.
+You now have two views available: the **Detail View** on the left and the **Form View** on the right.
 
-![Bild 6](/assets/domain-nis2/verinice-32-nis2-6.de.png)
+![Image 6]( /assets/en/domain-nis2/verinice-32-nis2-6.de.png)
 
-Die Informationen für die Organisation müssen im gleichnamigen Formular und somit in der Formularansicht eingegeben werden. Für eine bessere Übersicht können Sie die Detailansicht verstecken über die Funktion **Objektdetails verstecken**. Dieser Vorgang kann jederzeit rückgängig gemacht werden über die Funktion **Objektdetails anzeigen**.
+The information for the organization must be entered in the form view. For better readability, you can hide the detail view using **Hide Object Details**, and reverse this anytime via **Show Object Details**.
 
-![Bild 7](/assets/domain-nis2/verinice-32-nis2-7.de.png)
+![Image 7]( /assets/en/domain-nis2/verinice-32-nis2-7.de.png)
 
-![Bild 8](/assets/domain-nis2/verinice-32-nis2-8.de.png)
+![Image 8]( /assets/en/domain-nis2/verinice-32-nis2-8.de.png)
 
-### Detailangaben
+### Detailed Information
 
-Im Abschnitt **Allgemeine Angaben** haben Sie die Möglichkeit neben einer Organisationsbeschreibung Informationen wie Abkürzung oder Status sowie Kontaktinformationen zu hinterlegen. Wenn Sie eine darüber hinausgehende zusätzliche Kontaktstelle für die Aufsichtsbehörde bestimmen möchten, können Sie diese im Abschnitt **NIS2 Kontaktstelle für Aufsichtsbehörde** benennen.
+In the **General Information** section, you can enter the organization description, abbreviation, status, and contact details.  
+If you want to designate an additional contact point for the supervisory authority, you can do this under **NIS2 Contact Point for Supervisory Authority**.
 
-Sektorspezifische Informationen, die Sie als NIS2 Betroffene im Rahmen der Registrierung melden müssen und ggf. Angaben zur Vertretung innerhalb der Europäischen Union können im Abschnitt **Sektorspezifische Informationen** des Formulars erfasst werden.
+Sector-specific registration data and representation within the EU can be entered in the **Sector-Specific Information** section.
 
-Darüber hinaus können Sie die für Sie zuständige Behörde, Registrierungsdatum und ggf. Informationen zu Registrierungsänderungen in diesem Formular dokumentieren. Mit dem Report **Registrierungsinformationen für zuständige Behörde** erhalten Sie eine detaillierte Darstellung der für eine Registrierung erforderlichen Informationen.
+You can also document your competent authority, registration date, and any changes to registration here.  
+The report **Registration Information for the Competent Authority** provides a detailed summary of required registration details.
 
-![Bild 9](/assets/domain-nis2/verinice-32-nis2-9.de.png)
+![Image 9]( /assets/en/domain-nis2/verinice-32-nis2-9.de.png)
 
-## NIS2 Geltungsbereiche
+## NIS2 Scope Definitions
 
-Sollten Sie für Ihre Einrichtung unterschiedliche Geltungsbereiche definieren wollen, so können Sie dies über das Formular **NIS2 Geltungsbereiche** realisieren.
+If you need to define different scopes for your institution, you can do so via the **NIS2 Scope** form.
 
-## Sicherheitsvorfälle
+## Security Incidents
 
-Wenn ein erheblicher Sicherheitsvorfall eintritt, müssen NIS2-Betroffene ein mehrstufiges Meldesystem umsetzen. Hierbei müssen Frühwarnungen, aktualisierte Meldungen und abschließende Berichte innerhalb von definierten Fristen durchgeführt werden.
+In case of a major security incident, NIS2-regulated entities must implement a multi-stage reporting system. This includes early warnings, updates, and final reports within defined timeframes.
 
-verinice unterstützt Sie bei der Erfassung und Dokumentation von Sicherheitsvorfällen. Sie können einen neuen Sicherheitsvorfall mit dem **Formular Sicherheitsvorfall** über die zwei bewährten Methoden - Dashboard und/oder Hauptmenü – anlegen.
+verinice supports you in recording and documenting security incidents. You can create a new incident via the **Security Incident Form** either from the dashboard or main menu.
 
-Im Abschnitt **Meldungsart** können Sie eine Auswahl zur Art der Meldung treffen.
+Under **Type of Report**, you can choose the report type.
 
-![Bild 10](/assets/domain-nis2/verinice-32-nis2-10.de.png)
+![Image 10]( /assets/en/domain-nis2/verinice-32-nis2-10.de.png)
 
-Neben allgemeinen Angaben zum Sachverhalt können weitere gesetzlich geforderte Informationen in den hierfür vorgesehenen Abschnitten erfasst werden.
-Des Weiteren werden betroffenen Zielobjekte, Meldungen an Behörden, Empfänger oder Öffentlichkeit, Fristen sowie geplante und umgesetzte Gegenmaßnahmen in den Dokumentations- und Bewertungsprozess mit einbezogen. Sämtliche Informationen können anschließen über den **Report Meldeformular Sicherheitsvorfall** ausgegeben und ggf. für eine Meldung bei den Aufsichtsbehörden verwendet werden.
+In addition to general information, legally required details can be entered in the designated sections.  
+Involved target objects, reports to authorities, recipients/public, deadlines, and mitigation measures are all part of the documentation and assessment.  
+All data can be exported via the **Security Incident Report** and used for official notifications.
 
-![Bild 11](/assets/domain-nis2/verinice-32-nis2-11.de.png)
+![Image 11]( /assets/en/domain-nis2/verinice-32-nis2-11.de.png)
 
-## Zielobjekte
+## Target Objects
 
-Wesentliche und wichtige Einrichtungen sind verpflichtet, geeignete und verhältnismäßige operative, technische und organisatorische Maßnahmen zu ergreifen, um Risiken für die Sicherheit der informationstechnischen Systeme, Komponenten und Prozesse, die sie für die Erbringung ihrer Dienste nutzen, zu vermeiden und Auswirkungen von Sicherheitsvorfällen möglichst gering zu halten.
+Essential and important entities are obligated to implement suitable and proportionate operational, technical, and organizational measures to mitigate risks to IT system security and minimize incident impact.
 
-Die Grundlage hierfür ist, dass Sie die Schutzobjekte für Ihre Einrichtung identifizieren, sinnvoll zusammenstellen und hinreichend erfassen. Das Vorgehen ist vergleichbar mit der Strukturanalyse im IT-Grundschutz.
+To do this, identify, organize, and sufficiently document your protection targets. This process is similar to structural analysis in IT Baseline Protection.
 
-Sämtliche relevanten Objekte können über die Formulare **Geschäftsprozesse**, **Assets** und **Lieferanten** abgebildet werden. Im Ergebnis sollte sich durch die Zusammenstellung der Objekte Ihre Infrastruktur widerspiegeln.
+Relevant objects can be recorded via the forms **Business Processes**, **Assets**, and **Suppliers**.  
+The goal is to reflect your infrastructure through the object collection.
 
-### Abhängigkeiten
+### Dependencies
 
-Für eine aussagekräftige Analyse ist es zudem erforderlich, die Abhängigkeiten der Zielobjekte zu beschreiben. verinice unterstützt Sie dabei, diese Abhängigkeiten über **Verknüpfung hinzufügen** in den Formularen umzusetzen.
+To ensure a meaningful analysis, it is necessary to describe the dependencies between target objects. verinice supports this via the **Add Link** function in forms.
 
-Um eine Relation zwischen zwei Zielobjekten zu herzustellen, müssen Sie im Formular eines Objektes das erforderliche andere Objekt mit der Funktion **Verknüpfung hinzufügen** auswählen. Scrollen Sie dazu im Formular weiter nach unten, wo die erforderlichen Objekte aufgelistet werden und suchen Sie das benötigte Objekt aus.
+In a target object form, scroll down to the relevant section and use **Add Link** to select or create the required object.
 
-![Bild 12](/assets/domain-nis2/verinice-32-nis2-12.de.png)
+![Image 12]( /assets/en/domain-nis2/verinice-32-nis2-12.de.png)
 
-Sollte das gewünschte Objekt nicht vorhanden sein, so haben Sie die Möglichkeit ein neues Objekt direkt aus dem Formular heraus zu erzeugen. Klicken Sie dazu **Verknüpfung hinzufügen** gewünschtes **Objekt erstellen**.
+If the object doesn’t exist yet, you can create it directly via **Add Link > Create Desired Object**.
 
-![Bild 13](/assets/domain-nis2/verinice-32-nis2-13.de.png)
+![Image 13]( /assets/en/domain-nis2/verinice-32-nis2-13.de.png)
 
-Im Objektumfeld finden Sie unter **Verknüpfung** eine Auflistung aller ein- und ausgehenden Verknüpfungen. Natürlich gelangen Sie auch von hier aus durch Mausklick zu dem gewünschten Zielobjekt, um dieses weiter zu bearbeiten.
+The **Links** section in the object environment displays all incoming and outgoing connections.  
+You can click to navigate directly to the linked target object.
 
-![Bild 14](/assets/domain-nis2/verinice-32-nis2-14.de.png)
+![Image 14]( /assets/en/domain-nis2/verinice-32-nis2-14.de.png)
 
-## Lieferanten
+## Suppliers
 
-Wenn in Ihrer Organisation Lieferanten zum Einsatz kommen, erfassen Sie diese im gleichnamigen **Formular Lieferanten**. Neben allgemeinen Informationen wie Kontaktinformationen können auch Verträge zu diesem Lieferanten in das Formular eingebunden werden. Des Weiteren können Sie Ihre Bewertung zu den technischen und organisatorischen Maßnahmen der Lieferanten dokumentieren.
+If your organization uses suppliers, enter them via the **Suppliers** form.  
+In addition to contact information, contracts can be attached, and evaluations of technical and organizational measures can be recorded.
 
-![Bild 15](/assets/domain-nis2/verinice-32-nis2-15.de.png)
+![Image 15]( /assets/en/domain-nis2/verinice-32-nis2-15.de.png)
 
-Angelegte Objekte stehen Ihnen im Rahmen der Dokumentation Ihrer **Geschäftsprozesse** als Beteiligte Lieferanten zur Verfügung. Alternativ können Sie die Lieferanten direkt aus dem Formular Geschäftsprozesse heraus über die Funktion **Verknüpfung hinzufügen > Lieferant erstellen** anlegen.
+These supplier objects are available for assignment in **Business Processes** or can be created directly from the form via **Add Link > Create Supplier**.
 
-## Organisationsspezifische Maßnahmen
+## Organization-Specific Measures
 
-Für die Erfassung **Organisationsspezifischer Maßnahmen** gehen Sie bitte folgendermaßen vor:
+To record **Organization-Specific Measures**, proceed as follows:
 
-Legen Sie eine neue **Anforderung** mit dem Formular Anforderung für das gewünschte Scope, Prozess oder Asset-Objekt an und benennen Sie es eindeutig z.B. spezifische Anforderung für Geschäftsprozess 1.
+Create a new **Requirement** using the form for the relevant scope, process, or asset, and give it a clear name, e.g., "Specific Requirement for Business Process 1."
 
-![Bild 16](/assets/domain-nis2/verinice-32-nis2-16.de.png)
+![Image 16]( /assets/en/domain-nis2/verinice-32-nis2-16.de.png)
 
-![Bild 17](/assets/domain-nis2/verinice-32-nis2-17.de.png)
+![Image 17]( /assets/en/domain-nis2/verinice-32-nis2-17.de.png)
 
-Öffnen Sie die neu angelegte Anforderung und navigieren im Objektumfeld zum Reiter **Teile**. Mit dem roten **Plus-Icon** können Sie nun eine oder mehrere neue Maßnahmen erstellen bzw. auswählen.
+Open the new requirement and navigate to the **Parts** tab in the object environment. Use the red **plus icon** to add one or more new measures.
 
-![Bild 18](/assets/domain-nis2/verinice-32-nis2-18.de.png)
+![Image 18]( /assets/en/domain-nis2/verinice-32-nis2-18.de.png)
 
-![Bild 19](/assets/domain-nis2/verinice-32-nis2-19.de.png)
+![Image 19]( /assets/en/domain-nis2/verinice-32-nis2-19.de.png)
 
-![Bild 20](/assets/domain-nis2/verinice-32-nis2-20.de.png)
+![Image 20]( /assets/en/domain-nis2/verinice-32-nis2-20.de.png)
 
-Wechseln Sie nun zum betroffenen Objekt (z.B. Geschäftsprozess 1) und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die gewünschte Anforderung z.B. Spezifische Anforderung für Geschäftsprozess 1 aus.
+Now go to the affected object (e.g., Business Process 1) and in the **Requirements** tab, use the red **plus icon** to select your custom requirement.
 
-![Bild 21](/assets/domain-nis2/verinice-32-nis2-21.de.png)
+![Image 21]( /assets/en/domain-nis2/verinice-32-nis2-21.de.png)
 
-![Bild 22](/assets/domain-nis2/verinice-32-nis2-22.de.png)
+![Image 22]( /assets/en/domain-nis2/verinice-32-nis2-22.de.png)
 
-Um die **Organisationsspezifischen Maßnahmen** für die Anforderung bearbeiten zu können, wählen Sie bitte **Umsetzung anzeigen**.
+To edit the **Organization-Specific Measures**, click **Show Implementation**.
 
-![Bild 23](/assets/domain-nis2/verinice-32-nis2-23.de.png)
+![Image 23]( /assets/en/domain-nis2/verinice-32-nis2-23.de.png)
 
-In der folgenden Übersicht werden die einzelnen Organisationsspezifischen Maßnahmen aufgelistet.
+All associated measures will be listed.
 
-![Bild 24](/assets/domain-nis2/verinice-32-nis2-24.de.png)
+![Image 24]( /assets/en/domain-nis2/verinice-32-nis2-24.de.png)
 
-Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken.
+Click each measure to begin implementation editing.
 
-![Bild 25](/assets/domain-nis2/verinice-32-nis2-25.de.png)
+![Image 25]( /assets/en/domain-nis2/verinice-32-nis2-25.de.png)
 
-![Bild 26](/assets/domain-nis2/verinice-32-nis2-26.de.png)
+![Image 26]( /assets/en/domain-nis2/verinice-32-nis2-26.de.png)
 
-## Mindestmaßnahmen
+## Minimum Measures
 
-Durch Anwenden des Katalogelementes **Art. 21 NIS2** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 enthält sämtliche Artikel der NIS2-Richtlinie inkl. der Erwägungsgründe. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
+Applying the catalogue element **Art. 21 NIS2** transfers the minimum measures into your unit.  
+The NIS2 domain catalogue includes all articles and recitals of the directive. These elements can be applied individually and edited within your unit.
 
-![Bild 27](/assets/domain-nis2/verinice-32-nis2-27.de.png)
+![Image 27]( /assets/en/domain-nis2/verinice-32-nis2-27.de.png)
 
-Bei der Anwendung von Art. 21 wird dieses Elemente inklusive der Verknüpfungen mit den Mindestmaßnahmen in die aktive Unit übernommen.
+When applying Article 21, the element and all associated minimum measures are transferred.
 
-![Bild 28](/assets/domain-nis2/verinice-32-nis2-28.de.png)
+![Image 28]( /assets/en/domain-nis2/verinice-32-nis2-28.de.png)
 
-Sie haben die Möglichkeit dieses Composite-Objekt jederzeit individuell zu erweitern, in dem Sie über den Reiter **Teile** mit dem roten **Plus-Icon** eine oder mehrere neue Maßnahmen erstellen bzw. auswählen.
+You can expand the composite object by adding measures via the **Parts** tab and the red **plus icon**.
 
-![Bild 29](/assets/domain-nis2/verinice-32-nis2-29.de.png)
+![Image 29]( /assets/en/domain-nis2/verinice-32-nis2-29.de.png)
 
-Selbstverständlich können auch die einzelnen Katalogelemente selbst in der aktiven Unit modifiziert werden.
+Catalogue elements can be modified within the unit as needed.
 
-Wechseln Sie nun zum betroffenen Objekt **Organisation** und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** für Ihre Organisation aus.
+Now go to the **Organization** object and in the **Requirements** tab, use the red **plus icon** to select the requirement **Art. 21 Risk Management Measures in Cybersecurity**.
 
-![Bild 30](/assets/domain-nis2/verinice-32-nis2-30.de.png)
+![Image 30]( /assets/en/domain-nis2/verinice-32-nis2-30.de.png)
 
-::: info Die Anwendungsmöglichkeit der Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** ist nicht auf **Organisationen** beschränkt. Bei Bedarf können Sie dieses Element auf sämtliche Schutzobjekte anwenden.
+:::info  
+The requirement **Art. 21 Risk Management Measures in Cybersecurity** is not limited to **Organizations**.  
+You can apply it to any protection object if needed.  
 :::
 
-![Bild 31](/assets/domain-nis2/verinice-32-nis2-31.de.png)
+![Image 31]( /assets/en/domain-nis2/verinice-32-nis2-31.de.png)
 
-Um die **Risikomanagementmaßnahmen im Bereich der Cybersicherheit** bearbeiten zu können, wählen Sie bitte **Umsetzung anzeigen**.
+To edit the **Risk Management Measures**, click **Show Implementation**.
 
-![Bild 132](/assets/domain-nis2/verinice-32-nis2-32.de.png)
+![Image 32]( /assets/en/domain-nis2/verinice-32-nis2-32.de.png)
 
-In der folgenden Übersicht werden die einzelnen **Risikomanagementmaßnahmen** aufgelistet
+All associated **Risk Management Measures** will be listed.
 
-![Bild 33](/assets/domain-nis2/verinice-32-nis2-33.de.png)
+![Image 33]( /assets/en/domain-nis2/verinice-32-nis2-33.de.png)
 
-Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken
+Click each measure to begin editing.
 
-![Bild 34](/assets/domain-nis2/verinice-32-nis2-34.de.png)
+![Image 34]( /assets/en/domain-nis2/verinice-32-nis2-34.de.png)

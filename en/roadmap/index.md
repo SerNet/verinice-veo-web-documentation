@@ -1,53 +1,43 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-Das verinice.Team arbeitet aktuell an den folgenden Themen:
+The verinice.team is currently working on the following topics:
 
 ## Q3 2025
+### Customizable risk definition
 
-### Anpassbare Risikodefinition
-
-Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwender anpassbar:
-
-- Erweiterung der Risikomatrix (Auswirkung/Schutzbedarf, Eintrittswahrscheinlichkeit). <!-- &53 -->
-- Konfiguration/Erweiterung der Schutzziele. <!-- &54 -->
-- Mehrere Risikodefinitionen je Domäne. <!-- &55 -->
+The risk definition will be customizable for users in several iterations:
+- Extension of the risk matrix (impact/need for protection, probability of occurrence). <!-- &53 -->
+- Configuration/extension of the protection goals. <!-- &54 -->
+- Multiple risk definitions per domain. <!-- &55 -->
 
 ### Shortcuts
-
-Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit, werden Tastenbefehle (Shortcuts) implementiert.
+Key commands (shortcuts) are implemented for better navigation, especially with regard to accessibility.
 
 ### verinice2BI-Connector<!-- &169 -->
+Provision of the control implementation and requirement implementation in the verinice2BI connector.
 
-Bereitstellung der Control Implementation und Requirement Implementation im verinice2BI-Connector.
+### OnPrem operation
+- Beta projects and roll-out of OnPrem operation.
+- Provision of client management for OnPrem environments. <!-- &172 -->
 
-### OnPrem-Betrieb
+## 2nd half of 2025
+### Further domains
 
-- Beta-Projekte und Roll Out des OnPrem-Betriebs.
-- Bereitstellung eines Client Managements für OnPrem-Umgebungen. <!-- &172 -->
+Further domains will be successively made available in the 2nd half of 2025:
+- ISO/IEC 27000 domain
+- Business Continuity Management domain (BSI standard 200-4 and ISO 22301)
+- Domain TISAX / VDA ISA
 
-## 2. Halbjahr 2025
+### Migration verinice to verinice.veo.
+Provision of the migration of data from verinice to verinice.veo.
 
-### Weitere Domänen
+### Authorization management
+Extension of the rights and role concept, initial:
+- Extend authorizations to units. <!-- &177 -->
+- Extend authorizations to scopes (e.g. information networks). <!-- &178 -->
 
-Im 2. Halbjahr 2025 werden sukzessive weitere Domänen zur Verfügung gestellt:
-
-- Domäne ISO/IEC 27000
-- Domäne Business Continuity Management (BSI-Standard 200-4 und ISO 22301)
-- Domäne TISAX / VDA ISA
-
-### Migration verinice nach verinice.veo.
-
-Bereitstellung der Migration von Daten aus verinice nach verinice.veo.
-
-### Berechtigungsmanagement
-
-Erweiterung des Rechte- und Rollenkonzepts, initial:
-- Berechtigungen auf Units ausweiten. <!-- &177 -->
-- Berechtigungen auf Scopes (z.B. Informationsverbünde) ausweiten. <!-- &178 -->
-
-### Allgemeine Funktionen
-
-- Die Konfiguration domänenspezifischer Inhalte wird optimiert.
-- Die Dokumentation wird vervollständigt und internationalisiert (EN). <!-- &166, &167, &144 -->
-- Bereitstellung des Risikokataloges für die Domäne ISO 27001 mit den lizenzrechtlich verschlüsselten Controltexten.
+### General functions
+- The configuration of domain-specific content is optimized.
+- The documentation is completed and internationalized (EN). <!-- &166, &167, &144 -->
+- Provision of the risk catalog for the ISO 27001 domain with the license-coded control texts.
