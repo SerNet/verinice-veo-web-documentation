@@ -6,13 +6,15 @@
   "description": "This documentation aims to describe the usage of verinice.veo along with an in depth explanation of its object-model and a developer reference",
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:typecheck": "tsc --noEmit",
+    "docs:build": "npm run docs:typecheck && vitepress build",
     "docs:preview": "vitepress preview",
     "postdocs:build": "node externalize-scripts.mjs"
   },
   "devDependencies": {
     "glob": "^11.0.0",
     "hash-sum": "^2.0.0",
+    "typescript": "^5.8.3",
     "vitepress": "^1.0.2"
   }
 }
