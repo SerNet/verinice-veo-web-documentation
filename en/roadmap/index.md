@@ -9,7 +9,7 @@ The verinice team is currently working on the following topics:
 ### Customizable risk definition
 
 The risk definition will be customizable for users in several iterations:
-- Configuration/extension of protection goals. <!-- &54 -->
+- Configuration/extension of protection goals <!-- &54 -->
 
 ### Shortcuts
 Key commands (shortcuts) are implemented for better navigation, especially with regard to accessibility.
@@ -26,8 +26,8 @@ Keyboard shortcuts will be implemented for better navigation, especially with re
 ### Additional domains
 
 In the second half of 2025, additional domains will be made available successively:
-- Business Continuity Management domain (BSI Standard 200-4 and ISO 22301).
-- TISAX / VDA ISA domain.
+- Business Continuity Management domain (BSI Standard 200-4 and ISO 22301)
+- TISAX / VDA ISA domain
 
 ### Migration from verinice to verinice.veo.
 
