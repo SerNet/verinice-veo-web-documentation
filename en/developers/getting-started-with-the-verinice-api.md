@@ -20,7 +20,7 @@ def get_token():
         'username':USER_NAME, 
         'password':PASSWORD,
         'grant_type':'password',
-        'client_id':'verinice-veo-api'
+        'client_id':'veo-prod'
     }
 
     response = requests.post("https://auth.verinice.com/auth/realms/verinice-veo/protocol/openid-connect/token", data = body)
