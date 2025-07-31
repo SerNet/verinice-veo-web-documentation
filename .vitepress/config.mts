@@ -9,6 +9,13 @@ const sharedConfig: UserConfig<DefaultTheme.Config> = {
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
   ],
+
+ // default theme Config
+  themeConfig: {
+    search: {
+      provider: "local",
+    }
+  },
 };
 
 // German theme configuration
