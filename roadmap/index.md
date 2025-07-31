@@ -17,7 +17,7 @@ Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit,
 
 ### OnPrem-Betrieb
 
-- Beta-Projekte und Roll Out des OnPrem-Betriebs.
+- Beta-Projekte und Rollout des OnPrem-Betriebs.
 - Bereitstellung eines Client Managements für OnPrem-Umgebungen. <!-- &172 -->
 
 ## 2. Halbjahr 2025

@@ -17,7 +17,7 @@ In der **Risikodefinition** können jetzt **Eintrittswahrscheinlichkeit**, **Aus
 
 In der **Objektansicht** wurde der linksseitige Bereich optimiert:
 - **Letzte Änderung**, **Erstellt** und die **Beschreibung** werden nicht mehr redundant angezeigt.
-- die Icons für die **Objektspezifischen Aktionen** wurden in die rechte Seitenleiste verschoben.
+- Die Icons für die **Objektspezifischen Aktionen** wurden in die rechte Seitenleiste verschoben.
 - Der **Tab-Reiter** nimmt die gesamte verfügbare Höhe ein.
 
 ![Optimierte Objektansicht](/assets/release-notes/verinice-41-object-details.de.png)
@@ -28,7 +28,7 @@ Im **verinice2BI-Connector** können jetzt angewendete Controls und modellierte 
 
 ### Produktpflege
 
-Die OpenAPI-Dokumentation wurde verbessert, um die Nutzung der REST-API zu einfacher zu gestalten.
+Die OpenAPI-Dokumentation wurde verbessert, um die Nutzung der REST-API einfacher zu gestalten.
 
 ## Domäne ISO 27001 (DE)
 
