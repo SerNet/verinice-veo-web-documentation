@@ -19,6 +19,7 @@ def get_token():
     body = { 
         'username':USER_NAME, 
         'password':PASSWORD,
+        'otp':OTP,
         'grant_type':'password',
         'client_id':'veo-prod'
     }
@@ -32,6 +33,7 @@ def get_token():
 For the creation of a token, these parameters must be set:
  - `USER_NAME`: A valid user name
  - `PASSWORD`: The password for the user
+ - `OTP`: One-time password (use empty string if 2-factor authentication is not configured for the user)
 
 ## Loading Units
 
