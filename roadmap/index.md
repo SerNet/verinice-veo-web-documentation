@@ -5,16 +5,6 @@ Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
 ## Q3 2025
 
-### Anpassbare Risikodefinition
-
-Die Risikodefinition wird in mehreren Iterationen für Anwenderinnen und Anwender anpassbar:
-
-- Konfiguration/Erweiterung der Schutzziele. <!-- &54 -->
-
-### Shortcuts
-
-Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit, werden Tastenbefehle (Shortcuts) implementiert.
-
 ### OnPrem-Betrieb
 
 - Beta-Projekte und Rollout des OnPrem-Betriebs.
@@ -42,5 +32,8 @@ Erweiterung des Rechte- und Rollenkonzepts, initial:
 ### Allgemeine Funktionen
 
 - Die Konfiguration domänenspezifischer Inhalte wird optimiert.
-- Die Dokumentation wird vervollständigt und internationalisiert (EN). <!-- &166, &167, &144 -->
 - Bereitstellung des Risikokataloges für die Domäne ISO 27001 mit den lizenzrechtlich verschlüsselten Controltexten.
+
+### Internationalisierung
+
+- Internationalisierung aller Report-Vorlagen in Deutsch und Englisch.
