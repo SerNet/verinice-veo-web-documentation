@@ -25,7 +25,7 @@ Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit,
 
 ### Detailverbesserungen und Fehlerbehebungen
 
-- Das erfolgreiche Speichern von Objekten wird nicht mehr durch einen Bestätigungsdialog, sondern durch eine Statusänderung in der Schaltfläche Speichern angezeigt.
+- Das erfolgreiche Speichern von Objekten wird nicht mehr durch einen Bestätigungsdialog, sondern durch eine Statusänderung in der Schaltfläche *Speichern* angezeigt.
 - Beim Anwenden von Profilen werden bereits existierende Katalogelemente berücksichtigt und nicht erneut angelegt.
 - Die Barrierefreiheit wird im Entwicklungsprozess automatisiert getestet, um diese kontinuierlich aufrecht zu erhalten.
 - Die Meldung zur Änderung von Risikowerten beim Speichern von bearbeiteten Objekten schließt automatisch nach 3 Sekunden.

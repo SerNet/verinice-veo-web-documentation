@@ -25,7 +25,7 @@ Shortcuts have been implemented to improve navigation, particularly with regard 
 
 ### Detail improvements and bug fixes
 
-- The successful saving of objects is no longer indicated by a confirmation dialog, but by a status change in the Save button.
+- The successful saving of objects is no longer indicated by a confirmation dialog, but by a status change in the *Save* button.
 - When applying profiles, existing catalog elements are taken into account and not created again.
 - Accessibility is tested automatically during the development process in order to maintain it continuously.
 - The message for changing risk values when saving edited objects closes automatically after 3 seconds.
