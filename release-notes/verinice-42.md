@@ -15,7 +15,7 @@ Zu **Risikodefinitionen** können jetzt Risikokategorien hinzugefügt, bearbeite
 
 ### Internationalisierung der Dokumentation
 
-Die Dokumentation liegt in einer ersten englischsprachigen Version vor - es kann zwischen Deutsch und Englisch gewechselt werden
+Die Dokumentation liegt in einer ersten englischsprachigen Version vor - es kann zwischen Deutsch und Englisch gewechselt werden.
 
 ### Shortcuts
 

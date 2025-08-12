@@ -15,7 +15,7 @@ Risk categories can now be added, edited or deleted for **risk definitions**:
 
 ### Internationalization of the documentation
 
-The documentation is available in a first English version - you can switch between German and English
+The documentation is available in a first English version - you can switch between German and English.
 
 ### Shortcuts
 
