@@ -151,8 +151,4 @@ export default defineConfig({
       link: '/en/',
     },
   },
-   sitemap: {
-    // TODO verinice-veo#3004
-    hostname: 'https://veo-docs.verinice.com/',
-    }
 });
