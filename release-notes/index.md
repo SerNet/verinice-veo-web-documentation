@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: warning Direkt zu den Neuerungen in Release [verinice 42](/release-notes/verinice-42.md)!
+::: warning Direkt zu den Neuerungen in Release [verinice 43](/release-notes/verinice-43.md)!
 :::
 
 Neue Funktionen und insbesondere ganze Domänen durchlaufen verschiedene Release-Phasen und stehen ggf. nicht allen Anwenderinnen und Anwendern zur Verfügung:
