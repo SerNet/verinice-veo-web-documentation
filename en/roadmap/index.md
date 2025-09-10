@@ -16,8 +16,10 @@ The verinice.team is currently working on the following topics:
 
 Further domains will be successively made available in the 2nd half of 2025:
 
+- Beta version of Grundschutz++ for it-sa 2025
 - Business Continuity Management domain (BSI standard 200-4 and ISO 22301)
 - TISAX / VDA ISA domain
+- International versions of various domains
 
 ### Migration verinice to verinice.veo.
 

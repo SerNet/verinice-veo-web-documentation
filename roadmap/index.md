@@ -16,8 +16,10 @@ Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
 Im 2. Halbjahr 2025 werden sukzessive weitere Domänen zur Verfügung gestellt:
 
+- Beta-Version des Grundschutz++ zur it-sa 2025
 - Domäne Business Continuity Management (BSI-Standard 200-4 und ISO 22301)
 - Domäne TISAX / VDA ISA
+- Internationale Versionen verschiedener Domänen
 
 ### Migration verinice nach verinice.veo.
 
