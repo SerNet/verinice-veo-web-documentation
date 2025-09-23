@@ -23,7 +23,7 @@ In the object view:
 
 - The shortcuts for showing/hiding object details and forms have been added to the dialog for the overview of available shortcuts.
 - If no units have been created yet, you no longer end up in an empty unit management screen, but are offered the two actions **Create unit** and **First steps**.
-- The 404 error page displayed after logging in after updating/changing a domain has been fixed - you are now redirected to the unit management.
+- The 404 error page displayed after logging in following a domain updating/changing has been fixed - you are now redirected to the unit management.
 - Units with double/multiple spaces can now be deleted in the unit management.
 - After editing an object and returning to the object overview, you now land on the original pagination page and not, as before, always on the first page.
 - The headings in the object selection dialog have been corrected.

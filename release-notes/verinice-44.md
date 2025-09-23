@@ -26,10 +26,10 @@ In der Objektansicht:
 - Die nach der Anmeldung angezeigte 404-Fehlerseite nach Update/Änderung einer Domäne wurde behoben - es wird in die Unitverwaltung umgeleitet.
 - Units mit doppelten/mehreren Leerzeichen können jetzt in der Unitverwaltung gelöscht werden.
 - Nach Bearbeiten eines Objektes und Rückkehr in die Objektübersicht landet man jetzt auf der ursprünglichen Seite der Paginierung und nicht wie bisher immer auf der ersten Seite.
-- Die Überschriften im Dialog Objektauswahl-Dialog wurden korrigiert.
+- Die Überschriften im Dialog Objektauswahl wurden korrigiert.
 - Die falsche Erfolgsmeldung bei einer fehlerhaften Bearbeitung mitigierender Maßnahmen wurde behoben.
 - Bei der Neuanlage einer Risikokategorie kann jetzt im Wizard zur Zusammenfassung navigiert werden.
-- In Farbwähler der Risikodefinition werden keine transparenten Farbe mehr unterstützt, damit die Farben in den Reports korrekt angezeigt werden.
+- Im Farbwähler der Risikodefinition werden keine transparenten Farben mehr unterstützt, damit die Farben in den Reports korrekt angezeigt werden.
 - In den Breadcrumbs sind Links jetzt als solche zu erkennen.
 - Beim Öffnen eines Objekts in einem neuen Browser-Tab mittels STRG-Mausklick wird nur noch ein neuer Browser-Tab geöffnet.
 - Im Dunkel-Modus wurde die Darstellung einiger nicht sichtbarer Elemente in den Tutorials korrigiert.
