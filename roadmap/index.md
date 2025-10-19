@@ -3,20 +3,17 @@
 
 Das verinice.Team arbeitet aktuell an den folgenden Themen:
 
-## Q3 2025
+## Q4 2025
 
 ### OnPrem-Betrieb
 
 - Beta-Projekte und Rollout des OnPrem-Betriebs.
 - Bereitstellung eines Client Managements für OnPrem-Umgebungen. <!-- &172 -->
 
-## 2. Halbjahr 2025
-
 ### Weitere Domänen
 
-Im 2. Halbjahr 2025 werden sukzessive weitere Domänen zur Verfügung gestellt:
+Es werden sukzessive weitere Domänen zur Verfügung gestellt:
 
-- Beta-Version des Grundschutz++ zur it-sa 2025
 - Domäne Business Continuity Management (BSI-Standard 200-4 und ISO 22301)
 - Domäne TISAX / VDA ISA
 - Internationale Versionen verschiedener Domänen
@@ -28,6 +25,7 @@ Bereitstellung der Migration von Daten aus verinice nach verinice.veo.
 ### Berechtigungsmanagement
 
 Erweiterung des Rechte- und Rollenkonzepts, initial:
+
 - Berechtigungen auf Units ausweiten. <!-- &177 -->
 - Berechtigungen auf Scopes (z.B. Informationsverbünde) ausweiten. <!-- &178 -->
 
@@ -39,3 +37,7 @@ Erweiterung des Rechte- und Rollenkonzepts, initial:
 ### Internationalisierung
 
 - Internationalisierung aller Report-Vorlagen in Deutsch und Englisch.
+
+## 2026
+
+Die Roadmap für das kommende Jahr wird aktuell komplettiert und konkretisiert.
