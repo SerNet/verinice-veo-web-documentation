@@ -30,6 +30,9 @@ features:
   - title: Die Domäne NIS2
     details: Die NIS2-Richtlinie in verinice umsetzen...
     link: /domain-nis2/
+  - title: Die Domäne BCM
+    details: Das Business Continuity in verinice umsetzen...
+    link: /domain-bcm/
   - title: Das Benutzerhandbuch 
     details: Die grundlegende Bedienung von verinice kennenlernen...
     link: /manual/

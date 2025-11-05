@@ -30,6 +30,9 @@ features:
   - title: The NIS2 domain
     details: Implementing the NIS2 guideline in verinice...
     link: /en/domain-nis2/
+  - title: The BCM domain
+    details: Implementing Business Continuity in verinice...
+    link: /en/domain-bcm/
   - title: The user manual 
     details: Getting to know the basic operation of verinice...
     link: /en/manual/

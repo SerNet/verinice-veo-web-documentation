@@ -69,6 +69,22 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     ],
   },
   {
+    text: { de: "Die Domäne BCM", en: "The BCM Domain" },
+    link: "/domain-bcm/",
+    collapsed: true,
+    items: [
+      { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-bcm/domain-bcm-description" },
+      { text: { de: "Kontext der Organisation", en: "Context of the organisation" }, link: "/domain-bcm/context-bcm" },
+      { text: { de: "Notfall- und Krisenbewältigung", en: "Emergency and crisis management" }, link: "/domain-bcm/crisis-management" },
+      { text: { de: "Business Impact Analyse (BIA)", en: "Business impact analysis (BIA)" }, link: "/domain-bcm/business-impact-analyse" },
+      { text: { de: "Soll-Ist Vergleich", en: "Target/actual comparison" }, link: "/domain-bcm/targetActualComparison" },
+      { text: { de: "Business-Continuity-Strategien", en: "Business continuity strategies" }, link: "/domain-bcm/bcStrategy" },
+      { text: { de: "Wiederanlauf, Wiederherstellung und Geschäftsfortführung", en: "Restart, recovery, and business continuity" }, link: "/domain-bcm/create-Plans-for-Emergency" },
+      { text: { de: "Korrekturbedarfe und Verbesserungspotenziale", en: "Correction requirements and potential for improvement" }, link: "/domain-bcm/improvement-measure" },
+      { text: { de: "Leistungsüberprüfungen", en: "Compliance check" }, link: "/domain-bcm/compliance-check" },
+    ],
+  },
+  {
     text: { de: "Objektmodell", en: "Object Model" },
     link: "/object-model/",
     collapsed: true,
