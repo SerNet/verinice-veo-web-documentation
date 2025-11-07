@@ -13,17 +13,17 @@ Die BAO umfasst alle erforderlichen organisatorischen Einheiten, Rollen und Komm
 
 Sofortmaßnahmen sind unmittelbar nach Eintritt eines Schadensereignisses umzusetzen und dienen dem Schutz von Leben und Gesundheit sowie der Eindämmung von Folgeschäden. In verinice können sowohl allgemeine Sofortmaßnahmen als auch szenariospezifische Sofortmaßnahmen erfasst und mit Verantwortlichkeiten verknüpft werden.
 
-Legen Sie unter dem Subtyp Sofortmaßnahme eine neue Maßnahme an und ergänzen Sie die zugehörigen Aktivitäten über den Reiter **Teile**“**. 
+Legen Sie unter dem Subtyp Sofortmaßnahme eine neue Maßnahme an und ergänzen Sie die zugehörigen Aktivitäten über den Reiter **Teile**. 
 
 ![Sofortmaßnahme erstellen](/assets/domain-bcm/verinice-46-immediateMeasureExample.png)
 
-Anschließend kann die Sofortmaßnahme entweder im BCMS-Geltungsbereich (als allgemeine Maßnahme) oder im jeweiligen Notfallszenario verknüpft werden.
+Anschließend kann die Sofortmaßnahme entweder im BCMS-Geltungsbereich (als allgemeine Maßnahme) oder mit dem jeweiligen Notfallszenario verknüpft werden.
 
 ![Allgemeine Sofortmaßnahme im Scope verknüpfen](/assets/domain-bcm/verinice-46-immediateMeasureScope.png)
 
 ![Szenario-spezifische Sofortmaßnahme im Notfallszenario verknüpfen](/assets/domain-bcm/verinice-46-immediateMeasureScenario.png)
 
-Ziel ist es, alle Sofortmaßnahmen zentral in verinice zu dokumentieren und sie zukünftig übersichtlich in einem Report des Notfallhandbuchs ausgeben zu können.
+Ziel ist es, alle Sofortmaßnahmen zentral in verinice zu dokumentieren und  übersichtlich in einem Report des Notfallhandbuchs auszugeben.
 
 ## Aufbau und Steuerung der Notfall- und Krisenkommunikation (NuK-Kommunikation)
 
@@ -33,7 +33,8 @@ Auf Grundlage der Analyse der Interessengruppen können für jede Interessengrup
 - Kommunikation im Notbetrieb  
 - Zeitintervall  
 - Kommunikationsweg  
-- Zudem können Rollen oder explizierte Personen verknüpft werden, um Kommunikationsverantwortlichkeiten transparent darzustellen. So lässt sich nachvollziehen, wer Informationen bereitstellt, empfängt oder freigibt und sicherstellen, dass im Ereignisfall eine koordinierte und kontrollierte Informationsweitergabe erfolgt.
+
+Zudem können Rollen oder explizierte Personen verknüpft werden, um Kommunikationsverantwortlichkeiten transparent darzustellen. So lässt sich nachvollziehen, wer Informationen bereitstellt, empfängt oder freigibt und sicherstellen, dass im Ereignisfall eine koordinierte und kontrollierte Informationsweitergabe erfolgt.
 
 ![Kommunikation mit Interessengruppen planen](/assets/domain-bcm/verinice-46-PlanningCommunication.png)
 

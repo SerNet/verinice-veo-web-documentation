@@ -4,22 +4,22 @@
 Ein wesentliches Ziel des BCMS ist die Sicherstellung einer angemessenen Absicherung der **geschäftskritischen Prozesse**. Die BIA dient dazu, systematisch zu ermitteln:
 
 - ob ein Geschäftsprozess **zeitkritisch** ist,  
-- wie lange dieser ausfallen darf, bevor nicht tolerierbare Schäden entstehen, und  
+- wie lange dieser ausfallen darf, bevor nicht tolerierbare Schäden entstehen und  
 - welche Ressourcen erforderlich sind, um den Prozess im Notbetrieb fortzuführen.  
 
 Die BIA bildet somit die Grundlage für:
 
 - die **Priorisierung von Prozessen**,  
-- die **Definition von Wiederanlaufzielen (RTO, RPO)**, sowie  
+- die **Definition von Wiederanlaufzielen (RTO, RPO)** sowie  
 - die **Planung von Notfallvorsorge- und Wiederherstellungsmaßnahmen**.
 
 ## BIA-Vorbereitung
 
 ### Anlegen der Geschäftsprozesse
 
-Im **BCMS-Geltungsbereich** können die zu betrachtenden **Geschäftsprozesse** als Objekte hinzugefügt werden. Liegt in der Institution ein ISMS vor, können die dort identifizierten Geschäftsprozesse als Ausgangsbasis genutzt werden. Auch das **Verzeichnis der Verarbeitungstätigkeiten** gemäß DS-GVO kann unterstützend herangezogen werden, da Verfahrenstätigkeiten häufig direkt Geschäftsprozessen entsprechen oder daraus abgeleitet werden können.
+Im **BCMS-Geltungsbereich** können die zu betrachtenden **Geschäftsprozesse** als Objekte hinzugefügt werden. Liegt in der Institution ein ISMS vor, können die dort identifizierten Geschäftsprozesse als Ausgangsbasis genutzt werden. Auch das **Verzeichnis der Verarbeitungstätigkeiten** gemäß DS-GVO kann unterstützend herangezogen werden.
 
-Falls noch keine Geschäftsprozesse in verinice angelegt sind, können diese über den Objekt-Typ **Geschäftsprozess** neu erstellt werden, oder bereits vorhandene Prozesse aus der **Datenschutz- oder ISMS-Domäne** der **BCMS-Domäne** zugeordnet werden.  
+Falls noch keine Geschäftsprozesse in verinice angelegt sind, können diese über den Objekttyp **Geschäftsprozess** neu erstellt werden oder bereits vorhandene Prozesse aus der **Datenschutz- oder ISMS-Domäne** der **BCMS-Domäne** zugeordnet werden.  
 
 ![Geschäftsprozess einer Domäne in eine andere Domäne zuordnen](/assets/domain-bcm/verinice-46-assignObjectToDomain.gif)
 
@@ -29,14 +29,14 @@ Bevor die Ergebnisse der Schadensbewertung festgehalten werden, können zusätzl
 - kritischste Zeiträume,
 - der oder die BIA-Zuständige,
 - die verantwortliche Organisationseinheit,
-- die Art der Datenerhebung (z. B. Selbstauskunft, Einzelinterview, Workshop),
+- die Art der Datenerhebung (z. B. Selbstauskunft, Einzelinterview, Workshop)
 - sowie der Standort des Prozesses.
 
 ![Angaben zur BIA im Geschäftsprozess](/assets/domain-bcm/verinice-46-bia1.png)
 
 ### Festlegung der Ressourcenkategorien und -cluster
 
-Unter dem Objekt-Typ **Ressource** können die **Ressourcenkategorien** und **-cluster** als Composites definiert werden (z. B. Personal, IT-Systeme, Gebäude, Dienstleister, Informationen).
+Unter dem Objekttyp **Ressource** können die **Ressourcenkategorien** und **-cluster** als Composites definiert werden (z. B. Personal, IT-Systeme, Gebäude, Dienstleister, Informationen).
 
 Einzelne Ressourcen können wiederum unter Teile diesem Composite / dieser Obergruppe zugeordnet werden. 
 
@@ -60,7 +60,7 @@ Zur Identifikation zeitkritischer Prozesse wird das **Schadenspotenzial** jedes 
 
 Anschließend kann eine Begründung dokumentiert und bewertet werden, welche **Schadensszenarien** ausschlaggebend für die Bewertung sind und ob es sich um einen zeitkritischen Geschäftsprozess handelt.  
 
-Aus dieser Bewertung ergibt sich die **MTA**, diese kann (noch) manuell erfasst werden.  
+Aus dieser Bewertung ergibt sich die **MTA**, diese wird aktuell noch manuell erfasst.  
 
 ![Incident](/assets/domain-bcm/verinice-46-bia2.gif)
 
@@ -112,7 +112,7 @@ Für alle zeitkritischen Geschäftsprozesse müssen die erforderlichen **Ressour
 ### Identifizierung von Single Points of Failure
 
 Ressourcen, die von mehreren zeitkritischen Prozessen gemeinsam genutzt werden, sind als **Single Points of Failure (SPoF)** zu kennzeichnen. In verinice kann dies über das Feld  
-**Single-Point-of-Failure/of-Knowledge/of-Contact (SPoF/SPoK/SPoC)** in dem Ressourcen-Objekt erfolgen. Zuvor können die SPoFs als Bekannte Schwachpunkte in einem Geschäftsprozess verknüpft werden. 
+**Single-Point-of-Failure/of-Knowledge/of-Contact (SPoF/SPoK/SPoC)** in dem Ressourcen-Objekt erfolgen. Zuvor können die SPoFs als bekannte Schwachpunkte in einem Geschäftsprozess verknüpft werden. 
 
 Unterschieden wird zwischen:
 

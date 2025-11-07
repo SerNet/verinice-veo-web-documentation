@@ -3,10 +3,10 @@
 
 ## Zielsetzung
 
-Ziel der Geschäftsfortführungs- und Wiederanlaufplanung ist es sicherzustellen, dass **zeitkritische Geschäftsprozesse und Ressourcen** nach einem Schadensereignis innerhalb der geforderten Zeit wieder aufgenommen bzw. wiederhergestellt werden können. Grundlage hierfür bilden die Ergebnisse der **Business Impact Analyse (BIA)** und die **definierten Business Continuity Strategien**. Die Planung gliedert sich in zwei Teilbereiche:
+Ziel der Geschäftsfortführungs- und Wiederanlaufplanung ist sicherzustellen, dass **zeitkritische Geschäftsprozesse und Ressourcen** nach einem Schadensereignis innerhalb der geforderten Zeit wieder aufgenommen bzw. wiederhergestellt werden können. Grundlage hierfür bilden die Ergebnisse der **Business Impact Analyse (BIA)** und die **definierten Business Continuity Strategien**. Die Planung gliedert sich in zwei Teilbereiche:
 
 - **Wiederanlauf- und Wiederherstellungsplanung** für zeitkritische Ressourcen  
-- **Geschäftsfortführungsplanung** für zeitkritische Geschäftsprozesse auf Ebene der Organisationseinheiten. 
+- **Geschäftsfortführungsplanung** für zeitkritische Geschäftsprozesse auf Ebene der Organisationseinheiten
 
 Für beide Bereiche sind strukturierte Pläne zu erstellen, die alle erforderlichen technischen, organisatorischen und personellen Maßnahmen enthalten.
 
@@ -17,7 +17,7 @@ Die **GFPs, WAPs und WHPs** bilden dabei das zentrale operative Instrument des B
 Die **Geschäftsfortführungspläne** beschreiben alle erforderlichen Maßnahmen und Abläufe, um zeitkritische Geschäftsprozesse im Notfall innerhalb der vorgegebenen Zeit fortzuführen.
 Die in der BIA identifizierten zeitkritischen Prozesse bilden dabei die Grundlage der Planung.
 
-Gemäß der Empfehlung des BSI kann die Geschäftsfortführung je Organisationseinheit geplant und dokumentiert werden. Zentrale Subtypen für die Erstellung eines Geschäftsfortführungsplans – basierend auf der BSI-Vorlage – sind der Scope **Organisationseinheit**, dem die zeitkritischen Geschäftsprozesse zugeordnet sind, sowie der Control-Subtyp **BC-Lösung**.
+Gemäß der Empfehlung des BSI kann die Geschäftsfortführung je Organisationseinheit geplant und dokumentiert werden. Zentrale Subtypen für die Erstellung eines Geschäftsfortführungsplans – basierend auf der BSI-Vorlage – sind der Scope **Organisationseinheit**, dem die zeitkritischen Geschäftsprozesse zugeordnet sind sowie der Control-Subtyp **BC-Lösung**.
 
 Damit ein Geschäftsfortführungsplan künftig direkt aus verinice per Report generiert werden kann, empfiehlt sich folgende Vorgehensweise:
 
@@ -28,7 +28,7 @@ Damit ein Geschäftsfortführungsplan künftig direkt aus verinice per Report ge
    - Geltungsbereich und Zielsetzung des GFP,
    - Aktivierung des GFP,
    - verantwortliche Leitungsperson für die Alarmierung,
-   - zuständige Personen/Notfallteams
+   - zuständige Personen/Notfallteam
 
 ![Angaben zur Geschäftsfortführung einer Organisationseinheit](/assets/domain-bcm/verinice-46-organizationalUnit.gif)
 
@@ -56,7 +56,7 @@ Auf vorhandene GFPs kann unter dem Bereich **Dokumente** verwiesen werden.
 
 ## Erstellung von Wiederanlauf- und Wiederherstellungspläne für kritische Ressourcen
 
-Die **Wiederanlaufs- und Wiederherstellungsplanung** umfasst alle organisatorischen, technischen und personellen Maßnahmen, um ausgefallene Ressourcen wie IT-Systeme, Gebäude, Arbeitsplätze oder Dienstleistungen schnellstmöglich wieder betriebsbereit zu machen. Diese Planung erfolgt idealerweise von den Ressourcenzuständigen. In verinice orientiert sich der Aufbau der Wiederanlauf- und Wiederherstellungsplanung an der **BSI-Vorlage für Wiederanlaufpläne**. Die Planung erfolgt direkt im jeweiligen **Ressourcen-Objekt**.
+Die **Wiederanlaufs- und Wiederherstellungsplanung** umfasst alle organisatorischen, technischen und personellen Maßnahmen, um ausgefallene Ressourcen wie IT-Systeme, Gebäude, Arbeitsplätze oder Dienstleistungen schnellstmöglich wieder in einen betriebsbereiten Zustand zu versetzen. Diese Planung erfolgt idealerweise von den Ressourcenzuständigen. In verinice orientiert sich der Aufbau der Wiederanlauf- und Wiederherstellungsplanung an der **BSI-Vorlage für Wiederanlaufpläne**. Die Planung erfolgt direkt im jeweiligen **Ressourcen-Objekt**.
 
 #### Inhalte der Wiederanlaufplanung
 
@@ -72,7 +72,7 @@ Die **Wiederanlaufs- und Wiederherstellungsplanung** umfasst alle organisatorisc
 
 ![Notfallmaßnahmen dokumentieren](/assets/domain-bcm/verinice-46-emergencyMeasure.gif)
 
-![Wiedanlaufsplanung einer Ressource](/assets/domain-bcm/verinice-46-wap.gif)
+![Wiederanlaufplanung einer Ressource](/assets/domain-bcm/verinice-46-wap.gif)
 
 - **Funktionstests und Übergabe in den Notbetrieb:**
   Beschreibung der Testaktivitäten und ihrer Ergebnisse (erfolgreich/nicht erfolgreich) sowie ggf. notwendiger Korrekturmaßnahmen.

@@ -1,11 +1,11 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # Definition Bewertung von BC-Strategien
 
-Die **Risikoanalyse** liefert die relevanten Risiken, die durch geeignete BC-Strategien vermieden oder reduziert werden sollen.  
+Die **Risikoanalyse** liefert die relevanten Risiken, die durch geeignete **BC-Strategien** vermieden oder reduziert werden sollen.  
 
 Die **Institutionsleitung** legt für den gesamten Geltungsbereich des BCMS strategisch fest, wie die Planung und Umsetzung der Business-Continuity-Maßnahmen erfolgen soll.
 
-Zur objektiven Beurteilung empfiehlt es sich, einheitliche **Bewertungskriterien** festzulegen. Im Subtyp **BC-Strategie** kann eine Strategie erfasst und bewertet werden, nach folgenden Bewertungskriterien:  
+Zur objektiven Beurteilung empfiehlt es sich, einheitliche **Bewertungskriterien** festzulegen. Im Subtyp **BC-Strategie** kann eine Strategie erfasst und nach folgenden Kriterien bewertet werden:  
 
 - Beschreibung der BC-Strategie  
 - Einhaltung der RTO  

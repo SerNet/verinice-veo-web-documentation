@@ -13,11 +13,11 @@ In verinice besteht die Möglichkeit, die für die jeweilige Unit relevanten Sco
 
 Ein Scope kann beliebige Fachobjekte einschließlich anderer Scopes enthalten. Unterhalb eines Scopes lassen sich verschiedene organisatorische Einheiten abbilden und logisch gruppieren, um eine strukturierte und transparente Darstellung der unterschiedlichen Scopes zu gewährleisten.
 
-Die Abbildung einzelner Institutionen dient zudem dazu, den jeweiligen BCMS-Geltungsbereich eindeutig einer Institution zuzuordnen. Diese Zuordnung ist erforderlich, um Reports gezielt auswerten zu können. Reports werden stets über einen konkreten Scope-Subtyp ausgeführt. Durch hinzufügen der Teile, kann gesteuert werden, welche Objekte in einem Report berücksichtigt werden sollen.
+Die Abbildung einzelner Institutionen dient zudem dazu, den jeweiligen BCMS-Geltungsbereich eindeutig einer Institution zuzuordnen. Diese Zuordnung ist erforderlich, um Reports gezielt auswerten zu können. Reports werden stets über einen konkreten Scope-Subtyp ausgeführt. Durch Hinzufügen der Teile kann gesteuert werden, welche Objekte in einem Report berücksichtigt werden sollen.
 
 ## Anforderungen identifizieren und modellieren
 
-Im Anschluss an die Definition des organisatorischen Kontexts können Anforderungen identifiziert werden – beispielsweise die Erwartungen und Bedürfnisse der Interessengruppen oder Anforderungen, die sich aus anderen Scopes ergeben. Aus diesen Informationen werden anschließend die spezifischen Anforderungen an das BCMS abgeleitet und erfasst. Für Interessengruppen kann zudem bewerten werden, welchen Einfluss diese auf das BCMS hat.
+Im Anschluss an die Definition des organisatorischen Kontextes können Anforderungen identifiziert werden – beispielsweise die Erwartungen und Bedürfnisse der Interessengruppen oder Anforderungen, die sich aus anderen Scopes ergeben. Aus diesen Informationen werden anschließend die spezifischen Anforderungen an das BCMS abgeleitet und erfasst. Für Interessengruppen kann zudem bewerten werden, welchen Einfluss diese auf das BCMS haben.
 
 Nachdem sowohl die Scopes als auch die Anforderungen in verinice angelegt wurden, können diese miteinander verknüpft werden. Hierfür stehen zwei Vorgehensweisen zur Verfügung:
 
