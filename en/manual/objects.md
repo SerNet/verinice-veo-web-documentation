@@ -134,6 +134,9 @@ The **History** sidebar shows all previous versions. Clicking a version displays
 
 ![History](/assets/en/manual/form_history.png)
 
+::: warning During storage, several sub-steps may be stored in different objects (e.g. in the object and in the associated risk). The sub-steps are counted separately in the versioning, which leads to apparent gaps in the display of the version numbers. This behavior is technically desired and does not result in any data loss! To avoid this confusion, version numbering will be dispensed with in the future; only the timestamp will be decisive.
+:::
+
 ### Messages
 
 Errors, warnings, or informational messages about current form inputs are shown in the **Messages** sidebar.

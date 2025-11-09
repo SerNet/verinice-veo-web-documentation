@@ -129,6 +129,9 @@ In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, dur
 
 ![Verlauf](/assets/manual/form_history.png)
 
+::: warning Bei der Speicherung werden ggf. mehrere Teilschritte in unterschiedlichen Objekten gespeichert (z.B. im Objekt und im zugehörigen Risiko). Die Teilschritte werden in der Versionierung separat gezählt, was in der Anzeige der Versionsnummern zu vermeintlichen Lücken führt. Dieses Verhalten ist technisch gewünscht und führt zu keinerlei Datenverlust! Um diese Irritation zu vermeiden wird zukünftig auf die Nummerierung der Versionen verzichtet, entscheidend ist allein der Zeitstempel.
+:::
+
 ### Meldungen
 
 Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
