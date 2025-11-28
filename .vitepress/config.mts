@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import type { DefaultTheme, UserConfig } from "vitepress";
 import { sidebarItems } from "./sideBar";
 import { MultiLingualSidebarItem } from "./MultiLingualSidebarItem";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // Shared configuration
 const sharedConfig: UserConfig<DefaultTheme.Config> = {
@@ -126,7 +127,7 @@ function localizeSidebar(items: MultiLingualSidebarItem[], lang: "de" | "en"): D
   }));
 }
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   ...sharedConfig,
   locales: {
     root: {
@@ -151,4 +152,7 @@ export default defineConfig({
       link: '/en/',
     },
   },
-});
+    mermaid:{
+        //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
+    },
+}));
