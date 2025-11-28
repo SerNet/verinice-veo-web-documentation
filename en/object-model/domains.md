@@ -13,6 +13,8 @@ These domains can be used individually or combined. For example, users can start
 
 Later, it is possible to use the same objects that were created for this in the IT-Grundschutz domain. Domains can also be copied and extended. You can create your own domains, which may be derived from the existing ones.
 
+Domains are created from [domain templates](domain-templates).
+
 ## Domain contents
 
 A domain defines subtypes, aspects, links, forms, a catalog, profiles and, if applicable, risk definitions:
@@ -115,18 +117,4 @@ These concepts work together to provide a powerful framework for evaluating and 
 1. the *Decision* indicates that the DSFA is required because the *Rule* “High risk present” applies.
 2. the *Inspection* states that a DPIA is required according to the decision (see above), but has not yet been carried out. It offers a *suggestion* to add the DPIA.
 3. the user can trigger the *suggestion* by clicking to add the DSFA directly.
-:::
-
-### Domain templates
-
-![domain-templates]( /assets/en/object-model/domain-templates.png)
-The domains are offered for use as **domain templates** in a repository. The domain templates are versioned. Depending on requirements, a customer can select one or more templates. If a customer selects a template in a specific version, a copy of the template is created for the customer. This exclusive copy of the customer is the domain with which the customer works. The customer's domain can be individually adapted to his needs.
-::: info Example
-![domain-templates-clients]( /assets/en/object-model/domain-templates-clients.png)
-The diagram shows the verinice repository with the domain templates. The “IT-Grundschutz” and “DS-GVO” templates are each available in 2 different versions.
-
-- **Customer A** uses the template “IT-Grundschutz V1.1”. The customer has customized his domain and created his own profile that is used as a special template for departments in the company.
-- **Customer B** uses the templates “IT-Grundschutz V1.0” and “DS-GVO V1.5”. The customer has customized aspects and links of the objects in the “IT-Grundschutz” domain for his purposes.
-- **Customer C** uses the unmodified template “DS-GVO V1.0”. He has not yet updated to the newer template version.
-- **Customer D** uses the template “ISO&nbsp;27000” and has not yet made any changes to the domain.
 :::

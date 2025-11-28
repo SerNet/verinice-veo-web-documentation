@@ -14,6 +14,8 @@ Die verschiedenen Fachbereiche, die mit dem Managementsystem verinice bearbeitet
 Diese Domänen können einzeln benutzt oder kombiniert werden. Anwenderinnen und Anwender können zum Beispiel zuerst mit der Domäne DS-GVO beginnen und dort ein Verzeichnis der Verarbeitungstätigkeiten erstellen.
 Später ist es möglich, dieselben Objekte, die dafür erstellt wurden, auch in der Domäne IT-Grundschutz zu verwenden. Domänen können aber auch kopiert und erweitert werden. Es können eigene Domänen erzeugt werden, die ggf. aus den vorhandenen abgeleitet werden.
 
+Die Domänen werden aus [Domänen-Templates](domain-templates.md) erzeugt.
+
 ## Domäneninhalte
 
 Eine Domäne definiert Subtypen, Aspekte, Verknüpfungen, Formulare, einen Katalog, Profile und ggf. Risikodefinitionen:
@@ -134,24 +136,4 @@ Diese Konzepte arbeiten zusammen, um ein leistungsfähiges Rahmenwerk für die B
 1. Die *Decision* weist darauf hin, dass die DSFA erforderlich ist, weil die *Rule* "Hohes Risiko vorhanden" zutrifft.
 2. Die *Inspection* stellt fest, dass lt. Decision (s.o.) eine DSFA erforderlich ist, aber noch nicht durchgeführt wurde. Sie bietet eine *Suggestion* an, um die DSFA hinzuzufügen.
 3. Die *Suggestion* kann der Benutzer durch einen Klick auslösen, um die DSFA direkt hinzuzufügen.
-:::
-
-### Domänen-Templates
-
-![domain-templates](/assets/object-model/domain-templates.png)
-
-Die Domänen werden als **Domänen-Templates** in einem Repository für die Benutzung angeboten. Die Domänen-Templates sind versioniert. Je nach Bedarf kann ein Kunde ein oder mehrere Templates auswählen. Wenn ein Kunde ein Template in einer bestimmten Version auswählt, dann wird aus dem Template eine Kopie für den Kunden erstellt. Diese exklusive Kopie des Kunden ist die Domäne, mit der der Kunde arbeitet. Die Domäne des Kunden kann individuell an seine Bedürfnisse angepasst werden.
-
-::: info Beispiel
-![domain-templates-clients](/assets/object-model/domain-templates-clients.png)
-
-Das Diagramm zeigt das Repository von verinice mit den Domänen-Templates. Das Template "IT-Grundschutz" und "DS-GVO" liegt jeweils in 2 unterschiedlichen Versionen vor. 
-
-- **Kunde A** benutzt das Template "IT-Grundschutz V1.1". Der Kunde hat seine Domäne angepasst und ein eigenes Profil erstellt, dass als spezielle Vorlage für Abteilungen im Unternehmen benutzt wird.
-
-- **Kunde B** benutzt die Templates "IT-Grundschutz V1.0" und "DS-GVO V1.5". Der Kunde hat in der Domäne "IT-Grundschutz" Aspekte und Verknüpfungen der Objekte für seine Zwecke angepasst.
-
-- **Kunde C** benutzt unmodifiziert das Template "DS-GVO V1.0". Das Update auf die neuere Template-Version hat er noch nicht durchgeführt.
-
-- **Kunde D** benutzt das Template "ISO&nbsp;27000" und hat bisher keine Änderungen an der Domäne gemacht.
 :::

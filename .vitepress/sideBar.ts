@@ -90,6 +90,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     collapsed: true,
     items: [
       { text: { de: "Domänen", en: "Domains" }, link: "/object-model/domains" },
+      { text: { de: "Domänen-Templates", en: "Domain templates" }, link: "/object-model/domain-templates" },
       { text: { de: "Objekte", en: "Objects" }, link: "/object-model/objects" },
       { text: { de: "Formulare", en: "Forms" }, link: "/object-model/forms" },
       { text: { de: "Kataloge", en: "Catalogs" }, link: "/object-model/catalogs" },
