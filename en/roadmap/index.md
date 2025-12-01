@@ -16,9 +16,9 @@ Migration of data from verinice to verinice.veo.
 
 ### General functions
 
-- Documentation of the implementation of requirements will be expanded.
+- The documentation of requirement implementation will be expanded.
 - The configuration of domain-specific content will be optimized.
-- Improved support for domain updates.
+- Support for domain updates will be improved.
 
 ## Q1 2026
 

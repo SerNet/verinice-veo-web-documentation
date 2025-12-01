@@ -10,9 +10,9 @@ Das verinice.Team arbeitet aktuell an den folgenden Themen:
 - Beta-Projekte und Rollout des OnPrem-Betriebs.
 - Bereitstellung eines Client Managements für OnPrem-Umgebungen. <!-- &172 -->
 
-### Migration verinice nach verinice.veo.
+### Migration verinice zu verinice.veo.
 
-Migration von Daten aus verinice nach verinice.veo.
+Migration von Daten aus verinice zu verinice.veo.
 
 ### Allgemeine Funktionen
 

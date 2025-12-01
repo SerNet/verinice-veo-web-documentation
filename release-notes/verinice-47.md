@@ -16,10 +16,10 @@ In Kürze werden zwei Installationsvarianten zur Verfügung stehen:
 - Helm-Chart für native Kubernetes-Cluster.
 - Virtuelle Appliance mit Talos Linux für Kubernetes.
 
-Im On-Premises Betrieb sind:
+Im On-Premise-Betrieb sind:
 
-- Alle Login-Seiten, zugehörige Links und Graphiken der jeweiligen Betriebsumgebung angepasst.
-- Administrative Aufgaben können per eigenständigen Command Line Interface (CLI) versehen werden.
+- Alle Login-Seiten, zugehörige Links und Grafiken der jeweiligen Betriebsumgebung angepasst.
+- Administrative Aufgaben können per eigenständigen Command Line Interface (CLI) ausgeführt werden.
 - Lizenzierte Inhalte (Bundles/Domänen, Units, User) per Lizenz-String hinterlegt.
 
 ### Lese-/Schreibberechtigungen auf Units
@@ -42,13 +42,13 @@ Die erstellten Zugriffsgruppen können einzelnen Nutzerinnen und Nutzern zugeord
 
 **Status: Produktiv**
 
-- In Formularen erlaubt die E-Mail-Validierung Top Level Domains (TLD) mit mehr als drei Zeichen.
+- In Formularen erlaubt die E-Mail-Validierung Top Level Domains (TLDs) mit mehr als drei Zeichen.
 - Die Dokumentation ist unabhängig von den eingeführten Berechtigungen frei zugänglich.
 - Die Schaltflächen im Dialog Unit Erstellen werden korrekt und leserlich angezeigt.
 - Korrekturen in den Risikodefinitionen (Rechtschreibfehler und Farbauswahl korrigiert).
 - Systembanner (interne Meldungen) werden sofort angezeigt, wenn kein spezifisches Anzeigedatum angegeben ist.
-- Update auf OpenAPI 3.1 zur Verbesserung der Stabilität der REST API.
-- Upgrade NUXT to Version 4.
+- Update auf OpenAPI 3.1 zur Verbesserung der Stabilität der REST-API.
+- Upgrade von NUXT auf Version 4.
 
 ## DS-GVO
 
