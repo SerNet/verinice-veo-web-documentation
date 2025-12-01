@@ -74,7 +74,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     collapsed: true,
     items: [
       { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-bcm/domain-bcm-description" },
-      { text: { de: "Kontext der Organisation", en: "Context of the organisation" }, link: "/domain-bcm/context-bcm" },
+      { text: { de: "Kontext der Organisation", en: "Context of the organization" }, link: "/domain-bcm/context-bcm" },
       { text: { de: "Notfall- und Krisenbewältigung", en: "Emergency and crisis management" }, link: "/domain-bcm/crisis-management" },
       { text: { de: "Business Impact Analyse (BIA)", en: "Business impact analysis (BIA)" }, link: "/domain-bcm/business-impact-analyse" },
       { text: { de: "Soll-Ist Vergleich", en: "Target/actual comparison" }, link: "/domain-bcm/targetActualComparison" },
@@ -114,6 +114,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     link: "/release-notes/",
     collapsed: true,
     items: [
+      { text: { de: "verinice 47", en: "verinice 47" }, link: "/release-notes/verinice-47" },
       { text: { de: "verinice 46", en: "verinice 46" }, link: "/release-notes/verinice-46" },
       { text: { de: "verinice 45", en: "verinice 45" }, link: "/release-notes/verinice-45" },
       { text: { de: "verinice 44", en: "verinice 44" }, link: "/release-notes/verinice-44" },

@@ -1,7 +1,7 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-The verinice.Team is currently working on the following topics:
+The verinice team is currently working on the following topics:
 
 ## Q4 2025
 
@@ -10,34 +10,38 @@ The verinice.Team is currently working on the following topics:
 - Beta projects and rollout of OnPrem operation.
 - Provision of client management for OnPrem environments. <!-- &172 -->
 
+### Migration from verinice to verinice.veo.
+
+Migration of data from verinice to verinice.veo.
+
+### General functions
+
+- Documentation of the implementation of requirements will be expanded.
+- The configuration of domain-specific content will be optimized.
+- Improved support for domain updates.
+
+## Q1 2026
+
 ### Additional domains
 
 Additional domains will be made available successively:
 
+- International versions of various domains
 - Business Continuity Management domain (BSI Standard 200-4 and ISO 22301)
 - TISAX / VDA ISA domain
-- International versions of various domains
-
-### Migration from verinice to verinice.veo.
-
-Provision of migration of data from verinice to verinice.veo.
 
 ### Authorization management
 
-Extension of the rights and roles concept, initially:
+Extension of the rights and roles concept to scopes (e.g., information networks). <!-- &178 -->
 
-- Extend authorizations to units. <!-- &177 -->
-- Extend authorizations to scopes (e.g., information networks). <!-- &178 -->
+### Graphical representation of links
+
+Visualization of the relationships between objects in a graph.
+
+### ISO catalog with control texts
+
+Provision of the risk catalog for the ISO 27001 domain with the license-encrypted control texts.
 
 ### General functions
 
-- The configuration of domain-specific content is optimized.
-- Provision of the risk catalog for the ISO 27001 domain with the license-encrypted control texts.
-
-### Internationalization
-
-- Internationalization of all report templates in German and English.
-
-## 2026
-
-The roadmap for the coming year is currently being finalized and specified.
+- Extension of the search function.
