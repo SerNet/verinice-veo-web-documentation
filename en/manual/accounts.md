@@ -79,3 +79,13 @@ When creating a user, enter the required information:
 ::: info
 We recommend notifying new users in advance about the creation of their verinice account.
 :::
+
+## License control
+
+Users of *verinice.onprem* store a license file in their local instance. This file specifies the maximum number of accounts, units, clients, and the use of licensed content, such as official texts from standards.
+
+If actual usage exceeds the limits specified in the license file, all users will have their write permissions revoked until the license conditions are met again. This can be achieved by increasing the license or reducing usage.
+
+The license violation status is displayed as a warning in the user interface. Users must inform their **main user**, administrator, or purchaser to resolve this situation.
+
+![License warning](/assets/manual/license-warnings.png)

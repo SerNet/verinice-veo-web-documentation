@@ -1,4 +1,5 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
+
 # Benutzerverwaltung
 
 ## Benutzerkonto bearbeiten
@@ -77,3 +78,13 @@ Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 
 ::: info Wir empfehlen neue Benutzer vorab über die Anlage ihres verinice Accounts zu informieren!
 :::
+
+## Lizenzkontrolle
+
+Anwender von *verinice.onprem* hinterlegen in Ihrer lokalen Instanz eine Lizenzdatei. Diese Datei legt die maximale Anzahl von Accounts, Units, Clients sowie die Nutzung lizenzpflichtiger Inhalte wie z.B. offizieller Texte von Standards fest.
+
+Falls die tatsächliche Nutzung die Schranken der Lizenzdatei übersteigt, werden allen Nutzenden die Schreibrechte entzogen, bis die Lizenzbedingungen wieder eingehalten werden. Dies kann durch Ergänzen der Lizenz oder durch Reduktion der Nutzung geschehen.
+
+Der Zustand der Lizenzüberschreitung wird in der Nutzeroberfläche als Warnung angezeigt. Nutzende müssen Ihren **Hauptnutzer**, Administrator oder Einkäufer informieren, um diese Situation zu beheben.
+
+![Lizenzwarnung](/assets/manual/license-warnings.png)
