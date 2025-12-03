@@ -80,6 +80,30 @@ When creating a user, enter the required information:
 We recommend notifying new users in advance about the creation of their verinice account.
 :::
 
+## Read and write permissions for units
+
+Read and write permissions for users and units can be assigned via **access groups**. These can be found under **Account Management** as **Main User**.
+
+![Access Groups](/assets/en/manual/accountmanagement_access_groups.en.png)
+
+To activate read and write permissions, *Grant all users access to all units* must be deselected. You can then 
+1. create new access groups or 
+2. edit or delete existing access groups.
+  
+When editing access groups, read and write permissions can be set for each individual unit.
+
+![Edit Access Group](/assets/en/manual/edit_access_group.en.png)
+
+Once you have defined the access groups, you can update the accounts with the permissions under **Users**. You can assign **roles** and **access groups** to each individual account.
+
+![Update Account](/assets/en/manual/update_account.en.png)
+
+::: info  Roles determine which actions are permitted. Membership in an appropriate access group is also required to access objects.
+:::
+
+::: info Access groups control access to specific objects. An appropriate role is also required to perform specific actions.
+:::
+
 ## License control
 
 Users of *verinice.onprem* store a license file in their local instance. This file specifies the maximum number of accounts, units, clients, and the use of licensed content, such as official texts from standards.

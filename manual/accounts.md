@@ -79,6 +79,30 @@ Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 ::: info Wir empfehlen neue Benutzer vorab über die Anlage ihres verinice Accounts zu informieren!
 :::
 
+## Lese- und Schreibberechtigungen auf Units
+
+Über die **Zugriffsgruppen** können Lese- und Schreibberechtigungen für User und Units zugewiesen werden. Diese finden Sie als **Hauptnutzer** unter der **Benutzerverwaltung**.
+
+![Zugriffsgruppen](/assets/manual/accountmanagement_access_groups.de.png)
+
+Um die Lese- und Schreibberechtigungen zu aktivieren muss *Allen Benutzern Zugriff auf alle Units gewähren* abgewählt werden. Danach können Sie 
+1. neue Zugriffsgruppen erstellen oder 
+2. bereits vorhandene Zugriffsgruppen bearbeiten oder löschen.  
+
+Bei der Bearbeitung der Zugriffsgruppen können Lese- und Schreibberechtigungen für jede einzelne Unit festgelegt werden. 
+
+![Zugriffsgruppen bearbeiten](/assets/manual/edit_access_group.de.png)
+
+Nachdem Sie die Zugriffsgruppen definiert haben, können Sie unter **Benutzer** die Accounts mit den Berechtigungen aktualisieren. Dabei können Sie die **Rollen** und die **Zugriffsgruppen** jedem einzelnen Account zuordnen. 
+
+![Account aktualisieren](/assets/manual/update_account.de.png)
+
+::: info  Rollen bestimmen, welche Aktionen zugelassen sind. Für Zugriff auf Objekte ist zusätzlich die Mitgliedschaft in einer passenden Zugriffsgruppe erforderlich. 
+::: 
+
+::: info Zugriffsgruppen regeln den Zugriff auf bestimmte Objekte. Für die Ausführung spezifischer Aktionen ist zusätzlich eine passende Rolle nötig. 
+:::
+
 ## Lizenzkontrolle
 
 Anwender von *verinice.onprem* hinterlegen in Ihrer lokalen Instanz eine Lizenzdatei. Diese Datei legt die maximale Anzahl von Accounts, Units, Clients sowie die Nutzung lizenzpflichtiger Inhalte wie z.B. offizieller Texte von Standards fest.
