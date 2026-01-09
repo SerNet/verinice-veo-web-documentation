@@ -21,6 +21,8 @@ FROM nginx:1.29 AS release
 
 COPY --from=builder /usr/src/app/.vitepress/dist /usr/src/app/dist
 
+RUN mkdir -p /var/cache/nginx/client_temp && chown -R 0 /var/cache/nginx && chmod -R g+rwX /var/cache/nginx
+
 # Add custom config to serve the index.html as entrypoint if the server would otherwise return a 404
 COPY  nginx.conf /etc/nginx/conf.d/custom.conf
 
