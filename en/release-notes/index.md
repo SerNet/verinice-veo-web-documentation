@@ -1,18 +1,11 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: warning Go directly to the new features in release [verinice 47](/en/release-notes/verinice-47.md)!
+::: info Go directly to the new features in [verinice 48](/en/release-notes/verinice-48.md).
 :::
 
-New features, and entire domains in particular, go through various release phases and may not be available to all users:
+::: tip Some features are only available in certain domains or [bundles](https://account.verinice.com/en/).
+:::
 
-**Prototype:** These features are under development and are only available internally.
-
-**Private Beta:** These features are available to a closed group of testers.
-
-**Public Beta:** These features are available to all users for testing.
-
-**Production:** These features are available to all users for productive use, provided that the respective domain is included in the selected plan!
-
-::: danger If errors are detected in the productive environment after the release of verinice, we will document them in the verinice forum under [Known Issues](https://forum.verinice.com/c/veo/known-issues/87) until they are fixed!
+::: danger If errors are detected in the productive environment after the release of verinice, we will document them in the verinice forum under [Known Issues](https://forum.verinice.com/c/veo/known-issues/87) until they are fixed.
 :::
