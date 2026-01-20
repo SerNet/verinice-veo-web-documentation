@@ -1,6 +1,6 @@
-# verinice.veo Documentation
+# verinice. Documentation
 
-This repository contains the end user documentation for verinice.veo, the open-source tool for managing information security.
+This repository contains the end user documentation for verinice., the open-source tool for managing information security.
 
 ## Installation
 

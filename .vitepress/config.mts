@@ -135,7 +135,7 @@ export default withMermaid(defineConfig({
       label: 'Deutsch',
       lang: 'de',
       title: "Dokumentation",
-      description: "verinice.veo - mit Sicherheit neu!",
+      description: "verinice. - mit Sicherheit neu!",
       themeConfig: {
        ...deThemeConfig,
         sidebar: localizeSidebar(sidebarItems, "de"),
