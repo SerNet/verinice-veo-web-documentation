@@ -6,6 +6,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 // Shared configuration
 const sharedConfig: UserConfig<DefaultTheme.Config> = {
+  srcExclude: ["**/README.md"],
   ignoreDeadLinks: false,
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
