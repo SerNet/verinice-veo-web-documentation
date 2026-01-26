@@ -15,3 +15,11 @@
 .VPDocAsideOutline li {
   margin-bottom: 6px;
 }
+
+/* WCAG contrast (dark mode) */
+.dark {
+--vp-c-brand-1: rgb(255, 85, 85);
+}
+.custom-block-title > a {
+  color: var(--vp-c-brand-1);
+}
