@@ -171,14 +171,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-
-/* Enable multiline of right sidebar */
-.VPDocAsideOutline .outline-link {
-  white-space: normal;
-  word-break: break-word;
-  line-height: 1.5;      
-  padding: 4px 0;        
-}
-.VPDocAsideOutline li {
-  margin-bottom: 6px;
-}
