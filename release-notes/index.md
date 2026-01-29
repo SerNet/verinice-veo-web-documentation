@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: info Direkt zu den Neuerungen in [verinice 48](/release-notes/verinice-48.md).
+::: info Direkt zu den Neuerungen in [verinice 49](/release-notes/verinice-49.md).
 :::
 
 ::: tip Einige Funktionen stehen nur in bestimmten Domänen bzw. [Bundles](https://account.verinice.com/) zur Verfügung.
