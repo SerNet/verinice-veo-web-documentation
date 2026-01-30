@@ -10,23 +10,11 @@ Die in der Roadmap ausgewiesenen Funktionen befinden sich in unterschiedlichen S
 
 ## Q1 2026
 
-<!-- verinice 49 Anfang ??? -->
-
-### Visuelle Darstellung von Verknüpfungen <Badge type="info">Test</Badge>
-<!--&225-->
-Die erste Iteration der visuellen Darstellung der Verknüpfungen ermöglicht die Navigation zu direkten *Nachbarn* :
-
-![Graph Navigation](/assets/roadmap/verinice-49-graph-1.de.gif)
-
-![Graph Zoom](/assets/roadmap/verinice-49-graph-2.de.gif)
-
 ### Erweiterung der Suchfunktion <Badge type="info">Test</Badge>
 <!--&290-->
 Die zweite Iteration der **Suchfunktion** integriert die Kriterien des Filterdialogs:
 
 ![Suchfunktion](/assets/roadmap/verinice-49-search.de.gif)
-
-<!-- verinice 49 Ende ???-->
 
 ### OnPrem-Betrieb <Badge type="info">Test</Badge>
 <!--&294-->

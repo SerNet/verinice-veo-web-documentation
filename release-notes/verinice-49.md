@@ -11,12 +11,6 @@ Die erste Iteration der visuellen Darstellung der Verknüpfungen ermöglicht die
 
 ![Graph Zoom](/assets/release-notes/verinice-49-graph-2.de.gif)
 
-## Erweiterung der Suchfunktion
-<!--&290-->
-Die zweite Iteration der **Suchfunktion** integriert die Kriterien des Filterdialogs:
-
-![Suchfunktion](/assets/release-notes/verinice-49-search.de.gif)
-
 ## Änderung der Risikodefinition verbessern
 <!--301-->
 Das **Löschen** *mittlerer Stufen* von Auswirkung, Eintrittswahrscheinlichkeit oder Risikowerten in einer Risikodefinition führt zu Verschiebungen von Risikowerten in bereits bestehenden Risiken und erfordert manuelle Nacharbeiten. Um das unbeabsichtigte Löschen zu vermeiden, kann nur noch die jeweils höchste Stufe gelöscht werden. Die Umbenennung aller Stufen ist nach wie vor möglich.

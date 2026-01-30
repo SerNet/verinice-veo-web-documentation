@@ -9,7 +9,11 @@ The features listed in the roadmap are in various stages of development:
 
 ## Q1 2026
 
-<!-- verinice 49 Start -->
+### Extension of the search function <Badge type="info">Test</Badge>
+<!--&290-->
+The second iteration of the **search function** integrates the criteria of the filter dialog:
+
+![Search function](/assets/roadmap/verinice-49-search.de.gif)
 
 ### Improve change to risk definition<Badge type="info">Test</Badge>
 

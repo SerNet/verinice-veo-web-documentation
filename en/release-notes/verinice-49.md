@@ -11,12 +11,6 @@ The first iteration of the visual representation of links enables navigation to 
 
 ![Graph Zoom](/assets/en/release-notes/verinice-49-graph-2.de.gif)
 
-## Extension of the search function
-<!--&290-->
-The second iteration of the **search function** integrates the criteria of the filter dialog:
-
-![Search function](/assets/en/release-notes/verinice-49-search.de.gif)
-
 ## Improve change of risk definition
 <!--301-->
 **Deleting** *medium levels* of impact, probability of occurrence, or risk values in a risk definition leads to shifts in risk values in existing risks and requires manual rework. To avoid unintentional deletion, only the highest level can now be deleted. It is still possible to rename all levels.
