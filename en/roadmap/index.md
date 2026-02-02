@@ -4,62 +4,10 @@
 The features listed in the roadmap are in various stages of development:
 - <Badge type="info">Test</Badge> Release imminent (subject to successful testing).
 - <Badge type="danger">Development</Badge> Release foreseeable (depending on complexity).
-- <Badge type="warning">Discussion</Badge> Release planned (postponements possible).
-- <Badge type="tip">Planning</Badge> Release undetermined (postponements likely).
+- <Badge type="warning">Planning</Badge> Release planned (postponements possible).
+- <Badge type="tip">Idea</Badge> Release undetermined (postponements likely).
 
 ## Q1 2026
-
-### Extension of the search function <Badge type="info">Test</Badge>
-<!--&290-->
-The second iteration of the **search function** integrates the criteria of the filter dialog:
-
-![Search function](/assets/roadmap/verinice-49-search.de.gif)
-
-### Improve change to risk definition<Badge type="info">Test</Badge>
-
-<!--301-->
-**Deleting** *medium levels* of impact, probability of occurrence, or risk values in a risk definition leads to shifts in risk values in existing risks and requires manual rework. To avoid unintentional deletion, only the highest level can be deleted. It is still possible to rename all levels.
-
-![Deleting levels in the risk definition](/assets/en/roadmap/verinice-49-risikodefinition.de.png)
-
-::: danger Any adjustment to a risk definition requires changes to existing risks. It is recommended to adapt the risk definition to the respective organization **before**  the risk assessment!
-:::
-
-In addition, the following errors have been fixed:
-- The front end takes into account that a risk definition must contain at least one criterion (protection goal).
-- A risk definition can now be saved when a risk level is deleted, provided that it is no longer used in any matrix.
-
-### Reports as cards <Badge type="info">Test</Badge>
-<!--&240-->
-
-Reports are displayed in separate cards for each language variant to simplify selection:
-
-![Reports as cards](/assets/en/roadmap/verinice-49-report-cards.de.png)
-
-### Detail improvements and bug fixes <Badge type="info">Test</Badge>
-<!--&264, &186-->
-
-- The documentation for authorization management has been updated.
-- The report **A.3 Modeling** in the IT-Grundschutz (DE) domain reads the new property ```complianceControlSubTypes``` .
-- The obsolete property ```complianceControlSubType``` has been removed (previously replaced by ```complianceControlSubTypes```).
-- Fixed the 404 error (object not found) under **My recently edited objects** if the object was created in another domain.
-- The content of the IT-Grundschutz Compendium and other controls in the implementation dialog is now also readable in dark mode.
-- Display of missing translations for profiles in the **Create Unit** wizard.
-- The standard user and standard password of the logged-in user are transferred to the report service.
-- Upgrade to VueQuery version 5.
-- Update to Cypress 15
-- Update vue-tsc to v3.1.8
-
-<!-- verinice 49 End ???-->
-
-### Visual representation of links <Badge type="info">Test</Badge>
-<!--&225-->
-
-The first iteration of the visual representation of links enables navigation to direct *neighbors* :
-
-![Graph Navigation](/assets/en/roadmap/verinice-49-graph-1.de.gif)
-
-![Graph Zoom](/assets/en/roadmap/verinice-49-graph-2.de.gif)
 
 ### Extension of the search function <Badge type="info">Test</Badge>
 <!--&290-->
@@ -140,14 +88,14 @@ Creation of international versions of the following domains:
 
 ## Q2 2026
 
-### ISO catalog with control texts <Badge type="tip">Planning</Badge>
+### ISO catalog with control texts <Badge type="warning">Planning</Badge>
 <!--&293-->
 
 Provision of the risk catalog for the ISO 27001 domain with the control texts encrypted under license law.
 
 ## Second half of 2026
 
-### Authorization management <Badge type="tip">Planning</Badge>
+### Authorization management <Badge type="warning">Planning</Badge>
 <!--&178-->
 
 Extension of the rights and roles concept to scopes (e.g., information networks). <!-- &178 -->
