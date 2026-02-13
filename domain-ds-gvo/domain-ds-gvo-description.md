@@ -13,7 +13,7 @@
 
 ### Prozessobjekte
 
-- **Verarbeitungstätigkeiten:** Dokumentation der Verarbeitungstätigkeiten zum Aufbau des Verzeichnisses der Verarbeitungstätigkeiten..
+- **Verarbeitungstätigkeiten:** Dokumentation der Verarbeitungstätigkeiten zum Aufbau des Verzeichnisses der Verarbeitungstätigkeiten.
 - **Datenübertragungen:** Erfassung der konkreten Datenübertragungen.
 - **Datenschutz-Folgeabschätzungen:** Durchgeführte Datenschutz-Folgenabschätzungen.
 
