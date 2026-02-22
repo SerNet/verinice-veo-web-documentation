@@ -26,8 +26,8 @@ const deThemeConfig: DefaultTheme.Config = {
     i18nRouting: true,
     siteTitle: false,
      logo: {
-    src: "/veo-logo.svg",
-    alt: "verinice.veo documentation"
+    src: "/verinice-logo.svg",
+    alt: "verinice documentation"
   },
     nav: [{ text: "Home", link: `/` }],
   search: {
@@ -79,8 +79,8 @@ const enThemeConfig: DefaultTheme.Config = {
   i18nRouting: true,
   siteTitle: false,
  logo: {
-    src: "/veo-logo.svg",
-    alt: "verinice.veo documentation"
+    src: "/verinice-logo.svg",
+    alt: "verinice documentation"
   },
   nav: [{ text: "Home", link: `/en/` }],
   search: {
