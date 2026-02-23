@@ -1,101 +1,164 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
+
+As of February 22, 2026 - Subject to change!
 
 The features listed in the roadmap are in various stages of development:
 - <Badge type="info">Test</Badge> Release imminent (subject to successful testing).
 - <Badge type="danger">Development</Badge> Release foreseeable (depending on complexity).
-- <Badge type="warning">Planning</Badge> Release planned (postponements possible).
-- <Badge type="tip">Idea</Badge> Release undetermined (postponements likely).
+- <Badge type="warning">Planning</Badge> Release planned.
+- <Badge type="tip">Idea</Badge> Release undetermined.
 
 ## Q1 2026
 
-### Extension of the search function <Badge type="info">Test</Badge>
-<!--&290-->
-
-The second iteration of the **search function** integrates the criteria of the filter dialog:
-
-![Search function](/assets/en/roadmap/verinice-49-search.de.gif)
-
 ### OnPrem operation <Badge type="info">Test</Badge>
-<!--&294-->
-
+<!-- &294 -->
 Beta projects and rollout of OnPrem operation in two installation variants:
 - Helm chart for native Kubernetes clusters.
 - Virtual appliance with Talos Linux for Kubernetes.
 
-### Migration from verinice to verinice.veo. <Badge type="info">Test</Badge>
-<!---->
+### Migration of IT baseline protection and data protection <Badge type="info">Test</Badge>
+<!-- &305 -->
+Migration of IT baseline protection and data protection from verinice to verinice.veo.
 
-Migration of data from verinice to verinice.veo in the following iterations:
-- IT baseline protection and data protection domains
-- ISO 27001 and data protection domains
-- BCM domain
-- TISAX / VDA ISA domain
-
-### Better mapping of scopes and parts <Badge type="danger">Development</Badge>
-<!--&298-->
-
+### Better mapping of scopes and parts <Badge type="info">Test</Badge>
+<!-- &298 -->
 To improve orientation, the following changes have been made to the object view:
-- The **Scopes** and **Parts** tabs have been combined.
-- The **In Scope** and **Part of** tabs will be combined.
-- A combined dialog for selecting and creating objects will be introduced.
+- The Scopes and **Parts** tabs have been combined.
+- The In Scope and **Part of** tabs have been combined.
+
+![Parts and Part of](/assets/en/roadmap/verinice-50-parts.de.gif)
+
+- A combined dialog for selecting and creating objects has been introduced.
+
+![Combined dialog for object creation](/assets/en/roadmap/verinice-50-create-parts.de.gif)
+
+### Improved operation of the collapsed menu <Badge type="info">Test</Badge>
+
+The navigation menu remains operable when collapsed.
+
+![Collapsed menu](/assets/en/roadmap/verinice-50-menu.de.gif)
 
 ### Conflict-free domain updates <Badge type="danger">Development</Badge>
-<!-- &59, &257, &302-->
+<!-- &59, &302, &299, &233 -->
+In order to be able to manually resolve any conflicts (breaking changes) when updating domains, these must be identified and displayed.
 
-In order to be able to manually resolve any conflicts (breaking changes) when updating domains, these must be identified and corrected.
-
-### Expand implementation documentation <Badge type="danger">Development</Badge>
-<!--&261-->
-
-The documentation of the implementation of controls will be expanded to include:
-- Links to the responsible persons.
-- Links to supporting documents.
+### Control implementation <Badge type="danger">Development</Badge>
+<!-- &261 -->
+The documentation of the implementation of controls is expanded to include:
+- the link to the responsible persons.
+- links to supporting documents.
 
 ![Expand implementation documentation](/assets/en/roadmap/verinice-49-ri-dialog.de.png)
 
-### Service for background tasks <Badge type="danger">Development</Badge>
-<!--&103-->
-
-In order to be able to execute long-running processes such as the application of profiles in the background, these are outsourced to a service.
-
 ### Applicability of controls (SoA) <Badge type="danger">Development</Badge>
-<!--&208-->
+<!-- &208 -->
+In order to be able to specifically map the applicability of controls (SoA) in all domains, the associated dialog is implemented as a configurable form.
 
-In order to be able to map the **applicability of controls (SoA)** specifically in all domains, the associated dialog is implemented as a configurable form.
+### Extension of the search function <Badge type="info">Test</Badge>
+<!-- &290 -->
+The second iteration of the search function integrates the criteria of the filter dialog:
 
-### Adapt domain NIS2 (DE) to implementation law<Badge type="danger">Development</Badge>
-<!--110-->
+![Search function](/assets/en/roadmap/verinice-49-search.de.gif)
 
-Organization-relevant aspects according to the German implementation law (NIS2UmsuCG) are taken into account.
+### German ISO 27005 <Badge type="danger">Development</Badge>
+<!-- &300 -->
+In the ISO 27001 (DE) domain, the German-language version of ISO 27005, which is now available, must be taken into account.
 
-### Take German ISO 27005 into account <Badge type="danger">Development</Badge>
-<!--&300-->
+### ISO 27001 (INT) domain <Badge type="danger">Development</Badge>
+<!-- &248 -->
+Creation of the international version of the ISO domain.
 
-In the ISO 27001 (DE) domain, the now available **German-language version of ISO 27005** must be taken into account. The current English-language threats and vulnerabilities must be translated.
+### Domain NIS2 (DE) and NIS2UmsuCG <Badge type="danger">Development</Badge>
+<!-- &110, &303 -->
+Extension of the NIS2 (DE) domain to include the requirements of the German implementation law (NIS2UmsuCG).
 
-### Additional domains <Badge type="danger">Development</Badge>
+### IT baseline protection profile UAS <Badge type="danger">Development</Badge>
+<!-- &307-->
+Provision of the IT baseline protection profile UAS in vernice.
 
-Creation of new domains:
-- Business Continuity Management domain (BSI Standard 200-4 and ISO 22301)
-- Basic Protection++ domain
-- TISAX / VDA ISA domain
+### Service for background tasks <Badge type="danger">Development</Badge>
+<!-- &103 -->
+In order to be able to execute long-running processes such as applying profiles in the background, these are outsourced to a service.
 
-Creation of international versions of the following domains:
-- Domain ISO 27001 (INT) <!--&248-->
-- New domain NIS2 (INT) <!--&249-->
-- New domain GDPR (INT) <!--&250-->
+### Switch to VueQuery version 5 <Badge type="danger">Development</Badge>
+<!-- 309 -->
+Functional improvement through upgrade to VueQuery version 5.
 
 ## Q2 2026
 
-### ISO catalog with control texts <Badge type="warning">Planning</Badge>
-<!--&293-->
+### C5 hosting for verinice.cloud <Badge type="danger">Development</Badge>
+<!--&246-->
+Hosting of verinice.cloud under the requirements of the C5 catalog (Criteria Catalog C5 – Cloud Computing Compliance Criteria Catalog – Type 2 Attestation).
 
-Provision of the risk catalog for the ISO 27001 domain with the control texts encrypted under license law.
+### Business Continuity Management domain <Badge type="danger">Development</Badge>
+<!-- &306, &285, &258, &255-->
+(BSI Standard 200-4 and ISO 22301)
+- WHP, WAP, and GFP in verinice
+- Automatic calculation of MTPD and RTO
+- Reports on the results of emergency planning
+
+### Migration ISO, BCM, TISAX / VDA ISA <Badge type="danger">Development</Badge>
+<!-- &216 split -->
+Migration of data from verinice to verinice.veo in the following iterations:
+- Domains ISO 27001 and data protection
+- Domain BCM
+- Domain TISAX / VDA ISA
+
+### Domain NIS2 (INT) <Badge type="danger">Development</Badge>
+<!-- &249 -->
+International version of the NIS2 domain.
+
+### Domain GDPR (INT) <Badge type="danger">Development</Badge>
+<!-- &250 -->
+International version of the domain Data Protection/GDPR.
+
+### ISO catalog with control texts <Badge type="warning">Planning</Badge>
+<!-- &293 -->
+Provision of the risk catalog for the ISO 27001 domain with the control texts encrypted in accordance with licensing rights.
+
+### Extension of CSV import <Badge type="warning">Planning</Badge>
+<!-- &313, &217 -->
+Next iteration of CSV import for free text fields.
+
+### Extension of the graph view <Badge type="warning">Planning</Badge>
+<!-- &311 -->
+Extension of the navigation and display options for the graph view.
+
+### Import of units <Badge type="warning">Planning</Badge>
+<!-- &304 -->
+Import of units based on the same domain template.
+
+### Inheritance of controls <Badge type="warning">Planning</Badge>
+<!-- &67 -->
+Control/building block modeling - inheritance of implementation to parts.
+
+### User Light <Badge type="warning">Planning</Badge>
+<!-- new -->
+Users with restricted permissions to perform specific tasks in verinice.
 
 ## Second half of 2026
 
-### Authorization management <Badge type="warning">Planning</Badge>
-<!--&178-->
+### Domain Basic Protection++ <Badge type="warning">Planning</Badge>
+<!-- &262 -->
+Next version of the new Basic Protection++ using the Basic Protection++ methodology and the risk management methodology (subject to availability).
 
-Extension of the rights and roles concept to scopes (e.g., information networks). <!-- &178 -->
+### Scope permissions <Badge type="warning">Planning</Badge>
+<!-- &178 -->
+Extension of the rights and roles concept to scopes (e.g., information networks).
+
+### Workflows <Badge type="warning">Planning</Badge>
+<!-- new -->
+Mapping of workflows in verinice.
+
+### Dashboard <Badge type="warning">Planning</Badge>
+<!-- new -->
+Visualization of aggregated data in verinice.
+
+### TISAX / VDA ISA domain <Badge type="warning">Planning</Badge>
+<!-- &153, &151, &190  -->
+Mapping of the TISAX / VDA ISA domain with implementation status as a maturity model.
+
+### Organization-wide controls <Badge type="warning">Planning</Badge>
+<!-- &66 -->
+Control/module modeling - Organization-wide implementation of controls.

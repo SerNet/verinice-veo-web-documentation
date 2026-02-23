@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-Stand 19.02.2026 - Änderungen vorbehalten!
+Stand 22.02.2026 - Änderungen vorbehalten!
 
 Die in der Roadmap ausgewiesenen Funktionen befinden sich in unterschiedlichen Status:
 
@@ -22,12 +22,23 @@ Beta-Projekte und Rollout des OnPrem-Betriebs in zwei Installationsvarianten:
 <!-- &305 -->
 Migration von IT-Grundschutz und Datenschutz aus verinice zu verinice.veo.
 
-### Bessere Abbildung von Scopes und Teilen <Badge type="danger">Entwicklung</Badge>
+### Bessere Abbildung von Scopes und Teilen <Badge type="info">Test</Badge>
 <!-- &298 -->
 Um die Orientierung zu verbessern werden in der Objektansicht:
 - die Reiter Scopes und **Teile** zusammengefasst.
 - die Reiter In Scope und **Teil von** zusammengefasst.
+
+![Teile und Teil von](/assets/roadmap/verinice-50-parts.de.gif)
+
 - ein kombinierter Dialog für Auswahl und Erzeugung von Objekten eingeführt. 
+
+![Kombinierter Dialog für die Objektanlage](/assets/roadmap/verinice-50-create-parts.de.gif)
+
+### Bedienung des eingeklappten Menüs verbessert <Badge type="info">Test</Badge>
+
+Das Navigationsmenü bleibt im eingeklappten Zustand bedienbar.
+
+![Eingeklapptes Menü](/assets/roadmap/verinice-50-menue.de.gif)
 
 ### Konfliktfreie Domain-Updates <Badge type="danger">Entwicklung</Badge>
 <!-- &59, &302, &299, &233 -->
@@ -66,10 +77,6 @@ Erweiterung der Domäne NIS2 (DE) um die Anforderungen aus dem deutschen Umsetzu
 ### IT-Grundschutz-Profil UAS <Badge type="danger">Entwicklung</Badge>
 <!-- &307-->
 Bereitstellung des IT-Grundschutz-Profils UAS in vernice.
-
-### Barrierefreie Dokumentation <Badge type="info">Test</Badge>
-<!-- &310 -->
-Barrierefreie Dokumentation nach WCAG 2.1 und BITV 2.0.
 
 ### Service für Hintergrundtasks <Badge type="danger">Entwicklung</Badge>
 <!-- &103 -->
