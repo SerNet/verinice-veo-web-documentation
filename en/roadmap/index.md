@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-As of February 22, 2026 - Subject to change!
+As of March 16, 2026 - Subject to change!
 
 The features listed in the roadmap are in various stages of development:
 - <Badge type="info">Test</Badge> Release imminent (subject to successful testing).
@@ -20,24 +20,6 @@ Beta projects and rollout of OnPrem operation in two installation variants:
 ### Migration of IT baseline protection and data protection <Badge type="info">Test</Badge>
 <!-- &305 -->
 Migration of IT baseline protection and data protection from verinice to verinice.veo.
-
-### Better mapping of scopes and parts <Badge type="info">Test</Badge>
-<!-- &298 -->
-To improve orientation, the following changes have been made to the object view:
-- The Scopes and **Parts** tabs have been combined.
-- The In Scope and **Part of** tabs have been combined.
-
-![Parts and Part of](/assets/en/roadmap/verinice-50-parts.de.gif)
-
-- A combined dialog for selecting and creating objects has been introduced.
-
-![Combined dialog for object creation](/assets/en/roadmap/verinice-50-create-parts.de.gif)
-
-### Improved operation of the collapsed menu <Badge type="info">Test</Badge>
-
-The navigation menu remains operable when collapsed.
-
-![Collapsed menu](/assets/en/roadmap/verinice-50-menu.de.gif)
 
 ### Conflict-free domain updates <Badge type="danger">Development</Badge>
 <!-- &59, &302, &299, &233 -->

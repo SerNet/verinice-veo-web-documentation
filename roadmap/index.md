@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-Stand 22.02.2026 - Änderungen vorbehalten!
+Stand 16.03.2026 - Änderungen vorbehalten!
 
 Die in der Roadmap ausgewiesenen Funktionen befinden sich in unterschiedlichen Status:
 
@@ -21,24 +21,6 @@ Beta-Projekte und Rollout des OnPrem-Betriebs in zwei Installationsvarianten:
 ### Migration IT-Grundschutz und Datenschutz <Badge type="info">Test</Badge>
 <!-- &305 -->
 Migration von IT-Grundschutz und Datenschutz aus verinice zu verinice.veo.
-
-### Bessere Abbildung von Scopes und Teilen <Badge type="info">Test</Badge>
-<!-- &298 -->
-Um die Orientierung zu verbessern werden in der Objektansicht:
-- die Reiter Scopes und **Teile** zusammengefasst.
-- die Reiter In Scope und **Teil von** zusammengefasst.
-
-![Teile und Teil von](/assets/roadmap/verinice-50-parts.de.gif)
-
-- ein kombinierter Dialog für Auswahl und Erzeugung von Objekten eingeführt. 
-
-![Kombinierter Dialog für die Objektanlage](/assets/roadmap/verinice-50-create-parts.de.gif)
-
-### Bedienung des eingeklappten Menüs verbessert <Badge type="info">Test</Badge>
-
-Das Navigationsmenü bleibt im eingeklappten Zustand bedienbar.
-
-![Eingeklapptes Menü](/assets/roadmap/verinice-50-menue.de.gif)
 
 ### Konfliktfreie Domain-Updates <Badge type="danger">Entwicklung</Badge>
 <!-- &59, &302, &299, &233 -->
