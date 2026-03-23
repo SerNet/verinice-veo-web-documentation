@@ -48,5 +48,5 @@ features:
 The English version of the documentation is a work in progress. It is incomplete and may contain errors.
 :::
 
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-© 2025 The Project Contributors. Licensed under [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/).
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
+© 2026 The Project Contributors. Licensed under [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/).
