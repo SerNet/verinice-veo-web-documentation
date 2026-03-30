@@ -16,6 +16,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
       { text: { de: "Risikodefinitionen", en: "Risk Definitions" }, link: "/manual/risk-definition" },
       { text: { de: "Datenübertragung", en: "Data Transfer" }, link: "/manual/data-transfer" },
       { text: { de: "Benutzerverwaltung", en: "User Management" }, link: "/manual/accounts" },
+      { text: { de: "Berechtigungen", en: "Permissions" }, link: "/manual/permissions" },
     ],
   },
   {

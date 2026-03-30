@@ -82,7 +82,7 @@ We recommend notifying new users in advance about the creation of their verinice
 
 ## Read and write permissions for units
 
-Read and write permissions for users and units can be assigned via **access groups**. These can be found under **Account Management** as **Main User**.
+[Read and write permissions](permissions.md) for users and units can be assigned via **access groups**. These can be found under **Account Management** as **Main User**.
 
 ![Access Groups](/assets/en/manual/accountmanagement_access_groups.en.png)
 

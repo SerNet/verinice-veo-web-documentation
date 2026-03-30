@@ -12,3 +12,4 @@ In diesem Abschnitt ist die grundlegende Bedienung von verinice beschrieben.
 * Die im Rahmen der Risikoanalyse verwendeten Kriterien bearbeiten Sie unter [Risikodefinitionen](./risk-definition).
 * Datenübertragung und Backup nehmen Sie unter [Datenübertragung](./data-transfer) wahr.
 * Im Abschnitt [Benutzerverwaltung](./accounts.md) können Sie Ihr [Benutzerkonto](./accounts#benutzerkonto-bearbeiten) bearbeiten und als Hauptnutzer ggfs. weitere [Benutzer verwalten](./accounts#benutzerverwaltung-1).
+* Der Artikel [Berechtigungen](permissions.md) erläutert, welche Berechtigungen für bestimmte Aktionen in verinice erforderlich sind.

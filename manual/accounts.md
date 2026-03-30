@@ -81,7 +81,7 @@ Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 
 ## Lese- und Schreibberechtigungen auf Units
 
-Über die **Zugriffsgruppen** können Lese- und Schreibberechtigungen für User und Units zugewiesen werden. Diese finden Sie als **Hauptnutzer** unter der **Benutzerverwaltung**.
+Über die **Zugriffsgruppen** können [Lese- und Schreibberechtigungen](permissions.md) für User und Units zugewiesen werden. Diese finden Sie als **Hauptnutzer:in** unter der **Benutzerverwaltung**.
 
 ![Zugriffsgruppen](/assets/manual/accountmanagement_access_groups.de.png)
 
