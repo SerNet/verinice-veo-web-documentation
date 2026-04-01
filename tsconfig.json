@@ -1,5 +1,8 @@
 {
-  "include": [".vitepress/**/*"],
+  "include": [
+    ".vitepress/**/*",
+    "types/**/*.d.ts",
+  ],
   "compilerOptions": {
     "skipLibCheck": true,
     "strictNullChecks": true,

@@ -1,5 +1,5 @@
 {
-  "name": "verinice.veo documentation",
+  "name": "verinice-veo-documentation",
   "author": "SerNet GmbH <verinice@sernet.de> (https://sernet.de/)",
   "private": true,
   "version": "0.29.0-SNAPSHOT",
@@ -15,7 +15,7 @@
     "glob": "^13.0.0",
     "hash-sum": "^2.0.0",
     "mermaid": "^11.12.2",
-    "typescript": "^5.8.3",
+    "typescript": "^6.0.2",
     "vitepress": "^1.0.2",
     "vitepress-plugin-mermaid": "^2.0.17"
   }
