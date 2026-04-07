@@ -6,8 +6,6 @@ The following new features are available to users with the release of **verinice
 ## Improving the handling of Markdown fields
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/321 -->
 
-![verinice-52-markdown.de.gif](/assets/release-notes/verinice-52-markdown.de.gif)
-
 The use of Markdown fields is to be improved, particularly for catalog elements (controls, scenarios, etc.), by ensuring that they:
 - can be edited even after creation.
 - can be populated via CSV import.
@@ -55,13 +53,9 @@ In the `RequirementImplementationDto` endpoint, the Origination field is optiona
 ### More Compact Menu
 <!-- https://gitlab.int.sernet.de/veo/verinice-veo/-/issues/3827 -->
 
-![grafik.png](/assets/release-notes/grafik.png)
-
 The menu has been redesigned to be more compact to avoid unnecessary scrolling:
 
 ## Standardize Documentation Creation
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/251 -->
 
 The creation and updating of the verinice documentation should be documented for content creators. This part of domain development, currently used only internally, must be standardized for future white-label use.
-
-
