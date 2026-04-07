@@ -38,6 +38,6 @@ Der Link **Weitere Domänen** in Auswahlfeld Domänen ruft jetzt die Seite für 
 - Falsche Fehlermeldung beim Löschen von Clients korrigiert.
 - Beheben fehlerhafter Domänen-Updates.
 - Behebung eines Caching-Problems bei der Aktivierung von Feature-Flags.
-- Bei Erzeugung einer Domäne aus einem Domänen-Template werden Übersetzung korrekt übernommen.
+- Bei Erzeugung einer Domäne aus einem Domänen-Template werden Übersetzungen korrekt übernommen.
 - Upgrade auf Nuxt Version 4.3.0
 - Upgrade auf Spring Boot Version 4

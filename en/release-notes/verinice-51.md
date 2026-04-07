@@ -15,7 +15,7 @@ To improve orientation, the following changes have been made to the object view:
 
 ![Combined dialog for object creation](/assets/en/release-notes/verinice-50-create-parts.de.gif)
 
-### Improved operation of the collapsed menu <Badge type="info">Test</Badge>
+## Improved operation of the collapsed menu <Badge type="info">Test</Badge>
 
 The navigation menu remains operable when collapsed.
 
@@ -33,7 +33,7 @@ The link **Further Domains** in the Domains selection field now opens the page f
 
 - Exported units contain correct and complete data.
 - Control texts in Markdown fields can be saved.
-- In the ISO domain, the container for mitigating measures is correctly created as a Control Group subtype rather than a Security Measure.
+- In the ISO domain, the container for mitigating measures is correctly created as a Control Group subtype rather than a control.
 - When creating an account, an error message now informs the user that the username must be at least 3 characters long.
 - Incorrect error message when deleting clients has been corrected.
 - Fixed incorrect domain updates.
