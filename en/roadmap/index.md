@@ -28,7 +28,7 @@ The expanded search function replaces the previous filter function.
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/208 -->
 
-The statement of application (SoA) should be better documented in the scope object within the Control Implementation (CI) for individual controls.
+The statement of applicability (SoA) should be better documented in the scope object within the Control Implementation (CI) for individual controls.
 
 ### Support for registry mirroring for on-premises operations <Badge type="danger">Development</Badge>
 

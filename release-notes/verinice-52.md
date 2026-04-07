@@ -38,7 +38,7 @@ In der Domänenauswahl wird anstelle des Domänennamens die Übersetzung angezei
 ### Manueller Test Objektansicht
 <!-- https://gitlab.int.sernet.de/veo/verinice-veo/-/issues/4505 -->
 
-Manueller Test der Objektansicht inklusiver aller Funktionalitäten.
+Manueller Test der Objektansicht inklusive aller Funktionalitäten.
 
 ### Manueller Test Objektübersicht
 <!-- https://gitlab.int.sernet.de/veo/verinice-veo/-/issues/4504 -->
@@ -53,9 +53,9 @@ Im Endpunkt `RequirementImplementationDto` ist die Origination optional, was fac
 ### Kompakteres Menü
 <!-- https://gitlab.int.sernet.de/veo/verinice-veo/-/issues/3827 -->
 
-Das Menü wird kompakter gestaltet um unnötiges Scrollen zu vermeiden.
+Das Menü wird kompakter gestaltet, um unnötiges Scrollen zu vermeiden.
 
 ## Erstellung der Dokumentation standardisieren
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/251 -->
 
-Die Erstellung und Aktualisierung der verinice-Dokumentation soll für Content-Creator dokumentiert werden. Dieser aktuell nur intern genutzte Teil der Domänenentwicklung muss für zukünftiger Whitelabel-Nutzung standardisiert werden.
+Die Erstellung und Aktualisierung der verinice-Dokumentation soll für Content-Creator dokumentiert werden. Dieser aktuell nur intern genutzte Teil der Domänenentwicklung muss für zukünftige Whitelabel-Nutzung standardisiert werden.

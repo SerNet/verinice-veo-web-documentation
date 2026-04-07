@@ -28,9 +28,9 @@ Die Erweiterung der Suchfunktion ersetzt die bisherige Filterfunktion.
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/208 -->
 
-Die Anwendbarkeit (SoA) sollen im Scopeobjekt in der Control-Implemenation (CI) für die einzelnen Controls besser dokumentiert werden können.
+Die Anwendbarkeit (SoA) soll im Scopeobjekt in der Control-Implementation (CI) für die einzelnen Controls besser dokumentiert werden können.
 
-### Unterstützung von Registry Mirroring für den onprem-Betrieb <Badge type="danger">Entwicklung</Badge>
+### Unterstützung von Registry Mirroring für den OnPrem-Betrieb <Badge type="danger">Entwicklung</Badge>
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/326 -->
 
@@ -40,7 +40,7 @@ Bei Kunden mit einer Air-Gapped Umgebung haben Kubernetes-Umgebungen keinen Zugr
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/317 -->
 
-Manuelle Schritte in der Ersteinrichtung sollen reduziert werden, so dass idealerweise alles über die values.yaml und ähnliche Mechanismen gesteuert werden kann.
+Manuelle Schritte in der Ersteinrichtung sollen reduziert werden, sodass idealerweise alles über die values.yaml und ähnliche Mechanismen gesteuert werden kann.
 
 ### Helm Chart OpenShift-fähig machen <Badge type="danger">Entwicklung</Badge>
 
@@ -98,13 +98,13 @@ Ausweitung auf internationale NIS2-Anwenderinnen und -Anwender.
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/248 -->
 
-Erstellung der englischsprachigen Domäne **ISO 27001 (INT)** für die international gültigen ISO EN Normen.
+Erstellung der englischsprachigen Domäne **ISO 27001 (INT)** für die international gültigen ISO-EN-Normen.
 
 ### OS/FS Dokument domänenübergreifend vereinheitlichen <Badge type="danger">Entwicklung</Badge>
 
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/233 -->
 
-Der allgemeinegültige Subtyp **Dokument** soll domänenübergreifend vereinheitlicht werden, um das domänenübergreifende Arbeiten für alle Anwenderinnen und Anwender zu vereinfachen.
+Der allgemeingültige Subtyp **Dokument** soll domänenübergreifend vereinheitlicht werden, um das domänenübergreifende Arbeiten für alle Anwenderinnen und Anwender zu vereinfachen.
 
 ### Konfliktfreie Domain-Updates <Badge type="danger">Entwicklung</Badge>
 

@@ -15,10 +15,10 @@ The use of Markdown fields is to be improved, particularly for catalog elements 
 
 Improvements for OnPrem operation prior to the official roll-out (Helm chart and Talos VM).
 
-## Detail improvements and bug fixes (Uncommon valor)
+## Minor improvements and bug fixes (Uncommon valor)
 <!-- https://gitlab.int.sernet.de/groups/veo/-/epics/268 -->
 
-Detail improvements and bug fixes in the **Uncommon valor** sprint.
+Minor improvements and bug fixes in the **Uncommon valor** sprint.
 
 ### Bug fix: Objects from other units can be viewed
 <!-- https://gitlab.int.sernet.de/veo/verinice-veo/-/issues/4606 -->
