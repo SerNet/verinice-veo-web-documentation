@@ -32,5 +32,3 @@ cypress/config
 .vscode/*
 
 .idea
-
-en/index.md
