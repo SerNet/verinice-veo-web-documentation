@@ -1,6 +1,6 @@
 {
   "include": [
-    ".vitepress/**/*",
+    "docs/.vitepress/**/*",
     "types/**/*.d.ts",
   ],
   "compilerOptions": {
