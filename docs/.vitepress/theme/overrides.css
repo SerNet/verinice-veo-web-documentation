@@ -1,0 +1,56 @@
+/**
+ * Layout Overrides
+ * Non-token, non-theme styles
+ */
+
+
+ /* Enable multiline of right sidebar */
+.VPDocAsideOutline .outline-link {
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.5;
+  padding: 4px 0;
+}
+
+.VPDocAsideOutline li {
+  margin-bottom: 6px;
+}
+
+/* WCAG contrast (dark mode) */
+.dark {
+--vp-c-brand-1: rgb(255, 85, 85);
+}
+.custom-block-title > a {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-adaptive-theme .lang {
+  color: var(--vp-c-brand-1) !important;
+}
+
+:root {
+  --shiki-red:     rgb(184, 29, 45); //keywords
+  --shiki-orange:  rgb(154, 66, 0); //strings, headers, literals
+  --shiki-comment: rgb(90, 99, 112); //comments
+}
+
+html.dark {
+  --shiki-red:     rgb(255, 155, 147);
+  --shiki-orange:  rgb(255, 184, 108);
+  --shiki-comment: rgb(154, 164, 175); 
+}
+
+
+.vp-doc span[style*="--shiki-light:#D73A49"] {
+  color: var(--shiki-red) !important;
+}
+
+.vp-doc span[style*="--shiki-light:#E36209"]{
+  color: var(--shiki-orange) !important;
+}
+
+.vp-doc span[style*="--shiki-light:#6A737D"]{
+    color: var(--shiki-comment) !important;
+}
+
+

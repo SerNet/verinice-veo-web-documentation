@@ -19,7 +19,7 @@ RUN npm run docs:build
 
 FROM nginx:1.29 AS release
 
-COPY --from=builder /usr/src/app/.vitepress/dist /usr/src/app/dist
+COPY --from=builder /usr/src/app/docs/.vitepress/dist /usr/src/app/dist
 
 RUN mkdir -p /var/cache/nginx/client_temp && chown -R 0 /var/cache/nginx && chmod -R g+rwX /var/cache/nginx
 

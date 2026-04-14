@@ -15,7 +15,7 @@ export function init() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
 
-  const BUILD_OUTPUT_DIR = resolve(__dirname, ".vitepress", "dist");
+  const BUILD_OUTPUT_DIR = resolve(__dirname, "docs/.vitepress", "dist");
   const HTML_FILES = glob.sync(`${BUILD_OUTPUT_DIR}/**/*.html`);
   const REGEX = /<script([^>]*)>(.+?)<\/script>/gi;
 
