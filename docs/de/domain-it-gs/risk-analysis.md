@@ -12,17 +12,17 @@ Im BSI IT-Grundschutz nach 200-x können je Unit unterschiedliche Parameter für
 - Risikokategorien
   - Name, Definition und Farbe der Kategorien
 
-![Risikomatrix](../assets/domain-it-gs/verinice-32-risk-matrix.de.png)
+![Risikomatrix](../assets/domain-it-gs/verinice-32-risk-matrix.png)
 
 ## Gefährdungsübersicht erstellen
 
 Sofern eine Risikoanalyse erforderlich ist, müssen Sie im Zielobjekt bei den Objektdetails eine **Gefährdungsübersicht erstellen**. Dies kann z.B. erforderlich sein, wenn das Zielobjekt in einem der drei Schutzziele einen hohen oder sehr hohen Schutzbedarf aufweist.
 
-![Gefährdungsübersicht erstellen](../assets/domain-it-gs/verinice-32-threat-overview.de.png)
+![Gefährdungsübersicht erstellen](../assets/domain-it-gs/verinice-32-threat-overview.png)
 
 Durch diese Aktion werden die elementaren Gefährdungen entsprechend der Kreuzreferenztabellen des BSI in Ihre Unit kopiert und im Objektumfeld des Zielobjekts Risikoobjekte für jede elementare Gefährdung angelegt:
 
-![Risiken](../assets/domain-it-gs/verinice-32-risks.de.png)
+![Risiken](../assets/domain-it-gs/verinice-32-risks.png)
 
 ## Risikobewertung
 
@@ -33,7 +33,7 @@ Um die einzelnen Elementaren Gefährdungen weiter bearbeiten zu können, klicken
 
 Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
 
-![Risikobewertung](../assets/domain-it-gs/verinice-32-risik-assessment.de.png)
+![Risikobewertung](../assets/domain-it-gs/verinice-32-risik-assessment.png)
 
 ## Risikobehandlung
 
@@ -44,7 +44,7 @@ Je nach Höhe des Risikos kann bzw. muss eine Risikobehandlung vorgenommen und g
 - Risikoreduktion
 - Risikotransfer
 
-![Risikobehandlung](../assets/domain-it-gs/verinice-32-risk-treatment.de.png)
+![Risikobehandlung](../assets/domain-it-gs/verinice-32-risk-treatment.png)
 
 ### Risikoreduktion
 
@@ -54,9 +54,9 @@ Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch
 
 1. Um bereits **vorhandene Maßnahmen** zu verknüpfen klicken Sie **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahme verknüpfen**. Es öffnet sich ein Dialog, in dem Sie aus allen bereits vorhandenen Maßnahmen die benötigten mitigierenden Maßnahmen auswählen können. Nachdem Sie den Dialog mithilfe von **Speichern** schließen, werden die ausgewählten Maßnahmen im Bereich **Maßnahmen zur Risikoreduktion** angezeigt:
 
-![Vorhandene Maßnahmen verknüpfen](../assets/domain-it-gs/verinice-32-risk-reduction-1.de.png)
+![Vorhandene Maßnahmen verknüpfen](../assets/domain-it-gs/verinice-32-risk-reduction-1.png)
 
-![Maßnahmen zur Risikoreduktion (Mitigierende Maßnahmen)](../assets/domain-it-gs/verinice-32-risk-reduction-2.de.png)
+![Maßnahmen zur Risikoreduktion (Mitigierende Maßnahmen)](../assets/domain-it-gs/verinice-32-risk-reduction-2.png)
 
 Abschließend muss das **Nettorisiko** (und gegebenenfalls eine Erklärung) manuell gesetzt werden. **Speichern** und **Schließen** Sie den Risikodialog.
 
@@ -64,7 +64,7 @@ Abschließend muss das **Nettorisiko** (und gegebenenfalls eine Erklärung) manu
 
 Um Ihre mitigierenden Maßnahmen bearbeiten zu können, klicken Sie **Umsetzung anzeigen** bei der entsprechenden elementaren Gefährdung im Tab **Risiken** im Objektumfeld des Zielobjektes.
 
-![Mitigierende Maßnahmen: Umsetzung anzeigen](../assets/domain-it-gs/verinice-32-implementation-1.de.png)
+![Mitigierende Maßnahmen: Umsetzung anzeigen](../assets/domain-it-gs/verinice-32-implementation-1.png)
 
 Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte Elementare Gefährdung. Hier können Sie die einzelnen Anforderungen/Maßnahmen bearbeiten. Indem Sie auf eine Anforderung/Maßnahme klicken öffnet sich der Umsetzungsdialog, wo Sie folgende Informationen einsehen bzw. einpflegen können:
 
@@ -76,6 +76,6 @@ Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte
   - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
   - Umsetzungsbeschreibung.
 
-![Mitigierende Maßnahmen: Umsetzung bearbeiten](../assets/domain-it-gs/verinice-32-implementation-2.de.png)
+![Mitigierende Maßnahmen: Umsetzung bearbeiten](../assets/domain-it-gs/verinice-32-implementation-2.png)
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.

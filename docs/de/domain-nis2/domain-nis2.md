@@ -6,32 +6,32 @@
 Die Organisation stellt in verinice einen Subtyp des Zielobjektes **Scope** dar und kann mit dem **Formular Organisation** über zwei folgende Wege dokumentiert werden:
 Erfassen Sie Ihre Einrichtung, indem Sie im Dashboard zum **Formular Organisation** navigieren. In der sog. **Objektübersicht** können Sie mit dem roten **Plus-Icon** eine neue Organisation erstellen.
 
-![Bild 1](../assets/domain-nis2/verinice-32-nis2-1.de.png)
+![Bild 1](../assets/domain-nis2/verinice-32-nis2-1.png)
 
-![Bild 2](../assets/domain-nis2/verinice-32-nis2-2.de.png)
+![Bild 2](../assets/domain-nis2/verinice-32-nis2-2.png)
 
 Alternativ können Sie über das Hauptmenü **Objekte >Scopes >Organisationen** in die **Objektübersicht** navigieren und mit dem roten **Plus-Icon** eine neue Organisation erfassen.
 
-![Bild 3](../assets/domain-nis2/verinice-32-nis2-3.de.png)
+![Bild 3](../assets/domain-nis2/verinice-32-nis2-3.png)
 
 In dem sich öffnenden Dialog können Sie, sofern gewünscht, sämtliche Informationen, mindestens aber Name und Status zum Formular **Organisationen** eingeben und abspeichern.
 Ihre Einrichtung wird nun als Organisation in der Objektansicht aufgelistet.
 
-![Bild 4](../assets/domain-nis2/verinice-32-nis2-4.de.png)
+![Bild 4](../assets/domain-nis2/verinice-32-nis2-4.png)
 
-![Bild 5](../assets/domain-nis2/verinice-32-nis2-5.de.png)
+![Bild 5](../assets/domain-nis2/verinice-32-nis2-5.png)
 
 Klicken Sie auf das Objekt, wenn die neu angelegte Organisation zur weiteren Bearbeitung geöffnet werden soll.
 
 Ihnen stehen nun zwei Ansicht zur Verfügung. Die **Detailansicht** im linken Bereich und die **Formularansicht** im rechten Bereich.
 
-![Bild 6](../assets/domain-nis2/verinice-32-nis2-6.de.png)
+![Bild 6](../assets/domain-nis2/verinice-32-nis2-6.png)
 
 Die Informationen für die Organisation müssen im gleichnamigen Formular und somit in der Formularansicht eingegeben werden. Für eine bessere Übersicht können Sie die Detailansicht verstecken über die Funktion **Objektdetails verstecken**. Dieser Vorgang kann jederzeit rückgängig gemacht werden über die Funktion **Objektdetails anzeigen**.
 
-![Bild 7](../assets/domain-nis2/verinice-32-nis2-7.de.png)
+![Bild 7](../assets/domain-nis2/verinice-32-nis2-7.png)
 
-![Bild 8](../assets/domain-nis2/verinice-32-nis2-8.de.png)
+![Bild 8](../assets/domain-nis2/verinice-32-nis2-8.png)
 
 ### Detailangaben
 
@@ -41,7 +41,7 @@ Sektorspezifische Informationen, die Sie als NIS2 Betroffene im Rahmen der Regis
 
 Darüber hinaus können Sie die für Sie zuständige Behörde, Registrierungsdatum und ggf. Informationen zu Registrierungsänderungen in diesem Formular dokumentieren. Mit dem Report **Registrierungsinformationen für zuständige Behörde** erhalten Sie eine detaillierte Darstellung der für eine Registrierung erforderlichen Informationen.
 
-![Bild 9](../assets/domain-nis2/verinice-32-nis2-9.de.png)
+![Bild 9](../assets/domain-nis2/verinice-32-nis2-9.png)
 
 ## NIS2 Geltungsbereiche
 
@@ -55,12 +55,12 @@ verinice unterstützt Sie bei der Erfassung und Dokumentation von Sicherheitsvor
 
 Im Abschnitt **Meldungsart** können Sie eine Auswahl zur Art der Meldung treffen.
 
-![Bild 10](../assets/domain-nis2/verinice-32-nis2-10.de.png)
+![Bild 10](../assets/domain-nis2/verinice-32-nis2-10.png)
 
 Neben allgemeinen Angaben zum Sachverhalt können weitere gesetzlich geforderte Informationen in den hierfür vorgesehenen Abschnitten erfasst werden.
 Des Weiteren werden betroffenen Zielobjekte, Meldungen an Behörden, Empfänger oder Öffentlichkeit, Fristen sowie geplante und umgesetzte Gegenmaßnahmen in den Dokumentations- und Bewertungsprozess mit einbezogen. Sämtliche Informationen können anschließen über den **Report Meldeformular Sicherheitsvorfall** ausgegeben und ggf. für eine Meldung bei den Aufsichtsbehörden verwendet werden.
 
-![Bild 11](../assets/domain-nis2/verinice-32-nis2-11.de.png)
+![Bild 11](../assets/domain-nis2/verinice-32-nis2-11.png)
 
 ## Zielobjekte
 
@@ -76,21 +76,21 @@ Für eine aussagekräftige Analyse ist es zudem erforderlich, die Abhängigkeite
 
 Um eine Relation zwischen zwei Zielobjekten zu herzustellen, müssen Sie im Formular eines Objektes das erforderliche andere Objekt mit der Funktion **Verknüpfung hinzufügen** auswählen. Scrollen Sie dazu im Formular weiter nach unten, wo die erforderlichen Objekte aufgelistet werden und suchen Sie das benötigte Objekt aus.
 
-![Bild 12](../assets/domain-nis2/verinice-32-nis2-12.de.png)
+![Bild 12](../assets/domain-nis2/verinice-32-nis2-12.png)
 
 Sollte das gewünschte Objekt nicht vorhanden sein, so haben Sie die Möglichkeit ein neues Objekt direkt aus dem Formular heraus zu erzeugen. Klicken Sie dazu **Verknüpfung hinzufügen** gewünschtes **Objekt erstellen**.
 
-![Bild 13](../assets/domain-nis2/verinice-32-nis2-13.de.png)
+![Bild 13](../assets/domain-nis2/verinice-32-nis2-13.png)
 
 Im Objektumfeld finden Sie unter **Verknüpfung** eine Auflistung aller ein- und ausgehenden Verknüpfungen. Natürlich gelangen Sie auch von hier aus durch Mausklick zu dem gewünschten Zielobjekt, um dieses weiter zu bearbeiten.
 
-![Bild 14](../assets/domain-nis2/verinice-32-nis2-14.de.png)
+![Bild 14](../assets/domain-nis2/verinice-32-nis2-14.png)
 
 ## Lieferanten
 
 Wenn in Ihrer Organisation Lieferanten zum Einsatz kommen, erfassen Sie diese im gleichnamigen **Formular Lieferanten**. Neben allgemeinen Informationen wie Kontaktinformationen können auch Verträge zu diesem Lieferanten in das Formular eingebunden werden. Des Weiteren können Sie Ihre Bewertung zu den technischen und organisatorischen Maßnahmen der Lieferanten dokumentieren.
 
-![Bild 15](../assets/domain-nis2/verinice-32-nis2-15.de.png)
+![Bild 15](../assets/domain-nis2/verinice-32-nis2-15.png)
 
 Angelegte Objekte stehen Ihnen im Rahmen der Dokumentation Ihrer **Geschäftsprozesse** als Beteiligte Lieferanten zur Verfügung. Alternativ können Sie die Lieferanten direkt aus dem Formular Geschäftsprozesse heraus über die Funktion **Verknüpfung hinzufügen > Lieferant erstellen** anlegen.
 
@@ -100,71 +100,71 @@ Für die Erfassung **Organisationsspezifischer Maßnahmen** gehen Sie bitte folg
 
 Legen Sie eine neue **Anforderung** mit dem Formular Anforderung für das gewünschte Scope, Prozess oder Asset-Objekt an und benennen Sie es eindeutig z.B. spezifische Anforderung für Geschäftsprozess 1.
 
-![Bild 16](../assets/domain-nis2/verinice-32-nis2-16.de.png)
+![Bild 16](../assets/domain-nis2/verinice-32-nis2-16.png)
 
-![Bild 17](../assets/domain-nis2/verinice-32-nis2-17.de.png)
+![Bild 17](../assets/domain-nis2/verinice-32-nis2-17.png)
 
 Öffnen Sie die neu angelegte Anforderung und navigieren im Objektumfeld zum Reiter **Teile**. Mit dem roten **Plus-Icon** können Sie nun eine oder mehrere neue Maßnahmen erstellen bzw. auswählen.
 
-![Bild 18](../assets/domain-nis2/verinice-32-nis2-18.de.png)
+![Bild 18](../assets/domain-nis2/verinice-32-nis2-18.png)
 
-![Bild 19](../assets/domain-nis2/verinice-32-nis2-19.de.png)
+![Bild 19](../assets/domain-nis2/verinice-32-nis2-19.png)
 
-![Bild 20](../assets/domain-nis2/verinice-32-nis2-20.de.png)
+![Bild 20](../assets/domain-nis2/verinice-32-nis2-20.png)
 
 Wechseln Sie nun zum betroffenen Objekt (z.B. Geschäftsprozess 1) und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die gewünschte Anforderung z.B. Spezifische Anforderung für Geschäftsprozess 1 aus.
 
-![Bild 21](../assets/domain-nis2/verinice-32-nis2-21.de.png)
+![Bild 21](../assets/domain-nis2/verinice-32-nis2-21.png)
 
-![Bild 22](../assets/domain-nis2/verinice-32-nis2-22.de.png)
+![Bild 22](../assets/domain-nis2/verinice-32-nis2-22.png)
 
 Um die **Organisationsspezifischen Maßnahmen** für die Anforderung bearbeiten zu können, wählen Sie bitte **Umsetzung anzeigen**.
 
-![Bild 23](../assets/domain-nis2/verinice-32-nis2-23.de.png)
+![Bild 23](../assets/domain-nis2/verinice-32-nis2-23.png)
 
 In der folgenden Übersicht werden die einzelnen Organisationsspezifischen Maßnahmen aufgelistet.
 
-![Bild 24](../assets/domain-nis2/verinice-32-nis2-24.de.png)
+![Bild 24](../assets/domain-nis2/verinice-32-nis2-24.png)
 
 Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken.
 
-![Bild 25](../assets/domain-nis2/verinice-32-nis2-25.de.png)
+![Bild 25](../assets/domain-nis2/verinice-32-nis2-25.png)
 
-![Bild 26](../assets/domain-nis2/verinice-32-nis2-26.de.png)
+![Bild 26](../assets/domain-nis2/verinice-32-nis2-26.png)
 
 ## Mindestmaßnahmen
 
 Durch Anwenden des Katalogelementes **Art. 21 NIS2** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 enthält sämtliche Artikel der NIS2-Richtlinie inkl. der Erwägungsgründe. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
 
-![Bild 27](../assets/domain-nis2/verinice-32-nis2-27.de.png)
+![Bild 27](../assets/domain-nis2/verinice-32-nis2-27.png)
 
 Bei der Anwendung von Art. 21 wird dieses Elemente inklusive der Verknüpfungen mit den Mindestmaßnahmen in die aktive Unit übernommen.
 
-![Bild 28](../assets/domain-nis2/verinice-32-nis2-28.de.png)
+![Bild 28](../assets/domain-nis2/verinice-32-nis2-28.png)
 
 Sie haben die Möglichkeit dieses Composite-Objekt jederzeit individuell zu erweitern, in dem Sie über den Reiter **Teile** mit dem roten **Plus-Icon** eine oder mehrere neue Maßnahmen erstellen bzw. auswählen.
 
-![Bild 29](../assets/domain-nis2/verinice-32-nis2-29.de.png)
+![Bild 29](../assets/domain-nis2/verinice-32-nis2-29.png)
 
 Selbstverständlich können auch die einzelnen Katalogelemente selbst in der aktiven Unit modifiziert werden.
 
 Wechseln Sie nun zum betroffenen Objekt **Organisation** und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** für Ihre Organisation aus.
 
-![Bild 30](../assets/domain-nis2/verinice-32-nis2-30.de.png)
+![Bild 30](../assets/domain-nis2/verinice-32-nis2-30.png)
 
 ::: info Die Anwendungsmöglichkeit der Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** ist nicht auf **Organisationen** beschränkt. Bei Bedarf können Sie dieses Element auf sämtliche Schutzobjekte anwenden.
 :::
 
-![Bild 31](../assets/domain-nis2/verinice-32-nis2-31.de.png)
+![Bild 31](../assets/domain-nis2/verinice-32-nis2-31.png)
 
 Um die **Risikomanagementmaßnahmen im Bereich der Cybersicherheit** bearbeiten zu können, wählen Sie bitte **Umsetzung anzeigen**.
 
-![Bild 132](../assets/domain-nis2/verinice-32-nis2-32.de.png)
+![Bild 132](../assets/domain-nis2/verinice-32-nis2-32.png)
 
 In der folgenden Übersicht werden die einzelnen **Risikomanagementmaßnahmen** aufgelistet
 
-![Bild 33](../assets/domain-nis2/verinice-32-nis2-33.de.png)
+![Bild 33](../assets/domain-nis2/verinice-32-nis2-33.png)
 
 Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken
 
-![Bild 34](../assets/domain-nis2/verinice-32-nis2-34.de.png)
+![Bild 34](../assets/domain-nis2/verinice-32-nis2-34.png)

@@ -17,18 +17,18 @@ These subtypes enable detailed modeling of internal and external conditions.
 ## Working with Scopes
 
 **Scopes** are central structuring elements within the ISMS application area. They can be organized hierarchically and may contain other scope objects or themselves be part of another scope:
-![Scopes ISO/IEC 27000 Domain]( ../assets/domain-iso/verinice-39-scopes.de.png)
+![Scopes ISO/IEC 27000 Domain]( ../assets/domain-iso/verinice-39-scopes.png)
 
 ### Managing Scope Relationships
 
 Open any **Scope Object**.  
 In the **Scopes** tab, you can add subordinate scopes, for example:
 
-![Subordinate Scopes]( ../assets/domain-iso/verinice-39-scopes-parts.de.png)
+![Subordinate Scopes]( ../assets/domain-iso/verinice-39-scopes-parts.png)
 
 In the **In Scope** tab, you define which parent scope the current object belongs to:
 
-![Parent Scopes]( ../assets/domain-iso/verinice-39-superordinate-scopes.de.png)
+![Parent Scopes]( ../assets/domain-iso/verinice-39-superordinate-scopes.png)
 
 ### Components of a Scope Object
 
@@ -36,7 +36,7 @@ In the **Parts** tab within a scope object, you can add additional components. T
 
 Components primarily include **Business Processes** and **Assets** that are to be considered within this scope:
 
-![Components of an ISMS Application Area]( ../assets/domain-iso/verinice-39-components-of-ISMS-application.de.png)
+![Components of an ISMS Application Area]( ../assets/domain-iso/verinice-39-components-of-ISMS-application.png)
 
 ## Creating and Managing Business Processes
 
@@ -46,7 +46,7 @@ To create a new **Business Process**, proceed as follows:
 2. In the object overview, click the **plus button (+)** at the bottom right to create a new object.
 3. In the business process form, you can enter the required information and link it to the **necessary assets** in the lower section. These same links are also visible in the **Object Details** under the **Links** tab:
 
-![Links]( ../assets/domain-iso/verinice-39-links-between-process-and-asset.de.png)
+![Links]( ../assets/domain-iso/verinice-39-links-between-process-and-asset.png)
 
 ::: info You always create context-sensitive objects using the **plus button**, based on the currently active object and subtype!
 :::
@@ -73,7 +73,7 @@ As with business processes, you can also add additional **Assets** via the **Par
 
 To create the inventory register as a PDF report of all **Assets** that are assigned as components to an **ISMS scope**, go to the **Reports** menu and then select **Inventory Register**:
 
-![Inventory Register Report]( ../assets/domain-iso/verinice-39-inventory-of-assets.de.png)
+![Inventory Register Report]( ../assets/domain-iso/verinice-39-inventory-of-assets.png)
 
 Then select a scope object from those created under **ISMS Scope** and click the **Generate Report** button to create the inventory register.
 

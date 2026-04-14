@@ -9,7 +9,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 
 ### Statusseite
 
-![Statusseite](../assets/roadmap/statusseite.de.png)
+![Statusseite](../assets/roadmap/statusseite.png)
 
 Über die neue [Statusseite](https://status.sernet.net/) der SerNet GmbH (optional erreichbar über [Status](https://verinice.com/)) können Anwenderinnen und Anwender von verinice ersehen:
 
@@ -25,7 +25,7 @@ Das **Löschen von sehr großen Units** wurde soweit beschleunigt, dass nicht me
 
 ### Detailverbesserungen und Fehlerbehebungen
 
-![Profilbeschreibung](../assets/roadmap/profile.de.png)
+![Profilbeschreibung](../assets/roadmap/profile.png)
 
 - Verbesserung der Profilbeschreibung bei der Anwendung von Profilen auf neue oder bestehende Units.
 - Optimierung der Breadcrumbs.
@@ -49,7 +49,7 @@ Die in der Objektübersicht mit verinice 27 eingeführte Suche steht jetzt auch 
 - Bei der **Modellierung von Bausteinen** kann nach Abkürzung, Name und Anzeigename gesucht werden.
 - Im Katalog **IT-Grundschutz-Kompendium** kann nach Abkürzung und Name gesucht werden.
 
-![Suche](../assets/roadmap/suche.de.gif)
+![Suche](../assets/roadmap/suche.gif)
 
 ### Erweiterung der Schutzbedarfsvererbung
 

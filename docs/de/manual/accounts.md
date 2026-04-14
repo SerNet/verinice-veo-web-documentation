@@ -6,35 +6,35 @@
 
 Über den Account Button gelangen Sie zum Bearbeiten Ihres Benutzerkontos:
 
-![Benutzerkonto bearbeiten](../assets/manual/account.de.png)
+![Benutzerkonto bearbeiten](../assets/manual/account.png)
 
 verinice verwendet für das Identitäts- und Zugriffsmanagement eine [Keycloak](https://www.keycloak.org/)-Instanz, die in einem neuen Browsertab geöffnet wird:
 
-![Benutzerkonto bearbeiten](../assets/manual/account_management.de.png)
+![Benutzerkonto bearbeiten](../assets/manual/account_management.png)
 
 ### Persönliche Informationen
 
 Im Abschnitt Persönliche Informationen können Sie Ihren Namen oder die E-Mail ändern. Nach Änderung der E-Mail erhalten Sie zum Verifizieren der E-Mail-Adresse eine Nachricht mit der Aufforderung ein neues Passwort zu vergeben.
 
-![Persönliche Daten](../assets/manual/account_profile.de.png)
+![Persönliche Daten](../assets/manual/account_profile.png)
 
 ### Authentifizierungsmethode
 
 Im Abschnitt Kontosicherheit > Anmeldung wählen Sie zwischen der Standardauthentifizierung per Passwort oder der Zwei-Faktor Authentifizierung und richten diese ein:
 
-![Persönliche Daten](../assets/manual/account_authentification.de.png)
+![Persönliche Daten](../assets/manual/account_authentification.png)
 
 ### Geräteaktivität
 
 Unter Kontosicherheit > Geräteaktivität erkennen Sie angemeldete Geräte und können unbekannte Geräte ggfs. abmelden:
 
-![Benutzerkonto bearbeiten](../assets/manual/account_activity.de.png)
+![Benutzerkonto bearbeiten](../assets/manual/account_activity.png)
 
 ### Anwendungen verwalten
 
 Im Abschnitt Applikationen sehen Sie, mit welchen Clients/Anwendungen Sie auf verinice zugreifen. Da die Anzahl der zugreifenden Anwendungen begrenzt ist, werden Sie unter Umständen automatisch abgemeldet, z.B. wenn Sie verinice in verschiedenen Browsern gleichzeitig öffnen.
 
-![Benutzerkonto bearbeiten](../assets/manual/account_applications.de.png)
+![Benutzerkonto bearbeiten](../assets/manual/account_applications.png)
 
 ### Ressourcen
 
@@ -53,11 +53,11 @@ Um zusätzliche Benutzer anzulegen oder bestehende zu verwalten, müssen:
 
 Die Benutzerverwaltung rufen Sie über den Account Button auf:
 
-![Benutzerverwaltung](../assets/manual/accounts.de.png)
+![Benutzerverwaltung](../assets/manual/accounts.png)
 
 In der folgenden Übersicht werden alle Benutzer in Ihrem Client mit zusätzlichen Informationen dargestellt:
 
-![Benutzerverwaltung](../assets/manual/accounts_list.de.png)
+![Benutzerverwaltung](../assets/manual/accounts_list.png)
 
 1. Alle Benutzer haben Zugriff auf alle Units Ihres Clients!
 1. Anzeige der aktiven und der verfügbaren Benutzer. Beachten Sie, dass der Hauptnutzer die Anzahl der verfügbaren Benutzern bereits um eins reduziert!
@@ -67,14 +67,14 @@ In der folgenden Übersicht werden alle Benutzer in Ihrem Client mit zusätzlich
 
 Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 
-![Benutzer erstellen](../assets/manual/accounts_create.de.png)
+![Benutzer erstellen](../assets/manual/accounts_create.png)
 
 1. Benutzername, E-Mail, Vorname, Nachname
 1. Aktivieren oder deaktivieren Sie den Benutzer.
 1. Standardmäßig haben alle Benutzer Schreibzugriff. Um den Zugriff auf das Lesen zu beschränken deaktivieren Sie diesen.
 1. Nach Erstellen wird eine E-Mail an den Benutzer versandt, um die E-Mail Adresse zu verifizieren. Der Benutzer vergibt nach Aufruf des Links ein sicheres Passwort, mit dem er sich anschließend in verinice anmelden kann:
 
-![E-Mail](../assets/manual/accounts_email.de.png)
+![E-Mail](../assets/manual/accounts_email.png)
 
 ::: info Wir empfehlen neue Benutzer vorab über die Anlage ihres verinice Accounts zu informieren!
 :::
@@ -83,7 +83,7 @@ Beim Erstellen eines Benutzers geben Sie die erforderlichen Daten ein:
 
 Über die **Zugriffsgruppen** können [Lese- und Schreibberechtigungen](permissions.md) für User und Units zugewiesen werden. Diese finden Sie als **Hauptnutzer:in** unter der **Benutzerverwaltung**.
 
-![Zugriffsgruppen](../assets/manual/accountmanagement_access_groups.de.png)
+![Zugriffsgruppen](../assets/manual/accountmanagement_access_groups.png)
 
 Um die Lese- und Schreibberechtigungen zu aktivieren muss *Allen Benutzern Zugriff auf alle Units gewähren* abgewählt werden. Danach können Sie 
 1. neue Zugriffsgruppen erstellen oder 
@@ -91,11 +91,11 @@ Um die Lese- und Schreibberechtigungen zu aktivieren muss *Allen Benutzern Zugri
 
 Bei der Bearbeitung der Zugriffsgruppen können Lese- und Schreibberechtigungen für jede einzelne Unit festgelegt werden. 
 
-![Zugriffsgruppen bearbeiten](../assets/manual/edit_access_group.de.png)
+![Zugriffsgruppen bearbeiten](../assets/manual/edit_access_group.png)
 
 Nachdem Sie die Zugriffsgruppen definiert haben, können Sie unter **Benutzer** die Accounts mit den Berechtigungen aktualisieren. Dabei können Sie die **Rollen** und die **Zugriffsgruppen** jedem einzelnen Account zuordnen. 
 
-![Account aktualisieren](../assets/manual/update_account.de.png)
+![Account aktualisieren](../assets/manual/update_account.png)
 
 ::: info  Rollen bestimmen, welche Aktionen zugelassen sind. Für Zugriff auf Objekte ist zusätzlich die Mitgliedschaft in einer passenden Zugriffsgruppe erforderlich. 
 ::: 

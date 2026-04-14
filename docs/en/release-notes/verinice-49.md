@@ -7,15 +7,15 @@ The following new features are available to users with the release of verinice 4
 <!--&225-->
 The first iteration of the visual representation of links enables navigation to direct *neighbors*:
 
-![Graph Navigation](../assets/release-notes/verinice-49-graph-1.de.gif)
+![Graph Navigation](../assets/release-notes/verinice-49-graph-1.gif)
 
-![Graph Zoom](../assets/release-notes/verinice-49-graph-2.de.gif)
+![Graph Zoom](../assets/release-notes/verinice-49-graph-2.gif)
 
 ## Improve change of risk definition
 <!--301-->
 **Deleting** *medium levels* of impact, probability of occurrence, or risk values in a risk definition leads to shifts in risk values in existing risks and requires manual rework. To avoid unintentional deletion, only the highest level can now be deleted. It is still possible to rename all levels.
 
-![Deleting levels in the risk definition](../assets/release-notes/verinice-49-risikodefinition.de.png)
+![Deleting levels in the risk definition](../assets/release-notes/verinice-49-risikodefinition.png)
 
 ::: danger Any adjustment to a risk definition requires changes to existing risks. It is recommended to adapt the risk definition to the respective organization **before**  the risk assessment!
 :::
@@ -28,7 +28,7 @@ In addition, the following bugs have been fixed:
 <!--&240-->
 Reports are displayed in separate cards for each language variant to simplify selection:
 
-![Reports as cards](../assets/release-notes/verinice-49-report-cards.de.png)
+![Reports as cards](../assets/release-notes/verinice-49-report-cards.png)
 
 ## Detail improvements and bug fixes <Badge type="info">Test</Badge>
 <!--&264, &186-->

@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Arbeiten in der Domäne IT-Grundschutz
 
-In der Domäne **IT-Grundschutz** bilden Sie IT-Grundschutz-Methodik nach den [BSI-Standards der 200er-Reihe](https://www.bsi.bund.de../Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/bsi-standards_node.html) für Ihre Institution ab:
+In der Domäne **IT-Grundschutz** bilden Sie IT-Grundschutz-Methodik nach den [BSI-Standards der 200er-Reihe](https://www.bsi.bund../Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/bsi-standards_node.html) für Ihre Institution ab:
 
 - Lernen Sie die [Domäne IT-Grundschutz](./domain-it-gs-description) kennen.
 - Erstellen Sie die [Strukturanalyse](./structure-analysis).

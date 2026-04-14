@@ -9,17 +9,17 @@ Um die Orientierung zu verbessern werden in der Objektansicht:
 - die Reiter Scopes und **Teile** zusammengefasst.
 - die Reiter In Scope und **Teil von** zusammengefasst.
 
-![Teile und Teil von](../assets/release-notes/verinice-50-parts.de.gif)
+![Teile und Teil von](../assets/release-notes/verinice-50-parts.gif)
 
 - ein kombinierter Dialog für Auswahl und Erzeugung von Objekten eingeführt. 
 
-![Kombinierter Dialog für die Objektanlage](../assets/release-notes/verinice-50-create-parts.de.gif)
+![Kombinierter Dialog für die Objektanlage](../assets/release-notes/verinice-50-create-parts.gif)
 
 ## Bedienung des eingeklappten Menüs verbessert <Badge type="info">Test</Badge>
 
 Das Navigationsmenü bleibt im eingeklappten Zustand bedienbar.
 
-![Eingeklapptes Menü](../assets/release-notes/verinice-50-menue.de.gif)
+![Eingeklapptes Menü](../assets/release-notes/verinice-50-menue.gif)
 
 ## Detailverbesserungen
 

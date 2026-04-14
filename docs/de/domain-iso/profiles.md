@@ -38,10 +38,10 @@ Ein Profil kann in zwei Situationen angewendet werden:
 
 1. **Beim Erstellen einer neuen Unit**: Während des Erstellungsprozesses können Sie ein Profil auswählen, das direkt auf die neue Unit angewendet wird. Navigieren Sie dazu oben links im Menü auf das Drop-Down-Menü **Unit auswählen**, scrollen Sie ganz nach unten und wählen **Units verwalten**. Klicken Sie anschließend unten rechts auf Button **Unit erstellen** und wählen Sie im zweiten Schritt des Wizards aus, dass Sie das Risikoprofil nach DIN ISO/IEC 27001 anwenden wollen:
 
-![Profil anwenden beim Erstellen einer Unit](../assets/domain-iso/verinice-39-profile-selection-when-creating.de.png)
+![Profil anwenden beim Erstellen einer Unit](../assets/domain-iso/verinice-39-profile-selection-when-creating.png)
 2. **Nachträglich für bestehende Units:** Auch nach der Erstellung einer Unit lässt sich das Risikoprofil nach DIN ISO/IEC 27001 nachträglich anwenden. Um erneut in die Unit-Verwaltung zu gelangen, können Sie alternativ auf das **verinice**-Logo klicken. Klicken Sie für die entsprechende Unit den Button **Profil anwenden** an, um das Profil auf eine bestehende Unit anzuwenden:
 
-![Profil anwenden auf eine bereits erstelle Unit](../assets/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
+![Profil anwenden auf eine bereits erstelle Unit](../assets/domain-iso/verinice-39-apply-profile-retrospectively.png)
 
 ## Hinweis
 

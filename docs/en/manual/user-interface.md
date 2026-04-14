@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # User interface
 
-![User interface](  ../assets/manual/user-interface.de.png)
+![User interface](  ../assets/manual/user-interface.png)
 The user interface consists of three areas:
 
 1. the [application bar](#application bar) provides overarching functions for operation.
@@ -12,7 +12,7 @@ The user interface consists of three areas:
 ## Application bar
 
 The application bar provides general functions for operation:
-![Application bar](  ../assets/manual/app-bar.de.png)
+![Application bar](  ../assets/manual/app-bar.png)
 
 1. you can access the [unit management](./unit-management) at any time via the logo.
 1. use the **Breadcrumb** to navigate directly to all listed objects.
@@ -35,7 +35,7 @@ The application bar provides general functions for operation:
 ## Menu {#menue}
 
 Use the menu to navigate conveniently through verinice:
-![Menu](  ../assets/manual/menu.de.png)
+![Menu](  ../assets/manual/menu.png)
 
 1. use the logo to access the [unit management](./unit-management) at any time to create or edit units.
 1. use the **unit selector** to switch directly to another unit.
@@ -54,7 +54,7 @@ Use the menu to navigate conveniently through verinice:
 ## Dashboard
 
 All objects and their status (life cycle) are displayed on the dashboard; click to navigate directly to the respective objects:
-![Dashboard](  ../assets/manual/dashboard.de.png)
+![Dashboard](  ../assets/manual/dashboard.png)
 
 1. the objects are grouped according to the [object types](../object-model/objects) (scopes, processes, assets, people, controls, incidents, documents and scenarios).
 1. the object types are also grouped according to the available [subtypes](../object-model/objects).

@@ -13,17 +13,17 @@ Navigate in the menu to **Risk Definitions** and then **GSRA**. Here you can edi
 - Risk categories
   - Name, definition, and color of the categories
 
-![Risk Matrix]( ../assets/domain-it-gs/verinice-32-risk-matrix.de.png)
+![Risk Matrix]( ../assets/domain-it-gs/verinice-32-risk-matrix.png)
 
 ## Create Threat Overview
 
 If a risk analysis is required, you must create a **threat overview** in the target object's details. This may be necessary, for example, if the target object has a high or very high protection requirement in one of the three security objectives.
 
-![Create Threat Overview]( ../assets/domain-it-gs/verinice-32-threat-overview.de.png)
+![Create Threat Overview]( ../assets/domain-it-gs/verinice-32-threat-overview.png)
 
 This action copies the elemental threats according to the BSI cross-reference tables into your unit and creates risk objects for each elemental threat in the object environment of the target object:
 
-![Risks]( ../assets/domain-it-gs/verinice-32-risks.de.png)
+![Risks]( ../assets/domain-it-gs/verinice-32-risks.png)
 
 ## Risk Assessment
 
@@ -34,7 +34,7 @@ To further process the individual elemental threats, click on the respective thr
 
 Based on these two values, the **gross risk** is automatically calculated using the risk matrix after you save your entries.
 
-![Risk Assessment]( ../assets/domain-it-gs/verinice-32-risik-assessment.de.png)
+![Risk Assessment]( ../assets/domain-it-gs/verinice-32-risik-assessment.png)
 
 ## Risk Treatment
 
@@ -45,7 +45,7 @@ Depending on the level of risk, a risk treatment may or must be performed, and o
 - Risk reduction
 - Risk transfer
 
-![Risk Treatment]( ../assets/domain-it-gs/verinice-32-risk-treatment.de.png)
+![Risk Treatment]( ../assets/domain-it-gs/verinice-32-risk-treatment.png)
 
 ### Risk Reduction
 
@@ -55,9 +55,9 @@ If the risk treatment option **Risk Reduction** is selected, the risk can be red
 
 2. To link **existing measures**, click **Add Mitigating Measures** and then **Link Mitigating Measure**. A dialog opens where you can select the required mitigating measures from all already existing measures. After closing the dialog by clicking **Save**, the selected measures will be displayed in the **Measures for Risk Reduction** section:
 
-![Link Existing Measures]( ../assets/domain-it-gs/verinice-32-risk-reduction-1.de.png)
+![Link Existing Measures]( ../assets/domain-it-gs/verinice-32-risk-reduction-1.png)
 
-![Measures for Risk Reduction (Mitigating Measures)]( ../assets/domain-it-gs/verinice-32-risk-reduction-2.de.png)
+![Measures for Risk Reduction (Mitigating Measures)]( ../assets/domain-it-gs/verinice-32-risk-reduction-2.png)
 
 Finally, the **net risk** (and optionally an explanation) must be set manually. **Save** and **Close** the risk dialog.
 
@@ -65,7 +65,7 @@ Finally, the **net risk** (and optionally an explanation) must be set manually. 
 
 To edit your mitigating measures, click **Show Implementation** for the corresponding elemental threat in the **Risks** tab in the target object's environment.
 
-![Mitigating Measures: Show Implementation]( ../assets/domain-it-gs/verinice-32-implementation-1.de.png)
+![Mitigating Measures: Show Implementation]( ../assets/domain-it-gs/verinice-32-implementation-1.png)
 
 You will be taken to the overview of all mitigating measures for the selected elemental threat. Here you can edit the individual requirements/measures. Clicking on a requirement/measure opens the implementation dialog where you can view or enter the following information:
 
@@ -77,6 +77,6 @@ You will be taken to the overview of all mitigating measures for the selected el
   - Implementation status (Not processed, Yes, Partially, No, Dispensable).
   - Implementation description.
 
-![Mitigating Measures: Edit Implementation]( ../assets/domain-it-gs/verinice-32-implementation-2.de.png)
+![Mitigating Measures: Edit Implementation]( ../assets/domain-it-gs/verinice-32-implementation-2.png)
 
 After entering the data, close the dialog with **Save**.

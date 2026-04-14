@@ -3,7 +3,7 @@
 
 In this step, the status of the modeled modules—specifically, the individual requirements—must be processed. To edit requirements, click **Show Implementation** for the respective module in the **Modules** tab of the target object's context.
 
-![Show Implementation]( ../assets/domain-it-gs/verinice-32-view-implementation.de.png)
+![Show Implementation]( ../assets/domain-it-gs/verinice-32-view-implementation.png)
 
 You will be taken to an overview of all requirements of the selected module. Here, you can edit the individual requirements. By clicking on a requirement, the implementation dialog opens, where you can view or enter the following information:
 
@@ -15,7 +15,7 @@ You will be taken to an overview of all requirements of the selected module. Her
   - Implementation status (Unprocessed, Yes, Partially, No, Not Required)
   - Implementation description
 
-![Edit Implementation]( ../assets/domain-it-gs/verinice-32-edit-implementation.de.png)
+![Edit Implementation]( ../assets/domain-it-gs/verinice-32-edit-implementation.png)
 
 Once you have entered the data, close the dialog by clicking **Save**.
 

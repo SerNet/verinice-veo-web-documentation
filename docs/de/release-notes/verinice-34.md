@@ -11,13 +11,13 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 
 In der ersten Iteration der **Mehrfachauswahl** wird das **Löschen** mehrerer Objekte unterstützt.
 
-![Mehrfachauswahl - Löschen](../assets/release-notes/verinice-34-bulk-delete.de.gif)
+![Mehrfachauswahl - Löschen](../assets/release-notes/verinice-34-bulk-delete.gif)
 
 ### Feature-Toggle
 
 Durch Feature-Toggle werden neue Funktionen bereitgestellt, um z.B. möglichst früh im Entwicklungsprozess Feedback von Anwenderinnen und Anwendern entgegenzunehmen. Als erstes Feature wird die Umschaltung zwischen Listen- und Kartenansicht ermöglicht.
 
-![Feature-Toggle - Karten](../assets/release-notes/verinice-34-feature-toggle-cards.de.gif)
+![Feature-Toggle - Karten](../assets/release-notes/verinice-34-feature-toggle-cards.gif)
 
 
 ::: danger Die Feature Toggle stehen nur in ausgewählten Umgebungen wie z.B. der Sandbox für Beta-Tests zur Verfügung!
@@ -59,7 +59,7 @@ In der Domäne NIS2 ist die **Durchführungsverordnung** (EU) 2024/2690 (Impleme
 - Die NIS Durchführungsverordnung wurde in den **Katalog der Domäne NIS2** integriert.
 - Das **NIS2-Profil Domainwirtschaft** wurde unter Berücksichtigung der Durchführungsverordnung erweitert.
 
-![NIS2 Durchführungsverordnung](../assets/release-notes/verinice-34-nis2-implementing-acts.de.png)
+![NIS2 Durchführungsverordnung](../assets/release-notes/verinice-34-nis2-implementing-acts.png)
 
 ## Domäne ISO
 

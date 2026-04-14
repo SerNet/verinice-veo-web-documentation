@@ -11,13 +11,13 @@ Navigating via the menu or the dashboard opens the object overview, which always
 
 The active filter criteria are shown above the object list:
 
-![Filter criteria](../assets/manual/filter-chips.de.png)
+![Filter criteria](../assets/manual/filter-chips.png)
 
 1. As a minimum requirement, the **object type** is always needed!
 1. Removing **optional filter criteria** immediately expands the object list.
 1. To filter by additional criteria, open the **filter dialog**:
 
-![Filter](../assets/manual/filter.de.png)
+![Filter](../assets/manual/filter.png)
 
 ### Search
 
@@ -25,13 +25,13 @@ In addition to filtering, you can use the **search** to find specific objects.
 
 By default, the entered text is searched in the abbreviation, name, and designator. Optionally, you can limit the search to just the abbreviation or name:
 
-![Search](../assets/manual/suche.de.gif)
+![Search](../assets/manual/suche.gif)
 
 ### List
 
 The object overview provides a quick orientation and navigation within the list:
 
-![Object overview](../assets/manual/object-list.de.png)
+![Object overview](../assets/manual/object-list.png)
 
 1. **Open** an object for editing by clicking the respective row.
 1. **Sort** the object list by key columns, ascending or descending.
@@ -45,7 +45,7 @@ The object overview provides a quick orientation and navigation within the list:
 
 After opening an object, more detailed information is shown in two columns:
 
-![Object view](../assets/manual/object.de.png)
+![Object view](../assets/manual/object.png)
 
 **Left:**
 
@@ -68,7 +68,7 @@ After opening an object, more detailed information is shown in two columns:
 
 The object details provide a quick overview of the current object:
 
-![Object description](../assets/manual/object-details.de.png)
+![Object description](../assets/manual/object-details.png)
 
 1. Use the **object menu** to access object-specific actions, if available.
 
@@ -90,7 +90,7 @@ If certain elements are not available for an object, the respective tabs are gra
 
 The object context shows:
 
-![Object context](../assets/manual/object-environment.de.png)
+![Object context](../assets/manual/object-environment.png)
 
 1. With **Scopes** and/or **Parts**, an *inside view*, and with **In Scope** and/or **Part of**, an *outside view*.
 1. **Linked** objects as incoming or outgoing links.

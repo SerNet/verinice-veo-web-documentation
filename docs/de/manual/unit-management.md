@@ -3,7 +3,7 @@
 
 In der **Unit-Verwaltung** können Sie neue Units anlegen und bestehende Units bearbeiten oder löschen. Alle Funktionen verwenden Teile des bereits aus den **Ersten Schritten** bekannten Assistenten:
 
-![Unit-Verwaltung](../assets/manual/unit-management.de.png)
+![Unit-Verwaltung](../assets/manual/unit-management.png)
 
 1. Sie erreichen die Unit-Verwaltung jederzeit über das **verinice-Logo**,
 2. oder die Auswahl **Units verwalten** im Unit-Selektor.
@@ -11,7 +11,7 @@ In der **Unit-Verwaltung** können Sie neue Units anlegen und bestehende Units b
 4. Name und Beschreibung einer Unit bearbeiten Sie über das **Stift-Icon**.
 5. Nicht mehr benötigte Units löschen Sie über das **Papierkorb-Symbol** nach einer Sicherheitsabfrage - Sie müssen den Namen der zu löschenden Unit bestätigen. Es wird empfohlen, vorab ein lokales Backup über [Datenübertragung](data-transfer) zu erstellen.
 
-![Unit löschen](../assets/manual/unit_delete.de.png)
+![Unit löschen](../assets/manual/unit_delete.png)
 
 6. Neue **Units erstellen** Sie über den gleichnamigen Button im bereits bekannten Assistenten.
 7. Sie können (weitere) [Profile](../object-model/profiles.md) auf Ihre Unit anwenden. Bitte beachten Sie, dass mit einem Profil immer eine Vielzahl weiterer Objekte erzeugt und ggfs. auch eine neue Domäne zugewiesen wird. Dieser Vorgang kann aktuell nicht rückgängig gemacht werden!

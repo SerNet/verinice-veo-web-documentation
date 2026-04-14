@@ -38,11 +38,11 @@ A profile can be applied in two scenarios:
 
 1. **When creating a new Unit:** During the creation process, you can select a profile that is directly applied to the new Unit. To do so, navigate to the top left menu and click the **Select Unit** drop-down, scroll to the bottom, and choose **Manage Units**. Then click the **Create Unit** button in the lower right and in the second step of the wizard, select the option to apply the Risk Profile according to DIN ISO/IEC 27001:
 
-![Apply profile when creating a unit]( ../assets/domain-iso/verinice-39-profile-selection-when-creating.de.png)
+![Apply profile when creating a unit]( ../assets/domain-iso/verinice-39-profile-selection-when-creating.png)
 
 2.**Subsequently for existing Units:** Even after a Unit has been created, the risk profile according to DIN ISO/IEC 27001 can be applied retroactively. To access Unit management again, you can alternatively click on the **verinice** logo. For the corresponding Unit, click the **Apply Profile** button to apply the profile to an existing Unit:
 
-![Apply profile to an already created unit]( ../assets/domain-iso/verinice-39-apply-profile-retrospectively.de.png)
+![Apply profile to an already created unit]( ../assets/domain-iso/verinice-39-apply-profile-retrospectively.png)
 
 ## Note
 

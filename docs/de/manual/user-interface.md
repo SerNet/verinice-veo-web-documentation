@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Benutzeroberfläche
 
-![Benutzeroberfläche](../assets/manual/user-interface.de.png)
+![Benutzeroberfläche](../assets/manual/user-interface.png)
 
 Die Benutzeroberfläche besteht aus drei Bereichen:
 
@@ -13,7 +13,7 @@ Die Benutzeroberfläche besteht aus drei Bereichen:
 
 Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
-![Anwendungsleiste](../assets/manual/app-bar.de.png)
+![Anwendungsleiste](../assets/manual/app-bar.png)
 
 1. Über das Logo gelangen Sie jederzeit in die [Unit-Verwaltung](./unit-management).
 1. Über die **Breadcrumb** navigieren Sie direkt zu allen aufgeführten Objekten.
@@ -35,7 +35,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 Über das Menü navigieren Sie komfortabel durch verinice:
 
-![Menü](../assets/manual/menu.de.png)
+![Menü](../assets/manual/menu.png)
 
 1. Über das Logo gelangen Sie jederzeit in die [Unit-Verwaltung](./unit-management) um Units anzulegen oder zu bearbeiten.
 1. Mit dem **Unit-Selektor** wechseln Sie direkt in eine andere Unit.
@@ -51,7 +51,7 @@ Die Anwendungsleiste stellt übergreifende Funktionen zur Bedienung bereit:
 
 Auf dem Dashboard werden alle Objekte und deren Status (Lebenszyklus) dargestellt, durch Mausklick navigieren Sie direkt zu den jeweiligen Objekten:
 
-![Dashboard](../assets/manual/dashboard.de.png)
+![Dashboard](../assets/manual/dashboard.png)
 
 1. Die Objekte sind gruppiert nach den [Objekttypen](../object-model/objects) (Scopes, Prozesse, Assets, Personen, Controls, Vorfälle, Dokumente und Szenarien).
 1. Die Objekttypen sind zudem nach den verfügbaren [Subtypen](../object-model/objects) gruppiert.

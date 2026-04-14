@@ -13,14 +13,14 @@ The Statement of Applicability (SoA) serves as a central component of the ISMS a
 
 In verinice, the scope subtype **ISMS Scopes** is available for this purpose:
 
-![Subtype ISMS Scopes]( ../assets/domain-iso/verinice-39-subtype-scope.de.png)
+![Subtype ISMS Scopes]( ../assets/domain-iso/verinice-39-subtype-scope.png)
 
 Any number of scopes can be created, such as:
 
 - **ISMS Scope**: Describes the organizational and technical scope of the ISMS. This object can form the basis for evaluating and determining the applicability of security controls.
 - **Certification Scope**: Describes the specific part of the organization that is to be certified.
 
-![ISMS Scope and Certification Scope]( ../assets/domain-iso/verinice-39-two-scopes.de.png)
+![ISMS Scope and Certification Scope]( ../assets/domain-iso/verinice-39-two-scopes.png)
 
 ## Reviewing Controls and Documenting Applicability
 
@@ -42,29 +42,29 @@ Once the controls are selected, they become part of the Statement of Applicabili
 
 To justify the selection of a control, click on the respective control in the **Controls** tab:
 
-![Select Controls]( ../assets/domain-iso/verinice-39-select-control.de.png)
+![Select Controls]( ../assets/domain-iso/verinice-39-select-control.png)
 
 and enter your reasoning in the description field:
 
-![Reason for Selection]( ../assets/domain-iso/verinice-39-select-reason.de.png)
+![Reason for Selection]( ../assets/domain-iso/verinice-39-select-reason.png)
 
 To document the implementation status of a control, open the implementation dialog by clicking the **Show Implementation** icon:
 
-![Show Implementation]( ../assets/domain-iso/verinice-39-show-implementation.de.png)
+![Show Implementation]( ../assets/domain-iso/verinice-39-show-implementation.png)
 
 Open the corresponding control and document the current implementation status in the lower section:
 
-![Show Implementation]( ../assets/domain-iso/verinice-39-implementation-status.de.png)
+![Show Implementation]( ../assets/domain-iso/verinice-39-implementation-status.png)
 
 Controls with the implementation status **Yes**, **No**, **Partially**, or **Not started** will be marked as **applicable** in the **Statement of Applicability** report.
 
 If a control should be part of the SoA but explicitly **excluded**, select the control in the **Controls** tab:
 
-![Document Exclusion]( ../assets/domain-iso/verinice-39-document-exclusion.de.png)
+![Document Exclusion]( ../assets/domain-iso/verinice-39-document-exclusion.png)
 
 and enter the justification for the exclusion in the description field:
 
-![Exclusion Justification]( ../assets/domain-iso/verinice-39-description-exclusion.de.png)
+![Exclusion Justification]( ../assets/domain-iso/verinice-39-description-exclusion.png)
 
 For a control to be listed as not applicable in the report, its implementation status must be set to **Not required** in the implementation details.
 
@@ -72,6 +72,6 @@ For a control to be listed as not applicable in the report, its implementation s
 
 A fully completed Statement of Applicability report can be exported as a PDF for further use. To do this, click **Reports** in the left menu and select **Statement of Applicability**:
 
-![SoA Report]( ../assets/domain-iso/verinice-39-report-soa.de.png)
+![SoA Report]( ../assets/domain-iso/verinice-39-report-soa.png)
 
 Select an ISMS scope with the assigned ISO/IEC 27001 Annex A controls and click **Generate Report** to create the Statement of Applicability.

@@ -13,11 +13,11 @@ Es wird jetzt dargestellt, ob ein Objekt aus einem Katalog angewendet oder selbs
 
 In der Objektübersicht:
 
-![Katalog-Referenzen in Objektübersicht](../assets/release-notes/verinice-44-catalog-references-list.de.png)
+![Katalog-Referenzen in Objektübersicht](../assets/release-notes/verinice-44-catalog-references-list.png)
 
 In der Objektansicht:
 
-![Katalog-Referenzen in Objektansicht](../assets/release-notes/verinice-44-catalog-references-details.de.png)
+![Katalog-Referenzen in Objektansicht](../assets/release-notes/verinice-44-catalog-references-details.png)
 
 ### Detailverbesserungen und Fehlerbehebungen
 

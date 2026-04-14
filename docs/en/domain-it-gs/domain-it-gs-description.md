@@ -85,4 +85,4 @@ The IT-Grundschutz domain provides the reference documents as reports:
 
 The standard risk definition **Grundschutz Risk Analysis** (GSRA) is based on the parameters recommended in BSI Standard 200-3:
 
-![GSRA]( ../assets/domain-it-gs/verinice-31_gsra.de.png)
+![GSRA]( ../assets/domain-it-gs/verinice-31_gsra.png)

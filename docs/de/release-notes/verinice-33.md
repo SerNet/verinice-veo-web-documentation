@@ -11,7 +11,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 
 In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe des Verknüpfungstyps in einer Ansicht dargestellt:
 
-![Verknüpfungen](../assets/release-notes/verinice-33_Links.de.png)
+![Verknüpfungen](../assets/release-notes/verinice-33_Links.png)
 
 ### Detailverbesserungen
 
@@ -53,7 +53,7 @@ In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe 
 
 - Die Vorgehensweise der Absicherung wird jetzt auch bei der Umsetzung risikomitigierender Maßnahmen angezeigt:
 
-![Vorgehensweise der Absicherung](../assets/release-notes/verinice-33_Vorgehensweise_der_Absicherung.de.png)
+![Vorgehensweise der Absicherung](../assets/release-notes/verinice-33_Vorgehensweise_der_Absicherung.png)
 
 - Konsistente Benennung des Umsetzungsstatus **Entbehrlich** (statt nicht anwendbar).
 

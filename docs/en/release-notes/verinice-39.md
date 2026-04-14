@@ -8,12 +8,12 @@ The following new features are available to users with the release of verinice 3
 ### CSV import
 
 The first iteration of the CSV import enables the import of any objects into all domains based on abbreviation, name and description:
-![CSV-Import]( ../assets/release-notes/verinice-39-csv-import.de.gif)
+![CSV-Import]( ../assets/release-notes/verinice-39-csv-import.gif)
 
 ### Implementation of domain-specific controls
 
 Forms can be created and integrated to display different information from **Controls** in the conversion dialog depending on the domain (prerequisite: Content Creator role).
-![RI Forms for Controls]( ../assets/release-notes/verinice-39-ri-form-control.de.png)
+![RI Forms for Controls]( ../assets/release-notes/verinice-39-ri-form-control.png)
 
 ### Bug fixes
 
@@ -36,7 +36,7 @@ Forms can be created and integrated to display different information from **Cont
 ### Reports
 
 - In the reports **A.4 Result of the IT-Grundschutz check** and **A.6 Implementation plan**, the implementation status is now color-coded:
-![Implementation status color-coded]( ../assets/release-notes/verinice-39-it-gs-report.de.png)
+![Implementation status color-coded]( ../assets/release-notes/verinice-39-it-gs-report.png)
 - In the reports **A.3, A.4 and A.6**, the person responsible from the control implementation (module responsible) is now correctly output instead of from the control itself.
 - In the report **A.4 Result of the IT-Grundschutz check**, the description field has been removed from the control.
 
@@ -51,11 +51,11 @@ The description of the procedure for block modeling has been updated.
 ### Risk profile according to DIN ISO/IEC 27001
 
 The **Risk profile according to DIN ISO/IEC 27001** is ready for use in the ISO/IEC 27000 domain. This first iteration does **NOT** contain any license-protected control texts:
-![Risk profile according to DIN ISO/IEC 27001]( ../assets/release-notes/verinice-39-iso-risiko-profil.de.png)
+![Risk profile according to DIN ISO/IEC 27001]( ../assets/release-notes/verinice-39-iso-risiko-profil.png)
 ::: info The risk profile according to DIN ISO/IEC 27001 corresponds to the risk catalog known from verinice!
 :::
 
 ### Reports
 
 - First versions of the reports for the **Inventory of Assets** and the **Statement of Applicability (SoA)**.
-![ISO-Reports]( ../assets/release-notes/verinice-39-soa-report.de.png)
+![ISO-Reports]( ../assets/release-notes/verinice-39-soa-report.png)

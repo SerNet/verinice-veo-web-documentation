@@ -28,15 +28,15 @@ In on-premises operation:
 
 With this iteration of permission management, read and write permissions for users and units can be assigned via **access groups**:
 
-![Access groups](../assets/release-notes/verinice-47-access-groups.de.png)
+![Access groups](../assets/release-notes/verinice-47-access-groups.png)
 
 Read and write permissions for each individual unit can be defined in the access groups:
 
-![Units in access groups](../assets/release-notes/verinice-47-access-groups-units.de.png)
+![Units in access groups](../assets/release-notes/verinice-47-access-groups-units.png)
 
 The access groups created can be assigned to individual users:
 
-![Access groups for users](../assets/release-notes/verinice-47-access-groups-user.de.png)
+![Access groups for users](../assets/release-notes/verinice-47-access-groups-user.png)
 
 ### Detail improvements and bug fixes
 

@@ -9,13 +9,13 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 Die erste Iteration des CSV-Imports ermöglicht den Import beliebiger Objekte in alle Domänen anhand von Abkürzung, Name und Beschreibung:
 
-![CSV-Import](../assets/release-notes/verinice-39-csv-import.de.gif)
+![CSV-Import](../assets/release-notes/verinice-39-csv-import.gif)
 
 ### Umsetzung domänenspezifischer Controls
 
 Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs-Dialog anzuzeigen, können Formulare erstellt und eingebunden werden (Voraussetzung: Content Creator Rolle).
 
-![RI Forms für Controls](../assets/release-notes/verinice-39-ri-form-control.de.png)
+![RI Forms für Controls](../assets/release-notes/verinice-39-ri-form-control.png)
 
 ### Fehlerbehebungen
 
@@ -39,7 +39,7 @@ Um je nach Domäne unterschiedliche Informationen aus **Controls** im Umsetzungs
 
 - In den Reports **A.4 Ergebnis des IT-Grundschutz-Checks** und **A.6 Realisierungsplan** wird der Umsetzungsstatus jetzt farbig codiert ausgegeben:
 
-![Umsetzungsstatus farbig codiert](../assets/release-notes/verinice-39-it-gs-report.de.png)
+![Umsetzungsstatus farbig codiert](../assets/release-notes/verinice-39-it-gs-report.png)
 
 - In den Reports **A.3, A.4 und A.6** wird jetzt korrekt die verantwortliche Person aus der Control-Implementation (Bausteinverantwortliche) statt aus dem Control selbst ausgegeben.
 - Im Report **A.4 Ergebnis des IT-Grundschutz-Checks** wurde das Beschreibungsfeld aus dem Control entfernt.
@@ -56,7 +56,7 @@ Die Beschreibung der Vorgehensweise bei der Baustein-Modellierung wurde aktualis
 
 Das **Risikoprofil nach DIN ISO/IEC 27001** steht zur Anwendung in der Domäne ISO/IEC 27000 bereit. Diese erste Iteration enthält noch **KEINE** lizenzrechtlich geschützten Controltexte:
 
-![Risikoprofil nach DIN ISO/IEC 27001](../assets/release-notes/verinice-39-iso-risiko-profil.de.png)
+![Risikoprofil nach DIN ISO/IEC 27001](../assets/release-notes/verinice-39-iso-risiko-profil.png)
 
 ::: info Das Risikoprofil nach DIN ISO/IEC 27001 entspricht dem aus verinice bekannten Risikokatalog!
 :::
@@ -65,4 +65,4 @@ Das **Risikoprofil nach DIN ISO/IEC 27001** steht zur Anwendung in der Domäne I
 
 - Erste Versionen der Reports für das **Inventarverzeichnis (Inventory of Assets)** und die **Erklärung zur Anwendbarkeit (Statement of Applicability - SoA)**
 
-![ISO-Reports](../assets/release-notes/verinice-39-soa-report.de.png)
+![ISO-Reports](../assets/release-notes/verinice-39-soa-report.png)

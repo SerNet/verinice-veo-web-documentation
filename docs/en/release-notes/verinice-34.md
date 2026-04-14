@@ -7,11 +7,11 @@ The following new features are available to users with the release of verinice 3
 ### Multiple selection - Delete
 
 In the first iteration of **multiple selection** the **deletion** of multiple objects is supported.
-![Multiple selection - Delete]( ../assets/release-notes/verinice-34-bulk-delete.de.gif)
+![Multiple selection - Delete]( ../assets/release-notes/verinice-34-bulk-delete.gif)
 
 ### Feature toggle
 Feature toggles are used to provide new functions, e.g. to receive feedback from users as early as possible in the development process. The first feature is the ability to switch between list and card view.
-![Feature-Toggle - Cards]( ../assets/release-notes/verinice-34-feature-toggle-cards.de.gif)
+![Feature-Toggle - Cards]( ../assets/release-notes/verinice-34-feature-toggle-cards.gif)
 
 ::: danger The feature toggles are only available in selected environments such as the sandbox for beta tests!
 :::
@@ -39,7 +39,7 @@ Feature toggles are used to provide new functions, e.g. to receive feedback from
 The **implementing regulation** (EU) 2024/2690 (Implementing Act) is available in the NIS2 domain:
 - The NIS Implementing Act has been integrated into the **NIS2 domain catalog**.
 - The **NIS2 profile Domainwirtschaft** has been extended to take account of the Implementing Regulation.
-![NIS2 Implementation Regulation]( ../assets/release-notes/verinice-34-nis2-implementing-acts.de.png)
+![NIS2 Implementation Regulation]( ../assets/release-notes/verinice-34-nis2-implementing-acts.png)
 
 ## Domain ISO
 **Status: Prototype**

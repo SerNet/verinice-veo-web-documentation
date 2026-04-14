@@ -5,35 +5,35 @@
 
 Click the account button to edit your user account:
 
-![Edit User Account](  ../assets/manual/account.de.png)
+![Edit User Account](  ../assets/manual/account.png)
 
 verinice uses a [Keycloak](https://www.keycloak.org/) instance for identity and access management, which opens in a new browser tab:
 
-![Edit User Account](  ../assets/manual/account_management.de.png)
+![Edit User Account](  ../assets/manual/account_management.png)
 
 ### Personal Information
 
 In the Personal Information section, you can change your name or email address. After changing your email, you will receive a verification email asking you to set a new password.
 
-![Personal Information](  ../assets/manual/account_profile.de.png)
+![Personal Information](  ../assets/manual/account_profile.png)
 
 ### Authentication Method
 
 In the Account Security > Login section, you can choose between standard password authentication or two-factor authentication and configure it:
 
-![Authentication](  ../assets/manual/account_authentification.de.png)
+![Authentication](  ../assets/manual/account_authentification.png)
 
 ### Device Activity
 
 In Account Security > Device Activity, you can view logged-in devices and log out any unfamiliar devices:
 
-![Device Activity](  ../assets/manual/account_activity.de.png)
+![Device Activity](  ../assets/manual/account_activity.png)
 
 ### Manage Applications
 
 In the Applications section, you can see which clients/applications are connected to your verinice account. Since the number of connected applications is limited, you may be automatically logged out, for example, when opening verinice in multiple browsers simultaneously.
 
-![Applications](  ../assets/manual/account_applications.de.png)
+![Applications](  ../assets/manual/account_applications.png)
 
 ### Resources
 
@@ -53,11 +53,11 @@ To add or manage additional users, the following conditions must be met:
 
 Access the user management via the account button:
 
-![User Management](  ../assets/manual/accounts.de.png)
+![User Management](  ../assets/manual/accounts.png)
 
 The following overview shows all users in your client along with additional details:
 
-![User List](  ../assets/manual/accounts_list.de.png)
+![User List](  ../assets/manual/accounts_list.png)
 
 1. All users have access to all units in your client.
 2. The interface displays active and available user slots. Note that the Main User already reduces the available user count by one.
@@ -67,14 +67,14 @@ The following overview shows all users in your client along with additional deta
 
 When creating a user, enter the required information:
 
-![Create User](  ../assets/manual/accounts_create.de.png)
+![Create User](  ../assets/manual/accounts_create.png)
 
 1. Username, email, first name, last name.
 2. Activate or deactivate the user.
 3. By default, all users have write access. To restrict to read-only access, disable the write permission.
 4. After creation, an email will be sent to the user to verify their email address. The user must set a secure password via the provided link before logging in to verinice:
 
-![Verification Email](  ../assets/manual/accounts_email.de.png)
+![Verification Email](  ../assets/manual/accounts_email.png)
 
 ::: info
 We recommend notifying new users in advance about the creation of their verinice account.
@@ -84,7 +84,7 @@ We recommend notifying new users in advance about the creation of their verinice
 
 [Read and write permissions](permissions.md) for users and units can be assigned via **access groups**. These can be found under **Account Management** as **Main User**.
 
-![Access Groups](../assets/manual/accountmanagement_access_groups.en.png)
+![Access Groups](../assets/manual/accountmanagement_access_groups.png)
 
 To activate read and write permissions, *Grant all users access to all units* must be deselected. You can then
 1. create new access groups or
@@ -92,11 +92,11 @@ To activate read and write permissions, *Grant all users access to all units* mu
   
 When editing access groups, read and write permissions can be set for each individual unit.
 
-![Edit Access Group](../assets/manual/edit_access_group.en.png)
+![Edit Access Group](../assets/manual/edit_access_group.png)
 
 Once you have defined the access groups, you can update the accounts with the permissions under **Users**. You can assign **roles** and **access groups** to each individual account.
 
-![Update Account](../assets/manual/update_account.en.png)
+![Update Account](../assets/manual/update_account.png)
 
 ::: info  Roles determine which actions are permitted. Membership in an appropriate access group is also required to access objects.
 :::

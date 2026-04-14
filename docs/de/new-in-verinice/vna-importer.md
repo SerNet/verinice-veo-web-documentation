@@ -60,13 +60,13 @@ Sie starten den VNA-Importer:
 - unter **Windows** durch Ausführen der Datei **veo-vna-importer.exe**.
 - unter **macos** und **Linux** durch Aufruf von **java -jar veo-vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
 
-![VNA-Importer](../assets/new-in-verinice/vna-importer-start.en.png)
+![VNA-Importer](../assets/new-in-verinice/vna-importer-start.png)
 
 ## VNA-Import ausführen
 
 Nach Eingabe von Benutzername und Passwort für die Zielumgebung (Grundeinstellung: https://veo-web.verinice.com/) prüft das Programm diese unmittelbar auf Richtigkeit (Valid credentials). Bei Meldung **Invalid credentials** prüfen Sie bitte Benutzername und Passwort für die Zielumgebung.
 
-![VNA-Importer](../assets/new-in-verinice/vna-importer-select.en.png)
+![VNA-Importer](../assets/new-in-verinice/vna-importer-select.png)
 
 Nach Auswahl einer zuvor aus verinice exportierten VNA-Datei, können Sie den Import mit zwei Optionen starten:
 

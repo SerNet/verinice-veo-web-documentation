@@ -9,17 +9,17 @@ To improve orientation, the following changes have been made to the object view:
 - The Scopes and **Parts** tabs have been combined.
 - The In Scope and **Part of** tabs have been combined.
 
-![Parts and Part of](../assets/release-notes/verinice-50-parts.de.gif)
+![Parts and Part of](../assets/release-notes/verinice-50-parts.gif)
 
 - A combined dialog for selecting and creating objects has been introduced.
 
-![Combined dialog for object creation](../assets/release-notes/verinice-50-create-parts.de.gif)
+![Combined dialog for object creation](../assets/release-notes/verinice-50-create-parts.gif)
 
 ## Improved operation of the collapsed menu <Badge type="info">Test</Badge>
 
 The navigation menu remains operable when collapsed.
 
-![Collapsed menu](../assets/release-notes/verinice-50-menu.de.gif)
+![Collapsed menu](../assets/release-notes/verinice-50-menu.gif)
 
 ## Detail Improvements
 

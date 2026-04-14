@@ -28,15 +28,15 @@ Im On-Premise-Betrieb sind:
 
 Mit dieser Iteration des Berechtigungsmanagements können Lese- und Schreibberechtigungen für User und Units über **Zugriffsgruppen** zugewiesen werden:
 
-![Zugriffsgruppen](../assets/release-notes/verinice-47-access-groups.de.png)
+![Zugriffsgruppen](../assets/release-notes/verinice-47-access-groups.png)
 
 In den Zugriffsgruppen können Lese- und Schreibberechtigungen für jede einzelne Unit festgelegt werden:
 
-![Units in Zugriffsgruppen](../assets/release-notes/verinice-47-access-groups-units.de.png)
+![Units in Zugriffsgruppen](../assets/release-notes/verinice-47-access-groups-units.png)
 
 Die erstellten Zugriffsgruppen können einzelnen Nutzerinnen und Nutzern zugeordnet werden:
 
-![Zugriffsgruppen für User](../assets/release-notes/verinice-47-access-groups-user.de.png)
+![Zugriffsgruppen für User](../assets/release-notes/verinice-47-access-groups-user.png)
 
 ### Detailverbesserungen und Fehlerbehebungen
 

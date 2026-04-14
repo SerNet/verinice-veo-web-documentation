@@ -13,14 +13,14 @@ Die Erklärung zur Anwendbarkeit (Statement of Applicability – SoA) dient als 
 
 In verinice steht für diesen Zweck der Scope-Subtyp **ISMS-Geltungsbereiche** zur Verfügung:
 
-![Subtyp ISMS-Geltungsbereiche](../assets/domain-iso/verinice-39-subtype-scope.de.png)
+![Subtyp ISMS-Geltungsbereiche](../assets/domain-iso/verinice-39-subtype-scope.png)
 
 Es können beliebig viele Geltungsbereiche angelegt werden, wie z.B.:
 
 - **ISMS-Anwendungsbereich**: Beschreibt den organisatorischen und systemtechnischen Geltungsbereich des ISMS. Dieses Objekt kann die Grundlage für die Bewertung und die Anwendbarkeit von Sicherheitsmaßnahmen bilden.
 - **Zertifizierungsgegenstand**: Beschreibt den konkreten Teil des Unternehmens, der zertifiziert werden soll.
 
-![ISMS-Geltungsbereiche und Zertifizierungsgegenstand](../assets/domain-iso/verinice-39-two-scopes.de.png)
+![ISMS-Geltungsbereiche und Zertifizierungsgegenstand](../assets/domain-iso/verinice-39-two-scopes.png)
 
 ## Sicherheitsmaßnahmen prüfen und Anwendbarkeit dokumentieren
 
@@ -42,29 +42,29 @@ Wenn die Sicherheitsmaßnahmen ausgewählt wurden, sind sie Bestandteil der Erkl
 
 Um die Auswahl für eine Sicherheitsmaßnahme zu begründen, klicken Sie im Tab-Reiter **Sicherheitsmaßnahmen** auf die entsprechende Maßnahme
 
-![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-select-control.de.png)
+![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-select-control.png)
 
 und geben im Beschreibungsfeld Ihren Auswahlgrund ein:
 
-![Auswahlgrund](../assets/domain-iso/verinice-39-select-reason.de.png)
+![Auswahlgrund](../assets/domain-iso/verinice-39-select-reason.png)
 
 Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie den Umsetzungs-Dialog durch Mausklick auf das Icon **Umsetzung anzeigen**:
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-39-show-implementation.de.png)
+![Umsetzung anzeigen](../assets/domain-iso/verinice-39-show-implementation.png)
 
 Öffnen Sie die entsprechende Maßnahme und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-39-implementation-status.de.png)
+![Umsetzung anzeigen](../assets/domain-iso/verinice-39-implementation-status.png)
 
 Sicherheitsmaßnahmen mit den Umsetzungsstatus **Ja**, **Nein**, **Teilweise** oder **Unbearbeitet** werden als **anwendbar** im Report **Erklärung zur Anwendbarkeit** markiert.
 
 Wenn eine Sicherheitsmaßnahme Bestandteil der Erklärung der Anwendbarkeit sein soll aber explizit **ausgeschlossen** werden soll, wählen Sie die Sicherheitsmaßnahme im Tab-Reiter **Sicherheitsmaßnahmen** aus:
 
-![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-document-exclusion.de.png)
+![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-document-exclusion.png)
 
 und geben im Beschreibungsfeld die Begründung für den Ausschluss ein:
 
-![Begründung für den Ausschluss](../assets/domain-iso/verinice-39-description-exclusion.de.png)
+![Begründung für den Ausschluss](../assets/domain-iso/verinice-39-description-exclusion.png)
 
 Damit die Sicherheitsmaßnahmen als nicht anwendbar im Report ausgegeben werden kann, muss der Umsetzungsstatus in den Umsetzungsdetails auf **Entbehrlich** gesetzt werden.
 
@@ -72,6 +72,6 @@ Damit die Sicherheitsmaßnahmen als nicht anwendbar im Report ausgegeben werden 
 
 Ein vollständig ausgefüllter Report für die Erklärung zur Anwendbarkeit kann zur weiteren Verwendung im PDF-Format exportiert werden. Klicken Sie dazu im linken Menü auf **Reports** und wählen Sie die **Erklärung zur Anwendbarkeit** aus:
 
-![Report Erklärung zur Anwendbarkeit](../assets/domain-iso/verinice-39-report-soa.de.png)
+![Report Erklärung zur Anwendbarkeit](../assets/domain-iso/verinice-39-report-soa.png)
 
 Wählen Sie einen ISMS-Geltungsbereich mit den zugeordneten Sicherheitsmaßnahmen der ISO/IEC 27001, Anhang A aus und klicken Sie auf **Report generieren**.

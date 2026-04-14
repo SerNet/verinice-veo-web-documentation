@@ -13,11 +13,11 @@ It is now displayed whether an object was applied from a catalog or created inde
 
 In the object overview:
 
-![Catalog References in Object Overview](../assets/release-notes/verinice-44-catalog-references-list.en.png)
+![Catalog References in Object Overview](../assets/release-notes/verinice-44-catalog-references-list.png)
 
 In the object view:
 
-![Catalog references in object view](../assets/release-notes/verinice-44-catalog-references-details.en.png)
+![Catalog references in object view](../assets/release-notes/verinice-44-catalog-references-details.png)
 
 ### Detail improvements and bug fixes
 

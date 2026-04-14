@@ -5,7 +5,7 @@
 
 In the **Risk Definition** section, the parameters for the risk matrix are defined. To do this, navigate to **Risk Definitions** in the menu and then to **ISORA**. Here you can modify the name, definition, and color of the parameters for impact, likelihood, and risk category by **clicking the pencil icon**.
 
-![Risk Matrix]( ../assets/domain-iso/verinice-39-riskmatrix.de.png)
+![Risk Matrix]( ../assets/domain-iso/verinice-39-riskmatrix.png)
 
 ## Risk Analysis
 
@@ -14,11 +14,11 @@ It is possible to perform a risk analysis for all scope, asset, and process obje
 - For the relevant object (e.g., assets), select the **Risks** tab in the object view.
 - Use the red **plus icon** to add a **risk** for your asset.
 
-![Add Risk]( ../assets/domain-iso/verinice-39-add-risk.de.png)
+![Add Risk]( ../assets/domain-iso/verinice-39-add-risk.png)
 
 - Choose an appropriate scenario.
 
-![Select Risk]( ../assets/domain-iso/verinice-39-select-risk.de.png)
+![Select Risk]( ../assets/domain-iso/verinice-39-select-risk.png)
 
 The listed scenarios come from the catalog that was manually applied to your Unit. You can also create your own individual scenarios as objects using the **Scenarios** form, to use them in your risk analysis.
 
@@ -42,7 +42,7 @@ The following options are available for risk treatment:
 
 Each is provided with a text field for additional explanation.
 
-![Select Risk Treatment]( ../assets/domain-iso/verinice-39-treat-risk.de.png)
+![Select Risk Treatment]( ../assets/domain-iso/verinice-39-treat-risk.png)
 
 If **Risk Reduction** is selected, the risk can be reduced by adding **Mitigating Controls**.
 
@@ -58,24 +58,24 @@ You can also add **Mitigating Controls** by linking to **existing controls**. Th
 
 Using the **Add Mitigating Controls** function and then **Link Mitigating Controls**, you can choose from previously documented controls for mitigation. Once saved, the selected controls will be listed in the **Controls for Risk Reduction** section.
 
-![Add Mitigating Control]( ../assets/domain-iso/verinice-39-add-mitigating-controls.de.png)
+![Add Mitigating Control]( ../assets/domain-iso/verinice-39-add-mitigating-controls.png)
 
 Finally, the net risk and a justification must be set. Please remember to save and close the Risk Dialog.
 
 ::: info A control group is always created in the background for the controls assigned to a risk.
 :::
 
-![Create Control Group]( ../assets/domain-iso/verinice-39-controlgroup-1.de.png)
+![Create Control Group]( ../assets/domain-iso/verinice-39-controlgroup-1.png)
 
-![Add Control Group]( ../assets/domain-iso/verinice-39-controlgroup-2.de.png)
+![Add Control Group]( ../assets/domain-iso/verinice-39-controlgroup-2.png)
 
 ## Editing Mitigating Controls
 
 To edit **Mitigating Controls**, navigate to the **Risks** tab of the affected target object. All previously identified risks are listed here. Use the **Show Implementation** function to access an overview of all mitigating controls for the selected risk.
 
-![Show Implementation]( ../assets/domain-iso/verinice-39-show-riskimplementation.de.png)
+![Show Implementation]( ../assets/domain-iso/verinice-39-show-riskimplementation.png)
 
-![Control List Overview]( ../assets/domain-iso/verinice-39-control-list.de.png)
+![Control List Overview]( ../assets/domain-iso/verinice-39-control-list.png)
 
 Here you can edit each individual control by clicking on it. In the implementation dialog that opens, the following information can be viewed or entered:
 
@@ -87,6 +87,6 @@ Here you can edit each individual control by clicking on it. In the implementati
   - Implementation status (Not started, Yes, Partially, No, Not required)  
   - Implementation description  
 
-![Edit Control]( ../assets/domain-iso/verinice-39-control-implementation.de.png)
+![Edit Control]( ../assets/domain-iso/verinice-39-control-implementation.png)
 
 After entering the data, close the dialog with **Save**.

@@ -10,7 +10,7 @@ The following new features are available to users with the release of verinice 3
 ### Detailed improvements
 
 - A confirmation dialog informs about applied catalog elements, you can navigate directly to the respective catalog elements:
-![Applied catalog elements]( ../assets/release-notes/verinice-37-catalog.de.png)
+![Applied catalog elements]( ../assets/release-notes/verinice-37-catalog.png)
 
 ### Bug fixes
 

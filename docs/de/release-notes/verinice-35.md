@@ -18,7 +18,7 @@ Die Kartenansicht unterstützt jetzt die Navigation, das Layout wurde optimiert.
 
 Die Stufen der Risikomatrix können angepasst werden:
 
-![Risikostufen](../assets/release-notes/verinice-35-risk-matrix.de.gif)
+![Risikostufen](../assets/release-notes/verinice-35-risk-matrix.gif)
 
 ### Detailverbesserungen
 

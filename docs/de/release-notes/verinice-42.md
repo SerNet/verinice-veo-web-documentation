@@ -11,7 +11,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 Zu **Risikodefinitionen** können jetzt Risikokategorien hinzugefügt, bearbeitet oder gelöscht werden: 
 
-![Risikokategorien](../assets/release-notes/verinice-42-risk-categories.de.png)
+![Risikokategorien](../assets/release-notes/verinice-42-risk-categories.png)
 
 ### Internationalisierung der Dokumentation
 
@@ -21,7 +21,7 @@ Die Dokumentation liegt in einer ersten englischsprachigen Version vor - es kann
 
 Zur besseren Navigation, insbesondere auch im Hinblick auf die Barrierefreiheit, wurden Tastenbefehle (Shortcuts) implementiert:
 
-![Shortcuts](../assets/release-notes/verinice-42-shortcuts.de.png)
+![Shortcuts](../assets/release-notes/verinice-42-shortcuts.png)
 
 ### Detailverbesserungen und Fehlerbehebungen
 

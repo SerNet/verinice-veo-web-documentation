@@ -5,7 +5,7 @@
 
 Im Abschnitt **Risikodefinition** werden die Parameter für die Risikomatrix festgelegt. Navigieren Sie dazu im Menü zu **Risikodefinitionen** und anschließend **ISORA**. Hier können Sie mit einem **Klick auf das Stift-Symbol** Name, Definition und Farbe der Parameter Schadensauswirkung, Eintrittswahrscheinlichkeit und Risikokategorie modifizieren.
 
-![Risikomatrix](../assets/domain-iso/verinice-39-riskmatrix.de.png)
+![Risikomatrix](../assets/domain-iso/verinice-39-riskmatrix.png)
 
 ## Risikoanalyse
 
@@ -14,11 +14,11 @@ Es besteht die Möglichkeit, für sämtliche Scope-, Asset- sowie Prozess-Objekt
 - Wählen Sie für das betroffene Objekt, z.B Assets, im Objektumfeld den Tab-Reiter **Risiken**.
 - Über das rote **Plus-Icon** können Sie nun für Ihr Asset ein **Risiko** hinzufügen.
 
-![Risiko hinzufügen](../assets/domain-iso/verinice-39-add-risk.de.png)
+![Risiko hinzufügen](../assets/domain-iso/verinice-39-add-risk.png)
 
 - Treffen Sie eine passende Auswahl aus den Szenarien.
 
-![Risiko auswählen](../assets/domain-iso/verinice-39-select-risk.de.png)
+![Risiko auswählen](../assets/domain-iso/verinice-39-select-risk.png)
 
 Bei der Auflistung handelt es sich um die Szenarien aus dem Katalog, die manuell auf Ihre Unit angewendet wurden. Darüber hinaus haben Sie die Möglichkeit, eigene individuelle Szenarien als Objekte über das Formular **Szenarien** anzulegen, um diese für Ihre Risikoanalyse zu verwenden.
 
@@ -42,7 +42,7 @@ Für die Risikobehandlung stehen Ihnen die Optionen
 
 zur Verfügung, die jeweils mit einem Textfeld zwecks Erklärungen ausgestattet sind.
 
-![Risikobehandlung auswählen](../assets/domain-iso/verinice-39-treat-risk.de.png)
+![Risikobehandlung auswählen](../assets/domain-iso/verinice-39-treat-risk.png)
 
 Bei gewählter Risikobehandlungsoption **Risikoreduktion** kann das Risiko durch Hinzufügen **Mitigierender Maßnahmen** reduziert werden.
 
@@ -58,24 +58,24 @@ Sie können auch **Mitigierende Maßnahmen** hinzufügen, indem Sie bereits **vo
 
 Über die Funktion **Mitigierende Maßnahmen hinzufügen** und anschließend **Mitigierende Maßnahmen verknüpfen**, können Sie eine Auswahl aus den bereits erfassten Sicherheitsmaßnahmen für die Mitigation treffen. Nach Speicherung werden die von Ihnen ausgewählten Objekte im Bereich **Maßnahmen zur Risikoreduktion** aufgelistet.
 
-![Mitigierende Maßnahme hinzufügen](../assets/domain-iso/verinice-39-add-mitigating-controls.de.png)
+![Mitigierende Maßnahme hinzufügen](../assets/domain-iso/verinice-39-add-mitigating-controls.png)
 
 Abschließend muss das Nettorisiko und eine Erklärung gesetzt werden. Denken Sie bitte daran, den Risikodialog zu speichern und zu schließen.
 
 ::: info Für die zu einem Risiko zugehörigen mitigierenden Maßnahmen wird im Hintergrund stets eine Control-Gruppe erzeugt.
 :::
 
-![Control-Gruppe erzeugen](../assets/domain-iso/verinice-39-controlgroup-1.de.png)
+![Control-Gruppe erzeugen](../assets/domain-iso/verinice-39-controlgroup-1.png)
 
-![Control-Gruppe anlegen](../assets/domain-iso/verinice-39-controlgroup-2.de.png)
+![Control-Gruppe anlegen](../assets/domain-iso/verinice-39-controlgroup-2.png)
 
 ## Mitigierende Maßnahmen bearbeiten
 
 Um **Mitigierende Maßnahmen** zu bearbeiten, navigieren Sie im Objektumfeld des betroffenen Zielobjektes zum Tab-Reiter **Risiken**. Hier werden die im Vorfeld identifizierten Risiken angezeigt. Über die Funktion **Umsetzung anzeigen** gelangen Sie zur Übersicht sämtlicher mitigierender Maßnahmen für das ausgewählte Risiko.
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-39-show-riskimplementation.de.png)
+![Umsetzung anzeigen](../assets/domain-iso/verinice-39-show-riskimplementation.png)
 
-![Übersicht Maßnahmen](../assets/domain-iso/verinice-39-control-list.de.png)
+![Übersicht Maßnahmen](../assets/domain-iso/verinice-39-control-list.png)
 
 Hier können Sie nun jede einzelne Sicherheitsmaßnahme mit Klick auf die jeweilige Maßnahme bearbeiten. In dem sich öffnenden Umsetzungsdialog können folgende Informationen eingesehen bzw. eingepflegt werden:
 
@@ -87,6 +87,6 @@ Hier können Sie nun jede einzelne Sicherheitsmaßnahme mit Klick auf die jeweil
   - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
   - Umsetzungsbeschreibung
 
-![Bearbeitung Maßnahme](../assets/domain-iso/verinice-39-control-implementation.de.png)
+![Bearbeitung Maßnahme](../assets/domain-iso/verinice-39-control-implementation.png)
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.

@@ -11,7 +11,7 @@ The map view now supports navigation, the layout has been optimized.
 
 ### Risk levels customizable
 The levels of the risk matrix can be customized:
-![Risk levels]( ../assets/release-notes/verinice-35-risk-matrix.de.gif)
+![Risk levels]( ../assets/release-notes/verinice-35-risk-matrix.gif)
 
 ### Detailed improvements
 - Domain-specific content can be customized via configuration.

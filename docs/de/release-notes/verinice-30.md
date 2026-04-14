@@ -12,7 +12,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 Bei der Bereitstellung eines verinice Clients nach Erwerb einer Subskription werden standardmäßig keine Units mehr angelegt (bisher wurden eine leere **Unit 1** und eine Unit mit **Beispieldaten** erzeugt), damit Anwenderinnen und Anwender Ihre Organisation mit oder ohne Profile und den gewünschten Domänen erstellen können.
 Bei der ersten Anmeldung erläutert die Seite **Erste Schritte** welche **Profile** und welche **Domänen** in einer Unit angewendet werden können.
 
-![Erste Schritte](../assets/roadmap/erste-schritte.de.png)
+![Erste Schritte](../assets/roadmap/erste-schritte.png)
 
 Im **Unit erstellen** Assistenten werden die Schritte analog erläutert.
 
@@ -55,13 +55,13 @@ Die mitigierenden Maßnahmen werden im Report **A.5 Risikoanalyse** ausgegeben.
 
 In der ersten Iteration sind die Namen, Kriterien und Farben der Risikodefinition (Auswirkung, Eintrittswahrscheinlichkeit und Risikokategorien) und der Schutzbedarfsdefinition an die Organisation anpassbar:
 
-![Anpassbare Risikodefinition](../assets/roadmap/risikodefinition.de.png)
+![Anpassbare Risikodefinition](../assets/roadmap/risikodefinition.png)
 
 ### Schadenshöhe
 
 Um im IT-Grundschutz zwischen dem **Schutzbedarf** für Vertraulichkeit, Integrität und Verfügbarkeit und der **Schadenshöhe** in der Risikoanaylse differenzieren zu können, lässt sich der Schutzbedarf ohne Definition einer Risikomatrix abbilden:
 
-![Anpassbare Risikodefinition](../assets/roadmap/risikodefinition_ohne_matrix.de.png)
+![Anpassbare Risikodefinition](../assets/roadmap/risikodefinition_ohne_matrix.png)
 
 ### Sortierung in Katalog
 
@@ -93,4 +93,4 @@ Abbildung des **TISAX / VDA ISA Information Security Assessment** in verinice zu
 - **Profile** für Information Security Assessments für die Kriterienkataloge **Informationssicherheit und Prototypenschutz** ohne/mit **Datenschutz**.
 - **Report** Information Security Assessment 6 - kompakt:
 
-![Anpassbare Risikodefinition](../assets/roadmap/vda-isa_report.de.png)
+![Anpassbare Risikodefinition](../assets/roadmap/vda-isa_report.png)

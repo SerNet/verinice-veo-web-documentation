@@ -7,15 +7,15 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 <!--&225-->
 Die erste Iteration der visuellen Darstellung der Verknüpfungen ermöglicht die Navigation zu direkten *Nachbarn* :
 
-![Graph Navigation](../assets/release-notes/verinice-49-graph-1.de.gif)
+![Graph Navigation](../assets/release-notes/verinice-49-graph-1.gif)
 
-![Graph Zoom](../assets/release-notes/verinice-49-graph-2.de.gif)
+![Graph Zoom](../assets/release-notes/verinice-49-graph-2.gif)
 
 ## Änderung der Risikodefinition verbessern
 <!--301-->
 Das **Löschen** *mittlerer Stufen* von Auswirkung, Eintrittswahrscheinlichkeit oder Risikowerten in einer Risikodefinition führt zu Verschiebungen von Risikowerten in bereits bestehenden Risiken und erfordert manuelle Nacharbeiten. Um das unbeabsichtigte Löschen zu vermeiden, kann nur noch die jeweils höchste Stufe gelöscht werden. Die Umbenennung aller Stufen ist nach wie vor möglich.
 
-![Löschen von Stufen in der Risikodefinition](../assets/release-notes/verinice-49-risikodefinition.de.png)
+![Löschen von Stufen in der Risikodefinition](../assets/release-notes/verinice-49-risikodefinition.png)
 
 ::: danger Jede Anpassung einer Risikodefinition bedingt Änderungen an bereits bestehenden Risiken. Es ist empfohlen, die Risikodefinition **vor**  der Risikobewertung auf die jeweilige Organisation anzupassen!
 :::
@@ -27,7 +27,7 @@ Darüber hinaus wurden folgende Fehler behoben:
 ## Reports als Karten
 <!--&240-->
 Reports werden in separaten Karten je Sprachvariante dargestellt, um die Auswahl zu vereinfachen:
-![Reports als Karten](../assets/release-notes/verinice-49-report-cards.de.png)
+![Reports als Karten](../assets/release-notes/verinice-49-report-cards.png)
 
 ## Detailverbesserungen und Fehlerbehebungen <Badge type="info">Test</Badge>
 <!--&264, &186-->

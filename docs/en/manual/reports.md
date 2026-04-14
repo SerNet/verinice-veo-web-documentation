@@ -2,7 +2,7 @@
 # Reports
 
 In the Reports section, select the desired template from the available templates:
-![Reports](  ../assets/manual/reports.de.png)
+![Reports](  ../assets/manual/reports.png)
 
 1. a short description of the content is displayed for each template.
 1. reports are normally created across all scopes, depending on the type of report, a specific subtype may be required! Please note that the respective source objects for report generation must be created beforehand!

@@ -11,7 +11,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 
 - Ein Bestätigungsdialog informiert über angewendete Katalogelemente, es kann direkt zu den jeweiligen Katalogelementen navigiert werden:
 
-![Angewendete Katalogelemente](../assets/release-notes/verinice-37-catalog.de.png)
+![Angewendete Katalogelemente](../assets/release-notes/verinice-37-catalog.png)
 
 ### Fehlerbehebungen
 

@@ -11,13 +11,13 @@ Die Navigation über das Menü oder das Dashboard öffnet die Objektübersicht, 
 
 Die aktiven Filterkriterien werden über der Objektliste dargestellt:
 
-![Filterkriterien](../assets/manual/filter-chips.de.png)
+![Filterkriterien](../assets/manual/filter-chips.png)
 
 1. Als Mindestkriterium ist immer der **Objekttyp** erforderlich!
 1. Durch Löschen **optionaler Filterkriterien** erweitern Sie die Objektübersicht direkt.
 1. Für die Filterung nach weiteren Kriterien öffnen Sie den **Filterdialog**:
 
-![Filter](../assets/manual/filter.de.png)
+![Filter](../assets/manual/filter.png)
 
 ### Suche
 
@@ -25,13 +25,13 @@ Um über die Filterung hinaus gezielt bestimmte Objekte zu finden, steht die **S
 
 Per Vorgabe wird jeder eingegebene Text in Abkürzung und Name (und Designator) gesucht. Optional können Sie die Suche auf die Abkürzung oder den Namen beschränken:
 
-![Suche](../assets/manual/suche.de.gif)
+![Suche](../assets/manual/suche.gif)
 
 ### Liste
 
 Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb der Liste:
 
-![Objektübersicht](../assets/manual/object-list.de.png)
+![Objektübersicht](../assets/manual/object-list.png)
 
 1. Sie **öffnen** ein Objekt zur Bearbeitung durch Mausklick auf die jeweilige Zeile.
 1. **Sortieren** Sie die Objektliste nach den wichtigsten Spalten auf- oder absteigend.
@@ -45,7 +45,7 @@ Die Objektübersicht dient der schnellen Orientierung und Navigation innerhalb d
 
 Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spalten dargestellt:
 
-![Objektansicht](../assets/manual/object.de.png)
+![Objektansicht](../assets/manual/object.png)
 
 **Links:**
 
@@ -67,7 +67,7 @@ Nach Öffnen eines Objektes werden weitere Informationen zum Objekt in zwei Spal
 
 Die Objektdetails geben einen ersten schnellen Überblick über das aktuelle Objekt:
 
-![Objektbeschreibung](../assets/manual/object-details.de.png)
+![Objektbeschreibung](../assets/manual/object-details.png)
 
 1. Über das **Objektmenü** wählen Sie sofern verfügbar spezifische Aktionen für das aktuelle Objekt aus.
 
@@ -85,7 +85,7 @@ Das Objektumfeld kann je nach Objekttyp und Domäne aus **Scopes**, **Teilen**, 
 
 Das Objektumfeldes zeigt dabei:
 
-![Objektumfeld](../assets/manual/object-environment.de.png)
+![Objektumfeld](../assets/manual/object-environment.png)
 
 1. Mit **Scopes** und/oder **Teile** den Blick *nach innen* und mit **In Scope** und/oder **Teil von** den Blick *nach außen*.
 1. Mit **Links** verknüpfte Objekte als eingehende oder ausgehende Links.

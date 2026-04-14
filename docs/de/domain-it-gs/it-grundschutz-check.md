@@ -3,7 +3,7 @@
 
 In diesem Schritt gilt es, den Status der modellierten Bausteine, konkret der einzelnen Anforderungen, abzuarbeiten. Um Anforderungen zu bearbeiten, klicken Sie im Objektumfeld des Zielobjektes im Tab **Bausteine** auf **Umsetzung anzeigen** des jeweiligen Bausteins.
 
-![Umsetzung anzeigen](../assets/domain-it-gs/verinice-32-view-implementation.de.png)
+![Umsetzung anzeigen](../assets/domain-it-gs/verinice-32-view-implementation.png)
 
 Sie gelangen zur Übersicht aller Anforderungen des ausgewählten Bausteins. Hier können Sie die einzelnen Anforderungen bearbeiten. Durch Klick auf eine Anforderung öffnet sich der Umsetzungsdialog, in dem Sie folgende Informationen einsehen bzw. einpflegen können:
 
@@ -15,7 +15,7 @@ Sie gelangen zur Übersicht aller Anforderungen des ausgewählten Bausteins. Hie
   - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
   - Umsetzungsbeschreibung.
 
-![Umsetzung bearbeiten](../assets/domain-it-gs/verinice-32-edit-implementation.de.png)
+![Umsetzung bearbeiten](../assets/domain-it-gs/verinice-32-edit-implementation.png)
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
 

@@ -11,7 +11,7 @@ The following new features are available to users with the release of verinice 4
 
 Risk categories can now be added, edited or deleted for **risk definitions**:
 
-![Risk categories](../assets/release-notes/verinice-42-risk-categories.en.png)
+![Risk categories](../assets/release-notes/verinice-42-risk-categories.png)
 
 ### Internationalization of the documentation
 
@@ -21,7 +21,7 @@ The documentation is available in a first English version - you can switch betwe
 
 Shortcuts have been implemented to improve navigation, particularly with regard to accessibility:
 
-![Shortcuts](../assets/release-notes/verinice-42-shortcuts.en.png)
+![Shortcuts](../assets/release-notes/verinice-42-shortcuts.png)
 
 ### Detail improvements and bug fixes
 

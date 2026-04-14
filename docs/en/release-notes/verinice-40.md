@@ -8,13 +8,13 @@ The following new features are available to users with the release of verinice 4
 ### Multiple selection domain assignment
 
 In the object overview, multiple objects can now be assigned to another domain at the same time using the multiple selection function:
-![Multiple selection for domain assignment]( ../assets/release-notes/verinice-40-domain-association.de.gif)
+![Multiple selection for domain assignment]( ../assets/release-notes/verinice-40-domain-association.gif)
 
 ### Accessibility
 
 The entire interface has been revised with regard to accessibility and fulfills the requirements of WCAG 2.1 AA:
-![Accessibility Lighthouse]( ../assets/release-notes/verinice-40-lighthouse.de.png)
-![Accessibility AXE Developer Tools]( ../assets/release-notes/verinice-40-axe.de.png)
+![Accessibility Lighthouse]( ../assets/release-notes/verinice-40-lighthouse.png)
+![Accessibility AXE Developer Tools]( ../assets/release-notes/verinice-40-axe.png)
 ::: info
 To maintain accessibility, automated accessibility tests are currently being integrated into the development process and the acceptance criterion **Accessibility fulfilled** is included as a mandatory part of the acceptance process.
 :::

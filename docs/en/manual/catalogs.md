@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Catalogs
 
-![Catalogs](  ../assets/manual/catalogs.de.png)
+![Catalogs](  ../assets/manual/catalogs.png)
 
 1. Depending on the domain, catalogs provide global objects for use.  
    These may include, for example, data protection threats, technical and organizational measures (TOM), or IT-Grundschutz modules.
