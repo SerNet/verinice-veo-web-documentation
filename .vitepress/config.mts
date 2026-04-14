@@ -8,79 +8,79 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 const sharedConfig: UserConfig<DefaultTheme.Config> = {
   srcExclude: ["**/README.md"],
   ignoreDeadLinks: false,
-  head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-  ],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
- // default theme Config
+  // default theme Config
   themeConfig: {
     search: {
       provider: "local",
-    }
+    },
   },
 };
 
 // German theme configuration
 const deThemeConfig: DefaultTheme.Config = {
   outline: [2, 3],
-    i18nRouting: true,
-    siteTitle: false,
-     logo: {
-    src: "/verinice-logo.svg",
-    alt: "verinice documentation"
+  i18nRouting: true,
+  siteTitle: false,
+  docFooter: {
+    prev: "Vorherige Seite",
+    next: "Nächste Seite",
   },
-    nav: [{ text: "Home", link: `/` }],
+  logo: {
+    src: "/verinice-logo.svg",
+    alt: "verinice documentation",
+  },
+  nav: [{ text: "Home", link: `/` }],
   search: {
-      provider: "local",
-      options: {
-        translations: {
-          button: {
-            buttonText: "Suche",
-            buttonAriaLabel: "Suche",
-          },
-          modal: {
-            displayDetails: "Details anzeigen",
-            resetButtonTitle: "Suche zurücksetzen",
-            backButtonTitle: "backButtonTitle",
-            noResultsText: "Keine Ergebnisse für",
-            footer: {
-              selectText: "auswählen",
-              selectKeyAriaLabel: "auswählen",
-              navigateText: "navigieren",
-              navigateUpKeyAriaLabel: "hoch navigieren",
-              navigateDownKeyAriaLabel: "runter navigieren",
-              closeText: "schließen",
-              closeKeyAriaLabel: "schließen",
-            },
+    provider: "local",
+    options: {
+      translations: {
+        button: {
+          buttonText: "Suche",
+          buttonAriaLabel: "Suche",
+        },
+        modal: {
+          displayDetails: "Details anzeigen",
+          resetButtonTitle: "Suche zurücksetzen",
+          backButtonTitle: "backButtonTitle",
+          noResultsText: "Keine Ergebnisse für",
+          footer: {
+            selectText: "auswählen",
+            selectKeyAriaLabel: "auswählen",
+            navigateText: "navigieren",
+            navigateUpKeyAriaLabel: "hoch navigieren",
+            navigateDownKeyAriaLabel: "runter navigieren",
+            closeText: "schließen",
+            closeKeyAriaLabel: "schließen",
           },
         },
       },
     },
+  },
 
-
-    socialLinks: [
-      {
-        icon: "linkedin",
-        link: "https://www.linkedin.com/showcase/verinice/",
-      },
-      { icon: "youtube", link: "https://www.youtube.com/c/verinice" },
-      { icon: "github", link: "https://github.com/SerNet/verinice-veo" },
-    ],
-    outlineTitle: "Auf dieser Seite",
-    darkModeSwitchLabel: "Theme",
-    darkModeSwitchTitle: "Zum Dark Theme wechseln",
-    lightModeSwitchTitle: "Zum Light Theme wechseln",
-  
+  socialLinks: [
+    {
+      icon: "linkedin",
+      link: "https://www.linkedin.com/showcase/verinice/",
+    },
+    { icon: "youtube", link: "https://www.youtube.com/c/verinice" },
+    { icon: "github", link: "https://github.com/SerNet/verinice-veo" },
+  ],
+  outlineTitle: "Auf dieser Seite",
+  darkModeSwitchLabel: "Theme",
+  darkModeSwitchTitle: "Zum Dark Theme wechseln",
+  lightModeSwitchTitle: "Zum Light Theme wechseln",
 };
 
 // English theme configuration
 const enThemeConfig: DefaultTheme.Config = {
- outline: [2, 3],
+  outline: [2, 3],
   i18nRouting: true,
   siteTitle: false,
- logo: {
+  logo: {
     src: "/verinice-logo.svg",
-    alt: "verinice documentation"
+    alt: "verinice documentation",
   },
   nav: [{ text: "Home", link: `/en/` }],
   search: {
@@ -124,42 +124,47 @@ const enThemeConfig: DefaultTheme.Config = {
   lightModeSwitchTitle: "Switch to light theme",
 };
 
-function localizeSidebar(items: MultiLingualSidebarItem[], lang: "de" | "en"): DefaultTheme.SidebarItem[] {
+function localizeSidebar(
+  items: MultiLingualSidebarItem[],
+  lang: "de" | "en",
+): DefaultTheme.SidebarItem[] {
   return items.map((item) => ({
     ...item,
-    text: item.text[lang] ,
+    text: item.text[lang],
     link: lang === "de" ? item.link : `/${lang}/${item.link}`,
     //Recursively processes groups and sub-groups
     items: item.items ? localizeSidebar(item.items, lang) : undefined,
   }));
 }
 
-export default withMermaid(defineConfig({
-  ...sharedConfig,
-  locales: {
-    root: {
-      label: 'Deutsch',
-      lang: 'de',
-      title: "Dokumentation",
-      description: "verinice. - mit Sicherheit neu!",
-      themeConfig: {
-       ...deThemeConfig,
-        sidebar: localizeSidebar(sidebarItems, "de"),
+export default withMermaid(
+  defineConfig({
+    ...sharedConfig,
+    locales: {
+      root: {
+        label: "Deutsch",
+        lang: "de",
+        title: "Dokumentation",
+        description: "verinice. - mit Sicherheit neu!",
+        themeConfig: {
+          ...deThemeConfig,
+          sidebar: localizeSidebar(sidebarItems, "de"),
+        },
+      },
+      en: {
+        label: "English",
+        lang: "en",
+        title: "Documentation",
+        description: "verinice.veo - securely new!",
+        themeConfig: {
+          ...enThemeConfig,
+          sidebar: localizeSidebar(sidebarItems, "en"),
+        },
+        link: "/en/",
       },
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      title: "Documentation",
-      description: "verinice.veo - securely new!",
-      themeConfig: {
-       ...enThemeConfig,
-        sidebar: localizeSidebar(sidebarItems, "en"),
-      },
-      link: '/en/',
+    mermaid: {
+      //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
     },
-  },
-    mermaid:{
-        //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
-    },
-}));
+  }),
+);
