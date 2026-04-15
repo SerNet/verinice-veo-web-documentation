@@ -166,5 +166,9 @@ export default withMermaid(defineConfig({
     mermaid:{
         //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
     },
+        sitemap: {
+      // TODO verinice-veo#3004
+      hostname: "https://veo-docs.verinice.com/",
+    },
   }),
 );
