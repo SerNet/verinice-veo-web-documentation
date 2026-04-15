@@ -1,7 +1,6 @@
-docs/.vitepress/cache/
-
+cache
 node_modules.idea
-.env
+
 
 # Nuxt
 node_modules
