@@ -36,14 +36,14 @@ The second iteration of the **CSV Import** enables:
 - Fixed incorrect loading of risk values in the risk dialog.
 <!-- issues/4616 -->
 
-- Fixed `npm run typecheck` failing.
+- Fixed `npm run typecheck` failures.
 <!-- issues/4598 -->
 
-- Sorted subtypes in the combined dialog for object selection and creation to match the sorting in Navigation/Dashboard.
+- Sorted subtypes in the combined dialog for object selection and creation to match the sorting in the Navigation/Dashboard.
 <!-- issues/4576 -->
 
 - Removed the `undici` library.
 <!-- issues/4568 -->
 
-- Fixed creation of main users via the Swagger UI.
+- Fixed the creation of main users via the Swagger UI.
 <!-- issues/4311 -->

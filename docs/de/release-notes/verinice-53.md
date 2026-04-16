@@ -15,7 +15,7 @@ Die zweite Iteration des **CSV-Imports** ermöglicht:
 ## Detailverbesserungen und Bugfixes
 <!-- epics/269 -->
 
-- Upgrade TypeScript auf v6.x.x
+- Upgrade von TypeScript auf v6.x.x
 <!-- issues/4678 -->
 
 - Verständliche Icons für Dokumentation und Kontexthilfe eingeführt.
@@ -27,7 +27,7 @@ Die zweite Iteration des **CSV-Imports** ermöglicht:
 - Übergroße Darstellung von Balken im Dashboard behoben.
 <!-- issues/4652 -->
 
-- Fehlende Übersetzungen im Domain Select behandeln.
+- Ergänzung fehlender Übersetzungen in der Domänenauswahl.
 <!-- issues/4651 -->
 
 - Benutzerführung für Markdownfelder verbessert.
