@@ -8,7 +8,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:typecheck": "tsc --noEmit",
     "docs:build": "npm run docs:typecheck && vitepress build docs",
-    "docs:preview": "vitepress preview",
+    "docs:preview": "vitepress preview docs",
     "postdocs:build": "node externalize-scripts.mjs"
   },
   "devDependencies": {
