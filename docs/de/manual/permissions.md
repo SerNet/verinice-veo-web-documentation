@@ -46,7 +46,7 @@ Nebennutzer:innen hingegen dürfen eine Unit nur lesen, wenn sie entweder Mitgli
 ## Eine Unit erstellen, bearbeiten oder löschen
 
 In der [Unitverwaltung](unit-management.md) lassen sich Units erstellen, bearbeiten und löschen.
-Als "Bearbeiten einer Unit" zählen nur das Umbenennen einer Unit, das Ändern ihrer Beschreibung sowie das Zuweisen zusätzlicher Domänen zur Unit.
+Als "Bearbeiten einer Unit" zählen nur das Umbenennen einer Unit, das Ändern ihrer Beschreibung, das Zuweisen zusätzlicher Domänen zur Unit sowie das Updaten der Unit auf eine neue Domänenversion.
 Diese Aktionen sind abzugrenzen vom [Schreiben in einer Unit](#in-einer-unit-schreiben), das weiter unten thematisiert wird.
 
 Das Erstellen, Bearbeiten und Löschen von Units ist Hauptnutzer:innen immer erlaubt.

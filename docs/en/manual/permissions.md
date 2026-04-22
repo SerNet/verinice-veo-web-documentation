@@ -42,7 +42,8 @@ Main users can always read all units in their client. On the other hand, sub use
 
 ## Creating, editing or deleting a unit
 
-Units can be created, edited and deleted in the [unit management](unit-management.md). "Editing a unit" only encompasses renaming the unit, changing its description and assigning additional domains to it. These actions are distinct from by [writing inside a unit](#writing-inside-a-unit), which will be discussed below.
+Units can be created, edited and deleted in the [unit management](unit-management.md). "Editing a unit" only encompasses renaming the unit, changing its description, assigning additional domains to it and updating it to a new domain version.
+These actions are distinct from by [writing inside a unit](#writing-inside-a-unit), which will be discussed below.
 
 As the main user, creating, editing and deleting units is always allowed. On the other hand, sub users can only do this if they have the role "write access" and if unit access is free in their client.
 
