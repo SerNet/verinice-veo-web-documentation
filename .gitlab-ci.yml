@@ -20,7 +20,7 @@ workflow:
     - when: on_success
 
 default:
-  image: node:25
+  image: node:26
   cache: # Cache modules in between jobs
     key:
       files:
