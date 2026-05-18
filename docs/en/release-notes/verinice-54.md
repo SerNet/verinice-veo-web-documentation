@@ -18,10 +18,10 @@ Release of the English-language domain **NIS2 (INT)** for the internationally ap
 
 Release of the English-language domain **ISO 27001 (INT)** for the internationally applicable ISO EN standards.
 
-## Detail improvements and bug fixes
+## Detailed improvements and bug fixes
 <!-- epics/270 -->
 
-* The structure of the documentation in Vitepress has been optimized so that it can be adapted and expanded by customers in OnPrem environments as needed.
+* The structure of the documentation has been optimized so that it can be adapted and expanded by customers in on-prem environments as needed.
 <!-- epics/338 -->
 * A sitemap has been created for the documentation.
 <!-- work_items/4016 -->
@@ -31,7 +31,7 @@ Release of the English-language domain **ISO 27001 (INT)** for the international
 <!-- work_items/4736 -->
 * Fixed an incorrect display in the **Versioning** section when messages are present.
 <!-- work_items/4725 -->
-* Fixed a bug in database migration (hotfix for version 52)
+* Fixed a bug in the database migration (hotfix for version 52).
 <!-- work_items/4714 -->
 * Fixed a bug during unit import when control implementations contain no data.
 <!-- work_items/4713 -->
@@ -39,7 +39,7 @@ Release of the English-language domain **ISO 27001 (INT)** for the international
 <!-- work_items/4674 -->
 * Corrected inconsistent handling of buttons when authorization is missing in unit management and the object overview.
 <!-- work_items/4670 -->
-* Improved handling of tooltips for disabled actions.
+* Improved the handling of tooltips for disabled actions.
 <!-- work_items/4670 -->
 * Fixed a bug when reloading the **Part of** tab in the object view.
 <!-- work_items/4611 -->

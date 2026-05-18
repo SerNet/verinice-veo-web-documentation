@@ -21,22 +21,22 @@ Veröffentlichung der englischsprachigen Domäne **ISO 27001 (INT)** für die in
 ## Detailverbesserungen und Bugfixes
 <!-- epics/270 -->
 
-* Die Struktur der Dokumentation in Vitepress wurde optimiert, damit diese in OnPrem-Umgebungen bei Bedarf von Kundinnen und Kunden angepasst und erweitert werden kann.
+* Die Struktur der Dokumentation in wurde optimiert, damit diese in OnPrem-Umgebungen bei Bedarf von Kundinnen und Kunden angepasst und erweitert werden kann.
 <!-- epics/338 -->
 
 * Für die Dokumentation wurde eine Sitemap erstellt.
 <!-- work_items/4016 -->
 
-* Im Report **A.4 Ergebnis des IT-Grundschutz-Checks** werden keine Rsikomitigierenden Controls mehr ausgegeben.
+* Im Report **A.4 Ergebnis des IT-Grundschutz-Checks** werden keine risikomitigierenden Controls mehr ausgegeben.
 <!-- work_items/4752 -->
 
-* Behebung eines Fehlers im Report **A.3 Modellierung** wenn es Zielobjekte mit Control Implementations in anderen Domänen gibt.
+* Behebung eines Fehlers im Report **A.3 Modellierung**, wenn es Zielobjekte mit Control Implementations in anderen Domänen gibt.
 <!-- work_items/4736 -->
 
 * Korrektur der fehlerhaften Anzeige im Bereich **Versionierung**, wenn Meldungen vorliegen.
 <!-- work_items/4725 -->
 
-* Korrektur eines Fehlers in Datenbank-Migration (Hotfix für verinice 52)
+* Korrektur eines Fehlers in einer Datenbank-Migration (Hotfix für verinice 52).
 <!-- work_items/4714 -->
 
 * Behebung eines Fehlers beim Unit-Import, wenn Control Implementations keine Daten enthalten.
@@ -45,7 +45,7 @@ Veröffentlichung der englischsprachigen Domäne **ISO 27001 (INT)** für die in
 * Beschreibung des Berechtigungskonzepts in der Dokumentation konkretisiert.
 <!-- work_items/4674 -->
 
-* Inkonsistente Behandlung von Buttons bei fehlender Berechtigung in Unit-Verwaltung und Objektübersicht korrigiert.
+* Inkonsistente Behandlung von Buttons bei fehlender Berechtigung in der Unit-Verwaltung und der Objektübersicht korrigiert.
 <!-- work_items/4670 -->
 
 * Der Umgang mit Tooltips bei deaktivierten Aktionen wurde verbessert.
