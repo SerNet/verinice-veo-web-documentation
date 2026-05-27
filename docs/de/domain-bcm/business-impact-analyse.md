@@ -1,127 +1,100 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
 # Business Impact Analyse (BIA)
 
-Ein wesentliches Ziel des BCMS ist die Sicherstellung einer angemessenen Absicherung der **geschäftskritischen Prozesse**. Die BIA dient dazu, systematisch zu ermitteln:
+Ein Hauptziel des Business Continuity Management Systems (BCMS) ist die angemessene Absicherung geschäftskritischer Prozesse. Die Business Impact Analyse (BIA) dient dazu, systematisch folgende Kernfragen zu beantworten:
 
-- ob ein Geschäftsprozess **zeitkritisch** ist,  
-- wie lange dieser ausfallen darf, bevor nicht tolerierbare Schäden entstehen und  
-- welche Ressourcen erforderlich sind, um den Prozess im Notbetrieb fortzuführen.  
+* Zeitkritikalität: Ist der Geschäftsprozess zeitkritisch?
+* Ausfalltoleranz: Wie lange darf der Prozess maximal ausfallen, bevor nicht tolerierbare Schäden für die Institution entstehen?
+* Ressourcenbedarf: Welche Ressourcen sind zwingend erforderlich, um den Prozess im Notbetrieb aufrechtzuerhalten?
 
-Die BIA bildet somit die Grundlage für:
-
-- die **Priorisierung von Prozessen**,  
-- die **Definition von Wiederanlaufzielen (RTO, RPO)** sowie  
-- die **Planung von Notfallvorsorge- und Wiederherstellungsmaßnahmen**.
+Damit bildet die BIA das Fundament für die Priorisierung von Prozessen, die Definition von Wiederanlaufzielen (RTO, RPO) sowie die anschließende Planung von Notfall- und Wiederherstellungsmaßnahmen.
 
 ## BIA-Vorbereitung
 
 ### Anlegen der Geschäftsprozesse
 
-Im **BCMS-Geltungsbereich** können die zu betrachtenden **Geschäftsprozesse** als Objekte hinzugefügt werden. Liegt in der Institution ein ISMS vor, können die dort identifizierten Geschäftsprozesse als Ausgangsbasis genutzt werden. Auch das **Verzeichnis der Verarbeitungstätigkeiten** gemäß DS-GVO kann unterstützend herangezogen werden.
+Um mit der BIA zu starten, müssen die relevanten Prozesse im BCMS-Geltungsbereich als Objekte erfasst sein. Nutzen Sie hierfür vorhandene Synergien: Existiert in Ihrer Institution bereits ein Informationssicherheitsmanagementsystem (ISMS) oder ein Verzeichnis der Verarbeitungstätigkeiten (VVT) nach DS-GVO, können diese Daten als ideale Ausgangsbasis dienen.
 
-Falls noch keine Geschäftsprozesse in verinice angelegt sind, können diese über den Objekttyp **Geschäftsprozess** neu erstellt werden oder bereits vorhandene Prozesse aus der **Datenschutz- oder ISMS-Domäne** der **BCMS-Domäne** zugeordnet werden.  
+* Neue Prozesse anlegen: Falls noch keine Prozesse erfasst sind, erstellen Sie diese neu über den Objekttyp Geschäftsprozess.
+
+* Vorhandene Prozesse nutzen: Bereits existierende Prozesse aus der Datenschutz- oder ISMS-Domäne können Sie ganz einfach der BCMS-Domäne zuordnen.
 
 ![Geschäftsprozess einer Domäne in eine andere Domäne zuordnen](../assets/domain-bcm/verinice-46-assignObjectToDomain.gif)
 
-Bevor die Ergebnisse der Schadensbewertung festgehalten werden, können zusätzliche Informationen zum Geschäftsprozess oder allgemein zur Business Impact Analyse (BIA) dokumentiert werden. Dazu zählen unter anderem:
+### Dokumentation von Prozess-Details
+Im Formular des jeweiligen Geschäftsprozesses können Sie spezifische Zusatzinformationen zur BIA hinterlegen. Dazu gehören:
 
-- Art der Prozesskontinuität (kontinuierlich, ergebnisorientiert, zyklisch oder quasi-zyklisch),
-- kritischste Zeiträume,
-- der oder die BIA-Zuständige,
-- die verantwortliche Organisationseinheit,
-- die Art der Datenerhebung (z. B. Selbstauskunft, Einzelinterview, Workshop)
-- sowie der Standort des Prozesses.
+* Art der Prozesskontinuität: z. B. kontinuierlich, ergebnisorientiert, zyklisch oder quasi-zyklisch
+* Kritischste Zeiträume: Phasen, in denen ein Ausfall besonders schwerwiegende Folgen hätte
+* Zuständigkeiten: Der/die BIA-Verantwortliche sowie die zuständige Organisationseinheit
+* Datenerhebung: Die gewählte Methodik (z. B. Selbstauskunft, Einzelinterview, Workshop)
 
-![Angaben zur BIA im Geschäftsprozess](../assets/domain-bcm/verinice-46-bia1.png)
+![Angaben zur BIA im Geschäftsprozess](../assets/domain-bcm/bia.png)
 
 ### Festlegung der Ressourcenkategorien und -cluster
 
-Unter dem Objekttyp **Ressource** können die **Ressourcenkategorien** und **-cluster** als Composites definiert werden (z. B. Personal, IT-Systeme, Gebäude, Dienstleister, Informationen).
+Für einen strukturierten Überblick werden benötigte Ressourcen unter dem Objekttyp Ressource erfasst und über sogenannte Composites (Obergruppen) in Ressourcenkategorien und -cluster (z. B. Personal, IT-Systeme, Gebäude, Dienstleister, Informationen) unterteilt.
 
-Einzelne Ressourcen können wiederum unter Teile diesem Composite / dieser Obergruppe zugeordnet werden. 
+* Strukturierung: Einzelne Ressourcen ordnen Sie über den Reiter (Tab) Teile dem jeweils passenden Composite zu.
+* Verantwortlichkeiten: Verknüpfen Sie direkt in der Ressource die zuständigen internen Personen oder externen Dienstleister.
 
-### Festlegung der BIA-Parameter und Zeithorizonte
-
-In der BIA wird analysiert, welche Schäden über den Zeitverlauf durch den Ausfall eines Geschäftsprozesses entstehen können. Hierzu werden **Zeithorizonte** definiert, anhand derer die Schadensentwicklung bewertet wird. In verinice erfolgt die Konfiguration unter der BCMRA (Risikodefinition). Dort können Sie:
-
-- die **Zeithorizonte verwalten**,  
-- **Schadenskategorien** definieren,  
-- **Schadensszenarien** beschreiben, um das Schadenspotenzial zu konkretisieren.  
-
-![Zeithorizonte, Schadenskategorien und Schadensszenarien verwalten in der BCMRA](../assets/domain-bcm/verinice-46-bcmra.png)
-
-Nach dem Speichern stehen die konfigurierten Zeithorizonte unter jedem Geschäftsprozess zur Verfügung. Dort kann das **Schadenspotenzial nach Zeithorizont bewertet und dokumentiert** werden.
+![Verantwortliche einer Ressource](../assets/domain-bcm/resource-1.png)
 
 ## Durchführung der BIA
 
-### Ermittlung des Schadenspotenzials und der MTA
+### Ermittlung des Schadenspotenzials und der MTPD
 
-Zur Identifikation zeitkritischer Prozesse wird das **Schadenspotenzial** jedes Geschäftsprozesses für die zuvor definierten Zeithorizonte bewertet. In verinice erfolgt diese Bewertung im Geschäftsprozess-Objekt nach dem **Worst-Case-Prinzip**, bei dem das höchste mögliche Schadensausmaß berücksichtigt wird. 
+Zur Identifikation zeitkritischer Prozesse muss das Schadenspotenzial jedes Geschäftsprozesses für die zuvor definierten Zeithorizonte bewertet werden. Diese Bewertung führen Sie vorerst außerhalb von verinice durch (als Hilfsmittel kann hierfür beispielsweise der Auswertungsbogen des BSI genutzt werden). Das Ergebnis können Sie im Formular des Geschäftsprozesses anhand eines Links zum separaten Dokument hinterlegen.
 
-Anschließend kann eine Begründung dokumentiert und bewertet werden, welche **Schadensszenarien** ausschlaggebend für die Bewertung sind und ob es sich um einen zeitkritischen Geschäftsprozess handelt.  
-
-Aus dieser Bewertung ergibt sich die **MTA**, diese wird aktuell noch manuell erfasst.  
-
-![Incident](../assets/domain-bcm/verinice-46-bia2.gif)
-
-### Abbildung von notfallrelevanten Prozessabhängigkeiten
-
-Nach der ersten Bewertung sollten die notfallrelevanten Prozessabhängigkeiten analysiert werden, um festzustellen, ob sich die MTA aufgrund dieser Abhängigkeiten verändert.
-Dazu können Custom-Links zwischen Prozessen erstellt werden, um vorgelagerte, parallele oder nachgelagerte Abläufe darzustellen. Zu der Verknüpfung kann ebenfalls eine MTA des benötigten Geschäftsprozesses aufgrund der Abhängigkeit zu diesem Geschäftsprozess mit Begründung dokumentiert werden. 
-
-Ändert sich durch die Abhängigkeiten die MTA, ist der neue Wert im Feld **MTA (nach Prozessabhängigkeiten)** zu dokumentieren. Anschließend kann die MTPD unter **MTA(MIN)** entsprechend angepasst und final festgelegt werden.
-
-![Abbildung von Prozessabhängigkeiten](../assets/domain-bcm/verinice-46-bia3.png)
-
-### Festlegung der geforderten Wiederanlaufzeit (RTO)
-
-Nach Bestimmung der MTPD ist die **Recovery Time Objective (RTO)** festzulegen – die Zeitspanne, innerhalb derer der Geschäftsprozess nach einem Ausfall wieder funktionsfähig sein muss. Die RTO muss kleiner als die MTA sein.
-
-Der **Prozesseigentümer** kann die RTO im Feld **RTO für notwendige Ressourcen** des Geschäftsprozesses dokumentieren.
-
-Tragen Sie die RTO im Feld unter dem jeweiligen Geschäftsprozess ein.
+Aus dieser externen Bewertung ergibt sich eine erste maximale tolerierbare Ausfallzeit (MTPD), die Sie in verinice dokumentieren. Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszenarien ausschlaggebend für die Bewertung waren und ob es sich letztlich um einen zeitkritischen Geschäftsprozess handelt.
 
 ### Festlegung des Notbetriebsniveaus
 
-Zusätzlich zur RTO und MTA kann unter dem Feld **Notbetriebsniveau** definiert werden, in welchem Leistungsumfang der Geschäftsprozess im Notbetrieb betrieben werden soll (z. B. 60 % Kapazität, vereinfachte Verfahren).
+Über das Feld Notbetriebsniveau definieren Sie, in welchem minimalen Leistungsumfang der Geschäftsprozess im Krisenfall betrieben werden muss, um nicht tolerierbare Schäden abzuwenden (z. B. Aufrechterhaltung von 60 % der regulären Kapazität, Nutzung vereinfachter manueller Verfahren).
 
-### Festlegung des maximal tolerierbarer Datenverlust (RPO)
+### Abbildung von notfallrelevanten Prozessabhängigkeiten
 
-Für **informationsbasierte Ressourcenkategorien** (z. B. Daten, IT-Systeme, Informationsspeicher) ist zusätzlich die **Recovery Point Objective (RPO)** zu bestimmen.  
-Diese beschreibt, bis zu welchem Zeitpunkt die Daten im Notbetrieb zurückliegen dürfen, ohne dass der Prozessablauf beeinträchtigt wird. Die RPO ist unabhängig von MTPD und RTO, sollte jedoch nach dem Minimalprinzip konsolidiert werden, wenn mehrere Prozesse dieselbe Ressource nutzen.
+Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, schlägt eine automatisierte Prüfung (Inspection) in verinice an:
 
-Der **Prozesseigentümer** kann die RPO im Feld **Maximal zulässiger Datenverlust (RPO)** des Geschäftsprozesses festlegen.  
+* Unter Hinweise erscheint die Meldung, dass die MTPD aufgrund der Prozessabhängigkeiten abweicht.
+* Das System schlägt daraufhin automatisch eine angepasste MTPD (MIN) vor.
 
-![Dokumentation der RPO und RTO im Geschäftsprozess](../assets/domain-bcm/verinice-46-biaRtoRpo.png)
+### Festlegung der geforderten Wiederanlaufzeit (RTO) und der RPO und Abbildung der Ressourcenabhängigkeiten
+
+Nach der finalen Bestimmung der MTPD wird ein Richtwert für die Recovery Time Objective (RTO) vorgegeben. Die RTO definiert die Zeitspanne, innerhalb derer die benötigten Ressourcen für den Notbetrieb des Geschäftsprozesses wieder einsatzbereit sein müssen.
+
+Die RTO eines Prozesses muss zwingend kleiner als dessen MTPD sein.
+
+Der Prozesseigentümer identifiziert und dokumentiert nach den Prozessabhängigkeiten auch die Ressourcenabhängigkeiten:
+
+* Die für den Notbetrieb benötigten Ressourcen werden über den Custom-Link verknüpft.
+* Direkt in diesem Custom-Link werden die spezifische RTO und RPO der Ressource für diesen konkreten Geschäftsprozess definiert.
+
+### Besonderheit bei daten- und IT-basierten Ressourcen
+
+Für informationsbasierte Ressourcenkategorien (z. B. Daten, IT-Systeme, Informationsspeicher) muss zusätzlich die Recovery Point Objective (RPO) bestimmt werden. Diese beschreibt den maximal tolerierbaren Datenverlust – also bis zu welchem Zeitpunkt Daten im Notbetrieb zurückliegen dürfen, ohne den Prozessablauf unzulässig zu beeinträchtigen.
+
+Die RPO ist konzeptionell unabhängig von MTPD und RTO, wird jedoch im nächsten Schritt konsolidiert, wenn mehrere Prozesse auf dieselbe Ressource zugreifen.
 
 ### RTO und RPO konsolidieren
 
-Die Ressourcenverantwortlichen leiten aus den Ergebnissen der Prozesseigentümer den maximal zulässigen Datenverlust (RPO) bzw. die geforderte Wiederanlaufzeit (RTO) einer Ressource ab und dokumentieren diese in der jeweiligen Ressource. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die kleinste RTO oder PRO bestimmt die Anforderung für die Ressource.
-
-
-Tragen Sie die Werte derzeit manuell im Ressourcen-Objekt unter **Geforderte Wiederanlaufzeit (RTO)** und **Maximal zulässiger Datenverlust (RPO)** ein.
-
-![Konsolidierung der RPO und RTO auf die Ressourcen](../assets/domain-bcm/verinice-46-rtoRpoResource.png)
-
-## Abbildung von Ressourcenabhängigkeiten
-
-### Ressourcenabhängigkeiten
-
-Für alle zeitkritischen Geschäftsprozesse müssen die erforderlichen **Ressourcen** identifiziert und den Prozessen zugeordnet werden. Diese Verknüpfung bildet die Basis für die Planung der **Geschäftsfortführung** im Not- und Krisenfall.
+Nachdem alle Prozesseigentümer ihre Bedarfe dokumentiert haben, werden die RTO- und RPO-Anforderungen der verschiedenen Prozesse auf Ebene der jeweiligen Ressourcen konsolidiert. Die finalen Ergebnisse werden direkt in das Ressourcen-Objekt übernommen. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die schärfste (kleinste) RTO oder RPO aller verknüpften Prozesse bestimmt die globale Anforderung für diese Ressource.
 
 ### Identifizierung von Single Points of Failure
 
-Ressourcen, die von mehreren zeitkritischen Prozessen gemeinsam genutzt werden, sind als **Single Points of Failure (SPoF)** zu kennzeichnen. In verinice kann dies über das Feld  
-**Single-Point-of-Failure/of-Knowledge/of-Contact (SPoF/SPoK/SPoC)** in dem Ressourcen-Objekt erfolgen. Zuvor können die SPoFs als bekannte Schwachpunkte in einem Geschäftsprozess verknüpft werden. 
+Ressourcen, die von mehreren zeitkritischen Prozessen gemeinsam genutzt werden und bei deren Ausfall eine Kettenreaktion droht, sind als kritische Engpässe zu kennzeichnen. In verinice können diese Schwachstellen im Ressourcen-Objekt über das Feld Single-Point-of-Failure/of-Knowledge/of-Contact (SPoF/SPoK/SPoC) dokumentiert werden. Bevor Sie dies tun, können die SPoFs als bekannte Schwachpunkte direkt im übergeordneten Geschäftsprozess verknüpft werden.
 
-Unterschieden wird zwischen:
+verinice unterscheidet dabei drei Kategorien:
 
-- **SPoF:** Technische oder dienstleistungsbezogene Engpässe  
-- **SPoK:** Wissensabhängigkeiten einzelner Personen  
-- **SPoC:** Kommunikationsabhängigkeiten einzelner Kontakte  
+* SPoF (Single Point of Failure): Technische oder dienstleistungsbezogene Engpässe (z. B. eine zentrale Firewall, ein einziger externer Dienstleister).
+* SPoK (Single Point of Knowledge): Wissensabhängigkeiten, bei denen geschäftskritisches Know-how nur bei einer einzelnen Person liegt.
 
-![Abbildung von Ressourcenabhängigkeiten](../assets/domain-bcm/verinice-46-bia4.gif)
+* SPoC (Single Point of Contact): Kommunikationsabhängigkeiten, bei denen der Informationsfluss an einer einzigen Kontaktperson hängt.
 
-## Ausblick – Ressourcenbedarf im Notbetrieb
+## Entwickeln von Notfall- und BC-Lösungen zur Geschäftsfortführungsplanung
 
-Das **verinice.TEAM** arbeitet an Funktionen zur **automatisierten Berechnung und Konsolidierung** von **MTPD-, RTO- und RPO-Werten** sowie zur Ermittlung des Ressourcenbedarfs, z. B. Personal, Arbeitsplätze, Maschinen, IT-Arbeitsmittel, über die Dauer des Notbetriebs, um die Kontinuität im Notbetrieb zu gewährleisten.
+Sobald die Defizite und Anforderungen aus der BIA feststehen, müssen für die kritischen Ressourcen entsprechende Notfallkonzepte und -lösungen erarbeitet werden.
+
+* Verknüpfung in verinice: Unter dem Abschnitt „Notfallplanung“ können Sie die entsprechenden BC-Lösungen direkt mit den Ressourcen verknüpfen.
+
+* Detaillierung: Die eigentliche Ausarbeitung der Geschäftsfortführungspläne erfolgt anschließend im spezifischen Subtyp BC-Lösung (Details hierzu finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).

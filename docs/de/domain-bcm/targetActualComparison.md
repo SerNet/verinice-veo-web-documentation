@@ -1,5 +1,5 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Durchführung des Soll-Ist-Vergleichs und Entwicklung von BC-Strategien
+# Durchführung des Soll-Ist-Vergleichs
 
 Nach Abschluss der **Business Impact Analyse (BIA)** liegen für alle betrachteten zeitkritischen Ressourcen die **Recovery Time Objectives (RTO)** sowie – sofern relevant – die **Recovery Point Objectives (RPO)** vor.  
 Diese Werte stellen die **Soll-Anforderungen** an die Wiederherstellungsfähigkeit dar.  
@@ -26,7 +26,7 @@ Für informationsbasierte Ressourcen wird analog die **RPO** mit dem **Recovery 
 In verinice steht ein Feld zur Verfügung, um den **Datensicherungszyklus** zu erfassen. Vergleichen Sie diesen Zyklus mit der festgelegten RPO und dokumentieren Sie den tatsächlichen Datenverlust (RPA).  
 Treffen Sie anschließend eine Aussage, ob die `RPA ≤ RPO` ist.
 
-![Soll-Ist Vergleich](../assets/domain-bcm/verinice-46-targetActualComparison.png)
+![Soll-Ist Vergleich](../assets/domain-bcm/verinice-51-targetActualComparison.png)
 
 ## Auswertung und Freigabe der Ergebnisse (AUSBLICK)
 

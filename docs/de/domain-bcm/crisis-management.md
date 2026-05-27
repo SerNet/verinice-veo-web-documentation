@@ -17,9 +17,11 @@ Legen Sie unter dem Subtyp Sofortmaßnahme eine neue Maßnahme an und ergänzen 
 
 ![Sofortmaßnahme erstellen](../assets/domain-bcm/verinice-46-immediateMeasureExample.png)
 
-Anschließend kann die Sofortmaßnahme entweder im BCMS-Geltungsbereich (als allgemeine Maßnahme) oder mit dem jeweiligen Notfallszenario verknüpft werden.
+Anschließend können alle Sofortmaßnahmen im Notfallhandbuch 
 
-![Allgemeine Sofortmaßnahme im Scope verknüpfen](../assets/domain-bcm/verinice-46-immediateMeasureScope.png)
+![Allgemeine Sofortmaßnahme im Notfallhandbuch verknüpfen](../assets/domain-bcm/emergencyPlan.png)
+
+oder szenario-spezifische Sofortmaßnahmen im Ausfallszenario verknüpft und zusammengefasst werden.
 
 ![Szenario-spezifische Sofortmaßnahme im Notfallszenario verknüpfen](../assets/domain-bcm/verinice-46-immediateMeasureScenario.png)
 
@@ -46,7 +48,49 @@ Das Ereignis wird in verinice als Vorfall-Objekt dokumentiert. In diesem Objekt 
 
 ![Incident](../assets/domain-bcm/verinice-46-incident.png)
 
-## Zukünftige Weiterentwicklungen
+# Notfallhandbuch per Report erstellen
+
+Das Notfallhandbuch bündelt alle Aspekte zur Notfallbewältigung und dient im Ernstfall auch als zentrale Unterstützung bei der Krisenbewältigung. Es wird in der Regel durch den BCM-Beauftragten erstellt. 
+
+Der Aufbau des Notfallhandbuchs in verinice orientiert sich eng an der offiziellen Dokumentenvorlage des BSI (nach BSI-Standard 200-4). Es deckt alle relevanten Anforderungen aus Kapitel 6.4 (Aufbau und Befähigung der BAO) ab, die eine Dokumentation im Rahmen des Notfallhandbuchs voraussetzen. Zudem werden die in den Kapiteln 6.9 (Geschäftsfortführungspläne) und 6.10 (Wiederanlaufpläne) behandelten operativen Notfallpläne direkt im Notfallhandbuch dokumentiert oder von dort aus referenziert.
+
+## Zentrale Inhalte des Notfallhandbuchs
+
+Das verinice-Modul strukturiert das Notfallhandbuch in folgende Kernbereiche:
+
+* Allgemeine Informationen: Zielsetzung, Geltungsbereich und grundlegende Definitionen des Notfallhandbuchs.
+
+* Sofortmaßnahmen: Erste Verhaltensweisen und Schutzmaßnahmen unmittelbar nach Eintritt eines Ereignisses.
+
+* Alarmierung und Eskalation: Dokumentation der Meldekette. Nutzen Sie hierfür die spezifischen Custom-Links, um die genauen Meldewege (z. B. den Eskalations- und Alarmierungspfad) direkt zu verknüpfen.
+
+* Detektion und Meldung: Kriterien zur Erkennung von Notfällen. Über Custom-Links lassen sich hier vordefinierte Leitfragen zur ersten Lageeinschätzung verlinken.
+
+* Alarmierung der BAO: Prozesse und Zuständigkeiten zur Einberufung der Besonderen Aufbauorganisation.
+
+* Stabsraum: Dokumentation der Standorte und Erreichbarkeiten der Stabsräume sowie deren technische Ausstattung und Vorbereitung.
+
+* Stabsarbeit: Richtlinien für die Arbeit im Krisenstab. Nutzen Sie den Custom-Link, um direkt auf die geltenden Grundsätze der Stabsarbeit zu verweisen.
+
+* Geschäftsfortführungspläne (GFP): Referenzierung der Pläne zur Aufrechterhaltung kritischer Geschäftsprozesse.
+
+* Wiederanlauf- und Wiederherstellungspläne (WAP/WHP): Referenzierung der technischen und organisatorischen Pläne zur Wiederinbetriebnahme ausgefallener Ressourcen.
+
+* Überführung in den Normalbetrieb: Erforderliche Maßnahmen zur geordneten Rückkehr in den Regelbetrieb, Prozesse zur Deeskalation, Analyse und Bewertung der erfolgten Notfallbewältigung (Lessons Learned).
+
+* Regelungen zur regelmäßigen Überprüfung und Aktualisierung des Notfallhandbuchs.
+
+* Geschäftsordnung des Stabs: Regelungen und Kompetenzen für die Mitglieder des Krisenstabes.
+
+* Referenzdokumente & Kommunikationsmedien: Übersicht der im Notfall verfügbaren, redundanten Kommunikationsmittel sowie mitgeltender Unterlagen.
+
+* Wichtige Kontakte: Zentrale Telefonnummern, Ansprechpartner und Erreichbarkeiten aller internen und externen Schlüsselpersonen.
+
+## Generierung des Handbuchs
+
+Nachdem Sie die oben genannten Inhalte und Verknüpfungen in Ihrer BCM-Domäne gepflegt haben, können Sie das vollständige, standardkonforme Dokument jederzeit automatisch über die Report-Funktion in verinice exportieren und als fertiges Notfallhandbuch bereitstellen.
+
+# Zukünftige Weiterentwicklungen
 
 Das verinice.TEAM plant die Erweiterung von verinice um Funktionen zur Digitalisierung der Notfall- und Krisenbewältigung oder um Schnittstellen zu anderen geeigneten Tools. 
-Schwerpunkte sind das Management von Meldewegen, die Alarmierung der BAO, die Unterstützung der Stabsarbeit sowie die automatische Erstellung eines Notfallhandbuchs.
+Schwerpunkte sind das Management von Meldewegen, die Alarmierung der BAO sowie die Unterstützung der Stabsarbeit. 

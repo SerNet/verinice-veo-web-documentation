@@ -1,5 +1,5 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Definition Bewertung von BC-Strategien
+# Definition und Bewertung von BC-Strategien
 
 Die **Risikoanalyse** liefert die relevanten Risiken, die durch geeignete **BC-Strategien** vermieden oder reduziert werden sollen.  
 

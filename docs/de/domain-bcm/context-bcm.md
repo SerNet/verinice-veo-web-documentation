@@ -17,7 +17,7 @@ Die Abbildung einzelner Institutionen dient zudem dazu, den jeweiligen BCMS-Gelt
 
 ## Anforderungen identifizieren und modellieren
 
-Im Anschluss an die Definition des organisatorischen Kontextes können Anforderungen identifiziert werden – beispielsweise die Erwartungen und Bedürfnisse der Interessengruppen oder Anforderungen, die sich aus anderen Scopes ergeben. Aus diesen Informationen werden anschließend die spezifischen Anforderungen an das BCMS abgeleitet und erfasst. Für Interessengruppen kann zudem bewerten werden, welchen Einfluss diese auf das BCMS haben.
+Im Anschluss an die Definition des organisatorischen Kontextes können Anforderungen identifiziert werden – beispielsweise die Erwartungen und Bedürfnisse der Interessengruppen oder Anforderungen, die sich aus anderen Scopes ergeben. Aus diesen Informationen werden anschließend die spezifischen Anforderungen an das BCMS abgeleitet und erfasst. Für Interessengruppen kann zudem bewertet werden, welchen Einfluss diese auf das BCMS haben.
 
 Nachdem sowohl die Scopes als auch die Anforderungen in verinice angelegt wurden, können diese miteinander verknüpft werden. Hierfür stehen zwei Vorgehensweisen zur Verfügung:
 
@@ -42,9 +42,9 @@ Das Modellieren der Anforderungen innerhalb eines Scopes ermöglicht zudem die V
 
 ![Geltungsbereich definieren](../assets/domain-bcm/verinice-46-scope1.png)
 
-Andererseits besteht die Möglichkeit, relevante Verknüpfungen herzustellen – beispielsweise zur BCMS-Leitlinie, zum Business-Continuity-Beauftragten (BCB) sowie zu allgemeinen Sofortmaßnahmen.
+Andererseits kann die BCMS-Leitlinie oder der/die Business-Continuity-Beauftragte/n (BCB) verknüpft werden.
 
-![Leitlinie, BCB und Sofortmaßnahmen dem Geltungsbereich zuordnen](../assets/domain-bcm/verinice-46-scope2.png)
+![Leitlinie und BCB dem Geltungsbereich zuordnen](../assets/domain-bcm/bcms-scope.png)
 
 ## Dokumenten- und Organisationsstruktur
 
