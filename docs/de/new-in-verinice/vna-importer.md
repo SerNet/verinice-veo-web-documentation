@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Der VNA-Importer
 
+Versionsstand: **27.05.2026**
+
 Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation (**verinice.cloud** bzw. **verinice.onprem**) steht der **VNA-Importer** als separater Java-Client zur Verfügung.
 
 ## Funktionsumfang
@@ -38,13 +40,15 @@ Bausteine mit offizieller Benennung aus dem Kompendium müssen **vollständig** 
 
 Pro Baustein darf zudem nur eine Person als **Bausteinverantwortlicher** referenziert sein.
 
-### Risikodefinition prüfen
+### Risikodefinitionen prüfen
 
-Die Risikodefinition muss **identisch zur Risikomatrix** in verinice sein. Da in beiden Generationen als Standard die Risikodefinition aus dem BSI-Standard 200-3 verwendet wird, ist keine Aktion erforderlich, sofern die Risikodefinition in verinice nicht angepasst wurde.
+Die Risikodefinitionen für die Domänen **IT-Grundschutz** und sofern verwendet für die Domäne **DS-GVO** müssen **identisch zu den Risikomatrizen** in verinice sein.
 
-Falls eine Anpassung der Risikodefinition erforderlich ist, kann dies einfach über das Menü im Abschnitt **Risikodefinition** erfolgen.
+Da in beiden Generationen für den IT-Grundschutz als Standard die Risikodefinition aus dem BSI-Standard 200-3 verwendet wird, ist keine Aktion erforderlich, sofern die Risikodefinition in verinice nicht angepasst wurde.
 
-Beachten Sie, dass Risiken in verinice.cloud nur angelegt werden, wenn für ein Zielobjekt in verinice die Option **Risikoanalyse erforderlich** gesetzt ist.
+Falls eine Anpassung einer Risikodefinition erforderlich ist, kann dies einfach über das Menü im Abschnitt **Risikodefinition** erfolgen.
+
+Beachten Sie, dass Risiken an Zielobjekten in verinice.cloud nur angelegt werden, wenn für ein Zielobjekt in verinice die Option **Risikoanalyse erforderlich** gesetzt ist. Risiken an Informationsverbünden hingegen werden immer übernommen.
 
 ### Neue Zielobjekte definieren
 
@@ -61,7 +65,11 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 - Einige wenige ältere Felder aus verinice sind in der neuen Generation nicht mehr vorhanden und werden bewusst nicht übertragen (z.B. Tags).
 - Der Import von anwenderspezifischen Feldern/Daten (nach Customizing) kann in Abstimmung mit dem verinice.Team ergänzt werden.
 
-## Installation
+## Download und Installation
+
+Der VNA-Importer steht in der letzten gültigen Version zum Download zur Verfügung unter:
+
+https://own.sernet.de/s/KoqZM2qRidESGPE .
 
 Für den **VNA-Importer** ist Java (Version 17 bis 25) erforderlich. Da der VNA-Importer kontinuierlich weiter entwickelt wird, verwenden Sie die jeweils aktuellste Version. Das Tool ist in englischer Sprache verfügbar.
 
@@ -69,8 +77,8 @@ Für den **VNA-Importer** ist Java (Version 17 bis 25) erforderlich. Da der VNA-
 
 Für den Import von Daten in den jeweiligen Client in der **verinice.cloud** steht der VNA-Importer vereinfacht als Tool mit graphischer Benutzeroberfläche (Graphical User Interface - GUI) zur Verfügung. Sie können diese wie folgt aufrufen:
 
-- unter **Windows** durch Ausführen der Datei **veo-vna-importer.exe**.
-- unter **macOS** und **Linux** durch Aufruf von **java -jar veo-vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
+- unter **Windows** durch Ausführen der Datei **vna-importer.exe**.
+- unter **macOS** und **Linux** durch Aufruf von **java -jar vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
 
 ![VNA-Importer](../assets/new-in-verinice/vna-importer-start.png)
 
@@ -106,21 +114,21 @@ Um alle verfügbaren Optionen des CLI anzuzeigen, rufen Sie den VNA-Importer mit
 `java -jar build/libs/vna-importer.jar -h`
 
 ```
-$ java -jar build/libs/veo-vna-importer.jar -h
+$ java -jar build/libs/vna-importer.jar -h
 Usage examples:
 
 Simple import into the veo.cloud:
-java -jar veo-vna-importer.jar -f mydata.vna -u veo-user@domain.example
+java -jar vna-importer.jar -f mydata.vna -u veo-user@domain.example
 
 Import using an authentication token:
-java -jar veo-vna-importer.jar -f mydata.vna -x TOKEN
+java -jar vna-importer.jar -f mydata.vna -x TOKEN
 
 Dry-run with debug logging and JSON output to console:
-java -jar veo-vna-importer.jar -f mydata.vna -u veo-user@domain.example -n -d\
+java -jar vna-importer.jar -f mydata.vna -u veo-user@domain.example -n -d\
   -o-
 
 Import into on-prem installation:
-java -jar veo-vna-importer.jar -f mydata.vna  -u veo-user@mydomain.example\
+java -jar vna-importer.jar -f mydata.vna  -u veo-user@mydomain.example\
   -v https://api.veo.mydomain.example/veo\
   --keycloak-url=https://keycloak.mydomain.example/auth
 
