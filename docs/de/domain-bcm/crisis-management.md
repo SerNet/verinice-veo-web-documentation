@@ -89,8 +89,3 @@ Das verinice-Modul strukturiert das Notfallhandbuch in folgende Kernbereiche:
 ## Generierung des Handbuchs
 
 Nachdem Sie die oben genannten Inhalte und Verknüpfungen in Ihrer BCM-Domäne gepflegt haben, können Sie das vollständige, standardkonforme Dokument jederzeit automatisch über die Report-Funktion in verinice exportieren und als fertiges Notfallhandbuch bereitstellen.
-
-# Zukünftige Weiterentwicklungen
-
-Das verinice.TEAM plant die Erweiterung von verinice um Funktionen zur Digitalisierung der Notfall- und Krisenbewältigung oder um Schnittstellen zu anderen geeigneten Tools. 
-Schwerpunkte sind das Management von Meldewegen, die Alarmierung der BAO sowie die Unterstützung der Stabsarbeit. 

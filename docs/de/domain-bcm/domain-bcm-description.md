@@ -75,7 +75,7 @@ Der Katalog der BCM-Domäne stellt den aktuellen Anforderungskatalog des BSI ber
 
 ## Profile
 
-Es wird das BCM Profil für Hochschulen zur Verfügung gestellt. 
+Keine. 
 
 ## Decisions
 
@@ -83,7 +83,7 @@ Keine.
 
 ## Reports
 
-Die nachfolgenden Reports wurden in Anlehnung an den BSI-Hilfsmitteln erstellt.
+Die nachfolgenden Reports werden in Anlehnung an den BSI-Hilfsmitteln erstellt.
 - Wiederanlaufplan / Wiederherstellungsplan für Ressourcen  
 - Geschäftsfortführungspläne für Prozesse
 - Notfallhandbuch   
