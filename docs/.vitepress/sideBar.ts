@@ -116,6 +116,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     link: "/release-notes/",
     collapsed: true,
     items: [
+      { text: { de: "verinice 55", en: "verinice 55" }, link: "/release-notes/verinice-55" },
       { text: { de: "verinice 54", en: "verinice 54" }, link: "/release-notes/verinice-54" },
       { text: { de: "verinice 53", en: "verinice 53" }, link: "/release-notes/verinice-53" },
       { text: { de: "verinice 52", en: "verinice 52" }, link: "/release-notes/verinice-52" },
