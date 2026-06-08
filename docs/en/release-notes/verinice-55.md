@@ -13,15 +13,17 @@ In the Graph View, the number of displayed objects can be freely selected with t
 ## VNA Importer for IT-Grundschutz and Data Protection
 <!-- epics/305 -->
 
-Provision of the VNA Importer for migrating data to the IT-Grundschutz and Data Protection domains.
+Release of the [VNA Importer](../new-in-verinice/vna-importer) for migrating data to the IT-Grundschutz and Data Protection domains.
+
 ## Import Units
 <!-- epics/304 -->
 
-In Unit Management, units previously exported via data transfer can be imported.
+In Unit Management, you can [import units](../manual/unit-management#import-units) that were previously exported via [data transfer](../manual/data-transfer).
+
 ## Conflict-Free Domain Updates
 <!-- epics/59 -->
 
-Changes and new features in domains may require the migration of existing data. Any conflicts that may arise are detected and displayed so that users can resolve them.
+Changes and new features in domains may require the migration of existing data. Any conflicts (breaking changes) that may arise are detected, and available [domain updates](../manual/domain-updates) are displayed so that users can resolve them.
 
 This release includes the following updates to domains:
 <!-- epics/302 -->

@@ -11,7 +11,7 @@ Der VNA-Importer ist aktuell verfügbar für die Übernahme von Daten aus den Pe
 
 Der VNA-Importer erstellt eine neue Unit und importiert die Daten aus der VNA-Datei in diese Unit.
 
-::: warning Sollten Sie die maximale Anzahl von Units in Ihrer verinice.cloud-Instanz überschritten haben, müssen Sie zunächst eine Unit löschen oder die Unit-Begrenzung erhöhen, bevor Sie neue Daten importieren können.
+::: warning Sollten Sie die maximale Anzahl von Units in Ihrer verinice.cloud-Instanz überschritten haben, müssen Sie zunächst eine Unit löschen oder weitere Units kaufen, bevor Sie neue Daten importieren können.
 :::
 
 Es können mehrere Informationsverbünde in eine Unit übernommen werden. Die Daten werden dabei aus einer zuvor exportierten **VNA-Datei** neu als Kopie in der Zielumgebung angelegt - die originalen Daten bleiben unverändert erhalten!
@@ -65,11 +65,9 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 - Einige wenige ältere Felder aus verinice sind in der neuen Generation nicht mehr vorhanden und werden bewusst nicht übertragen (z.B. Tags).
 - Der Import von anwenderspezifischen Feldern/Daten (nach Customizing) kann in Abstimmung mit dem verinice.Team ergänzt werden.
 
-## Download und Installation
+## Installation
 
-Der VNA-Importer steht in der letzten gültigen Version zum Download zur Verfügung unter:
-
-https://own.sernet.de/s/KoqZM2qRidESGPE .
+<!-- Der VNA-Importer steht in der letzten gültigen Version zum Download zur Verfügung unter: -->
 
 Für den **VNA-Importer** ist Java (Version 17 bis 25) erforderlich. Da der VNA-Importer kontinuierlich weiter entwickelt wird, verwenden Sie die jeweils aktuellste Version. Das Tool ist in englischer Sprache verfügbar.
 

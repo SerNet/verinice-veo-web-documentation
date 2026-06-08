@@ -44,8 +44,10 @@ features:
     link: /en/developers/
 ---
 
-::: warning 
-The English version of the documentation is a work in progress. It is incomplete and may contain errors.
+::: danger Please note that [domain updates](/en/manual/domain-updates) may be available. To take full advantage of all the new features in verinice, we recommend updating all new domains.
+:::
+
+::: warning The English version of the documentation is a work in progress. It is incomplete and may contain errors.
 :::
 
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->

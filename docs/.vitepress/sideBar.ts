@@ -17,6 +17,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
       { text: { de: "Datenübertragung", en: "Data Transfer" }, link: "/manual/data-transfer" },
       { text: { de: "Benutzerverwaltung", en: "User Management" }, link: "/manual/accounts" },
       { text: { de: "Berechtigungen", en: "Permissions" }, link: "/manual/permissions" },
+      { text: { de: "Domänen-Updates", en: "Domain Updates" }, link: "/manual/domain-updates" },
     ],
   },
   {

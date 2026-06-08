@@ -13,17 +13,17 @@ Im Graph View ist mit dieser Iteration die Anzahl der angezeigten Objekte frei w
 ## VNA-Importer IT-Grundschutz und Datenschutz
 <!-- epics/305 -->
 
-Bereitstellung des VNA-Importers zur Migration von Daten in die Domänen IT-Grundschutz und Datenschutz.
+Bereitstellung des [VNA-Importers](../new-in-verinice/vna-importer) zur Migration von Daten in die Domänen IT-Grundschutz und Datenschutz.
 
 ## Units importieren
 <!-- epics/304 -->
 
-In der Unit-Verwaltung können zuvor über Datenübertragung exportierte Units importiert werden.
+In der Unit-Verwaltung können Sie zuvor über [Datenübertragung](../manual/data-transfer) exportierte [Units importieren](../manual/unit-management#units-importieren).
 
 ## Konfliktfreie Domain-Updates
 <!-- epics/59 -->
 
-Änderungen und Neuerungen an Domänen können die Migration von bereits existierenden Daten erfordern. Dabei eventuell auftretende Konflikte werden erkannt und angezeigt, damit diese von Anwenderinnen und Anwendern aufgelöst werden können.
+Änderungen und Neuerungen an Domänen können die Migration von bereits existierenden Daten erfordern. Dabei eventuell auftretende Konflikte (breaking changes) werden erkannt und verfügbare [Domänen-Updates](../manual/domain-updates) angezeigt, damit diese von Anwenderinnen und Anwendern aufgelöst werden können. 
 
 Mit dieser Funktion werden die folgenden Neuerungen an Domänen veröffentlicht:
 

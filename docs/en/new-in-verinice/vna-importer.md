@@ -11,7 +11,7 @@ The VNA Importer is currently available for importing data from the **IT-Grundsc
 
 The VNA Importer creates a new unit and imports the data from the VNA file into this unit.
 
-::: warning If you have exceeded the maximum number of units in your verinice.cloud instance, you must first delete a unit or increase the unit limit before you can import new data.
+::: warning If you have exceeded the maximum number of units in your verinice.cloud instance, you must first delete a unit or buy further units before you can import new data.
 :::
 
 Multiple information networks can be imported into a single unit. The data is created as a new copy in the target environment from a previously exported **VNA file**—the original data remains unchanged!
@@ -63,10 +63,9 @@ The following restrictions must be observed during the VNA import:
 - A few older fields from verinice are no longer available in the new generation and are intentionally not transferred (e.g., tags).
 - The import of user-specific fields/data (following customization) can be supplemented in consultation with the verinice.Team.
 
-## Download and Installation
+## Installation
 
-The latest valid version of the VNA Importer is available for download at:
-https://own.sernet.de/s/KoqZM2qRidESGPE .
+<!-- The latest valid version of the VNA Importer is available for download at: -->
 
 Java (versions 17 through 25) is required for the **VNA Importer**. Since the VNA Importer is continuously being developed, please use the latest version available. The tool is available in English.
 
