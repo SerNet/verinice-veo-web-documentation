@@ -28,7 +28,7 @@ Treffen Sie anschließend eine Aussage, ob die `RPA ≤ RPO` ist.
 
 ![Soll-Ist Vergleich](../assets/domain-bcm/verinice-51-targetActualComparison.png)
 
-## Auswertung und Freigabe der Ergebnisse (AUSBLICK)
+## Auswertung und Freigabe der Ergebnisse 
 
 Nach Abschluss des Soll-Ist-Vergleichs sollte eine **Gesamtübersicht aller zeitkritischen Ressourcen** erstellt werden, insbesondere jener, bei denen die Soll-Werte nicht erreicht werden. Diese Übersicht wird der **Institutionsleitung** vorgelegt und mit ihr abgestimmt.
 Die Institutionsleitung sollte folgende Informationen erhalten und bestätigen:

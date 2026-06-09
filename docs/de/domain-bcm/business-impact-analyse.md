@@ -38,7 +38,7 @@ Für einen strukturierten Überblick werden benötigte Ressourcen unter dem Obje
 * Strukturierung: Einzelne Ressourcen ordnen Sie über den Reiter (Tab) Teile dem jeweils passenden Composite zu.
 * Verantwortlichkeiten: Verknüpfen Sie direkt in der Ressource die zuständigen internen Personen oder externen Dienstleister.
 
-![Verantwortliche einer Ressource](../assets/domain-bcm/resource-1.png)
+![Verantwortliche Personen einer Ressource](../assets/domain-bcm/resource-1.png)
 
 ## Durchführung der BIA
 
@@ -95,6 +95,6 @@ verinice unterscheidet dabei drei Kategorien:
 
 Sobald die Defizite und Anforderungen aus der BIA feststehen, müssen für die kritischen Ressourcen entsprechende Notfallkonzepte und -lösungen erarbeitet werden.
 
-* Verknüpfung in verinice: Unter dem Abschnitt „Notfallplanung“ können Sie die entsprechenden BC-Lösungen direkt mit den Ressourcen verknüpfen.
+* Verknüpfung in verinice: Unter dem Abschnitt **Notfallplanung** können Sie die entsprechenden BC-Lösungen direkt mit den Ressourcen verknüpfen.
 
-* Detaillierung: Die eigentliche Ausarbeitung der Geschäftsfortführungspläne erfolgt anschließend im spezifischen Subtyp BC-Lösung (Details hierzu finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).
+* Detaillierung: Die eigentliche Ausarbeitung der Geschäftsfortführungspläne erfolgt anschließend im spezifischen Subtyp **BC-Lösung** (Details hierzu finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).

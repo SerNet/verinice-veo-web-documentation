@@ -4,7 +4,7 @@
 Im Rahmen der Act-Phase des PDCA-Zyklus ist die kontinuierliche Verbesserung des BCMS sicherzustellen.
 Hierzu sind identifizierte Korrekturbedarfe und Verbesserungspotenziale systematisch zu dokumentieren, zu bewerten und nachzuverfolgen.
 
-In verinice können unter dem Control-Subtyp Korrektur- und Verbesserungsmaßnahmen neue Maßnahmen angelegt oder bestehende Maßnahmen eingesehen und verwaltet werden.
+In verinice können unter dem Control-Subtyp **Korrektur- und Verbesserungsmaßnahmen** neue Maßnahmen angelegt oder bestehende Maßnahmen eingesehen und verwaltet werden.
 
 ![Erstelle Korrektur- und Verbesserungsmaßnahmen](../assets/domain-bcm/verinice-46-correctiveMeasure1.gif)
 

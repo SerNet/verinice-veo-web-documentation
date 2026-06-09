@@ -71,7 +71,7 @@ Die elementaren Gefährdungen aus dem ISMS können ebenfalls in die BCM-Domäne 
 
 ## Katalog
 
-Der Katalog der BCM-Domäne stellt den aktuellen Anforderungskatalog des BSI bereit. Er umfasst sämtliche Anforderungen aus dem BSI-Standard 200-4, strukturiert nach den Kategorien *MUSS-* und *SOLLTE*-Anforderungen. Die Anwendung des Katalogs ist optional, bietet jedoch die Möglichkeit, das BCMS systematisch zu bewerten und die Erfüllung der BSI-Anforderungen nachvollziehbar zu dokumentieren.
+Der Katalog der BCM-Domäne stellt den aktuellen Anforderungskatalog des BSI bereit. Er umfasst sämtliche Anforderungen aus dem BSI-Standard 200-4, strukturiert nach den Kategorien **MUSS-** und **SOLLTE**-Anforderungen. Die Anwendung des Katalogs ist optional, bietet jedoch die Möglichkeit, das BCMS systematisch zu bewerten und die Erfüllung der BSI-Anforderungen nachvollziehbar zu dokumentieren.
 
 ## Profile
 

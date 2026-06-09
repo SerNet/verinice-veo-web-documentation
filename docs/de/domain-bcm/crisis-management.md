@@ -56,7 +56,7 @@ Der Aufbau des Notfallhandbuchs in verinice orientiert sich eng an der offiziell
 
 ## Zentrale Inhalte des Notfallhandbuchs
 
-Das verinice-Modul strukturiert das Notfallhandbuch in folgende Kernbereiche:
+verinice strukturiert das Notfallhandbuch in folgende Kernbereiche:
 
 * Allgemeine Informationen: Zielsetzung, Geltungsbereich und grundlegende Definitionen des Notfallhandbuchs.
 
