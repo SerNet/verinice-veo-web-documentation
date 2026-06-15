@@ -1,12 +1,5 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Domänen-Templates
-
-::: warning Warnung
-
-Das hier beschriebenen Verhalten bezüglich Domänen-Updates ist in der aktuellen Version von verinice so noch nicht gegeben.
-Derzeit werden Domänen-Updates noch von den jeweiligen Plattformbetreibern ausgelöst und nicht wie hier beschrieben von den Hauptbenutzern.
-:::
 
 **Domänen-Templates** sind in einer verinice-Instanz zentral definiert.
 Sie stehen grundsätzlich allen [Clients](objects.md#client) zur Verfügung.
@@ -83,7 +76,7 @@ Nutzer der 3.\*.\*-Versionen müssen also erst auf Version 4.1.0 migrieren, um d
 
 ## Domänen-Update
 
-Verwendet ein Hauptnutzer eine ältere Version einer Domäne in seinem Client, dann kann er so lange mit diesem Stand weiterarbeiten, bis er sich zum Domänen-Update entschließt.
+Verwendet ein Hauptnutzer eine ältere Version einer Domäne in seinem Client, dann kann er so lange mit diesem Stand weiterarbeiten, bis er sich zum [Domänen-Update](../manual/domain-updates) entschließt.
 Beim Domänen-Update wird das neue Domänen-Template als Domäne in seinen Client kopiert und alle mit der alten Domänen-Version assoziierten [Objekte](objects.md#fachobjektek) werden in diese neue Version überführt.
 Normalerweise werden die bestehenden Daten 1:1 übernommen und der Anwender muss nicht in das Update eingreifen, aber in einigen Fällen ist eine Migration der Daten erforderlich.
 

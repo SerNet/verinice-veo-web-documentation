@@ -1,12 +1,5 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Domain templates
-
-::: warning Warning
-
-The behavior described here regarding domain updates is not yet given in the current version of verinice.
-Currently, domain updates are still triggered by the respective platform operators and not by the main users as described here.
-:::
 
 **Domain templates** are centrally defined in a verinice instance.
 They are generally available to all [clients](objects.md#client).
@@ -83,7 +76,7 @@ Users of the 3.\*.\* versions must therefore migrate to version 4.1.0 to use the
 
 ## Domain update
 
-If a main user uses an older version of a domain in their client, they can continue working with that version until they decide to update their client to a newer domain template version.
+If a main user uses an older version of a domain in their client, they can continue working with that version until they decide to [update the domain](../manual/domain-updates).
 During the domain update, the new domain template is copied into its client as a domain and all [objects](objects) associated with the old domain version are transferred to this new version.
 Normally, the existing data are transferred one-to-one and the user does not have to intervene in the update, but in some cases a migration of the data is required.
 

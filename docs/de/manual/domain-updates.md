@@ -2,13 +2,13 @@
 # Domänen-Updates
 <!-- verinice 55 -->
 
-Um Inkompatibilitäten (breaking changes) bei der Erweiterung von Domänen zu vermeiden, prüft verinice bei der Anmeldung ob neue Versionen der Domänen vorliegen und zeigt diese ggf. im neuen Menüpunkt **Domänen-Updates** an.
+Um Inkompatibilitäten (breaking changes) bei der Erweiterung von [Domänen](../object-model/domains) zu vermeiden, prüft verinice bei der Anmeldung ob neue Versionen der Domänen vorliegen und zeigt diese ggf. im neuen Menüpunkt **Domänen-Updates** an.
 
 Nach Aufruf des Menüpunkts listet eine Übersicht alle neuen Versionen der Domänen auf:
 
 ![Domänen-Updates verfügbar](../assets/manual/verinice-55-update-domain.png)
 
-Es ist empfohlen alle Units auf die neuesten Domänen-Versionen zu aktualisieren, um alle neuen Funktionen nutzen zu können!
+Es ist empfohlen alle [Units](../object-model/objects#unit) auf die neuesten Domänen-Versionen zu aktualisieren, um alle neuen Funktionen nutzen zu können!
 
 Liegen keine Konflikte vor, so werden die Daten in den jeweiligen Units automatisch migriert und die neue Domänen-Version ist aktiv.
 

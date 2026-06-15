@@ -2,13 +2,13 @@
 # Domain Updates
 <!-- verinice 55 -->
 
-To avoid incompatibilities (breaking changes) when extending domains, verinice checks for new versions of the domains during login and, if available, displays them in the new menu item **Domain Updates**.
+To avoid incompatibilities (breaking changes) when [domains](../object-model/domains) are extended, verinice checks for new versions of the domains during login and, if available, displays them in the new menu item **Domain Updates**.
 
 After selecting the menu item, an overview lists all new versions of the domains:
 
 ![Domain Updates Available](../assets/manual/verinice-55-update-domain.png)
 
-It is recommended to update all units to the latest domain versions to take advantage of all new features!
+It is recommended to update all [units](../object-model/objects#unit) to the latest domain versions to take advantage of all new features!
 
 If there are no conflicts, the data in the respective units is automatically migrated and the new domain version is active.
 
