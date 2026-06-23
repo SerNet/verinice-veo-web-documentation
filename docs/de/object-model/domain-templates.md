@@ -56,7 +56,7 @@ Die alte Version des Domänen-Templates bleibt davon unberührt und kann potenzi
 Domänen-Templates werden nach [Semantic Versioning 2.0.0](https://semver.org) versioniert.
 
 * **Patch**-Versionen dürfen keinerlei Strukturänderungen machen. Hier dürfen effektiv nur Übersetzungen geändert werden.
-* **Minor**-Versionen dürfen die Struktur erweitern, aber **keine** Breaking Changes machen. So dürfen z.B. neue [Aspekte](domains.md#aspekte) hinzugefügt, aber keine bestehenden angepasst oder entfernt werden.
+* **Minor**-Versionen dürfen die Struktur erweitern, aber **keine** Breaking Changes machen. So dürfen z.B. neue [Aspekte](domains.md#aspects) hinzugefügt, aber keine bestehenden angepasst oder entfernt werden.
 * **Major**-Versionen dürfen alles ändern und sind für Breaking Changes reserviert.
 
 Wurde eine neue Minor- oder Major-Version veröffentlicht, so können für die Vorversion weiterhin Hotfixes als neue Patch-Releases erscheinen.
@@ -69,7 +69,7 @@ Manche Anwenderinnen migrieren sofort auf die 4.0.0, während andere mit ältere
 Nun wird ein Tippfehler entdeckt, der beide Versionen betrifft.
 Den Typo können die Content-Creators nun für die neue und die alte Major beheben, und diese Korrekturen als Patches 3.6.3 und 4.0.1 herausbringen.
 
-Schließlich denken sich die Content-Creators neue [Aspekte](domains.md#aspekte) für den Standard aus.
+Schließlich denken sich die Content-Creators neue [Aspekte](domains.md#aspects) für den Standard aus.
 Diese können sie nun in einer neuen Minor-Version 4.1.0 veröffentlichen, aber es ist technisch nicht möglich, die neuen Aspekte als Update für die 3.\*.\*-Versionen nachzureichen.
 Nutzer der 3.\*.\*-Versionen müssen also erst auf Version 4.1.0 migrieren, um die neuen Aspekte nutzen zu können.
 :::
@@ -77,12 +77,12 @@ Nutzer der 3.\*.\*-Versionen müssen also erst auf Version 4.1.0 migrieren, um d
 ## Domänen-Update
 
 Verwendet ein Hauptnutzer eine ältere Version einer Domäne in seinem Client, dann kann er so lange mit diesem Stand weiterarbeiten, bis er sich zum [Domänen-Update](../manual/domain-updates) entschließt.
-Beim Domänen-Update wird das neue Domänen-Template als Domäne in seinen Client kopiert und alle mit der alten Domänen-Version assoziierten [Objekte](objects.md#fachobjektek) werden in diese neue Version überführt.
+Beim Domänen-Update wird das neue Domänen-Template als Domäne in seinen Client kopiert und alle mit der alten Domänen-Version assoziierten [Objekte](objects.md#specialist-objectsk) werden in diese neue Version überführt.
 Normalerweise werden die bestehenden Daten 1:1 übernommen und der Anwender muss nicht in das Update eingreifen, aber in einigen Fällen ist eine Migration der Daten erforderlich.
 
 ### Migration
 
-Domänen enthalten dynamische Datenstrukturen (wie z.B. [Aspekte](domains.md#aspekte)) und definieren somit Validierungsregeln für Objekte, die mit der Domäne assoziiert sind.
+Domänen enthalten dynamische Datenstrukturen (wie z.B. [Aspekte](domains.md#aspects)) und definieren somit Validierungsregeln für Objekte, die mit der Domäne assoziiert sind.
 Ändern sich diese Datenstrukturen so, dass diese Validierungsregeln strenger werden, dann ist von einem **Breaking Change** die Rede.
 Dies ist z.B. der Fall, wenn sich bei einem Aspektattribut der Datentyp oder der technische Key ändern.
 

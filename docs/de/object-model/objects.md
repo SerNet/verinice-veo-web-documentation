@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Objekte
 
-## Organisationsobjekte
+## Organisationsobjekte {#Organizational objects}
 
 Organisationsobjekte helfen bei der Zuordnung der Objekte zu Anwender*innen. Organisationsobjekte realisieren die Trennung der Daten in unterschiedliche Mandanten. Innerhalb eines Mandanten können weitere Untergruppen angelegt werden, z.B. für Tochtergesellschaften oder Fachabteilungen.
 
@@ -19,13 +19,13 @@ Ein Client ist unterteilt in eine oder mehrere Units (Untereinheiten). Eine Unit
 
 Beim Arbeiten mit verinice muss zuerst immer eine Unit ausgewählt werden. Jedes angelegte Fachobjekt und jede Gruppe wird der gewählten Unit zugeordnet, sodass eine Unit die hierarchische Wurzel für ihre enthaltenen Objekte darstellt. Beim Löschen einer Unit werden auch alle Objekte in der Unit gelöscht.
 
-## Fachobjekte
+## Fachobjekte {#specialist-objects}
 
-Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von verinice die Fachobjekte [Prozess](#prozess), [Asset](#asset), [Szenario](#szenario), [Risiko](#risiko), [Control](#control), [Vorfall](#vorfall), [Dokument](#dokument) und [Person](#person). Diese Objekte können über sogenannte [Subtypen](domains#subtypen) weiter präzisiert werden.
+Für den Betrieb von Managementsystemen für Informationssicherheit und Datenschutz enthält das Objektmodell von verinice die Fachobjekte [Prozess](#process), [Asset](#asset), [Szenario](#scenario), [Risiko](#risk), [Control](#control), [Vorfall](#incident), [Dokument](#document) und [Person](#person). Diese Objekte können über sogenannte [Subtypen](domains#subtypes) weiter präzisiert werden.
 
 ![fachobjekte](../assets/object-model/fachobjekte.png)
 
-### Prozess
+### Prozess {#process}
 
 Ein Geschäftsprozess ist eine Folge von Aktivitäten, die Betriebsmittel verwendet, um Eingaben in Ergebnisse umzuwandeln:
 
@@ -53,7 +53,7 @@ Der Objekttyp "Asset" ist beispielsweise geeignet für die Abbildung der folgend
 * ISO 2700x: Assets
 * NIST SP 800-61: Component, System, System-of-Interest, Capability
 
-### Szenario
+### Szenario {#scenario}
 
 Eine Situation, die eintreten kann und die Informationssicherheit gefährdet. Beschreibt ein einzelnes Schadensereignis oder einen Satz von Schadensereignissen, die einer spezifischen Bedrohungsquelle zugeordnet werden können.
 
@@ -65,9 +65,9 @@ Der Objekttyp "Szenario" ist beispielsweise geeignet für die Abbildung der folg
 
 Szenarien können andere Szenarien enthalten (siehe [Composites](#composite)).
 
-### Risiko
+### Risiko {#risk}
 
-Das Risiko ist ein Maß dafür, inwieweit ein Ereignis oder ein Umstand ein zu erreichendes Ziel beeinflusst. Der Effekt kann auch positiv sein (Chance). Ein Risiko drückt eine Unsicherheit/Unwägbarkeit (ISO 27000: "Uncertainty") aus und wird in der Anwendung stets über die Zuordnung von Risikoträgern zu Szenarien definiert. Risikoträger können sein: [Assets](#asset), [Prozesse](#prozess) & [Scopes](#scope).
+Das Risiko ist ein Maß dafür, inwieweit ein Ereignis oder ein Umstand ein zu erreichendes Ziel beeinflusst. Der Effekt kann auch positiv sein (Chance). Ein Risiko drückt eine Unsicherheit/Unwägbarkeit (ISO 27000: "Uncertainty") aus und wird in der Anwendung stets über die Zuordnung von Risikoträgern zu Szenarien definiert. Risikoträger können sein: [Assets](#asset), [Prozesse](#process) & [Scopes](#scope).
 
 Das Risiko kann optional einem Risk Owner zugeordnet werden (ISO/IEC 27000: "a person or entity with the accountability and authority to manage a risk"). In den Begrifflichkeiten des NIST 800-30 entspricht dies dem "Information Owner" (nicht dem "Risk Assessor").
 
@@ -92,7 +92,7 @@ Der Objekttyp Control ist beispielsweise geeignet für die Abbildung der folgend
 
 Der Objekttyp Control kann auch eine Gruppe von Controls abbilden (siehe [Composite](#composite)). Darüber kann ein Kapitel aus einem Standard mit Maßnahmen abgebildet werden, oder ein "Baustein" aus dem BSI IT-Grundschutz.
 
-### Vorfall
+### Vorfall {#incident}
 
 Ein Vorfall bzw. Sicherheitsvorfall (englisch: Incident) ist ein Ereignis, das eingetreten ist und möglicherweise die Informationssicherheit gefährdet hat. Ein Vorfall kann ausgelöst werden durch eine Bedrohung.
 
@@ -112,7 +112,7 @@ Der Objekttyp Person ist beispielsweise geeignet für die Abbildung der folgende
 
 * NISTIR 7693: "Person"
 
-### Dokument
+### Dokument {#document}
 
 Ein Dokument, das ein anderes Objekt beschreibt oder zusätzliche Informationen liefert. Dient der Abbildung von Richtlinien, Leitlinien, Policy-Dokumenten, Vorfalldokumentation etc. und ist unabhängig von Format, Medium oder Quelle.
 

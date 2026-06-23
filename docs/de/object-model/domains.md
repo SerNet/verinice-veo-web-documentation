@@ -16,31 +16,31 @@ Später ist es möglich, dieselben Objekte, die dafür erstellt wurden, auch in 
 
 Die Domänen werden aus [Domänen-Templates](domain-templates.md) erzeugt.
 
-## Domäneninhalte
+## Domäneninhalte {#domain-contents}
 
 Eine Domäne definiert Subtypen, Aspekte, Verknüpfungen, Formulare, einen Katalog, Profile und ggf. Risikodefinitionen:
 
 ![domaene](../assets/object-model/domain-bestandteile-kompakt.png)
 
-* Ein [Fachobjekt](objects#fachobjekte) hat je Domäne einen bestimmten [Subtypen](#subtypen). 
-* Ein Fachobjekt enthält mehrere [Aspekte](#aspekte). Ein Aspekt ist eine Gruppe von domänenspezifischen Attributen.
-* [Verknüpfungen](#verknupfungen) sind Beziehungen zwischen zwei Objekten.
-* Mit einem [Formular](#formulare) können genau die Daten erfasst werden, die für einen bestimmten Anwendungsfall (Use Case) aus einer Domäne benötigt werden.
-* Ein [Katalog](#katalog) ist eine Sammlung vorgefertigter Fachobjekte, die auf ein ISMS-Modell angewendet werden können.
-* [Profile](#profile) sind Sammlungen vorgefertigter Fachobjekte, die für einen bestimmten Anwendungsfall modelliert wurden. 
-* [Risikodefinition](#risikodefinitionen) sind Konfigurationen der Risikoanalyse.
+* Ein [Fachobjekt](objects#specialist-objects) hat je Domäne einen bestimmten [Subtypen](#subtypes). 
+* Ein Fachobjekt enthält mehrere [Aspekte](#aspects). Ein Aspekt ist eine Gruppe von domänenspezifischen Attributen.
+* [Verknüpfungen](#links) sind Beziehungen zwischen zwei Objekten.
+* Mit einem [Formular](#forms) können genau die Daten erfasst werden, die für einen bestimmten Anwendungsfall (Use Case) aus einer Domäne benötigt werden.
+* Ein [Katalog](#catalog) ist eine Sammlung vorgefertigter Fachobjekte, die auf ein ISMS-Modell angewendet werden können.
+* [Profile](#profiles) sind Sammlungen vorgefertigter Fachobjekte, die für einen bestimmten Anwendungsfall modelliert wurden. 
+* [Risikodefinitionen](#risk-definitions) sind Konfigurationen der Risikoanalyse.
 
-### Subtypen
+### Subtypen {#subtypes}
 
-Die konkreten Arten von Fachobjekten in einer Domäne werden über die Subtypen abgebildet. Eine Domäne definiert für jeden der acht [Objekttypen](objects#fachobjekte) eine Menge von Subtypen. Es ist auch möglich, dass eine Domäne für einen Objekttypen gar keine Subtypen definiert, wenn dieser Objekttyp für die Domäne irrelevant ist.
+Die konkreten Arten von Fachobjekten in einer Domäne werden über die Subtypen abgebildet. Eine Domäne definiert für jeden der acht [Objekttypen](objects#specialist-objects) eine Menge von Subtypen. Es ist auch möglich, dass eine Domäne für einen Objekttypen gar keine Subtypen definiert, wenn dieser Objekttyp für die Domäne irrelevant ist.
 
-Einem konkreten Fachobjekt muss ein Subtyp aus einer Domäne zugeordnet werden, damit es überhaupt in der Domäne benutzt werden kann. Der Subtyp eines Fachobjektes steuert unter anderem, mit welchen [Formularen](#formulare) es bearbeitet wird und mit welchen anderen Fachobjekten es verknüpft werden darf (s. [Links](#links)).
+Einem konkreten Fachobjekt muss ein Subtyp aus einer Domäne zugeordnet werden, damit es überhaupt in der Domäne benutzt werden kann. Der Subtyp eines Fachobjektes steuert unter anderem, mit welchen [Formularen](#forms) es bearbeitet wird und mit welchen anderen Fachobjekten es verknüpft werden darf (s. [Links](#links)).
 
 ::: info Beispiel
-Ein [Prozess](objects#prozess) soll in der DS-GVO erstellt werden. Es muss dazu einer der dort definierten Subtypen *Verarbeitungstätigkeit*, *Datenübertragung* und *Datenschutz-Folgeabschätzung* ausgewählt werden. Der Prozess wird als *Verarbeitungstätigkeit* erstellt. Danach wird er zusätzlich assoziiert mit der ISO&nbsp;27000, wobei der Subtyp *Geschäftsprozess* ausgewählt wird. Der Prozess ist nun im Kontext der DS-GVO eine Verarbeitungstätigkeit und nach ISO&nbsp;27000 ein Geschäftsprozess.
+Ein [Prozess](objects#process) soll in der DS-GVO erstellt werden. Es muss dazu einer der dort definierten Subtypen *Verarbeitungstätigkeit*, *Datenübertragung* und *Datenschutz-Folgeabschätzung* ausgewählt werden. Der Prozess wird als *Verarbeitungstätigkeit* erstellt. Danach wird er zusätzlich assoziiert mit der ISO&nbsp;27000, wobei der Subtyp *Geschäftsprozess* ausgewählt wird. Der Prozess ist nun im Kontext der DS-GVO eine Verarbeitungstätigkeit und nach ISO&nbsp;27000 ein Geschäftsprozess.
 :::
 
-### Aspekte
+### Aspekte {#aspects}
 
 Ein Fachobjekt kann neben den Grundeigenschaften wie Name, Beschreibung oder Abkürzung auch domänenspezifische Aspekte haben. Ein Aspekt enthält mehrere Attribute eines Fachobjekts, die grundsätzlich nur in einer Domäne gelten. Es gibt jedoch auch geteilte Aspekte, die in mehreren Domänen gültig sind.
 
@@ -52,11 +52,11 @@ Ein Prozess aus der DS-GVO enthält einen Aspekt mit den datenschutzrelevanten A
 ![aspekte](../assets/object-model/aspekte.png)
 :::
 
-### Verknüpfungen
+### Verknüpfungen {#links}
 
 Eine Verknüpfung stellt eine domänenspezifische Beziehung zu einem anderen Fachobjekt her. Eine Verknüpfung enthält neben dem verknüpften Objekt auch Attribute, die zu der Verknüpfung gehören.
 
-In der Domäne wird für jede Verknüpfung neben des Verknüpfungsnamens und einer Reihe von Attributen auch der zulässige [Subtyp](#subtypen) für das Verknüpfungsziel definiert.
+In der Domäne wird für jede Verknüpfung neben des Verknüpfungsnamens und einer Reihe von Attributen auch der zulässige [Subtyp](#subtypes) für das Verknüpfungsziel definiert.
 
 ::: info Beispiel
 In einer fiktiven Domäne sollen Controls Personen zugeordnet werden, die in einem bestimmten Zeitraum für das Control verantwortlich sind. Dazu ist in der Domäne eine Verknüpfung *Verantwortlich* definiert, welche Controls mit Personen verbindet und die Attribute *von* und *bis* enthält, mit denen der Zeitraum erfasst werden kann. Ein konkretes Control kann mehrere *Verantwortlich*-Verknüpfungen zu verschiedenen Personen haben, wobei jede Verknüpfung eigene Werte für die Attribute *von* und *bis* hat. 
@@ -64,13 +64,13 @@ In einer fiktiven Domäne sollen Controls Personen zugeordnet werden, die in ein
 ![links](../assets/object-model/links.png)
 :::
 
-### Formulare
+### Formulare {#forms}
 
 Eine Domäne enthält beliebig viele Formulare. Mit diesen Formularen lassen sich speziell die Aspekte und Verknüpfungen in den Objekten bearbeiten, die in der Domäne enthalten sind und unterstützen die Anwender dabei, die in der Domäne erforderlichen Arbeitsabläufe umzusetzen. Die Formulare sind nur für die Anwender sichtbar, die mit der Domäne arbeiten. Die Anwender können in der Domäne neue Formulare definieren oder vorhandene abändern und anpassen. Der Artikel [Formulare](forms) beschreibt die Formulare in verinice.
 
-### Katalog
+### Katalog {#catalog}
 
-Der Katalog ist die Menge aller Katalogelemente in einer Domäne. Ein Katalogelement dient als Vorlage für ein [Fachobjekt](../object-model/objects.html#fachobjekte). Um mit einem Katalogelement in einer [Unit](../object-model/objects.html#unit) arbeiten zu können, muss es erst auf die Unit angewendet werden, d.h. seine Inhalte werden als Fachobjekt in die Ziel-Unit kopiert.
+Der Katalog ist die Menge aller Katalogelemente in einer Domäne. Ein Katalogelement dient als Vorlage für ein [Fachobjekt](../object-model/objects.html#specialist-objects). Um mit einem Katalogelement in einer [Unit](../object-model/objects.html#unit) arbeiten zu können, muss es erst auf die Unit angewendet werden, d.h. seine Inhalte werden als Fachobjekt in die Ziel-Unit kopiert.
 
 Ein Katalogelement kann fast alle Eigenschaften und Beziehungen haben, die ein Fachobjekt haben kann, wie z.B. ein Name, eine Beschreibung oder [Teile](../object-model/objects.html#composite). Beim Anwenden eines Katalogelementes wird ein neues Fachobjekt in der Ziel-Unit erstellt und die Eigenschaften und Beziehungen des Katalogelementes werden in das Fachobjekt übernommen. Hat das Katalogelement Beziehungen zu anderen Katalogelementen, so werden die referenzierten Katalogelemente mit auf die Unit angewendet. Welche Arten von Beziehungen dabei berücksichtigt werden, lässt sich in der Domäne konfigurieren.
 
@@ -80,15 +80,15 @@ Die [Domäne IT-Grundschutz](../domain-it-gs/) enthält als Katalogelemente unte
 
 Ein Fachobjekt, das aus einem Katalogelement erzeugt wurde, ist eine Kopie, die dauerhaft mit dem Katalogelement verbunden bleibt. Dies ermöglicht sowohl die individuelle Anpassbarkeit des Objektes als auch den Abgleich mit den Kataloginhalten im weiteren Lebenszyklus des Objektes. Die Verbindung zwischen Fachobjekt und Katalogelement kann zudem verhindern, dass ein Katalogelement versehentlich mehrfach auf dieselbe Unit angewendet wird.
 
-### Profile
+### Profile {#profiles}
 
 Ein Profil ist eine Sammlung von Fachobjekten, die für einen bestimmten Anwendungsfall modelliert wurden. Viele der Fachobjekte in den Profilen kommen aus dem Katalog in der Domäne. In den Profilen werden die Einträge aus dem Katalog mehrfach in unterschiedlichen Szenarien angewendet. Profile enthalten dadurch fertige ISMS-Modelle, die als Vorlage verwendet werden können. Sie enthalten Hinweise und Beispiele für den praktischen Einsatz von verinice.
 
-### Risikodefinitionen
+### Risikodefinitionen {#risk-definitions}
 
 Eine Risikodefinition ist die Konfiguration der Risikoanalyse in einer Domäne. In der Risikodefinition können die Parameter für die Berechnung des Risikos individuell angepasst werden.
 
-Es ist möglich, dass in einer Domäne mehrere Risikodefinitionen hinterlegt sind, sodass je nach [Scope](objects#scope) mit einer unterschiedlichen Risikodefinition gearbeitet werden kann. Es ist ebenfalls möglich, dass eine Domäne gar keine Risikodefinitionen enthält, wenn das Erfassen von [Risiken](objects#risiko) in der Domäne nicht vorgesehen ist.
+Es ist möglich, dass in einer Domäne mehrere Risikodefinitionen hinterlegt sind, sodass je nach [Scope](objects#scope) mit einer unterschiedlichen Risikodefinition gearbeitet werden kann. Es ist ebenfalls möglich, dass eine Domäne gar keine Risikodefinitionen enthält, wenn das Erfassen von [Risiken](objects#risk) in der Domäne nicht vorgesehen ist.
 
 
 ### Inspection
@@ -122,7 +122,7 @@ Eine **Rule** ist eine konfigurierbare Bedingung, die auf ein Fachobjekt angewen
 - "Verfahrenstätigkeit befindet sich auf Positivliste"
 ::::
 
-### Unterschied: Decision vs. Inspection vs. Rule
+### Unterschied: Decision vs. Inspection vs. Rule {difference-decision-vs-inspection-vs-rule}
 
 - **Rule**: Stellt eine einzelne Bedingung dar, die auf Fachobjekte angewendet wird. Rules sind Bestandteil einer Decision und bestimmen das Ergebnis basierend auf ihren Bedingungen.  
 - **Decision**: Kombiniert mehrere Rules, um ein Fachobjekt zu bewerten und ein finales Ergebnis zu bestimmen. Dabei wird dem Nutzer transparent angezeigt, welche Rule für die Entscheidung ausschlaggebend war.  

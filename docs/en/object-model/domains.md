@@ -20,7 +20,7 @@ Domains are created from [domain templates](domain-templates).
 A domain defines subtypes, aspects, links, forms, a catalog, profiles and, if applicable, risk definitions:
 ![domain]( ../assets/object-model/domain-bestandteile-kompakt.png)
 
-* A [subject object](objects#subject-objects) has a specific [subtype](#subtypes) for each domain.
+* A [subject object](objects#specialist-objects) has a specific [subtype](#subtypes) for each domain.
 * A domain object contains several [aspects](#aspects). An aspect is a group of domain-specific attributes.
 * [Links](#links) are relationships between two objects.
 * A [form](#forms) can be used to record exactly the data that is required for a specific use case from a domain.
@@ -31,7 +31,7 @@ A domain defines subtypes, aspects, links, forms, a catalog, profiles and, if ap
 
 ### Subtypes
 
-The specific types of specialized objects in a domain are mapped via the subtypes. A domain defines a set of subtypes for each of the eight [object types](objects#subject objects). It is also possible for a domain not to define any subtypes for an object type if this object type is irrelevant for the domain.
+The specific types of specialized objects in a domain are mapped via the subtypes. A domain defines a set of subtypes for each of the eight [object types](objects#specialist-objects). It is also possible for a domain not to define any subtypes for an object type if this object type is irrelevant for the domain.
 A subtype from a domain must be assigned to a specific specialist object so that it can be used in the domain at all. The subtype of a functional object controls, among other things, which [forms](#forms) it is processed with and which other functional objects it may be linked to (see [links](#links)).
 ::: info Example
 A [process](objects#process) is to be created in the GDPR. To do this, one of the subtypes *processing activity*, *data transfer* and *data protection impact assessment* defined there must be selected. The process is created as a *processing activity*. It is then additionally associated with ISO&nbsp;27000, whereby the subtype *business process* is selected. The process is now a processing activity in the context of the GDPR and a business process according to ISO 27000.

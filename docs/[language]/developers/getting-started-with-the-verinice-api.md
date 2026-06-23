@@ -93,7 +93,7 @@ domain_name = domains[0].get("name")
 ## Loading Elements
 
 Besides units and domains, [elements (a.k.a. business objects)](../object-model/objects) can also be loaded and modified via the API. There are eight different element types in verinice:
-[assets](../object-model/objects#asset), [controls](../object-model/objects#control), [documents](../object-model/objects#dokument), [incidents](../object-model/objects#vorfall), [persons](../object-model/objects#person), [processes](../object-model/objects#prozess), [scenarios](../object-model/objects#szenario) & [scopes](../object-model/objects#scope).
+[assets](../object-model/objects#asset), [controls](../object-model/objects#control), [documents](../object-model/objects#document), [incidents](../object-model/objects#incident), [persons](../object-model/objects#person), [processes](../object-model/objects#process), [scenarios](../object-model/objects#scenario) & [scopes](../object-model/objects#scope).
 
 For each element type, there is a set of API endpoints for managing elements of that type. For example, the following endpoint loads all processes that are associated with a certain domain:
 
