@@ -104,12 +104,12 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     link: "/glossary/",
   },
   {
-    text: { de: "Entwicklerdokumentation", en: "Developer Documentation" },
+    text: { de: "Entwicklerdokumentation (englisch)", en: "Developer Documentation" },
     link: "/developers/",
     collapsed: true,
     items: [
       { text: { de: "Getting started with the verinice API", en: "Getting started with the verinice API" }, link: "/developers/getting-started-with-the-verinice-api" },
-      { text: { de: "Wörterbuch", en: "Dictionary" }, link: "/developers/dictionary" },
+      { text: { de: "Dictionary", en: "Dictionary" }, link: "/developers/dictionary" },
     ],
   },
   {

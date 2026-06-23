@@ -1,4 +1,6 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
+<!--@include: ../../.vitepress/developerLanguageHint.md-->
+
 # Getting Started with the verinice API
 
 Learn how to authenticate and load and create your first elements.
@@ -31,9 +33,9 @@ def get_token():
 
 ```
 For the creation of a token, these parameters must be set:
- - `USER_NAME`: A valid user name
- - `PASSWORD`: The password for the user
- - `OTP`: One-time password (use empty string if 2-factor authentication is not configured for the user)
+- `USER_NAME`: A valid user name
+- `PASSWORD`: The password for the user
+- `OTP`: One-time password (use empty string if 2-factor authentication is not configured for the user)
 
 ## Loading Units
 
@@ -95,7 +97,7 @@ Besides units and domains, [elements (a.k.a. business objects)](../object-model/
 
 For each element type, there is a set of API endpoints for managing elements of that type. For example, the following endpoint loads all processes that are associated with a certain domain:
 
- `GET /domains/DOMAIN-ID/processes` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1))
+`GET /domains/DOMAIN-ID/processes` ([OpenAPI documentation](https://api.verinice.com/veo/swagger-ui/index.html?configUrl=/veo/v3/api-docs/swagger-config#/process-in-domain-controller/getProcesses_1))
 
 The following snippet shows how to load all processes in a unit that are associated with a certain domain:
 
@@ -150,7 +152,7 @@ for process in json_data.get("items"):
 
 All endpoints for loading elements have the same search parameters, which are briefly described here. All parameters can be combined as needed.
 
-### subType 
+### subType
 
 Find all elements of a certain sub-type. The available sub-types for each element type are defined in the domain.
 
