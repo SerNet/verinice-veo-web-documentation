@@ -109,6 +109,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     collapsed: true,
     items: [
       { text: { de: "Getting started with the verinice API", en: "Getting started with the verinice API" }, link: "/developers/getting-started-with-the-verinice-api" },
+      { text: { de: "Architecture", en: "Architecture" }, link: "/developers/architecture" },
       { text: { de: "Dictionary", en: "Dictionary" }, link: "/developers/dictionary" },
     ],
   },
