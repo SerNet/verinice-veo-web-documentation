@@ -141,13 +141,13 @@ Options:
   -f, --file=<file>          The VNA to import
   -v, --veo-api-url=<veoApiUrl>
                              baseUrl of the veo instance backend API
-                               Default: https://api.verinice.com/veo
+                               Default: https://api.eu.verinice.cloud/veo
   -u, --veo-user=<veoUser>   veo username
       --veo-password=<veoPassword>
                              veo password, will be prompted for if not specified
       --keycloak-url=<keycloakUrl>
                              Keycloak authentication URL
-                               Default: https://auth.verinice.com/auth
+                               Default: https://auth.eu.verinice.cloud/auth
       --keycloak-realm=<keycloakRealm>
                              Keycloak authentication realm
                                Default: verinice-veo
@@ -187,18 +187,18 @@ Das Format der Konfigurationsdatei wird von verschiedenen verinice-Anwendungen g
 | `instances.<name>.config` | Objekt | Konfigurationseinstellungen für die jeweilige Umgebung |
 | `currentInstance` | Zeichenfolge | Name der aktiven Umgebung, die aus den Instanzen verwendet werden soll (wird nicht verwendet – siehe Hinweis unten) |
 
-HINWEIS: Das Feld `currentInstance` wird vom VNA-Importer nicht verwendet. Stattdessen basiert die zu verwendende Umgebung auf der URL, die über den Befehlszeilenparameter `-v` oder `--veo-api-url` angegeben wird. Wenn dieser Parameter nicht angegeben ist, wird die Standard-URL `https://api.verinice.com/veo` verwendet, die der Produktionsumgebung entspricht.
+HINWEIS: Das Feld `currentInstance` wird vom VNA-Importer nicht verwendet. Stattdessen basiert die zu verwendende Umgebung auf der URL, die über den Befehlszeilenparameter `-v` oder `--veo-api-url` angegeben wird. Wenn dieser Parameter nicht angegeben ist, wird die Standard-URL `https://api.eu.verinice.cloud/veo` verwendet, die der Produktionsumgebung entspricht.
 
 #### Optionen zur Umgebungskonfiguration
 
 | Feld | Typ | Beschreibung | Standardwert |
 |-------|------|-------------|---------|
-| `KEYCLOAK_URL` | Zeichenfolge | URL des Keycloak-Authentifizierungsservers | `https://auth.verinice.com` |
+| `KEYCLOAK_URL` | Zeichenfolge | URL des Keycloak-Authentifizierungsservers | `https://auth.eu.verinice.cloud` |
 | `KEYCLOAK_REALM` | Zeichenfolge | Keycloak-Authentifizierungsbereich | `verinice-veo` |
 | `KEYCLOAK_CLIENT` | Zeichenfolge | Keycloak-Client-Kennung | `veo-prod` |
 | `KEYCLOAK_ADMIN_USERNAME` | Zeichenfolge | Admin-Benutzername für Keycloak | nicht verwendet |
 | `KEYCLOAK_ADMIN_PASSWORD` | Zeichenfolge | Admin-Passwort für Keycloak | nicht verwendet |
-| `VEO_URL` | Zeichenfolge | Basis-URL der Backend-API der verinice-Instanz | `https://api.verinice.com/veo` |
+| `VEO_URL` | Zeichenfolge | Basis-URL der Backend-API der verinice-Instanz | `https://api.eu.verinice.cloud/veo` |
 | `ACCOUNTS_URL` | Zeichenkette | URL des Account-Dienstes | nicht verwendet |
 | `FORMS_URL` | Zeichenkette | URL des Formular-Dienstes | nicht verwendet |
 | `HISTORY_URL` | Zeichenkette | URL des Verlaufs-Dienstes | nicht verwendet |
@@ -218,7 +218,7 @@ Hier ist eine funktionierende Beispielkonfiguration für die Sandbox-Umgebung:
     "instances": {
         "sandbox": {
             "config": {
-                "KEYCLOAK_URL": "https://auth.verinice.com/auth",
+                "KEYCLOAK_URL": "https://auth.eu.verinice.cloud/auth",
                 "KEYCLOAK_REALM": "verinice-sandbox",
                 "KEYCLOAK_CLIENT": "veo-sandbox",
                 "VEO_URL": "https://api.sandbox.verinice.com/veo",
