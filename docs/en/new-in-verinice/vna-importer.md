@@ -217,7 +217,7 @@ Here is a working sample configuration for the sandbox environment:
                 ‘KEYCLOAK_REALM’: “verinice-sandbox”,
                 
 “KEYCLOAK_CLIENT”: “veo-sandbox”,
-                “VEO_URL”: “https://api.sandbox.verinice.com/veo”,
+                “VEO_URL”: “https://api.sandbox.eu.verinice.cloud/veo”,
             }
         }
     },

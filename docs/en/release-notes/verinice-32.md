@@ -35,7 +35,7 @@ The following new features are available to users with the release of verinice 3
 ### Release of the domain NIS2
 ::: warning Release of the **NIS2** domain to reflect Directive (EU) 2022/2555 of the European Parliament and of the Council concerning measures for a high common level of cybersecurity across the Union.
 :::
-The domain is available for verinice in the [Subscription Portal](https://account.verinice.com/), for details see also the description of the [Domain NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) and the [Documentation](https://veo-docs.verinice.com/).
+The domain is available for verinice in the [Subscription Portal](https://account.verinice.com/), for details see also the description of the [Domain NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) and the [Documentation](https://docs.eu.verinice.cloud/).
 ## Domain ISO
 **Status: Prototype**
 - Mapping of scenarios, threats and vulnerabilities.

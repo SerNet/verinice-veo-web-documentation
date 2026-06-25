@@ -168,7 +168,7 @@ export default withMermaid(defineConfig({
     },
         sitemap: {
       // TODO verinice-veo#3004
-      hostname: "https://veo-docs.verinice.com/",
+      hostname: "https://docs.eu.verinice.cloud/",
     },
   }),
 );

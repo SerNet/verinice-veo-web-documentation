@@ -46,7 +46,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 ::: warning Veröffentlichung der Domäne **NIS2** zur Abbildung der Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union.
 :::
 
-Die Domäne steht für verinice im [Subskriptionsportal](https://account.verinice.com/) zur Verfügung, für Details siehe auch die Beschreibung zur [Domäne NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) und die [Dokumentation](https://veo-docs.verinice.com/).
+Die Domäne steht für verinice im [Subskriptionsportal](https://account.verinice.com/) zur Verfügung, für Details siehe auch die Beschreibung zur [Domäne NIS2](https://verinice.com/loesungen/domaene/nis2-richtlinie) und die [Dokumentation](https://docs.eu.verinice.cloud/).
 
 ## Domäne ISO
 
