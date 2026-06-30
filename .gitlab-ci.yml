@@ -93,6 +93,8 @@ update-values-dev:
   stage: deploy
   rules:
     - if: '$CI_COMMIT_BRANCH == "develop"'
+      variables:
+        IMAGE_TAG: 'git-${CI_COMMIT_SHA}'
     - when: never
   trigger:
     project: veo/verinice-veo-argocd
@@ -100,7 +102,7 @@ update-values-dev:
     strategy: mirror
     inputs:
       valuesFile: 'dev-values.yaml'
-      imageTag: 'git-${CI_COMMIT_SHA}'
+      imageTag: $IMAGE_TAG
       serviceName: 'webDocumentation'
 
 # deploy the develop image always in stage environment
@@ -110,6 +112,8 @@ update-values-stage:
     - 'update-values-dev'
   rules:
     - if: '$CI_COMMIT_BRANCH == "develop"'
+      variables:
+        IMAGE_TAG: 'git-${CI_COMMIT_SHA}'
     - when: never
   trigger:
     project: veo/verinice-veo-argocd
@@ -117,5 +121,5 @@ update-values-stage:
     strategy: mirror
     inputs:
       valuesFile: 'stage-values.yaml'
-      imageTag: 'git-${CI_COMMIT_SHA}'
+      imageTag: $IMAGE_TAG
       serviceName: 'webDocumentation'
