@@ -106,6 +106,8 @@ update-values-dev:
 # deploy the develop image always in stage environment
 update-values-stage:
   stage: deploy
+  needs:
+    - 'update-values-dev'
   rules:
     - if: '$CI_COMMIT_BRANCH == "develop"'
     - when: never
