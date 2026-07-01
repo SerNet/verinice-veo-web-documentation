@@ -32,8 +32,8 @@ Implementation of Business Continuity Management covering the BSI 200-4 (DE), IS
 ### VNA Import
 
 VNA import from verinice.PRO to verinice.onprem or verinice.cloud for IT-Grundschutz, data protection, ISO, and BCM, including IT-Grundschutz profiles, B3S Khs., BSI minimum standards, and the C5 criteria catalog.
-- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="info">Test</Badge>
-- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="danger">Development</Badge>
+- Provision of the VNA importer for migrating data to the IT-Grundschutz and Data Protection domains. <Badge type="info">Test</Badge>
+- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="warning">Planning</Badge>
 <!-- epics/364 -->
 - Deployment of the VNA importer for migrating data to the BCM domains. <Badge type="warning">Planning</Badge>
 <!-- epics/365 -->
