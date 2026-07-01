@@ -8,23 +8,17 @@ Stand 2026-07-03 - Änderungen vorbehalten!
 ### Umsetzungsdokumentation <Badge type="danger">Entwicklung</Badge>
 <!-- epics/261 -->
 
-Die Dokumentation der Umsetzung von Anforderungen wird domänenübergreifend erweitert:
-
-![Umsetzungsdokumentation](../assets/roadmap/RI.png)
+Die Dokumentation der Umsetzung von Anforderungen wird domänenübergreifend erweitert.
 
 ### SoA-Dokumentation <Badge type="danger">Entwicklung</Badge>
 <!-- epics/208 -->
 
-Die Anwendbarkeit (SoA) kann im Scope-Objekt in der Control-Implemenation (CI) für die einzelnen Controls besser dokumentiert werden:
-
-![SoA-Dokumentatio](../assets/roadmap/CI.png)
+Die Anwendbarkeit (SoA) kann im Scope-Objekt in der Control-Implementation (CI) für die einzelnen Controls besser dokumentiert werden.
 
 ### Beispiel-CSV <Badge type="danger">Entwicklung</Badge>
 <!-- epics/369 -->
 
-Download von Beispieldateien für den CSV-Import für alle Subtypen im CSV-Import-Wizard:
-
-![Beispiel-CSV](../assets/roadmap/CSV-sample.png)
+Download von Beispieldateien für den CSV-Import für alle Subtypen im CSV-Import-Wizard.
 
 ### Business-Continuity-Management <Badge type="danger">Entwicklung</Badge>
 
@@ -73,11 +67,9 @@ Beispiel-Units und -Profile für die BCM-Domänen, z.B. das BCM-Profil für Hoch
 ### Dashboard <Badge type="warning">Planung</Badge>
 <!-- epics/315 -->
 
-Ausgebaute Dashboardfunktionen um Daten visuell darzustellen:
+Ausgebaute Dashboardfunktionen um Daten visuell darzustellen.
 
-![Dashboard Design](../assets/roadmap/dashboard.png)
-
-Der Ausbau des Dashboard ist in mehreren Iterationen geplant (die Abbildung zeigt ein erstes Design der Funktionalität):
+Der Ausbau des Dashboard ist in mehreren Iterationen geplant:
 - Grafische Darstellung der Umsetzungsstatus von Controls und der Risiken.
 - Kalendarische Darstellung von Aufgaben und Fälligkeiten.
 - Darstellung von Kennzahlen in Kacheln.
@@ -87,5 +79,3 @@ Der Ausbau des Dashboard ist in mehreren Iterationen geplant (die Abbildung zeig
 <!-- epics/262 -->
 
 Bereitstellung einer ersten funktionalen Domäne Grundschutz++ (DE) mit den Neuerungen in Methodik und Risikomanagement.
-
-![Domäne Grundschutz++](../assets/roadmap/GS++.png)

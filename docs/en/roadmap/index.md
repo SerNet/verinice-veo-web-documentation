@@ -7,23 +7,17 @@ As of July 3, 2026 - Subject to change!
 ### Implementation Documentation <Badge type="danger">Development</Badge>
 <!-- epics/261 -->
 
-The documentation of requirement implementation will be expanded across domains:
-
-![Implementation Documentation](../assets/roadmap/RI.png)
+The documentation of requirement implementation will be expanded across domains.
 
 ### SoA Documentation <Badge type="danger">Development</Badge>
 <!-- epics/208 -->
 
-The service orientation (SoA) can be better documented in the scope object within the Control Implementation (CI) for individual controls:
-
-![SoA Documentation](../assets/roadmap/CI.png)
+The service orientation (SoA) can be better documented in the scope object within the Control Implementation (CI) for individual controls.
 
 ### Sample CSV <Badge type="danger">Development</Badge>
 <!-- epics/369 -->
 
-Download sample files for CSV import for all subtypes in the CSV Import Wizard:
-
-![Sample CSV](../assets/roadmap/CSV-sample.png)
+Download sample files for CSV import for all subtypes in the CSV Import Wizard.
 
 ### Business Continuity Management <Badge type="danger">Development</Badge>
 
@@ -73,19 +67,15 @@ Sample units and profiles for the BCM domains, e.g., the BCM profile for univers
 ### Dashboard <Badge type="warning">Planning</Badge>
 <!-- epics/315 -->
 
-Expanded dashboard functions to visually present data:
+Expanded dashboard functions to visually present data.
 
-![Dashboard Design](../assets/roadmap/dashboard.png)
-
-The expansion of the dashboard is planned in several iterations (the figure shows an initial design of the functionality):
+The expansion of the dashboard is planned in several iterations:
 - Graphical representation of the implementation status of controls and risks.
 - Calendar view of tasks and due dates.
 - Display of key metrics in tiles.
 - Option to export the displayed data.
 
-### Basic Protection++ Domain <Badge type="warning">Planning</Badge>
+### Grundschutz++ Domain <Badge type="warning">Planning</Badge>
 <!-- epics/262 -->
 
-Deployment of an initial functional Basic Protection++ (DE) domain with updates to methodology and risk management.
-
-![Grundschutz++ Domain](../assets/roadmap/GS++.png)
+Deployment of an initial functional Grundschutz++ (DE) domain with updates to methodology and risk management.
