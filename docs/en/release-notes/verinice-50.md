@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 50
 
+Release Date: February 27, 2026
+
 The following new features are available to users with the release of verinice 50.
 
 ## Detail improvements and bug fixes

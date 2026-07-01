@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 56
 
+Release Date: July 3, 2026 (tentative)
+
 The following new features are available to users with the release of **verinice 56**.
 
 ## More Informative Object Overview

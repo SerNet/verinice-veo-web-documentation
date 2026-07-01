@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 55
 
+Veröffentlichung: 12. Juni 2026
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 55** zur Verfügung.
 
 ## Graph View - Anzahl der angezeigten Objekte wählbar
@@ -9,11 +11,6 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 Im Graph View ist mit dieser Iteration die Anzahl der angezeigten Objekte frei wählbar.
 
 ![Graph-View](../assets/release-notes/verinice-55-graph-select.gif)
-
-## VNA-Importer IT-Grundschutz und Datenschutz
-<!-- epics/305 -->
-
-Bereitstellung des [VNA-Importers](../new-in-verinice/vna-importer) zur Migration von Daten in die Domänen IT-Grundschutz und Datenschutz.
 
 ## Units importieren
 <!-- epics/304 -->

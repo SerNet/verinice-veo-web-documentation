@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 51
 
+Veröffentlichung: 20. März 2026
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von verinice 51 zur Verfügung.
 
 ## Bessere Abbildung von Scopes und Teilen <Badge type="info">Test</Badge>

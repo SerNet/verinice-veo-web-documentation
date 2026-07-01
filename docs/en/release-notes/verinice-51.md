@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 51
 
+Release Date: March 20, 2026
+
 The following new features are available to users with the release of verinice 51.
 
 ## Better mapping of scopes and parts <Badge type="info">Test</Badge>

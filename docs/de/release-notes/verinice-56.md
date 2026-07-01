@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 56
 
+Veröffentlichung: 3. Juli 2026 (voraussichtlich)
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 56** zur Verfügung.
 
 ## Objektübersicht informativer strukturieren

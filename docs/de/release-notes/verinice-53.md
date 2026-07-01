@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 53
 
+Veröffentlichung: 4. Mai 2026
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 53** zur Verfügung.
 
 ## CSV-Import 2 - Freitextfelder
