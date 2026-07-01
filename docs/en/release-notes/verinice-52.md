@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 52
 
+Release Date: April 10, 2026
+
 The following new features are available to users with the release of **verinice 52**.
 
 ## Improving the handling of Markdown fields

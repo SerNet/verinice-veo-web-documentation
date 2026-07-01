@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 53
 
+Release Date: May 4, 2026
+
 The following new features are available to users with the release of **verinice 53**.
 
 ## CSV Import 2 - Free-text Fields

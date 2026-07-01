@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 52
 
+Veröffentlichung: 10. April 2026
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 52** zur Verfügung.
 
 ## Handling von Markdownfeldern verbessern

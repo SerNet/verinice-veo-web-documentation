@@ -1,6 +1,8 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 54
 
+Veröffentlichung: 22. Mai 2026
+
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 54** zur Verfügung.
 
 ## Neue Domäne GDPR (INT)
