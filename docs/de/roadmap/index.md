@@ -15,7 +15,7 @@ Die Dokumentation der Umsetzung von Anforderungen wird domänenübergreifend erw
 ### SoA-Dokumentation <Badge type="danger">Entwicklung</Badge>
 <!-- epics/208 -->
 
-Die Anwendbarkeit (SoA) kann im Scopeobjekt in der Control-Implemenation (CI) für die einzelnen Controls besser dokumentiert werden:
+Die Anwendbarkeit (SoA) kann im Scope-Objekt in der Control-Implemenation (CI) für die einzelnen Controls besser dokumentiert werden:
 
 ![SoA-Dokumentatio](../assets/roadmap/CI.png)
 
@@ -78,7 +78,7 @@ Ausgebaute Dashboardfunktionen um Daten visuell darzustellen:
 ![Dashboard Design](../assets/roadmap/dashboard.png)
 
 Der Ausbau des Dashboard ist in mehreren Iterationen geplant (die Abbildung zeigt ein erstes Design der Funktionalität):
-- Graphische Darstellung der Umsetzungsstatus von Controls und der Risiken.
+- Grafische Darstellung der Umsetzungsstatus von Controls und der Risiken.
 - Kalendarische Darstellung von Aufgaben und Fälligkeiten.
 - Darstellung von Kennzahlen in Kacheln.
 - Option zum Export der dargestellten Daten.
