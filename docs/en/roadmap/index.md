@@ -1,149 +1,91 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
-
-As of April 7, 2026 - Subject to change!
-
-The features listed in the roadmap are in various stages of development:
-
-- <Badge type="info">Test</Badge> Release imminent (subject to successful testing).
-- <Badge type="danger">Development</Badge> Release foreseeable (depending on complexity).
-- <Badge type="warning">Planning</Badge> Release planned.
-- <Badge type="tip">Idea</Badge> Release undetermined.
-
-## Q2 2026
-
-### VNA Importer for IT-Grundschutz and Data Protection <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/305 -->
-
-Release of the VNA Importer for migrating data to the IT-Grundschutz and Data Protection domains.
-
-### Search Replaces Filter <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/290 -->
-
-The expanded search function replaces the previous filter function.
-
-### Better statement of applicability (SoA) <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/208 -->
-
-The statement of applicability (SoA) should be better documented in the scope object within the Control Implementation (CI) for individual controls.
-
-### Support for registry mirroring for on-premises operations <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/326 -->
-
-For customers with an air-gapped environment, Kubernetes environments have no access to the internet and use cloned images from a company-owned registry (instead of a publicly accessible one). It should be possible to easily configure a custom registry in the values file.
-
-### Automate OnPrem Initial Setup <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/317 -->
-
-Manual steps in the initial setup should be reduced so that, ideally, everything can be controlled via values.yaml and similar mechanisms.
-
-### Make Helm Charts OpenShift-compatible <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/316 -->
-
-OpenShift has many unique characteristics, which means that using Helm Charts in OpenShift Kubernetes environments requires additional steps. The verinice chart is intended to be functional in OpenShift environments.
-
-### Optimize business continuity forms <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/306 -->
-
-In the BCM domain, the creation of recovery plans, restart plans, and business continuity plans is simplified through improved collection of the necessary information.
-
-### Align NIS2 (INT) with NIS2 (DE) <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/303 -->
-
-The NIS2 (DE) domain is the domain that maps the German national NIS2UmsuCG. It evolved from NIS2 (INT), which has been available since the end of 2024. Adjustments to the NIS2UmsuCG must be implemented in the NIS2 (INT) domain as applicable.
-
-### Clean up domains (content deployment) <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/302 -->
-To clean up the domains, the various content deployments must be carried out.
-
-### Incorporate German ISO 27005 into the ISO 27001 (DE) domain <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/300 -->
-
-The German-language version of ISO 27005 must be taken into account in the ISO 27001 (DE) domain.
-
-### Expand implementation across domains <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/261 -->
-
-The documentation of the implementation of requirements is to be expanded across domains.
-
-### New Domain GDPR (INT) <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/250 -->
-
-Creation of the English-language GDPR (INT) domain for the internationally applicable version of the GDPR.
-Expansion to include international data protection users.
-
-### New NIS2 (INT) Domain <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/249 -->
-
-Creation of the English-language domain NIS2 (INT) for the internationally applicable version of NIS2.
-Expansion to include international NIS2 users.
-
-### New ISO 27001 (INT) domain <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/248 -->
-Creation of the English-language ISO 27001 (INT) domain for internationally valid ISO EN standards.
-
-### Standardize OS/FS document across domains <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/233 -->
-
-The generally applicable “Document” subtype is to be standardized across domains to simplify cross-domain work for all users.
-
-### Conflict-Free Domain Updates <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/59 -->
-
-Changes to domains may require the migration of existing data. Any conflicts that may arise should be detected and displayed so that users can resolve them.
-
-### Migration to SysEleven (C5) <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/246 -->
-
-Migration of hosting to SysEleven to ensure a more performant and better operating environment (C5) for verinice.cloud.
-
-### Adapt NIS2 (DE) domain to the Implementation Act <Badge type="danger">Development</Badge>
-
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/110 -->
-
-Incorporation of organization-relevant aspects in accordance with the German Implementation Act (NIS2UmsuCG) into the NIS2 (DE) domain.
+As of July 3, 2026 - Subject to change!
 
 ## Q3 2026
 
-### Visual Dashboard <Badge type="warning">Planning</Badge>
+### Implementation Documentation <Badge type="danger">Development</Badge>
+<!-- epics/261 -->
 
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/315 -->
+The documentation of requirement implementation will be expanded across domains:
 
-The dashboard is intended to display data visually/graphically.
+![Implementation Documentation](../assets/roadmap/RI.png)
 
-### Expand Graph View <Badge type="warning">Planning</Badge>
+### SoA Documentation <Badge type="danger">Development</Badge>
+<!-- epics/208 -->
 
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/311 -->
+The service orientation (SoA) can be better documented in the scope object within the Control Implementation (CI) for individual controls:
 
-Expansion of the visual representation of connections (Graph View).
+![SoA Documentation](../assets/roadmap/CI.png)
+
+### Sample CSV <Badge type="danger">Development</Badge>
+<!-- epics/369 -->
+
+Download sample files for CSV import for all subtypes in the CSV Import Wizard:
+
+![Sample CSV](../assets/roadmap/CSV-sample.png)
+
+### Business Continuity Management <Badge type="danger">Development</Badge>
+
+Implementation of Business Continuity Management covering the BSI 200-4 (DE), ISO 22301 (DE), and ISO 22301 (INT) domains, including calculation of MTPD, RTO, and RPO, as well as reports for creating an emergency manual, business continuity plan, recovery plan, and restart plan.
+
+### VNA Import
+
+VNA import from verinice.PRO to verinice.onprem or verinice.cloud for IT-Grundschutz, data protection, ISO, and BCM, including IT-Grundschutz profiles, B3S Khs., BSI minimum standards, and the C5 criteria catalog.
+- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="info">Test</Badge>
+- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="danger">Development</Badge>
+<!-- epics/364 -->
+- Deployment of the VNA importer for migrating data to the BCM domains. <Badge type="warning">Planning</Badge>
+<!-- epics/365 -->
+
+### Expansion of authorization management <Badge type="warning">Planning</Badge>
+<!-- epics/178 -->
+
+Permissions management supports cross-references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
+
+### Workflow <Badge type="warning">Planning</Badge>
+<!-- epics/374 -->
+
+Creation of tasks for any objects, e.g., as questionnaire objects that can be delegated and re-delegated between users.
+
+### Report Formats <Badge type="warning">Planning</Badge>
+
+Provision of additional output formats for reports (CSV, XLSX/ODS, and DOCX/ODT, HTML):
+- Exporting reports in the **DOCX** and **ODT** formats for editorial editing before they are finalized.<!-- epics/373 -->
+- Creating additional report templates in tabular form in the **CSV/XLSX/ODS** formats for quantitative further processing, filtering, and sorting of data. <!-- epics/372 -->
+- Export all report templates in **HTML** format for internal distribution (e.g., on the intranet) or for quick browser-based viewing without additional software.<!-- epics/371 -->
+
+### Audit Management <Badge type="warning">Planning</Badge>
+
+Mapping of internal and external audits in verinice with task delegation and monitoring as part of the workflow. The planning and execution of internal and external audits are mapped via a new scope object.
 
 ## Q4 2026
 
-### Better structure information <Badge type="warning">Planning</Badge>
+### Unit Import/Export <Badge type="warning">Planning</Badge>
 
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/329 -->
+The export of units is available in Unit Management, just like the import.
 
-For all objects and subtypes, primary (and secondary) important information should be presented in a way that is recognizable both textually and visually. The information should be displayed as consistently as possible in tables (v-data-table) and cards (v-card), to the extent that the different display formats allow.
+### Business Continuity Management Sample Data <Badge type="warning">Planning</Badge>
+<!-- epics/253 -->
 
-### Improvements to OnPrem Operations <Badge type="danger">Development</Badge>
+Sample units and profiles for the BCM domains, e.g., the BCM profile for universities.
 
-<!-- https://gitlab.int.sernet.de/groups/veo/-/epics/318 -->
+### Dashboard <Badge type="warning">Planning</Badge>
+<!-- epics/315 -->
 
-Further improvements for OnPrem operations: Helm chart and Talos VM.
+Expanded dashboard functions to visually present data:
+
+![Dashboard Design](../assets/roadmap/dashboard.png)
+
+The expansion of the dashboard is planned in several iterations (the figure shows an initial design of the functionality):
+- Graphical representation of the implementation status of controls and risks.
+- Calendar view of tasks and due dates.
+- Display of key metrics in tiles.
+- Option to export the displayed data.
+
+### Basic Protection++ Domain <Badge type="warning">Planning</Badge>
+<!-- epics/262 -->
+
+Deployment of an initial functional Basic Protection++ (DE) domain with updates to methodology and risk management.
+
+![Grundschutz++ Domain](../assets/roadmap/GS++.png)
