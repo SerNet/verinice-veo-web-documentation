@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Der VNA-Importer
 
-Versionsstand: **27.05.2026**
+Versionsstand: **08.07.2026**
 
 Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation (**verinice.cloud** bzw. **verinice.onprem**) steht der **VNA-Importer** als separater Java-Client zur Verfügung.
 
@@ -11,7 +11,7 @@ Der VNA-Importer ist aktuell verfügbar für die Übernahme von Daten aus den Pe
 
 Der VNA-Importer erstellt eine neue Unit und importiert die Daten aus der VNA-Datei in diese Unit.
 
-::: warning Sollten Sie die maximale Anzahl von Units in Ihrer verinice.cloud-Instanz überschritten haben, müssen Sie zunächst eine Unit löschen oder weitere Units kaufen, bevor Sie neue Daten importieren können.
+::: warning Sollten Sie die maximale Anzahl von Units überschritten haben, müssen Sie zunächst eine Unit löschen oder weitere Units beziehen, bevor Sie neue Daten importieren können.
 :::
 
 Es können mehrere Informationsverbünde in eine Unit übernommen werden. Die Daten werden dabei aus einer zuvor exportierten **VNA-Datei** neu als Kopie in der Zielumgebung angelegt - die originalen Daten bleiben unverändert erhalten!
@@ -48,7 +48,7 @@ Da in beiden Generationen für den IT-Grundschutz als Standard die Risikodefinit
 
 Falls eine Anpassung einer Risikodefinition erforderlich ist, kann dies einfach über das Menü im Abschnitt **Risikodefinition** erfolgen.
 
-Beachten Sie, dass Risiken an Zielobjekten in verinice.cloud nur angelegt werden, wenn für ein Zielobjekt in verinice die Option **Risikoanalyse erforderlich** gesetzt ist. Risiken an Informationsverbünden hingegen werden immer übernommen.
+Beachten Sie, dass Risiken an Zielobjekten in der neuen verinice-Generation nur angelegt werden, wenn für ein Zielobjekt in verinice die Option **Risikoanalyse erforderlich** gesetzt ist. Risiken an Informationsverbünden hingegen werden immer übernommen.
 
 ### Neue Zielobjekte definieren
 
@@ -67,22 +67,23 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 
 ## Installation
 
-<!-- Der VNA-Importer steht in der letzten gültigen Version zum Download zur Verfügung unter: -->
+Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung. Anwenderinnen und Anwender von **verinice.onprem** finden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/). Der VNA-Importer ist ausschließlich in englischer Sprache verfügbar.
 
-Für den **VNA-Importer** ist Java (Version 17 bis 25) erforderlich. Da der VNA-Importer kontinuierlich weiter entwickelt wird, verwenden Sie die jeweils aktuellste Version. Das Tool ist in englischer Sprache verfügbar.
+Da der VNA-Importer kontinuierlich weiter entwickelt wird, verwenden Sie unbedingt die jeweils aktuellste Version!
 
 ## Import in die Cloud-Umgebung (GUI)
 
-Für den Import von Daten in den jeweiligen Client in der **verinice.cloud** steht der VNA-Importer vereinfacht als Tool mit graphischer Benutzeroberfläche (Graphical User Interface - GUI) zur Verfügung. Sie können diese wie folgt aufrufen:
+Für den Import von Daten in den jeweiligen Client in der **verinice.cloud** steht der VNA-Importer inklusive der erforderlichen Java-Laufzeitumgebung vereinfacht als Tool mit graphischer Benutzeroberfläche (Graphical User Interface - GUI) zur Verfügung. Sie können diese wie folgt aufrufen:
 
 - unter **Windows** durch Ausführen der Datei **vna-importer.exe**.
-- unter **macOS** und **Linux** durch Aufruf von **java -jar vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
+- unter **macOS** durch Ausführen der Datei  **vna-importer.dmg**.
+- unter **Unix** durch Aufruf von **java -jar vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
 
 ![VNA-Importer](../assets/new-in-verinice/vna-importer-start.png)
 
 ### VNA-Import ausführen
 
-Nach Eingabe von Benutzername und Passwort für die Zielumgebung (Grundeinstellung: https://veo-web.verinice.com/) prüft das Programm diese unmittelbar auf Richtigkeit (Valid credentials). Bei Meldung **Invalid credentials** prüfen Sie bitte Benutzername und Passwort für die Zielumgebung.
+Nach Eingabe von Benutzername und Passwort für die Zielumgebung (Grundeinstellung: https://web.eu.verinice.cloud/) prüft das Programm diese unmittelbar auf Richtigkeit (Valid credentials). Bei Meldung **Invalid credentials** prüfen Sie bitte Benutzername und Passwort für die Zielumgebung.
 
 ![VNA-Importer](../assets/new-in-verinice/vna-importer-select.png)
 
@@ -97,11 +98,9 @@ War der Import aufgrund von Fehlern mit entsprechender Fehlermeldung nicht erfol
 
 Sollte der Export trotz Umsetzung der Vorarbeiten fehlschlagen, unterstützt das verinice.Team gerne bei Erkennung und Behebung der Fehler.
 
-## Import in andere Umgebungen (CLI)
+## Import in verinice.onprem
 
-Der VNA-Importer kann unter allen Betriebssystemen per Command Line Interface (CLI) aufgerufen werden, um die Daten in anderen Umgebungen zu importieren. Insbesondere der Import in selbst gehostete Umgebungen (OnPrem) muss über das CLI konfiguriert werden.
-
-Sie starten die VNA-Importer CLI im Terminal durch:
+Der VNA-Import muss per Command Line Interface (CLI) konfiguriert werden, um die Daten in verinice.onprem oder andere Umgebungen zu importieren. Das Command Line Interface kann unter allen Betriebssystemen im Terminal gestartet werden durch:
 
 `java -jar build/libs/vna-importer.jar`
 
