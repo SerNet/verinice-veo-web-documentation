@@ -69,7 +69,7 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 
 Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung. Anwenderinnen und Anwender von **verinice.onprem** finden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/). Der VNA-Importer ist ausschließlich in englischer Sprache verfügbar.
 
-Da der VNA-Importer kontinuierlich weiter entwickelt wird, verwenden Sie unbedingt die jeweils aktuellste Version!
+Da der VNA-Importer kontinuierlich weiterentwickelt wird, verwenden Sie unbedingt die jeweils aktuelle Version!
 
 ## Import in die Cloud-Umgebung (GUI)
 
