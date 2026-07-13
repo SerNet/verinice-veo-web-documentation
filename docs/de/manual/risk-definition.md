@@ -1,7 +1,7 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
 # Risikodefinitionen
 
-Im Abschnitt Risikodefinitionen können die Definitionen für die Risikoanalyse eingesehen werden.
+Im Abschnitt Risikodefinitionen können die Definitionen für die Risikoanalyse eingesehen und bearbeitet werden.
 
 Die Risikodefinition bildet eine Eintrittswahrscheinlichkeits-Auswirkungs-Matrix für verschiedene Schutzziele ab:
 
@@ -22,9 +22,9 @@ Die Risikodefinition bildet eine Eintrittswahrscheinlichkeits-Auswirkungs-Matrix
 
 ![Risikodefinition](../assets/manual/risk_impact_gs.png)
 
-Sie können aktuell die Bezeichnungen und Beschreibungen für alle Parameter an Ihre Organisation anpassen.
+Sie können die Bezeichnungen und die Beschreibungen für alle Parameter an Ihre Organisation anpassen, die Stufen beliebig erweitern und weitere Schutzziele wie z.B. Authentizität, Patientensicherheit oder Behandlungseffektivität hinzufügen.
 
 ![Risikodefinition](../assets/manual/risk_values.gif)
 
-::: info Hinweis! Die freie Konfiguration der Risikodefinitionen befindet sich aktuell in aktiver Weiterentwicklung, siehe [Roadmap](../roadmap/)
+::: danger Jede Anpassung einer Risikodefinition bedingt Änderungen an bereits bestehenden Risiken. Es ist deshalb empfohlen, die Risikodefinition **vor**  der Risikobewertung auf die jeweilige Organisation anzupassen!
 :::
