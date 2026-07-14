@@ -12,7 +12,7 @@ Nicht importiert werden **Verknüpfungen zu anderen Objekten**. Beim CSV-Import 
 
 ## CSV-Beispieldatei herunterladen
 
-Sie können vor dem Import über die Schaltfläche **Download** zu jedem Subtyp eine **CSV-Datei** herunterladen, die Beispieldaten zu allen Feldern enthält:
+Sie können vor dem Import über die Schaltfläche **Download** zu jedem Subtyp eine **CSV-Datei** herunterladen, die Daten zu allen Feldern enthält:
 
 ![CSV-Beispieldatei](../assets/manual/verinice-57-csv-sample-download.png)
 
