@@ -1,33 +1,15 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
-As of July 3, 2026 - Subject to change!
+
+As of July 15, 2026 - Subject to change!
 
 ## Q3 2026
-
-### Implementation Documentation <Badge type="danger">Development</Badge>
-<!-- epics/261 -->
-
-The documentation of requirement implementation will be expanded across domains.
-
-### SoA Documentation <Badge type="danger">Development</Badge>
-<!-- epics/208 -->
-
-The service orientation (SoA) can be better documented in the scope object within the Control Implementation (CI) for individual controls.
-
-### Sample CSV <Badge type="danger">Development</Badge>
-<!-- epics/369 -->
-
-Download sample files for CSV import for all subtypes in the CSV Import Wizard.
-
-### Business Continuity Management <Badge type="danger">Development</Badge>
-
-Implementation of Business Continuity Management covering the BSI 200-4 (DE), ISO 22301 (DE), and ISO 22301 (INT) domains, including calculation of MTPD, RTO, and RPO, as well as reports for creating an emergency manual, business continuity plan, recovery plan, and restart plan.
 
 ### VNA Import
 
 VNA import from verinice.PRO to verinice.onprem or verinice.cloud for IT-Grundschutz, data protection, ISO, and BCM, including IT-Grundschutz profiles, B3S Khs., BSI minimum standards, and the C5 criteria catalog.
 - Provision of the VNA importer for migrating data to the IT-Grundschutz and Data Protection domains. <Badge type="info">Test</Badge>
-- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="warning">Planning</Badge>
+- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="danger">Development</Badge>
 <!-- epics/364 -->
 - Deployment of the VNA importer for migrating data to the BCM domains. <Badge type="warning">Planning</Badge>
 <!-- epics/365 -->
@@ -55,11 +37,11 @@ Mapping of internal and external audits in verinice with task delegation and mon
 
 ## Q4 2026
 
-### Unit Import/Export <Badge type="warning">Planning</Badge>
+### Exporting Units in Unit Management <Badge type="danger">Development</Badge>
 
-The export of units is available in Unit Management, just like the import.
+Units can be exported directly from Unit Management.
 
-### Business Continuity Management Sample Data <Badge type="warning">Planning</Badge>
+### Business Continuity Management Sample Data <Badge type="danger">Development</Badge>
 <!-- epics/253 -->
 
 Sample units and profiles for the BCM domains, e.g., the BCM profile for universities.
