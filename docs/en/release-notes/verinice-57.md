@@ -9,9 +9,9 @@ The following new features will be available to users with the release of **veri
 
 The VNA Importer is available for transferring data from verinice.PRO to verinice.onprem or verinice.cloud. In this first iteration, the VNA Importer supports data migration from the perspective of **IT-Grundschutz**, including all data imported or created there, such as:
 
-- Self-created **information groups**.
+- Self-created **information networks**.
 - Self-created **user-defined modules**.
-- Imported **IT-Grundschutz profiles**, **BSI minimum standards**, or the **C5 criteria catalog**.
+- Imported **IT-Grundschutz profiles**, **Mindeststandards des BSI**, or the **Kriterienkatalog C5**.
 
 The procedure for importing VNA files is described in detail in the [documentation for the VNA Importer](../new-in-verinice/vna-importer).
 
