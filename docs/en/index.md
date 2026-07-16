@@ -33,6 +33,9 @@ features:
   - title: The BCM domain
     details: Implementing Business Continuity in verinice...
     link: /en/domain-bcm/
+  - title: The VNA Importer
+    details: Migrate data from verinice.PRO and verinice.EPV to the new generation...
+    link: /en/new-in-verinice/vna-importer/
   - title: The user manual 
     details: Getting to know the basic operation of verinice...
     link: /en/manual/
