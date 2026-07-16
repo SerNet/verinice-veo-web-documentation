@@ -5,6 +5,29 @@ Release Date: July 24, 2026 (tentative)
 
 The following new features will be available to users with the release of **verinice 57**.
 
+## VNA Import
+
+The VNA Importer is available for transferring data from verinice.PRO to verinice.onprem or verinice.cloud. In this first iteration, the VNA Importer supports data migration from the perspective of **IT-Grundschutz**, including all data imported or created there, such as:
+
+- Self-created **information groups**.
+- Self-created **user-defined modules**.
+- Imported **IT-Grundschutz profiles**, **BSI minimum standards**, or the **C5 criteria catalog**.
+
+The procedure for importing VNA files is described in detail in the [documentation for the VNA Importer](../new-in-verinice/vna-importer).
+
+The import of data from the **ISM/ISO** perspectives and **Business Continuity Management** data is currently under active development; see [Roadmap](../roadmap/index).
+
+## Business Continuity Management (BCM)
+<!-- epics/362 epics/285 epics/258 epics/306 epics/255 -->
+
+BCM can be mapped to three new domains: **BSI 200-4 (DE)**, **ISO 22301 (DE)**, and **ISO 22301 (INT)**. These domains will soon be available in the respective bundles.
+
+The **MTPD** based on damage assessment can be defined for business processes, and the minimum MTPD can be determined automatically after reconciling dependencies with other processes. The **RTO** and the **RPO** for resources are similarly derived automatically based on process dependencies.
+
+![MTPD](../assets/release-notes/verinice-57-bcm-values.png)
+
+The results of emergency planning can be documented and output using the report templates **Restart and Recovery Plan**, **Business Continuity Plan**, and **Emergency Manual**.
+
 ## Expand Implementation Documentation
 <!-- epics/261 -->
 
@@ -15,25 +38,14 @@ The documentation of requirement implementation has been expanded across all dom
 ## Better Documentation of Applicability (SoA)
 <!-- epics/208 -->
 
-Applicability (SoA) can now be better documented in the scope object within the Control Implementation (CI) for individual ISO controls:
-
+Applicability (SoA) can now be better documented in the scope object within the assignment for individual ISO controls:
+x
 ![SoA](../assets/release-notes/verinice-57-CI.png)
 
 ## CSV Import
 <!-- epics/369 -->
 
 In the CSV Import Wizard, a [CSV file as a template for the import](../manual/CSV-Import.md) can be downloaded for each subtype. The template contains data for all fields, thereby simplifying the import into verinice. 
-
-## Business Continuity Management (BCM)
-<!-- epics/362 epics/285 epics/258 epics/306 epics/255 -->
-
-BCM can be mapped to three new domains: **BSI 200-4 (DE)**, **ISO 22301 (DE)**, and **ISO 22301 (INT)**. These domains will soon be available in the respective bundles.
-
-The MTPD based on damage assessment can be defined for business processes, and the minimum MTPD can be determined automatically after reconciling dependencies with other processes. The RTO for resources is similarly derived automatically based on process dependencies.
-
-![MTPD](../assets/release-notes/verinice-57-bcm-values.png)
-
-The results of emergency planning can be documented and output using the report templates **Restart and Recovery Plan**, **Business Continuity Plan**, and **Emergency Manual**.
 
 ## Minor improvements and bugfixes
 <!-- epics/273 -->
@@ -43,5 +55,4 @@ The results of emergency planning can be documented and output using the report 
 - Fixed an error when creating the security incident report. <!-- work_items/4860 -->
 - Risks from incorrect domains are no longer displayed in Report A.5 Risk Analysis. <!-- work_items/4828 -->
 - Adjusted the height of the scroll bar in the object overview. <!-- work_items/4867 -->
-- Updated the logo in Keycloak and corrected the cursor effect. <!-- work_items/4903 -->
-- Updated the @nuxt/eslint-config dependency. <!-- work_items/4900 -->
+- Updated the logo on the login page and corrected the cursor effect. <!-- work_items/4903 -->

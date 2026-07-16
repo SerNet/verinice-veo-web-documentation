@@ -5,6 +5,29 @@ Veröffentlichung: 24. Juli 2026 (voraussichtlich)
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 57** zur Verfügung.
 
+## VNA-Import
+
+Für die Datenübernahme von verinice.PRO zu verinice.onprem oder verinice.cloud steht der VNA-Importer zur Verfügung. Der VNA-Importer unterstützt in dieser ersten Iteration die Datenübernahme aus der Perspektive **IT-Grundschutz**, inklusive aller dort importierten bzw. erstellten Daten, wie z.B.:
+
+- Selbst erstellte **Informationsverbünde**.
+- Selbst erstellte **Benutzerdefinierte Bausteine**.
+- Importierte **IT-Grundschutz-Profile**, **Mindeststandards des BSI** oder der **Kriterienkatalog C5**.
+
+Die Vorgehensweise beim Import von VNA-Dateien ist in der [Dokumentation für den VNA-Importer](../new-in-verinice/vna-importer) ausführlich beschrieben.
+
+Der Import von Daten aus den Perspektiven **ISM/ISO** und Daten des **Business Continuity Management** befindet sich in aktiver Entwicklung, siehe [Roadmap](../roadmap/index).
+
+## Business Continuity Management (BCM)
+<!-- epics/362 epics/285 epics/258 epics/306 epics/255 -->
+
+Das BCM kann in drei neuen Domänen **BSI 200-4 (DE)**, **ISO 22301 (DE)** und **ISO 22301 (INT)** abgebildet werden. Die Domänen stehen in Kürze in den jeweiligen Bundles zur Verfügung.
+
+Die **MTPD** nach Schadensbewertung kann für Geschäftsprozesse festgelegt werden und die minimale MTPD nach automatischem Abgleich der Abhängigkeiten von anderen Prozessen ermittelt werden. Die **RTO** und die **RPO** für Ressourcen werden analog automatisch nach den Prozessabhängigkeiten abgeleitet.
+
+![MTPD](../assets/release-notes/verinice-57-bcm-values.png)
+
+Die Ergebnisse der Notfallplanung können mittels der Report-Vorlagen **Wiederanlauf- und Wiederherstellungsplan**, **Geschäftsfortführungsplan** und **Notfallhandbuch** dokumentiert und ausgegeben werden.
+
 ## Umsetzungsdokumentation erweitern
 <!-- epics/261 -->
 
@@ -15,7 +38,7 @@ Die Dokumentation der Umsetzung von Anforderungen wurde domänenübergreifend er
 ## Anwendbarkeit (SoA) besser dokumentieren
 <!-- epics/208 -->
 
-Die Anwendbarkeit (SoA) kann im Scopeobjekt in der Control-Implementation (CI) für die einzelnen ISO-Controls besser dokumentiert werden:
+Die Anwendbarkeit (SoA) kann im Scopeobjekt in der Zuordnung für die einzelnen ISO-Controls besser dokumentiert werden:
 
 ![SoA](../assets/release-notes/verinice-57-CI.png)
 
@@ -23,17 +46,6 @@ Die Anwendbarkeit (SoA) kann im Scopeobjekt in der Control-Implementation (CI) f
 <!-- epics/369 -->
 
 Im CSV-Import-Wizard kann eine [CSV-Datei als Vorlage für den Import](../manual/CSV-Import.md) jedes Subtypen heruntergeladen werden. Die Vorlage enthält Daten für alle Felder und vereinfacht so den Import nach verinice. 
-
-## Business Continuity Management (BCM)
-<!-- epics/362 epics/285 epics/258 epics/306 epics/255 -->
-
-Das BCM kann in drei neuen Domänen **BSI 200-4 (DE)**, **ISO 22301 (DE)** und **ISO 22301 (INT)** abgebildet werden. Die Domänen stehen in Kürze in den jeweiligen Bundles zur Verfügung.
-
-Die MTPD nach Schadensbewertung kann für Geschäftsprozesse festgelegt werden und die minimale MTPD nach automatischem Abgleich der Abhängigkeiten von anderen Prozessen ermittelt werden. Die RTO für Ressourcen wird analog automatisch nach den Prozessabhängigkeiten abgeleitet.
-
-![MTPD](../assets/release-notes/verinice-57-bcm-values.png)
-
-Die Ergebnisse der Notfallplanung können mittels der Report-Vorlagen **Wiederanlauf- und Wiederherstellungsplan**, **Geschäftsfortführungsplan** und **Notfallhandbuch** dokumentiert und ausgegeben werden.
 
 ## Detailverbesserungen und Bugfixes
 <!-- epics/273 -->
@@ -43,5 +55,4 @@ Die Ergebnisse der Notfallplanung können mittels der Report-Vorlagen **Wiederan
 - Beheben eines Fehlers beim Erstellen des Security-Incident-Reports. <!-- work_items/4860 -->
 - Im Report A.5 Risikoanalyse werden keine Risiken aus falschen Domains mehr angezeigt. <!-- work_items/4828 -->
 - Höhe des Scrollbalkens in der Objektübersicht angepasst. <!-- work_items/4867 -->
-- Logo in Keycloak aktualisiert und Cursor-Effekt korrigiert. <!-- work_items/4903 -->
-- Update dependency @nuxt/eslint-config. <!-- work_items/4900 -->
+- Logo auf der Loginseite aktualisiert und Cursor-Effekt korrigiert. <!-- work_items/4903 -->
