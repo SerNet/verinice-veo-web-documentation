@@ -1,28 +1,59 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-As of July 15, 2026 - Subject to change!
+As of July 16, 2026 - Subject to change!
 
 ## Q3 2026
 
+### Exporting Units in Unit Management <Badge type="danger">Development</Badge>
+
+Units can be exported directly from Unit Management.
+
 ### VNA Import
 
-VNA import from verinice.PRO to verinice.onprem or verinice.cloud for IT-Grundschutz, data protection, ISO, and BCM, including IT-Grundschutz profiles, B3S Khs., BSI minimum standards, and the C5 criteria catalog.
-- Provision of the VNA importer for migrating data to the IT-Grundschutz and Data Protection domains. <Badge type="info">Test</Badge>
-- Provision of the VNA importer for migrating data to the ISO and Data Protection domains. <Badge type="danger">Development</Badge>
+Implementation of the VNA import from verinice.PRO to verinice.onprem or verinice.cloud for data migration: 
+- to the **ISO** and **GDPRn** domains. <Badge type="danger">Development</Badge>
 <!-- epics/364 -->
-- Deployment of the VNA importer for migrating data to the BCM domains. <Badge type="warning">Planning</Badge>
+- to the **BCM** domains. <Badge type="warning">Planning</Badge>
 <!-- epics/365 -->
 
-### Expansion of authorization management <Badge type="warning">Planning</Badge>
-<!-- epics/178 -->
+### IT-Grundschutz Profiles <Badge type="danger">Development</Badge>
 
-Permissions management supports cross-references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
+Provision of the **IT-Grundschutz Profiles** based on the IT-Grundschutz Compendium, **Edition 2023-1** (in German only):
+
+- IT-GS Profil für die Verkehrssteuerungs- und Leitsysteme der Bundesautobahn
+- IT-GS-Profil Profil für oberste Bundesbehoerden
+- IT-GS-Profil Profil für den Betrieb von UAS
+- IT-GS-Profil Profil für Bundesgerichte
+- IT-GS-Profil Profil für Ressort-Forschungseinrichtungen
+- IT-GS-Profil zur Absicherung von 5G-Campusnetzen
+- IT-GS-Profil für Leitstellen V 2.0 Edition 2023 
+- IT-GS-Profil für die Nutzung der E-Akte Bund
+
+::: warning The IT-GS Profile Basis-Absicherung Kommunalverwaltung Version 4 is already available for use in verinice.
+:::
+
+::: info IT-Grundschutz profiles based on an older edition of the IT-Grundschutz Compendium may be provided upon request.
+:::
+
+### B3S Healthcare <Badge type="danger">Development</Badge>
+
+Release of the **Branchenspezifischen Sicherheitsstandard (B3S) für die medizinische Versorgung**, Version 1.3.1, as a profile for verinice (in German only).
+
+### Business Continuity Management Sample Data <Badge type="danger">Development</Badge>
+<!-- epics/253 -->
+
+Sample units and profiles for the BCM domains, e.g., the BCM profile for universities.
 
 ### Workflow <Badge type="warning">Planning</Badge>
 <!-- epics/374 -->
 
 Creation of tasks for any objects, e.g., as questionnaire objects that can be delegated and re-delegated between users.
+
+### Expansion of authorization management <Badge type="warning">Planning</Badge>
+<!-- epics/178 -->
+
+Permissions management supports cross-references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
 
 ### Report Formats <Badge type="warning">Planning</Badge>
 
@@ -36,15 +67,6 @@ Provision of additional output formats for reports (CSV, XLSX/ODS, and DOCX/ODT,
 Mapping of internal and external audits in verinice with task delegation and monitoring as part of the workflow. The planning and execution of internal and external audits are mapped via a new scope object.
 
 ## Q4 2026
-
-### Exporting Units in Unit Management <Badge type="danger">Development</Badge>
-
-Units can be exported directly from Unit Management.
-
-### Business Continuity Management Sample Data <Badge type="danger">Development</Badge>
-<!-- epics/253 -->
-
-Sample units and profiles for the BCM domains, e.g., the BCM profile for universities.
 
 ### Dashboard <Badge type="warning">Planning</Badge>
 <!-- epics/315 -->
