@@ -61,8 +61,32 @@ The following restrictions must be observed during VNA import:
 
 ## Installation
 
-For users of **verinice.cloud**, the VNA Importer is available for free download in the [verinice.Shop](https://account.eu.verinice.cloud/) under **Tools**. Users of **verinice.onprem** can find the VNA Importer in the corresponding [repository](https://registry.verinice.com/). The VNA Importer is available exclusively in English.
-Since the VNA Importer is continuously being developed, be sure to use the latest version!
+For users of **verinice.cloud**, the VNA Importer is available for free download in the [verinice.Shop](https://account.eu.verinice.cloud/) under **Tools**. Users of **verinice.onprem** can find the VNA Importer in the corresponding [repository](https://registry.verinice.com/).
+
+The VNA Importer is available as:
+- a signed **vna-importer.exe** for **Windows**.
+- a signed **vna-importer.dmg** for **macOS**
+- as **java -jar vna-importer.jar** for use in the terminal on **Unix** (technically savvy users can also use it in the terminal on Windows and macOS).
+
+The VNA Importer is available exclusively in English.
+
+Since the tool is continuously being developed, be sure to use the latest version!
+
+### Troubleshooting
+
+#### On Windows
+
+![SmartScreen](../assets/new-in-verinice/vna-importer-windows.png)
+
+If the VNA Importer signed by *SerNet Service Network GmbH* is initially prevented from launching on Windows, it can be started by selecting *Run Anyway* after the certificate has been verified and the perceived risk has been assessed. This is caused by Microsoft’s restrictive handling of [SmartScreen reputation](https://learn.microsoft.com/de-de/windows/apps/package-and-deploy/smartscreen-reputation).
+
+#### On macOS
+
+<!-- ![macOS quarantine](../assets/new-in-verinice/vna-importer-macOS.png) -->
+
+On macOS, the quarantine for the downloaded file can be lifted in the same way after verifying its trustworthiness (certificate) by entering the following command in Terminal:
+
+`attr -dr com.apple.quarantine “/Applications/vna-importer.app”`
 
 ## Importing into the Cloud Environment (GUI)
 

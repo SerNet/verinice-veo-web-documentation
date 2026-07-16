@@ -67,9 +67,32 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 
 ## Installation
 
-Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung. Anwenderinnen und Anwender von **verinice.onprem** finden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/). Der VNA-Importer ist ausschließlich in englischer Sprache verfügbar.
+Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung. Anwenderinnen und Anwender von **verinice.onprem** finden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/).
 
-Da der VNA-Importer kontinuierlich weiterentwickelt wird, verwenden Sie unbedingt die jeweils aktuelle Version!
+Der VNA-Importer steht bereit als:
+- signierte **vna-importer.exe** für **Windows**.
+- signiertes **vna-importer.dmg** für **macOS**
+- als **java -jar vna-importer.jar** zum Einsatz im Terminal unter **Unix** (für technisch versierte Anwenderinnen und Anwender auch unter Windows und macOS im Terminal einsetzbar).
+
+Der VNA-Importer ist ausschließlich in englischer Sprache verfügbar.
+
+Da das Tool kontinuierlich weiterentwickelt wird, verwenden Sie unbedingt die jeweils aktuelle Version!
+
+### Problembehebung
+
+#### Unter Windows
+
+![SmartScreen](../assets/new-in-verinice/vna-importer-windows.png)
+
+Sollte der Start des durch die *SerNet Service Network GmbH* signierten VNA-Importers unter Windows initial verhindert werden, kann dieser nach Prüfung des Zertifikats und Bewertung des vermeintlichen Risikos durch *Trotzdem ausführen* gestartet werden. Ursache ist die restriktive Handhabung der [SmartScreen-Reputation seitens Microsoft](https://learn.microsoft.com/de-de/windows/apps/package-and-deploy/smartscreen-reputation).
+
+#### Unter macOS
+
+<!-- ![macOS Quarantäne](../assets/new-in-verinice/vna-importer-macOS.png) -->
+
+Unter macOS kann die Quarantäne für die heruntergeladene Datei analog nach Prüfung der Vertrauenswürdigkeit durch Eingabe des folgenden Befehls im Terminal aufgehoben werden:
+
+`attr -dr com.apple.quarantine "/Applications/vna-importer.app"`
 
 ## Import in die Cloud-Umgebung (GUI)
 
