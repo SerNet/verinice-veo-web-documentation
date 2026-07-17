@@ -71,7 +71,7 @@ Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zu
 
 Der VNA-Importer steht bereit als:
 - signierte **vna-importer.exe** für **Windows**.
-- signiertes **vna-importer.dmg** für **macOS**
+- **vna-importer.dmg** für **macOS**
 - als **java -jar vna-importer.jar** zum Einsatz im Terminal unter **Unix** (für technisch versierte Anwenderinnen und Anwender auch unter Windows und macOS im Terminal einsetzbar).
 
 Der VNA-Importer ist ausschließlich in englischer Sprache verfügbar.
@@ -99,7 +99,7 @@ Unter macOS kann die Quarantäne für die heruntergeladene Datei analog nach Pr�
 Für den Import von Daten in den jeweiligen Client in der **verinice.cloud** steht der VNA-Importer inklusive der erforderlichen Java-Laufzeitumgebung vereinfacht als Tool mit graphischer Benutzeroberfläche (Graphical User Interface - GUI) zur Verfügung. Sie können diese wie folgt aufrufen:
 
 - unter **Windows** durch Ausführen der Datei **vna-importer.exe**.
-- unter **macOS** durch Ausführen der Datei  **vna-importer.dmg**.
+- unter **macOS** durch Ausführen der Datei **vna-importer.app** (unter */Applications/vna-importer.app*).
 - unter **Unix** durch Aufruf von **java -jar vna-importer.jar** im Terminal, nach vorherigem Wechsel in das entsprechende Verzeichnis.
 
 ![VNA-Importer](../assets/new-in-verinice/vna-importer-start.png)
