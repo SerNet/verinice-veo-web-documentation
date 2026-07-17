@@ -1,4 +1,4 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Business Impact Analyse (BIA)
 
 Ein Hauptziel des Business Continuity Management Systems (BCMS) ist die angemessene Absicherung geschäftskritischer Prozesse. Die Business Impact Analyse (BIA) dient dazu, systematisch folgende Kernfragen zu beantworten:
@@ -22,6 +22,7 @@ Um mit der BIA zu starten, müssen die relevanten Prozesse im BCMS-Geltungsberei
 ![Geschäftsprozess einer Domäne in eine andere Domäne zuordnen](../assets/domain-bcm/verinice-46-assignObjectToDomain.gif)
 
 ### Dokumentation von Prozess-Details
+
 Im Formular des jeweiligen Geschäftsprozesses können Sie spezifische Zusatzinformationen zur BIA hinterlegen. Dazu gehören:
 
 * Art der Prozesskontinuität: z. B. kontinuierlich, ergebnisorientiert, zyklisch oder quasi-zyklisch
@@ -44,9 +45,11 @@ Für einen strukturierten Überblick werden benötigte Ressourcen unter dem Obje
 
 ### Ermittlung des Schadenspotenzials und der MTPD
 
-Zur Identifikation zeitkritischer Prozesse muss das Schadenspotenzial jedes Geschäftsprozesses für die zuvor definierten Zeithorizonte bewertet werden. Diese Bewertung führen Sie vorerst außerhalb von verinice durch (als Hilfsmittel kann hierfür beispielsweise der Auswertungsbogen des BSI genutzt werden). Das Ergebnis können Sie im Formular des Geschäftsprozesses anhand eines Links zum separaten Dokument hinterlegen.
+Zur Identifikation zeitkritischer Prozesse muss das Schadenspotenzial jedes Geschäftsprozesses für die zuvor definierten Zeithorizonte bewertet werden. Definieren Sie die **MTPD nach Schadensbewertung** nach dem Worst-Case Prinzip im Abschnitt **MTPD (Maximal tolerierbare Ausfallzeit)**:
 
-Aus dieser externen Bewertung ergibt sich eine erste maximale tolerierbare Ausfallzeit (MTPD), die Sie in verinice dokumentieren. Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszenarien ausschlaggebend für die Bewertung waren und ob es sich letztlich um einen zeitkritischen Geschäftsprozess handelt.
+![MTPD nach Schadensbewertung](../assets/domain-bcm/verinice-57-mtpd.png)
+
+Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszenarien ausschlaggebend für die Bewertung waren und ob es sich letztlich um einen zeitkritischen Geschäftsprozess handelt.
 
 ### Festlegung des Notbetriebsniveaus
 
@@ -54,21 +57,20 @@ Aus dieser externen Bewertung ergibt sich eine erste maximale tolerierbare Ausfa
 
 ### Abbildung von notfallrelevanten Prozessabhängigkeiten
 
-Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, schlägt eine automatisierte Prüfung (Inspection) in verinice an:
+Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, gibt die automatisierte Prüfung (Inspection) Meldungen aus:
 
-* Unter Hinweise erscheint die Meldung, dass die MTPD aufgrund der Prozessabhängigkeiten abweicht.
-* Das System schlägt daraufhin automatisch eine angepasste MTPD (MIN) vor.
+- **Zeitkritischer Prozess:** Der Prozess wird als zeitkritisch bewertet, wenn eine MTPD nach Schadensbewertung festgelegt wurde.
+- **MTPD nach Schadensbewertung:** Der Eingetragene Wert wird angezeigt
+- **MTPD nach Prozessabhängigkeiten:** Dieser Wert wird nach dem Minimumprinzip bestimmt aus allen von **anderen Prozessen** geforderten MTPD. 
+- **MTPD minimal:** Aus den beiden vorhergehenden Werten resultiert der kleinste Wert als minimale MTPD für den Prozess.
+- **RTO kleiner gleich:** Die RTO für Ressourcen muss in jedem Fall kleiner oder gleich der MTPD sein.
 
 ### Festlegung der geforderten Wiederanlaufzeit (RTO) und der RPO und Abbildung der Ressourcenabhängigkeiten
-
-Nach der finalen Bestimmung der MTPD wird ein Richtwert für die Recovery Time Objective (RTO) vorgegeben. Die RTO definiert die Zeitspanne, innerhalb derer die benötigten Ressourcen für den Notbetrieb des Geschäftsprozesses wieder einsatzbereit sein müssen.
-
-Die RTO eines Prozesses muss zwingend kleiner als dessen MTPD sein.
 
 Der Prozesseigentümer identifiziert und dokumentiert nach den Prozessabhängigkeiten auch die Ressourcenabhängigkeiten:
 
 * Die für den Notbetrieb benötigten Ressourcen werden über den Custom-Link verknüpft.
-* Direkt in diesem Custom-Link werden die spezifische RTO und RPO der Ressource für diesen konkreten Geschäftsprozess definiert.
+* Direkt in diesem Custom-Link werden die spezifische RTO und RPO der jeweiligen Ressource für diesen konkreten Geschäftsprozess definiert.
 
 ### Besonderheit bei daten- und IT-basierten Ressourcen
 
@@ -78,7 +80,9 @@ Die RPO ist konzeptionell unabhängig von MTPD und RTO, wird jedoch im nächsten
 
 ### RTO und RPO konsolidieren
 
-Nachdem alle Prozesseigentümer ihre Bedarfe dokumentiert haben, werden die RTO- und RPO-Anforderungen der verschiedenen Prozesse auf Ebene der jeweiligen Ressourcen konsolidiert. Die finalen Ergebnisse werden direkt in das Ressourcen-Objekt übernommen. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die schärfste (kleinste) RTO oder RPO aller verknüpften Prozesse bestimmt die globale Anforderung für diese Ressource.
+Nachdem alle Prozesseigentümer ihre Bedarfe dokumentiert haben, werden die RTO- und RPO-Anforderungen der verschiedenen Prozesse auf Ebene der jeweiligen Ressourcen automatisch konsolidiert. Die finalen Ergebnisse werden direkt in das Ressourcen-Objekt übernommen. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die schärfste (kleinste) RTO oder RPO aller verknüpften Prozesse bestimmt die globale Anforderung für diese Ressource.
+
+![RTO und RPO](../assets/domain-bcm/verinice-57-rto-rpo.png)
 
 ### Identifizierung von Single Points of Failure
 

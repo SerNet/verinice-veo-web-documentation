@@ -1,116 +1,101 @@
-<!-- © 2025 The Project Contributors - see AUTHORS.txt -->
+<!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Business Impact Analysis (BIA)
 
-A key objective of the BCMS is to ensure adequate protection of **business-critical processes**. The BIA serves to systematically determine:
-- whether a business process is **time-critical**, 
-- how long it can be down before intolerable damage occurs, and
-- what resources are required to continue the process in emergency mode.
+A primary objective of the Business Continuity Management System (BCMS) is to adequately safeguard business-critical processes. The Business Impact Analysis (BIA) serves to systematically answer the following key questions:
 
-The BIA thus forms the basis for:
-- the **prioritization of processes**, 
-- the **definition of recovery objectives (RTO, RPO)**, and
-- the **planning of emergency preparedness and recovery measures**.
+* Time sensitivity: Is the business process time-sensitive?
+* Fault tolerance: What is the maximum allowable downtime for the process before intolerable damage occurs to the institution?
+* Resource requirements: What resources are absolutely necessary to maintain the process in emergency mode?
 
-## BIA preparation
+Thus, the BIA forms the foundation for prioritizing processes, defining recovery time objectives (RTO) and recovery point objectives (RPO), and subsequently planning emergency and recovery measures.
 
-### Creating business processes
+## Preparing for the BIA
 
-In the **BCMS scope**, the **business processes** to be considered can be added as objects. If 
-the institution has an ISMS, the business processes identified there can be used as a starting point. The **directory of processing activities** in accordance with the GDPR can also be used as a support, as procedural activities often correspond directly to business processes or can be derived from them.
-If no business processes have been created in verinice yet, they can be created using the object type ****Business Process**, or existing processes can be assigned from the ****Data Protection or ISMS Domain** to the ****BCMS Domain**.
-  
-![Assigning a business process from one domain to another domain](../assets/domain-bcm/verinice-46-assignObjectToDomain.gif)
+### Defining Business Processes
 
-Before the results of the damage assessment are recorded, additional information about the business process or the Business Impact Analysis (BIA) in general can be documented. This includes, among other things:
-- Type of process continuity (continuous, results-oriented, cyclical, or quasi-cyclical)
-- Most critical periods,
-- The person or persons responsible for the BIA,
-- The responsible organizational unit,
-- The type of data collection (e.g., self-reporting, individual interviews, workshops),
-- And the location of the process.
+To begin the BIA, the relevant processes within the BCMS scope must be recorded as objects. Take advantage of existing synergies: If your institution already has an Information Security Management System (ISMS) or a Record of Processing Activities (RPA) in accordance with the GDPR, this data can serve as an ideal starting point.
 
-![Information on the BIA in the business process](../assets/domain-bcm/verinice-46-bia1.png)
+* Create new processes: If no processes have been recorded yet, create them using the “Business Process” object type.
 
-### Defining resource categories and clusters
+* Use existing processes: You can easily assign existing processes from the data protection or ISMS domain to the BCMS domain.
 
-Under the object type **Resource**, the **resource categories** and **clusters** can be defined as composites (e.g., personnel, IT systems, buildings, service providers, information).
-Individual resources can in turn be assigned to parts of this composite/supergroup.
+![Assign a business process from one domain to another](../assets/domain-bcm/verinice-46-assignObjectToDomain.gif)
 
-### Defining BIA parameters and time horizons
+### Documentation of Process Details
 
-The BIA analyzes the damage that can occur over time as a result of a business process failure. For this purpose, **time horizons** are defined, which are used to assess the development of damage. In verinice, configuration takes place under BCMRA (risk definition). There you can:
-- **manage time horizons**, 
-- define **damage categories**,
-- describe **damage scenarios** to specify the potential damage.
-  
-![Manage time horizons, damage categories, and damage scenarios in the BCMRA](../assets/domain-bcm/verinice-46-bcmra.png)
+In the form for the respective business process, you can enter specific additional information regarding the BIA. This includes:
 
-After saving, the configured time horizons are available under each business process. There, the **damage potential can be assessed and documented according to time horizon**.
+* Type of process continuity: e.g., continuous, outcome-oriented, cyclical, or quasi-cyclical
+* Most critical periods: Phases during which a failure would have particularly serious consequences
+* Responsibilities: The BIA manager and the responsible organizational unit
+* Data collection: The selected methodology (e.g., self-report, individual interview, workshop)
 
-## Performing the BIA
+![BIA details in the business process](../assets/domain-bcm/bia.png)
 
-### Determining the damage potential and the MTA
+### Defining Resource Categories and Clusters
 
-To identify time-critical processes, the **damage potential** of each business process is assessed for the previously defined time horizons. In verinice, this assessment is performed in the business process object according to the **worst-case principle**, which takes into account the highest possible extent of damage.
- 
-Subsequently, a justification can be documented and evaluated as to which **damage scenarios** are decisive for the assessment and whether it is a time-critical business process.  
-This assessment results in the **MTA**, which can (still) be entered manually.
-  
-![Incident](../assets/domain-bcm/verinice-46-bia2.gif)
+To provide a structured overview, required resources are recorded under the “Resource” object type and organized into resource categories and clusters (e.g., personnel, IT systems, buildings, service providers, information) via so-called composites (parent groups).
 
-### Mapping of emergency-relevant process dependencies
+* Structuring: Assign individual resources to the appropriate composite via the “Parts” tab.
+* Responsibilities: Link the responsible internal personnel or external service providers directly within the resource.
 
-After the initial assessment, the emergency-relevant process dependencies should be analyzed to determine whether the MTA changes as a result of these dependencies.
-To do this, custom links can be created between processes to represent upstream, parallel, or downstream processes. An MTA for the required business process can also be documented for the link, based on the dependency on this business process, with justification.
- 
-If the MTA changes as a result of the dependencies, the new value must be documented in the **MTA (according to process dependencies)** field. The MTPD can then be adjusted accordingly under **MTA(MIN)** and finally defined.
+![Responsible Persons for a Resource](../assets/domain-bcm/resource-1.png)
 
-![Illustration of process dependencies](../assets/domain-bcm/verinice-46-bia3.png)
+## Conducting the BIA
 
-### Determining the required recovery time (RTO)
+### Determining the Damage Potential and the MTPD
 
-After determining the MTPD, the **Recovery Time Objective (RTO)** must be defined – the time span within which the business process must be functional again after a failure. The RTO must be less than the MTA.
-The **process owner** can document the RTO in the **RTO for necessary resources** field of the business process.
-Enter the RTO in the field under the respective business process.
+To identify time-critical processes, the damage potential of each business process must be assessed for the previously defined time horizons. Define the **MTPD based on damage assessment** according to the worst-case principle in the section **MTPD (Maximum Tolerable Downtime)**:
 
-### Defining the emergency operation level
+![MTPD after damage assessment](../assets/domain-bcm/verinice-57-mtpd.png)
 
-In addition to the RTO and MTA, the **Emergency Operation Level** field can be used to define the scope of services for which the business process is to be operated in emergency mode (e.g., 60% capacity, simplified procedures).
+Next, explain how the MTPD was determined, which damage scenarios were decisive for the assessment, and whether the business process is ultimately time-critical.
 
-### Determining the maximum tolerable data loss (RPO)
+### Defining the Emergency Operation Level
 
-For **information-based resource categories** (e.g., data, IT systems, information storage), the **Recovery Point Objective (RPO)** must also be determined.
-This describes the maximum amount of time that data in emergency operation may be delayed without impairing the process flow. The RPO is independent of MTPD and RTO, but should be consolidated according to the minimum principle if several processes use the same resource.
-The **process owner** can specify the RPO in the **Maximum permissible data loss (RPO)** field of the business process.
+Use the Emergency Operation Level field to define the minimum scope of service at which the business process must be operated in the event of a crisis in order to avert intolerable damage (e.g., maintaining 60% of regular capacity, using simplified manual procedures).
 
-![Documentation of RPO and RTO in the business process](../assets/domain-bcm/verinice-46-biaRtoRpo.png)
+### Mapping of Emergency-Related Process Dependencies
+
+After the initial assessment, the emergency-related dependencies between processes are analyzed. This is necessary to determine whether a process’s MTPD is reduced due to its dependency on another process. If the fault tolerance changes as a result of these dependencies, the automated inspection generates the following messages:
+
+- **Time-Critical Process:** The process is classified as time-critical if an MTPD has been defined following a damage assessment.
+- **MTPD Following Damage Assessment:** The entered value is displayed
+- **MTPD based on process dependencies:** This value is determined using the minimum principle from all MTPDs required by **other processes**. 
+- **Minimum MTPD:** The smaller of the two preceding values is used as the minimum MTPD for the process.
+- **RTO less than or equal to:** The RTO for resources must always be less than or equal to the MTPD.
+
+### Defining the Required Time to Recovery (RTO) and RPO and Mapping Resource Dependencies
+
+The process owner also identifies and documents the resource dependencies based on the process dependencies:
+
+* The resources required for emergency operation are linked via the custom link.
+* The specific RTO and RPO for each resource in this particular business process are defined directly within this custom link.
+
+### Special Considerations for Data- and IT-Based Resources
+
+For information-based resource categories (e.g., data, IT systems, information storage), the Recovery Point Objective (RPO) must also be determined. This describes the maximum tolerable data loss—that is, the furthest back in time that data may be in emergency mode without unduly impairing the process flow.
+
+Conceptually, the RPO is independent of MTPD and RTO; however, it is consolidated in the next step if multiple processes access the same resource.
 
 ### Consolidating RTO and RPO
 
-The resource managers derive the maximum permissible data loss (RPO) or the required recovery time (RTO) of a resource from the results of the process owners and document these in the respective resource. If several processes use the same resource, the minimum principle applies: The smallest RTO or PRO determines the requirement for the resource.
+Once all process owners have documented their requirements, the RTO and RPO requirements of the various processes are automatically consolidated at the level of the respective resources. The final results are transferred directly to the resource object. If multiple processes use the same resource, the minimum principle applies: The strictest (smallest) RTO or RPO of all linked processes determines the global requirement for that resource.
 
-Currently, enter the values manually in the resource object under **Required Recovery Time (RTO)** and **Maximum Permissible Data Loss (RPO)**.
+![RTO and RPO](../assets/domain-bcm/verinice-57-rto-rpo.png)
 
-![Consolidation of RPO and RTO on resources](../assets/domain-bcm/verinice-46-rtoRpoResource.png)
+### Identification of Single Points of Failure
 
-## Mapping resource dependencies
+Resources that are shared by multiple time-critical processes and whose failure could trigger a chain reaction must be identified as critical bottlenecks. In verinice, these vulnerabilities can be documented in the resource object using the Single-Point-of-Failure/of-Knowledge/of-Contact (SPoF/SPoK/SPoC) field. Before doing so, the SPoFs can be linked directly to the parent business process as known vulnerabilities.
+verinice distinguishes between three categories:
 
-### Resource dependencies
+* SPoF (Single Point of Failure): Technical or service-related bottlenecks (e.g., a central firewall, a single external service provider).
+* SPoK (Single Point of Knowledge): Knowledge dependencies in which business-critical expertise resides with a single individual.
+* SPoC (Single Point of Contact): Communication dependencies in which the flow of information depends on a single point of contact.
 
-For all time-critical business processes, the required **resources** must be identified and assigned to the processes. This link forms the basis for planning **business continuity** in the event of an emergency or crisis.
+## Developing Emergency and BC Solutions for Business Continuity Planning
 
-### Identification of single points of failure
+Once the gaps and requirements identified in the BIA have been established, appropriate emergency plans and solutions must be developed for the critical resources.
 
-Resources that are shared by several time-critical processes must be marked as **single points of failure (SPoF)**. In verinice, this can be done using the
-  
-**Single Point of Failure/of Knowledge/of Contact (SPoF/SPoK/SPoC)** field in the resource object. Beforehand, the SPoFs can be linked as known weak points in a business process.
-A distinction is made between:
-- **SPoF:** Technical or service-related bottlenecks  
-- **SPoK:** Knowledge dependencies of individual persons
-- **SPoC:** Communication dependencies of individual contacts
-
-![Illustration of resource dependencies](../assets/domain-bcm/verinice-46-bia4.gif)
-
-## Outlook – Resource requirements in emergency operation
-
-The **verinice.TEAM** is working on functions for the **automated calculation and consolidation** of **MTPD, RTO, and RPO values** as well as for determining resource requirements, e.g., personnel, workstations, machines, IT equipment, over the duration of emergency operation in order to ensure continuity in emergency operation.
+* Linking in verinice: Under the section **Emergency Planning**, you can link the corresponding BC solutions directly to the resources.
+* Details: The actual development of the business continuity plans then takes place in the specific subtype **BC Solution** (for details, see the chapter [Business Continuity and Recovery Planning](./create-Plans-for-Emergency)).
