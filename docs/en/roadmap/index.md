@@ -53,7 +53,7 @@ Creation of tasks for any objects, e.g., as questionnaire objects that can be de
 ### Expansion of authorization management <Badge type="warning">Planning</Badge>
 <!-- epics/178 -->
 
-Permissions management supports cross-references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
+Permissions management supports references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
 
 ### Report Formats <Badge type="warning">Planning</Badge>
 
