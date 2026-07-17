@@ -57,10 +57,10 @@ Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszena
 
 ### Abbildung von notfallrelevanten Prozessabhängigkeiten
 
-Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, gibt die automatisierte Prüfung (Inspection) Meldungen aus:
+Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, gibt die automatisierte Prüfung (Inspection) folgende Meldungen aus:
 
 - **Zeitkritischer Prozess:** Der Prozess wird als zeitkritisch bewertet, wenn eine MTPD nach Schadensbewertung festgelegt wurde.
-- **MTPD nach Schadensbewertung:** Der Eingetragene Wert wird angezeigt
+- **MTPD nach Schadensbewertung:** Der eingetragene Wert wird angezeigt
 - **MTPD nach Prozessabhängigkeiten:** Dieser Wert wird nach dem Minimumprinzip bestimmt aus allen von **anderen Prozessen** geforderten MTPD. 
 - **MTPD minimal:** Aus den beiden vorhergehenden Werten resultiert der kleinste Wert als minimale MTPD für den Prozess.
 - **RTO kleiner gleich:** Die RTO für Ressourcen muss in jedem Fall kleiner oder gleich der MTPD sein.
