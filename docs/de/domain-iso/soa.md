@@ -32,41 +32,34 @@ Alternativ wählen Sie im Dashboard den Subtyp **ISMS-Geltungsbereiche** und ers
 
 ### Zugriff auf die SoA-Funktion
 
-Öffnen Sie den angelegten **ISMS-Geltungsbereich** und wählen Sie den Tab-Reiter **Sicherheitsmaßnahmen**. Über die Plus-Schaltfläche **Sicherheitsmaßnahmen auswählen** können Sie die anwendbaren Sicherheitsmaßnahmen für die Erklärung zur Anwendbarkeit auswählen und speichern. Wenn der **Katalog ISO/IEC 27001** bereits auf Ihre Unit angewendet wurde, wird die Liste der Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001 automatisch geladen.
+Öffnen Sie den angelegten **ISMS-Geltungsbereich** und wählen Sie den Tab-Reiter **Controls**. Über die Plus-Schaltfläche **Sicherheitsmaßnahmen verknüpfen** können Sie die anwendbaren Sicherheitsmaßnahmen für die Erklärung zur Anwendbarkeit auswählen und speichern. Wenn der **Katalog ISO/IEC 27001** bereits auf Ihre Unit angewendet wurde, wird die Liste der Sicherheitsmaßnahmen aus Anhang A der ISO/IEC 27001 automatisch geladen.
 
 In der Liste müssen alle Sicherheitsmaßnahmen ausgewählt werden, die im Sinne einer Erklärung zur Anwendbarkeit angewendet werden müssen. Das können sowohl Sicherheitsmaßnahmen aus dem Anhang A als auch organisationsspezifische sein.
 
 ### Anwendbarkeit, Umsetzungsstatus und Begründung dokumentieren
 
-Wenn die Sicherheitsmaßnahmen ausgewählt wurden, sind sie Bestandteil der Erklärung zur Anwendbarkeit und werden für den Report als **anwendbar** markiert.
+Um die Anwendbarkeit für eine Sicherheitsmaßnahme zu dokumentieren, klicken Sie im Tab-Reiter **Controls** auf die entsprechende Maßnahme.
 
-Um die Auswahl für eine Sicherheitsmaßnahme zu begründen, klicken Sie im Tab-Reiter **Sicherheitsmaßnahmen** auf die entsprechende Maßnahme
+![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-57-SOA-select-control.png)
 
-![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-select-control.png)
 
-und geben im Beschreibungsfeld Ihren Auswahlgrund ein:
 
-![Auswahlgrund](../assets/domain-iso/verinice-39-select-reason.png)
+Neben der Möglichkeit eine verantwortliche Person zuzuweisen und eine Beschreibung zu hinterlegen, können Sie unter dem Abschnitt **Anwendbarkeit** auswählen, ob die Sicherheitsmaßnahme Bestandteil der Statement of Applicability (SOA) ist. Darüber hinaus kann ein Auswahlgrund aus den Kategorien **gesetzliche Anforderungen, vertragliche Anforderungen, organisatorische Anforderung und Anforderungen aus der Risikoanalyse** ausgewählt werden. Zusätzlich besteht die Möglichkeit, eine Begründung für die Anwendbarkeit bzw. Nichtanwendbarkeit der Sicherheitsmaßnahme zu hinterlegen.
+
+![Auswahlgrund](../assets/domain-iso/verinice-57-SOA-select-reason.png)
+
+**Hinweis**: Diese Funktionen stehen mit dem Release von **verinice 57** zur Verfügung. Haben Sie die Anwendbarkeit der SOA - insbesondere den Auswahlgrund - bisher im allgemeinen Beschreibungsfeld dokumentiert, müssen diese Informationen nach dem Update manuell in den Abschnitt **Anwendbarkeit** übertragen werden.
+
+![Alte Version:Auswahlgrund](../assets/domain-iso/verinice-39-select-reason.png)
 
 Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie den Umsetzungs-Dialog durch Mausklick auf das Icon **Umsetzung anzeigen**:
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-39-show-implementation.png)
+![Umsetzung anzeigen](../assets/domain-iso/verinice-57-SOA-show-implementation.png)
 
 Öffnen Sie die entsprechende Maßnahme und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-39-implementation-status.png)
+![Umsetzung anzeigen](../assets/domain-iso/verinice-57-SOA-implementation-status.png)
 
-Sicherheitsmaßnahmen mit den Umsetzungsstatus **Ja**, **Nein**, **Teilweise** oder **Unbearbeitet** werden als **anwendbar** im Report **Erklärung zur Anwendbarkeit** markiert.
-
-Wenn eine Sicherheitsmaßnahme Bestandteil der Erklärung der Anwendbarkeit sein soll aber explizit **ausgeschlossen** werden soll, wählen Sie die Sicherheitsmaßnahme im Tab-Reiter **Sicherheitsmaßnahmen** aus:
-
-![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-39-document-exclusion.png)
-
-und geben im Beschreibungsfeld die Begründung für den Ausschluss ein:
-
-![Begründung für den Ausschluss](../assets/domain-iso/verinice-39-description-exclusion.png)
-
-Damit die Sicherheitsmaßnahmen als nicht anwendbar im Report ausgegeben werden kann, muss der Umsetzungsstatus in den Umsetzungsdetails auf **Entbehrlich** gesetzt werden.
 
 ## SoA-Report
 
@@ -75,3 +68,6 @@ Ein vollständig ausgefüllter Report für die Erklärung zur Anwendbarkeit kann
 ![Report Erklärung zur Anwendbarkeit](../assets/domain-iso/verinice-39-report-soa.png)
 
 Wählen Sie einen ISMS-Geltungsbereich mit den zugeordneten Sicherheitsmaßnahmen der ISO/IEC 27001, Anhang A aus und klicken Sie auf **Report generieren**.
+
+
+[def]: ../assets/domain-iso/verinice-57-select-reason.png

@@ -36,37 +36,30 @@ Open the created **ISMS Scope** and go to the **Controls** tab. Using the plus b
 
 In the list, all security controls that must be applied in the sense of a Statement of Applicability must be selected. These may include both controls from Annex A and organization-specific controls.
 
-### Documenting Applicability, Implementation Status, and Justification
+### Documenting Applicability, Implementation Status and Justification
 
-Once the controls are selected, they become part of the Statement of Applicability and are marked as **applicable** for the report.
+To document the applicability of a security measure, click on the corresponding measure in the **Controls** tab:
 
-To justify the selection of a control, click on the respective control in the **Controls** tab:
+![Select Controls]( ../assets/domain-iso/verinice-57-SOA-select-control-en.png)
 
-![Select Controls]( ../assets/domain-iso/verinice-39-select-control.png)
+In addition to assigning a responsible person and entering a description, you can select in the “Applicability” section whether the security measure is part of the Statement of Applicability (SOA). Furthermore, you can select a reason for the selection from the categories: legal requirements, contractual requirements, organizational requirements, and requirements from the risk analysis. You also have the option to provide a justification for the applicability or non-applicability of the security measure.
 
-and enter your reasoning in the description field:
 
-![Reason for Selection]( ../assets/domain-iso/verinice-39-select-reason.png)
+![Reason for Selection]( ../assets/domain-iso/verinice-57-SOA-select-reason-en.png)
+
+**Note**: These features are available with the release of **verinice 57**. If you have previously documented the applicability of the SOA—particularly the reason for selection—in the general description field, you must manually transfer this information to the **Applicability** section after the update.
+
+![OLd Reason for Selection]( ../assets/domain-iso/verinice-39-select-reason.png)
 
 To document the implementation status of a control, open the implementation dialog by clicking the **Show Implementation** icon:
 
-![Show Implementation]( ../assets/domain-iso/verinice-39-show-implementation.png)
+![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-show-implementation-en.png)
 
 Open the corresponding control and document the current implementation status in the lower section:
 
-![Show Implementation]( ../assets/domain-iso/verinice-39-implementation-status.png)
+![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-implementation-status-en.png)
 
-Controls with the implementation status **Yes**, **No**, **Partially**, or **Not started** will be marked as **applicable** in the **Statement of Applicability** report.
 
-If a control should be part of the SoA but explicitly **excluded**, select the control in the **Controls** tab:
-
-![Document Exclusion]( ../assets/domain-iso/verinice-39-document-exclusion.png)
-
-and enter the justification for the exclusion in the description field:
-
-![Exclusion Justification]( ../assets/domain-iso/verinice-39-description-exclusion.png)
-
-For a control to be listed as not applicable in the report, its implementation status must be set to **Not required** in the implementation details.
 
 ## SoA Report
 
