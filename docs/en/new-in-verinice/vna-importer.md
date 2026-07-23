@@ -1,13 +1,11 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # The VNA Importer
 
-Version: **July 8, 2026**
-
 The **VNA Importer** is available as a separate Java client for transferring data from **verinice.PRO** or **verinice.EPV** (single-user version) to the new verinice generation (**verinice.cloud** or **verinice.onprem**).
 
 ## Features
 
-The VNA Importer is currently available for importing data from the **IT-Grundschutz** perspectives, including **data protection**. The import of data from additional perspectives (ISO 27001 including data protection, IT-Grundschutz including BCM, ISO 27001 including BCM) is currently under development and will be rolled out gradually.
+Initially, the VNA Importer is planned to support importing data from the **IT-Grundschutz** perspectives, including **data protection**. The import of data from additional perspectives (ISO 27001 including data protection, IT-Grundschutz including BCM, ISO 27001 including BCM) is currently under development and will be rolled out gradually.
 
 The VNA Importer creates a new unit and imports the data from the VNA file into this unit.
 
@@ -61,9 +59,9 @@ The following restrictions must be observed during VNA import:
 
 ## Installation
 
-For users of **verinice.cloud**, the VNA Importer is available for free download in the [verinice.Shop](https://account.eu.verinice.cloud/) under **Tools**. Users of **verinice.onprem** can find the VNA Importer in the corresponding [repository](https://registry.verinice.com/).
+For users of **verinice.cloud**, the VNA Importer will be available for free download in the [verinice.Shop](https://account.eu.verinice.cloud/) under **Tools**. Users of **verinice.onprem** will find the VNA Importer in the corresponding [repository](https://registry.verinice.com/).
 
-The VNA Importer is available as:
+The VNA Importer is going to be available as:
 - a signed **vna-importer.exe** for **Windows**.
 - a **vna-importer.dmg** for **macOS**
 - as **java -jar vna-importer.jar** for use in the terminal on **Unix** (technically savvy users can also use it in the terminal on Windows and macOS).

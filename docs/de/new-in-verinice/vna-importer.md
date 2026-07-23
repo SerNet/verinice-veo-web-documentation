@@ -1,13 +1,11 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Der VNA-Importer
 
-Versionsstand: **08.07.2026**
-
 Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation (**verinice.cloud** bzw. **verinice.onprem**) steht der **VNA-Importer** als separater Java-Client zur Verfügung.
 
 ## Funktionsumfang
 
-Der VNA-Importer ist aktuell verfügbar für die Übernahme von Daten aus den Perspektiven **IT-Grundschutz** inklusive **Datenschutz**. Die Übernahme von Daten aus weiteren Perspektiven (ISO 27001 inklusive Datenschutz, IT-Grundschutz inklusive BCM, ISO 27001 inklusive BCM) befindet sich in Entwicklung und wird sukzessive bereitgestellt.
+Der VNA-Importer soll initial verfügbar sein für die Übernahme von Daten aus den Perspektiven **IT-Grundschutz** inklusive **Datenschutz**. Die Übernahme von Daten aus weiteren Perspektiven (ISO 27001 inklusive Datenschutz, IT-Grundschutz inklusive BCM, ISO 27001 inklusive BCM) befindet sich in Entwicklung und wird sukzessive bereitgestellt.
 
 Der VNA-Importer erstellt eine neue Unit und importiert die Daten aus der VNA-Datei in diese Unit.
 
@@ -67,9 +65,9 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 
 ## Installation
 
-Für Anwenderinnen und Anwender von **verinice.cloud** steht der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung. Anwenderinnen und Anwender von **verinice.onprem** finden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/).
+Für Anwenderinnen und Anwender von **verinice.cloud** wird der VNA-Importer zum kostenlosen Download im [verinice.Shop](https://account.eu.verinice.cloud/) unter **Tools** zur Verfügung stehen. Anwenderinnen und Anwender von **verinice.onprem** werden den VNA-Importer im zugehörigen [Repository](https://registry.verinice.com/) finden.
 
-Der VNA-Importer steht bereit als:
+Der VNA-Importer wird bereitstehen als:
 - signierte **vna-importer.exe** für **Windows**.
 - **vna-importer.dmg** für **macOS**
 - als **java -jar vna-importer.jar** zum Einsatz im Terminal unter **Unix** (für technisch versierte Anwenderinnen und Anwender auch unter Windows und macOS im Terminal einsetzbar).
