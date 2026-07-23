@@ -35,6 +35,12 @@ The documentation of requirement implementation has been expanded across all dom
 
 ![Implementation Documentation](../assets/release-notes/verinice-57-RI.png)
 
+::: warning Migration notes
+In previous versions of the domains, it was already possible to document some of the above fields (such as *Last revision*) directly at the control itself. These control attributes are no longer supported in the new domain versions.
+
+If you have already used these control attributes in the past, please transfer your existing values to the implementations of your control, and remove the values from the control itself.
+:::
+
 ## Better Documentation of Applicability (SoA)
 <!-- epics/208 -->
 

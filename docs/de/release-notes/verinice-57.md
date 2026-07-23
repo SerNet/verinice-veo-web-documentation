@@ -35,6 +35,12 @@ Die Dokumentation der Umsetzung von Anforderungen wurde domänenübergreifend er
 
 ![Umsetzungsdokumentation](../assets/release-notes/verinice-57-RI.png)
 
+::: warning Migrationshinweise
+In den vorherigen Versionen der Domänen war es bereits möglich, einige der oben gezeigten Attribute (z. B. *Letzte Revision*) direkt am jeweiligen Control zu erfassen. Diese Controlattribute werden jedoch in den neuen Domänenversionen nicht mehr unterstützt.
+
+Wenn Sie diese Controlattribute bereits verwendet haben, übertragen Sie bitte vor dem Domänen-Update Ihre bestehenden Werte in die jeweiligen Umsetzungen(en) des Controls und entfernen Sie die Werte aus dem Control selbst.
+:::
+
 ## Anwendbarkeit (SoA) besser dokumentieren
 <!-- epics/208 -->
 
