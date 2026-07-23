@@ -5,18 +5,6 @@ Veröffentlichung: 24. Juli 2026 (voraussichtlich)
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 57** zur Verfügung.
 
-## VNA-Import
-
-Für die Datenübernahme von verinice.PRO zu verinice.onprem oder verinice.cloud steht der VNA-Importer zur Verfügung. Der VNA-Importer unterstützt in dieser ersten Iteration die Datenübernahme aus der Perspektive **IT-Grundschutz**, inklusive aller dort importierten bzw. erstellten Daten, wie z.B.:
-
-- Selbst erstellte **Informationsverbünde**.
-- Selbst erstellte **Benutzerdefinierte Bausteine**.
-- Importierte **IT-Grundschutz-Profile**, **Mindeststandards des BSI** oder der **Kriterienkatalog C5**.
-
-Die Vorgehensweise beim Import von VNA-Dateien ist in der [Dokumentation für den VNA-Importer](../new-in-verinice/vna-importer) ausführlich beschrieben.
-
-Der Import von Daten aus den Perspektiven **ISM/ISO** und Daten des **Business Continuity Management** befindet sich in aktiver Entwicklung, siehe [Roadmap](../roadmap/index).
-
 ## Business Continuity Management (BCM)
 <!-- epics/362 epics/285 epics/258 epics/306 epics/255 -->
 
