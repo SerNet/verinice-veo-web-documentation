@@ -7,15 +7,18 @@ hero:
   text: Dokumentation
   tagline: Mit Sicherheit neu!
   actions:
-    - theme: brand
+    - theme: alt
       text: Release Notes
       link: /de/release-notes/
-    - theme: brand
+    - theme: alt
       text: Roadmap
       link: /de/roadmap/
-    - theme: brand
+    - theme: alt
       text: Glossar
       link: /de/glossary/
+    - theme: brand
+      text: VNA-Importer
+      link: /de/new-in-verinice/vna-importer/
 
 features:
   - title: Die Domäne DS-GVO
