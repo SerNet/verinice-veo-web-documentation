@@ -85,7 +85,7 @@ Ein erfolgreicher Import wird durch entsprechende Meldung quittiert.
 
 Sofern der Import nicht als **Dry Run** durchgeführt wurde, finden Sie in Ihrer Zielumgebung eine Unit mit allen zuvor exportierten Inhalten vor. Nach einem **Dry Run** stehen die Inhalte dann nach wiederholtem realen Import zur Verfügung.
 
-Es ist angeraten die Daten zumindest Stichprobenhaft auf Vollständigkeit und Korrektheit zu prüfen. Um eventuelle Änderungen bzw. Neuerungen in Ihren Daten aufgrund des Generationswechsels nachvollziehen zu können, empfiehlt sich der Blick in die [Dokumentation](https://docs.eu.verinice.cloud/de/).
+Es ist angeraten die Daten zumindest stichprobenhaft auf Vollständigkeit und Korrektheit zu prüfen. Um eventuelle Änderungen bzw. Neuerungen in Ihren Daten aufgrund des Generationswechsels nachvollziehen zu können, empfiehlt sich der Blick in die [Dokumentation](https://docs.eu.verinice.cloud/de/).
 
 Aus Gründen der Nachvollziehbarkeit bietet sich an, die vom VNA-Importer erzeugt **Logdatei** zusammen mit der VNA-Datei zu speichern.
 
