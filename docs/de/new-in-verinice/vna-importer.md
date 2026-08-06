@@ -3,13 +3,16 @@
 
 Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation **verinice.cloud** steht der Webservice [VNA-Importer](https://vna-import.verinice.com/) zur Verfügung.
 
+Wenn Sie [verinice.onprem](https://verinice.com/produkte/verinice/veriniceonprem) ohne Verbindung zum Internet betreiben, wenden Sie sich bitte an unseren Support:
+support@verinice.com.
+
 ## Funktionsumfang
 
 Der VNA-Importer migriert Daten aus einer zuvor aus **verinice.PRO** oder **verinice.EPV** exportierten **.vna**-Datei in die jeweilige Zielinstanz **verinice.cloud**. Die Migration berücksichtigt alle Neuerungen gegenüber der Vorgängergeneration und wird in unterschiedlichen Ausbaustufen bereitgestellt:
 
 - Migration von Daten aus der Perspektive **Modernisierter IT-Grundschutz** in die Domänen **IT-Grundschutz** und **Datenschutz** (verfügbar).
 - Migration von Daten aus der Perspektive **ISO/ISM** in die Domänen **ISO 27001** und **Datenschutz** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
-- Migration von Daten aus den Perspektiven **Modernisierter IT-Grundschutz** bzw. **ISO/ISM** in die Domänen **BCM BSI 200-4** bzw. **ISO 22301** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
+- Migration von Daten des **BCM** (Business Continuity Management) aus den Perspektiven **Modernisierter IT-Grundschutz** bzw. **ISO/ISM* in die Domänen **BCM BSI 200-4** bzw. **ISO 22301** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
 
 Bei der Migration wird eine neue Unit erstellt und die Daten aus der VNA-Datei in diese Unit kopiert - die originalen Daten bleiben unverändert erhalten! Es können mehrere Informationsverbünde in eine Unit übernommen werden.
 
@@ -67,10 +70,13 @@ Beim VNA-Import sind die folgenden Einschränkungen zu beachten:
 
 ## Anwendung
 
+Der [VNA-Importer](https://vna-import.verinice.com) steht als Webservice unter `vna-import.verinice.com` zur Verfügung:
+
 ![VNA-Importer](../assets/new-in-verinice/vna-importer.png)
 
 1. Wählen Sie die **VNA-Datei** aus, deren Inhalt Sie nach verinice.cloud migrieren möchten.
-1. Geben Sie die URL für die **Zielinstanz** verinice.cloud ein (`https://eu.verinice.cloud/`). Alle weiteren Parameter werden automatisch vorbelegt und sollten nicht geändert werden.
+1. Geben Sie die URL für die Zielinstanz ein, zum Beispiel für die verinice.cloud:
+`https://eu.verinice.cloud`. Alle weiteren Parameter werden automatisch vorbelegt und sollten nicht geändert werden. Für andere verinice-Instanzen können diese Parameter abweichen. Kontaktieren Sie dazu bitte unseren Support.
 1. Geben Sie Ihren **Benutzernamen** und Ihr **Kennwort** für die Zielinstanz ein.
 1. Führen Sie optional einen **Dry Run (Testlauf)** durch. In diesem Fall wird der Import **ohne** Übernahme von Daten durchgeführt, um eventuelle Fehler vor dem eigentlichen Import identifizieren zu können.
 1. Führen Sie optional einen **Strict Run** durch. Der Import wird mit strengeren Prüfungen durchgeführt, um Fehler besser identifizieren zu können.
@@ -111,4 +117,4 @@ Die vom VNA-Importer erzeugte **Logdatei** informiert im Detail über die eventu
 
 ## Für verinice.onprem
 
-Für den Import in andere Zielumgebungen wie z.B. **verinice.onprem** steht der VNA-Importer als Java-Client zur Verfügung. Bitte kontaktieren Sie das verinice.Team für weitere Informationen.
+Für den Import in andere Zielumgebungen wie z.B. **verinice.onprem** steht der VNA-Importer als Java-Client zur Verfügung. Bitte kontaktieren Sie den verinice-Support unter support@verinice.com für weitere Informationen.
