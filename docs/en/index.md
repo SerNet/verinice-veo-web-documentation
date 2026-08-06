@@ -7,15 +7,18 @@ hero:
  text: Documentation
  tagline: Certainly new!
  actions:
-    - theme: brand
+    - theme: alt
       text: Release Notes
       link: /en/release-notes/
-    - theme: brand
+    - theme: alt
       text: Roadmap
       link: /en/roadmap/
-    - theme: brand
+    - theme: alt
       text: Glossary
       link: /en/glossary/
+    - theme: brand
+      text: VNA importer
+      link: /en/new-in-verinice/vna-importer/
 
 features:
   - title: The DS-GVO domain

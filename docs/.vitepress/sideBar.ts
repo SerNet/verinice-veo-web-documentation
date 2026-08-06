@@ -103,6 +103,10 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     text: { de: "Glossar", en: "Glossary" },
     link: "/glossary/",
   },
+{
+    text: { de: "VNA-Importer", en: "VNA importer" },
+    link: "/new-in-verinice/vna-importer/",
+  },
   {
     text: { de: "Entwicklerdokumentation (englisch)", en: "Developer Documentation" },
     link: "/developers/",
