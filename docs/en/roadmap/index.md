@@ -5,10 +5,6 @@ As of July 16, 2026 - Subject to change!
 
 ## Q3 2026
 
-### Exporting Units in Unit Management <Badge type="danger">Development</Badge>
-
-Units can be exported directly from Unit Management.
-
 ### VNA Import
 
 Implementation of the VNA import from verinice.PRO to verinice.onprem or verinice.cloud for data migration: 
@@ -16,6 +12,9 @@ Implementation of the VNA import from verinice.PRO to verinice.onprem or verinic
 <!-- epics/364 -->
 - to the **BCM** domains. <Badge type="warning">Planning</Badge>
 <!-- epics/365 -->
+
+::: tip The [VNA Importer](../new-in-verinice/vna-importer.md) is already available for migrating data from the **Modernized IT-Grundschutz** perspective to the **IT-Grundschutz** and **Data Protection** domains.
+:::
 
 ### IT-Grundschutz Profiles <Badge type="danger">Development</Badge>
 
