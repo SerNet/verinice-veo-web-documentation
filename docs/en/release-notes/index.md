@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice Release Notes
 
-::: info Go directly to the new features in [verinice 57](../release-notes/verinice-57).
+::: info Go directly to the new features in [verinice 58](../release-notes/verinice-58).
 :::
 
 ::: tip Some features are only available in certain domains or [bundles](https://account.verinice.com/en/).

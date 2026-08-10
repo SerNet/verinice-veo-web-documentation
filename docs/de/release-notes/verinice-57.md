@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 57
 
-Veröffentlichung: 24. Juli 2026 (voraussichtlich)
+Veröffentlichung: 24. Juli 2026
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 57** zur Verfügung.
 
