@@ -2,9 +2,9 @@
 # Unit Management
 <!-- verinice 55 -->
 
-In the **Unit Management** section, you can create or import new units, as well as edit or delete existing units:
+In the **Unit Management** section, you can create or import new units, as well as edit, delete, or export existing units:
 
-![Unit Management](../assets/manual/verinice-55-unit-management.png)
+![Unit Management](../assets/manual/verinice-58-unit-management.png)
 
 You can access Unit Management at any time via the **verinice logo** or by selecting **Manage Units** in the Unit Selector.
 
@@ -20,7 +20,7 @@ You can **create new units** using the button of the same name in a wizard. You 
 
 ## Import Units
 
-Using the **Import Unit** button, you can import units previously exported via [Data Transfer](data-transfer) as new units.
+Using the **Import Unit** button, you can import units that were previously exported from [Unit Management](#units-export) or via [Data Transfer](data-transfer) as new units.
 
 ::: warning Currently, only units based on the same **Domain Template Version** can be imported.
 :::
@@ -31,6 +31,12 @@ You can edit a unit’s name and description using the **pencil icon**. As with 
 
 ::: danger Adding new domains cannot currently be undone and should therefore be tested initially in a unit not used productive.
 :::
+
+## Export Units
+
+You can download any unit using the download icon to import it into any environment based on the same **domain template version**.
+
+Please note that the history and other data will **not** be exported! For a complete **backup**, be sure to use the [data transfer](./data-transfer) as before.
 
 ## Delete Units
 

@@ -2,9 +2,9 @@
 # Unit-Verwaltung
 <!-- Stand verinice 55 -->
 
-In der **Unit-Verwaltung** können Sie neue Units anlegen oder importieren sowie bestehende Units bearbeiten oder löschen:
+In der **Unit-Verwaltung** können Sie neue Units anlegen oder importieren sowie bestehende Units bearbeiten, löschen oder exportieren:
 
-![Unit-Verwaltung](../assets/manual/verinice-55-unit-management.png)
+![Unit-Verwaltung](../assets/manual/verinice-58-unit-management.png)
 
 Sie erreichen die Unit-Verwaltung jederzeit über das **verinice-Logo** oder die Auswahl **Units verwalten** im Unit-Selektor.
 
@@ -20,7 +20,7 @@ Neue **Units erstellen** Sie über die gleichnamige Schaltfläche in einem Assis
 
 ## Units importieren
 
-Über die Schaltfläche **Unit importieren** können Sie zuvor über [Datenübertragung](data-transfer) exportierte Units als neue Units importieren.
+Über die Schaltfläche **Unit importieren** können Sie zuvor aus der [Unit-Verwaltung](#units-exportieren) oder über [Datenübertragung](data-transfer) exportierte Units als neue Units importieren.
 
 ::: warning Es können aktuell nur Units importiert werden, die auf der selben **Domain-Template-Version** basieren.
 :::
@@ -31,6 +31,12 @@ Name und Beschreibung einer Unit bearbeiten Sie über das **Stift-Symbol**. Wie 
 
 ::: danger Das Hinzufügen neuer Domänen kann aktuell nicht rückgängig gemacht werden und sollte deshalb initial in einer nicht produktiv genutzten Unit getestet werden.
 :::
+
+## Units exportieren
+
+Sie können jede Unit über das Download-Symbol herunterladen um diese in jeder Umgebung zu importieren, die auf der selben **Domain-Template-Version** basiert.
+
+Bitte beachten Sie, dass dabei die Historie und weitere Daten **nicht** mit exportiert werden! Für ein komplettes **Backup** nutzen Sie unbedingt wie bisher die [Datenübertragung](./data-transfer).
 
 ## Units löschen
 
