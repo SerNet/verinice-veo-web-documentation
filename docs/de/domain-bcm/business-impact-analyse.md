@@ -36,20 +36,20 @@ Im Formular des jeweiligen Geschäftsprozesses können Sie spezifische Zusatzinf
 
 Für einen strukturierten Überblick werden benötigte Ressourcen unter dem Objekttyp Ressource erfasst und über sogenannte Composites (Obergruppen) in Ressourcenkategorien und -cluster (z. B. Personal, IT-Systeme, Gebäude, Dienstleister, Informationen) unterteilt.
 
-* Strukturierung: Einzelne Ressourcen ordnen Sie über den Reiter (Tab) Teile dem jeweils passenden Composite zu.
+* Strukturierung: Einzelne Ressourcen ordnen Sie über den Reiter **Teile** dem jeweils passenden Composite zu.
 * Verantwortlichkeiten: Verknüpfen Sie direkt in der Ressource die zuständigen internen Personen oder externen Dienstleister.
 
 ![Verantwortliche Personen einer Ressource](../assets/domain-bcm/resource-1.png)
 
 ## Durchführung der BIA
 
-### Ermittlung des Schadenspotenzials und der MTPD
+### Ermittlung des Schadenspotenzials und der maximal tolerierbaren Ausfallzeit (MTPD)
 
-Zur Identifikation zeitkritischer Prozesse muss das Schadenspotenzial jedes Geschäftsprozesses für die zuvor definierten Zeithorizonte bewertet werden. Definieren Sie die **MTPD nach Schadensbewertung** nach dem Worst-Case Prinzip im Abschnitt **MTPD (Maximal tolerierbare Ausfallzeit)**:
+Zur Identifikation zeitkritischer Prozesse muss das Schadenspotenzial jedes Geschäftsprozesses für zuvor definierte Zeithorizonte bewertet werden. Definieren Sie die **MTPD nach Schadensbewertung** nach dem Worst-Case Prinzip im Abschnitt **MTPD (Maximal tolerierbare Ausfallzeit)**:
 
 ![MTPD nach Schadensbewertung](../assets/domain-bcm/verinice-57-mtpd.png)
 
-Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszenarien ausschlaggebend für die Bewertung waren und ob es sich letztlich um einen zeitkritischen Geschäftsprozess handelt.
+Anschließend begründen Sie, wie die MTPD ermittelt wurde und welche Schadensszenarien ausschlaggebend für die Bewertung waren. Sobald eine MTPD eingetragen wird, ermittelt verinice unter **Meldungen**, dass es sich um einen zeitkritischen Geschäftsprozess handelt.
 
 ### Festlegung des Notbetriebsniveaus
 
@@ -60,21 +60,21 @@ Anschließend begründen Sie, wie die MTPD ermittelt wurde, welche Schadensszena
 Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen den Prozessen analysiert. Dies ist notwendig, um festzustellen, ob sich die MTPD eines Prozesses durch die Abhängigkeit von einem anderen Prozess verringert. Ändert sich die Ausfalltoleranz durch diese Verknüpfungen, gibt die automatisierte Prüfung (Inspection) folgende Meldungen aus:
 
 - **Zeitkritischer Prozess:** Der Prozess wird als zeitkritisch bewertet, wenn eine MTPD nach Schadensbewertung festgelegt wurde.
-- **MTPD nach Schadensbewertung:** Der eingetragene Wert wird angezeigt
-- **MTPD nach Prozessabhängigkeiten:** Dieser Wert wird nach dem Minimumprinzip bestimmt aus allen von **anderen Prozessen** geforderten MTPD. 
+- **MTPD nach Schadensbewertung:** Der eingetragene Wert wird angezeigt.
+- **MTPD nach Prozessabhängigkeiten:** Dieser Wert wird nach dem Minimumprinzip aus allen von **anderen Prozessen** geforderten MTPD bestimmt. 
 - **MTPD minimal:** Aus den beiden vorhergehenden Werten resultiert der kleinste Wert als minimale MTPD für den Prozess.
 - **RTO kleiner gleich:** Die RTO für Ressourcen muss in jedem Fall kleiner oder gleich der MTPD sein.
 
-### Festlegung der geforderten Wiederanlaufzeit (RTO) und der RPO und Abbildung der Ressourcenabhängigkeiten
+### Festlegung der geforderten Wiederanlaufzeit (RTO) und des maximal tolerierbaren Datenverlusts (RPO) sowie Abbildung der Ressourcenabhängigkeiten
 
 Der Prozesseigentümer identifiziert und dokumentiert nach den Prozessabhängigkeiten auch die Ressourcenabhängigkeiten:
 
 * Die für den Notbetrieb benötigten Ressourcen werden über den Custom-Link verknüpft.
 * Direkt in diesem Custom-Link werden die spezifische RTO und RPO der jeweiligen Ressource für diesen konkreten Geschäftsprozess definiert.
 
-### Besonderheit bei daten- und IT-basierten Ressourcen
+### Besonderheiten bei daten- und IT-basierten Ressourcen
 
-Für informationsbasierte Ressourcenkategorien (z. B. Daten, IT-Systeme, Informationsspeicher) muss zusätzlich die Recovery Point Objective (RPO) bestimmt werden. Diese beschreibt den maximal tolerierbaren Datenverlust – also bis zu welchem Zeitpunkt Daten im Notbetrieb zurückliegen dürfen, ohne den Prozessablauf unzulässig zu beeinträchtigen.
+Für informationsbasierte Ressourcenkategorien (z. B. Daten, IT-Systeme, Informationen) muss zusätzlich die Recovery Point Objective (RPO) bestimmt werden. Diese beschreibt den maximal tolerierbaren Datenverlust – also bis zu welchem Zeitpunkt Daten im Notbetrieb zurückliegen dürfen, ohne den Prozessablauf unzulässig zu beeinträchtigen.
 
 Die RPO ist konzeptionell unabhängig von MTPD und RTO, wird jedoch im nächsten Schritt konsolidiert, wenn mehrere Prozesse auf dieselbe Ressource zugreifen.
 
@@ -95,10 +95,10 @@ verinice unterscheidet dabei drei Kategorien:
 
 * SPoC (Single Point of Contact): Kommunikationsabhängigkeiten, bei denen der Informationsfluss an einer einzigen Kontaktperson hängt.
 
-## Entwickeln von Notfall- und BC-Lösungen zur Geschäftsfortführungsplanung
+## Entwickeln von Notfall-/ Business-Continuity-Lösungen zur Geschäftsfortführungsplanung
 
-Sobald die Defizite und Anforderungen aus der BIA feststehen, müssen für die kritischen Ressourcen entsprechende Notfallkonzepte und -lösungen erarbeitet werden.
+Sobald die BIA-Ergebnisse vorliegen, können für alle kritischen Ressourcen passgenaue Notfallkonzepte entwickelt werden.
 
-* Verknüpfung in verinice: Unter dem Abschnitt **Notfallplanung** können Sie die entsprechenden BC-Lösungen direkt mit den Ressourcen verknüpfen.
+* Verknüpfung in verinice: Im Abschnitt **Notfallplanung** verknüpfen Sie für jedes zu betrachtende Ausfallszenario passende BC-Lösungen mit dem Geschäftsprozess. Diese bilden die Grundlage für den übergeordneten Geschäftsfortführungsplan.
 
-* Detaillierung: Die eigentliche Ausarbeitung der Geschäftsfortführungspläne erfolgt anschließend im spezifischen Subtyp **BC-Lösung** (Details hierzu finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).
+* Detaillierung: Die konkrete Ausarbeitung erfolgt im Objekttyp BC-Lösung (Details finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).

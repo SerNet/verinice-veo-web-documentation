@@ -46,46 +46,45 @@ Nach erfolgreicher Bewältigung eines Ereignisses erklärt der Krisenstab den No
 
 Das Ereignis wird in verinice als Vorfall-Objekt dokumentiert. In diesem Objekt können **Leitfragen zur Rückführung in den Normalbetrieb** und zur **Analyse der Bewältigung** hinterlegt werden. 
 
-![Incident](../assets/domain-bcm/verinice-46-incident.png)
+## Erstellung eines Notfallhandbuchs in verinice
 
-# Notfallhandbuch per Report erstellen
+Als zentrales Instrument im Notfall bündelt das Notfallhandbuch alle übergeordneten Richtlinien, Sofortmaßnahmen, Alarmierungswege und Stabsstrukturen. Es dient im Ernstfall als verlässlicher Leitfaden zur Krisenbewältigung und führt sämtliche Referenzen zu den operativen Wiederanlauf-, Wiederherstellungs- und Geschäftsfortführungsplänen zusammen. Die Erstellung erfolgt in der Regel durch die BCM-Beauftragten. Der Aufbau des Notfallhandbuchs in verinice orientiert sich dabei eng an der offiziellen BSI-Dokumentenvorlage nach BSI-Standard 200-4. Es deckt alle Anforderungen aus Kapitel 6.4 (Aufbau und Befähigung der BAO) ab und integriert bzw. referenziert die operativen Notfallpläne aus den Kapiteln 6.9 und 6.10.
 
-Das Notfallhandbuch bündelt alle Aspekte zur Notfallbewältigung und dient im Ernstfall auch als zentrale Unterstützung bei der Krisenbewältigung. Es wird in der Regel durch den BCM-Beauftragten erstellt. 
+Die folgende Anleitung führt Sie Schritt für Schritt durch die entsprechende Modellierung in verinice.
 
-Der Aufbau des Notfallhandbuchs in verinice orientiert sich eng an der offiziellen Dokumentenvorlage des BSI (nach BSI-Standard 200-4). Es deckt alle relevanten Anforderungen aus Kapitel 6.4 (Aufbau und Befähigung der BAO) ab, die eine Dokumentation im Rahmen des Notfallhandbuchs voraussetzen. Zudem werden die in den Kapiteln 6.9 (Geschäftsfortführungspläne) und 6.10 (Wiederanlaufpläne) behandelten operativen Notfallpläne direkt im Notfallhandbuch dokumentiert oder von dort aus referenziert.
+![Notfallhandbuch Teil 1](../assets/domain-bcm/emergencyPlan1.png)
 
-## Zentrale Inhalte des Notfallhandbuchs
+### Initialisierung & Scope-Zuordnung
+- Legen Sie eine Institution an.
+- Erstellen Sie im Bereich Dokument das zentrale Dokumenten-Objekt "Notfallhandbuch".
+- Ordnen Sie das Notfallhandbuch-Objekt als Teil zu.
 
-verinice strukturiert das Notfallhandbuch in folgende Kernbereiche:
+### Verwalten des Notfallhandbuchs 
+Öffnen Sie das neu angelegte Objekt und arbeiten Sie die Abschnitte im Formular ab. Verknüpfen Sie dabei die jeweils zugehörigen Objekte aus anderen Subtypen:
+ - Grundangaben & Sofortmaßnahmen: Erfassen Sie im Objekt die Stammdaten (Zielsetzung, Geltungsbereich, Versionsstand, Dokumentenlenkung)
 
-* Allgemeine Informationen: Zielsetzung, Geltungsbereich und grundlegende Definitionen des Notfallhandbuchs.
+- Notfall-/Krisenbewältigung: Beschreiben Sie allgemeine Sofortmaßnahmen und szenario-spezifische Sofortmaßnahmen. Verknüpfen Sie hierfür die Ausfallszenarien, für die Sofortmaßnahmen entwickelt wurden.
+-  Dokumentieren Sie die Meldewege: Verlinken Sie die im Bereich Dokument angelegten Meldewege.
+- Detektion und Meldung: Verlinken Sie die vordefinierten Leitfragen zur ersten Lageeinschätzung (Kriterien zur Erkennung von Notfällen / Leitfragen zur ersten Lageeinschätzung).
+- Alarmierung der BAO: Dokumentieren Sie Prozessablauf, Auslösekriterien und Zuständigkeiten zur Einberufung der Besonderen Aufbauorganisation (Krisenstab).
+- Stabsraum & Stabsarbeit: Dokumentieren Sie Standorte, Erreichbarkeiten, technische Ausstattung und Vorbereitungsmaßnahmen der Stabsräume.
 
-* Sofortmaßnahmen: Erste Verhaltensweisen und Schutzmaßnahmen unmittelbar nach Eintritt eines Ereignisses.
+![Notfallhandbuch Teil 2](../assets/domain-bcm/emergencyPlan2.png)
 
-* Alarmierung und Eskalation: Dokumentation der Meldekette. Nutzen Sie hierfür die spezifischen Custom-Links, um die genauen Meldewege (z. B. den Eskalations- und Alarmierungspfad) direkt zu verknüpfen.
+- Stabsarbeit: Verlinken Sie vorhandene Dokuemente zur Stabsarbeit / Grundsätze.
+- Referenzierung der Pläne (GFP & WAP/WHP): Verlinken Sie die erstellten  Geschäftsfortführungspläne zur Aufrechterhaltung kritischer Geschäftsprozesse und verlinken Sie die Ressourcen für die ein WAP/WHP erstellt wurde.
+- Beschreiben Sie die erforderlichen Maßnahmen zur geordneten Rückkehr in den Regelbetrieb (Deeskalation, Analyse & Lessons Learned).
+- Erfassen Sie die Review-Intervalle und Verantwortlichkeiten zur Aktualisierung des Handbuchs.
 
-* Detektion und Meldung: Kriterien zur Erkennung von Notfällen. Über Custom-Links lassen sich hier vordefinierte Leitfragen zur ersten Lageeinschätzung verlinken.
+![Notfallhandbuch Teil 3](../assets/domain-bcm/emergencyPlan3.png)
 
-* Alarmierung der BAO: Prozesse und Zuständigkeiten zur Einberufung der Besonderen Aufbauorganisation.
+- Verknüpfen Sie die Geschäftsordnung des Stabs
+- Verlinken Sie die relevanten Referenzdokumente sowie Kommunikationsmedien (redundante Notfall-Kommunikationsmittel).
+- Verlinken Sie die zentralen Ansprechpartner aus dem Bereich Personen / Externe Dienstleister
 
-* Stabsraum: Dokumentation der Standorte und Erreichbarkeiten der Stabsräume sowie deren technische Ausstattung und Vorbereitung.
+### Generierung des Handbuchs
 
-* Stabsarbeit: Richtlinien für die Arbeit im Krisenstab. Nutzen Sie den Custom-Link, um direkt auf die geltenden Grundsätze der Stabsarbeit zu verweisen.
-
-* Geschäftsfortführungspläne (GFP): Referenzierung der Pläne zur Aufrechterhaltung kritischer Geschäftsprozesse.
-
-* Wiederanlauf- und Wiederherstellungspläne (WAP/WHP): Referenzierung der technischen und organisatorischen Pläne zur Wiederinbetriebnahme ausgefallener Ressourcen.
-
-* Überführung in den Normalbetrieb: Erforderliche Maßnahmen zur geordneten Rückkehr in den Regelbetrieb, Prozesse zur Deeskalation, Analyse und Bewertung der erfolgten Notfallbewältigung (Lessons Learned).
-
-* Regelungen zur regelmäßigen Überprüfung und Aktualisierung des Notfallhandbuchs.
-
-* Geschäftsordnung des Stabs: Regelungen und Kompetenzen für die Mitglieder des Krisenstabes.
-
-* Referenzdokumente & Kommunikationsmedien: Übersicht der im Notfall verfügbaren, redundanten Kommunikationsmittel sowie mitgeltender Unterlagen.
-
-* Wichtige Kontakte: Zentrale Telefonnummern, Ansprechpartner und Erreichbarkeiten aller internen und externen Schlüsselpersonen.
-
-## Generierung des Handbuchs
-
-Nachdem Sie die oben genannten Inhalte und Verknüpfungen in Ihrer BCM-Domäne gepflegt haben, können Sie das vollständige, standardkonforme Dokument jederzeit automatisch über die Report-Funktion in verinice exportieren und als fertiges Notfallhandbuch bereitstellen.
+Sobald alle genannten Abschnitte befüllt und die entsprechenden Objekte über Custom-Links verknüpft sind:
+1. Navigieren Sie in verinice zum Bereich Reports.
+2.	Wählen Sie die Report-Vorlage für das Notfallhandbuch aus.
+3.	Exportieren Sie das Dokument. verinice generiert automatisch ein vollständiges, standardkonformes Notfallhandbuch inklusive aller Ablageorte und Links der verknüpften Pläne, Kontakte und Meldewege.

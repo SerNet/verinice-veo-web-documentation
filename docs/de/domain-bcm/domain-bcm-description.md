@@ -11,8 +11,6 @@ Zentrale Elemente sind die **Scopeobjekte**, über die die verschiedenen organis
 
 - **Institutionen**: Dient zur Abbildung einer eigenständigen Organisation mit ihren zentralen Stammdaten. Eine Institution stellt in der Regel eine rechtlich selbstständige Einheit mit eigener Zielsetzung dar, die aus mehreren Abteilungen oder Bereichen besteht und übergreifende Entscheidungen trifft.
 
-- **Scopes (allgemein)**: Repräsentiert sonstige Betrachtungsgegenstände wie z. B. Projekte.
-
 - **BCMS-Geltungsbereich**: Definiert den Anwendungsbereich des Business Continuity Management Systems.
 
 - **Organisationseinheit**: Beschreibt eine Einheit innerhalb einer Institution, z. B. einen Standort, eine Abteilung oder einen Fachbereich. Organisationseinheiten dienen der Arbeitsteilung und Steuerung, besitzen jedoch in der Regel keine eigene Rechtspersönlichkeit.
@@ -20,6 +18,8 @@ Zentrale Elemente sind die **Scopeobjekte**, über die die verschiedenen organis
 - **Interessengruppen**: Erfassen Sie hier interne und externe Interessengruppen, die für das BCM von Bedeutung sind – z. B. Führungskräfte, Behörden, Kunden oder Partnerorganisationen.
 
 - **Externe Dienstleister**: Erfassen Sie externe Organisationen oder Institutionen, die getrennt betrachtet werden, um spezifische Anforderungen im Zusammenhang mit Outsourcing und der Lieferkette abzubilden.
+
+- **Scopes (allgemein)**: Repräsentiert sonstige Betrachtungsgegenstände wie z. B. Projekte.
 
 ### Prozessobjekte
 
@@ -39,11 +39,11 @@ Zentrale Elemente sind die **Scopeobjekte**, über die die verschiedenen organis
 
 ### Dokumentenobjekte
 
-- **Dokumente**: Unter diesem Objekttyp können Sie die Dokumentenstruktur Ihres BCMS abbilden. Dies ermöglicht eine nachvollziehbare Organisation und Versionierung aller BCM-relevanten Dokumente, wie Richtlinien, Pläne oder Berichte.
+- **Dokumente**: Unter diesem Objekttyp können Sie die Dokumentenstruktur Ihres BCMS abbilden. Dies ermöglicht eine nachvollziehbare Organisation und Versionierung aller BCM-relevanten Dokumente wie Richtlinien, Pläne oder Berichte.
 
-- **Notfallhandbücher**: Erfassen Sie alles wichtige zur Erstellung eines Notfallhandbuchs. 
+- **Notfallhandbücher**: Erfassen Sie alles Wichtige zur Erstellung eines Notfallhandbuchs. 
 
-- **Geschäftsfortführungspläne**: Erstellen Sie ein Geschäftsfortführungsplan über diesen Dokumenten-Typ. 
+- **Geschäftsfortführungspläne**: Erstellen Sie einen Geschäftsfortführungsplan über diesen Dokumententyp. 
 
 ### Controlobjekte
 
@@ -75,18 +75,20 @@ Der Katalog der BCM-Domäne stellt den aktuellen Anforderungskatalog des BSI ber
 
 ## Profile
 
-Keine. 
-
-## Decisions
-
 Keine.
+
+## Decisions und Inspections
+
+- Die Bewertung als zeitkritischer Geschäftsprozess erfolgt im Objekt Prozess zum einen über eine manuelle Eingabe der MTPD (Maximum Tolerable Period of Disruption) und zum anderen über eine regelbasierte Herleitung (Decision). Nach einer durchgeführten Schadensbewertung lässt sich die MTPD manuell festlegen. Ergänzend wird über einen automatischen Abgleich der Prozessabhängigkeiten die minimale MTPD ermittelt.
+- Im Objekt Ressource werden die RTO (Recovery Time Objective) und die RPO (Recovery Point Objective) mittels Decision automatisch bestimmt. Die Ableitung erfolgt nach dem Minimum-Prinzip aus den jeweiligen Prozess- und Ressourcenabhängigkeiten. 
+- Über zwei integrierte Inspections werden die Soll-Werte (RTO und RPO) kontinuierlich mit den Ist-Werten (RPA / tatsächliche Wiederanlaufzeiten) verglichen: Überschreitet die tatsächliche Wiederanlaufzeit die RTO oder liegt die RPA über der RPO, wird die Abweichung vom System ausgewertet und eine entsprechende Warnmeldung ausgegeben.
 
 ## Reports
 
-Die nachfolgenden Reports werden in Anlehnung an den BSI-Hilfsmitteln erstellt.
-- Wiederanlaufplan / Wiederherstellungsplan für Ressourcen  
-- Geschäftsfortführungspläne für Prozesse
-- Notfallhandbuch   
+Die Domäne BCM 200-4 stellt die folgenden Reports bereit: 
+- Wiederanlaufplan / Wiederherstellungsplan für Ressourcen: Eine Übersicht aller Informationen zum Wiederanlauf oder zur Wiederherstellung zeitkritischer Ressourcen, um eine geordnete Rückführung von IT und Systemen in den Normalbetrieb sicherzustellen.
+- Geschäftsfortführungspläne für Prozesse: Eine Übersicht der geplanten Notfall- (BC-) Lösungen zur Absicherung zeitkritischer Geschäftsprozesse im Ernstfall
+- Notfallhandbuch: Eine umfassende Übersicht aller Aspekte der Notfall- und Krisenbewältigung zur schnellen Schadensabwehr.
 
 ## Risikodefinition
 

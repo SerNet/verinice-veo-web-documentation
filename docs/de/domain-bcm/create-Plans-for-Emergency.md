@@ -14,200 +14,254 @@ Für beide Bereiche sind strukturierte Pläne zu erstellen, die alle erforderlic
 
 ## Geschäftsfortführungsplanung
 
-Die Geschäftsfortführungspläne beschreiben alle Maßnahmen und Abläufe, um zeitkritische Geschäftsprozesse im Notfall innerhalb der vorgegebenen Zeit fortzuführen. Die in der BIA identifizierten zeitkritischen Prozesse bilden dafür die fundamentale Basis.
+Die Geschäftsfortführungsplanung beschreibt alle Maßnahmen und Abläufe, um zeitkritische Geschäftsprozesse im Notfall innerhalb der vorgegebenen Zeit fortzuführen. Die in der Business Impact Analyse (BIA) identifizierten zeitkritischen Prozesse bilden dafür die fundamentale Basis.
 
-Damit ein Geschäftsfortführungsplan automatisiert als Report aus verinice generiert werden kann, empfiehlt sich die folgende Vorgehensweise:
+Die folgende Anleitung führt Sie chronologisch von links nach rechts anhand des Prozessdiagramms durch die Erstellung eines auswertbaren Geschäftsfortführungsplans
 
-1. **Geschäftsfortführungsplan anlegen und allgemeine Angaben erfassen:** 
+![Prozessbeschreibung GFP Teil 1](../assets/domain-bcm/gfp-11.png)
 
-![Dokumenten-Objekt für den Geschäftsfortfürhungsplan](../assets/domain-bcm/verinice54_gfp1.png)
+### Basis-Einrichtung im Scope & Zuordnung der Organisationseinheit
+
+1.	Institution anlegen: Legen Sie im Bereich SCOPE die Institution an und ordnen Sie dieser als Teil die für den GFP zuständige Organisationseinheit hinzu.
+2.	Organisationseinheiten zuordnen: Verknüpfen Sie die relevante Organisationseinheit dem Geschäftsprozess (im Subtyp Geschäftsprozess).
+3.	Personen & Notfallteams zuweisen: Ordnen Sie die leitende Person sowie die Notfallteams der Organisatinseinheit zu (für die Alarmierung).
+
+### Einrichtung des Dokumenten-Objekts & Stammdaten
+
+Legen Sie im Bereich Dokument das zentrale Plan-Objekt an und pflegen Sie die Grunddaten:
+
+![Dokumenten-Objekt für den Geschäftsfortführungsplan](../assets/domain-bcm/verinice54_gfp1.png) 
+
+1.	Geschäftsfortführungsplan-Objekt unter dem Subtyp Geschäftsfortführungsplan anlegen (z.B. DOC-GFP "Prozess Transaktionen"): Erstellen Sie das Dokumenten-Objekt und erfassen Sie allgemeine Angaben: 
+- Dokumentenlenkung: Abkürzung, Name, Autor/Ersteller, Klassifizierung, Version, Lebenszyklus, Genehmigungsdatum, Genehmiger/-in, Gültigkeitszeitraum, Überprüfungsintervall.
+- Planinhalte: Zielstellung des GFP, Geltungsbereich, Aktivierung Geschäftsfortführungsplan, Rückführungskriterien.
+
+2.	Geschäftsprozess verknüpfen: Verknüpfen Sie den in verinice angelegten Geschäftsprozess direkt mit dem GFP-Dokumentenobjekt. Hinweis: Ist dem Geschäftsprozess eine Organisationseinheit zugeordnet, wird im Report automatisch eine interne Kommunikationsmatrix mit den verantwortlichen Personen generiert.
+
+![Allgemeine Informationen](../assets/domain-bcm/verinice54_gfp3.png)
+
+3.	Rechte, Pflichten & Meldewege dokumentieren: Erfassen Sie im Folgeschritt die fachspezifischen Melde- und Berichtspflichten sowie besondere Pflichten, Rechte und Kompetenzen im Notbetrieb.
+
+![Besondere Pflichten und Rechte](../assets/domain-bcm/verinice54_gfp5.png)
+
+4.	Kontakte und Dokumente anbinden: Stellen Sie die Verbindung zu den relevanten Ansprechpartnern her und verlinken ergänzende Referenzdokumente und mitgeltende Unterlagen.
+
+### Vorbereitung im Geschäftsprozess (BIA & Voraussetzungen)
+
+Wechseln Sie in den Bereich Geschäftsprozess, um die inhaltlichen Grundlagen für die BC-Lösungen sicherzustellen:
+
+1.	Geschäftsprozesse anlegen & Stammdaten erfassen: Erstellen Sie den Geschäftsprozess, pflegen Sie die Stammdaten und ordnen Sie eine Organisationseinheit zu.
+2.	Business Impact Analyse (BIA) durchführen:
+- Legen Sie die MTPD (Maximum Tolerable Period of Disruption) fest.
+- Bestimmen Sie das geforderte Notbetriebsniveau.
+- Identifizieren Sie notfallrelevante Ressourcen und definieren Sie die Prozessabhängigkeiten.
+3.	BC-Lösungen pro Ausfallszenario erstellen & verknüpfen: Erstellen Sie direkt unter dem Geschäftsprozess (im Bereich Geschäftsfortführungsmaßnahmen im Notfall) die BC-Lösungen pro Ausfallszenario (z. B. Ausfall von Personal, Ausfall von IT-Systemen, Gebäudeausfall) und verknüpfen Sie diese mit dem Prozess.
+
+![BC-Lösung erstellen und einem GP zuordnen](../assets/domain-bcm/verinice54_1_process_bcSolution.png)
+
+### Strukturierung der BC-Lösungen
+
+Eine umfassende BC-Lösung setzt sich aus verschiedenen Teillösungen für jede benötigte Ressource zusammen:
+
+![Prozessbeschreibung GFP Teil 2](../assets/domain-bcm/gfp-22.png)
+
+1.	Composite-Objekt anlegen: Erstellen Sie unter dem Geschäftsprozess ein übergeordnetes Composite-Objekt, um alle zugehörigen BC-Lösungen gebündelt zu sammeln, und benennen Sie dieses nach dem jeweiligen Ausfallszenario.
+2.	Ressourcen-spezifische BC-Lösungen & Notfallmaßnahmen zuordnen:
+- Fügen Sie dem Composite-Objekt die ressourcenspezifischen Teillösungen Ressourcen hinzu.
+- Detaillieren Sie innerhalb der Teillösungen die konkreten Notfallmaßnahmen und Aktivitäten.
+
+### Detaillierung der BC-Lösungen & Maßnahmen 
+
+![Prozessbeschreibung GFP Teil 3](../assets/domain-bcm/gfp3.png)
+
+1. Composite-BC-Lösungen für Ausfallszenarien anlegen
+- Bewerten Sie vorab Ihre BC-Strategien.
+- Falls noch nicht erfolgt: Erstellen Sie ein Composite-Objekt für das jeweilige Ausfallszenario (z. B. BC-Lösung 1: Ausfall von Personal, BC-Lösung 2: Ausfall von IT, etc.).
+- Formularfelder & Verknüpfungen des Composite-Objekts befüllen:
+   - Art der Notfallplanung auswählen: GFP
+   - Ausfallszenario verknüpfen
+   - BC-Strategien: Verknüpfen Sie die möglichen/passenden BC-Strategien für das Ausfallszenario.
+   - Rollen & Arbeitsplätze: Dokumentieren Sie die notwendigen Rollen/Funktionen sowie die Arbeitsplätze für den Notbetrieb.
+
+![BC-Lösung verwalten](../assets/domain-bcm/verinice54_2_bcSolution.png)
     
-Dokumentieren Sie unter dem Dokumenten-Objekt **Geschäftsfortführungsplan** grundlegende Informationen für den Plan, wie:
-* Geltungsbereich, Zielgruppe und Zielsetzung des GFP,
-verlinken Sie zusätzlich den Geschäftsprozess für welchen der Plan erstellt werden soll.
-   ![Allgemeine Informationen](../assets/domain-bcm/verinice54_gfp3.png)
-* definieren Sie Aktivierungskriterien oder den Aktivierungsprozess sowie Rückführungskriterien
-   
-   ![Aktivierungskriterien](../assets/domain-bcm/verinice54_gfp4.png)
+2.  Ressourcen-spezifische BC-Lösungen anlegen:
+Erstellen Sie nun im Teile-Tab des übergeordneten Composite-Objekts für jede benötigte Ressource eine eigene ressourcenspezifische BC-Lösung (z. B. "z. B. Abteilungsleiter", "z. B. Sachbearbeiter"). Pflichtangaben in jeder ressourcenspezifischen BC-Lösung sind:
+   - Art der Notfallplanung: GFP
+   - Ausfallszenario: Das Ausfallszenario zuordnen
+   - Ressource: Die betroffene Ressource auswählen
+   - BC-Strategie/n: Die angewandte/n BC-Strategie/n hinterlegen
 
-* halten Sie Besondere Pflichten, Rechte und Kompetenzen und fachspezifische Melde- und Berichtspflichten im Notbetrieb fest, 
+3. Notfallmaßnahmen nach Phasen gliedern & klassifizieren: 
+Legen Sie unter dem Teile-Tab der jeweiligen ressourcenspezifischen BC-Lösung die konkreten Notfallmaßnahmen an. 
 
-   ![Besondere Pflichten und Rechte](../assets/domain-bcm/verinice54_gfp5.png)
-
-* verlinken Sie wichtige Kontakte sowie Referenzdokumente
-
-Sollte einem Geschäftsprozess eine Organisationseinheit zugeordnet worden sein, wird von dieser im Report eine interne Kommunikationsmatrix ausgegeben, mit einer verantwortlichen Leitungsperson für die Alarmierung, und die zuständigen Personen/Notfallteams aus dem Scope-Objekttyp **Organisationseinheit** übernommen.
-
-Es können zusätzlich Angaben zur Dokumentenlenkung, Revision und zur Aufbewahrung und Archivierung vorgenommen werden, wie: 
-   - Abkürzung, 
-   - Name,
-   - Autor/Ersteller
-   - Klassifizierung, 
-   - Version, 
-   - Lebenszyklus, 
-   - Genehmigungsdatum und Genehmiger/-in und Gültigkeitszeitraum,
-   - Überprüfungsintervall
-
-![Dokumentenlenkung - Revision, Aufbewahrung und Archivierung](../assets/domain-bcm/verinice54_gfp2.png)
-
-Als nächsten Schritt müssen folgende Voraussetzungen erfüllt sein: 
-
-2. **BC-Lösungen erstellen und dem Geschäftsprozess zuordnen**: Dem jeweiligen Geschäftsprozess müssen die BC-Lösungen für die relevanten Ausfallszenarien zugeordnet sein. Falls Sie noch keine BC-Lösung angelegt haben, erstellen Sie diese direkt unter dem Geschäftsprozess im Bereich **Geschäftsfortführungsmaßnahmen im Notfall.**
-
-   ![BC-Lösung erstellen und einem GP zuordnen](../assets/domain-bcm/verinice54_1_process_bcSolution.png)
-
-    Eine umfassende BC-Lösung sollte sich aus verschiedenen Teillösungen für jede benötigte Ressource zusammensetzen, die wiederum mehrere konkrete Notfallmaßnahmen beinhalten.
-
-    2.1 **Composite-Objekt anlegen:** Erstellen Sie zunächst ein übergeordnetes Composite-Objekt, um alle zugehörigen BC-Lösungen gebündelt zu sammeln. Benennen Sie dieses nach dem jeweiligen Ausfallszenario (z. B. **Ausfall von Personal**).
-
-    2.2 **Objekte verlinken:** Verknüpfen Sie im Formular des Composite-Objekts der BC-Lösung mindestens die folgenden Elemente:
-
-      * das zugrunde liegende Ausfallszenario,
-      * die notwendigen Rollen/Funktionen sowie die Arbeitsplätze im Notbetrieb.
-      * Allgemein passende BC-Strategien des Ausfallszenarios
-      * Wählen Sie dafür als Art der Notfallplanung **GFP** aus.
-
-      ![BC-Lösung verwalten](../assets/domain-bcm/verinice54_2_bcSolution.png)
-
-    2.3 **Ressourcen-spezifische BC-Lösungen anlegen**: Erstellen Sie nun im linken Bereich über den Reiter **Teile** weitere Objekte vom Typ **BC-Lösung**. Legen Sie dabei für jede Ressource, die im Ernstfall für den Notbetrieb des Geschäftsprozesses zwingend benötigt wird, eine eigene BC-Lösung an.
-
-    2.4 **Formularfelder ausfüllen:** Erfassen Sie in den jeweiligen Ressourcen-BC-Lösungen die folgenden Pflichtangaben:
-      * Art der Notfallplanung: GFP
-      * Das passende Ausfallszenario
-      * Die betroffene Ressource
-      * Die angewandte/n BC-Strategie/n
-
-3. **Notfallmaßnahmen für die einzelnen Ressourcen-BC-Lösungen anlegen**: Erstellen oder verknüpfen Sie die konkreten Notfallmaßnahmen über den Reiter **Teile** der jeweiligen Ressourcen-BC-Lösung.
-Die Maßnahmen lassen sich entweder als einzelne Objekte oder als übergeordnetes Composite (inklusive untergeordneter Aktivitäten) abbilden. Unterteilen Sie diese sinnvollerweise in folgende Phasen:
-
-    * Maßnahmen zum Erreichen des Notbetriebs (Wiederanlauf in den Notbetrieb)
-    * Maßnahmen für die eigentliche Geschäftsfortführung
-    * Maßnahmen zur Rückführung in den Normalbetrieb
-    
 ![Notfallmaßnahmen verwalten](../assets/domain-bcm/verinice54_3_bcSolution2.png)
 
-4. **Notfallmaßnahmen verwalten und klassifizieren**: Für die Abbildung der Notfallmaßnahmen gibt es zwei Optionen:
+Sie können einzelne Aktivitäten einer Notfallmaßnahme entweder direkt im Beschreibungsfeld der Notfallmaßnahme zusammenfassen oder als untergeordnete Teile (Aktivität 1, Aktivität 2...n) hinzufügen.
+Gliedern Sie die Maßnahmen in folgende drei Phasen und nehmen Sie die klassifizieren die Notfallmaßnahmen wie folgt:
 
-* Detaillierte Zuordnung: Jede Aktivität wird als Teil eines Composites erstellt. Das ermöglicht es, für jede einzelne Aufgabe eine verantwortliche Person zu definieren.
-
-* Zusammenfassende Beschreibung: Alle anstehenden Aktivitäten einer Phase (z. B. der Wiederanlauf in den Notbetrieb) werden gesammelt im Beschreibungsfeld der Notfallmaßnahme erfasst.
-
-Damit jede Maßnahme im Report automatisch an korrekter Stelle eingeordnet wird, müssen Sie im Bereich **Details** zwingend die folgenden Klassifizierungen vornehmen:
-
-   * Klassifikation der Maßnahme: Wählen Sie die jeweils zutreffende Phase aus (Wiederanlauf, Notbetrieb oder Rückführung in den Normalbetrieb).
-   * Zugehörigkeit: Wählen Sie aus, zu welchem Plan die Maßnahme gehört (Geschäftsfortführungsplan).
+A. Maßnahmen, um den Notbetrieb zu erreichen
+   - Phase: Wiederanlauf in den Notbetrieb
+   - Plan-/Dokumententyp: Geschäftsfortführungsplan
+   - Aktivitäten: Aktivitäten als Teile hinzufügen oder gesammelt im Beschreibungsfeld erfassen.
 
 ![Klassifikation der Notfallmaßnahme](../assets/domain-bcm/verinice54_4_bcSolution3.png)
 
-## Erstellung von Wiederanlauf- und Wiederherstellungspläne für kritische Ressourcen
+B. Maßnahmen für die Geschäftsfortführung (Notbetrieb)
+   - Phase: Notbetrieb (Geschäftsfortführung)
+   - Plan-/Dokumententyp: Geschäftsfortführungsplan
+   - Aktivitäten: Aktivitäten als Teile hinzufügen oder gesammelt im Beschreibungsfeld erfassen.
 
-Die Wiederanlauf- und Wiederherstellungsplanung umfasst sämtliche organisatorischen, technischen und personellen Maßnahmen, um ausgefallene Ressourcen (wie IT-Systeme, Gebäude, Arbeitsplätze oder Dienstleistungen) schnellstmöglich wieder in einen betriebsbereiten Zustand zu versetzen. Diese Planung wird idealerweise von den jeweiligen Ressourcenzuständigen durchgeführt. Der Aufbau der Wiederanlauf- und Wiederherstellungsplanung in verinice orientiert sich dabei eng an der offiziellen BSI-Vorlage für Wiederanlaufpläne.
+C. Maßnahmen zur Rückführung in den Normalbetrieb
+   - Phase: Rückführung in den Normalbetrieb
+   - Plan-/Dokumententyp: Geschäftsfortführungsplan
+   - Aktivitäten: Aktivitäten als Teile hinzufügen oder gesammelt im Beschreibungsfeld erfassen.
 
-### Inhalte der Wiederanlaufplanung (WAP)
+## Erstellung von Wiederanlauf- und Wiederherstellungsplänen für kritische Ressourcen
 
-Initial muss für eine Ressource ein Objekt vom Typ **BC-Lösung** für den WAP/WHP angelegt werden. Dies kann direkt in der Ressource über den Custom-Link **BC-Lösung (WAP/WHP)** erfolgen unter dem Bereich **Notfallplanung**.
+Die Wiederanlauf- und Wiederherstellungsplanung stellt sicher, dass ausgefallene Ressourcen – von IT-Systemen über Gebäude bis hin zu Dienstleistungen – schnellstmöglich wieder betriebsbereit sind. 
+
+Während die Wiederanlaufplanung (WAP) auf die rasche Wiederaufnahme des Betriebs abzielt, beschreibt die ergänzende Wiederherstellungsplanung (WHP) sämtliche organisatorischen, technischen und personellen Maßnahmen zur vollständigen Rückkehr in den Normalbetrieb. 
+
+Dazu gehören auch die Dokumentation spezifischer Voraussetzungen sowie die Erfassung zentraler Schlüsselkontakte.
+
+Idealerweise wird diese Planung direkt von den jeweiligen Ressourcenzuständigen durchgeführt. Der strukturelle Aufbau in verinice orientiert sich dabei eng an den offiziellen BSI-Vorgaben für Wiederanlaufpläne.
+
+Die folgende Anleitung führt Sie chronologisch anhand von Prozessdiagrammen durch die Erstellung eines auswertbaren Wiederanlauf- und Wiederherstellungsplan einer Ressource.
+
+### Initialisierung: Scope, Ressourcen & Dokumenten-Objekte
+
+![Prozessbeschreibung WAP/WHP Teil 1](../assets/domain-bcm/wap-1.png)
+
+1. Scope-Einrichtung:
+- Legen Sie im Bereich Scope eine neue Institution an.
+- Optional: Falls die Ressource noch nicht angelegt wurde,  wechseln Sie in den Subtyp Ressource und legen eine neue Ressource an.
+- Ordnen Sie im Folgeschritt die Ressource als Teil der Institution zu.
+
+2. Ressource & Verknüpfungen zur BC-Lösung und zum Dokument: 
+- Ressource verwalten: Pflegen und verwalten Sie die Stammdaten der erstellten Ressource.
+- Dokumenten-Objekt für WAP erstellen / verknüpfen: Erstellen Sie die Verknüpfung zu dem Dokument erzeugten „Dokumenten-Objekt für WAP/WHP“.
+- BC-Lösung für einen WAP/WHP erstellen / verknüpfen: Erzeugen Sie das zentrale Objekt BC-Lösung, das als Basis für die gesamte nachfolgende Detailplanung dient.
 
 ![BC-Lösung erstellen und einer Ressource zuordnen](../assets/domain-bcm/verinice54_1_resource1.png)
 
-Die eigentliche Detailplanung erfolgt anschließend direkt im Objekt BC-Lösung:
+### Erfassung der Grunddaten & Voraussetzungen
 
-1. **Basisangaben und Voraussetzungen dokumentieren**: Wählen Sie im Objekt BC-Lösung unter Details > Art der Notfallplanung **WAP/WHP** aus.
+![Prozessbeschreibung WAP/WHP  Teil 2](../assets/domain-bcm/wap2.png)
+
+Die Erfassung im zentralen Objekt BC-Lösung erfolgt chronologisch von links nach rechts anhand des folgenden Ablaufs:
+1.	Basisangaben und Voraussetzungen zum WAP dokumentieren:
+- Öffnen Sie das neu angelegte Objekt, um mit der Dokumentation der Grunddaten zu beginnen.
+2.	Art der Notfallplanung auswählen:
+- Legen Sie in verinice fest, welche Notfallplanungsart für das Objekt gilt (WAP / WHP).
+3.	Optional: Szenario verknüpfen:
+- Verknüpfen Sie bei Bedarf ein bereits definiertes Notfallszenario mit der BC-Lösung für welches die Planung des Wiederanlaufs gilt.
 
 ![BC-Lösung für WAP/WHP erstellen](../assets/domain-bcm/verinice54_resource_wap1.png)
 
-Daraufhin öffnen sich spezifische Felder zur Dokumentation der folgenden Inhalte:
-
-- **Allgemeine Informationen:** Zielsetzung, Aktivierungsprozess und Rahmenbedingungen.
-- **Voraussetzungen zum Wiederanlauf:** Organisatorische 
-
-![Basisangaben der Wiederanlaufplanung](../assets/domain-bcm/verinice54_resource_wap2.png)
-
- und **technische Voraussetzungen**.
-
-![Technische Voraussetzungen](../assets/domain-bcm/verinice54_resource_req_wap3.png)
-
-- Beschreibung des **Notbetriebsniveaus** und zu erwartende Einschränkungen.
-- Falls erforderlich: Zusätzliche Maßnahmen für den Notbetrieb.
-
-![Notbetrieb](../assets/domain-bcm/verinice54_resource_wap4.png)
-
-2. **Ablaufplan anlegen**: Zur konkreten Strukturierung des Wiederanlaufs legen Sie im linken Bereich über den Reiter **Teile** ein Composite-Objekt vom Typ Notfallmaßnahme an. Benennen Sie dieses beispielsweise mit **Ablaufplan des Wiederanlaufs**.
-
-![Ablaufplan erstellen](../assets/domain-bcm/verinice54_resource_wap5.png)
-
-3. **Notfallmaßnahmen und Aktivitäten verwalten**: Diesem Ablaufplan können nun die einzelnen konkreten Notfallmaßnahmen hinzugefügt werden.
-
-![Notfallmaßnahmen WAP verwalten](../assets/domain-bcm/verinice54_resource_wap6.png)
-
-Damit die korrekte Reihenfolge der Aktivitäten im späteren Report automatisch tabellarisch ausgegeben wird, müssen die nachfolgenden Schritte jeweils über den Custom-Link **Nachgelagerte Aktivität** miteinander verknüpft werden. Stellen Sie sicher, dass im Bereich **Details** folgende Klassifizierungen hinterlegt sind:
-Phase: Wiederanlauf, Wiederherstellung oder Rückführung in den Normalbetrieb
-
-* Plan- und Dokumententyp: Wiederanlaufplan
-* Durchführungsart: Operativ (Einsatz)
-* Maßnahmentyp: Aktivität
-
-Anschließend können Sie pro Aktivität folgende Details festhalten:
-
-* Konkrete Prüfschritte
-* Erwartete Dauer und erforderliche Dokumentation
-* Ausführendes System und zuständige Person
-* Nachgelagerte Aktivität sowie weitere Hinweise
-
-![Klassifikation der Notfallmaßnahme](../assets/domain-bcm/verinice54_resource_wap7.png)
-
-![Aktivitäts-Beschreibung](../assets/domain-bcm/verinice54_resource_wap8.png)
-
-4. **Funktionstests und Übergabe in den Notbetrieb:** Zusätzlich können unter der BC-Lösung weitere Notfallmaßnahmen-Composites hinzugefügt werden, um Testaktivitäten, deren Ergebnisse (erfolgreich / nicht erfolgreich) sowie gegebenenfalls notwendige Korrekturmaßnahmen zu beschreiben.
-
-Verknüpfen Sie im Anschluss – falls dies nicht bereits initial geschehen ist – das fertige Objekt zum Wiederanlauf im übergeordneten Ressourcen-Objekt unter dem Bereich **Notfallplanung**.
-
-### Inhalte der Wiederherstellungsplanung
-
-Die **Wiederherstellungsplanung (WHP)** ergänzt die **Wiederanlaufplanung (WAP)** und beschreibt alle erforderlichen Maßnahmen, um die ausgefallenen Ressourcen vollständig wiederherzustellen und den **Normalbetrieb** sicherzustellen.
-
-Für die Wiederherstellung können spezifische organisatorische und technische Voraussetzungen sowie Schlüsselkontakte dokumentiert werden.
+4.	Allgemeine Informationen dokumentieren:
+- Erläutern Sie die Zielsetzung und den Aktivierungsprozess
+5.	Voraussetzungen für den Wiederanlauf und die Wiederherstellung dokumentieren:
+- Beschreiben Sie die erforderlichen Voraussetzungen: Legen Sie organisatorische Voraussetzungen für den Wiederanlauf (z. B. Zuständigkeiten, Freigabepfade) sowie technische Voraussetzungen fest (z. B. Systemkonfigurationen, Zugänge).
 
 ![Voraussetzungen](../assets/domain-bcm/verinice54_resource_req_whp.png)
 
-Sowohl für den Wiederanlauf als auch für die Wiederherstellung lassen sich wichtige Ansprechpartner hinterlegen, damit diese mitsamt ihren Kontaktdaten gesammelt als Übersicht im Report erscheinen.
+6.	Notbetriebsniveau und zusätzliche Maßnahmen beschreiben: Dokumentieren Sie das zu erreichende Mindestniveau im Notbetrieb sowie etwaige Sondermaßnahmen.
 
-![Wichtige Kontakte](../assets/domain-bcm/verinice54_resource_wap_contact.png)
+### Erstellung der Ablaufpläne & Aktivitäten (im Teile-Tab der BC-Lösung)
 
-#### Ablaufplan der WHP strukturieren
+Nach der Erfassung der Grunddaten legen Sie im Teile-Tab der BC-Lösung die Ablaufpläne als Sammel-Objekte (Composites) und deren einzelne Aktivitäten vom Typ Notfallmaßnahme wie folgt an:
 
-Fügen Sie die erste Notfallmaßnahme/Aktivität als Element zum Ablaufplan hinzu. 
+![Prozessbeschreibung WAP/WHP  Teil 3](../assets/domain-bcm/wap-3.png)
 
-![Ablaufplan der WHP](../assets/domain-bcm/verinice54_resource_whp1.png)
+Legen Sie im Teile-Tab der BC-Lösung die benötigten Maßnahmen-Objekte an:
 
-Alle darauffolgenden Aktivitäten verknüpfen Sie anschließend wieder flexibel über den Custom-Link.
+1. Ablaufplan für den Wiederanlauf unter dem Teile-Tab anlegen: Erstellen Sie ein Composite-Objekt (Typ Notfallmaßnahme) als Sammelbehälter für alle Aktivitäten des Wiederanlaufs.
+2.	Ablaufplan für die Wiederherstellung unter dem Teile-Tab anlegen:
+- Erstellen Sie ein zweites Composite-Objekt (Typ Notfallmaßnahme) als Sammelbehälter für die Schritte zur vollständigen Wiederherstellung.
+3.	Testaktivitäten als Notfallmaßnahme anlegen:
+- Legen Sie diese unter dem Teile-Tab an (ohne Composite; jede Testaktivität wird als einzelne Maßnahme verknüpft).
+4.	Notfallmaßnahme "Rückführung in den Normalbetrieb" unter dem Teile-Tab anlegen:
+- Erfassen Sie dieses Objekt für die geordnete Rückkehr in den Regelbetrieb.
+5.	Optional: Legen Sie bei Bedarf Korrektur- und Verbesserungsmaßnahmen an.
 
-![Erste Aktivität/Notfallmaßnahme zur Wiederherstellung](../assets/domain-bcm/verinice54_resource_whp2.png)
+#### Detaillierung der Composite-Ablaufpläne & Aktivitäten
+Fügen Sie den erstellten Composite-Ablaufplänen  die einzelnen Schritte als untergeordnete Teile (Typ Notfallmaßnahme) hinzu und klassifizieren Sie diese sowie das Composite wie folgt:
 
-Analog zur Wiederanlaufplanung lässt sich jede Aktivität der Wiederherstellung präzise beschreiben:
-  * Prüfschritte, 
-  * erwartete Dauer und erforderliche Dokumentation,
-  * ausführendes System und zuständige Person,
-  * nachgelagerte Aktivitäten und weitere Hinweise.
+A. Ablaufplan des Wiederanlaufs
+1.	Composite-Einstellung ("Ablaufplan des Wiederanlaufs"):
+- Klassifikation der Maßnahme:
+   - Phase: Wiederanlauf in den Notbetrieb
+   - Plan-/Dokumententyp: Wiederanlaufplan
+   - Durchführungsart: Operativ (Einsatz)
+   - Maßnahmentyp: Aktivität
 
-![Aktivitäts-Beschreibung](../assets/domain-bcm/verinice54_resource_whp4.png)
+![Klassifikation der Notfallmaßnahme](../assets/domain-bcm/verinice54_resource_wap7.png)
 
-#### Rückführung in den Normalbetrieb
+- Fügen Sie anschließend die einzelnen Aktivitäten als Teile der Notfallmaßnahme hinzu.
 
-Um auch die geordnete Rückkehr in den Normalbetrieb detailliert zu planen, kann im **Reiter Teile** unter dem Composite BC-Lösung ein weiteres Maßnahmen-Objekt ergänzt werden.
+2.	Aktivitäten unterteilen & erfassen (Aktivität 1, Aktivität 2, ... Aktivität n):
+- Klassifikation der jeweiligen Aktivität:
+   - Phase: Wiederanlauf in den Notbetrieb
+   - Plan-/Dokumententyp: Wiederanlaufplan
+   - Durchführungsart: Operativ (Einsatz)
+   - Maßnahmentyp: Aktivität
+- Angaben zur Aktivität erfassen:
+   - Detaillierte Beschreibung der Handlungsschritte, Prüfschritte, erwartete Dauer und erforderliche Dokumentation, ausführendes System und zuständige Person, nachgelagerte Aktivität sowie weitere Hinweise
+
+![Aktivitäts-Beschreibung](../assets/domain-bcm/verinice54_resource_wap8.png)
+
+B. Ablaufplan der Wiederherstellung
+
+1. Composite-Einstellung ("Ablaufplan der Wiederherstellung"): 
+- Klassifikation der Maßnahme:
+   - Phase: Wiederherstellung
+   - Plan-/Dokumententyp: Wiederanlaufplan
+   - Durchführungsart: Operativ (Einsatz)
+   - Maßnahmentyp: Aktivität
+
+- Fügen Sie anschließend die einzelnen Aktivitäten als Teile der Notfallmaßnahme hinzu.
+
+![Prozessbeschreibung WAP/WHP  Teil 4](../assets/domain-bcm/wap4.png)
+
+2. Aktivitäten unterteilen & erfassen (Aktivität 1, Aktivität 2, ... Aktivität n)
+
+- Klassifikation der jeweiligen Aktivität:
+   - Phase: Wiederherstellung (Anmerkung: Achten Sie darauf, hier im Feld Phase „Wiederherstellung“ auszuwählen)
+   - Plan-/Dokumententyp: Wiederanlaufplan
+   - Durchführungsart: Operativ (Einsatz)
+   - Maßnahmentyp: Aktivität
+- Angaben zur Aktivität erfassen:
+   - Detaillierte Beschreibung der Wiederherstellungsschritte.
+
+C. Testaktivitäten in der BC-Lösung anlegen (ohne Composite; jede Testaktivität wird als einzelne Notfallmaßnahme verknüpft), 
+- 1. Klassifikation der Maßnahme:
+   - Phase: Notbetrieb
+   - Plan-/Dokumententyp: Wiederanlaufplan
+   - Durchführungsart: Übung/Test
+   - Maßnahmentyp: Workaround
+- 2.	Dokumentation: Wichtig: Das Beschreibungsfeld der Maßnahme muss vollständig befüllt werden.
+
+D. Maßnahmen zur Rückführung in den Normalbetrieb ergänzen (ohne Composite; jede Testaktivität wird als einzelne Notfallmaßnahme verknüpft).
 
 ![Maßnahmen zur Rückführung ergänzen](../assets/domain-bcm/verinice54_resource_wap1.png)
 
-Die genaue Vorgehensweise für die Rückkehr können Sie direkt im Beschreibungsfeld dokumentieren sowie eine zuständige Person dafür definieren.
-
-![Notfallmaßnahme Rückführung](../assets/domain-bcm/verinice54_resource_whp6.png)
-
-Damit diese Schritte im Report richtig zugeordnet werden, müssen die Maßnahmen im Bereich **Details** wieder korrekt klassifiziert werden. Wählen Sie dazu die folgenden Einstellungen aus:
-
-* Phase: Rückführung in den Normalbetrieb
-* Plan- und Dokumententyp: Wiederanlaufplan
-* Durchführungsart: Operativ (Einsatz)
-* Maßnahmentyp: Workaround
+1.	Klassifikation der Maßnahme:
+- Phase: Rückführung in den Normalbetrieb
+- Plan-/Dokumententyp: Wiederanlaufplan
+- Durchführungsart: Operativ (Einsatz)
+- Maßnahmentyp: Workaround
 
 ![Klassifikation der Maßnahme](../assets/domain-bcm/verinice54_resource_whp5.png)
 
+2.	Dokumentation:
+-  Die Maßnahme muss in dem Beschreibungsfeld beschrieben werden, z.B. das konkrete Vorgehen zur geordneten Rückkehr in den Regelbetrieb und Zuweisung der verantwortlichen Person.
 
+![Notfallmaßnahme Rückführung](../assets/domain-bcm/verinice54_resource_whp6.png)
+
+E. Optionale Folgeschritte
+1.	Erfassen und beschreiben Sie bei Bedarf Maßnahmen zur kontinuierlichen Verbesserung (z. B. Erkenntnisse aus Tests oder vergangenen Notfällen).
+2.	Wichtige Kontakte und Dokumente verlinken:
+- Verknüpfen Sie abschließend alle relevanten Ansprechpartner, Notfallkontakte und begleitenden Dokumente in der BC-Lösung.
+
+Verknüpfen Sie im Anschluss – falls dies nicht bereits initial geschehen ist – das fertige Objekt zum Wiederanlauf im übergeordneten Ressourcen-Objekt unter dem Bereich **Notfallplanung**.
