@@ -1,9 +1,9 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Der VNA-Importer
 
-Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation **verinice.cloud** bzw. **verinice.onprem** steht der Webservice [VNA-Importer](https://vna-import.verinice.com/) zur Verfügung.
+Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation **verinice.cloud** oder **verinice.onprem** steht der Webservice [VNA-Importer](https://vna-import.verinice.com/) zur Verfügung.
 
-::: danger Wenn Sie [verinice.onprem](https://verinice.com/produkte/verinice/veriniceonprem) ohne Verbindung zum Internet betreiben (air gapped), wenden Sie sich bitte an unseren Support: support@verinice.com.
+::: danger Bitte beachten Sie, dass für den Webservice Ihr **verinice.onprem** aus dem Internet erreichbar sein muss. Für alle anderen Einsatzszenarien kann der VNA-Importer auch als Java-Client eingesetzt werden, für weitergehende Informationen kontaktieren Sie den Support unter support@verinice.
 :::
 
 ## Funktionsumfang
@@ -115,5 +115,3 @@ Die vom VNA-Importer erzeugte **Logdatei** informiert im Detail über die eventu
 ## Unterstützung erhalten
 
 Sollte der Import weiterhin fehlschlagen, wenden Sie sich bitte unter Bereitstellung von **Logdatei** und **VNA-Datei** an unseren Support unter support@verinice.com.
-
-Der VNA-Importer kann optional auch als als Java-Client eingesetzt werden, für weitergehende Informationen kontaktieren Sie auch hier den Support.
