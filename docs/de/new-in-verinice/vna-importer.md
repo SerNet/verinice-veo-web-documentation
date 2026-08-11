@@ -1,10 +1,10 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Der VNA-Importer
 
-Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation **verinice.cloud** steht der Webservice [VNA-Importer](https://vna-import.verinice.com/) zur Verfügung.
+Für die Datenübernahme aus **verinice.PRO** oder **verinice.EPV** (Einzelplatzversion) in die neue verinice-Generation **verinice.cloud** bzw. **verinice.onprem** steht der Webservice [VNA-Importer](https://vna-import.verinice.com/) zur Verfügung.
 
-Wenn Sie [verinice.onprem](https://verinice.com/produkte/verinice/veriniceonprem) ohne Verbindung zum Internet betreiben, wenden Sie sich bitte an unseren Support:
-support@verinice.com.
+::: danger Wenn Sie [verinice.onprem](https://verinice.com/produkte/verinice/veriniceonprem) ohne Verbindung zum Internet betreiben (air gapped), wenden Sie sich bitte an unseren Support: support@verinice.com.
+:::
 
 ## Funktionsumfang
 
@@ -12,7 +12,7 @@ Der VNA-Importer migriert Daten aus einer zuvor aus **verinice.PRO** oder **veri
 
 - Migration von Daten aus der Perspektive **Modernisierter IT-Grundschutz** in die Domänen **IT-Grundschutz** und **Datenschutz** (verfügbar).
 - Migration von Daten aus der Perspektive **ISO/ISM** in die Domänen **ISO 27001** und **Datenschutz** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
-- Migration von Daten des **BCM** (Business Continuity Management) aus den Perspektiven **Modernisierter IT-Grundschutz** bzw. **ISO/ISM* in die Domänen **BCM BSI 200-4** bzw. **ISO 22301** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
+- Migration von Daten des **BCM** (Business Continuity Management) aus den Perspektiven **Modernisierter IT-Grundschutz** bzw. **ISO/ISM** in die Domänen **BCM BSI 200-4** bzw. **ISO 22301** (Verfügbarkeit siehe [Roadmap](../roadmap/)).
 
 Bei der Migration wird eine neue Unit erstellt und die Daten aus der VNA-Datei in diese Unit kopiert - die originalen Daten bleiben unverändert erhalten! Es können mehrere Informationsverbünde in eine Unit übernommen werden.
 
@@ -112,9 +112,8 @@ Die vom VNA-Importer erzeugte **Logdatei** informiert im Detail über die eventu
 - In Ihrem Client ist die maximale Anzahl von Units noch nicht erreicht - der VNA-Importer kann eine neue Unit erzeugen?
 - Alle [Vorarbeiten in verinice](#vorarbeiten-in-verinice) wurden korrekt umgesetzt?
 
-::: info Sollte der Export weiterhin fehlschlagen, unterstützt das verinice.Team bei der Fehlerbehebung. Bitte stellen Sie dazu die Logdatei und die VNA-Datei zur Verfügung.
-:::
+## Unterstützung erhalten
 
-## Für verinice.onprem
+Sollte der Import weiterhin fehlschlagen, wenden Sie sich bitte unter Bereitstellung von **Logdatei** und **VNA-Datei** an unseren Support unter support@verinice.com.
 
-Für den Import in andere Zielumgebungen wie z.B. **verinice.onprem** steht der VNA-Importer als Java-Client zur Verfügung. Bitte kontaktieren Sie den verinice-Support unter support@verinice.com für weitere Informationen.
+Der VNA-Importer kann optional auch als als Java-Client eingesetzt werden, für weitergehende Informationen kontaktieren Sie auch hier den Support.
