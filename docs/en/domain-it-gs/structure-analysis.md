@@ -41,4 +41,4 @@ If the desired object has not yet been created, you can create a new one directl
 In the object environment under **Links**, all incoming and outgoing connections are listed.  
 Naturally, you can navigate to the corresponding target object by clicking on it to continue editing.
 
-![Links]( ../assets/domain-it-gs/verinice-00-Verknüpfungen.png)
+![Links](../assets/domain-it-gs/verinice-00-relations.png)

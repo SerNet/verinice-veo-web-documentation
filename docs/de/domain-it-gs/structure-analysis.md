@@ -37,4 +37,4 @@ Sollte bisher das gewünschte Objekt noch nicht vorhanden sein, so haben Sie die
 
 Im Objektumfeld werden unter **Links** alle ein- und ausgehenden Verknüpfungen aufgelistet. Natürlich gelangen Sie von hier aus durch einen Mausklick zu dem entsprechende Zielobjekt, um dieses weiter zu bearbeiten.
 
-![Verknüpfungen](../assets/domain-it-gs/verinice-00-Verknüpfungen.png)
+![Verknüpfungen](../assets/domain-it-gs/verinice-00-relations.png)
