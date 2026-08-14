@@ -34,7 +34,7 @@ To increase the general quality, the test coverage has been considerably improve
 To ensure compatibility with new functions and new domains, the object schema and form schema have been optimized. The changes are automatically migrated in an automatic data migration with release/deployment of verinice 31. Existing customers will be informed personally about upcoming changes where necessary.
 ### Protection requirements
 The **protection requirement** (potential impact) can now also be documented in the scope, process and asset objects of the GDPR domain for the protection goals of confidentiality, integrity, availability and resilience:
-![protection needs]( ../assets/release-notes/verinice-31_potential_impact.png)
+![protection needs]( ../assets/release-notes/verinice-31-potential-impact.png)
 ## Domain IT-Grundschutz
 **Status: Productive**
 ### Procedure for protection
@@ -44,9 +44,9 @@ The **procedure for validation** of requirements is now displayed where necessar
 
 ### Risk mitigating measures
 For risk-mitigating measures in the IT-Grundschutz domain, the mechanism of **assignment** and **implementation** (control implementation and requirement implementation) is now used, which is also used for *compliance*:
-![Risk mitigating measures]( ../assets/release-notes/verinice-31_CI-RI_risikomitigation.png)
+![Risk mitigating measures]( ../assets/release-notes/verinice-31-CI-RI-risk-mitigation.png)
 
 #### IT-Grundschutz-Profile Basic Protection Local Government V.4
 
 In addition to the **Standard or core protection profile  according to IT-Grundschutz Compendium Edition 2023**, the **Basis-Absicherung Kommunalverwaltung Version 4.0** is now available as the first IT-Grundschutz profile:
-![Basis-Absicherung Kommunalverwaltung Version 4.0]( ../assets/release-notes/verinice-31_profile.png)
+![Basis-Absicherung Kommunalverwaltung Version 4.0]( ../assets/release-notes/verinice-31-profile.png)

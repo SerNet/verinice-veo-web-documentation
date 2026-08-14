@@ -7,7 +7,7 @@ The following new features are available to users with the release of verinice 3
 ### Mapping of links
 
 In the object view, incoming and outgoing links are displayed in one view with specification of the link type:
-![Links]( ../assets/release-notes/verinice-33_Links.png)
+![Links]( ../assets/release-notes/verinice-33-Links.png)
 
 ### Detail improvements
 - The warning to recalculate the risk values in the risk dialog is now only displayed after changes.
@@ -19,7 +19,7 @@ In the object view, incoming and outgoing links are displayed in one view with s
 - Incorrect icon for domain selection with collapsed menu corrected.
 - Enter in the **Create Unit** wizard takes you to the next page.
 - Selecting a link in the form now correctly opens the target in a new browser tab.
-![Open custom link]( ../assets/release-notes/verinice-33_Custom_Link.png)
+![Open custom link]( ../assets/release-notes/verinice-33-Custom-Link.png)
 - Fixed display error in breadcrumb.
 - Provision of risk values and translations in the form schema editor improved.
 
@@ -38,7 +38,7 @@ In the object view, incoming and outgoing links are displayed in one view with s
 ## Domain IT-Grundschutz
 **Status: Productive**
 - The safeguarding procedure is now also displayed when implementing risk-mitigating measures:
-![Safeguarding procedure]( ../assets/release-notes/verinice-33_Vorgehensweise_der_Absicherung.png)
+![Safeguarding procedure]( ../assets/release-notes/verinice-33-Vorgehensweise-der-Absicherung.png)
 - Consistent designation of the implementation status **Dispensable** (instead of not applicable).
 
 ## Domain NIS2

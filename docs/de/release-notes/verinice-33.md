@@ -11,7 +11,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit Release von veri
 
 In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe des Verknüpfungstyps in einer Ansicht dargestellt:
 
-![Verknüpfungen](../assets/release-notes/verinice-33_Links.png)
+![Verknüpfungen](../assets/release-notes/verinice-33-Links.png)
 
 ### Detailverbesserungen
 
@@ -26,7 +26,7 @@ In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe 
 - Enter/Eingabe im **Unit erstellen** Assistenten führt auf die nächste Seite.
 - Auswahl eines Links im Formular öffnet jetzt korrekt das Ziel in einem neuen Browser-Tab.
 
-![Custom Link öffnen](../assets/release-notes/verinice-33_Custom_Link.png)
+![Custom Link öffnen](../assets/release-notes/verinice-33-Custom-Link.png)
 
 - Darstellungsfehler in Breadcrumb behoben.
 - Bereitstellung der Risikowerte und Übersetzungen im Formschema-Editor verbessert.
@@ -53,7 +53,7 @@ In der Objektansicht werden eingehende und ausgehende Verknüpfungen mit Angabe 
 
 - Die Vorgehensweise der Absicherung wird jetzt auch bei der Umsetzung risikomitigierender Maßnahmen angezeigt:
 
-![Vorgehensweise der Absicherung](../assets/release-notes/verinice-33_Vorgehensweise_der_Absicherung.png)
+![Vorgehensweise der Absicherung](../assets/release-notes/verinice-33-Vorgehensweise-der-Absicherung.png)
 
 - Konsistente Benennung des Umsetzungsstatus **Entbehrlich** (statt nicht anwendbar).
 

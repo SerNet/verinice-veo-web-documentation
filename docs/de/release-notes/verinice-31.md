@@ -43,7 +43,7 @@ Um die Kompatibilität mit neuen Funktionen und neuen Domänen zu gewährleisten
 
 Der **Schutzbedarf** (Potentielle Auswirkung) kann jetzt auch in den Scope-, Prozess- und Assetobjekten der Domäne DS-GVO dokumentiert werden für die Schutzziele Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit:
 
-![Schutzbedarf](../assets/release-notes/verinice-31_potential_impact.png)
+![Schutzbedarf](../assets/release-notes/verinice-31-potential-impact.png)
 
 ## Domäne IT-Grundschutz
 
@@ -59,10 +59,10 @@ Die **Vorgehensweise der Absicherung** von Anforderungen wird jetzt wo erforderl
 
 Für risikomitigierende Maßnahmen in der Domäne IT-Grundschutz wird jetzt der Mechanismus der **Zuordnung** und **Umsetzung** (Control Implementation und Requirement Implementation) genutzt, der auch bei der *Compliance* verwendet wird:
 
-![Risikomitigierende Maßnahmen](../assets/release-notes/verinice-31_CI-RI_risikomitigation.png)
+![Risikomitigierende Maßnahmen](../assets/release-notes/verinice-31-CI-RI-risk-mitigation.png)
 
 #### IT-Grundschutz-Profil Basis-Absicherung Kommunalverwaltung V.4
 
 Neben dem Profil **Standard- oder Kernabsicherung nach IT-Grundschutz-Kompendium Edition 2023** steht als erstes IT-Grundschutz-Profil nun die **Basis-Absicherung Kommunalverwaltung Version 4.0** zur Verfügung:
 
-![Basis-Absicherung Kommunalverwaltung Version 4.0](../assets/release-notes/verinice-31_profile.png)
+![Basis-Absicherung Kommunalverwaltung Version 4.0](../assets/release-notes/verinice-31-profile.png)
