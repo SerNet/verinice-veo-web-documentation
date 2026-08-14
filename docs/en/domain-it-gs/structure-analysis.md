@@ -17,7 +17,7 @@ Click **Save** once you have entered all the desired data for the institution. P
 
 Next, navigate to the object type **Scope** and the subtype **Information Networks** and, similar to the institution, create your first **Information Network**:
 
-![Create Institution]( ../assets/domain-it-gs/1-Informationsverbund-erstellen.png)
+![Create Institution]( ../assets/domain-it-gs/verinice-00-Informationsverbund-erstellen.png)
 
 Enter all the required information in the form (e.g., abbreviation, name, description/scope, protection approach) and save the object.
 
@@ -28,7 +28,7 @@ Depending on your needs, you can create as many (sub)information networks as nec
 To develop an IT security concept, it's necessary to analyze and document the existing infrastructure. All target object types required for modeling the infrastructure are documented under **Processes** and **Assets**. Create new target objects, such as business processes or IT systems.  
 The result of the structural analysis is the complete mapping of the infrastructure:
 
-![Dashboard - Structural Analysis]( ../assets/domain-it-gs/2-Strukturanlayse.png)
+![Dashboard - Structural Analysis]( ../assets/domain-it-gs/verinice-00-Strukturanlayse.png)
 
 ## Dependencies Between Target Objects
 
@@ -41,4 +41,4 @@ If the desired object has not yet been created, you can create a new one directl
 In the object environment under **Links**, all incoming and outgoing connections are listed.  
 Naturally, you can navigate to the corresponding target object by clicking on it to continue editing.
 
-![Links]( ../assets/domain-it-gs/3-Verknüpfungen.png)
+![Links]( ../assets/domain-it-gs/verinice-00-Verknüpfungen.png)

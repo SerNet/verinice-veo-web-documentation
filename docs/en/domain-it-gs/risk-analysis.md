@@ -34,7 +34,7 @@ To further process the individual elemental threats, click on the respective thr
 
 Based on these two values, the **gross risk** is automatically calculated using the risk matrix after you save your entries.
 
-![Risk Assessment]( ../assets/domain-it-gs/verinice-32-risik-assessment.png)
+![Risk Assessment]( ../assets/domain-it-gs/verinice-32-risk-assessment.png)
 
 ## Risk Treatment
 

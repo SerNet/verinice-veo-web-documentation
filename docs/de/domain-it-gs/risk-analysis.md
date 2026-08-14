@@ -33,7 +33,7 @@ Um die einzelnen Elementaren Gefährdungen weiter bearbeiten zu können, klicken
 
 Aus diesen beiden Werten wird nachdem Sie Ihre Eingaben gespeichert haben automatisch das **Bruttorisiko** anhand der Risikomatrix berechnet.
 
-![Risikobewertung](../assets/domain-it-gs/verinice-32-risik-assessment.png)
+![Risikobewertung](../assets/domain-it-gs/verinice-32-risk-assessment.png)
 
 ## Risikobehandlung
 

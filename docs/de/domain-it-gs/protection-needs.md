@@ -5,7 +5,7 @@
 
 Die institutionsweiten und für alle Zielobjekte gültigen **Schutzbedarfskategorien** für die **Schutzziele** werden in der [Risikodefinition](./domain-it-gs-description#risikodefinition) definiert. Navigieren Sie dazu im Menü zu den **Risikodefinitionen** und anschließend **GSRA**. Hier können Sie mit einem **Klick auf den Stift** die Kategorien der Schutzziele bearbeiten.
 
-![Schutzbedarfsdefinitionen](../assets/domain-it-gs/4-Schutzbedarf-Definitionen.png)
+![Schutzbedarfsdefinitionen](../assets/domain-it-gs/verinice-00-Schutzbedarf-Definitionen.png)
 
 ::: info Aktuell können lediglich die Werte und Beschreibungen geändert werden! Die Erweiterung der Risikodefinition befindet sich in Entwicklung, siehe die [Roadmap](/roadmap/).
 :::
@@ -14,7 +14,7 @@ Die institutionsweiten und für alle Zielobjekte gültigen **Schutzbedarfskatego
 
 Innerhalb eines Informationsverbundes lässt sich der Schutzbedarf für alle relevanten Zielobjekte festlegen. Im BSI IT-Grundschutz sind dies Geschäftsprozesse/Fachverfahren, Informationen, Anwendungen, IT-Systeme, ICS-Systeme, IoT-Systeme, Kommunikationsverbindungen und Räume. Öffnen Sie dazu das Formular des jeweiligen Zielobjektes und scrollen Sie bis zum Abschnitt **Wirkungsanalyse**. Wählen Sie in den Drop-Down-Menüs den entsprechenden Schutzbedarf für die Schutzziele aus.
 
-![Schutzbedarfsfeststellung](../assets/domain-it-gs/5-Schutzbedarf.png)
+![Schutzbedarfsfeststellung](../assets/domain-it-gs/verinice-00-Schutzbedarf.png)
 
 ## Schutzbedarfsvererbung
 
