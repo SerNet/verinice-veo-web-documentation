@@ -25,4 +25,4 @@ In verinice, the protection requirement is automatically derived starting from b
 The automated derivation of the protection requirement always follows the maximum principle over the entire derivation hierarchy, but can also be manually **overridden** in each target object by setting the protection requirement via the drop-down field **User Specification**.  
 In this case, it must also be documented by selection in the drop-down field whether the **distribution effect** or **cumulative effect** was applied.
 
-![Inheritance of Protection Requirements]( ../assets/domain-it-gs/6-Ableitung%20des%20Schutzbedarfs.png)
+![Inheritance of Protection Requirements]( ../assets/domain-it-gs/verinice-00-protection-need-inheritance.png)

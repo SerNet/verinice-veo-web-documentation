@@ -21,4 +21,4 @@ Innerhalb eines Informationsverbundes lässt sich der Schutzbedarf für alle rel
 In verinice wird der Schutzbedarf ausgehend von Geschäftsprozessen/Fachverfahren als oberster Ebene in der Ableitungshierarchie für die übrigen Zielobjekte getrennt nach Schutzziel automatisiert abgeleitet.
 Die automatisierte Ableitung des Schutzbedarfs folgt dabei immer dem Maximumprinzip über die gesamte Ableitungshierarchie, kann andererseits aber in jedem Zielobjekt manuell **überschrieben** werden, indem der Schutzbedarf über das Drop-Down-Feld **Nutzervorgabe** manuell gesetzt wird. In diesem Fall ist durch Auswahl in dem Drop-Down-Feld noch zu dokumentieren, ob **Verteilungseffekt** oder **Kumulationseffekt** zugrunde gelegt wurden.
 
-![Schutzbedarfsvererbung](../assets/domain-it-gs/6-Ableitung%20des%20Schutzbedarfs.png)
+![Schutzbedarfsvererbung](../assets/domain-it-gs/verinice-00-protection-need-inheritance.png)
