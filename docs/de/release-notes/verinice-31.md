@@ -53,7 +53,7 @@ Der **Schutzbedarf** (Potentielle Auswirkung) kann jetzt auch in den Scope-, Pro
 
 Die **Vorgehensweise der Absicherung** von Anforderungen wird jetzt wo erforderlich angezeigt, um die Arbeit nach IT-Grundschutz besser zu unterstützen:
 
-![Vorgehensweise der Absicherung](../assets/release-notes/verinice-31_proceeding.png)
+![Vorgehensweise der Absicherung](../assets/release-notes/verinice-31-proceeding.png)
 
 ### Risikomitigierende Maßnahmen
 

@@ -9,7 +9,8 @@ The following new features are available to users with the release of verinice 2
 
 ### Status page
 
-![Status page]( ../assets/roadmap/statusseite.png)
+![Status page]( ../assets/release-notes/verinice-28-statusseite.png)
+
 Via the new [Status page](https://status.sernet.net/) of SerNet GmbH (optionally accessible via [Status](https://verinice.com/)), users of verinice can see
 
 - whether and why access to verinice is or was not possible in the event of downtime.
@@ -23,7 +24,7 @@ The **deletion of very large units** has been accelerated to such an extent that
 
 ### Detailed improvements and bug fixes
 
-![Profile description]( ../assets/roadmap/profile.png)
+![Profile description]( ../assets/release-notes/verinice-28-profile.png)
 
 - Improvement of the profile description when applying profiles to new or existing units.
 - Optimization of the breadcrumbs.
@@ -43,7 +44,7 @@ The search function introduced in the object overview with verinice 27 is now al
 
 - When **modeling blocks**, you can search by abbreviation, name and display name.
 - In the **IT-Grundschutz-Kompendium** catalog, you can search by abbreviation and name.
-![Search]( ../assets/roadmap/suche.gif)
+![Search]( ../assets/release-notes/verinice-28-suche.gif)
 
 ### Extension of the protection requirement inheritance
 

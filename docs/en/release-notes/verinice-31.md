@@ -40,7 +40,7 @@ The **protection requirement** (potential impact) can now also be documented in 
 ### Procedure for protection
 
 The **procedure for validation** of requirements is now displayed where necessary in order to better support the work according to IT-Grundschutz:
-![Safeguarding procedure]( ../assets/release-notes/verinice-31_proceeding.png)
+![Safeguarding procedure]( ../assets/release-notes/verinice-31-proceeding.png)
 
 ### Risk mitigating measures
 For risk-mitigating measures in the IT-Grundschutz domain, the mechanism of **assignment** and **implementation** (control implementation and requirement implementation) is now used, which is also used for *compliance*:
