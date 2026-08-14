@@ -40,12 +40,12 @@ In the list, all security controls that must be applied in the sense of a Statem
 
 To document the applicability of a security measure, click on the corresponding measure in the **Controls** tab:
 
-![Select Controls]( ../assets/domain-iso/verinice-57-SOA-select-control-en.png)
+![Select Controls]( ../assets/domain-iso/verinice-57-SOA-select-control.png)
 
 In addition to assigning a responsible person and entering a description, you can select in the “Applicability” section whether the security measure is part of the Statement of Applicability (SOA). Furthermore, you can select a reason for the selection from the categories: legal requirements, contractual requirements, organizational requirements, and requirements from the risk analysis. You also have the option to provide a justification for the applicability or non-applicability of the security measure.
 
 
-![Reason for Selection]( ../assets/domain-iso/verinice-57-SOA-select-reason-en.png)
+![Reason for Selection]( ../assets/domain-iso/verinice-57-SOA-select-reason.png)
 
 **Note**: These features are available with the release of **verinice 57**. If you have previously documented the applicability of the SOA—particularly the reason for selection—in the general description field, you must manually transfer this information to the **Applicability** section after the update.
 
@@ -53,13 +53,11 @@ In addition to assigning a responsible person and entering a description, you ca
 
 To document the implementation status of a control, open the implementation dialog by clicking the **Show Implementation** icon:
 
-![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-show-implementation-en.png)
+![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-show-implementation.png)
 
 Open the corresponding control and document the current implementation status in the lower section:
 
-![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-implementation-status-en.png)
-
-
+![Show Implementation]( ../assets/domain-iso/verinice-57-SOA-implementation-status.png)
 
 ## SoA Report
 
