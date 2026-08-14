@@ -113,13 +113,13 @@ In der **Seitenleiste** der Formulare können durch Mausklick auf eines der Symb
 
 In der Seitenleiste **Ansicht** können Objekte je nach Subtyp in einem anderen Formular angezeigt werden.
 
-![Ansicht](../assets/manual/form_view.png)
+![Ansicht](../assets/manual/form-view.png)
 
 ### Inhalt
 
 Formularinhalte werden in der Seitenleiste **Inhalt** strukturiert dargestellt. Durch Mausklick kann zu den einzelnen Abschnitten navigiert werden.
 
-![Inhalt](../assets/manual/form_content.png)
+![Inhalt](../assets/manual/form-content.png)
 
 ### Verlauf
 
@@ -127,7 +127,7 @@ verinice speichert jede Änderung an Objekten auf Feldebene als Version und stel
 
 In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, durch Anklicken einer Version wird diese angezeigt. Über die Schaltfläche **Wiederherstellen** kann zu jeder früheren Version zurückgekehrt werden (**Undo-Funktion**).
 
-![Verlauf](../assets/manual/form_history.png)
+![Verlauf](../assets/manual/form-history.png)
 
 ::: warning Bei der Speicherung werden ggf. mehrere Teilschritte in unterschiedlichen Objekten gespeichert (z.B. im Objekt und im zugehörigen Risiko). Die Teilschritte werden in der Versionierung separat gezählt, was in der Anzeige der Versionsnummern zu vermeintlichen Lücken führt. Dieses Verhalten ist technisch gewünscht und führt zu keinerlei Datenverlust! Um diese Irritation zu vermeiden wird zukünftig auf die Nummerierung der Versionen verzichtet, entscheidend ist allein der Zeitstempel.
 :::
@@ -136,4 +136,4 @@ In der Seitenleiste **Verlauf** werden alle früheren Versionen aufgelistet, dur
 
 Fehler, Warnungen oder Informationen zu aktuellen Formulareingaben werden in der Seitenleiste **Meldungen** dargestellt.
 
-![Meldungen](../assets/manual/form_decision.png)
+![Meldungen](../assets/manual/form-decision.png)

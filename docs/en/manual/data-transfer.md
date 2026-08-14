@@ -10,7 +10,7 @@ verinice allows you to perform local backups and provides your data in a structu
 3. To download the complete **data history**, it must first be prepared for download.
 4. The data is made available in various ZIP packages, grouped by **history** timeframes.
 
-![Data Transfer - History](  ../assets/manual/data-transfer_history.png)
+![Data Transfer - History](  ../assets/manual/data-transfer-history.png)
 
 5. Download all user data associated with your account.
 

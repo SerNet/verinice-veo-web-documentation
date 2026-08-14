@@ -10,7 +10,7 @@ verinice ermöglicht Ihnen lokale Backups durchzuführen und stellt Ihnen Ihre D
 3. Um die gesamte **Daten-Historie** herunterzuladen, müssen diese für den Download vorbereitet werden.
 4. Die Daten werden in verschiedenen ZIP-Paketen mit Zeitfenster der **Historie** zum Download bereitgestellt.
 
-![Datenübertragung - Historie](../assets/manual/data-transfer_history.png)
+![Datenübertragung - Historie](../assets/manual/data-transfer-history.png)
 
 5. Laden Sie alle Benutzerdaten Ihres Accounts herunter.
 

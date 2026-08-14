@@ -118,13 +118,13 @@ In the **sidebar** of a form, additional information can be displayed by clickin
 
 In the **View** sidebar, objects can be displayed in different forms depending on their subtype.
 
-![View](../assets/manual/form_view.png)
+![View](../assets/manual/form-view.png)
 
 ### Content
 
 Form content is shown in the **Content** sidebar in a structured manner. Clicking an item scrolls to that section.
 
-![Content](../assets/manual/form_content.png)
+![Content](../assets/manual/form-content.png)
 
 ### History
 
@@ -132,7 +132,7 @@ verinice logs every field-level change to objects as a version, providing a comp
 
 The **History** sidebar shows all previous versions. Clicking a version displays it. The **Restore** button allows reverting to any previous version (**undo**).
 
-![History](../assets/manual/form_history.png)
+![History](../assets/manual/form-history.png)
 
 ::: warning During storage, several sub-steps may be stored in different objects (e.g. in the object and in the associated risk). The sub-steps are counted separately in the versioning, which leads to apparent gaps in the display of the version numbers. This behavior is technically desired and does not result in any data loss! To avoid this confusion, version numbering will be dispensed with in the future; only the timestamp will be decisive.
 :::
@@ -141,4 +141,4 @@ The **History** sidebar shows all previous versions. Clicking a version displays
 
 Errors, warnings, or informational messages about current form inputs are shown in the **Messages** sidebar.
 
-![Messages](../assets/manual/form_decision.png)
+![Messages](../assets/manual/form-decision.png)
