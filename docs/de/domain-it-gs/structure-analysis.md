@@ -7,7 +7,7 @@ Mit der Strukturanalyse bilden Sie die Infrastruktur Ihrer Institution als Grund
 
 Erfassen Sie Ihre Institution, indem Sie über das Dashboard oder das Menü zum Objekttyp **Scope** mit dem Subtyp **Institutionen** navigieren. Legen Sie eine neue Institution über die rote Plus-Schaltfläche **Institution erstellen** unten rechts an:
 
-::: info Über die Plus-Schlatfläche legen Sie Objekte kontextsensitiv immer mit dem Objekt- und Subtyp an, der gerade aktiv ist!
+::: info Über die Plus-Schaltfläche legen Sie Objekte kontextsensitiv immer mit dem Objekt- und Subtyp an, der gerade aktiv ist!
 :::
 
 **Speichern** Sie die Institution wenn Sie alle Daten wie gewünscht erfasst haben, beachten Sie dabei, dass die Felder **Name** und **Status** (in allen Objekten) zwingend erforderlich sind! Ihre Institution wird anschließend in der Objektübersicht aufgelistet.
@@ -16,7 +16,7 @@ Erfassen Sie Ihre Institution, indem Sie über das Dashboard oder das Menü zum 
 
 Navigieren Sie nun zum Objekttyp **Scope** und dem Subtyp **Informationsverbünde** und erstellen Sie analog zur Institution Ihren ersten **Informationsverbund**:
 
-![Institution erstellen](../assets/domain-it-gs/1-Informationsverbund%20erstellen.png)
+![Institution erstellen](../assets/domain-it-gs/1-Informationsverbund-erstellen.png)
 
 Geben Sie im Formular alle Daten (z.B. Abkürzung, Name, Beschreibung/Geltungsbereich, Vorgehensweise der Absicherung) zum Objekt ein und speichern Sie abschließend.
 

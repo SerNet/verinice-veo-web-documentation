@@ -17,7 +17,7 @@ Click **Save** once you have entered all the desired data for the institution. P
 
 Next, navigate to the object type **Scope** and the subtype **Information Networks** and, similar to the institution, create your first **Information Network**:
 
-![Create Institution]( ../assets/domain-it-gs/1-Informationsverbund%20erstellen.png)
+![Create Institution]( ../assets/domain-it-gs/1-Informationsverbund-erstellen.png)
 
 Enter all the required information in the form (e.g., abbreviation, name, description/scope, protection approach) and save the object.
 
