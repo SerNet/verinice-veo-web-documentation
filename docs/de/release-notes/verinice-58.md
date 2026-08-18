@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 58
 
-Veröffentlichung: 14. August 2026 (voraussichtlich)
+Veröffentlichung: 14. August 2026
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 58** zur Verfügung.
 
