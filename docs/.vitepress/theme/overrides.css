@@ -3,6 +3,11 @@
  * Non-token, non-theme styles
  */
 
+ /* Add border to images (content only) */
+.vp-doc img {
+  border: 2px solid var(--vp-c-divider);
+  border-radius: 4px;
+}
 
  /* Enable multiline of right sidebar */
 .VPDocAsideOutline .outline-link {
