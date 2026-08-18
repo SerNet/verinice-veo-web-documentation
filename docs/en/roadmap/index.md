@@ -1,84 +1,76 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-As of July 16, 2026 - Subject to change!
+As of September 2, 2026 - Subject to change!
 
 ## Q3 2026
 
-### VNA Import
-
-Implementation of the VNA import from verinice.PRO to verinice.onprem or verinice.cloud for data migration: 
-- to the **ISO** and **GDPRn** domains. <Badge type="danger">Development</Badge>
-<!-- epics/364 -->
-- to the **BCM** domains. <Badge type="warning">Planning</Badge>
-<!-- epics/365 -->
-
-::: tip The [VNA Importer](../new-in-verinice/vna-importer.md) is already available for migrating data from the **Modernized IT-Grundschutz** perspective to the **IT-Grundschutz** and **Data Protection** domains.
-:::
-
 ### IT-Grundschutz Profiles <Badge type="danger">Development</Badge>
+<!-- epics/380 -->
 
-Provision of the **IT-Grundschutz Profiles** based on the IT-Grundschutz Compendium, **Edition 2023-1** (in German only):
+Provision of the **IT-Grundschutz Profiles** based on the IT-Grundschutz Compendium in the **2023-1 Edition**:
+- IT-GS Profile for traffic control and management systems on the federal highway network
+- IT-GS Profile for top-level federal authorities
+- IT-GS Profile for the operation of UAS
+- IT-GS Profile for federal courts
+- IT-GS Profile for departmental research institutions
+- IT-GS Profile for securing 5G campus networks
+- IT-GS Profile for control centers V 2.0 Edition 2023
+- IT-GS Profile for the Use of the Federal E-File
 
-- IT-GS Profil für die Verkehrssteuerungs- und Leitsysteme der Bundesautobahn
-- IT-GS-Profil Profil für oberste Bundesbehoerden
-- IT-GS-Profil Profil für den Betrieb von UAS
-- IT-GS-Profil Profil für Bundesgerichte
-- IT-GS-Profil Profil für Ressort-Forschungseinrichtungen
-- IT-GS-Profil zur Absicherung von 5G-Campusnetzen
-- IT-GS-Profil für Leitstellen V 2.0 Edition 2023 
-- IT-GS-Profil für die Nutzung der E-Akte Bund
-
-::: warning The IT-GS Profile Basis-Absicherung Kommunalverwaltung Version 4 is already available for use in verinice.
+::: warning The IT-GS Profile for Basic Security in Local Government, Version 4, is already available for use in verinice.
 :::
 
-::: info IT-Grundschutz profiles based on an older edition of the IT-Grundschutz Compendium may be provided upon request.
+::: info IT-GS profiles based on an older edition of the IT-Grundschutz Compendium may be provided upon request.
 :::
 
-### B3S Healthcare <Badge type="danger">Development</Badge>
+### B3S Medical Care <Badge type="danger">Development</Badge>
+<!-- epics/379 -->
 
-Release of the **Branchenspezifischen Sicherheitsstandard (B3S) für die medizinische Versorgung**, Version 1.3.1, as a profile for verinice (in German only).
+Provision of the **Industry-Specific Security Standard (B3S) for Medical Care** in Version 1.3.1 as a profile for verinice.
 
-### Business Continuity Management Sample Data <Badge type="danger">Development</Badge>
-<!-- epics/253 -->
-
-Sample units and profiles for the BCM domains, e.g., the BCM profile for universities.
-
-### Workflow <Badge type="warning">Planning</Badge>
+### Workflow <Badge type="danger">Development</Badge>
 <!-- epics/374 -->
 
-Creation of tasks for any objects, e.g., as questionnaire objects that can be delegated and re-delegated between users.
-
-### Expansion of authorization management <Badge type="warning">Planning</Badge>
-<!-- epics/178 -->
-
-Permissions management supports references across units to map access to units in a manner analogous to the information networks in verinice.PRO. In future phases, permissions (rights and roles) will be extended to include, for example, scope objects.
+In the first iteration, tasks related to the **implementation** of control objects and their **revision** are mapped as a workflow. A new page, **Tasks**, displays all **controls to be implemented** or **controls to be reviewed**, filterable by responsibility. The basis for the new **Workflow** functionality is the assignment of newly introduced **accounts**, which are linked to person objects.
 
 ### Report Formats <Badge type="warning">Planning</Badge>
 
 Provision of additional output formats for reports (CSV, XLSX/ODS, and DOCX/ODT, HTML):
-- Exporting reports in the **DOCX** and **ODT** formats for editorial editing before they are finalized.<!-- epics/373 -->
-- Creating additional report templates in tabular form in the **CSV/XLSX/ODS** formats for quantitative further processing, filtering, and sorting of data. <!-- epics/372 -->
-- Export all report templates in **HTML** format for internal distribution (e.g., on the intranet) or for quick browser-based viewing without additional software.<!-- epics/371 -->
-
-### Audit Management <Badge type="warning">Planning</Badge>
-
-Mapping of internal and external audits in verinice with task delegation and monitoring as part of the workflow. The planning and execution of internal and external audits are mapped via a new scope object.
+- Output of reports in the **DOCX** and **ODT** formats for editorial editing before they are finalized. <!-- epics/373 -->
+- Creation of additional report templates in tabular form in the **CSV/XLSX/ODS** formats for quantitative further processing, filtering, and sorting of data.<!-- epics/372 -->
+- Export of all report templates in **HTML** format for internal distribution (e.g., on the intranet) or for quick browser-based viewing without additional software.<!-- epics/371 -->
 
 ## Q4 2026
+
+### Access Management - Scopes <Badge type="warning">Planning</Badge>
+<!-- epics/178 -->
+
+Read and write permissions can be assigned to groups on scope objects, ensuring that content in other scopes cannot be accessed. This feature enables granular access permissions for, e.g., information networks, scopes, or external service providers.
+
+### Basic Protection++ Domain <Badge type="warning">Planning</Badge>
+<!-- epics/262 -->
+
+Deployment of an initial functional Basic Protection++ (DE) domain with updates to methodology and risk management.
 
 ### Dashboard <Badge type="warning">Planning</Badge>
 <!-- epics/315 -->
 
 Expanded dashboard functions to visually present data.
-
 The expansion of the dashboard is planned in several iterations:
 - Graphical representation of the implementation status of controls and risks.
 - Calendar view of tasks and due dates.
 - Display of key metrics in tiles.
 - Option to export the displayed data.
 
-### Grundschutz++ Domain <Badge type="warning">Planning</Badge>
-<!-- epics/262 -->
+### Audit Management <Badge type="warning">Planning</Badge>
+<!-- epics/375 -->
 
-Deployment of an initial functional Grundschutz++ (DE) domain with updates to methodology and risk management.
+Mapping of internal and external audits in verinice with task delegation and monitoring as part of the workflow. The planning and execution of internal and external audits will be mapped via a new scope object.
+
+## Q1 2027
+
+### Access Management - Objects <Badge type="warning">Planning</Badge>
+<!-- epics/395 -->
+
+Read and write permissions can be assigned to groups for composite objects, ensuring that other objects and their content cannot be accessed. This feature enables granular access permissions for individual objects and object groups, such as business processes, applications, or IT systems.

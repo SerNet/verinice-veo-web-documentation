@@ -1,22 +1,12 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-Stand: 16. Juli 2026 - Änderungen vorbehalten!
+Stand: 2. September 2026 - Änderungen vorbehalten!
 
 ## Q3 2026
 
-### VNA-Import
-
-Bereitstellung des VNA-Imports von verinice.PRO zu verinice.onprem oder verinice.cloud für die Migration von Daten: 
-- in die Domänen **ISO** und **Datenschutz**. <Badge type="danger">Entwicklung</Badge>
-<!-- epics/364 -->
-- in die **BCM**-Domänen. <Badge type="warning">Planung</Badge>
-<!-- epics/365 -->
-
-::: tip Für die Migration von Daten aus der Perspektive **Modernisierter IT-Grundschutz** in die Domänen **IT-Grundschutz** und **Datenschutz** steht der [VNA-Importer](../new-in-verinice/vna-importer.md) bereits zur Verfügung.
-:::
-
 ### IT-Grundschutz-Profile <Badge type="danger">Entwicklung</Badge>
+<!-- epics/380 -->
 
 Bereitstellung der auf dem IT-Grundschutz-Kompendium in der **Edition 2023-1** basierenden **IT-Grundschutz-Profile**:
 
@@ -36,22 +26,14 @@ Bereitstellung der auf dem IT-Grundschutz-Kompendium in der **Edition 2023-1** b
 :::
 
 ### B3S Medizinische Versorgung <Badge type="danger">Entwicklung</Badge>
+<!-- epics/379 -->
 
 Bereitstellung des **Branchenspezifischen Sicherheitsstandard (B3S) für die medizinische Versorgung** in Version 1.3.1 als Profil für verinice.
 
-### Business-Continuity-Management Beispieldaten <Badge type="danger">Entwicklung</Badge>
-<!-- epics/253 -->
-
-Beispiel-Units und -Profile für die BCM-Domänen, z.B. das BCM-Profil für Hochschulen.
-
-### Workflow <Badge type="warning">Planung</Badge>
+### Workflow <Badge type="danger">Entwicklung</Badge>
 <!-- epics/374 -->
-Erstellung von Aufgaben für beliebige Objekte, z.B. als zwischen Usern delegierbare und rück-delegierbare Fragebogen-Objekte.
 
-### Ausbau des Berechtigungsmanagements <Badge type="warning">Planung</Badge>
-<!-- epics/178 -->
-
-Das Berechtigungsmanagement unterstützt Kreuzreferenzen über Units, um den Zugriff auf Units analog zu den Informationsverbünden in verinice.PRO abzubilden. In weiteren Ausbaustufen werden die Berechtigungen (Rechte und Rollen) auf z.B. Scopeobjekte erweitert.
+In der ersten Iteration werden Aufgaben aus der **Umsetzung** von Controlobjekten und deren **Revision** als Workflow abgebildet. Eine neue Seite **Aufgaben** stellt alle **umzusetzenden** bzw. **zu prüfenden** Controls filterbar nach Verantwortlichkeit dar. Grundlage der neuen Funktionalität **Workflow** ist die Zuweisung neu einzuführender **Accounts**, die mit Personenobjekten verknüpft sind.
 
 ### Reportformate <Badge type="warning">Planung</Badge>
 
@@ -60,11 +42,17 @@ Bereitstellung zusätzlicher Ausgabeformate für Reports (CSV, XLSX/ODS und DOCX
 - Erstellung weiterer Reportvorlagen in tabellarischer Form in den Formaten **CSV/XLSX/ODS** für die quantitative Weiterverarbeitung, Filterung und Sortierung von Daten.<!-- epics/372 -->
 - Ausgabe aller Report-Templates im **HTML**-Format für die interne Bereitstellung (z.B. im Intranet) oder zur schnellen browserbasierten Ansicht ohne Zusatzsoftware.<!-- epics/371 -->
 
-### Auditmanagement <Badge type="warning">Planung</Badge>
-
-Abbildung von internen und externen Audits in verinice mit Delegation von Aufgaben und Überwachung im Rahmen des Workflows. Die Planung und Durchführung von internen und externen Audits wird über ein neues Scopeobjekt abgebildet.
-
 ## Q4 2026
+
+### Berechtigungsmanagement - Scopes <Badge type="warning">Planung</Badge>
+<!-- epics/178 -->
+
+Es können Lese- und Schreibberechtigungen für Gruppen auf Scopeobjekte vergeben werden, sodass auf Inhalte in anderen Scopes nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen auf z.B. Informationsverbünde, Geltungsbereiche oder Externe Dienstleister.
+
+### Domäne Grundschutz++ <Badge type="warning">Planung</Badge>
+<!-- epics/262 -->
+
+Bereitstellung einer ersten funktionalen Domäne Grundschutz++ (DE) mit den Neuerungen in Methodik und Risikomanagement.
 
 ### Dashboard <Badge type="warning">Planung</Badge>
 <!-- epics/315 -->
@@ -77,7 +65,14 @@ Der Ausbau des Dashboard ist in mehreren Iterationen geplant:
 - Darstellung von Kennzahlen in Kacheln.
 - Option zum Export der dargestellten Daten.
 
-### Domäne Grundschutz++ <Badge type="warning">Planung</Badge>
-<!-- epics/262 -->
+### Auditmanagement <Badge type="warning">Planung</Badge>
+<!-- epics/375 -->
 
-Bereitstellung einer ersten funktionalen Domäne Grundschutz++ (DE) mit den Neuerungen in Methodik und Risikomanagement.
+Abbildung von internen und externen Audits in verinice mit Delegation von Aufgaben und Überwachung im Rahmen des Workflows. Die Planung und Durchführung von internen und externen Audits wird über ein neues Scopeobjekt abgebildet.
+
+## Q1 2027
+
+### Berechtigungsmanagement - Objekte <Badge type="warning">Planung</Badge>
+<!-- epics/395 -->
+
+Es können Lese- und Schreibberechtigungen für Gruppen auf Compositeobjekte vergeben werden, sodass auf andere Objekte und deren Inhalt nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen für einzelne Objekte und Objektgruppen wie z.B. Geschäftsprozesse, Anwendungen oder IT-Systeme.
