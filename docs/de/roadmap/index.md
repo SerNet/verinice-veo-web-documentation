@@ -33,7 +33,7 @@ Bereitstellung des **Branchenspezifischen Sicherheitsstandard (B3S) für die med
 ### Workflow <Badge type="danger">Entwicklung</Badge>
 <!-- epics/374 -->
 
-In der ersten Iteration werden Aufgaben aus der **Umsetzung** von Controlobjekten und deren **Revision** als Workflow abgebildet. Eine neue Seite **Aufgaben** stellt alle **umzusetzenden** bzw. **zu prüfenden** Controls filterbar nach Verantwortlichkeit dar. Grundlage der neuen Funktionalität **Workflow** ist die Zuweisung neu einzuführender **Accounts**, die mit Personenobjekten verknüpft sind.
+In der ersten Iteration werden Aufgaben aus der **Umsetzung** von Controlobjekten und deren **Revision** als Workflow abgebildet. Eine neue Seite **Aufgaben** stellt alle **umzusetzenden** bzw. **zu prüfenden** Controls filterbar nach Verantwortlichkeit dar. Grundlage der neuen Funktionalität **Workflow** ist die neu einzuführende **Zuordnung von Benutzern zu Personenobjekten**.
 
 ### Reportformate <Badge type="warning">Planung</Badge>
 
@@ -47,7 +47,7 @@ Bereitstellung zusätzlicher Ausgabeformate für Reports (CSV, XLSX/ODS und DOCX
 ### Berechtigungsmanagement - Scopes <Badge type="warning">Planung</Badge>
 <!-- epics/178 -->
 
-Es können Lese- und Schreibberechtigungen für Gruppen auf Scopeobjekte vergeben werden, sodass auf Inhalte in anderen Scopes nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen auf z.B. Informationsverbünde, Geltungsbereiche oder Externe Dienstleister.
+Benutzergruppen können Lese- und Schreibberechtigungen auf Scope-Objekte vergeben werden, sodass auf Inhalte in anderen Scopes nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen auf z.B. Informationsverbünde, Geltungsbereiche oder Externe Dienstleister.
 
 ### Domäne Grundschutz++ <Badge type="warning">Planung</Badge>
 <!-- epics/262 -->
@@ -75,4 +75,4 @@ Abbildung von internen und externen Audits in verinice mit Delegation von Aufgab
 ### Berechtigungsmanagement - Objekte <Badge type="warning">Planung</Badge>
 <!-- epics/395 -->
 
-Es können Lese- und Schreibberechtigungen für Gruppen auf Compositeobjekte vergeben werden, sodass auf andere Objekte und deren Inhalt nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen für einzelne Objekte und Objektgruppen wie z.B. Geschäftsprozesse, Anwendungen oder IT-Systeme.
+Benutzergruppen können Lese- und Schreibberechtigungen auf beliebige Objekte vergeben werden, sodass auf andere Objekte und deren Inhalt nicht zugegriffen werden kann. Diese Funktion ermöglicht feingliedrige Zugriffsberechtigungen für einzelne Objekte und Objektgruppen wie z.B. Geschäftsprozesse, Anwendungen oder IT-Systeme.

@@ -9,16 +9,17 @@ As of September 2, 2026 - Subject to change!
 <!-- epics/380 -->
 
 Provision of the **IT-Grundschutz Profiles** based on the IT-Grundschutz Compendium in the **2023-1 Edition**:
-- IT-GS Profile for traffic control and management systems on the federal highway network
-- IT-GS Profile for top-level federal authorities
-- IT-GS Profile for the operation of UAS
-- IT-GS Profile for federal courts
-- IT-GS Profile for departmental research institutions
-- IT-GS Profile for securing 5G campus networks
-- IT-GS Profile for control centers V 2.0 Edition 2023
-- IT-GS Profile for the Use of the Federal E-File
 
-::: warning The IT-GS Profile for Basic Security in Local Government, Version 4, is already available for use in verinice.
+- IT-GS Profil für die Verkehrssteuerungs- und Leitsysteme der Bundesautobahn
+- IT-GS-Profil Profil für oberste Bundesbehoerden
+- IT-GS-Profil Profil für den Betrieb von UAS
+- IT-GS-Profil Profil für Bundesgerichte
+- IT-GS-Profil Profil für Ressort-Forschungseinrichtungen
+- IT-GS-Profil zur Absicherung von 5G-Campusnetzen
+- IT-GS-Profil für Leitstellen V 2.0 Edition 2023 
+- IT-GS-Profil für die Nutzung der E-Akte Bund
+
+::: warning The IT-GS Profile Basis-Absicherung Kommunalverwaltung Version 4, is already available for use in verinice.
 :::
 
 ::: info IT-GS profiles based on an older edition of the IT-Grundschutz Compendium may be provided upon request.
@@ -32,7 +33,7 @@ Provision of the **Industry-Specific Security Standard (B3S) for Medical Care** 
 ### Workflow <Badge type="danger">Development</Badge>
 <!-- epics/374 -->
 
-In the first iteration, tasks related to the **implementation** of control objects and their **revision** are mapped as a workflow. A new page, **Tasks**, displays all **controls to be implemented** or **controls to be reviewed**, filterable by responsibility. The basis for the new **Workflow** functionality is the assignment of newly introduced **accounts**, which are linked to person objects.
+In the first iteration, tasks related to the **implementation** of control objects and their **revision** are mapped as a workflow. A new page, **Tasks** displays all **controls to be implemented** or **controls to be revise**, filterable by responsibility. The basis for the new **Workflow** functionality is the newly introduced **assignment of accounts to person objects**.
 
 ### Report Formats <Badge type="warning">Planning</Badge>
 
@@ -46,12 +47,12 @@ Provision of additional output formats for reports (CSV, XLSX/ODS, and DOCX/ODT,
 ### Access Management - Scopes <Badge type="warning">Planning</Badge>
 <!-- epics/178 -->
 
-Read and write permissions can be assigned to groups on scope objects, ensuring that content in other scopes cannot be accessed. This feature enables granular access permissions for, e.g., information networks, scopes, or external service providers.
+User groups can be granted read and write permissions for scope objects, ensuring that content in other scopes cannot be accessed. This feature enables granular access permissions for, e.g., information domains, scopes, or external service providers.
 
-### Basic Protection++ Domain <Badge type="warning">Planning</Badge>
+### Grundschutz++ Domain <Badge type="warning">Planning</Badge>
 <!-- epics/262 -->
 
-Deployment of an initial functional Basic Protection++ (DE) domain with updates to methodology and risk management.
+Deployment of an initial functional Grundschutz++ (DE) domain with updates to methodology and risk management.
 
 ### Dashboard <Badge type="warning">Planning</Badge>
 <!-- epics/315 -->
@@ -73,4 +74,4 @@ Mapping of internal and external audits in verinice with task delegation and mon
 ### Access Management - Objects <Badge type="warning">Planning</Badge>
 <!-- epics/395 -->
 
-Read and write permissions can be assigned to groups for composite objects, ensuring that other objects and their content cannot be accessed. This feature enables granular access permissions for individual objects and object groups, such as business processes, applications, or IT systems.
+Users groups can be granted read and write permissions for any desired objects, ensuring that other objects and their content cannot be accessed. This feature enables granular access permissions for individual objects and object groups, such as business processes, applications, or IT systems.
