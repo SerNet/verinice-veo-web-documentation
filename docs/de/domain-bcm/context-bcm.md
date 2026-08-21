@@ -1,5 +1,5 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Kontext der Organisation
+# Konzeption und Planung des BCMS
 
 Für den erfolgreichen Aufbau und den wirksamen Betrieb eines **BCMS** ist eine präzise Analyse der organisatorischen Rahmenbedingungen von zentraler Bedeutung. Das BCMS ist so auszurichten, dass es den Bedürfnissen und Anforderungen relevanter Interessengruppen entspricht. Auf diese Weise wird sichergestellt, dass das BCMS zweckmäßig konzipiert, implementiert und aufrechterhalten wird.
 
@@ -13,7 +13,7 @@ In verinice besteht die Möglichkeit, die für die jeweilige Unit relevanten Sco
 
 Ein Scope kann beliebige Fachobjekte einschließlich anderer Scopes enthalten. Unterhalb eines Scopes lassen sich verschiedene organisatorische Einheiten abbilden und logisch gruppieren, um eine strukturierte und transparente Darstellung der unterschiedlichen Scopes zu gewährleisten.
 
-Die Abbildung einzelner Institutionen dient zudem dazu, den jeweiligen BCMS-Geltungsbereich eindeutig einer Institution zuzuordnen. Diese Zuordnung ist erforderlich, um Reports gezielt auswerten zu können. Reports werden stets über einen konkreten Scope-Subtyp ausgeführt. Durch Hinzufügen der Teile kann gesteuert werden, welche Objekte in einem Report berücksichtigt werden sollen.
+Die Abbildung einzelner Institutionen dient zudem dazu, den jeweiligen BCMS-Geltungsbereich eindeutig einer Institution zuzuordnen. Diese Zuordnung ist erforderlich, um Reports gezielt auswerten zu können und zu bestimmen welche Objekte in einem Report berücksichtigt werden sollen.
 
 ## Anforderungen identifizieren und modellieren
 
@@ -27,24 +27,18 @@ Nachdem sowohl die Scopes als auch die Anforderungen in verinice angelegt wurden
 
 Das Modellieren der Anforderungen innerhalb eines Scopes ermöglicht zudem die Verwaltung und Nachverfolgung des jeweiligen Umsetzungsstatus.
 
-![Interessengruppen-Analyse](../assets/domain-bcm/verinice-46-interestedParty.gif)
-
 ## Festlegung des Geltungsbereichs des BCMS
 
 Über den **BCMS-Geltungsbereich** wird der konkrete Anwendungsbereich des BCMS definiert. Dabei können sowohl inhaltliche als auch organisatorische Rahmenbedingungen dokumentiert werden. Einerseits lassen sich im BCMS-Geltungsbereich folgende Angaben erfassen:
 
 - der abzusichernde Zeitraum,
-- die gewählte Vorgehensweise,
+- die gewählte Vorgehensweise (Reaktiv-, Aufbau- oder Standard-BCMS),
 - die Begründung für die Einstufung der BCMS-Stufe,
 - die Grenzen und Anwendbarkeit des Systems,
 - die Ziele sowie
 - die Schnittstellen und Abhängigkeiten zum BCMS.
 
-![Geltungsbereich definieren](../assets/domain-bcm/verinice-46-scope1.png)
-
 Andererseits kann die BCMS-Leitlinie oder der/die Business-Continuity-Beauftragte/n (BCB) verknüpft werden.
-
-![Leitlinie und BCB dem Geltungsbereich zuordnen](../assets/domain-bcm/bcms-scope.png)
 
 ## Dokumenten- und Organisationsstruktur
 
@@ -67,7 +61,6 @@ Unter dem Bereich **Dokumente** können Sie in verinice auf relevante Nachweise 
 
 - Richtlinien  
 - Leitlinien  
-- Notfallhandbücher  
 - Alarmierungs- und Kommunikationspläne  
 - Wiederanlaufpläne  
 

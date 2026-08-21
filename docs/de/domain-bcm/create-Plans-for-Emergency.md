@@ -16,15 +16,21 @@ Für beide Bereiche sind strukturierte Pläne zu erstellen, die alle erforderlic
 
 Die Geschäftsfortführungsplanung beschreibt alle Maßnahmen und Abläufe, um zeitkritische Geschäftsprozesse im Notfall innerhalb der vorgegebenen Zeit fortzuführen. Die in der Business Impact Analyse (BIA) identifizierten zeitkritischen Prozesse bilden dafür die fundamentale Basis.
 
-Die folgende Anleitung führt Sie chronologisch von links nach rechts anhand des Prozessdiagramms durch die Erstellung eines auswertbaren Geschäftsfortführungsplans
+Die folgende Anleitung führt Sie chronologisch von links nach rechts anhand des Prozessdiagramms durch die Erstellung eines auswertbaren Geschäftsfortführungsplans.
 
 ![Prozessbeschreibung GFP Teil 1](../assets/domain-bcm/gfp-11.png)
 
-### Basis-Einrichtung im Scope & Zuordnung der Organisationseinheit
+### Basis-Einrichtung im Scope & Zuordnung der Organisationseinheit (OE)
 
 1.	Institution anlegen: Legen Sie im Bereich SCOPE die Institution an und ordnen Sie dieser als Teil die für den GFP zuständige Organisationseinheit hinzu.
-2.	Organisationseinheiten zuordnen: Verknüpfen Sie die relevante Organisationseinheit dem Geschäftsprozess (im Subtyp Geschäftsprozess).
+2.	Organisationseinheiten zuordnen: Verknüpfen Sie die relevante Organisationseinheit mit dem Geschäftsprozess (im Subtyp Geschäftsprozess). Die Zuordnung der OE legt unmissverständlich fest, wer für die Ausführung der BC-Lösungen im Ernstfall die Verantwortung trägt.
 3.	Personen & Notfallteams zuweisen: Ordnen Sie die leitende Person sowie die Notfallteams der Organisatinseinheit zu (für die Alarmierung).
+
+Die Zuordnung von Organisationseinheiten zu Geschäftsprozessen und BC-Lösungen sichert die verbindliche Verantwortlichkeit im gesamten BCM-Lebenszyklus:
+
+* Im Regelbetrieb: Eindeutige Zuständigkeit für die laufende Pflege, Aktualisierung und Erprobung der dokumentierten Notfallmaßnahmen.
+
+* Im Ernstfall: Klare Zuweisung von Ausführungs- und Weisungsbefugnissen an die zuständige Fachbereichsleitung zur schnellen und autorisierten Umsetzung der BC-Lösungen.
 
 ### Einrichtung des Dokumenten-Objekts & Stammdaten
 
@@ -98,7 +104,7 @@ Legen Sie unter dem Teile-Tab der jeweiligen ressourcenspezifischen BC-Lösung d
 ![Notfallmaßnahmen verwalten](../assets/domain-bcm/verinice54_3_bcSolution2.png)
 
 Sie können einzelne Aktivitäten einer Notfallmaßnahme entweder direkt im Beschreibungsfeld der Notfallmaßnahme zusammenfassen oder als untergeordnete Teile (Aktivität 1, Aktivität 2...n) hinzufügen.
-Gliedern Sie die Maßnahmen in folgende drei Phasen und nehmen Sie die klassifizieren die Notfallmaßnahmen wie folgt:
+Gliedern Sie die Maßnahmen in folgende drei Phasen und klassifizieren Sie die Notfallmaßnahmen wie folgt:
 
 A. Maßnahmen, um den Notbetrieb zu erreichen
    - Phase: Wiederanlauf in den Notbetrieb

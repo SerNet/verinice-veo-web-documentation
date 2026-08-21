@@ -18,15 +18,14 @@ Dort sind folgende Schritte vorzunehmen:
 
 1. **Erfassen Sie die RTA.**  
 1. **Dokumentieren Sie den Nachweis**, auf dessen Grundlage die Zeit ermittelt wurde.  
-1. **Bewerten Sie das Ergebnis** und treffen Sie eine Aussage, ob die `RTA ≤ RTO` ist und ob weiterer Handlungsbedarf besteht.
+3. Über eine integrierte Inspection wird der Soll-Wert (RTO) kontinuierlich mit dem Ist-Wert (RTA) verglichen. Überschreitet die tatsächliche Wiederanlaufzeit die RTO wird die Abweichung von verinice ausgewertet und eine entsprechende Warnmeldung ausgegeben.
 
 ### Vergleich von RPO und RPA
 
 Für informationsbasierte Ressourcen wird analog die **RPO** mit dem **Recovery Point Actual (RPA)** verglichen, der den tatsächlich zu erwartenden Datenverlust beschreibt.  
-In verinice steht ein Feld zur Verfügung, um den **Datensicherungszyklus** zu erfassen. Vergleichen Sie diesen Zyklus mit der festgelegten RPO und dokumentieren Sie den tatsächlichen Datenverlust (RPA).  
-Treffen Sie anschließend eine Aussage, ob die `RPA ≤ RPO` ist.
+In verinice steht ein Feld zur Verfügung, um den **Datensicherungszyklus** zu erfassen. 
 
-![Soll-Ist Vergleich](../assets/domain-bcm/verinice-51-targetActualComparison.png)
+Über eine integrierte Inspection wird der Soll-Wert (RPO) kontinuierlich mit dem Ist-Wert (RPA) verglichen. Überschreitet die RPA die RPO wird die Abweichung von verinice ausgewertet und eine entsprechende Warnmeldung ausgegeben.
 
 ## Auswertung und Freigabe der Ergebnisse 
 

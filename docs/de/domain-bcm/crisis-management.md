@@ -1,15 +1,15 @@
 <!-- © 2025 The Project Contributors - see AUTHORS.txt -->
-# Planung der Notfall- und Krisenbewältigung
+# Planung der Krisenbewältigung
 
-Ziel der Notfall- und Krisenbewältigung ist es, sicherzustellen, dass die Institution bei Eintritt eines gravierenden Schadensereignisses handlungsfähig bleibt, Schäden minimiert und die Kontinuität kritischer Geschäftsprozesse gewährleistet. Hierzu werden organisatorische, personelle und kommunikative Maßnahmen definiert, die eine strukturierte Reaktion und Wiederherstellung ermöglichen, auch ohne unmittelbaren Rückgriff auf detaillierte Notfallpläne.
+Ziel der Krisenbewältigung ist es, sicherzustellen, dass die Institution bei Eintritt eines gravierenden Schadensereignisses handlungsfähig bleibt, Schäden minimiert und die Kontinuität kritischer Geschäftsprozesse gewährleistet. Hierzu werden organisatorische, personelle und kommunikative Maßnahmen definiert, die eine strukturierte Reaktion und Wiederherstellung ermöglichen, auch ohne unmittelbaren Rückgriff auf detaillierte Notfallpläne.
 
-## Aufbau einer Besonderen Aufbauorganisation (BAO)
+## Aufbau und Befähigung der Besonderen Aufbauorganisation (BAO)
 
 Zur wirksamen Steuerung von Notfällen und Krisen ist eine **Besondere Aufbauorganisation (BAO)** einzurichten und einsatzfähig zu halten.
 
 Die BAO umfasst alle erforderlichen organisatorischen Einheiten, Rollen und Kommunikationsstrukturen, um im Not- und Krisenfall schnell und koordiniert handeln zu können. Die organisatorischen Maßnahmen zur Etablierung der BAO sollten dokumentiert und in einem **Notfallhandbuch** zusammengefasst werden. Dieses dient den Verantwortlichen als operative Grundlage, um einen geordneten Notbetrieb zu gewährleisten und eine Rückkehr in den Normalbetrieb sicherzustellen. Regelungen, die den Notbetrieb in den einzelnen Organisationseinheiten betreffen, sind in den entsprechenden Dokumenten zur Geschäftsfortführung, Wiederanlauf und Wiederherstellung hinterlegt.
 
-## Definition und Umsetzung von Sofortmaßnahmen
+### Definition und Umsetzung von Sofortmaßnahmen
 
 Sofortmaßnahmen sind unmittelbar nach Eintritt eines Schadensereignisses umzusetzen und dienen dem Schutz von Leben und Gesundheit sowie der Eindämmung von Folgeschäden. In verinice können sowohl allgemeine Sofortmaßnahmen als auch szenariospezifische Sofortmaßnahmen erfasst und mit Verantwortlichkeiten verknüpft werden.
 
@@ -27,12 +27,12 @@ oder szenario-spezifische Sofortmaßnahmen im Ausfallszenario verknüpft und zus
 
 Ziel ist es, alle Sofortmaßnahmen zentral in verinice zu dokumentieren und  übersichtlich in einem Report des Notfallhandbuchs auszugeben.
 
-## Aufbau und Steuerung der Notfall- und Krisenkommunikation (NuK-Kommunikation)
+### Aufbau und Steuerung der Notfall- und Krisenkommunikation (NuK-Kommunikation)
 
 Das **Notfall- und Krisenkommunikationsteam (NuK-Team)** ist Bestandteil der BAO und trägt die Verantwortung für eine strukturierte, kontrollierte und zeitgerechte Kommunikation im Not- und Krisenfall. Die Organisation ist verpflichtet, Prozesse für interne und externe Kommunikation zu planen, einzurichten und aufrechtzuerhalten.
 Auf Grundlage der Analyse der Interessengruppen können für jede Interessengruppe die Kommunikationsanforderungen in verinice dokumentiert werden. Hierzu sind insbesondere folgende Felder zu befüllen:
 
-- Kommunikation im Notbetrieb  
+- Kommunikation im Notfall  
 - Zeitintervall  
 - Kommunikationsweg  
 
@@ -40,7 +40,7 @@ Zudem können Rollen oder explizierte Personen verknüpft werden, um Kommunikati
 
 ![Kommunikation mit Interessengruppen planen](../assets/domain-bcm/verinice-46-PlanningCommunication.png)
 
-## Nacharbeitung und Deeskalation eines Schadensereignisses 
+### Nacharbeitung und Deeskalation eines Schadensereignisses 
 
 Nach erfolgreicher Bewältigung eines Ereignisses erklärt der Krisenstab den Notfall offiziell für beendet (Deeskalation). Diese Entscheidung ist innerhalb der Institution zu kommunizieren, vorzugsweise über dieselben Kommunikationskanäle, die für die Alarmierung verwendet wurden. Zur strukturierten Rückführung in den Normalbetrieb können Checklisten eingesetzt werden. 
 
@@ -63,8 +63,8 @@ Die folgende Anleitung führt Sie Schritt für Schritt durch die entsprechende M
 Öffnen Sie das neu angelegte Objekt und arbeiten Sie die Abschnitte im Formular ab. Verknüpfen Sie dabei die jeweils zugehörigen Objekte aus anderen Subtypen:
  - Grundangaben & Sofortmaßnahmen: Erfassen Sie im Objekt die Stammdaten (Zielsetzung, Geltungsbereich, Versionsstand, Dokumentenlenkung)
 
-- Notfall-/Krisenbewältigung: Beschreiben Sie allgemeine Sofortmaßnahmen und szenario-spezifische Sofortmaßnahmen. Verknüpfen Sie hierfür die Ausfallszenarien, für die Sofortmaßnahmen entwickelt wurden.
--  Dokumentieren Sie die Meldewege: Verlinken Sie die im Bereich Dokument angelegten Meldewege.
+- Notfall-/Krisenbewältigung: Beschreiben Sie allgemeine Sofortmaßnahmen und szenario-spezifische Sofortmaßnahmen. Verknüpfen Sie hierfür die Notfallszenarien, für die Sofortmaßnahmen entwickelt wurden.
+- Dokumentieren Sie die Meldewege: Verlinken Sie die im Bereich Dokument angelegten Meldewege.
 - Detektion und Meldung: Verlinken Sie die vordefinierten Leitfragen zur ersten Lageeinschätzung (Kriterien zur Erkennung von Notfällen / Leitfragen zur ersten Lageeinschätzung).
 - Alarmierung der BAO: Dokumentieren Sie Prozessablauf, Auslösekriterien und Zuständigkeiten zur Einberufung der Besonderen Aufbauorganisation (Krisenstab).
 - Stabsraum & Stabsarbeit: Dokumentieren Sie Standorte, Erreichbarkeiten, technische Ausstattung und Vorbereitungsmaßnahmen der Stabsräume.

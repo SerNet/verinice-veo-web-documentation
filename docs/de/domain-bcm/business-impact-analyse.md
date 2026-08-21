@@ -13,7 +13,7 @@ Damit bildet die BIA das Fundament für die Priorisierung von Prozessen, die Def
 
 ### Anlegen der Geschäftsprozesse
 
-Um mit der BIA zu starten, müssen die relevanten Prozesse im BCMS-Geltungsbereich als Objekte erfasst sein. Nutzen Sie hierfür vorhandene Synergien: Existiert in Ihrer Institution bereits ein Informationssicherheitsmanagementsystem (ISMS) oder ein Verzeichnis der Verarbeitungstätigkeiten (VVT) nach DS-GVO, können diese Daten als ideale Ausgangsbasis dienen.
+Um mit der BIA zu starten, müssen die relevanten Prozesse für Ihren BCMS-Geltungsbereich identifiziert und als Objekte erfasst werden. Nutzen Sie hierfür vorhandene Synergien: Existiert in Ihrer Institution bereits ein Informationssicherheitsmanagementsystem (ISMS) oder ein Verzeichnis der Verarbeitungstätigkeiten (VVT) nach DS-GVO, können diese Daten als ideale Ausgangsbasis dienen.
 
 * Neue Prozesse anlegen: Falls noch keine Prozesse erfasst sind, erstellen Sie diese neu über den Objekttyp Geschäftsprozess.
 
@@ -25,12 +25,10 @@ Um mit der BIA zu starten, müssen die relevanten Prozesse im BCMS-Geltungsberei
 
 Im Formular des jeweiligen Geschäftsprozesses können Sie spezifische Zusatzinformationen zur BIA hinterlegen. Dazu gehören:
 
-* Art der Prozesskontinuität: z. B. kontinuierlich, ergebnisorientiert, zyklisch oder quasi-zyklisch
-* Kritischste Zeiträume: Phasen, in denen ein Ausfall besonders schwerwiegende Folgen hätte
-* Zuständigkeiten: Der/die BIA-Verantwortliche sowie die zuständige Organisationseinheit
-* Datenerhebung: Die gewählte Methodik (z. B. Selbstauskunft, Einzelinterview, Workshop)
-
-![Angaben zur BIA im Geschäftsprozess](../assets/domain-bcm/bia.png)
+* Datum der Erhebung
+* Art der Erhebung: Die gewählte Methodik (z. B. Selbstauskunft, Einzelinterview, Workshop)
+* Der/die BIA-Zuständige/r sowie die zuständige Organisationseinheit
+* Kritischste Zeiträume: Art der Prozesskontinuität: z. B. kontinuierlich, ergebnisgesteuert, zyklisch oder quasi-kontinuierlich sowie die Phasen, in denen ein Ausfall besonders schwerwiegende Folgen hätte
 
 ### Festlegung der Ressourcenkategorien und -cluster
 
@@ -65,24 +63,14 @@ Nach der ersten Bewertung werden die notfallrelevanten Abhängigkeiten zwischen 
 - **MTPD minimal:** Aus den beiden vorhergehenden Werten resultiert der kleinste Wert als minimale MTPD für den Prozess.
 - **RTO kleiner gleich:** Die RTO für Ressourcen muss in jedem Fall kleiner oder gleich der MTPD sein.
 
-### Festlegung der geforderten Wiederanlaufzeit (RTO) und des maximal tolerierbaren Datenverlusts (RPO) sowie Abbildung der Ressourcenabhängigkeiten
+### Abbildung der Ressourcenabhängigkeiten sowie Festlegung der geforderten Wiederanlaufzeit (RTO) und des maximal tolerierbaren Datenverlusts (RPO)
 
 Der Prozesseigentümer identifiziert und dokumentiert nach den Prozessabhängigkeiten auch die Ressourcenabhängigkeiten:
 
 * Die für den Notbetrieb benötigten Ressourcen werden über den Custom-Link verknüpft.
-* Direkt in diesem Custom-Link werden die spezifische RTO und RPO der jeweiligen Ressource für diesen konkreten Geschäftsprozess definiert.
-
-### Besonderheiten bei daten- und IT-basierten Ressourcen
-
-Für informationsbasierte Ressourcenkategorien (z. B. Daten, IT-Systeme, Informationen) muss zusätzlich die Recovery Point Objective (RPO) bestimmt werden. Diese beschreibt den maximal tolerierbaren Datenverlust – also bis zu welchem Zeitpunkt Daten im Notbetrieb zurückliegen dürfen, ohne den Prozessablauf unzulässig zu beeinträchtigen.
+* Direkt in diesem Custom-Link werden die spezifische RTO und RPO der jeweiligen Ressource für diesen konkreten Geschäftsprozess definiert. Für informationsbasierte Ressourcenkategorien (z. B. Daten, IT-Systeme, Informationen) muss zusätzlich die Recovery Point Objective (RPO) bestimmt werden. Diese beschreibt den maximal tolerierbaren Datenverlust – also bis zu welchem Zeitpunkt Daten im Notbetrieb zurückliegen dürfen, ohne den Prozessablauf unzulässig zu beeinträchtigen.
 
 Die RPO ist konzeptionell unabhängig von MTPD und RTO, wird jedoch im nächsten Schritt konsolidiert, wenn mehrere Prozesse auf dieselbe Ressource zugreifen.
-
-### RTO und RPO konsolidieren
-
-Nachdem alle Prozesseigentümer ihre Bedarfe dokumentiert haben, werden die RTO- und RPO-Anforderungen der verschiedenen Prozesse auf Ebene der jeweiligen Ressourcen automatisch konsolidiert. Die finalen Ergebnisse werden direkt in das Ressourcen-Objekt übernommen. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die schärfste (kleinste) RTO oder RPO aller verknüpften Prozesse bestimmt die globale Anforderung für diese Ressource.
-
-![RTO und RPO](../assets/domain-bcm/verinice-57-rto-rpo.png)
 
 ### Identifizierung von Single Points of Failure
 
@@ -92,13 +80,30 @@ verinice unterscheidet dabei drei Kategorien:
 
 * SPoF (Single Point of Failure): Technische oder dienstleistungsbezogene Engpässe (z. B. eine zentrale Firewall, ein einziger externer Dienstleister).
 * SPoK (Single Point of Knowledge): Wissensabhängigkeiten, bei denen geschäftskritisches Know-how nur bei einer einzelnen Person liegt.
-
 * SPoC (Single Point of Contact): Kommunikationsabhängigkeiten, bei denen der Informationsfluss an einer einzigen Kontaktperson hängt.
+
+### Konsolidierung von RTO und RPO
+
+Nachdem alle Prozesseigentümer ihre Bedarfe dokumentiert haben, werden die RTO- und RPO-Anforderungen der verschiedenen Prozesse auf Ebene der jeweiligen Ressourcen automatisch konsolidiert. Die finalen Ergebnisse werden direkt in das Ressourcen-Objekt übernommen. Nutzen mehrere Prozesse dieselbe Ressource, gilt das Minimalprinzip: Die schärfste (kleinste) RTO oder RPO aller verknüpften Prozesse bestimmt die globale Anforderung für diese Ressource.
+
+![RTO und RPO](../assets/domain-bcm/verinice-57-rto-rpo.png)
 
 ## Entwickeln von Notfall-/ Business-Continuity-Lösungen zur Geschäftsfortführungsplanung
 
-Sobald die BIA-Ergebnisse vorliegen, können für alle kritischen Ressourcen passgenaue Notfallkonzepte entwickelt werden.
+Sobald die BIA-Ergebnisse im Geschäftsprozess vorliegen, können für alle notfallrelevanten Ressourcen eines Geschäftsprozesses passgenaue BC-Lösungen entwickelt werden. 
 
-* Verknüpfung in verinice: Im Abschnitt **Notfallplanung** verknüpfen Sie für jedes zu betrachtende Ausfallszenario passende BC-Lösungen mit dem Geschäftsprozess. Diese bilden die Grundlage für den übergeordneten Geschäftsfortführungsplan.
+**Modellierungslogik für BC-Lösungen in verinice**
 
-* Detaillierung: Die konkrete Ausarbeitung erfolgt im Objekttyp BC-Lösung (Details finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).
+Die Konzeption von Geschäftsfortführungsmaßnahmen folgt einem zweistufigen Prinzip, um sowohl den Vorgaben des BSI-Standards 200-4 zu entsprechen als auch eine präzise Umsetzung im Notfall zu gewährleisten:
+
+* Szenariobasierte Klammer (Übergeordnete BC-Lösung):
+
+Für jedes relevante Ausfallszenario (z. B. Ausfall von Personal, Ausfall von IT-Infrastruktur) wird zunächst eine übergeordnete BC-Lösung angelegt und mit dem Geschäftsprozess verknüpft. Diese definiert die strategische Rahmenbedingung für den Prozess im Ernstfall (z. B. Notbetriebsregeln, Reduktion auf Mindestbetriebsniveaus) und bildet das direkte Struktur-Kapitel für den automatisiert generierten Geschäftsfortführungsplan (GFP).
+
+* Ressourcenspezifische Präzisierung (Teillösungen):
+
+Innerhalb dieser übergeordneten BC-Lösung werden die konkreten Teillösungen für die in der BIA identifizierten Einzelressourcen modelliert. Dies ermöglicht passgenaue Maßnahmen für unterschiedliche Abhängigkeiten – wie etwa gezielte Stellvertreterregelungen für Schlüsselpersonen, Umverteilungspläne für operative Teams oder Nachqualifizierungsmaßnahmen.
+
+Durch diesen Aufbau bleibt das Notfallkonzept in verinice übersichtlich strukturiert, modular pflegbar und lässt sich im Krisenfall direkt auf Prozessebene anwenden.
+
+Die konkrete Ausarbeitung erfolgt im Objekttyp BC-Lösung (Details finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).
