@@ -55,10 +55,10 @@ Der Assistent für den Import von CSV-Dateien wurde weiter optimiert:
 
 - Beim Löschen von Objekten die in mehreren Domänen verwendet werden, erfolgt ein Hinweis. <!-- work_items/4592 -->
 - Fehlende Übersetzung der Objekttypen in den Shortcuts ergänzt. <!-- work_items/5045 -->
-- Update auf Nuxt 4.5.1 zur Vermeidung kritischer Sicherheitslücken. <!-- work_items/5043 -->
+- Update auf Nuxt 4.5.1 zur Vermeidung kritischer Sicherheitslücken <!-- work_items/5043 -->
 - Falschpositive Konflikt-Warnung in der Migration korrigiert. <!-- work_items/5027 -->
 - Layout des Domänen-Update-Badge behoben. <!-- work_items/5021 -->
-- Neue API-Endpunkte für Client-Änderungen. <!-- work_items/4904 -->
+- Neue API-Endpunkte für Client-Änderungen <!-- work_items/4904 -->
 - Der API-Schlüssel in Accounts wird nicht mehr aus dem `Authorization`-Header, sondern nur noch aus dem `X-API-KEY`-Header gelesen. <!-- work_items/4645 -->
 - Fehlende Markierung am Scope-Icon bei vorhandenen Members ergänzt. <!-- work_items/4617 -->
 - In Bausteinen kann die Verknüpfung zu Zielobjekten (Modellierung) gelöscht werden. <!-- work_items/4484 -->
