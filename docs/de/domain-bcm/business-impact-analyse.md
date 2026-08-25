@@ -106,4 +106,4 @@ Innerhalb dieser übergeordneten BC-Lösung werden die konkreten Teillösungen f
 
 Durch diesen Aufbau bleibt das Notfallkonzept in verinice übersichtlich strukturiert, modular pflegbar und lässt sich im Krisenfall direkt auf Prozessebene anwenden.
 
-Die konkrete Ausarbeitung erfolgt im Objekttyp BC-Lösung (Details finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency)).
+Die konkrete Ausarbeitung erfolgt im Objekttyp BC-Lösung (Details finden Sie im Kapitel [Geschäftsfortführungs- und Wiederanlaufplanung](./create-Plans-for-Emergency).
