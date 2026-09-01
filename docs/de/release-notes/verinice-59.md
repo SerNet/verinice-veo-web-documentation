@@ -5,17 +5,6 @@ Veröffentlichung: 4. September 2026 (voraussichtlich)
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 59** zur Verfügung.
 
-## VNA-Import
-
-Mit dem Import von Daten in die Domänen:
-- **IT-Grundschutz** und **Datenschutz** 
-- **ISO** und **Datenschutz**.
-<!-- epics/364 -->
-- **Business Continuity (BCM)**
-<!-- epics/365 -->
-ermöglicht der [VNA-Importer](../new-in-verinice/vna-importer.md) jetzt die Übernahme aller Daten aus verinice.PRO oder verinice.EPV zu verinice.onprem oder verinice.cloud.
-
-
 ## Business-Continuity-Management Beispieldaten
 <!-- epics/253 -->
 
