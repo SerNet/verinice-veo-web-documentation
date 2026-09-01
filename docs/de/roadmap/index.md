@@ -5,6 +5,15 @@ Stand: 2. September 2026 - Änderungen vorbehalten!
 
 ## Q3 2026
 
+## VNA-Import <Badge type="danger">Entwicklung</Badge>
+
+Der [VNA-Importer](../new-in-verinice/vna-importer.md) wird erweitert um den Import in die Domänen:
+
+- **ISO** und **Datenschutz**.
+<!-- epics/364 -->
+- **Business Continuity (BCM)**
+<!-- epics/365 -->
+
 ### IT-Grundschutz-Profile <Badge type="danger">Entwicklung</Badge>
 <!-- epics/380 -->
 
