@@ -18,11 +18,11 @@ Im BSI IT-Grundschutz nach 200-x können je Unit unterschiedliche Parameter für
 
 Sofern eine Risikoanalyse erforderlich ist, müssen Sie im Zielobjekt bei den Objektdetails eine **Gefährdungsübersicht erstellen**. Dies kann z.B. erforderlich sein, wenn das Zielobjekt in einem der drei Schutzziele einen hohen oder sehr hohen Schutzbedarf aufweist.
 
-![Gefährdungsübersicht erstellen](../assets/domain-it-gs/verinice-32-threat-overview.png)
+![Gefährdungsübersicht erstellen](../assets/domain-it-gs/verinice-59-threat-overview-DE.png)
 
 Durch diese Aktion werden die elementaren Gefährdungen entsprechend der Kreuzreferenztabellen des BSI in Ihre Unit kopiert und im Objektumfeld des Zielobjekts Risikoobjekte für jede elementare Gefährdung angelegt:
 
-![Risiken](../assets/domain-it-gs/verinice-32-risks.png)
+![Risiken](../assets/domain-it-gs/verinice-59-risks-DE.png)
 
 ## Risikobewertung
 
@@ -64,18 +64,45 @@ Abschließend muss das **Nettorisiko** (und gegebenenfalls eine Erklärung) manu
 
 Um Ihre mitigierenden Maßnahmen bearbeiten zu können, klicken Sie **Umsetzung anzeigen** bei der entsprechenden elementaren Gefährdung im Tab **Risiken** im Objektumfeld des Zielobjektes.
 
-![Mitigierende Maßnahmen: Umsetzung anzeigen](../assets/domain-it-gs/verinice-32-implementation-1.png)
+![Mitigierende Maßnahmen: Umsetzung anzeigen](../assets/domain-it-gs/verinice-59-risks-DE.png)
 
-Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte Elementare Gefährdung. Hier können Sie die einzelnen Anforderungen/Maßnahmen bearbeiten. Indem Sie auf eine Anforderung/Maßnahme klicken öffnet sich der Umsetzungsdialog, wo Sie folgende Informationen einsehen bzw. einpflegen können:
+Sie gelangen zur Übersicht aller mitigierenden Maßnahmen für die ausgewählte Elementare Gefährdung.
 
-- Informationen zu Zielobjekt und Anforderung/Maßnahme.
-- Anforderungsbeschreibung (aus dem IT-Grundschutz-Kompendium).
-- Informationen zur Umsetzung:
-  - Verantwortliche Person.
-  - Umsetzung bis (Datum).
-  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich).
-  - Umsetzungsbeschreibung.
+![Mitigierende Maßnahmen: Umsetzung anzeigen](../assets/domain-it-gs/verinice-59-safeguards-DE.png)
 
-![Mitigierende Maßnahmen: Umsetzung bearbeiten](../assets/domain-it-gs/verinice-32-implementation-2.png)
+Hier können Sie die einzelnen Maßnahmen bearbeiten. Durch Klick auf eine Maßnahme öffnet sich der Umsetzungsdialog, in dem Sie folgenden Informationen in drei Abschnitten einsehen bzw. einpflegen können:
+
+1. Informationen zum Zielobjekt (informativ/schreibgeschützt)
+
+![RI-Zielobjekt](../assets/domain-it-gs/verinice-59-ri-dialog-target-object-DE.png)
+
+2. Maßnahmenbeschreibung, z.B. aus dem IT-Grundschutz-Kompendium (informativ/schreibgeschützt)
+
+![RI-Anforderung](../assets/domain-it-gs/verinice-59-ri-dialog-requirement-DE.png)
+
+3. Informationen zur Umsetzung dokumentieren Sie in drei Abschnitten:
+
+![RI-Umsetzung](../assets/domain-it-gs/verinice-59-ri-dialog-implementation-DE.png)
+
+**Umsetzung**
+
+- Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
+- Verantwortliche Person
+- Umsetzung bis (Datum)
+- Kosten für die Umsetzung
+
+**Dokumentation**
+
+- Umgesetzt am
+- Umgesetzt durch
+- Umsetzungsbeschreibung
+- Link zu einem Dokument oder einer Aufzeichnung
+
+**Revision**
+
+- Letzte Revision am
+- Letzte Revision durch
+- Nächste Revision am
+- Nächste Revision durch
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.

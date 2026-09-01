@@ -19,11 +19,11 @@ Navigate in the menu to **Risk Definitions** and then **GSRA**. Here you can edi
 
 If a risk analysis is required, you must create a **threat overview** in the target object's details. This may be necessary, for example, if the target object has a high or very high protection requirement in one of the three security objectives.
 
-![Create Threat Overview]( ../assets/domain-it-gs/verinice-32-threat-overview.png)
+![Create Threat Overview]( ../assets/domain-it-gs/verinice-59-threat-overview-EN.png)
 
 This action copies the elemental threats according to the BSI cross-reference tables into your unit and creates risk objects for each elemental threat in the object environment of the target object:
 
-![Risks]( ../assets/domain-it-gs/verinice-32-risks.png)
+![Risks]( ../assets/domain-it-gs/verinice-59-risks-EN.png)
 
 ## Risk Assessment
 
@@ -61,22 +61,49 @@ If the risk treatment option **Risk Reduction** is selected, the risk can be red
 
 Finally, the **net risk** (and optionally an explanation) must be set manually. **Save** and **Close** the risk dialog.
 
-### Edit Mitigating Measures
+### Edit Mitigation Safeguards
 
-To edit your mitigating measures, click **Show Implementation** for the corresponding elemental threat in the **Risks** tab in the target object's environment.
+To edit your mitigation safeguards, click **View Implementation** next to the corresponding threat in the **Risks** tab in the target object’s object environment.
 
-![Mitigating Measures: Show Implementation]( ../assets/domain-it-gs/verinice-32-implementation-1.png)
+![Mitigation Measures: View Implementation](../assets/domain-it-gs/verinice-59-risks-EN.png)
 
-You will be taken to the overview of all mitigating measures for the selected elemental threat. Here you can edit the individual requirements/measures. Clicking on a requirement/measure opens the implementation dialog where you can view or enter the following information:
+You will be taken to an overview of all mitigating safeguards for the selected threat.
 
-- Information about the target object and requirement/measure.
-- Requirement description (from the IT Baseline Protection Compendium).
-- Implementation information:
-  - Responsible person.
-  - Implementation deadline (date).
-  - Implementation status (Not processed, Yes, Partially, No, Dispensable).
-  - Implementation description.
+![Mitigating Measures: View Implementation](../assets/domain-it-gs/verinice-59-safeguards-EN.png)
 
-![Mitigating Measures: Edit Implementation]( ../assets/domain-it-gs/verinice-32-implementation-2.png)
+Here you can edit the individual safeguards. Clicking on a safeguard opens the implementation dialog, where you can view or enter the following information in three sections:
 
-After entering the data, close the dialog with **Save**.
+1. Information on the target object (informational/read-only)
+
+![RI Target Object](../assets/domain-it-gs/verinice-59-ri-dialog-target-object-EN.png)
+
+2. Safeguard description, e.g., from the IT-Grundschutz Compendium (informational/read-only)
+
+![RI-Requirement](../assets/domain-it-gs/verinice-59-ri-dialog-requirement-EN.png)
+
+3. Document implementation information in three sections:
+
+![RI-Implementation](../assets/domain-it-gs/verinice-59-ri-dialog-implementation-EN.png)
+
+**Implementation**
+
+- Implementation status (Unprocessed, Yes, Partially, No, Not Required)
+- Person responsible
+- Implementation by (date)
+- Implementation costs
+
+**Documentation**
+
+- Implemented on
+- Implemented by
+- Description of implementation
+- Link to a document or recording
+
+**Revision**
+
+- Last revision on
+- Last revision by
+- Next revision on
+- Next revision by
+
+After you have entered the data, close the dialog by clicking **Save**.
