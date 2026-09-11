@@ -26,7 +26,7 @@ workflow:
     - when: on_success
 
 default:
-  image: node:26
+  image: node:26@sha256:e961046fec20896e8904f2b4a8b4c7e5ca91826d84d8d33d83dbaa61f942069e
   cache: # Cache modules in between jobs
     key:
       files:
@@ -53,7 +53,7 @@ store_project_version:
 determine-destinations:
   before_script: []
   image:
-    name: alpine/git
+    name: alpine/git@sha256:6f3b5029566da8e90b24945933dcd806be866b64b1e706f51828bf84faccf21b
     entrypoint: [ "" ]
   stage: setup
   script:
@@ -84,7 +84,7 @@ docker_image:
     - when: on_success
   needs: ['store_project_version', 'determine-destinations']
   image:
-    name: gcr.io/kaniko-project/executor:v1.24.0-debug
+    name: gcr.io/kaniko-project/executor:v1.24.0-debug@sha256:2562c4fe551399514277ffff7dcca9a3b1628c4ea38cb017d7286dc6ea52f4cd
     entrypoint: ['']
   variables:
     # this does not work in Gitlab < 15.7, so we need the before_script workaround

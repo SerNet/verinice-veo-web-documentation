@@ -12,11 +12,11 @@
     "postdocs:build": "node externalize-scripts.mjs"
   },
   "devDependencies": {
-    "glob": "^13.0.0",
-    "hash-sum": "^2.0.0",
-    "mermaid": "^11.12.2",
-    "typescript": "^7.0.0",
-    "vitepress": "^1.0.2",
-    "vitepress-plugin-mermaid": "^2.0.17"
+    "glob": "13.0.6",
+    "hash-sum": "2.0.0",
+    "mermaid": "11.17.2",
+    "typescript": "7.0.2",
+    "vitepress": "1.6.4",
+    "vitepress-plugin-mermaid": "2.0.17"
   }
 }

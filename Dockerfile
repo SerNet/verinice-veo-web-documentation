@@ -1,5 +1,5 @@
-# syntax = docker/dockerfile:experimental
-FROM node:26-alpine AS builder
+# syntax = docker/dockerfile:experimental@sha256:600e5c62eedff338b3f7a0850beb7c05866e0ef27b2d2e8c02aa468e78496ff5
+FROM node:26-alpine@sha256:ef24c5053d50fdc3e4e56eb4e7ddb7861874ab0fdc797046ba897581deb8e868 AS builder
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -17,7 +17,7 @@ ARG CI_JOB_ID=-1
 RUN npm run docs:build
 
 
-FROM nginx:1.31 AS release
+FROM nginx:1.31@sha256:05b8cb60c354a44ab824ea6e7dc69b46d50762cdbe728a347a5b656e6fb3d7c4 AS release
 
 COPY --from=builder /usr/src/app/docs/.vitepress/dist /usr/src/app/dist
 
