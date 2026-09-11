@@ -1,10 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices", ":automergeAll", ":automergePr", ":prNotPending"],
   "reviewers": ["FS", "JaE"],
-  "automerge": true,
-  "automergeType": "pr",
   "assignAutomerge": true,
-  "dependencyDashboard": true,
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "osvVulnerabilityAlerts": true,
   "packageRules": [
