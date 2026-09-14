@@ -3,6 +3,7 @@ import { h, onMounted } from "vue";
 import { useRouter } from "vitepress";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
+import HomeFeatureSections from "./HomeFeatureSections.vue";
 import "./style.css";
 import "./overrides.css";
 
@@ -33,6 +34,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      "home-features-after": () => h(HomeFeatureSections),
     });
   },
   enhanceApp({}) {

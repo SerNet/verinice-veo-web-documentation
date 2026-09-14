@@ -21,22 +21,6 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     ],
   },
   {
-    text: { de: "Die Domäne DS-GVO", en: "The GDPR Domain" },
-    link: "/domain-ds-gvo/",
-    collapsed: true,
-    items: [
-      { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-ds-gvo/domain-ds-gvo-description" },
-      { text: { de: "Verzeichnis der Verarbeitungstätigkeiten", en: "Processing Activities Register" }, link: "/domain-ds-gvo/data-processing" },
-      { text: { de: "Datenübertragungen", en: "Data Transfers" }, link: "/domain-ds-gvo/data-transfer" },
-      { text: { de: "Risikomanagement", en: "Risk Management" }, link: "/domain-ds-gvo/risk-management" },
-      { text: { de: "Datenschutz-Folgenabschätzung", en: "Data Protection Impact Assessment" }, link: "/domain-ds-gvo/data-protection-impact-assessment" },
-      { text: { de: "Datenschutzvorfälle", en: "Data Privacy Incidents" }, link: "/domain-ds-gvo/data-privacy-incidents" },
-      { text: { de: "Betroffenenanfragen", en: "Data Subject Requests" }, link: "/domain-ds-gvo/request-data-subjects" },
-      { text: { de: "Auftragsverarbeiter", en: "Processors" }, link: "/domain-ds-gvo/processors" },
-      { text: { de: "Auftraggeber", en: "Controllers" }, link: "/domain-ds-gvo/controllers" },
-    ],
-  },
-  {
     text: { de: "Die Domäne IT-Grundschutz", en: "The IT-Grundschutz Domain" },
     link: "/domain-it-gs/",
     collapsed: true,
@@ -62,15 +46,6 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     ],
   },
   {
-    text: { de: "Die Domäne NIS2", en: "The NIS2 Domain" },
-    link: "/domain-nis2/",
-    collapsed: true,
-    items: [
-      { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-nis2/domain-nis2-description" },
-      { text: { de: "Anforderungen umsetzen", en: "Implementing Requirements" }, link: "/domain-nis2/domain-nis2" },
-    ],
-  },
-  {
     text: { de: "Die Domäne BCM", en: "The BCM Domain" },
     link: "/domain-bcm/",
     collapsed: true,
@@ -86,6 +61,31 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
       { text: { de: "Geschäftsfortführung, Wiederanlauf und Wiederherstellungsplanung", en: "Business Continuity, Recovery, and Disaster Recovery Planning" }, link: "/domain-bcm/create-Plans-for-Emergency" },
       { text: { de: "Überprüfung des BCMS", en: "Compliance check" }, link: "/domain-bcm/compliance-check" },
       { text: { de: "Korrektur und Verbesserung des BCMS", en: "Improvement of the BCMS" }, link: "/domain-bcm/improvement-measure" },
+    ],
+  },
+  {
+    text: { de: "Die Domäne DS-GVO", en: "The GDPR Domain" },
+    link: "/domain-ds-gvo/",
+    collapsed: true,
+    items: [
+      { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-ds-gvo/domain-ds-gvo-description" },
+      { text: { de: "Verzeichnis der Verarbeitungstätigkeiten", en: "Processing Activities Register" }, link: "/domain-ds-gvo/data-processing" },
+      { text: { de: "Datenübertragungen", en: "Data Transfers" }, link: "/domain-ds-gvo/data-transfer" },
+      { text: { de: "Risikomanagement", en: "Risk Management" }, link: "/domain-ds-gvo/risk-management" },
+      { text: { de: "Datenschutz-Folgenabschätzung", en: "Data Protection Impact Assessment" }, link: "/domain-ds-gvo/data-protection-impact-assessment" },
+      { text: { de: "Datenschutzvorfälle", en: "Data Privacy Incidents" }, link: "/domain-ds-gvo/data-privacy-incidents" },
+      { text: { de: "Betroffenenanfragen", en: "Data Subject Requests" }, link: "/domain-ds-gvo/request-data-subjects" },
+      { text: { de: "Auftragsverarbeiter", en: "Processors" }, link: "/domain-ds-gvo/processors" },
+      { text: { de: "Auftraggeber", en: "Controllers" }, link: "/domain-ds-gvo/controllers" },
+    ],
+  },
+  {
+    text: { de: "Die Domäne NIS2", en: "The NIS2 Domain" },
+    link: "/domain-nis2/",
+    collapsed: true,
+    items: [
+      { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-nis2/domain-nis2-description" },
+      { text: { de: "Anforderungen umsetzen", en: "Implementing Requirements" }, link: "/domain-nis2/domain-nis2" },
     ],
   },
   {

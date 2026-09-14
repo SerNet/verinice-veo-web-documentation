@@ -14,40 +14,49 @@ hero:
       text: Roadmap
       link: /en/roadmap/
     - theme: alt
+      text: User manual
+      link: /en/manual/
+    - theme: alt
+      text: Object model
+      link: /en/object-model/
+    - theme: alt
+      text: Developer manual
+      link: /en/developers/
+    - theme: alt
       text: Glossary
       link: /en/glossary/
     - theme: brand
       text: VNA importer
       link: /en/new-in-verinice/vna-importer/
 
-features:
-  - title: The DS-GVO domain
-    details: Implementing data protection according to DS-GVO in verinice...
-    link: /en/domain-ds-gvo/
-  - title: The IT-Grundschutz domain
-    details: Implementing IT-Grundschutz in verinice...
-    link: /en/domain-it-gs/
-  - title: The domain ISO
-    details: Implementing ISO/IEC 27001 in verinice...
-    link: /en/domain-iso/
-  - title: The NIS2 domain
-    details: Implementing the NIS2 guideline in verinice...
-    link: /en/domain-nis2/
-  - title: The BCM domain
-    details: Implementing Business Continuity in verinice...
-    link: /en/domain-bcm/
-  - title: The VNA Importer
-    details: Migrate data from verinice.PRO and verinice.EPV to the new generation...
-    link: /en/new-in-verinice/vna-importer/
-  - title: The user manual 
-    details: Getting to know the basic operation of verinice...
-    link: /en/manual/
-  - title: The object model
-    details: Understanding the object model in verinice...
-    link: /en/object-model/
-  - title: The developer manual
-    details: Understanding the verinice REST API...
-    link: /en/developers/
+featureSections:
+  - title: ISO
+    features:
+      - title: ISMS according to ISO 27000
+        details: ISO 27001, 27002, and 27005 in verinice...
+        link: /en/domain-iso/
+      - title: BCMS according to ISO 22301
+        details: ISO 22301 in verinice...
+        link: /en/domain-bcm/
+  - title: Data Protection
+    features:
+      - title: DPMS in accordance with the GDPR
+        details: GDPR in verinice...
+        link: /en/domain-ds-gvo/
+      - title: NIS2
+        details: NIS2 Directive in verinice...
+        link: /en/domain-nis2/
+  - title: BSI
+    features:
+      - title: ISMS according to IT-Grundschutz
+        details: BSI 200-1, 200-2, and 200-3 in verinice...
+        link: /en/domain-it-gs/
+      - title: BCMS according to BSI 200-4
+        details: BSI 200-4 in Verinice...
+        link: /en/domain-bcm/
+#      - title: ISMS according to Grundschutz++
+#        details: BSI Grundschutz++ in Verinice...
+#        link: /en/domain-gs-plusplus/
 ---
 
 ::: danger Please note that [domain updates](/en/manual/domain-updates) may be available. To take full advantage of all the new features in verinice, we recommend updating all new domains.
