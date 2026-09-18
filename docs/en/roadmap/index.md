@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-As of September 2, 2026 - Subject to change!
+As of September 23, 2026 - Subject to change!
 
 ## Q3 2026
 
