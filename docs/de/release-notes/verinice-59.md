@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 59
 
-Veröffentlichung: 4. September 2026 (voraussichtlich)
+Veröffentlichung: 4. September 2026
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 59** zur Verfügung.
 
