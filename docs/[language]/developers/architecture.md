@@ -119,24 +119,21 @@ When **veo-forms** learns that a domain template has been created from a domain,
 
 #### Subscriptions exchange
 
-The shop can manage veo clients over the `veo.subscriptions` exchange (e.g. when a customer subscribes to verinice or buys more content). The shop doesn't have access rights to any other exchanges.
+The `veo.subscriptions` exchange is used for `client_change` messages exclusively.
 
 ```mermaid
 flowchart
     subscriptions[[veo.subscriptions]]
-    shop -. client_change .-> subscriptions
+    veo-accounts -. client_change .-> subscriptions
     subscriptions -. client_change .-> veo
-    subscriptions -. client_change .-> veo-accounts
     subscriptions -. client_change .-> veo-forms
     subscriptions -. client_change .-> veo-history
 ```
 
-The only message type processed via this exchange is `client_change`.
-It informs several services when a veo client is created, updated, deactivated, activated or deleted.
 
-**Veo-accounts** manages all veo clients as user groups in the Keycloak, and will create, modify or delete these groups based on `client_change` messages.
-The service also enforces the upper limits for users and units that can be defined in a `client_change` message.
-**Veo** also uses these messages to keep track of all clients in its DB, and copies the content specified in the message into the client.
+The `client_change` message is sent by **veo-accounts**  and informs several services when veo clients are created, updated, deactivated, activated or deleted.
+
+**Veo** uses these messages to keep track of all clients in its DB, and copies the content specified in the message into the client.
 
 When a `client_change` message signalizes the deletion of a veo client, all services will delete the data that they hold for that veo client.
 
@@ -153,20 +150,22 @@ flowchart
     veo
     keycloak
     shop
+    shop -- CRUD veo clients --> veo-accounts
     shop -- POST initial account --> veo-accounts
     veo-reporting -- GET units --> veo
     veo -- authentication --> keycloak
     veo-accounts -- authentication --> keycloak
-    veo-accounts -- manage accounts --> keycloak
+    veo-accounts -- manage account & groups --> keycloak
     veo-accounts -- GET unit count --> veo
     veo-accounts -- manage sys messages --> veo
     veo-forms -- authentication --> keycloak
     veo-history -- authentication --> keycloak
 ```
 The following use cases require synchronous calls:
-* The **shop** creates the initial application user using a POST on **veo-accounts**.
-This must be handled synchronously, because **veo-accounts** may respond with an error if the username or email address already exists.
-For this request, the shop authenticates against **veo-accounts** with an API key.
+* The **shop** manages veo clients and creates initial users using the **veo-accounts** API.
+  For these requests, the shop authenticates against veo-accounts with an API key.
+* **Veo-accounts** manages veo users and veo clients (as user groups) in the Keycloak. It uses a client secret (API key) to authenticate against the Keycloak admin API.
+  * Veo-accounts also enforces the upper limits defined in the license key. For that, it must fetch the total amount of units and manage system messages using the **veo** API.
 * For most client-facing services, external HTTPS requests must authenticate with a [JWT](https://datatracker.ietf.org/doc/html/rfc7519).
 The services must communicate with the **Keycloak** so they can validate the incoming JWTs.
 * When a client requests a report, **veo-reporting** fetches [units](../object-model/objects#unit) and the contained [objects](../object-model/objects#specialist-objects) from **veo** to generate the report.
