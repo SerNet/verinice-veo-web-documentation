@@ -133,7 +133,7 @@ All associated measures will be listed.
 
 Click each measure to begin implementation editing.
 
-![Image 25]( ../assets/domain-nis2/verinice-32-nis2-25.png)
+![Image 25]( ../assets/domain-nis2/verinice-62-implementation-EN.png)
 
 ![Image 26]( ../assets/domain-nis2/verinice-32-nis2-26.png)
 
@@ -175,4 +175,4 @@ All associated **Risk Management Measures** will be listed.
 
 Click each measure to begin editing.
 
-![Image 34]( ../assets/domain-nis2/verinice-32-nis2-34.png)
+![Image 34]( ../assets/domain-nis2/verinice-62-implementation-EN.png)
