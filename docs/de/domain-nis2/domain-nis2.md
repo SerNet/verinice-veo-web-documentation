@@ -1,5 +1,5 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Die NIS2-Richtlinie umsetzen
+# Die NIS2 umsetzen
 
 ## Organisation erfassen
 
@@ -37,7 +37,7 @@ Die Informationen für die Organisation müssen im gleichnamigen Formular und so
 
 Im Abschnitt **Allgemeine Angaben** haben Sie die Möglichkeit neben einer Organisationsbeschreibung Informationen wie Abkürzung oder Status sowie Kontaktinformationen zu hinterlegen. Wenn Sie eine darüber hinausgehende zusätzliche Kontaktstelle für die Aufsichtsbehörde bestimmen möchten, können Sie diese im Abschnitt **NIS2 Kontaktstelle für Aufsichtsbehörde** benennen.
 
-Sektorspezifische Informationen, die Sie als NIS2 Betroffene im Rahmen der Registrierung melden müssen und ggf. Angaben zur Vertretung innerhalb der Europäischen Union können im Abschnitt **Sektorspezifische Informationen** des Formulars erfasst werden.
+Sektorspezifische Informationen, die Sie als NIS2 Betroffene im Rahmen der Registrierung melden müssen und ggf. Angaben zur Vertretung innerhalb der Europäischen Union können im Abschnitt **Sektorspezifische Informationen** des Formulars erfasst werden. Als Betreiber einer kritischen Anlage können Sie hier auch Ihre Institutions-ID und kritischen Komponenten dokumentieren.
 
 Darüber hinaus können Sie die für Sie zuständige Behörde, Registrierungsdatum und ggf. Informationen zu Registrierungsänderungen in diesem Formular dokumentieren. Mit dem Report **Registrierungsinformationen für zuständige Behörde** erhalten Sie eine detaillierte Darstellung der für eine Registrierung erforderlichen Informationen.
 
@@ -57,7 +57,7 @@ Im Abschnitt **Meldungsart** können Sie eine Auswahl zur Art der Meldung treffe
 
 ![Bild 10](../assets/domain-nis2/verinice-32-nis2-10.png)
 
-Neben allgemeinen Angaben zum Sachverhalt können weitere gesetzlich geforderte Informationen in den hierfür vorgesehenen Abschnitten erfasst werden.
+Neben allgemeinen Angaben zum Sachverhalt können weitere gesetzlich geforderte Informationen in den hierfür vorgesehenen Abschnitten erfasst werden. Ihnen wird auch die Möglichkeit geboten, im Abschnitt "Angaben zu Schwachstellen" Informationen zu betroffenen Produkten, Plattformen und verwendeten Systemen zu hinterlegen.
 Des Weiteren werden betroffenen Zielobjekte, Meldungen an Behörden, Empfänger oder Öffentlichkeit, Fristen sowie geplante und umgesetzte Gegenmaßnahmen in den Dokumentations- und Bewertungsprozess mit einbezogen. Sämtliche Informationen können anschließen über den **Report Meldeformular Sicherheitsvorfall** ausgegeben und ggf. für eine Meldung bei den Aufsichtsbehörden verwendet werden.
 
 ![Bild 11](../assets/domain-nis2/verinice-32-nis2-11.png)
@@ -74,7 +74,7 @@ Sämtliche relevanten Objekte können über die Formulare **Geschäftsprozesse**
 
 Für eine aussagekräftige Analyse ist es zudem erforderlich, die Abhängigkeiten der Zielobjekte zu beschreiben. verinice unterstützt Sie dabei, diese Abhängigkeiten über **Verknüpfung hinzufügen** in den Formularen umzusetzen.
 
-Um eine Relation zwischen zwei Zielobjekten zu herzustellen, müssen Sie im Formular eines Objektes das erforderliche andere Objekt mit der Funktion **Verknüpfung hinzufügen** auswählen. Scrollen Sie dazu im Formular weiter nach unten, wo die erforderlichen Objekte aufgelistet werden und suchen Sie das benötigte Objekt aus.
+Um eine Relation zwischen zwei Zielobjekten herzustellen, müssen Sie im Formular eines Objektes das erforderliche andere Objekt mit der Funktion **Verknüpfung hinzufügen** auswählen. Scrollen Sie dazu im Formular weiter nach unten, wo die erforderlichen Objekte aufgelistet werden und suchen Sie das benötigte Objekt aus.
 
 ![Bild 12](../assets/domain-nis2/verinice-32-nis2-12.png)
 
@@ -128,17 +128,17 @@ In der folgenden Übersicht werden die einzelnen Organisationsspezifischen Maßn
 
 Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken.
 
-![Bild 25](../assets/domain-nis2/verinice-32-nis2-25.png)
+![Bild 25](../assets/domain-nis2/verinice-62-implementation-DE.png)
 
 ![Bild 26](../assets/domain-nis2/verinice-32-nis2-26.png)
 
 ## Mindestmaßnahmen
 
-Durch Anwenden des Katalogelementes **Art. 21 NIS2** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 enthält sämtliche Artikel der NIS2-Richtlinie inkl. der Erwägungsgründe. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
+Durch Anwenden des Katalogelementes **§ 30 BSIG** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 (DE) enthält Artikel der NIS2 enthält neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
 
 ![Bild 27](../assets/domain-nis2/verinice-32-nis2-27.png)
 
-Bei der Anwendung von Art. 21 wird dieses Elemente inklusive der Verknüpfungen mit den Mindestmaßnahmen in die aktive Unit übernommen.
+Bei der Anwendung von § 30 BSIG wird dieses Elemente inklusive der Verknüpfungen mit den Mindestmaßnahmen in die aktive Unit übernommen.
 
 ![Bild 28](../assets/domain-nis2/verinice-32-nis2-28.png)
 
@@ -148,11 +148,11 @@ Sie haben die Möglichkeit dieses Composite-Objekt jederzeit individuell zu erwe
 
 Selbstverständlich können auch die einzelnen Katalogelemente selbst in der aktiven Unit modifiziert werden.
 
-Wechseln Sie nun zum betroffenen Objekt **Organisation** und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** für Ihre Organisation aus.
+Wechseln Sie nun zum betroffenen Objekt **Organisation** und navigieren im Objektumfeld in den Reiter **Anforderungen**. Über das rote **Plus-Icon** wählen Sie die Anforderung § 30 BSIG Risikomanagementmaßnahmen besonders wichtiger Einrichtungen und wichtiger Einrichtungen für Ihre Organisation aus.
 
 ![Bild 30](../assets/domain-nis2/verinice-32-nis2-30.png)
 
-::: info Die Anwendungsmöglichkeit der Anforderung **Art. 21 Risikomanagementmaßnahmen im Bereich der Cybersicherheit** ist nicht auf **Organisationen** beschränkt. Bei Bedarf können Sie dieses Element auf sämtliche Schutzobjekte anwenden.
+::: info Die Anwendungsmöglichkeit der Anforderung § 30 BSIG Risikomanagementmaßnahmen besonders wichtiger Einrichtungen und wichtiger Einrichtungen ist nicht auf **Organisationen** beschränkt. Bei Bedarf können Sie dieses Element auf sämtliche Schutzobjekte anwenden.
 :::
 
 ![Bild 31](../assets/domain-nis2/verinice-32-nis2-31.png)
@@ -167,4 +167,4 @@ In der folgenden Übersicht werden die einzelnen **Risikomanagementmaßnahmen** 
 
 Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken
 
-![Bild 34](../assets/domain-nis2/verinice-32-nis2-34.png)
+![Bild 34](../assets/domain-nis2/verinice-62-implementation-DE.png)

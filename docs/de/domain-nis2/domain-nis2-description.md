@@ -1,5 +1,5 @@
 <!-- © 2024 The Project Contributors - see AUTHORS.txt -->
-# Aufbau der Domäne NIS2
+# Aufbau der Domäne NIS2 (DE)
 
 ## Objekt- und Subtypen
 
@@ -32,13 +32,13 @@
 
 ### Controlobjekte
 
-- **Anforderungen:** Anforderungen der NIS2.
-- **Mindestmaßnahmen:** Mindestmaßnahmen zur Erfüllung der NIS2 Anforderungen.
+- **Anforderungen:** Anforderungen der NIS2-Richtlinie und des NIS2UmsuCG.
+- **Mindestmaßnahmen:** Mindestmaßnahmen zur Erfüllung der Anforderungen aus der NIS2-Richtlinie und des NIS2UmsuCG.
 - **Organisationsspezifische Maßnahmen:** Organisationsspezifische Maßnahmen zur differenzierten Betrachtung der Organisation.
 
 ## Katalog
 
-Der Katalog der Domäne NIS2 stellt die Artikel und Erwägungsgründe der Richtlinie zur Anwendung zur Verfügung.
+Der Katalog der Domäne NIS2 (DE) stellt neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG zur Anwendung zur Verfügung.
 
 ## Profile
 
@@ -54,7 +54,7 @@ Keine
 
 ## Reports
 
-Die Domäne NIS2 stellt als Reports bereit:
+Die Domäne NIS2 (DE) stellt als Reports bereit:
 
 - Meldeformular Sicherheitsvorfall
 - Registrierungsinformationen für zuständige Behörde
