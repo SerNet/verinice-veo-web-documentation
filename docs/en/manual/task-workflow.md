@@ -118,7 +118,7 @@ The task now appears on the tasks page for the person you entered.
 Once a requirement has been implemented, you schedule its next review as a revision task.
 
 1. Open the implementation page of the object and click the implementation. The implementation dialog opens.
-2. Set the status to **yes** or **not applicable**.
+2. Set the status to **yes** or **dispensable**.
 3. Under **Next revision by**, enter the person who is to carry out the revision.
 4. Under **Next revision on**, enter the date of the next revision – e.g., June 30, 2027. This date appears as the due date on the tasks page.
 5. Save.
@@ -135,8 +135,8 @@ A revision task is only created if **Next revision on** is filled in. If the fie
 | partial | – | Implementation task | Responsible | Implement until |
 | no | – | Implementation task | Responsible | Implement until |
 | yes | yes | Revision task | Next revision by | Next revision on |
-| not applicable | yes | Revision task | Next revision by | Next revision on |
-| yes / not applicable | no | no task | – | – |
+| dispensable | yes | Revision task | Next revision by | Next revision on |
+| yes / dispensable | no | no task | – | – |
 
 ::: tip Unassigned tasks
 If you do not enter a person, the task is still created – it is then **not assigned to anyone**. You can find such tasks using the filter on the tasks page (see [Filter by responsibility](#filter)).
@@ -198,7 +198,7 @@ When you move the mouse pointer over a card, it is highlighted. Click the card t
 
 In the implementation dialog, you can update, among other things:
 
-- the **status** of the implementation (unedited, partial, no, yes, not applicable),
+- the **status** of the implementation (unedited, partial, no, yes, dispensable),
 - the responsible person (**Responsible**) and the **Implement until** date,
 - the revision details **Next revision by** and **Next revision on**.
 
@@ -211,14 +211,14 @@ After you save, the tasks page updates automatically – as does the number in t
 | Your change | Result on the tasks page |
 | --- | --- |
 | Status remains unedited, partial, or no | The implementation task remains (possibly with a new person or a new date). |
-| Status set to yes or not applicable, **Next revision on** set | The implementation task disappears and a revision task appears. |
-| Status set to yes or not applicable, **Next revision on** empty | The task disappears; no new task is created. |
+| Status set to yes or dispensable, **Next revision on** set | The implementation task disappears and a revision task appears. |
+| Status set to yes or dispensable, **Next revision on** empty | The task disappears; no new task is created. |
 | A different person entered | The task appears for the new person; with your default filter, you no longer see it. |
 
 ### Complete an implementation {#complete-implementation}
 
 1. Click the implementation task.
-2. Set the status to **yes** (or **not applicable** if the requirement does not need to be implemented).
+2. Set the status to **yes** (or **dispensable** if the requirement does not need to be implemented).
 3. Schedule the first revision: enter **Next revision by** and **Next revision on**.
 4. Save. The implementation task disappears; the revision task will be ready for the scheduled date.
 
@@ -252,7 +252,7 @@ Check the following:
 
 ### A task I expected is missing. {#faq-task-missing}
 
-- For an implemented requirement (status **yes** or **not applicable**), a revision task is only created if **Next revision on** is filled in – see [Which task is created when?](#status-table).
+- For an implemented requirement (status **yes** or **dispensable**), a revision task is only created if **Next revision on** is filled in – see [Which task is created when?](#status-table).
 - The object and the requirement must be associated with the current domain.
 - Check whether the task is assigned to another person and adjust the [filter](#filter).
 
