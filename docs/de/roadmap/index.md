@@ -1,18 +1,22 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-Stand: 23. September 2026 - Änderungen vorbehalten!
+::: info Stand: 16. Oktober 2026
+Änderungen vorbehalten! Diese Roadmap wird in dreiwöchigen Rhythmus aktualisiert und ist mit entsprechender Unschärfe versehen.
+:::
 
-## Q3 2026
+## Q4 2026
 
 ## VNA-Import <Badge type="danger">Entwicklung</Badge>
 
-Der [VNA-Importer](../new-in-verinice/vna-importer.md) wird erweitert um den Import in die Domänen:
+Der Import von VNA-Dateien wird komplettiert um den Import in die Domänen:
 
-- **ISO** und **Datenschutz**.
+- **Datenschutz** (aus der Perspektive ISO)
 <!-- epics/364 -->
-- **Business Continuity (BCM)**
+- **Business Continuity (BCM)** (aus den Perspektiven IT-Grundschutz und ISO)
 <!-- epics/365 -->
+
+Die ausführliche Beschreibung des Funktionsumfang finden Sie in der Dokumentation zum [VNA-Importer](../new-in-verinice/vna-importer.md).
 
 ### IT-Grundschutz-Profile <Badge type="danger">Entwicklung</Badge>
 <!-- epics/380 -->
@@ -27,6 +31,7 @@ Bereitstellung der auf dem IT-Grundschutz-Kompendium in der **Edition 2023-1** b
 - IT-GS-Profil zur Absicherung von 5G-Campusnetzen
 - IT-GS-Profil für Leitstellen V 2.0 Edition 2023 
 - IT-GS-Profil für die Nutzung der E-Akte Bund
+- IT-GS-Profil für Hochschulen
 
 ::: warning Das IT-GS-Profil Basis-Absicherung Kommunalverwaltung Version 4 steht bereits zur Anwendung in verinice zur Verfügung.
 :::
@@ -50,8 +55,6 @@ Bereitstellung zusätzlicher Ausgabeformate für Reports (CSV, XLSX/ODS und DOCX
 - Ausgabe von Reports in den Formaten **DOCX** und **ODT** für die redaktionelle Bearbeitung, bevor diese finalisiert werden.<!-- epics/373 -->
 - Erstellung weiterer Reportvorlagen in tabellarischer Form in den Formaten **CSV/XLSX/ODS** für die quantitative Weiterverarbeitung, Filterung und Sortierung von Daten.<!-- epics/372 -->
 - Ausgabe aller Report-Templates im **HTML**-Format für die interne Bereitstellung (z.B. im Intranet) oder zur schnellen browserbasierten Ansicht ohne Zusatzsoftware.<!-- epics/371 -->
-
-## Q4 2026
 
 ### Berechtigungsmanagement - Scopes <Badge type="warning">Planung</Badge>
 <!-- epics/178 -->

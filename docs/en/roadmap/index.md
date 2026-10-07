@@ -1,18 +1,22 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Roadmap
 
-As of September 23, 2026 - Subject to change!
+::: info As of October 16, 2026
+Subject to change! This roadmap is updated every three weeks and is subject to a certain degree of uncertainty.
+:::
 
-## Q3 2026
+## Q4 2026
 
 ## VNA Import <Badge type="danger">Development</Badge>
 
-The [VNA Importer](../new-in-verinice/vna-importer.md) is being expanded to include imports into the following domains:
+The import of VNA files has been expanded to include import into the following domains:
 
-- **ISO** and **Data Protection**.
+- **Data Protection** (from the ISO perspective)
 <!-- epics/364 -->
-- **Business Continuity (BCM)**
+- **Business Continuity (BCM)** (from the perspectives of IT-Grundschutz and ISO)
 <!-- epics/365 -->
+
+For a detailed description of the features, see the documentation for the [VNA Importer](../new-in-verinice/vna-importer.md).
 
 ### IT-Grundschutz Profiles <Badge type="danger">Development</Badge>
 <!-- epics/380 -->
@@ -27,6 +31,7 @@ Provision of the **IT-Grundschutz Profiles** based on the IT-Grundschutz Compend
 - IT-GS-Profil zur Absicherung von 5G-Campusnetzen
 - IT-GS-Profil für Leitstellen V 2.0 Edition 2023 
 - IT-GS-Profil für die Nutzung der E-Akte Bund
+- IT-GS-Profil für Hochschulen
 
 ::: warning The IT-GS Profile Basis-Absicherung Kommunalverwaltung Version 4, is already available for use in verinice.
 :::
@@ -50,8 +55,6 @@ Provision of additional output formats for reports (CSV, XLSX/ODS, and DOCX/ODT,
 - Output of reports in the **DOCX** and **ODT** formats for editorial editing before they are finalized. <!-- epics/373 -->
 - Creation of additional report templates in tabular form in the **CSV/XLSX/ODS** formats for quantitative further processing, filtering, and sorting of data.<!-- epics/372 -->
 - Export of all report templates in **HTML** format for internal distribution (e.g., on the intranet) or for quick browser-based viewing without additional software.<!-- epics/371 -->
-
-## Q4 2026
 
 ### Access Management - Scopes <Badge type="warning">Planning</Badge>
 <!-- epics/178 -->
