@@ -11,5 +11,6 @@ This section describes the basic operation of verinice.
 * You can edit the criteria used in the risk analysis under [Risk definitions](./risk-definition).
 * Data transfer and backup are managed under [Data transfer](./data-transfer).
 * In the [Account management](./accounts.md) section, you can edit your [User account](./accounts#user-account-edit) and, if necessary, manage other [Users](./accounts#benutzerverwaltung-1) as the main user.
+* The [Tasks and Workflow](./task-workflow.md) will guide you through all activities in verinice.
 * The article [Permissions](permissions.md) explains which permissions are required for specific actions in verinice.
 * New features and enhancements are made available via [domain updates](./domain-updates.md).
