@@ -42,15 +42,9 @@ Um die Anwendbarkeit für eine Sicherheitsmaßnahme zu dokumentieren, klicken Si
 
 ![Auswahl von Sicherheitsmaßnahmen](../assets/domain-iso/verinice-57-SOA-select-control.png)
 
-
-
 Neben der Möglichkeit eine verantwortliche Person zuzuweisen und eine Beschreibung zu hinterlegen, können Sie unter dem Abschnitt **Anwendbarkeit** auswählen, ob die Sicherheitsmaßnahme Bestandteil der Statement of Applicability (SOA) ist. Darüber hinaus kann ein Auswahlgrund aus den Kategorien **gesetzliche Anforderungen, vertragliche Anforderungen, organisatorische Anforderung und Anforderungen aus der Risikoanalyse** ausgewählt werden. Zusätzlich besteht die Möglichkeit, eine Begründung für die Anwendbarkeit bzw. Nichtanwendbarkeit der Sicherheitsmaßnahme zu hinterlegen.
 
 ![Auswahlgrund](../assets/domain-iso/verinice-57-SOA-select-reason.png)
-
-**Hinweis**: Diese Funktionen stehen mit dem Release von **verinice 57** zur Verfügung. Haben Sie die Anwendbarkeit der SOA - insbesondere den Auswahlgrund - bisher im allgemeinen Beschreibungsfeld dokumentiert, müssen diese Informationen nach dem Update manuell in den Abschnitt **Anwendbarkeit** übertragen werden.
-
-![Alte Version:Auswahlgrund](../assets/domain-iso/verinice-39-select-reason.png)
 
 Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie den Umsetzungs-Dialog durch Mausklick auf das Icon **Umsetzung anzeigen**:
 
@@ -58,8 +52,7 @@ Um den Umsetzungsstatus einer Sicherheitsmaßnahme zu dokumentieren, öffnen Sie
 
 Öffnen Sie die entsprechende Maßnahme und dokumentieren Sie im unteren Bereich den aktuellen Umsetzungsstatus:
 
-![Umsetzung anzeigen](../assets/domain-iso/verinice-57-SOA-implementation-status.png)
-
+![Umsetzung anzeigen](../assets/domain-iso/verinice-62-ri-dialog-DE.png)
 
 ## SoA-Report
 

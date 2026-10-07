@@ -82,11 +82,13 @@ Here you can edit each individual control by clicking on it. In the implementati
 - Information about the target object  
 - Details about the security control, such as control description, control type, etc.  
 - Implementation information:
+  - Implementation status (Not started, Yes, Partially, No, Not required)  
   - Responsible person  
   - Implementation deadline (date)  
-  - Implementation status (Not started, Yes, Partially, No, Not required)  
-  - Implementation description  
+  - Implementation costs
+  - Implementation documentation
+  - Information on revisions
 
-![Edit Control]( ../assets/domain-iso/verinice-39-control-implementation.png)
+![Edit Control]( ../assets/domain-iso/verinice-62-ri-dialog-EN.png)
 
 After entering the data, close the dialog with **Save**.

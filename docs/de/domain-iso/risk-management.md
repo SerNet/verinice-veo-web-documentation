@@ -82,11 +82,13 @@ Hier können Sie nun jede einzelne Sicherheitsmaßnahme mit Klick auf die jeweil
 - Informationen zum Zielobjekt
 - Angaben zur Sicherheitsmaßnahme wie z.B Controlbeschreibung, Maßnahmenart usw.
 - Informationen zur Umsetzung:
+  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
   - Verantwortliche Person
   - Umsetzung bis (Datum)
-  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
-  - Umsetzungsbeschreibung
+  - Kosten für die Umsetzung
+  - Umsetzungsdokumentation
+  - Angaben zu Revisionen
 
-![Bearbeitung Maßnahme](../assets/domain-iso/verinice-39-control-implementation.png)
+![Bearbeitung Maßnahme](../assets/domain-iso/verinice-62-ri-dialog-DE.png)
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.
