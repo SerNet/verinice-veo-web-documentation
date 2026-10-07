@@ -68,13 +68,15 @@ Hier können Sie nun jede einzelne Maßnahme mit Klick auf die jeweilige Maßnah
 - Informationen zu Zielobjekt und TOM
 - Anforderungsbeschreibung
 - Informationen zur Umsetzung:
-    - Verantwortliche Person
-    - Umsetzung bis (Datum)
-    - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
-    - Umsetzungsbeschreibung
+  - Umsetzungsstatus (Unbearbeitet, Ja, Teilweise, Nein, Entbehrlich)
+  - Verantwortliche Person
+  - Umsetzung bis (Datum)
+  - Kosten für die Umsetzung
+  - Umsetzungsdokumentation
+  - Angaben zu Revisionen
 
 ![Maßnahmen](../assets/domain-ds-gvo/Bild30.png)
 
-![Umsetzung bearbeiten](../assets/domain-ds-gvo/Bild31.png)
+![Umsetzung bearbeiten](../assets/domain-ds-gvo/verinice-62-ri-dialog-DE.png)
 
 Nachdem Sie die Daten eingetragen haben, schließen Sie den Dialog mit **Speichern**.

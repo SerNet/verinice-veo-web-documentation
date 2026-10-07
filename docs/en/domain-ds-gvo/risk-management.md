@@ -68,13 +68,15 @@ Here you can now edit each individual measure by clicking on the respective meas
 - Information on target object and TOM
 - Description of requirements
 - Information on the implementation:
-- Person responsible
-- Implementation by (date)
-- Implementation status (Unprocessed, Yes, Partially, No, Not required)
-- Description of implementation
+  - Implementation status (Not started, Yes, Partially, No, Not required)  
+  - Responsible person  
+  - Implementation deadline (date)  
+  - Implementation costs
+  - Implementation documentation
+  - Information on revisions
 
 ![Measures](  ../assets/domain-ds-gvo/Bild30.png)
 
-![Edit implementation](  ../assets/domain-ds-gvo/Bild31.png)
+![Edit implementation](  ../assets/domain-ds-gvo/verinice-62-ri-dialog-EN.png)
 
 After you have entered the data, close the dialog with **Save**.
