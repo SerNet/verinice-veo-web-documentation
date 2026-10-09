@@ -58,7 +58,7 @@ Im Abschnitt **Meldungsart** können Sie eine Auswahl zur Art der Meldung treffe
 ![Bild 10](../assets/domain-nis2/verinice-32-nis2-10.png)
 
 Neben allgemeinen Angaben zum Sachverhalt können weitere gesetzlich geforderte Informationen in den hierfür vorgesehenen Abschnitten erfasst werden. Ihnen wird auch die Möglichkeit geboten, im Abschnitt "Angaben zu Schwachstellen" Informationen zu betroffenen Produkten, Plattformen und verwendeten Systemen zu hinterlegen.
-Des Weiteren werden betroffenen Zielobjekte, Meldungen an Behörden, Empfänger oder Öffentlichkeit, Fristen sowie geplante und umgesetzte Gegenmaßnahmen in den Dokumentations- und Bewertungsprozess mit einbezogen. Sämtliche Informationen können anschließen über den **Report Meldeformular Sicherheitsvorfall** ausgegeben und ggf. für eine Meldung bei den Aufsichtsbehörden verwendet werden.
+Des Weiteren werden betroffenen Zielobjekte, Meldungen an Behörden, Empfänger oder Öffentlichkeit, Fristen sowie geplante und umgesetzte Gegenmaßnahmen in den Dokumentations- und Bewertungsprozess mit einbezogen. Sämtliche Informationen können anschließend über den **Report Meldeformular Sicherheitsvorfall** ausgegeben und ggf. für eine Meldung bei den Aufsichtsbehörden verwendet werden.
 
 ![Bild 11](../assets/domain-nis2/verinice-32-nis2-11.png)
 
@@ -134,7 +134,7 @@ Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken.
 
 ## Mindestmaßnahmen
 
-Durch Anwenden des Katalogelementes **§ 30 BSIG** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 (DE) enthält Artikel der NIS2 enthält neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
+Durch Anwenden des Katalogelementes **§ 30 BSIG** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 (DE) enthält Artikel der NIS2 neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
 
 ![Bild 27](../assets/domain-nis2/verinice-32-nis2-27.png)
 
