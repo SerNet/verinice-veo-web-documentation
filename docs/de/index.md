@@ -38,9 +38,9 @@ featureSections:
       - title: BCMS nach BSI 200-4
         details: BSI 200-4 in verinice...
         link: /de/domain-bcm/
-#      - title: ISMS nach Grundschutz++
-#        details: BSI Grundschutz++ in verinice...
-#        link: /de/domain-gs-plusplus/
+      - title: ISMS nach Grundschutz++ (ALPHA)
+        details: BSI Grundschutz++ in verinice...
+        link: /de/domain-gs-pp/
   - title: ISO
     features:
       - title: ISMS nach ISO 27000

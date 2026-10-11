@@ -54,9 +54,9 @@ featureSections:
       - title: BCMS according to BSI 200-4
         details: BSI 200-4 in Verinice...
         link: /en/domain-bcm/
-#      - title: ISMS according to Grundschutz++
-#        details: BSI Grundschutz++ in Verinice...
-#        link: /en/domain-gs-plusplus/
+      - title: ISMS according to Grundschutz++ (ALPHA)
+        details: BSI Grundschutz++ in Verinice...
+        link: /en/domain-gs-pp/
 ---
 
 ::: danger Please note that [domain updates](/en/manual/domain-updates) may be available. To take full advantage of all the new features in verinice, we recommend updating all new domains.
