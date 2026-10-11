@@ -5,47 +5,52 @@ Zielobjektkategorien sind standardisierte Klassen für die im Grundschutz++ besc
 
 ## Hierarchie der Zielobjektkategorien
 
-Die 39 Zielobjektkategorien des Katalogs sind unter sieben Wurzelkategorien hierarchisch geordnet. Anforderungen werden einmalig für die passende Kategorie definiert und gelten für alle untergeordneten Kategorien. In Klammern steht die Anzahl der Anforderungen, die der Kategorie direkt zugeordnet sind.
+Die 39 Zielobjektkategorien des Katalogs sind unter sieben Wurzelkategorien hierarchisch geordnet. Anforderungen werden einmalig für die passende Kategorie definiert und gelten für alle untergeordneten Kategorien. In Klammern stehen zwei Zahlen:
 
-- **Anwendungen** (81)
-  - Dateiserver (3)
-  - DNS-Server (5)
-  - Faxe (3)
-  - Interpersonelle Kommunikation (10)
-    - E-Mail (14)
-  - Office-Anwendungen (2)
-  - TK-Anwendungen (9)
-    - VK-Anwendungen (5)
-  - Verzeichnisdienste (3)
-  - Virtualisierungslösungen (4)
-  - Webbrowser (14)
-  - Webserver (6)
-    - Webanwendungen (4)
-- **Einkäufe** (39)
-  - Dienstleistungen (31)
-    - Outsourcing (29)
-      - Cloud-Dienste (9)
-  - IT-Produkte (14)
-- **Informationen** (5)
-  - Daten (31)
-- **IT-Systeme** (93)
-  - Endgeräte (15)
-  - Hostsysteme (9)
-- **Netze** (34)
-  - Externe Netzanschlüsse (16)
-  - Interne Netzsegmente (3)
-    - WLANs (4)
-- **Nutzende** (81)
-  - Mitarbeitende (11)
-    - Administrierende (9)
-    - Führungskräfte (2)
-      - Institutionsleitung (1)
-- **Standorte** (59)
-  - Gebäude (2)
-  - Räume (6)
-    - Datenträgerarchiv (2)
-    - Räume für technische Infrastruktur (3)
-      - Serverräume (4)
+- **direkt:** Anzahl der Anforderungen, die der Kategorie selbst zugeordnet sind (erkennbar am Titel-Suffix, z.B. `[Webanwendungen]`)
+- **gesamt:** Anzahl der Anforderungen, die die Kategorie im Katalog enthält – die direkt zugeordneten und die aller übergeordneten Kategorien bis zur Wurzel (siehe [Vererbung](#vererbung))
+
+Bei Wurzelkategorien sind beide Zahlen gleich.
+
+- **Anwendungen** (81 / 81)
+  - Dateiserver (3 / 84)
+  - DNS-Server (5 / 86)
+  - Faxe (3 / 84)
+  - Interpersonelle Kommunikation (10 / 91)
+    - E-Mail (14 / 105)
+  - Office-Anwendungen (2 / 83)
+  - TK-Anwendungen (9 / 90)
+    - VK-Anwendungen (5 / 95)
+  - Verzeichnisdienste (3 / 84)
+  - Virtualisierungslösungen (4 / 85)
+  - Webbrowser (14 / 95)
+  - Webserver (6 / 87)
+    - Webanwendungen (4 / 91)
+- **Einkäufe** (39 / 39)
+  - Dienstleistungen (31 / 70)
+    - Outsourcing (29 / 99)
+      - Cloud-Dienste (9 / 108)
+  - IT-Produkte (14 / 53)
+- **Informationen** (5 / 5)
+  - Daten (31 / 36)
+- **IT-Systeme** (93 / 93)
+  - Endgeräte (15 / 108)
+  - Hostsysteme (9 / 102)
+- **Netze** (34 / 34)
+  - Externe Netzanschlüsse (16 / 50)
+  - Interne Netzsegmente (3 / 37)
+    - WLANs (4 / 41)
+- **Nutzende** (81 / 81)
+  - Mitarbeitende (11 / 92)
+    - Administrierende (9 / 101)
+    - Führungskräfte (2 / 94)
+      - Institutionsleitung (1 / 95)
+- **Standorte** (59 / 59)
+  - Gebäude (2 / 61)
+  - Räume (6 / 65)
+    - Datenträgerarchiv (2 / 67)
+    - Räume für technische Infrastruktur (3 / 68)
+      - Serverräume (4 / 72)
 
 <!-- GRAFIK: ![Hierarchie der Zielobjektkategorien](../assets/domain-gs-pp/gspp-target-object-category-tree.png) – optional: grafische Darstellung der Hierarchie (vgl. Abbildung 6 der Methodik) -->
 
@@ -71,22 +76,24 @@ In verinice dokumentieren Sie die Zuordnung, indem Sie die Zielobjektkategorie a
 
 ## Vererbung
 
-Anforderungen wirken nicht nur auf die direkt zugeordnete Kategorie („Blatt-Kategorie“), sondern auch auf deren übergeordnete Kategorien. Daher wird die Liste der Kategorien je Asset um alle Elternknoten bis zur Wurzel erweitert. Die Vererbung ist deterministisch, da die Hierarchie fest vorgegeben ist.
+Für ein Asset gelten nicht nur die Anforderungen der direkt zugeordneten Kategorie („Blatt-Kategorie“), sondern auch die aller übergeordneten Kategorien bis zur Wurzel. Die Vererbung ist deterministisch, da die Hierarchie fest vorgegeben ist.
 
-**Beispiel:** Ein Asset „Bürgerportal“ ist der Kategorie **Webanwendungen** zugeordnet. Über die Hierarchie gelten zusätzlich die Anforderungen von **Webserver** und **Anwendungen**. Das Asset erhält damit 4 + 6 + 81 = 91 Anforderungen aus den Zielobjektkategorien.
+Im Katalog ist die Vererbung bereits aufgelöst: Jede Zielobjektkategorie enthält die Anforderungen aller ihrer übergeordneten Kategorien. Sie modellieren deshalb auf einem Asset **nur die direkt zugeordnete Kategorie** und erhalten damit alle geltenden Anforderungen.
 
-| Direkt zugeordnet | Zusätzlich über Vererbung |
-|---|---|
-| Webanwendungen | Webserver, Anwendungen |
-| E-Mail | Interpersonelle Kommunikation, Anwendungen |
-| WLANs | Interne Netzsegmente, Netze |
-| Cloud-Dienste | Outsourcing, Dienstleistungen, Einkäufe |
-| Serverräume | Räume für technische Infrastruktur, Räume, Standorte |
-| Institutionsleitung | Führungskräfte, Mitarbeitende, Nutzende |
+**Beispiel:** Ein Asset „Bürgerportal“ ist der Kategorie **Webanwendungen** zugeordnet. Die Kategorie enthält ihre 4 eigenen Anforderungen sowie die 6 Anforderungen von **Webserver** und die 81 Anforderungen von **Anwendungen**. Wenn Sie nur „Webanwendungen“ auf dem Asset modellieren, erhält es damit 4 + 6 + 81 = 91 Anforderungen aus den Zielobjektkategorien.
 
-In verinice ist jede Zielobjektkategorie mit ihrer übergeordneten Kategorie über **Teile** verbunden. Im Objektumfeld einer Kategorie sehen Sie unter **Teile** die übergeordnete Kategorie sowie die zugeordneten Anforderungen.
+| Direkt zugeordnet | Enthaltene übergeordnete Kategorien | Anforderungen gesamt |
+|---|---|---|
+| Webanwendungen | Webserver, Anwendungen | 91 |
+| E-Mail | Interpersonelle Kommunikation, Anwendungen | 105 |
+| WLANs | Interne Netzsegmente, Netze | 41 |
+| Cloud-Dienste | Outsourcing, Dienstleistungen, Einkäufe | 108 |
+| Serverräume | Räume für technische Infrastruktur, Räume, Standorte | 72 |
+| Institutionsleitung | Führungskräfte, Mitarbeitende, Nutzende | 95 |
 
-<!-- SCREENSHOT: ![Teile einer Zielobjektkategorie](../assets/domain-gs-pp/verinice-gspp-category-parts.png) – Objektumfeld der Kategorie Webanwendungen mit übergeordneter Kategorie Webserver und den zugeordneten Anforderungen unter Teile -->
+Im Objektumfeld einer Zielobjektkategorie sehen Sie unter **Teile** alle Anforderungen, die die Kategorie enthält – die eigenen und die der übergeordneten Kategorien. Die übergeordneten Kategorien selbst sind dort nicht aufgeführt; welcher Kategorie eine Anforderung ursprünglich zugeordnet ist, erkennen Sie am Titel-Suffix.
+
+<!-- SCREENSHOT: ![Teile einer Zielobjektkategorie](../assets/domain-gs-pp/verinice-gspp-category-parts.png) – Objektumfeld der Kategorie Webanwendungen mit den 91 enthaltenen Anforderungen unter Teile (Suffixe [Webanwendungen], [Webserver] und [Anwendungen]) -->
 
 
 ::: tip Zielobjektkategorie bei Anforderungen

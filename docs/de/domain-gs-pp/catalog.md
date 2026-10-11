@@ -66,22 +66,28 @@ Damit Sie Anforderungen im Katalog und in Listen nach ihrer Zuordnung filtern k�
 
 | Suffix | Bedeutung | Beispiel |
 |---|---|---|
-| `[<Zielobjektkategorie>]` | Anforderung gilt für diese Zielobjektkategorie. Bei mehreren Kategorien folgt je Kategorie ein eigenes Klammerpaar in der Reihenfolge des Katalogs. | `… [Anwendungen]`, `… [Nutzende] [Endgeräte]` |
+| `[<Zielobjektkategorie>]` | Anforderung ist dieser Zielobjektkategorie zugeordnet. Bei mehreren Kategorien folgt je Kategorie ein eigenes Klammerpaar in der Reihenfolge des Katalogs. | `… [Anwendungen]`, `… [Nutzende] [Endgeräte]` |
 | `[Methodik]` | Verbundweite Anforderung einer Methodik-Praktik ohne Zielobjektkategorie | `Errichtung und Aufrechterhaltung eines ISMS [Methodik]` |
 | `[Prozess:<Kürzel>]` | Anforderung einer organisatorischen oder technischen Praktik ohne Zielobjektkategorie; sie gehört zum Führungsprozess dieser Praktik | `Prinzip der geringsten Berechtigungen [Prozess:BER]` |
 
-Geben Sie z.B. `[Webbrowser]` oder `[Prozess:DET]` in die Suche ein, um alle Anforderungen einer Kategorie bzw. eines Führungsprozesses zu finden.
+Geben Sie z.B. `[Webbrowser]` oder `[Prozess:DET]` in die Suche ein, um alle Anforderungen zu finden, die einer Kategorie selbst bzw. einem Führungsprozess zugeordnet sind.
+
+::: info Titel-Suffix und Teile einer Zielobjektkategorie
+Das Suffix nennt nur die Kategorien, denen die Anforderung selbst zugeordnet ist. Eine Zielobjektkategorie enthält unter **Teile** zusätzlich die Anforderungen aller übergeordneten Kategorien (siehe [Vererbung](./target-object-categories#vererbung)). Die Suche nach `[Webbrowser]` liefert deshalb 14 Anforderungen, die Kategorie „Webbrowser“ enthält dagegen 95 – einschließlich der 81 Anforderungen mit dem Suffix `[Anwendungen]`.
+:::
 
 <!-- SCREENSHOT: ![Filtern nach Titel-Suffix](../assets/domain-gs-pp/verinice-gspp-catalog-filter-suffix.png) – Katalogliste der Anforderungen, gefiltert nach „[Webbrowser]“ -->
 
 
 ## Beziehungen zwischen Anforderungen
 
-- **Teile (Unteranforderungen):** Übergeordnete Anforderungen können konkretisierende Unteranforderungen enthalten, z.B. `BER.4.1` „Prinzip der geringsten Berechtigungen“ mit `BER.4.1.1` „Rollenbasierte Berechtigung“ und `BER.4.1.2` „JIT‑/JEA‑Berechtigungen“. Die Unteranforderungen finden Sie im Objektumfeld unter **Teile**.
-
-  <!-- SCREENSHOT: ![Unteranforderungen und Links](../assets/domain-gs-pp/verinice-gspp-requirement-parts-links.png) – Objektumfeld einer Anforderung mit Teilen (Unteranforderungen) und Links (Abhängigkeit, Verwandt) -->
+- **Unteranforderungen:** Übergeordnete Anforderungen werden durch Unteranforderungen konkretisiert, z.B. `BER.4.1` „Prinzip der geringsten Berechtigungen“ durch `BER.4.1.1` „Rollenbasierte Berechtigung“ und `BER.4.1.2` „JIT‑/JEA‑Berechtigungen“. Die Zusammengehörigkeit erkennen Sie an der **Abkürzung**: Die Abkürzung der Unteranforderung beginnt mit der Abkürzung der übergeordneten Anforderung. Im Katalog ist jede Unteranforderung eine eigenständige Anforderung mit eigener Zuordnung; unter **Teile** einer Anforderung sind keine Unteranforderungen aufgeführt. Eine Unteranforderung kann deshalb einer anderen Zielobjektkategorie angehören als die übergeordnete Anforderung, z.B. `BES.2.1` „Erfassung des Bedarfes“ `[Einkäufe]` und `BES.2.1.5` „Lizenzierung“ `[IT-Produkte]`. Sie gilt dann nur für die Zielobjekte ihrer eigenen Kategorie.
 - **Abhängigkeit:** Die Anforderung setzt eine andere Anforderung voraus (59 Anforderungen mit insgesamt 67 Abhängigkeiten). Nach dem Leitfaden gilt eine Anforderung erst dann als umgesetzt, wenn auch alle Anforderungen umgesetzt sind, von denen sie abhängt.
 - **Verwandt:** Thematisch verwandte Anforderungen (171 Anforderungen mit insgesamt 210 Verweisen).
+
+Abhängigkeiten und verwandte Anforderungen finden Sie im Objektumfeld der Anforderung unter **Links**.
+
+<!-- SCREENSHOT: ![Links einer Anforderung](../assets/domain-gs-pp/verinice-gspp-requirement-links.png) – Objektumfeld einer Anforderung (z.B. VRB.5.1) mit Links Abhängigkeit und Verwandt -->
 
 ## Zielobjektkategorien und Sammelkategorien
 
@@ -89,7 +95,7 @@ Der Katalog enthält drei Arten von Zielobjektkategorien, die Sie an der **Abkü
 
 | Abkürzung | Art | Anzahl | Enthaltene Anforderungen |
 |---|---|---|---|
-| `Zielobjektkategorie` | Zielobjektkategorien des Katalogs, hierarchisch geordnet | 39 | 636 Anforderungen mit Zielobjektbezug (39 davon gehören zu zwei Kategorien) |
+| `Zielobjektkategorie` | Zielobjektkategorien des Katalogs; jede enthält auch die Anforderungen der übergeordneten Kategorien | 39 | 636 Anforderungen mit Zielobjektbezug (39 davon gehören zu zwei Kategorien) |
 | `Methodik` | Sammelkategorie „Verbundweite Anforderungen“ | 1 | 99 Anforderungen der Methodik-Praktiken |
 | `Prozess` | Führungsprozesse | 12 | 265 Anforderungen organisatorischer und technischer Praktiken ohne Zielobjektbezug |
 
@@ -118,7 +124,8 @@ Die Zielobjektkategorien mit Hierarchie und Definitionen beschreibt der Abschnit
 Die Praktiken GEB (Gebäudemanagement) und DLS (Dienstleistersteuerung) haben keinen Führungsprozess, da alle ihre Anforderungen einer Zielobjektkategorie zugeordnet sind.
 
 ::: warning Einschränkungen der aktuellen Katalogversion
-- Die Zuordnung einer Anforderung zu ihrer Kategorie ist über die **Teile** der Kategorie abgebildet, nicht über eine Verknüpfung. Ebenso ist die übergeordnete Kategorie als Teil hinterlegt.
-- Beim Anwenden einer Kategorie aus dem Katalog werden deren Teile – also die enthaltenen Anforderungen und die übergeordnete Kategorie – **nicht automatisch** mit übernommen. Wählen Sie die Anforderungen über das Titel-Suffix aus (siehe [Anforderungspaket erstellen](./modelling)).
+- Die Zuordnung einer Anforderung zu ihrer Kategorie ist über die **Teile** der Kategorie abgebildet, nicht über eine Verknüpfung. Unter **Teile** sind ausschließlich Anforderungen aufgeführt – die eigenen und die der übergeordneten Kategorien.
+- Die Hierarchie der Zielobjektkategorien ist in verinice nicht als Beziehung zwischen den Kategorien sichtbar. Sie ist bereits in den Teilen jeder Kategorie aufgelöst (siehe [Zielobjektkategorien](./target-object-categories#hierarchie-der-zielobjektkategorien)).
+- Unteranforderungen sind nicht als **Teile** der übergeordneten Anforderung abgebildet; die Zusammengehörigkeit ist nur an der Abkürzung erkennbar (siehe [Beziehungen zwischen Anforderungen](#beziehungen-zwischen-anforderungen)).
 - Die elementaren Gefährdungen sind nicht mit den Anforderungen verknüpft. Welche Gefährdungen eine Anforderung adressiert, entnehmen Sie dem Feld **BSI G0-Gefährdungen**.
 :::

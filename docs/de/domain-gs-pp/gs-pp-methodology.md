@@ -25,7 +25,7 @@ Bei der erstmaligen Einführung empfiehlt die Methodik, den PDCA-Zyklus zunächs
 |---|---|---|
 | Anforderungsquelle | IT-Grundschutz-Kompendium mit Bausteinen | Maschinenlesbarer Anforderungskatalog (OSCAL) der Stand-der-Technik-Bibliothek |
 | Gliederung | Bausteinschichten und Bausteine | 20 Praktiken (Tätigkeitsbereiche mit zuständigen Rollen) und ein Themenfeld je Anforderung |
-| Zuordnung zu Zielobjekten | Modellierung von Bausteinen auf Zielobjekte | Zuordnung von Assets zu **Zielobjektkategorien**; Anforderungen der Kategorie und ihrer übergeordneten Kategorien gelten für das Asset |
+| Zuordnung zu Zielobjekten | Modellierung von Bausteinen auf Zielobjekte | Zuordnung von Assets zu **Zielobjektkategorien**; Anforderungen der Kategorie und ihrer übergeordneten Kategorien gelten für das Asset – im Katalog enthält jede Kategorie bereits die Anforderungen ihrer übergeordneten Kategorien |
 | Vorgehensweisen | Basis-, Standard- und Kern-Absicherung | Ein Vorgehen; jede Anforderung trägt ein **Sicherheitsniveau** (normal-SdT oder erhöht) |
 | Verbindlichkeit | Basis-, Standard- und Anforderungen bei erhöhtem Schutzbedarf | Modalverb **MUSS**, **SOLLTE** oder **KANN** je Anforderung |
 | Schutzbedarfskategorien | normal, hoch, sehr hoch | **normal** und **hoch**; eigene Kategorien sind zulässig, wenn sie darauf abgebildet werden |
@@ -60,4 +60,4 @@ Die Pilotierungsfassung (Version 0.2, Juli 2026) weicht in einigen Punkten vom L
 - **Praktik:** Bündelt Anforderungen nach Tätigkeiten, deren Zuständigkeit bestimmten Rollen zugeordnet werden kann. Jede Anforderung gehört zu genau einer Praktik.
 - **Schutzbedarf:** Wie stark ein Geschäftsprozess hinsichtlich Vertraulichkeit, Integrität und Verfügbarkeit geschützt werden muss (normal oder hoch).
 - **Sicherheitsniveau:** Erfüllungsgrad von Sicherheitszielen; im Katalog ist für jede Anforderung „normal (Stand der Technik)“ oder „erhöht“ festgelegt.
-- **Zielobjektkategorie:** Standardisierte, hierarchisch geordnete Klasse von Assets, der im Katalog Anforderungen zugeordnet sind.
+- **Zielobjektkategorie:** Standardisierte, hierarchisch geordnete Klasse von Assets, der im Katalog Anforderungen zugeordnet sind. Im Katalog enthält jede Zielobjektkategorie auch die Anforderungen ihrer übergeordneten Kategorien.

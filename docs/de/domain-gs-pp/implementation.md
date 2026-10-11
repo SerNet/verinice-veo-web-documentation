@@ -62,7 +62,7 @@ Die Risikodefinition der Domäne bietet zusätzlich den Status **teilweise**. Gr
 :::
 
 ::: info Abhängige Anforderungen
-Nach dem Leitfaden gilt eine Anforderung nur dann als erfüllt, wenn sie selbst und alle Anforderungen erfüllt sind, von denen sie abhängt. Die Abhängigkeiten finden Sie im Objektumfeld der Anforderung unter **Links** (Abhängigkeit). Prüfen Sie auch die Unteranforderungen unter **Teile**.
+Nach dem Leitfaden gilt eine Anforderung nur dann als erfüllt, wenn sie selbst und alle Anforderungen erfüllt sind, von denen sie abhängt. Die Abhängigkeiten finden Sie im Objektumfeld der Anforderung unter **Links** (Abhängigkeit). Prüfen Sie auch die zugehörigen Unteranforderungen – Sie finden sie über die Abkürzung, z.B. `BER.4.1.1` und `BER.4.1.2` zu `BER.4.1` (siehe [Beziehungen zwischen Anforderungen](./catalog#beziehungen-zwischen-anforderungen)).
 :::
 
 Die Überprüfung sollte nach einem strukturierten Verfahren erfolgen, z.B. durch Interviews, Dokumentenprüfungen, automatisierte Konfigurationsprüfungen oder technische Scans.
@@ -86,7 +86,7 @@ Legen Sie für jede offene Anforderung konkrete **Maßnahmen** fest und priorisi
 - nach dem **Sicherheitsniveau** – Anforderungen mit Sicherheitsniveau „Erhöht“ beeinflussen die Reihenfolge der Umsetzung
 
 ::: tip Elternknoten zuerst
-Grundschutz++ empfiehlt, die Anforderungen der **Elternknoten** zuerst zu erfüllen – also die Anforderungen der übergeordneten Zielobjektkategorien (z.B. „Anwendungen“ vor „Webbrowser“) sowie übergeordnete Anforderungen vor ihren Unteranforderungen.
+Grundschutz++ empfiehlt, die Anforderungen der **Elternknoten** zuerst zu erfüllen – also die Anforderungen der übergeordneten Zielobjektkategorien (z.B. „Anwendungen“ vor „Webbrowser“) sowie übergeordnete Anforderungen vor ihren Unteranforderungen. An einem Zielobjekt erkennen Sie die Anforderungen übergeordneter Kategorien am Titel-Suffix (z.B. `[Anwendungen]` an einem mit „Webbrowser“ modellierten Zielobjekt) und Unteranforderungen an ihrer Abkürzung (z.B. `BER.4.1.1` zu `BER.4.1`).
 :::
 
 Maßnahmen können Sie in verinice unter **Maßnahmen > Maßnahmen** anlegen und mit den Anforderungen bzw. Risiken verknüpfen. Das Verfahren zur Umsetzungsplanung sollte zur Größe und zu den Gegebenheiten Ihrer Institution passen.

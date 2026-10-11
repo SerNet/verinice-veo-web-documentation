@@ -23,8 +23,8 @@ Bevor Sie Anforderungen in Ihrem Informationsverbund modellieren können, wenden
 <!-- SCREENSHOT: ![Katalogelemente anwenden](../assets/domain-gs-pp/verinice-gspp-apply-catalog.png) – Katalog mit selektierten Anforderungen und Zielobjektkategorien und Schaltfläche Anwenden -->
 
 
-::: tip Kategorien zusammen mit ihren Anforderungen anwenden
-Die Zuordnung der Anforderungen zu einer Zielobjektkategorie ist über deren **Teile** abgebildet. Diese Teile werden beim Anwenden **nicht automatisch** mit übernommen. Wenden Sie deshalb die benötigten Zielobjektkategorien immer zusammen mit ihren Anforderungen und ihren übergeordneten Kategorien an – am einfachsten, indem Sie alle Anforderungen und alle Zielobjektkategorien des Katalogs in einem Schritt anwenden. Um gezielt die Anforderungen einer Kategorie auszuwählen, filtern Sie nach dem Titel-Suffix, z.B. `[Webbrowser]` oder `[Methodik]`.
+::: tip Kategorien mit ihren Anforderungen anwenden
+Die Anforderungen einer Zielobjektkategorie sind als deren **Teile** abgebildet. Wenn Sie eine Kategorie aus dem Katalog anwenden, werden ihre Teile mit übernommen – also alle Anforderungen, die die Kategorie enthält, einschließlich derer aus den übergeordneten Kategorien. Am einfachsten wenden Sie alle Anforderungen und alle Zielobjektkategorien des Katalogs in einem Schritt an. Um gezielt die Anforderungen auszuwählen, die einer Kategorie selbst zugeordnet sind, filtern Sie nach dem Titel-Suffix, z.B. `[Webbrowser]` oder `[Methodik]`.
 :::
 
 ## Verbundweite Anforderungen
@@ -67,9 +67,13 @@ Weisen Sie einem Zielobjekt die zugeordneten Zielobjektkategorien zu:
 - Öffnen Sie ein Zielobjekt.
 - Wählen Sie im Objektumfeld den Tab **Bausteine** bzw. **Anforderungen**, klicken Sie auf **+** und anschließend auf **modellieren**.
 - Es öffnet sich ein Dialog mit allen in Ihrer Unit vorhandenen Kategorien und Anforderungen. Über die Suche können Sie gezielt nach Name und/oder Abkürzung suchen, z.B. nach `Zielobjektkategorie`, um nur die Kategorien des Katalogs anzuzeigen.
-- Wählen Sie die direkt zugeordnete Kategorie **und alle übergeordneten Kategorien bis zur Wurzel** aus (siehe [Vererbung](./target-object-categories#vererbung)) und speichern Sie den Dialog.
+- Wählen Sie **nur die direkt zugeordnete Kategorie** aus, z.B. „Webanwendungen“, und speichern Sie den Dialog. Die Anforderungen der übergeordneten Kategorien sind darin bereits enthalten (siehe [Vererbung](./target-object-categories#vererbung)).
 
-<!-- SCREENSHOT: ![Zielobjektkategorien auswählen](../assets/domain-gs-pp/verinice-gspp-select-categories.png) – Modellierungsdialog am Zielobjekt mit Suche „Zielobjektkategorie“ und ausgewählten Kategorien Webanwendungen, Webserver, Anwendungen -->
+<!-- SCREENSHOT: ![Zielobjektkategorien auswählen](../assets/domain-gs-pp/verinice-gspp-select-categories.png) – Modellierungsdialog am Zielobjekt mit Suche „Zielobjektkategorie“ und ausgewählter Kategorie Webanwendungen -->
+
+::: info Übergeordnete Kategorien nicht zusätzlich modellieren
+Modellieren Sie die übergeordneten Kategorien (z.B. „Webserver“ und „Anwendungen“) nicht zusätzlich. Ihre Anforderungen sind bereits in der direkt zugeordneten Kategorie enthalten; zusätzliche Anforderungen erhält das Zielobjekt dadurch nicht, da eine Anforderung je Zielobjekt nur einmal modelliert wird.
+:::
 
 ### Aus Sicht der Zielobjektkategorie
 
@@ -78,20 +82,19 @@ Weisen Sie einer Zielobjektkategorie die passenden Zielobjekte zu:
 - Öffnen Sie die Zielobjektkategorie, der ein oder mehrere Zielobjekte zugeordnet werden sollen.
 - Wählen Sie im Objektumfeld den Tab **Zielobjekte**, klicken Sie auf **+** und wählen Sie den Zielobjekttyp **Asset**.
 - Wählen Sie im Dialog die Zielobjekte aus, die mit der Kategorie modelliert werden sollen, und speichern Sie.
-- Wiederholen Sie den Vorgang für die übergeordneten Kategorien.
 
 <!-- SCREENSHOT: ![Zielobjekte zuordnen](../assets/domain-gs-pp/verinice-gspp-assign-target-objects.png) – Tab Zielobjekte einer Zielobjektkategorie mit Auswahl der Zielobjekte -->
 
-Nachdem Sie den Dialog gespeichert haben, werden die modellierten Kategorien und Anforderungen im Zielobjekt angezeigt.
+Nachdem Sie den Dialog gespeichert haben, werden die modellierte Kategorie und ihre Anforderungen im Zielobjekt angezeigt. Neben den Anforderungen enthält die Liste einen Eintrag für die modellierte Kategorie selbst: Ein mit „Webanwendungen“ modelliertes Zielobjekt zeigt 92 Einträge – die 91 Anforderungen der Kategorie und die Kategorie „Webanwendungen“.
 
-<!-- SCREENSHOT: ![Modellierte Zielobjektkategorien](../assets/domain-gs-pp/verinice-gspp-modelled-categories.png) – Objektumfeld eines Zielobjekts mit den modellierten Kategorien -->
+<!-- SCREENSHOT: ![Modellierte Zielobjektkategorien](../assets/domain-gs-pp/verinice-gspp-modelled-categories.png) – Objektumfeld eines mit Webanwendungen modellierten Zielobjekts mit 92 Einträgen: 91 Anforderungen (Suffixe [Webanwendungen], [Webserver], [Anwendungen]) und die Kategorie Webanwendungen -->
 
 
 ### Anforderungen mit zwei Zielobjektkategorien
 
 Einigen Anforderungen sind zwei Zielobjektkategorien zugeordnet (z.B. `[Nutzende] [Endgeräte]`). Nach dem Leitfaden wird eine solche Anforderung auf die **zuerst genannte** Kategorie modelliert, wenn das betreffende Asset von einem Asset der zweitgenannten Kategorie abhängt.
 
-Da die Anforderung in verinice Teil beider Kategorien ist, erscheint sie an den Assets beider Kategorien. Bearbeiten Sie sie beim Asset der erstgenannten Kategorie; beim Asset der zweitgenannten Kategorie können Sie im Rahmen der Konsolidierung den Status **nicht anwendbar** mit Verweis auf das Asset setzen, an dem die Anforderung umgesetzt wird.
+Da die Anforderung in verinice Teil beider Kategorien und aller ihrer untergeordneten Kategorien ist, erscheint sie an den Assets all dieser Kategorien – z.B. `SENS.7.12` „Öffentliche WLANs“ `[Nutzende] [Endgeräte]` auch an Assets der Kategorie „Administrierende“. Bearbeiten Sie sie beim Asset der erstgenannten Kategorie (bzw. einer ihrer Unterkategorien); bei Assets der zweitgenannten Kategorie und ihrer Unterkategorien können Sie im Rahmen der Konsolidierung den Status **nicht anwendbar** mit Verweis auf das Asset setzen, an dem die Anforderung umgesetzt wird.
 
 ## Konsolidierung und Redundanzprüfung
 
@@ -127,17 +130,22 @@ Sie können die initiale Einstellung überprüfen und bei Bedarf – auch für e
 
 Bevor Sie mit der Umsetzung beginnen, treffen Sie die zentralen Gestaltungsentscheidungen.
 
-**Parameter** sind variabel gestaltbare Stellen innerhalb einer Anforderung, z.B. „regelmäßig“ oder die Angabe eines Standards. Im Feld **Anforderung** sind sie als Platzhalter gekennzeichnet, z.B. `{{ insert: param, gc.1.1-prm1 }}`. Legen Sie die Werte nach der Erstellung des Anforderungspakets fest und dokumentieren Sie sie – z.B. in der Umsetzungsbeschreibung der Anforderung. Fordern unterschiedliche Vorgaben unterschiedliche Werte, wählen Sie die sicherste Einstellung oder betrachten Sie die Anforderung je Asset separat.
+**Parameter** sind variabel gestaltbare Stellen innerhalb einer Anforderung, z.B. „regelmäßig“ oder die Angabe eines Standards. Im Feld **Anforderung** sind sie als Platzhalter gekennzeichnet, z.B. <code v-pre>{{ insert: param, gc.1.1-prm1 }}</code>. Legen Sie die Werte nach der Erstellung des Anforderungspakets fest und dokumentieren Sie sie – z.B. in der Umsetzungsbeschreibung der Anforderung. Fordern unterschiedliche Vorgaben unterschiedliche Werte, wählen Sie die sicherste Einstellung oder betrachten Sie die Anforderung je Asset separat.
 
 **Führende Zuständigkeiten:** Jede Praktik enthält im Thema „Grundlagen“ eine Anforderung zur Zuweisung der Aufgaben (z.B. `BER.1.1.2` „Zuweisung der Aufgaben“). Mit diesen Parametern legen Sie fest, welche Rolle die führende Zuständigkeit für die Praktik erhält. Hinterlegen Sie die Rolle als **Verantwortliche Person** bei der Umsetzung der Anforderungen.
 
 ## Anforderungspaket aus Profil
 
-Das Profil **Grundschutz++-Kompendium V.1.0.0** (Alpha-Version einer Blaupause) enthält Anforderungen des Katalogs und Beispiel-Zielobjekte für die Zielobjektkategorien. Sie können die Beispiel-Zielobjekte inklusive der modellierten Anforderungen modifizieren, kopieren oder löschen, um Ihre Institution abzubilden.
+Das Profil **Grundschutz++-Profil V2** enthält ein vollständig modelliertes Beispiel-Anforderungspaket:
 
-Sie können das Profil aus der Unitverwaltung heraus beim Erstellen einer neuen Unit anwenden oder auf eine bereits bestehende Unit anwenden.
+- **Informationsverbund** mit der Kategorie **Verbundweite Anforderungen** und den zwölf **Führungsprozessen** – also allen Anforderungen ohne Zielobjektbezug (1).
+- **39 Beispiel-Zielobjekte**, eines je Zielobjektkategorie und jeweils wie die Kategorie benannt (z.B. „Webanwendungen“). Jedes Zielobjekt ist nur mit seiner eigenen Kategorie modelliert und trägt damit alle Anforderungen der Kategorie einschließlich der übergeordneten Kategorien (2). Die Zielobjekte sind Mitglieder des Informationsverbunds und entlang der Hierarchie der Zielobjektkategorien als **Teile** ineinander gegliedert, z.B. „Webanwendungen“ als Teil von „Webserver“ und dieses als Teil von „Anwendungen“.
 
-<!-- SCREENSHOT: ![Profil anwenden](../assets/domain-gs-pp/verinice-gspp-apply-profile.png) – Unitverwaltung mit Auswahl des Profils Grundschutz++-Kompendium V.1.0.0 -->
+Der Umsetzungsstatus aller Anforderungen ist **unbekannt**. Geschäftsprozesse, Risiken und elementare Gefährdungen enthält das Profil nicht; die elementaren Gefährdungen wenden Sie bei Bedarf aus dem Katalog an (siehe [Risikobetrachtung](./risk-analysis)).
+
+Sie können die Beispiel-Zielobjekte inklusive der modellierten Anforderungen modifizieren, kopieren oder löschen, um Ihre Institution abzubilden. Sie können das Profil aus der Unitverwaltung heraus beim Erstellen einer neuen Unit anwenden oder auf eine bereits bestehende Unit anwenden.
+
+<!-- SCREENSHOT: ![Profil anwenden](../assets/domain-gs-pp/verinice-gspp-apply-profile.png) – Unitverwaltung mit Auswahl des Profils Grundschutz++-Profil V2 -->
 
 ::: warning Das Anwenden eines Profiles fügt einer bestehenden Unit eine Vielzahl zusätzlicher Objekte hinzu! Wir empfehlen die Anwendung in einer neuen Unit zu prüfen.
 :::

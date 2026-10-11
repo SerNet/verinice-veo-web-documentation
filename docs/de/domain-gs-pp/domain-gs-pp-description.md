@@ -62,12 +62,12 @@ Die Anforderungen stammen aus drei Quellen: dem BSI-Stand-der-Technik-Kernel (90
 
 Es steht ein Profil zur Anwendung bereit:
 
-### Grundschutz++-Kompendium V.1.0.0
+### Grundschutz++-Profil V2
 
-Alpha-Version einer Blaupause für das Grundschutz++-Kompendium. Das Profil enthält Anforderungen des Katalogs sowie Beispiel-Zielobjekte für die Zielobjektkategorien, die Sie an Ihre Institution anpassen können (siehe [Anforderungspaket aus Profil](./modelling#anforderungspaket-aus-profil)).
+Das Profil enthält einen Informationsverbund, der mit den Anforderungen zur Umsetzung der Methodik und den Führungsprozessen modelliert ist, sowie 39 Beispiel-Zielobjekte – je Zielobjektkategorie eines, modelliert mit den technisch-organisatorischen Anforderungen der Kategorie. Sie können die Beispiel-Zielobjekte an Ihre Institution anpassen (siehe [Anforderungspaket aus Profil](./modelling#anforderungspaket-aus-profil)).
 
 ::: warning Blaupausen
-Die Methodik sieht die Auswahl von Blaupausen als eigenen Schritt vor, beschreibt diesen aber noch nicht. Das Profil ist als Alpha-Version zu verstehen und ersetzt nicht die Erstellung des Anforderungspakets nach der Methodik.
+Die Methodik sieht die Auswahl von Blaupausen als eigenen Schritt vor, beschreibt diesen aber noch nicht. Das Profil ist als Beispiel zu verstehen und ersetzt nicht die Erstellung des Anforderungspakets nach der Methodik.
 :::
 
 ## Decisions
