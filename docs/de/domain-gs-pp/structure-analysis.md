@@ -48,7 +48,7 @@ Alle Assets erfassen Sie als **Zielobjekte**: Navigieren Sie zum Objekttyp **Ass
 Assets mit ähnlichen Eigenschaften und gleichem Einsatzzweck dürfen gruppiert werden, z.B. alle gleichartig konfigurierten Clients als ein Zielobjekt mit entsprechender **Anzahl**. Auf vorhandene Asset-Register und CMDB-Daten können Sie zurückgreifen.
 
 ::: tip Beispiel-Zielobjekte aus dem Profil
-Das Profil **Grundschutz++-Profil V2** enthält zu jeder Zielobjektkategorie ein gleichnamiges Beispiel-Zielobjekt, das bereits mit seiner Kategorie modelliert ist. Sie können diese als Vorlage kopieren und an Ihre Institution anpassen (siehe [Anforderungspaket aus Profil](./modelling#anforderungspaket-aus-profil)).
+Das Profil **Grundschutz++-Profil V2** enthält zu jeder Zielobjektkategorie ein gleichnamiges Beispiel-Zielobjekt, das bereits mit seiner Kategorie modelliert ist. Sie können diese als Vorlage kopieren und an Ihre Institution anpassen (siehe [Anforderungspaket aus Profil](./modelling#anforderungspaket-aus-profil) und [Profile in der Domäne Grundschutz++](./gs-pp-profiles)).
 :::
 
 ## Abhängigkeiten zwischen Assets

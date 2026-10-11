@@ -143,7 +143,7 @@ The profile **Grundschutz++-Profil V2** contains a fully modeled sample *Anforde
 
 The implementation status of all requirements is **unknown**. The profile does not contain any business processes, risks, or elementary threats; if needed, you apply the elementary threats from the catalog (see [*Risikobetrachtung*](./risk-analysis)).
 
-You can modify, copy, or delete the sample target objects, including the modeled requirements, to represent your organization. You can apply the profile from the unit management when creating a new unit, or apply it to an existing unit.
+You can modify, copy, or delete the sample target objects, including the modeled requirements, to represent your organization. You can apply the profile from the unit management when creating a new unit, or apply it to an existing unit. The content and structure of the profile are described on the page [Profiles in the Grundschutz++ Domain](./gs-pp-profiles).
 
 <!-- SCREENSHOT: ![Apply profile](../assets/domain-gs-pp/verinice-gspp-apply-profile.png) – Unit management with the selection of the profile Grundschutz++-Profil V2 -->
 

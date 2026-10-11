@@ -7,6 +7,7 @@ The methodology follows a PDCA cycle with five process steps. This manual is str
 
 - Get to know the [Grundschutz++ methodology](./gs-pp-methodology) and the differences from IT-Grundschutz.
 - Get to know the [Grundschutz++ domain](./domain-gs-pp-description) and the [requirements catalog](./catalog).
+- Get an overview of a fully modeled example with the [profile of the domain](./gs-pp-profiles).
 - **Process step 1 – *Erhebung und Planung* (survey and planning):** Define the institution, *Anwendungsbereich* (scope of application) and business processes ([survey and planning](./planning)) and carry out the [*Schutzbedarfsfeststellung* (protection need assessment)](./protection-needs).
 - **Process step 2 – *Anforderungsanalyse* (requirements analysis):** [Delimit the *Informationsverbund* and record the assets](./structure-analysis), assign them to [*Zielobjektkategorien*](./target-object-categories) and [compile the *Anforderungspaket*](./modelling).
 - **Process step 3 – *Realisierung* (realization):** Determine the [implementation status and plan the implementation](./implementation).

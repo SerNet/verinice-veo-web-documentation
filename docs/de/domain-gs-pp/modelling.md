@@ -143,7 +143,7 @@ Das Profil **Grundschutz++-Profil V2** enthält ein vollständig modelliertes Be
 
 Der Umsetzungsstatus aller Anforderungen ist **unbekannt**. Geschäftsprozesse, Risiken und elementare Gefährdungen enthält das Profil nicht; die elementaren Gefährdungen wenden Sie bei Bedarf aus dem Katalog an (siehe [Risikobetrachtung](./risk-analysis)).
 
-Sie können die Beispiel-Zielobjekte inklusive der modellierten Anforderungen modifizieren, kopieren oder löschen, um Ihre Institution abzubilden. Sie können das Profil aus der Unitverwaltung heraus beim Erstellen einer neuen Unit anwenden oder auf eine bereits bestehende Unit anwenden.
+Sie können die Beispiel-Zielobjekte inklusive der modellierten Anforderungen modifizieren, kopieren oder löschen, um Ihre Institution abzubilden. Sie können das Profil aus der Unitverwaltung heraus beim Erstellen einer neuen Unit anwenden oder auf eine bereits bestehende Unit anwenden. Inhalt und Aufbau des Profils beschreibt die Seite [Profile in der Domäne Grundschutz++](./gs-pp-profiles).
 
 <!-- SCREENSHOT: ![Profil anwenden](../assets/domain-gs-pp/verinice-gspp-apply-profile.png) – Unitverwaltung mit Auswahl des Profils Grundschutz++-Profil V2 -->
 

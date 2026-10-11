@@ -48,7 +48,7 @@ Record all assets as **Target objects**: navigate to the object type **Assets** 
 Assets with similar properties and the same purpose may be grouped, e.g. all identically configured clients as one target object with the corresponding **Number**. You can draw on existing asset registers and CMDB data.
 
 ::: tip Example target objects from the profile
-The profile **Grundschutz++-Profil V2** contains, for each *Zielobjektkategorie*, an example target object of the same name that is already modeled with its category. You can copy these as templates and adapt them to your institution (see [Requirements Package from a Profile](./modelling#requirements-package-from-profile)).
+The profile **Grundschutz++-Profil V2** contains, for each *Zielobjektkategorie*, an example target object of the same name that is already modeled with its category. You can copy these as templates and adapt them to your institution (see [Requirements Package from a Profile](./modelling#requirements-package-from-profile) and [Profiles in the Grundschutz++ Domain](./gs-pp-profiles)).
 :::
 
 ## Dependencies Between Assets

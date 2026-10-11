@@ -41,6 +41,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
       { text: { de: "Methodik Grundschutz++ im Überblick", en: "Overview of the Grundschutz++ Methodology" }, link: "/domain-gs-pp/gs-pp-methodology" },
       { text: { de: "Aufbau der Domäne", en: "Domain Structure" }, link: "/domain-gs-pp/domain-gs-pp-description" },
       { text: { de: "Anforderungskatalog", en: "Requirements Catalog" }, link: "/domain-gs-pp/catalog" },
+      { text: { de: "Profil", en: "Profile" }, link: "/domain-gs-pp/gs-pp-profiles" },
       { text: { de: "Erhebung und Planung", en: "Survey and Planning" }, link: "/domain-gs-pp/planning" },
       { text: { de: "Schutzbedarf", en: "Protection Needs" }, link: "/domain-gs-pp/protection-needs" },
       { text: { de: "Informationsverbund und Assets", en: "Information Domain and Assets" }, link: "/domain-gs-pp/structure-analysis" },

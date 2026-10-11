@@ -7,6 +7,7 @@ Die Methodik folgt einem PDCA-Zyklus mit fünf Prozessschritten. Dieses Handbuch
 
 - Lernen Sie die [Methodik Grundschutz++](./gs-pp-methodology) und die Unterschiede zum IT-Grundschutz kennen.
 - Lernen Sie die [Domäne Grundschutz++](./domain-gs-pp-description) und den [Anforderungskatalog](./catalog) kennen.
+- Verschaffen Sie sich mit dem [Profil der Domäne](./gs-pp-profiles) einen Überblick über ein vollständig modelliertes Beispiel.
 - **Prozessschritt 1 – Erhebung und Planung:** Legen Sie Institution, Anwendungsbereich und Geschäftsprozesse fest ([Erhebung und Planung](./planning)) und führen Sie die [Schutzbedarfsfeststellung](./protection-needs) durch.
 - **Prozessschritt 2 – Anforderungsanalyse:** Grenzen Sie den [Informationsverbund ab und erfassen Sie die Assets](./structure-analysis), ordnen Sie ihnen [Zielobjektkategorien](./target-object-categories) zu und [erstellen Sie das Anforderungspaket](./modelling).
 - **Prozessschritt 3 – Realisierung:** Ermitteln Sie den [Umsetzungsstatus und planen Sie die Umsetzung](./implementation).
