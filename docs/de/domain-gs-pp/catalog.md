@@ -122,10 +122,3 @@ Die Zielobjektkategorien mit Hierarchie und Definitionen beschreibt der Abschnit
 <!-- SCREENSHOT: ![Führungsprozess mit Teilen](../assets/domain-gs-pp/verinice-gspp-process-category-parts.png) – Objektumfeld der Kategorie „Berechtigungsmanagement“ (Abkürzung Prozess) mit den enthaltenen [Prozess:BER]-Anforderungen unter Teile -->
 
 Die Praktiken GEB (Gebäudemanagement) und DLS (Dienstleistersteuerung) haben keinen Führungsprozess, da alle ihre Anforderungen einer Zielobjektkategorie zugeordnet sind.
-
-::: warning Einschränkungen der aktuellen Katalogversion
-- Die Zuordnung einer Anforderung zu ihrer Kategorie ist über die **Teile** der Kategorie abgebildet, nicht über eine Verknüpfung. Unter **Teile** sind ausschließlich Anforderungen aufgeführt – die eigenen und die der übergeordneten Kategorien.
-- Die Hierarchie der Zielobjektkategorien ist in verinice nicht als Beziehung zwischen den Kategorien sichtbar. Sie ist bereits in den Teilen jeder Kategorie aufgelöst (siehe [Zielobjektkategorien](./target-object-categories#hierarchie-der-zielobjektkategorien)).
-- Unteranforderungen sind nicht als **Teile** der übergeordneten Anforderung abgebildet; die Zusammengehörigkeit ist nur an der Abkürzung erkennbar (siehe [Beziehungen zwischen Anforderungen](#beziehungen-zwischen-anforderungen)).
-- Die elementaren Gefährdungen sind nicht mit den Anforderungen verknüpft. Welche Gefährdungen eine Anforderung adressiert, entnehmen Sie dem Feld **BSI G0-Gefährdungen**.
-:::

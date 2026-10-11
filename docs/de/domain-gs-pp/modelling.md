@@ -136,7 +136,7 @@ Bevor Sie mit der Umsetzung beginnen, treffen Sie die zentralen Gestaltungsentsc
 
 ## Anforderungspaket aus Profil
 
-Das Profil **Grundschutz++-Profil V2** enthält ein vollständig modelliertes Beispiel-Anforderungspaket:
+Das Profil **Grundschutz++-Profil** enthält ein vollständig modelliertes Beispiel-Anforderungspaket:
 
 - **Informationsverbund** mit der Kategorie **Verbundweite Anforderungen** und den zwölf **Führungsprozessen** – also allen Anforderungen ohne Zielobjektbezug (1).
 - **39 Beispiel-Zielobjekte**, eines je Zielobjektkategorie und jeweils wie die Kategorie benannt (z.B. „Webanwendungen“). Jedes Zielobjekt ist nur mit seiner eigenen Kategorie modelliert und trägt damit alle Anforderungen der Kategorie einschließlich der übergeordneten Kategorien (2). Die Zielobjekte sind Mitglieder des Informationsverbunds und entlang der Hierarchie der Zielobjektkategorien als **Teile** ineinander gegliedert, z.B. „Webanwendungen“ als Teil von „Webserver“ und dieses als Teil von „Anwendungen“.

@@ -68,10 +68,6 @@ The domain provides the 47 elementary threats G 0.1 to G 0.47 as **Scenarios**. 
 
 Apply the required elementary threats from the [catalog](../manual/catalogs.md) (select **Elementary threats** and click **Apply**).
 
-::: warning No automatic threat overview
-Unlike in the IT-Grundschutz domain, the elementary threats in the current catalog are not linked to the requirements. You therefore select the threats relevant to a target object yourself—e.g., based on the threats named in the requirements of its *Zielobjektkategorien*, supplemented by further threats from your analysis.
-:::
-
 ## Create Risks
 
 For the affected target object (or business process), create one risk per relevant threat: in the object view of the object, select the **Risks** tab, click **+**, and select the elementary threats. A risk object is created for each selected threat.

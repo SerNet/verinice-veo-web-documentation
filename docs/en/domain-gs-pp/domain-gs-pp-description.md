@@ -60,15 +60,7 @@ The requirements come from three sources: the BSI state-of-the-art kernel (901),
 
 ## Profiles
 
-One profile is available for application:
-
-### Grundschutz++-Profil V2
-
-The profile contains an *Informationsverbund* modeled with the requirements for implementing the methodology and the *Führungsprozesse*, as well as 39 example target objects – one per *Zielobjektkategorie*, modeled with the technical-organizational requirements of the category. You can adapt the example target objects to your institution (see [Requirements Package From Profile](./modelling#requirements-package-from-profile)). The content and structure of the profile are described on the page [Profiles in the Grundschutz++ Domain](./gs-pp-profiles).
-
-::: warning Blueprints
-The methodology provides for the selection of *Blaupausen* (blueprints) as a separate step but does not describe it yet. The profile is to be understood as an example and does not replace creating the *Anforderungspaket* according to the methodology.
-:::
+The **Grundschutz++-Profil** contains an *Informationsverbund* modeled with the requirements for implementing the methodology and the *Führungsprozesse*, as well as 39 example target objects – one per *Zielobjektkategorie*, modeled with the technical-organizational requirements of the category. You can adapt the example target objects to your institution (see [Requirements Package From Profile](./modelling#requirements-package-from-profile)). The content and structure of the profile are described on the page [Profiles in the Grundschutz++ Domain](./gs-pp-profiles).
 
 ## Decisions
 

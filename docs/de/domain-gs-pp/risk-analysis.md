@@ -68,10 +68,6 @@ Die Domäne stellt die 47 elementaren Gefährdungen G 0.1 bis G 0.47 als **Szena
 
 Wenden Sie die benötigten elementaren Gefährdungen aus dem [Katalog](../manual/catalogs.md) an (**Elementare Gefährdungen** selektieren und **Anwenden**).
 
-::: warning Keine automatische Gefährdungsübersicht
-Anders als in der Domäne IT-Grundschutz sind die elementaren Gefährdungen im aktuellen Katalog nicht mit den Anforderungen verknüpft. Die für ein Zielobjekt relevanten Gefährdungen wählen Sie deshalb selbst aus – z.B. anhand der Gefährdungen, die in den Anforderungen seiner Zielobjektkategorien genannt sind, und ergänzt um weitere Gefährdungen aus Ihrer Analyse.
-:::
-
 ## Risiken anlegen
 
 Legen Sie für das betroffene Zielobjekt (bzw. den Geschäftsprozess) ein Risiko je relevanter Gefährdung an: Wählen Sie im Objektumfeld des Objekts den Tab **Risiken**, klicken Sie auf **+** und wählen Sie die elementaren Gefährdungen aus. Für jede ausgewählte Gefährdung wird ein Risikoobjekt angelegt.

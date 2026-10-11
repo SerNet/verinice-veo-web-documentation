@@ -136,7 +136,7 @@ Before you start the implementation, make the central *Gestaltungsentscheidungen
 
 ## Requirements Package from Profile
 
-The profile **Grundschutz++-Profil V2** contains a fully modeled sample *Anforderungspaket*:
+The profile **Grundschutz++-Profil** contains a fully modeled sample *Anforderungspaket*:
 
 - **Information domain** with the category **Verbundweite Anforderungen** and the twelve ***Führungsprozesse***—that is, all requirements without a target object reference (1).
 - **39 sample target objects**, one per *Zielobjektkategorie*, each named like the category (e.g., „Webanwendungen“). Each target object is modeled only with its own category and thus carries all requirements of the category, including those of the higher-level categories (2). The target objects are members of the *Informationsverbund* and are nested as **Parts** along the hierarchy of the *Zielobjektkategorien*, e.g., „Webanwendungen“ as a part of „Webserver“ and the latter as a part of „Anwendungen“.

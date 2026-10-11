@@ -126,10 +126,3 @@ The target object categories with their hierarchy and definitions are described 
 <!-- SCREENSHOT: ![Management process with parts](../assets/domain-gs-pp/verinice-gspp-process-category-parts.png) – Object view of the category „Berechtigungsmanagement“ (abbreviation Prozess) with the contained [Prozess:BER] requirements under Parts -->
 
 The *Praktiken* GEB (Gebäudemanagement) and DLS (Dienstleistersteuerung) have no *Führungsprozess*, as all of their requirements are assigned to a *Zielobjektkategorie*.
-
-::: warning Limitations of the current catalog version
-- The assignment of a requirement to its category is mapped via the **Parts** of the category, not via a link. Only requirements are listed under **Parts** – the category's own requirements and those of the higher-level categories.
-- The hierarchy of the target object categories is not visible in verinice as a relationship between the categories. It is already resolved in the parts of each category (see [Target Object Categories](./target-object-categories#hierarchy-of-target-object-categories)).
-- Sub-requirements are not mapped as **Parts** of the higher-level requirement; that they belong together can only be recognized by the abbreviation (see [Relationships Between Requirements](#relationships-between-requirements)).
-- The elementary threats are not linked to the requirements. Which threats a requirement addresses can be found in the field **BSI G0-Threats**.
-:::

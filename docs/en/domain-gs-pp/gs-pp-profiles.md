@@ -1,17 +1,9 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Profiles in the Grundschutz++ Domain
 
-A profile contains prepared objects that you can apply to a unit and adapt to your institution. For the Grundschutz++ domain, the profile **Grundschutz++-Profil V2** is available. Using a fully modeled example, it shows how the requirements of the catalog are modeled on an *Informationsverbund* (information domain) and its target objects.
+A profile contains prepared objects that you can apply to a unit and adapt to your institution. For the Grundschutz++ domain, the profile **Grundschutz++-Profil** is available. Using a fully modeled example, it shows how the requirements of the catalog are modeled on an *Informationsverbund* (information domain) and its target objects.
 
-The description of the profile reads (in German; in English: the profile contains an information domain with target objects that are modeled with the requirements for implementing the Grundschutz methodology as well as specific technical-organizational requirements for protection):
-
-> Das Grundschutz++-Profil enthält einen Informationsverbund mit Zielobjekten, die modelliert sind mit den Anforderungen zur Umsetzung der Grundschutz-Methodik sowie konkreten technisch-organisatorischen Anforderungen zur Absicherung.
-
-::: warning Example, not a blueprint
-The profile is an example of how the methodology is mapped in verinice. It is not a *Blaupause* (blueprint) in the sense of the methodology – their selection is planned as a separate step but not yet described (see [Profiles](./domain-gs-pp-description#profiles)). The profile does not replace compiling the *Anforderungspaket* (requirements package) according to the methodology.
-:::
-
-## Grundschutz++-Profil V2
+## Grundschutz++-Profil
 
 The profile contains the following objects:
 
@@ -90,16 +82,6 @@ The target objects are nested as **Parts** along the hierarchy of the *Zielobjek
 The **Entries** column states the number of entries in the object view of the target object: the requirements of the category and the entry for the category itself. For example, the target object „Webanwendungen“ contains 92 entries – the 91 requirements of the category „Webanwendungen“ and the category itself.
 
 <!-- SCREENSHOT: ![Example target objects of the profile](../assets/domain-gs-pp/verinice-gspp-profile-target-objects.png) – List of the target objects from the profile with the nesting via Parts, e.g. Anwendungen with Webserver and Webanwendungen -->
-
-## Content Not Included
-
-The profile represents the *Anforderungspaket* only. It does not contain:
-
-- **Business processes** and specialised tasks as well as their links to the target objects
-- ***Schutzbedarf*** (protection need) – no *Schutzbedarf* has been determined in the profile
-- **Risks** and **elementary threats**
-- **Implementation status** – the status of all requirements is **unknown**
-- **Responsible persons**, implementation deadlines and implementation descriptions
 
 ## Applying the Profile
 

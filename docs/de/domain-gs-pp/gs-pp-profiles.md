@@ -1,17 +1,9 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # Profile in der Domäne Grundschutz++
 
-Ein Profil enthält vorbereitete Objekte, die Sie in eine Unit übernehmen und an Ihre Institution anpassen können. Für die Domäne Grundschutz++ steht das Profil **Grundschutz++-Profil V2** zur Verfügung. Es zeigt an einem vollständig modellierten Beispiel, wie die Anforderungen des Katalogs auf einen Informationsverbund und seine Zielobjekte modelliert werden.
+Ein Profil enthält vorbereitete Objekte, die Sie in eine Unit übernehmen und an Ihre Institution anpassen können. Für die Domäne Grundschutz++ steht das Profil **Grundschutz++-Profil** zur Verfügung. Es zeigt an einem vollständig modellierten Beispiel, wie die Anforderungen des Katalogs auf einen Informationsverbund und seine Zielobjekte modelliert werden.
 
-Die Beschreibung des Profils lautet:
-
-> Das Grundschutz++-Profil enthält einen Informationsverbund mit Zielobjekten, die modelliert sind mit den Anforderungen zur Umsetzung der Grundschutz-Methodik sowie konkreten technisch-organisatorischen Anforderungen zur Absicherung.
-
-::: warning Beispiel, keine Blaupause
-Das Profil ist ein Beispiel für die Abbildung der Methodik in verinice. Es ist keine Blaupause im Sinne der Methodik – deren Auswahl ist als eigener Schritt vorgesehen, aber noch nicht beschrieben (siehe [Profile](./domain-gs-pp-description#profile)). Das Profil ersetzt nicht die Erstellung des Anforderungspakets nach der Methodik.
-:::
-
-## Grundschutz++-Profil V2
+## Grundschutz++-Profil
 
 Das Profil enthält folgende Objekte:
 
@@ -90,16 +82,6 @@ Die Zielobjekte sind entlang der Hierarchie der Zielobjektkategorien als **Teile
 Die Spalte **Einträge** nennt die Anzahl der Einträge im Objektumfeld des Zielobjekts: die Anforderungen der Kategorie und den Eintrag für die Kategorie selbst. Das Zielobjekt „Webanwendungen“ enthält z.B. 92 Einträge – die 91 Anforderungen der Kategorie „Webanwendungen“ und die Kategorie selbst.
 
 <!-- SCREENSHOT: ![Beispiel-Zielobjekte des Profils](../assets/domain-gs-pp/verinice-gspp-profile-target-objects.png) – Liste der Zielobjekte aus dem Profil mit der Gliederung über Teile, z.B. Anwendungen mit Webserver und Webanwendungen -->
-
-## Nicht enthaltene Inhalte
-
-Das Profil bildet ausschließlich das Anforderungspaket ab. Nicht enthalten sind:
-
-- **Geschäftsprozesse** und Fachverfahren sowie deren Verknüpfungen zu den Zielobjekten
-- **Schutzbedarf** – im Profil ist kein Schutzbedarf festgestellt
-- **Risiken** und **elementare Gefährdungen**
-- **Umsetzungsstatus** – der Status aller Anforderungen ist **unbekannt**
-- **Verantwortliche Personen**, Umsetzungsfristen und Umsetzungsbeschreibungen
 
 ## Profil anwenden
 
