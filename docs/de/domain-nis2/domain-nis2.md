@@ -134,7 +134,7 @@ Nun können Sie jede einzelne Maßnahme zwecks Umsetzungsbearbeitung anklicken.
 
 ## Mindestmaßnahmen
 
-Durch Anwenden des Katalogelementes **§ 30 BSIG** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 (DE) enthält Artikel der NIS2 neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
+Durch Anwenden des Katalogelementes **§ 30 BSIG** werden die Mindestmaßnahmen in Ihre Unit überführt. Der Katalog der Domäne NIS2 (DE) enthält neben den Artikeln und Erwägungsgründen der NIS2-Richtlinie auch die Anforderungen und Maßnahmen der Durchführungsverordnung (EU) 2024/2690 der Kommission vom 17. Oktober 2024 sowie die Anforderungen des NIS2UmsuCG. Diese Objekte können auf Ihre Unit einzeln angewendet und dort bearbeitet werden.
 
 ![Bild 27](../assets/domain-nis2/verinice-32-nis2-27.png)
 
