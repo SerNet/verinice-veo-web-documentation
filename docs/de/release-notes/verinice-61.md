@@ -15,7 +15,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 - Report "Datenschutz-Risikoanalyse" in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
 - Fehlende Validierung des Subtyps bei addPart-Vorschlägen ergänzt.
 - Landingpage der Dokumentation übersichtlicher nach Themenbereichen strukturiert.
-- Gelegentlicher unbekannter Fehler beim Neuladen der Seite behoben.
+- Gelegentlichen "unbekannten Fehler" beim Neuladen der Seite behoben.
 - Fehlender Wiederaufbau einer verlorenen Queue-Verbindung behoben.
 - Fehlende Validierung von Migrationsschritten beim Import von Domain-Templates ergänzt.
 
