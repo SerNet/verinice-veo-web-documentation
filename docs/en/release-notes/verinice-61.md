@@ -10,7 +10,7 @@ The following new features will be available to users with the release of **veri
 <!-- epics/278 -->
 
 - The “Add Object” button in the object view has been moved to the top for a more consistent user experience.
-- Fixed an error when importing ZIP codes via CSV import.
+- Fixed an error when importing postal codes via CSV import.
 - Fixed an error when importing multiple risks for the same scenario.
 - Optimized the “Data Protection Risk Analysis” report in the GDPR (DE) and GDPR (INT) domains.
 - Added missing validation for the subtype in addPart suggestions.
