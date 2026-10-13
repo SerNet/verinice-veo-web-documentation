@@ -15,7 +15,6 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 - Report "Datenschutz-Risikoanalyse" in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
 - Landingpage der Dokumentation übersichtlicher nach Themenbereichen strukturiert.
 - Gelegentlichen "unbekannten Fehler" beim Neuladen der Seite behoben.
-- Fehlenden Wiederaufbau einer verlorenen RabbitMQ-Verbindung behoben.
 
 ## Verbesserungen für den OnPrem-Betrieb
 <!-- epics/318 -->
@@ -25,3 +24,4 @@ Die folgenden Funktionen und Verbesserungen stehen Administratoren in OnPrem-Umg
 
 - Bereitstellung einer kubeconfig für verinice Engineers zur Überwachung und Verwaltung der Deployments.
 - Eigenes Root-CA-Zertifikat für ACME-Challenges über die Helm-Values konfigurierbar, damit auch interne, nicht öffentlich vertrauenswürdige ACME-Server genutzt werden können.
+- Fehlenden Wiederaufbau einer verlorenen RabbitMQ-Verbindung behoben.
