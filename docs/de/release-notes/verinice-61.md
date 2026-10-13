@@ -12,7 +12,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 - Button "Objekt hinzufügen" in der Objektansicht für eine einheitliche Bedienung nach oben verschoben.
 - Fehler beim Import von Postleitzahlen im CSV-Import behoben.
 - Fehler beim Import mehrerer Risiken für dasselbe Szenario behoben.
-- Report Datenschutz-Risikoanalyse in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
+- Report "Datenschutz-Risikoanalyse" in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
 - Fehlende Validierung des Subtyps bei addPart-Vorschlägen ergänzt.
 - Landingpage der Dokumentation übersichtlicher nach Themenbereichen strukturiert.
 - Gelegentlicher unbekannter Fehler beim Neuladen der Seite behoben.
