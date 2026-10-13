@@ -9,7 +9,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 <!-- epics/277 -->
 <!-- epics/278 -->
 
-- Button Objekt hinzufügen in der Objektansicht für eine einheitliche Bedienung nach oben verschoben.
+- Button "Objekt hinzufügen" in der Objektansicht für eine einheitliche Bedienung nach oben verschoben.
 - Fehler beim Import von Postleitzahlen im CSV-Import behoben.
 - Fehler beim Import mehrerer Risiken für dasselbe Szenario behoben.
 - Report Datenschutz-Risikoanalyse in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
