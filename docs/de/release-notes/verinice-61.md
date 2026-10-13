@@ -16,7 +16,7 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 - Fehlende Validierung des Subtyps bei addPart-Vorschlägen ergänzt.
 - Landingpage der Dokumentation übersichtlicher nach Themenbereichen strukturiert.
 - Gelegentlichen "unbekannten Fehler" beim Neuladen der Seite behoben.
-- Fehlender Wiederaufbau einer verlorenen Queue-Verbindung behoben.
+- Fehlenden Wiederaufbau einer verlorenen RabbitMQ-Verbindung behoben.
 - Fehlende Validierung von Migrationsschritten beim Import von Domain-Templates ergänzt.
 
 ## Verbesserungen für den OnPrem-Betrieb
