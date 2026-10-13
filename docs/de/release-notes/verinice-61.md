@@ -13,7 +13,6 @@ Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von 
 - Fehler beim Import von Postleitzahlen im CSV-Import behoben.
 - Fehler beim Import mehrerer Risiken für dasselbe Szenario behoben.
 - Report "Datenschutz-Risikoanalyse" in den Domänen DS-GVO (DE) und GDPR (INT) optimiert.
-- Fehlende Validierung des Subtyps bei addPart-Vorschlägen ergänzt.
 - Landingpage der Dokumentation übersichtlicher nach Themenbereichen strukturiert.
 - Gelegentlichen "unbekannten Fehler" beim Neuladen der Seite behoben.
 - Fehlenden Wiederaufbau einer verlorenen RabbitMQ-Verbindung behoben.
