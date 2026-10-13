@@ -24,3 +24,4 @@ The following features and improvements are available to administrators in on-pr
 
 - Provision of a kubeconfig for verinice engineers to monitor and manage deployments.
 - Custom root CA certificate for ACME challenges can be configured via Helm values, allowing the use of internal, non-publicly trusted ACME servers.
+- Fixed a failure to re-establish a lost RabbitMQ connection.
