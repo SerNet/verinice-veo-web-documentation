@@ -15,7 +15,7 @@ The following new features will be available to users with the release of **veri
 - Optimized the “Data Protection Risk Analysis” report in the GDPR (DE) and GDPR (INT) domains.
 - Added missing validation for the subtype in addPart suggestions.
 - Structured the documentation landing page more clearly by topic area.
-- Fixed an occasional unknown error when reloading the page.
+- Fixed an occasional "unknown error" when reloading the page.
 - Fixed a failure to re-establish a lost queue connection.
 - Added missing validation of migration steps when importing domain templates.
 
