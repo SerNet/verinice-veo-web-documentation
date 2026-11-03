@@ -18,5 +18,10 @@
     "typescript": "7.0.2",
     "vitepress": "1.6.4",
     "vitepress-plugin-mermaid": "2.0.17"
+  },
+  "overrides": {
+    "vitepress-plugin-mermaid": {
+      "mermaid": "$mermaid"
+    }
   }
 }
