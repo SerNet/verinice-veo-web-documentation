@@ -166,6 +166,11 @@ export default withMermaid(defineConfig({
     mermaid:{
         //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
     },
+    vite: {
+      optimizeDeps: {
+        include: ["elkjs/lib/elk.bundled.js"],
+      },
+    },
         sitemap: {
       // TODO verinice-veo#3004
       hostname: "https://docs.eu.verinice.cloud/",
