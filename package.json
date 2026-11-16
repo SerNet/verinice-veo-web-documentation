@@ -12,7 +12,7 @@
     "postdocs:build": "node externalize-scripts.mjs"
   },
   "devDependencies": {
-    "glob": "14.0.4",
+    "glob": "14.0.6",
     "hash-sum": "2.0.0",
     "mermaid": "12.3.0",
     "typescript": "7.0.2",
