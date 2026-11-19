@@ -17,7 +17,7 @@ ARG CI_JOB_ID=-1
 RUN npm run docs:build
 
 
-FROM nginx:1.31.8@sha256:600f7cd45e27aa13e9304c834ab7c1b0ff39df85ee1dcc5087955455d77bc83b AS release
+FROM nginx:1.31.9@sha256:08f354a3b44c422021a5c0f5efb3e27f8f90236b5447d3bac4053f5f50ab6760 AS release
 
 COPY --from=builder /usr/src/app/docs/.vitepress/dist /usr/src/app/dist
 
