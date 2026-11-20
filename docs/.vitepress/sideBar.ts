@@ -16,6 +16,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
       { text: { de: "Risikodefinitionen", en: "Risk Definitions" }, link: "/manual/risk-definition" },
       { text: { de: "Datenübertragung", en: "Data Transfer" }, link: "/manual/data-transfer" },
       { text: { de: "Benutzerverwaltung", en: "User Management" }, link: "/manual/accounts" },
+      { text: { de: "Aufgaben und Workflow", en: "Tasks and workflow" }, link: "/manual/task-workflow" },
       { text: { de: "Berechtigungen", en: "Permissions" }, link: "/manual/permissions" },
       { text: { de: "Domänen-Updates", en: "Domain Updates" }, link: "/manual/domain-updates" },
     ],
@@ -144,6 +145,7 @@ export const sidebarItems :  MultiLingualSidebarItem[] = [
     link: "/release-notes/",
     collapsed: true,
     items: [
+      { text: { de: "verinice 63", en: "verinice 63" }, link: "/release-notes/verinice-63" },
       { text: { de: "verinice 62", en: "verinice 62" }, link: "/release-notes/verinice-62" },
       { text: { de: "verinice 61", en: "verinice 61" }, link: "/release-notes/verinice-61" },
       { text: { de: "verinice 60", en: "verinice 60" }, link: "/release-notes/verinice-60" },

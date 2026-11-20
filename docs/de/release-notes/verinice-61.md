@@ -1,7 +1,7 @@
 <!-- © 2026 The Project Contributors - see AUTHORS.txt -->
 # verinice 61
 
-Veröffentlichung: 16. Oktober 2026 (voraussichtlich)
+Veröffentlichung: 16. Oktober 2026
 
 Die folgenden Neuerungen stehen Anwenderinnen und Anwendern mit dem Release von **verinice 61** zur Verfügung.
 
