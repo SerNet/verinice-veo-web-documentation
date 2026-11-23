@@ -15,14 +15,14 @@ Die Bedienoberfläche wurde auf eine neue Version des zugrunde liegenden UI-Fram
 - Profilbeschreibungen beim Erstellen einer Unit sind auch bei schmalem Browserfenster vollständig lesbar.
 - Darstellung der Seite Erste Schritte korrigiert.
 - Links zu Anforderungen auf der Umsetzungsseite werden wieder als Links dargestellt.
-- Der Button Anwenden im Katalog ist bei langen Objektlisten sichtbar.
+- Der Button "Anwenden" im Katalog ist bei langen Objektlisten sichtbar.
 
 ## Detailverbesserungen und Bugfixes
 <!-- epics/279 -->
 
-- Der Report Statement of Applicability (SoA) in den ISO-Domänen kann wieder erzeugt werden.
+- Der Report "Statement of Applicability (SoA)"" in den ISO-Domänen kann wieder erzeugt werden.
 - Vereinheitlichung des Objekttyps Incidents (Vorfälle) über alle Domänen.
-- Die Buttons Speichern und Abbrechen im Dialog Umsetzung bearbeiten zeigen nun den richtigen Aktiv-Zustand.
+- Die Buttons "Speichern" und "Abbrechen" im Dialog Umsetzung bearbeiten zeigen nun den richtigen Aktiv-Zustand.
 - Überflüssigen Text im Abschnitt Dokumente der vollständigen Objektansicht entfernt.
 - Bei der Suche nach Status lässt sich die Auswahl auch per Tastatur mit Enter abschließen.
 - Verständlichere Meldung bei Objekten, die vor der Migration auf eine neue Domänenversion angepasst werden müssen.

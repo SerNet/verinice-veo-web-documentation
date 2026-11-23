@@ -15,12 +15,12 @@ The user interface has been updated to a new version of the underlying UI framew
 - Profile descriptions when creating a unit are fully readable even in a narrow browser window.
 - The display of the Getting Started page has been corrected.
 - Links to requirements on the implementation page are now displayed as links again.
-- The Apply button in the catalog is visible even with long lists of objects.
+- The "Apply" button in the catalog is visible even with long lists of objects.
 
 ## Detail Improvements and Bug Fixes
 <!-- epics/279 -->
 
-- The Statement of Applicability (SoA) report in the ISO domains can now be generated again.
+- The "Statement of Applicability (SoA)" report in the ISO domains can now be generated again.
 - Standardized the “Incidents” object type across all domains.
 - The “Save” and “Cancel” buttons in the “Edit Implementation” dialog now display the correct active state.
 - Removed redundant text from the “Documents” section of the full object view.
